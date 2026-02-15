@@ -1,0 +1,176 @@
+{
+  "course_id": "accountancy11",
+  "title": "Class 11 Accountancy",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Introduction to Accounting",
+      "concepts": [
+        {
+          "concept_id": "accountancy11.accounting_intro.meaning_objectives",
+          "title": "Meaning and Objectives of Accounting",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Meaning and Objectives of Accounting — part of the chapter on Introduction to Accounting.",
+          "key_ideas": [
+            "Core principles of meaning and objectives of accounting",
+            "Step-by-step problem solving for meaning and objectives of accounting",
+            "Real-world applications of meaning and objectives of accounting"
+          ]
+        },
+        {
+          "concept_id": "accountancy11.accounting_intro.accounting_terms",
+          "title": "Basic Accounting Terms",
+          "bloom_level": "remember",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "accountancy11.accounting_intro.meaning_objectives"
+          ],
+          "description": "Basic Accounting Terms — part of the chapter on Introduction to Accounting.",
+          "key_ideas": [
+            "Core principles of basic accounting terms",
+            "Step-by-step problem solving for basic accounting terms",
+            "Real-world applications of basic accounting terms"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Theory Base of Accounting",
+      "concepts": [
+        {
+          "concept_id": "accountancy11.accounting_theory.gaap",
+          "title": "Accounting Principles — GAAP",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Accounting Principles — GAAP — part of the chapter on Theory Base of Accounting.",
+          "key_ideas": [
+            "Core principles of accounting principles",
+            "Step-by-step problem solving for accounting principles",
+            "Real-world applications of accounting principles"
+          ]
+        },
+        {
+          "concept_id": "accountancy11.accounting_theory.concepts_conventions",
+          "title": "Accounting Concepts and Conventions",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "accountancy11.accounting_theory.gaap"
+          ],
+          "description": "Accounting Concepts and Conventions — part of the chapter on Theory Base of Accounting.",
+          "key_ideas": [
+            "Core principles of accounting concepts and conventions",
+            "Step-by-step problem solving for accounting concepts and conventions",
+            "Real-world applications of accounting concepts and conventions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Recording of Transactions",
+      "concepts": [
+        {
+          "concept_id": "accountancy11.journal_ledger.journal",
+          "title": "Journal Entries — Rules of Debit and Credit",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Journal Entries — Rules of Debit and Credit — part of the chapter on Recording of Transactions.",
+          "key_ideas": [
+            "Core principles of journal entries",
+            "Step-by-step problem solving for journal entries",
+            "Real-world applications of journal entries"
+          ]
+        },
+        {
+          "concept_id": "accountancy11.journal_ledger.ledger",
+          "title": "Ledger — Posting and Balancing",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "accountancy11.journal_ledger.journal"
+          ],
+          "description": "Ledger — Posting and Balancing — part of the chapter on Recording of Transactions.",
+          "key_ideas": [
+            "Core principles of ledger",
+            "Step-by-step problem solving for ledger",
+            "Real-world applications of ledger"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Trial Balance and Rectification",
+      "concepts": [
+        {
+          "concept_id": "accountancy11.trial_balance.trial_balance",
+          "title": "Preparation of Trial Balance",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Preparation of Trial Balance — part of the chapter on Trial Balance and Rectification.",
+          "key_ideas": [
+            "Core principles of preparation of trial balance",
+            "Step-by-step problem solving for preparation of trial balance",
+            "Real-world applications of preparation of trial balance"
+          ]
+        },
+        {
+          "concept_id": "accountancy11.trial_balance.rectification",
+          "title": "Rectification of Errors",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "accountancy11.trial_balance.trial_balance"
+          ],
+          "description": "Rectification of Errors — part of the chapter on Trial Balance and Rectification.",
+          "key_ideas": [
+            "Core principles of rectification of errors",
+            "Step-by-step problem solving for rectification of errors",
+            "Real-world applications of rectification of errors"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Financial Statements",
+      "concepts": [
+        {
+          "concept_id": "accountancy11.financial_statements.trading_account",
+          "title": "Trading and Profit & Loss Account",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Trading and Profit & Loss Account — part of the chapter on Financial Statements.",
+          "key_ideas": [
+            "Core principles of trading and profit & loss account",
+            "Step-by-step problem solving for trading and profit & loss account",
+            "Real-world applications of trading and profit & loss account"
+          ]
+        },
+        {
+          "concept_id": "accountancy11.financial_statements.balance_sheet",
+          "title": "Balance Sheet",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "accountancy11.financial_statements.trading_account"
+          ],
+          "description": "Balance Sheet — part of the chapter on Financial Statements.",
+          "key_ideas": [
+            "Core principles of balance sheet",
+            "Step-by-step problem solving for balance sheet",
+            "Real-world applications of balance sheet"
+          ]
+        }
+      ]
+    }
+  ]
+}

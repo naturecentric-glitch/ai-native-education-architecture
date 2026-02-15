@@ -26,6 +26,7 @@ from src.mcp_tools import (
     tool_get_next_concepts,
     tool_get_concept,
 )
+from src.gemini_engine import expand_full_course
 
 
 # ── App Setup ────────────────────────────────────────────────────────────────
@@ -151,6 +152,19 @@ async def questions(course_id: str, req: QuestionRequest):
 async def evaluate(course_id: str, req: EvaluateRequest):
     """Evaluate a student's answer and update mastery."""
     result = await tool_evaluate_answer(req.student_id, course_id, req.concept_id, req.question, req.answer)
+    if "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
+
+
+# ── Admin / Expansion Endpoints ──────────────────────────────────────────────
+
+@app.post("/api/admin/courses/{course_id}/expand")
+async def expand_course(course_id: str):
+    """Use Gemini to expand a course curriculum with additional AI-generated concepts.
+    This uses the AI_EXPANSION_MODEL (default: gemini-2.5-pro-preview) to intelligently
+    add 3-6 new concepts per chapter, filling in gaps in the seed curriculum."""
+    result = await expand_full_course(course_id)
     if "error" in result:
         raise HTTPException(status_code=404, detail=result["error"])
     return result

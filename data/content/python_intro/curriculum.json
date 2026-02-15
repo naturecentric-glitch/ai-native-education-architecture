@@ -1,0 +1,507 @@
+{
+  "course_id": "python_intro",
+  "title": "Introduction to Python Programming",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Getting Started with Python",
+      "concepts": [
+        {
+          "concept_id": "python_intro.getting_started.install_run",
+          "title": "Installing Python and Running Programs",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Installing Python and Running Programs — part of the chapter on Getting Started with Python.",
+          "key_ideas": [
+            "Core principles of installing python and running programs",
+            "Step-by-step problem solving for installing python and running programs",
+            "Real-world applications of installing python and running programs"
+          ]
+        },
+        {
+          "concept_id": "python_intro.getting_started.variables_types",
+          "title": "Variables and Data Types",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "python_intro.getting_started.install_run"
+          ],
+          "description": "Variables and Data Types — part of the chapter on Getting Started with Python.",
+          "key_ideas": [
+            "Core principles of variables and data types",
+            "Step-by-step problem solving for variables and data types",
+            "Real-world applications of variables and data types"
+          ]
+        },
+        {
+          "concept_id": "python_intro.getting_started.input_output",
+          "title": "Input/Output — print() and input()",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "python_intro.getting_started.variables_types"
+          ],
+          "description": "Input/Output — print() and input() — part of the chapter on Getting Started with Python.",
+          "key_ideas": [
+            "Core principles of input/output",
+            "Step-by-step problem solving for input/output",
+            "Real-world applications of input/output"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Operators and Expressions",
+      "concepts": [
+        {
+          "concept_id": "python_intro.operators.arithmetic_operators",
+          "title": "Arithmetic and Assignment Operators",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Arithmetic and Assignment Operators — part of the chapter on Operators and Expressions.",
+          "key_ideas": [
+            "Core principles of arithmetic and assignment operators",
+            "Step-by-step problem solving for arithmetic and assignment operators",
+            "Real-world applications of arithmetic and assignment operators"
+          ]
+        },
+        {
+          "concept_id": "python_intro.operators.comparison_logical",
+          "title": "Comparison and Logical Operators",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "python_intro.operators.arithmetic_operators"
+          ],
+          "description": "Comparison and Logical Operators — part of the chapter on Operators and Expressions.",
+          "key_ideas": [
+            "Core principles of comparison and logical operators",
+            "Step-by-step problem solving for comparison and logical operators",
+            "Real-world applications of comparison and logical operators"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Control Flow",
+      "concepts": [
+        {
+          "concept_id": "python_intro.control_flow.if_elif_else",
+          "title": "if, elif, else Statements",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "if, elif, else Statements — part of the chapter on Control Flow.",
+          "key_ideas": [
+            "Core principles of if, elif, else statements",
+            "Step-by-step problem solving for if, elif, else statements",
+            "Real-world applications of if, elif, else statements"
+          ]
+        },
+        {
+          "concept_id": "python_intro.control_flow.for_loop",
+          "title": "for Loop and range()",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "python_intro.control_flow.if_elif_else"
+          ],
+          "description": "for Loop and range() — part of the chapter on Control Flow.",
+          "key_ideas": [
+            "Core principles of for loop and range()",
+            "Step-by-step problem solving for for loop and range()",
+            "Real-world applications of for loop and range()"
+          ]
+        },
+        {
+          "concept_id": "python_intro.control_flow.while_loop",
+          "title": "while Loop",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "python_intro.control_flow.for_loop"
+          ],
+          "description": "while Loop — part of the chapter on Control Flow.",
+          "key_ideas": [
+            "Core principles of while loop",
+            "Step-by-step problem solving for while loop",
+            "Real-world applications of while loop"
+          ]
+        },
+        {
+          "concept_id": "python_intro.control_flow.nested_loops",
+          "title": "Nested Loops and Loop Control",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "python_intro.control_flow.while_loop"
+          ],
+          "description": "Nested Loops and Loop Control — part of the chapter on Control Flow.",
+          "key_ideas": [
+            "Core principles of nested loops and loop control",
+            "Step-by-step problem solving for nested loops and loop control",
+            "Real-world applications of nested loops and loop control"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Strings",
+      "concepts": [
+        {
+          "concept_id": "python_intro.strings.string_basics",
+          "title": "String Creation and Indexing",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "String Creation and Indexing — part of the chapter on Strings.",
+          "key_ideas": [
+            "Core principles of string creation and indexing",
+            "Step-by-step problem solving for string creation and indexing",
+            "Real-world applications of string creation and indexing"
+          ]
+        },
+        {
+          "concept_id": "python_intro.strings.string_methods",
+          "title": "String Methods — split, join, replace, find",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "python_intro.strings.string_basics"
+          ],
+          "description": "String Methods — split, join, replace, find — part of the chapter on Strings.",
+          "key_ideas": [
+            "Core principles of string methods",
+            "Step-by-step problem solving for string methods",
+            "Real-world applications of string methods"
+          ]
+        },
+        {
+          "concept_id": "python_intro.strings.string_formatting",
+          "title": "String Formatting — f-strings",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "python_intro.strings.string_methods"
+          ],
+          "description": "String Formatting — f-strings — part of the chapter on Strings.",
+          "key_ideas": [
+            "Core principles of string formatting",
+            "Step-by-step problem solving for string formatting",
+            "Real-world applications of string formatting"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Lists and Tuples",
+      "concepts": [
+        {
+          "concept_id": "python_intro.lists_tuples.list_basics",
+          "title": "Creating and Accessing Lists",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Creating and Accessing Lists — part of the chapter on Lists and Tuples.",
+          "key_ideas": [
+            "Core principles of creating and accessing lists",
+            "Step-by-step problem solving for creating and accessing lists",
+            "Real-world applications of creating and accessing lists"
+          ]
+        },
+        {
+          "concept_id": "python_intro.lists_tuples.list_operations",
+          "title": "List Operations — append, insert, remove, sort",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "python_intro.lists_tuples.list_basics"
+          ],
+          "description": "List Operations — append, insert, remove, sort — part of the chapter on Lists and Tuples.",
+          "key_ideas": [
+            "Core principles of list operations",
+            "Step-by-step problem solving for list operations",
+            "Real-world applications of list operations"
+          ]
+        },
+        {
+          "concept_id": "python_intro.lists_tuples.list_comprehension",
+          "title": "List Comprehension",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "python_intro.lists_tuples.list_operations"
+          ],
+          "description": "List Comprehension — part of the chapter on Lists and Tuples.",
+          "key_ideas": [
+            "Core principles of list comprehension",
+            "Step-by-step problem solving for list comprehension",
+            "Real-world applications of list comprehension"
+          ]
+        },
+        {
+          "concept_id": "python_intro.lists_tuples.tuples",
+          "title": "Tuples — Immutable Sequences",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Tuples — Immutable Sequences — part of the chapter on Lists and Tuples.",
+          "key_ideas": [
+            "Core principles of tuples",
+            "Step-by-step problem solving for tuples",
+            "Real-world applications of tuples"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Dictionaries and Sets",
+      "concepts": [
+        {
+          "concept_id": "python_intro.dictionaries_sets.dict_basics",
+          "title": "Creating and Accessing Dictionaries",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Creating and Accessing Dictionaries — part of the chapter on Dictionaries and Sets.",
+          "key_ideas": [
+            "Core principles of creating and accessing dictionaries",
+            "Step-by-step problem solving for creating and accessing dictionaries",
+            "Real-world applications of creating and accessing dictionaries"
+          ]
+        },
+        {
+          "concept_id": "python_intro.dictionaries_sets.dict_methods",
+          "title": "Dictionary Methods and Iteration",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "python_intro.dictionaries_sets.dict_basics"
+          ],
+          "description": "Dictionary Methods and Iteration — part of the chapter on Dictionaries and Sets.",
+          "key_ideas": [
+            "Core principles of dictionary methods and iteration",
+            "Step-by-step problem solving for dictionary methods and iteration",
+            "Real-world applications of dictionary methods and iteration"
+          ]
+        },
+        {
+          "concept_id": "python_intro.dictionaries_sets.sets",
+          "title": "Sets — Operations and Methods",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Sets — Operations and Methods — part of the chapter on Dictionaries and Sets.",
+          "key_ideas": [
+            "Core principles of sets",
+            "Step-by-step problem solving for sets",
+            "Real-world applications of sets"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Functions",
+      "concepts": [
+        {
+          "concept_id": "python_intro.functions.defining_functions",
+          "title": "Defining and Calling Functions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Defining and Calling Functions — part of the chapter on Functions.",
+          "key_ideas": [
+            "Core principles of defining and calling functions",
+            "Step-by-step problem solving for defining and calling functions",
+            "Real-world applications of defining and calling functions"
+          ]
+        },
+        {
+          "concept_id": "python_intro.functions.parameters_return",
+          "title": "Parameters, Arguments and Return Values",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "python_intro.functions.defining_functions"
+          ],
+          "description": "Parameters, Arguments and Return Values — part of the chapter on Functions.",
+          "key_ideas": [
+            "Core principles of parameters, arguments and return values",
+            "Step-by-step problem solving for parameters, arguments and return values",
+            "Real-world applications of parameters, arguments and return values"
+          ]
+        },
+        {
+          "concept_id": "python_intro.functions.scope",
+          "title": "Scope — Local and Global Variables",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "python_intro.functions.parameters_return"
+          ],
+          "description": "Scope — Local and Global Variables — part of the chapter on Functions.",
+          "key_ideas": [
+            "Core principles of scope",
+            "Step-by-step problem solving for scope",
+            "Real-world applications of scope"
+          ]
+        },
+        {
+          "concept_id": "python_intro.functions.lambda",
+          "title": "Lambda Functions",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "python_intro.functions.scope"
+          ],
+          "description": "Lambda Functions — part of the chapter on Functions.",
+          "key_ideas": [
+            "Core principles of lambda functions",
+            "Step-by-step problem solving for lambda functions",
+            "Real-world applications of lambda functions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "File Handling",
+      "concepts": [
+        {
+          "concept_id": "python_intro.file_handling.reading_files",
+          "title": "Reading Files — open, read, readlines",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Reading Files — open, read, readlines — part of the chapter on File Handling.",
+          "key_ideas": [
+            "Core principles of reading files",
+            "Step-by-step problem solving for reading files",
+            "Real-world applications of reading files"
+          ]
+        },
+        {
+          "concept_id": "python_intro.file_handling.writing_files",
+          "title": "Writing Files — write, writelines",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "python_intro.file_handling.reading_files"
+          ],
+          "description": "Writing Files — write, writelines — part of the chapter on File Handling.",
+          "key_ideas": [
+            "Core principles of writing files",
+            "Step-by-step problem solving for writing files",
+            "Real-world applications of writing files"
+          ]
+        },
+        {
+          "concept_id": "python_intro.file_handling.csv_json",
+          "title": "Working with CSV and JSON",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "python_intro.file_handling.writing_files"
+          ],
+          "description": "Working with CSV and JSON — part of the chapter on File Handling.",
+          "key_ideas": [
+            "Core principles of working with csv and json",
+            "Step-by-step problem solving for working with csv and json",
+            "Real-world applications of working with csv and json"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Error Handling",
+      "concepts": [
+        {
+          "concept_id": "python_intro.error_handling.try_except",
+          "title": "try, except, finally",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "try, except, finally — part of the chapter on Error Handling.",
+          "key_ideas": [
+            "Core principles of try, except, finally",
+            "Step-by-step problem solving for try, except, finally",
+            "Real-world applications of try, except, finally"
+          ]
+        },
+        {
+          "concept_id": "python_intro.error_handling.custom_exceptions",
+          "title": "Custom Exceptions",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "python_intro.error_handling.try_except"
+          ],
+          "description": "Custom Exceptions — part of the chapter on Error Handling.",
+          "key_ideas": [
+            "Core principles of custom exceptions",
+            "Step-by-step problem solving for custom exceptions",
+            "Real-world applications of custom exceptions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Object-Oriented Programming",
+      "concepts": [
+        {
+          "concept_id": "python_intro.oop.classes_objects",
+          "title": "Classes and Objects",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Classes and Objects — part of the chapter on Object-Oriented Programming.",
+          "key_ideas": [
+            "Core principles of classes and objects",
+            "Step-by-step problem solving for classes and objects",
+            "Real-world applications of classes and objects"
+          ]
+        },
+        {
+          "concept_id": "python_intro.oop.init_methods",
+          "title": "__init__ and Instance Methods",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "python_intro.oop.classes_objects"
+          ],
+          "description": "__init__ and Instance Methods — part of the chapter on Object-Oriented Programming.",
+          "key_ideas": [
+            "Core principles of __init__ and instance methods",
+            "Step-by-step problem solving for __init__ and instance methods",
+            "Real-world applications of __init__ and instance methods"
+          ]
+        },
+        {
+          "concept_id": "python_intro.oop.inheritance_poly",
+          "title": "Inheritance and Polymorphism",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "python_intro.oop.init_methods"
+          ],
+          "description": "Inheritance and Polymorphism — part of the chapter on Object-Oriented Programming.",
+          "key_ideas": [
+            "Core principles of inheritance and polymorphism",
+            "Step-by-step problem solving for inheritance and polymorphism",
+            "Real-world applications of inheritance and polymorphism"
+          ]
+        }
+      ]
+    }
+  ]
+}

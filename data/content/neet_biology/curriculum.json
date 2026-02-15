@@ -1,0 +1,373 @@
+{
+  "course_id": "neet_biology",
+  "title": "NEET Biology",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Diversity in Living World",
+      "concepts": [
+        {
+          "concept_id": "neet_biology.diversity_living.taxonomy_neet",
+          "title": "Taxonomy and Systematics",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Taxonomy and Systematics — part of the chapter on Diversity in Living World.",
+          "key_ideas": [
+            "Core principles of taxonomy and systematics",
+            "Step-by-step problem solving for taxonomy and systematics",
+            "Real-world applications of taxonomy and systematics"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.diversity_living.five_kingdoms_neet",
+          "title": "Five Kingdom Classification (NEET Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "neet_biology.diversity_living.taxonomy_neet"
+          ],
+          "description": "Five Kingdom Classification (NEET Level) — part of the chapter on Diversity in Living World.",
+          "key_ideas": [
+            "Core principles of five kingdom classification (neet level)",
+            "Step-by-step problem solving for five kingdom classification (neet level)",
+            "Real-world applications of five kingdom classification (neet level)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.diversity_living.plant_animal_kingdom_neet",
+          "title": "Plant and Animal Kingdom",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "neet_biology.diversity_living.five_kingdoms_neet"
+          ],
+          "description": "Plant and Animal Kingdom — part of the chapter on Diversity in Living World.",
+          "key_ideas": [
+            "Core principles of plant and animal kingdom",
+            "Step-by-step problem solving for plant and animal kingdom",
+            "Real-world applications of plant and animal kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Cell Biology",
+      "concepts": [
+        {
+          "concept_id": "neet_biology.cell_biology.cell_structure_neet",
+          "title": "Cell Structure and Functions (NEET Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Cell Structure and Functions (NEET Level) — part of the chapter on Cell Biology.",
+          "key_ideas": [
+            "Core principles of cell structure and functions (neet level)",
+            "Step-by-step problem solving for cell structure and functions (neet level)",
+            "Real-world applications of cell structure and functions (neet level)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.cell_biology.cell_division_neet",
+          "title": "Cell Division — Mitosis and Meiosis",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "neet_biology.cell_biology.cell_structure_neet"
+          ],
+          "description": "Cell Division — Mitosis and Meiosis — part of the chapter on Cell Biology.",
+          "key_ideas": [
+            "Core principles of cell division",
+            "Step-by-step problem solving for cell division",
+            "Real-world applications of cell division"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.cell_biology.biomolecules_neet",
+          "title": "Biomolecules and Enzymes",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "neet_biology.cell_biology.cell_structure_neet"
+          ],
+          "description": "Biomolecules and Enzymes — part of the chapter on Cell Biology.",
+          "key_ideas": [
+            "Core principles of biomolecules and enzymes",
+            "Step-by-step problem solving for biomolecules and enzymes",
+            "Real-world applications of biomolecules and enzymes"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Plant Physiology",
+      "concepts": [
+        {
+          "concept_id": "neet_biology.plant_physiology.photosynthesis_neet",
+          "title": "Photosynthesis (NEET Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Photosynthesis (NEET Level) — part of the chapter on Plant Physiology.",
+          "key_ideas": [
+            "Core principles of photosynthesis (neet level)",
+            "Step-by-step problem solving for photosynthesis (neet level)",
+            "Real-world applications of photosynthesis (neet level)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.plant_physiology.respiration_neet",
+          "title": "Plant Respiration",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "neet_biology.plant_physiology.photosynthesis_neet"
+          ],
+          "description": "Plant Respiration — part of the chapter on Plant Physiology.",
+          "key_ideas": [
+            "Core principles of plant respiration",
+            "Step-by-step problem solving for plant respiration",
+            "Real-world applications of plant respiration"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.plant_physiology.plant_growth_neet",
+          "title": "Plant Growth and Hormones",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Plant Growth and Hormones — part of the chapter on Plant Physiology.",
+          "key_ideas": [
+            "Core principles of plant growth and hormones",
+            "Step-by-step problem solving for plant growth and hormones",
+            "Real-world applications of plant growth and hormones"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Human Physiology",
+      "concepts": [
+        {
+          "concept_id": "neet_biology.human_physiology.digestion_neet",
+          "title": "Digestion and Absorption (NEET Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Digestion and Absorption (NEET Level) — part of the chapter on Human Physiology.",
+          "key_ideas": [
+            "Core principles of digestion and absorption (neet level)",
+            "Step-by-step problem solving for digestion and absorption (neet level)",
+            "Real-world applications of digestion and absorption (neet level)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.human_physiology.circulation_neet",
+          "title": "Circulation — Heart and Blood",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "neet_biology.human_physiology.digestion_neet"
+          ],
+          "description": "Circulation — Heart and Blood — part of the chapter on Human Physiology.",
+          "key_ideas": [
+            "Core principles of circulation",
+            "Step-by-step problem solving for circulation",
+            "Real-world applications of circulation"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.human_physiology.excretion_neet",
+          "title": "Excretion and Kidney Function",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Excretion and Kidney Function — part of the chapter on Human Physiology.",
+          "key_ideas": [
+            "Core principles of excretion and kidney function",
+            "Step-by-step problem solving for excretion and kidney function",
+            "Real-world applications of excretion and kidney function"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.human_physiology.neural_neet",
+          "title": "Neural Control and Coordination",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "neet_biology.human_physiology.circulation_neet"
+          ],
+          "description": "Neural Control and Coordination — part of the chapter on Human Physiology.",
+          "key_ideas": [
+            "Core principles of neural control and coordination",
+            "Step-by-step problem solving for neural control and coordination",
+            "Real-world applications of neural control and coordination"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Reproduction",
+      "concepts": [
+        {
+          "concept_id": "neet_biology.reproduction_neet.plant_reproduction_neet",
+          "title": "Plant Reproduction (NEET Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Plant Reproduction (NEET Level) — part of the chapter on Reproduction.",
+          "key_ideas": [
+            "Core principles of plant reproduction (neet level)",
+            "Step-by-step problem solving for plant reproduction (neet level)",
+            "Real-world applications of plant reproduction (neet level)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.reproduction_neet.human_reproduction_neet",
+          "title": "Human Reproduction and RH",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Human Reproduction and RH — part of the chapter on Reproduction.",
+          "key_ideas": [
+            "Core principles of human reproduction and rh",
+            "Step-by-step problem solving for human reproduction and rh",
+            "Real-world applications of human reproduction and rh"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Genetics and Evolution",
+      "concepts": [
+        {
+          "concept_id": "neet_biology.genetics_neet.mendelian_genetics_neet",
+          "title": "Mendelian Genetics (NEET Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Mendelian Genetics (NEET Level) — part of the chapter on Genetics and Evolution.",
+          "key_ideas": [
+            "Core principles of mendelian genetics (neet level)",
+            "Step-by-step problem solving for mendelian genetics (neet level)",
+            "Real-world applications of mendelian genetics (neet level)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.genetics_neet.molecular_genetics_neet",
+          "title": "Molecular Genetics — DNA, RNA, Protein Synthesis",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "neet_biology.genetics_neet.mendelian_genetics_neet"
+          ],
+          "description": "Molecular Genetics — DNA, RNA, Protein Synthesis — part of the chapter on Genetics and Evolution.",
+          "key_ideas": [
+            "Core principles of molecular genetics",
+            "Step-by-step problem solving for molecular genetics",
+            "Real-world applications of molecular genetics"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.genetics_neet.evolution_neet",
+          "title": "Evolution — Evidence and Mechanisms",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "neet_biology.genetics_neet.molecular_genetics_neet"
+          ],
+          "description": "Evolution — Evidence and Mechanisms — part of the chapter on Genetics and Evolution.",
+          "key_ideas": [
+            "Core principles of evolution",
+            "Step-by-step problem solving for evolution",
+            "Real-world applications of evolution"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Biotechnology",
+      "concepts": [
+        {
+          "concept_id": "neet_biology.biotechnology_neet.rdna_neet",
+          "title": "rDNA Technology (NEET Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "rDNA Technology (NEET Level) — part of the chapter on Biotechnology.",
+          "key_ideas": [
+            "Core principles of rdna technology (neet level)",
+            "Step-by-step problem solving for rdna technology (neet level)",
+            "Real-world applications of rdna technology (neet level)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.biotechnology_neet.applications_neet",
+          "title": "Biotechnology Applications — GM Crops, Gene Therapy",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "neet_biology.biotechnology_neet.rdna_neet"
+          ],
+          "description": "Biotechnology Applications — GM Crops, Gene Therapy — part of the chapter on Biotechnology.",
+          "key_ideas": [
+            "Core principles of biotechnology applications",
+            "Step-by-step problem solving for biotechnology applications",
+            "Real-world applications of biotechnology applications"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Ecology and Environment",
+      "concepts": [
+        {
+          "concept_id": "neet_biology.ecology_neet.ecosystem_neet",
+          "title": "Ecosystems — Energy Flow, Nutrient Cycling",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Ecosystems — Energy Flow, Nutrient Cycling — part of the chapter on Ecology and Environment.",
+          "key_ideas": [
+            "Core principles of ecosystems",
+            "Step-by-step problem solving for ecosystems",
+            "Real-world applications of ecosystems"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.ecology_neet.biodiversity_neet",
+          "title": "Biodiversity and Conservation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Biodiversity and Conservation — part of the chapter on Ecology and Environment.",
+          "key_ideas": [
+            "Core principles of biodiversity and conservation",
+            "Step-by-step problem solving for biodiversity and conservation",
+            "Real-world applications of biodiversity and conservation"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.ecology_neet.environmental_issues_neet",
+          "title": "Environmental Issues",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Environmental Issues — part of the chapter on Ecology and Environment.",
+          "key_ideas": [
+            "Core principles of environmental issues",
+            "Step-by-step problem solving for environmental issues",
+            "Real-world applications of environmental issues"
+          ]
+        }
+      ]
+    }
+  ]
+}

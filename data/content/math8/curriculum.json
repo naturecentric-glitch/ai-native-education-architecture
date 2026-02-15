@@ -1,0 +1,664 @@
+{
+  "course_id": "math8",
+  "title": "Class 8 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Rational Numbers",
+      "concepts": [
+        {
+          "concept_id": "math8.rational_numbers.properties",
+          "title": "Properties of Rational Numbers",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Properties of Rational Numbers — part of the chapter on Rational Numbers.",
+          "key_ideas": [
+            "Core principles of properties of rational numbers",
+            "Step-by-step problem solving for properties of rational numbers",
+            "Real-world applications of properties of rational numbers"
+          ]
+        },
+        {
+          "concept_id": "math8.rational_numbers.representation",
+          "title": "Representation on Number Line",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math8.rational_numbers.properties"
+          ],
+          "description": "Representation on Number Line — part of the chapter on Rational Numbers.",
+          "key_ideas": [
+            "Core principles of representation on number line",
+            "Step-by-step problem solving for representation on number line",
+            "Real-world applications of representation on number line"
+          ]
+        },
+        {
+          "concept_id": "math8.rational_numbers.between_rationals",
+          "title": "Rational Numbers Between Two Rationals",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math8.rational_numbers.representation"
+          ],
+          "description": "Rational Numbers Between Two Rationals — part of the chapter on Rational Numbers.",
+          "key_ideas": [
+            "Core principles of rational numbers between two rationals",
+            "Step-by-step problem solving for rational numbers between two rationals",
+            "Real-world applications of rational numbers between two rationals"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Linear Equations in One Variable",
+      "concepts": [
+        {
+          "concept_id": "math8.linear_equations.solving_linear",
+          "title": "Solving Linear Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Solving Linear Equations — part of the chapter on Linear Equations in One Variable.",
+          "key_ideas": [
+            "Core principles of solving linear equations",
+            "Step-by-step problem solving for solving linear equations",
+            "Real-world applications of solving linear equations"
+          ]
+        },
+        {
+          "concept_id": "math8.linear_equations.reducible_linear",
+          "title": "Equations Reducible to Linear Form",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.linear_equations.solving_linear"
+          ],
+          "description": "Equations Reducible to Linear Form — part of the chapter on Linear Equations in One Variable.",
+          "key_ideas": [
+            "Core principles of equations reducible to linear form",
+            "Step-by-step problem solving for equations reducible to linear form",
+            "Real-world applications of equations reducible to linear form"
+          ]
+        },
+        {
+          "concept_id": "math8.linear_equations.word_problems",
+          "title": "Applications of Linear Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math8.linear_equations.reducible_linear"
+          ],
+          "description": "Applications of Linear Equations — part of the chapter on Linear Equations in One Variable.",
+          "key_ideas": [
+            "Core principles of applications of linear equations",
+            "Step-by-step problem solving for applications of linear equations",
+            "Real-world applications of applications of linear equations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Understanding Quadrilaterals",
+      "concepts": [
+        {
+          "concept_id": "math8.quadrilaterals.polygons",
+          "title": "Polygons and Classification",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Polygons and Classification — part of the chapter on Understanding Quadrilaterals.",
+          "key_ideas": [
+            "Core principles of polygons and classification",
+            "Step-by-step problem solving for polygons and classification",
+            "Real-world applications of polygons and classification"
+          ]
+        },
+        {
+          "concept_id": "math8.quadrilaterals.angle_sum_quad",
+          "title": "Angle Sum Property of Quadrilaterals",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math8.quadrilaterals.polygons"
+          ],
+          "description": "Angle Sum Property of Quadrilaterals — part of the chapter on Understanding Quadrilaterals.",
+          "key_ideas": [
+            "Core principles of angle sum property of quadrilaterals",
+            "Step-by-step problem solving for angle sum property of quadrilaterals",
+            "Real-world applications of angle sum property of quadrilaterals"
+          ]
+        },
+        {
+          "concept_id": "math8.quadrilaterals.special_quads",
+          "title": "Properties of Parallelogram, Rhombus, Trapezium",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.quadrilaterals.angle_sum_quad"
+          ],
+          "description": "Properties of Parallelogram, Rhombus, Trapezium — part of the chapter on Understanding Quadrilaterals.",
+          "key_ideas": [
+            "Core principles of properties of parallelogram, rhombus, trapezium",
+            "Step-by-step problem solving for properties of parallelogram, rhombus, trapezium",
+            "Real-world applications of properties of parallelogram, rhombus, trapezium"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Practical Geometry",
+      "concepts": [
+        {
+          "concept_id": "math8.practical_geometry.construct_quad",
+          "title": "Constructing Quadrilaterals",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Constructing Quadrilaterals — part of the chapter on Practical Geometry.",
+          "key_ideas": [
+            "Core principles of constructing quadrilaterals",
+            "Step-by-step problem solving for constructing quadrilaterals",
+            "Real-world applications of constructing quadrilaterals"
+          ]
+        },
+        {
+          "concept_id": "math8.practical_geometry.special_constructions",
+          "title": "Special Cases of Quadrilateral Construction",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.practical_geometry.construct_quad"
+          ],
+          "description": "Special Cases of Quadrilateral Construction — part of the chapter on Practical Geometry.",
+          "key_ideas": [
+            "Core principles of special cases of quadrilateral construction",
+            "Step-by-step problem solving for special cases of quadrilateral construction",
+            "Real-world applications of special cases of quadrilateral construction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Data Handling",
+      "concepts": [
+        {
+          "concept_id": "math8.data_handling.organising_data",
+          "title": "Organising Data and Frequency Distribution",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Organising Data and Frequency Distribution — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of organising data and frequency distribution",
+            "Step-by-step problem solving for organising data and frequency distribution",
+            "Real-world applications of organising data and frequency distribution"
+          ]
+        },
+        {
+          "concept_id": "math8.data_handling.pie_charts",
+          "title": "Pie Charts",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math8.data_handling.organising_data"
+          ],
+          "description": "Pie Charts — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of pie charts",
+            "Step-by-step problem solving for pie charts",
+            "Real-world applications of pie charts"
+          ]
+        },
+        {
+          "concept_id": "math8.data_handling.probability",
+          "title": "Probability — Equally Likely Outcomes",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.data_handling.organising_data"
+          ],
+          "description": "Probability — Equally Likely Outcomes — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of probability",
+            "Step-by-step problem solving for probability",
+            "Real-world applications of probability"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Squares and Square Roots",
+      "concepts": [
+        {
+          "concept_id": "math8.squares_roots.perfect_squares",
+          "title": "Perfect Squares and Properties",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Perfect Squares and Properties — part of the chapter on Squares and Square Roots.",
+          "key_ideas": [
+            "Core principles of perfect squares and properties",
+            "Step-by-step problem solving for perfect squares and properties",
+            "Real-world applications of perfect squares and properties"
+          ]
+        },
+        {
+          "concept_id": "math8.squares_roots.finding_sqrt",
+          "title": "Finding Square Roots",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.squares_roots.perfect_squares"
+          ],
+          "description": "Finding Square Roots — part of the chapter on Squares and Square Roots.",
+          "key_ideas": [
+            "Core principles of finding square roots",
+            "Step-by-step problem solving for finding square roots",
+            "Real-world applications of finding square roots"
+          ]
+        },
+        {
+          "concept_id": "math8.squares_roots.estimating_sqrt",
+          "title": "Estimating Square Roots",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.squares_roots.finding_sqrt"
+          ],
+          "description": "Estimating Square Roots — part of the chapter on Squares and Square Roots.",
+          "key_ideas": [
+            "Core principles of estimating square roots",
+            "Step-by-step problem solving for estimating square roots",
+            "Real-world applications of estimating square roots"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Cubes and Cube Roots",
+      "concepts": [
+        {
+          "concept_id": "math8.cubes_roots.perfect_cubes",
+          "title": "Perfect Cubes",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Perfect Cubes — part of the chapter on Cubes and Cube Roots.",
+          "key_ideas": [
+            "Core principles of perfect cubes",
+            "Step-by-step problem solving for perfect cubes",
+            "Real-world applications of perfect cubes"
+          ]
+        },
+        {
+          "concept_id": "math8.cubes_roots.cube_root",
+          "title": "Finding Cube Roots",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.cubes_roots.perfect_cubes"
+          ],
+          "description": "Finding Cube Roots — part of the chapter on Cubes and Cube Roots.",
+          "key_ideas": [
+            "Core principles of finding cube roots",
+            "Step-by-step problem solving for finding cube roots",
+            "Real-world applications of finding cube roots"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Comparing Quantities",
+      "concepts": [
+        {
+          "concept_id": "math8.comparing_quantities.compound_interest",
+          "title": "Compound Interest",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Compound Interest — part of the chapter on Comparing Quantities.",
+          "key_ideas": [
+            "Core principles of compound interest",
+            "Step-by-step problem solving for compound interest",
+            "Real-world applications of compound interest"
+          ]
+        },
+        {
+          "concept_id": "math8.comparing_quantities.discount_tax",
+          "title": "Discount, Tax and Sales Tax",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Discount, Tax and Sales Tax — part of the chapter on Comparing Quantities.",
+          "key_ideas": [
+            "Core principles of discount, tax and sales tax",
+            "Step-by-step problem solving for discount, tax and sales tax",
+            "Real-world applications of discount, tax and sales tax"
+          ]
+        },
+        {
+          "concept_id": "math8.comparing_quantities.ci_applications",
+          "title": "Applications of CI (Population, Depreciation)",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math8.comparing_quantities.compound_interest"
+          ],
+          "description": "Applications of CI (Population, Depreciation) — part of the chapter on Comparing Quantities.",
+          "key_ideas": [
+            "Core principles of applications of ci (population, depreciation)",
+            "Step-by-step problem solving for applications of ci (population, depreciation)",
+            "Real-world applications of applications of ci (population, depreciation)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Algebraic Expressions and Identities",
+      "concepts": [
+        {
+          "concept_id": "math8.algebraic_identities.types_expressions",
+          "title": "Types of Algebraic Expressions",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Types of Algebraic Expressions — part of the chapter on Algebraic Expressions and Identities.",
+          "key_ideas": [
+            "Core principles of types of algebraic expressions",
+            "Step-by-step problem solving for types of algebraic expressions",
+            "Real-world applications of types of algebraic expressions"
+          ]
+        },
+        {
+          "concept_id": "math8.algebraic_identities.multiplication",
+          "title": "Multiplication of Polynomials",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math8.algebraic_identities.types_expressions"
+          ],
+          "description": "Multiplication of Polynomials — part of the chapter on Algebraic Expressions and Identities.",
+          "key_ideas": [
+            "Core principles of multiplication of polynomials",
+            "Step-by-step problem solving for multiplication of polynomials",
+            "Real-world applications of multiplication of polynomials"
+          ]
+        },
+        {
+          "concept_id": "math8.algebraic_identities.standard_identities",
+          "title": "Standard Algebraic Identities",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.algebraic_identities.multiplication"
+          ],
+          "description": "Standard Algebraic Identities — part of the chapter on Algebraic Expressions and Identities.",
+          "key_ideas": [
+            "Core principles of standard algebraic identities",
+            "Step-by-step problem solving for standard algebraic identities",
+            "Real-world applications of standard algebraic identities"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Visualising Solid Shapes",
+      "concepts": [
+        {
+          "concept_id": "math8.solid_shapes.views_3d",
+          "title": "Views of 3D Shapes",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Views of 3D Shapes — part of the chapter on Visualising Solid Shapes.",
+          "key_ideas": [
+            "Core principles of views of 3d shapes",
+            "Step-by-step problem solving for views of 3d shapes",
+            "Real-world applications of views of 3d shapes"
+          ]
+        },
+        {
+          "concept_id": "math8.solid_shapes.mapping",
+          "title": "Mapping Space Around Us",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math8.solid_shapes.views_3d"
+          ],
+          "description": "Mapping Space Around Us — part of the chapter on Visualising Solid Shapes.",
+          "key_ideas": [
+            "Core principles of mapping space around us",
+            "Step-by-step problem solving for mapping space around us",
+            "Real-world applications of mapping space around us"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Mensuration",
+      "concepts": [
+        {
+          "concept_id": "math8.mensuration.area_trapezium",
+          "title": "Area of Trapezium and General Quadrilateral",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Area of Trapezium and General Quadrilateral — part of the chapter on Mensuration.",
+          "key_ideas": [
+            "Core principles of area of trapezium and general quadrilateral",
+            "Step-by-step problem solving for area of trapezium and general quadrilateral",
+            "Real-world applications of area of trapezium and general quadrilateral"
+          ]
+        },
+        {
+          "concept_id": "math8.mensuration.area_polygon",
+          "title": "Area of General Polygon",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.mensuration.area_trapezium"
+          ],
+          "description": "Area of General Polygon — part of the chapter on Mensuration.",
+          "key_ideas": [
+            "Core principles of area of general polygon",
+            "Step-by-step problem solving for area of general polygon",
+            "Real-world applications of area of general polygon"
+          ]
+        },
+        {
+          "concept_id": "math8.mensuration.surface_area_volume",
+          "title": "Surface Area and Volume of Cube, Cuboid, Cylinder",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math8.mensuration.area_polygon"
+          ],
+          "description": "Surface Area and Volume of Cube, Cuboid, Cylinder — part of the chapter on Mensuration.",
+          "key_ideas": [
+            "Core principles of surface area and volume of cube, cuboid, cylinder",
+            "Step-by-step problem solving for surface area and volume of cube, cuboid, cylinder",
+            "Real-world applications of surface area and volume of cube, cuboid, cylinder"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Exponents and Powers",
+      "concepts": [
+        {
+          "concept_id": "math8.exponents_powers.negative_exponents",
+          "title": "Negative Exponents",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Negative Exponents — part of the chapter on Exponents and Powers.",
+          "key_ideas": [
+            "Core principles of negative exponents",
+            "Step-by-step problem solving for negative exponents",
+            "Real-world applications of negative exponents"
+          ]
+        },
+        {
+          "concept_id": "math8.exponents_powers.laws_review",
+          "title": "Laws of Exponents (Expanded)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.exponents_powers.negative_exponents"
+          ],
+          "description": "Laws of Exponents (Expanded) — part of the chapter on Exponents and Powers.",
+          "key_ideas": [
+            "Core principles of laws of exponents (expanded)",
+            "Step-by-step problem solving for laws of exponents (expanded)",
+            "Real-world applications of laws of exponents (expanded)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Direct and Inverse Proportions",
+      "concepts": [
+        {
+          "concept_id": "math8.proportion.direct_proportion",
+          "title": "Direct Proportion",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Direct Proportion — part of the chapter on Direct and Inverse Proportions.",
+          "key_ideas": [
+            "Core principles of direct proportion",
+            "Step-by-step problem solving for direct proportion",
+            "Real-world applications of direct proportion"
+          ]
+        },
+        {
+          "concept_id": "math8.proportion.inverse_proportion",
+          "title": "Inverse Proportion",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math8.proportion.direct_proportion"
+          ],
+          "description": "Inverse Proportion — part of the chapter on Direct and Inverse Proportions.",
+          "key_ideas": [
+            "Core principles of inverse proportion",
+            "Step-by-step problem solving for inverse proportion",
+            "Real-world applications of inverse proportion"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Factorisation",
+      "concepts": [
+        {
+          "concept_id": "math8.factorisation.common_factors",
+          "title": "Common Factors Method",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Common Factors Method — part of the chapter on Factorisation.",
+          "key_ideas": [
+            "Core principles of common factors method",
+            "Step-by-step problem solving for common factors method",
+            "Real-world applications of common factors method"
+          ]
+        },
+        {
+          "concept_id": "math8.factorisation.regrouping",
+          "title": "Factorisation by Regrouping",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math8.factorisation.common_factors"
+          ],
+          "description": "Factorisation by Regrouping — part of the chapter on Factorisation.",
+          "key_ideas": [
+            "Core principles of factorisation by regrouping",
+            "Step-by-step problem solving for factorisation by regrouping",
+            "Real-world applications of factorisation by regrouping"
+          ]
+        },
+        {
+          "concept_id": "math8.factorisation.using_identities",
+          "title": "Factorisation Using Identities",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math8.factorisation.regrouping"
+          ],
+          "description": "Factorisation Using Identities — part of the chapter on Factorisation.",
+          "key_ideas": [
+            "Core principles of factorisation using identities",
+            "Step-by-step problem solving for factorisation using identities",
+            "Real-world applications of factorisation using identities"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Introduction to Graphs",
+      "concepts": [
+        {
+          "concept_id": "math8.graphs.reading_graphs",
+          "title": "Reading Bar Graphs and Pie Charts",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Reading Bar Graphs and Pie Charts — part of the chapter on Introduction to Graphs.",
+          "key_ideas": [
+            "Core principles of reading bar graphs and pie charts",
+            "Step-by-step problem solving for reading bar graphs and pie charts",
+            "Real-world applications of reading bar graphs and pie charts"
+          ]
+        },
+        {
+          "concept_id": "math8.graphs.linear_graphs",
+          "title": "Linear Graphs",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math8.graphs.reading_graphs"
+          ],
+          "description": "Linear Graphs — part of the chapter on Introduction to Graphs.",
+          "key_ideas": [
+            "Core principles of linear graphs",
+            "Step-by-step problem solving for linear graphs",
+            "Real-world applications of linear graphs"
+          ]
+        },
+        {
+          "concept_id": "math8.graphs.plotting_points",
+          "title": "Plotting Points and Reading Coordinates",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math8.graphs.reading_graphs"
+          ],
+          "description": "Plotting Points and Reading Coordinates — part of the chapter on Introduction to Graphs.",
+          "key_ideas": [
+            "Core principles of plotting points and reading coordinates",
+            "Step-by-step problem solving for plotting points and reading coordinates",
+            "Real-world applications of plotting points and reading coordinates"
+          ]
+        }
+      ]
+    }
+  ]
+}

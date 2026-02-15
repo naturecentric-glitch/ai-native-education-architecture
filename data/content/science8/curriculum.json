@@ -1,0 +1,687 @@
+{
+  "course_id": "science8",
+  "title": "Class 8 Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Crop Production and Management",
+      "concepts": [
+        {
+          "concept_id": "science8.crop_production.agricultural_practices",
+          "title": "Agricultural Practices",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Agricultural Practices — part of the chapter on Crop Production and Management.",
+          "key_ideas": [
+            "Core principles of agricultural practices",
+            "Step-by-step problem solving for agricultural practices",
+            "Real-world applications of agricultural practices"
+          ]
+        },
+        {
+          "concept_id": "science8.crop_production.crop_types",
+          "title": "Kharif and Rabi Crops",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Kharif and Rabi Crops — part of the chapter on Crop Production and Management.",
+          "key_ideas": [
+            "Core principles of kharif and rabi crops",
+            "Step-by-step problem solving for kharif and rabi crops",
+            "Real-world applications of kharif and rabi crops"
+          ]
+        },
+        {
+          "concept_id": "science8.crop_production.irrigation_methods",
+          "title": "Irrigation Methods",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.crop_production.agricultural_practices"
+          ],
+          "description": "Irrigation Methods — part of the chapter on Crop Production and Management.",
+          "key_ideas": [
+            "Core principles of irrigation methods",
+            "Step-by-step problem solving for irrigation methods",
+            "Real-world applications of irrigation methods"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Microorganisms: Friend and Foe",
+      "concepts": [
+        {
+          "concept_id": "science8.microorganisms.types_microorganisms",
+          "title": "Types of Microorganisms",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Types of Microorganisms — part of the chapter on Microorganisms: Friend and Foe.",
+          "key_ideas": [
+            "Core principles of types of microorganisms",
+            "Step-by-step problem solving for types of microorganisms",
+            "Real-world applications of types of microorganisms"
+          ]
+        },
+        {
+          "concept_id": "science8.microorganisms.useful_harmful",
+          "title": "Useful and Harmful Microorganisms",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.microorganisms.types_microorganisms"
+          ],
+          "description": "Useful and Harmful Microorganisms — part of the chapter on Microorganisms: Friend and Foe.",
+          "key_ideas": [
+            "Core principles of useful and harmful microorganisms",
+            "Step-by-step problem solving for useful and harmful microorganisms",
+            "Real-world applications of useful and harmful microorganisms"
+          ]
+        },
+        {
+          "concept_id": "science8.microorganisms.food_preservation",
+          "title": "Food Preservation Methods",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.microorganisms.useful_harmful"
+          ],
+          "description": "Food Preservation Methods — part of the chapter on Microorganisms: Friend and Foe.",
+          "key_ideas": [
+            "Core principles of food preservation methods",
+            "Step-by-step problem solving for food preservation methods",
+            "Real-world applications of food preservation methods"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Synthetic Fibres and Plastics",
+      "concepts": [
+        {
+          "concept_id": "science8.synthetic_fibres.types_fibres",
+          "title": "Types of Synthetic Fibres — Rayon, Nylon, Polyester",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Types of Synthetic Fibres — Rayon, Nylon, Polyester — part of the chapter on Synthetic Fibres and Plastics.",
+          "key_ideas": [
+            "Core principles of types of synthetic fibres",
+            "Step-by-step problem solving for types of synthetic fibres",
+            "Real-world applications of types of synthetic fibres"
+          ]
+        },
+        {
+          "concept_id": "science8.synthetic_fibres.plastics",
+          "title": "Plastics — Thermoplastic and Thermosetting",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.synthetic_fibres.types_fibres"
+          ],
+          "description": "Plastics — Thermoplastic and Thermosetting — part of the chapter on Synthetic Fibres and Plastics.",
+          "key_ideas": [
+            "Core principles of plastics",
+            "Step-by-step problem solving for plastics",
+            "Real-world applications of plastics"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Materials: Metals and Non-Metals",
+      "concepts": [
+        {
+          "concept_id": "science8.metals_nonmetals.physical_properties",
+          "title": "Physical Properties of Metals and Non-Metals",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Physical Properties of Metals and Non-Metals — part of the chapter on Materials: Metals and Non-Metals.",
+          "key_ideas": [
+            "Core principles of physical properties of metals and non-metals",
+            "Step-by-step problem solving for physical properties of metals and non-metals",
+            "Real-world applications of physical properties of metals and non-metals"
+          ]
+        },
+        {
+          "concept_id": "science8.metals_nonmetals.chemical_properties",
+          "title": "Chemical Properties and Reactivity",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science8.metals_nonmetals.physical_properties"
+          ],
+          "description": "Chemical Properties and Reactivity — part of the chapter on Materials: Metals and Non-Metals.",
+          "key_ideas": [
+            "Core principles of chemical properties and reactivity",
+            "Step-by-step problem solving for chemical properties and reactivity",
+            "Real-world applications of chemical properties and reactivity"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Coal and Petroleum",
+      "concepts": [
+        {
+          "concept_id": "science8.coal_petroleum.fossil_fuels",
+          "title": "Fossil Fuels — Formation and Types",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Fossil Fuels — Formation and Types — part of the chapter on Coal and Petroleum.",
+          "key_ideas": [
+            "Core principles of fossil fuels",
+            "Step-by-step problem solving for fossil fuels",
+            "Real-world applications of fossil fuels"
+          ]
+        },
+        {
+          "concept_id": "science8.coal_petroleum.conservation_fuels",
+          "title": "Conservation of Fossil Fuels",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.coal_petroleum.fossil_fuels"
+          ],
+          "description": "Conservation of Fossil Fuels — part of the chapter on Coal and Petroleum.",
+          "key_ideas": [
+            "Core principles of conservation of fossil fuels",
+            "Step-by-step problem solving for conservation of fossil fuels",
+            "Real-world applications of conservation of fossil fuels"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Combustion and Flame",
+      "concepts": [
+        {
+          "concept_id": "science8.combustion.combustion_types",
+          "title": "Types of Combustion",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Types of Combustion — part of the chapter on Combustion and Flame.",
+          "key_ideas": [
+            "Core principles of types of combustion",
+            "Step-by-step problem solving for types of combustion",
+            "Real-world applications of types of combustion"
+          ]
+        },
+        {
+          "concept_id": "science8.combustion.flame_structure",
+          "title": "Structure of Flame",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.combustion.combustion_types"
+          ],
+          "description": "Structure of Flame — part of the chapter on Combustion and Flame.",
+          "key_ideas": [
+            "Core principles of structure of flame",
+            "Step-by-step problem solving for structure of flame",
+            "Real-world applications of structure of flame"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Conservation of Plants and Animals",
+      "concepts": [
+        {
+          "concept_id": "science8.conservation.biodiversity",
+          "title": "Biodiversity and Its Importance",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Biodiversity and Its Importance — part of the chapter on Conservation of Plants and Animals.",
+          "key_ideas": [
+            "Core principles of biodiversity and its importance",
+            "Step-by-step problem solving for biodiversity and its importance",
+            "Real-world applications of biodiversity and its importance"
+          ]
+        },
+        {
+          "concept_id": "science8.conservation.endangered_species",
+          "title": "Endangered Species and Conservation",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science8.conservation.biodiversity"
+          ],
+          "description": "Endangered Species and Conservation — part of the chapter on Conservation of Plants and Animals.",
+          "key_ideas": [
+            "Core principles of endangered species and conservation",
+            "Step-by-step problem solving for endangered species and conservation",
+            "Real-world applications of endangered species and conservation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Cell: Structure and Functions",
+      "concepts": [
+        {
+          "concept_id": "science8.cell.cell_intro",
+          "title": "Cell — Basic Unit of Life",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Cell — Basic Unit of Life — part of the chapter on Cell: Structure and Functions.",
+          "key_ideas": [
+            "Core principles of cell",
+            "Step-by-step problem solving for cell",
+            "Real-world applications of cell"
+          ]
+        },
+        {
+          "concept_id": "science8.cell.plant_animal_cell",
+          "title": "Plant Cell vs Animal Cell",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science8.cell.cell_intro"
+          ],
+          "description": "Plant Cell vs Animal Cell — part of the chapter on Cell: Structure and Functions.",
+          "key_ideas": [
+            "Core principles of plant cell vs animal cell",
+            "Step-by-step problem solving for plant cell vs animal cell",
+            "Real-world applications of plant cell vs animal cell"
+          ]
+        },
+        {
+          "concept_id": "science8.cell.cell_organelles",
+          "title": "Cell Organelles and Their Functions",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science8.cell.plant_animal_cell"
+          ],
+          "description": "Cell Organelles and Their Functions — part of the chapter on Cell: Structure and Functions.",
+          "key_ideas": [
+            "Core principles of cell organelles and their functions",
+            "Step-by-step problem solving for cell organelles and their functions",
+            "Real-world applications of cell organelles and their functions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Reproduction in Animals",
+      "concepts": [
+        {
+          "concept_id": "science8.reproduction_animals.sexual_reproduction",
+          "title": "Sexual Reproduction — Fertilisation",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Sexual Reproduction — Fertilisation — part of the chapter on Reproduction in Animals.",
+          "key_ideas": [
+            "Core principles of sexual reproduction",
+            "Step-by-step problem solving for sexual reproduction",
+            "Real-world applications of sexual reproduction"
+          ]
+        },
+        {
+          "concept_id": "science8.reproduction_animals.asexual_reproduction",
+          "title": "Asexual Reproduction — Binary Fission, Budding",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Asexual Reproduction — Binary Fission, Budding — part of the chapter on Reproduction in Animals.",
+          "key_ideas": [
+            "Core principles of asexual reproduction",
+            "Step-by-step problem solving for asexual reproduction",
+            "Real-world applications of asexual reproduction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Reaching the Age of Adolescence",
+      "concepts": [
+        {
+          "concept_id": "science8.adolescence.puberty",
+          "title": "Puberty and Changes in Body",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Puberty and Changes in Body — part of the chapter on Reaching the Age of Adolescence.",
+          "key_ideas": [
+            "Core principles of puberty and changes in body",
+            "Step-by-step problem solving for puberty and changes in body",
+            "Real-world applications of puberty and changes in body"
+          ]
+        },
+        {
+          "concept_id": "science8.adolescence.hormones",
+          "title": "Hormones and Reproductive Health",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.adolescence.puberty"
+          ],
+          "description": "Hormones and Reproductive Health — part of the chapter on Reaching the Age of Adolescence.",
+          "key_ideas": [
+            "Core principles of hormones and reproductive health",
+            "Step-by-step problem solving for hormones and reproductive health",
+            "Real-world applications of hormones and reproductive health"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Force and Pressure",
+      "concepts": [
+        {
+          "concept_id": "science8.force_pressure.types_forces",
+          "title": "Contact and Non-Contact Forces",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Contact and Non-Contact Forces — part of the chapter on Force and Pressure.",
+          "key_ideas": [
+            "Core principles of contact and non-contact forces",
+            "Step-by-step problem solving for contact and non-contact forces",
+            "Real-world applications of contact and non-contact forces"
+          ]
+        },
+        {
+          "concept_id": "science8.force_pressure.pressure",
+          "title": "Pressure — Concept and Applications",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science8.force_pressure.types_forces"
+          ],
+          "description": "Pressure — Concept and Applications — part of the chapter on Force and Pressure.",
+          "key_ideas": [
+            "Core principles of pressure",
+            "Step-by-step problem solving for pressure",
+            "Real-world applications of pressure"
+          ]
+        },
+        {
+          "concept_id": "science8.force_pressure.atmospheric_pressure",
+          "title": "Atmospheric and Liquid Pressure",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science8.force_pressure.pressure"
+          ],
+          "description": "Atmospheric and Liquid Pressure — part of the chapter on Force and Pressure.",
+          "key_ideas": [
+            "Core principles of atmospheric and liquid pressure",
+            "Step-by-step problem solving for atmospheric and liquid pressure",
+            "Real-world applications of atmospheric and liquid pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Friction",
+      "concepts": [
+        {
+          "concept_id": "science8.friction.types_friction",
+          "title": "Types of Friction — Static, Sliding, Rolling",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Types of Friction — Static, Sliding, Rolling — part of the chapter on Friction.",
+          "key_ideas": [
+            "Core principles of types of friction",
+            "Step-by-step problem solving for types of friction",
+            "Real-world applications of types of friction"
+          ]
+        },
+        {
+          "concept_id": "science8.friction.friction_effects",
+          "title": "Increasing and Reducing Friction",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.friction.types_friction"
+          ],
+          "description": "Increasing and Reducing Friction — part of the chapter on Friction.",
+          "key_ideas": [
+            "Core principles of increasing and reducing friction",
+            "Step-by-step problem solving for increasing and reducing friction",
+            "Real-world applications of increasing and reducing friction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Sound",
+      "concepts": [
+        {
+          "concept_id": "science8.sound.vibration_sound",
+          "title": "Vibration and Production of Sound",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Vibration and Production of Sound — part of the chapter on Sound.",
+          "key_ideas": [
+            "Core principles of vibration and production of sound",
+            "Step-by-step problem solving for vibration and production of sound",
+            "Real-world applications of vibration and production of sound"
+          ]
+        },
+        {
+          "concept_id": "science8.sound.propagation",
+          "title": "Propagation of Sound",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.sound.vibration_sound"
+          ],
+          "description": "Propagation of Sound — part of the chapter on Sound.",
+          "key_ideas": [
+            "Core principles of propagation of sound",
+            "Step-by-step problem solving for propagation of sound",
+            "Real-world applications of propagation of sound"
+          ]
+        },
+        {
+          "concept_id": "science8.sound.loudness_pitch",
+          "title": "Loudness, Pitch and Frequency",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science8.sound.propagation"
+          ],
+          "description": "Loudness, Pitch and Frequency — part of the chapter on Sound.",
+          "key_ideas": [
+            "Core principles of loudness, pitch and frequency",
+            "Step-by-step problem solving for loudness, pitch and frequency",
+            "Real-world applications of loudness, pitch and frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Chemical Effects of Electric Current",
+      "concepts": [
+        {
+          "concept_id": "science8.electric_effects.conductors_liquids",
+          "title": "Conductivity of Liquids",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Conductivity of Liquids — part of the chapter on Chemical Effects of Electric Current.",
+          "key_ideas": [
+            "Core principles of conductivity of liquids",
+            "Step-by-step problem solving for conductivity of liquids",
+            "Real-world applications of conductivity of liquids"
+          ]
+        },
+        {
+          "concept_id": "science8.electric_effects.electroplating",
+          "title": "Electroplating",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science8.electric_effects.conductors_liquids"
+          ],
+          "description": "Electroplating — part of the chapter on Chemical Effects of Electric Current.",
+          "key_ideas": [
+            "Core principles of electroplating",
+            "Step-by-step problem solving for electroplating",
+            "Real-world applications of electroplating"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Some Natural Phenomena",
+      "concepts": [
+        {
+          "concept_id": "science8.natural_phenomena.lightning",
+          "title": "Lightning — Cause and Safety",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Lightning — Cause and Safety — part of the chapter on Some Natural Phenomena.",
+          "key_ideas": [
+            "Core principles of lightning",
+            "Step-by-step problem solving for lightning",
+            "Real-world applications of lightning"
+          ]
+        },
+        {
+          "concept_id": "science8.natural_phenomena.earthquakes",
+          "title": "Earthquakes — Cause and Protection",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Earthquakes — Cause and Protection — part of the chapter on Some Natural Phenomena.",
+          "key_ideas": [
+            "Core principles of earthquakes",
+            "Step-by-step problem solving for earthquakes",
+            "Real-world applications of earthquakes"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch16",
+      "title": "Light",
+      "concepts": [
+        {
+          "concept_id": "science8.light8.reflection_laws",
+          "title": "Laws of Reflection",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Laws of Reflection — part of the chapter on Light.",
+          "key_ideas": [
+            "Core principles of laws of reflection",
+            "Step-by-step problem solving for laws of reflection",
+            "Real-world applications of laws of reflection"
+          ]
+        },
+        {
+          "concept_id": "science8.light8.human_eye",
+          "title": "Human Eye and Care",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.light8.reflection_laws"
+          ],
+          "description": "Human Eye and Care — part of the chapter on Light.",
+          "key_ideas": [
+            "Core principles of human eye and care",
+            "Step-by-step problem solving for human eye and care",
+            "Real-world applications of human eye and care"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch17",
+      "title": "Stars and the Solar System",
+      "concepts": [
+        {
+          "concept_id": "science8.stars_solar.celestial_bodies",
+          "title": "Moon, Stars, Planets",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Moon, Stars, Planets — part of the chapter on Stars and the Solar System.",
+          "key_ideas": [
+            "Core principles of moon, stars, planets",
+            "Step-by-step problem solving for moon, stars, planets",
+            "Real-world applications of moon, stars, planets"
+          ]
+        },
+        {
+          "concept_id": "science8.stars_solar.solar_system",
+          "title": "The Solar System",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science8.stars_solar.celestial_bodies"
+          ],
+          "description": "The Solar System — part of the chapter on Stars and the Solar System.",
+          "key_ideas": [
+            "Core principles of the solar system",
+            "Step-by-step problem solving for the solar system",
+            "Real-world applications of the solar system"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch18",
+      "title": "Pollution of Air and Water",
+      "concepts": [
+        {
+          "concept_id": "science8.pollution.air_pollution",
+          "title": "Air Pollution — Causes and Effects",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Air Pollution — Causes and Effects — part of the chapter on Pollution of Air and Water.",
+          "key_ideas": [
+            "Core principles of air pollution",
+            "Step-by-step problem solving for air pollution",
+            "Real-world applications of air pollution"
+          ]
+        },
+        {
+          "concept_id": "science8.pollution.water_pollution",
+          "title": "Water Pollution and Purification",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science8.pollution.air_pollution"
+          ],
+          "description": "Water Pollution and Purification — part of the chapter on Pollution of Air and Water.",
+          "key_ideas": [
+            "Core principles of water pollution and purification",
+            "Step-by-step problem solving for water pollution and purification",
+            "Real-world applications of water pollution and purification"
+          ]
+        }
+      ]
+    }
+  ]
+}

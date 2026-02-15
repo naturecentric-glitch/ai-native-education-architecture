@@ -1,0 +1,617 @@
+{
+  "course_id": "science6",
+  "title": "Class 6 Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Food: Where Does it Come From?",
+      "concepts": [
+        {
+          "concept_id": "science6.food.food_sources",
+          "title": "Sources of Food",
+          "bloom_level": "remember",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Sources of Food — part of the chapter on Food: Where Does it Come From?.",
+          "key_ideas": [
+            "Core principles of sources of food",
+            "Step-by-step problem solving for sources of food",
+            "Real-world applications of sources of food"
+          ]
+        },
+        {
+          "concept_id": "science6.food.food_materials",
+          "title": "Food Materials and Plant Parts",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "science6.food.food_sources"
+          ],
+          "description": "Food Materials and Plant Parts — part of the chapter on Food: Where Does it Come From?.",
+          "key_ideas": [
+            "Core principles of food materials and plant parts",
+            "Step-by-step problem solving for food materials and plant parts",
+            "Real-world applications of food materials and plant parts"
+          ]
+        },
+        {
+          "concept_id": "science6.food.herbivore_carnivore",
+          "title": "Herbivores, Carnivores and Omnivores",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "science6.food.food_sources"
+          ],
+          "description": "Herbivores, Carnivores and Omnivores — part of the chapter on Food: Where Does it Come From?.",
+          "key_ideas": [
+            "Core principles of herbivores, carnivores and omnivores",
+            "Step-by-step problem solving for herbivores, carnivores and omnivores",
+            "Real-world applications of herbivores, carnivores and omnivores"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Components of Food",
+      "concepts": [
+        {
+          "concept_id": "science6.components_food.nutrients",
+          "title": "Nutrients — Carbohydrates, Proteins, Fats",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Nutrients — Carbohydrates, Proteins, Fats — part of the chapter on Components of Food.",
+          "key_ideas": [
+            "Core principles of nutrients",
+            "Step-by-step problem solving for nutrients",
+            "Real-world applications of nutrients"
+          ]
+        },
+        {
+          "concept_id": "science6.components_food.vitamins_minerals",
+          "title": "Vitamins and Minerals",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.components_food.nutrients"
+          ],
+          "description": "Vitamins and Minerals — part of the chapter on Components of Food.",
+          "key_ideas": [
+            "Core principles of vitamins and minerals",
+            "Step-by-step problem solving for vitamins and minerals",
+            "Real-world applications of vitamins and minerals"
+          ]
+        },
+        {
+          "concept_id": "science6.components_food.balanced_diet",
+          "title": "Balanced Diet and Deficiency Diseases",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.components_food.vitamins_minerals"
+          ],
+          "description": "Balanced Diet and Deficiency Diseases — part of the chapter on Components of Food.",
+          "key_ideas": [
+            "Core principles of balanced diet and deficiency diseases",
+            "Step-by-step problem solving for balanced diet and deficiency diseases",
+            "Real-world applications of balanced diet and deficiency diseases"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Fibre to Fabric",
+      "concepts": [
+        {
+          "concept_id": "science6.fibre_fabric.fibres",
+          "title": "Plant and Animal Fibres",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Plant and Animal Fibres — part of the chapter on Fibre to Fabric.",
+          "key_ideas": [
+            "Core principles of plant and animal fibres",
+            "Step-by-step problem solving for plant and animal fibres",
+            "Real-world applications of plant and animal fibres"
+          ]
+        },
+        {
+          "concept_id": "science6.fibre_fabric.spinning_weaving",
+          "title": "Spinning, Weaving and Knitting",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.fibre_fabric.fibres"
+          ],
+          "description": "Spinning, Weaving and Knitting — part of the chapter on Fibre to Fabric.",
+          "key_ideas": [
+            "Core principles of spinning, weaving and knitting",
+            "Step-by-step problem solving for spinning, weaving and knitting",
+            "Real-world applications of spinning, weaving and knitting"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Sorting Materials into Groups",
+      "concepts": [
+        {
+          "concept_id": "science6.sorting_materials.properties_materials",
+          "title": "Properties of Materials",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Properties of Materials — part of the chapter on Sorting Materials into Groups.",
+          "key_ideas": [
+            "Core principles of properties of materials",
+            "Step-by-step problem solving for properties of materials",
+            "Real-world applications of properties of materials"
+          ]
+        },
+        {
+          "concept_id": "science6.sorting_materials.grouping",
+          "title": "Grouping Materials by Properties",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.sorting_materials.properties_materials"
+          ],
+          "description": "Grouping Materials by Properties — part of the chapter on Sorting Materials into Groups.",
+          "key_ideas": [
+            "Core principles of grouping materials by properties",
+            "Step-by-step problem solving for grouping materials by properties",
+            "Real-world applications of grouping materials by properties"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Separation of Substances",
+      "concepts": [
+        {
+          "concept_id": "science6.separation.methods",
+          "title": "Methods of Separation — Handpicking, Sieving, Filtration",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Methods of Separation — Handpicking, Sieving, Filtration — part of the chapter on Separation of Substances.",
+          "key_ideas": [
+            "Core principles of methods of separation",
+            "Step-by-step problem solving for methods of separation",
+            "Real-world applications of methods of separation"
+          ]
+        },
+        {
+          "concept_id": "science6.separation.evaporation_condensation",
+          "title": "Evaporation and Condensation",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.separation.methods"
+          ],
+          "description": "Evaporation and Condensation — part of the chapter on Separation of Substances.",
+          "key_ideas": [
+            "Core principles of evaporation and condensation",
+            "Step-by-step problem solving for evaporation and condensation",
+            "Real-world applications of evaporation and condensation"
+          ]
+        },
+        {
+          "concept_id": "science6.separation.mixture_solution",
+          "title": "Mixtures and Solutions",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.separation.methods"
+          ],
+          "description": "Mixtures and Solutions — part of the chapter on Separation of Substances.",
+          "key_ideas": [
+            "Core principles of mixtures and solutions",
+            "Step-by-step problem solving for mixtures and solutions",
+            "Real-world applications of mixtures and solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Changes Around Us",
+      "concepts": [
+        {
+          "concept_id": "science6.changes.reversible",
+          "title": "Reversible and Irreversible Changes",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Reversible and Irreversible Changes — part of the chapter on Changes Around Us.",
+          "key_ideas": [
+            "Core principles of reversible and irreversible changes",
+            "Step-by-step problem solving for reversible and irreversible changes",
+            "Real-world applications of reversible and irreversible changes"
+          ]
+        },
+        {
+          "concept_id": "science6.changes.expand_contract",
+          "title": "Expansion and Contraction",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.changes.reversible"
+          ],
+          "description": "Expansion and Contraction — part of the chapter on Changes Around Us.",
+          "key_ideas": [
+            "Core principles of expansion and contraction",
+            "Step-by-step problem solving for expansion and contraction",
+            "Real-world applications of expansion and contraction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Getting to Know Plants",
+      "concepts": [
+        {
+          "concept_id": "science6.plants.plant_parts",
+          "title": "Parts of a Plant — Root, Stem, Leaf, Flower",
+          "bloom_level": "remember",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Parts of a Plant — Root, Stem, Leaf, Flower — part of the chapter on Getting to Know Plants.",
+          "key_ideas": [
+            "Core principles of parts of a plant",
+            "Step-by-step problem solving for parts of a plant",
+            "Real-world applications of parts of a plant"
+          ]
+        },
+        {
+          "concept_id": "science6.plants.types_plants",
+          "title": "Herbs, Shrubs and Trees",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Herbs, Shrubs and Trees — part of the chapter on Getting to Know Plants.",
+          "key_ideas": [
+            "Core principles of herbs, shrubs and trees",
+            "Step-by-step problem solving for herbs, shrubs and trees",
+            "Real-world applications of herbs, shrubs and trees"
+          ]
+        },
+        {
+          "concept_id": "science6.plants.flower_parts",
+          "title": "Parts of a Flower and Reproduction",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.plants.plant_parts"
+          ],
+          "description": "Parts of a Flower and Reproduction — part of the chapter on Getting to Know Plants.",
+          "key_ideas": [
+            "Core principles of parts of a flower and reproduction",
+            "Step-by-step problem solving for parts of a flower and reproduction",
+            "Real-world applications of parts of a flower and reproduction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Body Movements",
+      "concepts": [
+        {
+          "concept_id": "science6.body_movements.joints",
+          "title": "Types of Joints — Ball-Socket, Hinge, Pivot",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Types of Joints — Ball-Socket, Hinge, Pivot — part of the chapter on Body Movements.",
+          "key_ideas": [
+            "Core principles of types of joints",
+            "Step-by-step problem solving for types of joints",
+            "Real-world applications of types of joints"
+          ]
+        },
+        {
+          "concept_id": "science6.body_movements.movement_animals",
+          "title": "Movement in Different Animals",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Movement in Different Animals — part of the chapter on Body Movements.",
+          "key_ideas": [
+            "Core principles of movement in different animals",
+            "Step-by-step problem solving for movement in different animals",
+            "Real-world applications of movement in different animals"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "The Living Organisms and Their Surroundings",
+      "concepts": [
+        {
+          "concept_id": "science6.living_organisms.habitat",
+          "title": "Habitat and Adaptation",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Habitat and Adaptation — part of the chapter on The Living Organisms and Their Surroundings.",
+          "key_ideas": [
+            "Core principles of habitat and adaptation",
+            "Step-by-step problem solving for habitat and adaptation",
+            "Real-world applications of habitat and adaptation"
+          ]
+        },
+        {
+          "concept_id": "science6.living_organisms.biotic_abiotic",
+          "title": "Biotic and Abiotic Components",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.living_organisms.habitat"
+          ],
+          "description": "Biotic and Abiotic Components — part of the chapter on The Living Organisms and Their Surroundings.",
+          "key_ideas": [
+            "Core principles of biotic and abiotic components",
+            "Step-by-step problem solving for biotic and abiotic components",
+            "Real-world applications of biotic and abiotic components"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Motion and Measurement of Distances",
+      "concepts": [
+        {
+          "concept_id": "science6.motion_measurement.standard_units",
+          "title": "Standard Units of Measurement",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Standard Units of Measurement — part of the chapter on Motion and Measurement of Distances.",
+          "key_ideas": [
+            "Core principles of standard units of measurement",
+            "Step-by-step problem solving for standard units of measurement",
+            "Real-world applications of standard units of measurement"
+          ]
+        },
+        {
+          "concept_id": "science6.motion_measurement.types_motion",
+          "title": "Types of Motion — Rectilinear, Circular, Periodic",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.motion_measurement.standard_units"
+          ],
+          "description": "Types of Motion — Rectilinear, Circular, Periodic — part of the chapter on Motion and Measurement of Distances.",
+          "key_ideas": [
+            "Core principles of types of motion",
+            "Step-by-step problem solving for types of motion",
+            "Real-world applications of types of motion"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Light, Shadows and Reflections",
+      "concepts": [
+        {
+          "concept_id": "science6.light.transparent_opaque",
+          "title": "Transparent, Translucent and Opaque Objects",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Transparent, Translucent and Opaque Objects — part of the chapter on Light, Shadows and Reflections.",
+          "key_ideas": [
+            "Core principles of transparent, translucent and opaque objects",
+            "Step-by-step problem solving for transparent, translucent and opaque objects",
+            "Real-world applications of transparent, translucent and opaque objects"
+          ]
+        },
+        {
+          "concept_id": "science6.light.shadows",
+          "title": "Formation of Shadows",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.light.transparent_opaque"
+          ],
+          "description": "Formation of Shadows — part of the chapter on Light, Shadows and Reflections.",
+          "key_ideas": [
+            "Core principles of formation of shadows",
+            "Step-by-step problem solving for formation of shadows",
+            "Real-world applications of formation of shadows"
+          ]
+        },
+        {
+          "concept_id": "science6.light.reflection_intro",
+          "title": "Introduction to Reflection",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.light.shadows"
+          ],
+          "description": "Introduction to Reflection — part of the chapter on Light, Shadows and Reflections.",
+          "key_ideas": [
+            "Core principles of introduction to reflection",
+            "Step-by-step problem solving for introduction to reflection",
+            "Real-world applications of introduction to reflection"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Electricity and Circuits",
+      "concepts": [
+        {
+          "concept_id": "science6.electricity.electric_circuit",
+          "title": "Electric Circuit — Open and Closed",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Electric Circuit — Open and Closed — part of the chapter on Electricity and Circuits.",
+          "key_ideas": [
+            "Core principles of electric circuit",
+            "Step-by-step problem solving for electric circuit",
+            "Real-world applications of electric circuit"
+          ]
+        },
+        {
+          "concept_id": "science6.electricity.conductors_insulators",
+          "title": "Conductors and Insulators",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.electricity.electric_circuit"
+          ],
+          "description": "Conductors and Insulators — part of the chapter on Electricity and Circuits.",
+          "key_ideas": [
+            "Core principles of conductors and insulators",
+            "Step-by-step problem solving for conductors and insulators",
+            "Real-world applications of conductors and insulators"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Fun with Magnets",
+      "concepts": [
+        {
+          "concept_id": "science6.magnets.magnetic_nonmagnetic",
+          "title": "Magnetic and Non-Magnetic Materials",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Magnetic and Non-Magnetic Materials — part of the chapter on Fun with Magnets.",
+          "key_ideas": [
+            "Core principles of magnetic and non-magnetic materials",
+            "Step-by-step problem solving for magnetic and non-magnetic materials",
+            "Real-world applications of magnetic and non-magnetic materials"
+          ]
+        },
+        {
+          "concept_id": "science6.magnets.poles_attraction",
+          "title": "Poles of Magnet — Attraction and Repulsion",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.magnets.magnetic_nonmagnetic"
+          ],
+          "description": "Poles of Magnet — Attraction and Repulsion — part of the chapter on Fun with Magnets.",
+          "key_ideas": [
+            "Core principles of poles of magnet",
+            "Step-by-step problem solving for poles of magnet",
+            "Real-world applications of poles of magnet"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Water",
+      "concepts": [
+        {
+          "concept_id": "science6.water.water_cycle",
+          "title": "Water Cycle",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Water Cycle — part of the chapter on Water.",
+          "key_ideas": [
+            "Core principles of water cycle",
+            "Step-by-step problem solving for water cycle",
+            "Real-world applications of water cycle"
+          ]
+        },
+        {
+          "concept_id": "science6.water.conservation",
+          "title": "Conservation of Water",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Conservation of Water — part of the chapter on Water.",
+          "key_ideas": [
+            "Core principles of conservation of water",
+            "Step-by-step problem solving for conservation of water",
+            "Real-world applications of conservation of water"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Air Around Us",
+      "concepts": [
+        {
+          "concept_id": "science6.air.composition",
+          "title": "Composition of Air",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Composition of Air — part of the chapter on Air Around Us.",
+          "key_ideas": [
+            "Core principles of composition of air",
+            "Step-by-step problem solving for composition of air",
+            "Real-world applications of composition of air"
+          ]
+        },
+        {
+          "concept_id": "science6.air.importance_air",
+          "title": "Importance of Air for Living Organisms",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Importance of Air for Living Organisms — part of the chapter on Air Around Us.",
+          "key_ideas": [
+            "Core principles of importance of air for living organisms",
+            "Step-by-step problem solving for importance of air for living organisms",
+            "Real-world applications of importance of air for living organisms"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch16",
+      "title": "Garbage In, Garbage Out",
+      "concepts": [
+        {
+          "concept_id": "science6.garbage.waste_management",
+          "title": "Dealing with Garbage — Reduce, Reuse, Recycle",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Dealing with Garbage — Reduce, Reuse, Recycle — part of the chapter on Garbage In, Garbage Out.",
+          "key_ideas": [
+            "Core principles of dealing with garbage",
+            "Step-by-step problem solving for dealing with garbage",
+            "Real-world applications of dealing with garbage"
+          ]
+        },
+        {
+          "concept_id": "science6.garbage.composting",
+          "title": "Composting and Vermicomposting",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "science6.garbage.waste_management"
+          ],
+          "description": "Composting and Vermicomposting — part of the chapter on Garbage In, Garbage Out.",
+          "key_ideas": [
+            "Core principles of composting and vermicomposting",
+            "Step-by-step problem solving for composting and vermicomposting",
+            "Real-world applications of composting and vermicomposting"
+          ]
+        }
+      ]
+    }
+  ]
+}

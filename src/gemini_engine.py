@@ -1,11 +1,15 @@
 """
-Gemini-powered evaluation and teaching engine.
+Gemini-powered evaluation and teaching engine — SUBJECT-AGNOSTIC.
 
-Uses Gemini 3 Pro (via langchain-google-genai) to:
-1. Evaluate student answers for deep understanding
+Uses Gemini (via langchain-google-genai) to:
+1. Evaluate student answers for deep understanding (any subject)
 2. Generate personalized teaching content
 3. Create transfer tasks
 4. Detect misconceptions
+5. Expand course curricula with AI
+
+The engine reads subject/grade/board context from course metadata,
+so prompts adapt automatically to any course.
 """
 import json
 from typing import Optional
@@ -13,23 +17,45 @@ from typing import Optional
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
-from src.config import GOOGLE_API_KEY
+from src.config import GOOGLE_API_KEY, AI_MODEL, AI_EXPANSION_MODEL
 from src.mastery_tree import Concept, MasteryNode, MasteryTree, StudentStore
 
 
 # ── Gemini Client ────────────────────────────────────────────────────────────
 
-def get_llm(temperature: float = 0.3):
+def get_llm(temperature: float = 0.3, model: str | None = None):
     return ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
+        model=model or AI_MODEL,
         google_api_key=GOOGLE_API_KEY,
         temperature=temperature,
     )
 
 
+def _subject_context(course_info: dict | None) -> str:
+    """Build dynamic subject context string from course metadata."""
+    if not course_info:
+        return "a general education course"
+    subject = course_info.get("subject", "general")
+    title = course_info.get("title", "")
+    grade = course_info.get("grade", 0)
+    board = course_info.get("board", "")
+    age_range = {6: "11-12", 7: "12-13", 8: "13-14", 9: "14-15", 10: "15-16",
+                 11: "16-17", 12: "17-18"}.get(grade, "11-18")
+    parts = []
+    if title:
+        parts.append(title)
+    if board:
+        parts.append(f"({board} curriculum)")
+    if grade:
+        parts.append(f"for Class {grade} students (age {age_range})")
+    return " ".join(parts) if parts else subject
+
+
 # ── Evaluation Engine ────────────────────────────────────────────────────────
 
-EVALUATION_SYSTEM_PROMPT = """You are an expert mathematics evaluator for Class 6 students (age 11-12) following the NCERT curriculum in India.
+def _evaluation_prompt(course_info: dict | None) -> str:
+    ctx = _subject_context(course_info)
+    return f"""You are an expert evaluator for {ctx}.
 
 Your job is to evaluate a student's answer for DEEP UNDERSTANDING across three dimensions:
 
@@ -42,7 +68,7 @@ IMPORTANT RULES:
 - Identify specific misconceptions (not vague feedback)
 - Assess mastery on a 0.0 to 1.0 scale
 - Provide actionable next steps
-- Use simple English appropriate for an 11-year-old
+- Use simple, clear English appropriate for the student's age
 - If the answer is in Hindi or another Indian language, evaluate it fairly
 
 You must respond in valid JSON format only."""
@@ -53,11 +79,13 @@ async def evaluate_answer(
     question: str,
     student_answer: str,
     previous_mastery: float = 0.0,
+    course_info: dict | None = None,
 ) -> dict:
     """Evaluate a student's answer using Gemini."""
     llm = get_llm(temperature=0.2)
+    ctx = _subject_context(course_info)
 
-    prompt = f"""Evaluate this Class 6 student's answer.
+    prompt = f"""Evaluate this student's answer for {ctx}.
 
 **Topic**: {concept.title}
 **Chapter**: {concept.chapter_title}
@@ -79,11 +107,10 @@ Respond with this exact JSON structure:
 }}"""
 
     response = await llm.ainvoke([
-        SystemMessage(content=EVALUATION_SYSTEM_PROMPT),
+        SystemMessage(content=_evaluation_prompt(course_info)),
         HumanMessage(content=prompt),
     ])
 
-    # Parse JSON from response
     text = response.content.strip()
     if text.startswith("```"):
         text = text.split("\n", 1)[1].rsplit("```", 1)[0]
@@ -92,12 +119,15 @@ Respond with this exact JSON structure:
 
 # ── Teaching Engine ──────────────────────────────────────────────────────────
 
-TEACHING_SYSTEM_PROMPT = """You are a warm, patient, and brilliant mathematics tutor for Class 6 students (age 11-12) in India, following the NCERT curriculum.
+def _teaching_prompt(course_info: dict | None) -> str:
+    ctx = _subject_context(course_info)
+    subject = (course_info or {}).get("subject", "the subject")
+    return f"""You are a warm, patient, and brilliant tutor for {ctx}.
 
 Your teaching style:
 - Start with a relatable real-life example from Indian daily life
 - Build concepts step-by-step, never skip steps
-- Use visual metaphors and analogies
+- Use visual metaphors and analogies relevant to {subject}
 - Ask guiding questions to make the student think
 - Celebrate small wins
 - Use simple English (the student may not be a native English speaker)
@@ -110,9 +140,11 @@ async def teach_concept(
     student_name: str = "Student",
     mastery_level: float = 0.0,
     misconceptions: list[str] | None = None,
+    course_info: dict | None = None,
 ) -> dict:
     """Generate a personalized lesson for a concept."""
     llm = get_llm(temperature=0.5)
+    ctx = _subject_context(course_info)
 
     context = f"The student's current mastery is {mastery_level:.0%}."
     if misconceptions:
@@ -123,7 +155,7 @@ async def teach_concept(
     prompt = f"""Teach this concept to {student_name}:
 
 **Topic**: {concept.title}
-**Chapter**: {concept.chapter_title} (NCERT Class 6 Mathematics)
+**Chapter**: {concept.chapter_title} ({ctx})
 **Description**: {concept.description}
 **Key Ideas to Cover**: {json.dumps(concept.key_ideas)}
 **Bloom's Level**: {concept.bloom_level}
@@ -140,11 +172,11 @@ Structure your response as JSON:
         "hint": "<a gentle hint>",
         "answer": "<the correct answer with explanation>"
     }},
-    "fun_fact": "<an interesting math fact related to this topic>"
+    "fun_fact": "<an interesting fact related to this topic>"
 }}"""
 
     response = await llm.ainvoke([
-        SystemMessage(content=TEACHING_SYSTEM_PROMPT),
+        SystemMessage(content=_teaching_prompt(course_info)),
         HumanMessage(content=prompt),
     ])
 
@@ -156,10 +188,12 @@ Structure your response as JSON:
 
 # ── Question Generator ───────────────────────────────────────────────────────
 
-QUESTION_SYSTEM_PROMPT = """You are an expert question designer for Class 6 mathematics (NCERT, India). 
+def _question_prompt(course_info: dict | None) -> str:
+    ctx = _subject_context(course_info)
+    return f"""You are an expert question designer for {ctx}.
 Generate questions that test DEEP UNDERSTANDING, not just recall.
 Include a mix of: direct application, word problems, and transfer tasks (apply concept to unfamiliar context).
-All questions should be age-appropriate (11-12 years).
+All questions should be age-appropriate for the target students.
 Respond in valid JSON only."""
 
 
@@ -168,6 +202,7 @@ async def generate_questions(
     count: int = 3,
     difficulty: str = "medium",
     include_transfer: bool = True,
+    course_info: dict | None = None,
 ) -> list[dict]:
     """Generate practice questions for a concept."""
     llm = get_llm(temperature=0.6)
@@ -198,7 +233,7 @@ Respond with JSON:
 }}"""
 
     response = await llm.ainvoke([
-        SystemMessage(content=QUESTION_SYSTEM_PROMPT),
+        SystemMessage(content=_question_prompt(course_info)),
         HumanMessage(content=prompt),
     ])
 
@@ -215,11 +250,13 @@ async def analyze_misconceptions(
     concept: Concept,
     student_answer: str,
     correct_answer: str,
+    course_info: dict | None = None,
 ) -> list[dict]:
     """Deep analysis of what specific misconception led to the wrong answer."""
     llm = get_llm(temperature=0.2)
+    ctx = _subject_context(course_info)
 
-    prompt = f"""A Class 6 student gave a wrong answer. Analyze the specific misconception.
+    prompt = f"""A student studying {ctx} gave a wrong answer. Analyze the specific misconception.
 
 **Topic**: {concept.title}
 **Key Ideas**: {json.dumps(concept.key_ideas)}
@@ -239,7 +276,7 @@ Respond with JSON:
 }}"""
 
     response = await llm.ainvoke([
-        SystemMessage(content=EVALUATION_SYSTEM_PROMPT),
+        SystemMessage(content=_evaluation_prompt(course_info)),
         HumanMessage(content=prompt),
     ])
 
@@ -248,3 +285,136 @@ Respond with JSON:
         text = text.split("\n", 1)[1].rsplit("```", 1)[0]
     result = json.loads(text)
     return result.get("misconceptions", [])
+
+
+# ── Curriculum Expansion Engine ──────────────────────────────────────────────
+
+EXPANSION_SYSTEM_PROMPT = """You are a curriculum design expert. Given a course's existing chapter structure and seed concepts, 
+you generate additional concepts that fill out the chapter comprehensively.
+
+Rules:
+- Each new concept must have a unique concept_id following the pattern: {course_id}.{chapter_key}.{snake_case_suffix}
+- Assign appropriate bloom_level (remember/understand/apply/analyze/evaluate/create)
+- Set difficulty 0.0-1.0 (progressive within the chapter)
+- Define prerequisites referencing existing concept_ids where appropriate
+- Write clear, concise descriptions
+- Include 3-5 key_ideas per concept
+- Generate 3-6 new concepts per chapter (depending on chapter depth)
+- Do NOT duplicate existing concepts
+- Respond in valid JSON only"""
+
+
+async def expand_chapter(
+    course_id: str,
+    chapter_key: str,
+    chapter_title: str,
+    existing_concepts: list[dict],
+    course_info: dict | None = None,
+) -> list[dict]:
+    """Use Gemini to expand a chapter with additional concepts."""
+    llm = get_llm(temperature=0.6, model=AI_EXPANSION_MODEL)
+    ctx = _subject_context(course_info)
+
+    existing_summary = json.dumps([
+        {"concept_id": c["concept_id"], "title": c["title"], "bloom_level": c["bloom_level"]}
+        for c in existing_concepts
+    ], indent=2)
+
+    prompt = f"""Expand this chapter with additional concepts for {ctx}:
+
+**Course ID**: {course_id}
+**Chapter Key** (for concept_id prefix): {chapter_key}
+**Chapter Title**: {chapter_title}
+**Existing Concepts**:
+{existing_summary}
+
+Generate 3-6 NEW concepts that complement the existing ones. Cover areas not yet addressed.
+Use concept_id format: {course_id}.{chapter_key}.<new_suffix>
+
+Respond with JSON:
+{{
+    "new_concepts": [
+        {{
+            "concept_id": "{course_id}.{chapter_key}.<suffix>",
+            "title": "<concept title>",
+            "bloom_level": "<bloom level>",
+            "difficulty": <float>,
+            "prerequisites": ["<existing concept_ids where relevant>"],
+            "description": "<clear description>",
+            "key_ideas": ["<idea1>", "<idea2>", "<idea3>"]
+        }}
+    ]
+}}"""
+
+    response = await llm.ainvoke([
+        SystemMessage(content=EXPANSION_SYSTEM_PROMPT),
+        HumanMessage(content=prompt),
+    ])
+
+    text = response.content.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1].rsplit("```", 1)[0]
+    result = json.loads(text)
+    return result.get("new_concepts", [])
+
+
+async def expand_full_course(course_id: str) -> dict:
+    """Expand an entire course curriculum using Gemini."""
+    from src.mastery_tree import get_course_info
+    from src.config import CONTENT_DIR
+
+    info = get_course_info(course_id)
+    if not info:
+        return {"error": f"Course '{course_id}' not found"}
+
+    course_info_dict = info.model_dump()
+
+    # Load current curriculum
+    curr_path = CONTENT_DIR / info.curriculum_file
+    with open(curr_path) as f:
+        curriculum = json.load(f)
+
+    total_new = 0
+    expanded_chapters = []
+
+    for chapter in curriculum["chapters"]:
+        # Extract chapter_key from first concept's concept_id
+        if chapter["concepts"]:
+            parts = chapter["concepts"][0]["concept_id"].split(".")
+            chapter_key = parts[1] if len(parts) >= 3 else chapter["chapter_id"]
+        else:
+            chapter_key = chapter["chapter_id"]
+
+        try:
+            new_concepts = await expand_chapter(
+                course_id=course_id,
+                chapter_key=chapter_key,
+                chapter_title=chapter["title"],
+                existing_concepts=chapter["concepts"],
+                course_info=course_info_dict,
+            )
+            chapter["concepts"].extend(new_concepts)
+            total_new += len(new_concepts)
+            expanded_chapters.append({
+                "chapter": chapter["title"],
+                "new_concepts": len(new_concepts),
+            })
+        except Exception as e:
+            expanded_chapters.append({
+                "chapter": chapter["title"],
+                "error": str(e),
+            })
+
+    # Save expanded curriculum
+    with open(curr_path, "w") as f:
+        json.dump(curriculum, f, indent=2, ensure_ascii=False)
+
+    total_concepts = sum(len(ch["concepts"]) for ch in curriculum["chapters"])
+
+    return {
+        "course_id": course_id,
+        "title": info.title,
+        "total_concepts_now": total_concepts,
+        "new_concepts_added": total_new,
+        "chapters": expanded_chapters,
+    }

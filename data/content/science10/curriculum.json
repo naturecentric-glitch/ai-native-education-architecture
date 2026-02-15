@@ -1,0 +1,669 @@
+{
+  "course_id": "science10",
+  "title": "Class 10 Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Chemical Reactions and Equations",
+      "concepts": [
+        {
+          "concept_id": "science10.chemical_reactions.types_reactions",
+          "title": "Types of Chemical Reactions",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Types of Chemical Reactions — part of the chapter on Chemical Reactions and Equations.",
+          "key_ideas": [
+            "Core principles of types of chemical reactions",
+            "Step-by-step problem solving for types of chemical reactions",
+            "Real-world applications of types of chemical reactions"
+          ]
+        },
+        {
+          "concept_id": "science10.chemical_reactions.balancing_equations",
+          "title": "Balancing Chemical Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.chemical_reactions.types_reactions"
+          ],
+          "description": "Balancing Chemical Equations — part of the chapter on Chemical Reactions and Equations.",
+          "key_ideas": [
+            "Core principles of balancing chemical equations",
+            "Step-by-step problem solving for balancing chemical equations",
+            "Real-world applications of balancing chemical equations"
+          ]
+        },
+        {
+          "concept_id": "science10.chemical_reactions.oxidation_reduction",
+          "title": "Oxidation and Reduction",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science10.chemical_reactions.balancing_equations"
+          ],
+          "description": "Oxidation and Reduction — part of the chapter on Chemical Reactions and Equations.",
+          "key_ideas": [
+            "Core principles of oxidation and reduction",
+            "Step-by-step problem solving for oxidation and reduction",
+            "Real-world applications of oxidation and reduction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Acids, Bases and Salts",
+      "concepts": [
+        {
+          "concept_id": "science10.acids_bases_salts.indicators_ph",
+          "title": "Indicators and pH Scale",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Indicators and pH Scale — part of the chapter on Acids, Bases and Salts.",
+          "key_ideas": [
+            "Core principles of indicators and ph scale",
+            "Step-by-step problem solving for indicators and ph scale",
+            "Real-world applications of indicators and ph scale"
+          ]
+        },
+        {
+          "concept_id": "science10.acids_bases_salts.reactions_acids_bases",
+          "title": "Reactions of Acids and Bases",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.acids_bases_salts.indicators_ph"
+          ],
+          "description": "Reactions of Acids and Bases — part of the chapter on Acids, Bases and Salts.",
+          "key_ideas": [
+            "Core principles of reactions of acids and bases",
+            "Step-by-step problem solving for reactions of acids and bases",
+            "Real-world applications of reactions of acids and bases"
+          ]
+        },
+        {
+          "concept_id": "science10.acids_bases_salts.salts_preparation",
+          "title": "Preparation and Properties of Salts",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.acids_bases_salts.reactions_acids_bases"
+          ],
+          "description": "Preparation and Properties of Salts — part of the chapter on Acids, Bases and Salts.",
+          "key_ideas": [
+            "Core principles of preparation and properties of salts",
+            "Step-by-step problem solving for preparation and properties of salts",
+            "Real-world applications of preparation and properties of salts"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Metals and Non-metals",
+      "concepts": [
+        {
+          "concept_id": "science10.metals_nonmetals10.properties10",
+          "title": "Physical and Chemical Properties",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Physical and Chemical Properties — part of the chapter on Metals and Non-metals.",
+          "key_ideas": [
+            "Core principles of physical and chemical properties",
+            "Step-by-step problem solving for physical and chemical properties",
+            "Real-world applications of physical and chemical properties"
+          ]
+        },
+        {
+          "concept_id": "science10.metals_nonmetals10.reactivity_series",
+          "title": "Reactivity Series",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.metals_nonmetals10.properties10"
+          ],
+          "description": "Reactivity Series — part of the chapter on Metals and Non-metals.",
+          "key_ideas": [
+            "Core principles of reactivity series",
+            "Step-by-step problem solving for reactivity series",
+            "Real-world applications of reactivity series"
+          ]
+        },
+        {
+          "concept_id": "science10.metals_nonmetals10.extraction_metals",
+          "title": "Extraction of Metals",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science10.metals_nonmetals10.reactivity_series"
+          ],
+          "description": "Extraction of Metals — part of the chapter on Metals and Non-metals.",
+          "key_ideas": [
+            "Core principles of extraction of metals",
+            "Step-by-step problem solving for extraction of metals",
+            "Real-world applications of extraction of metals"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Carbon and its Compounds",
+      "concepts": [
+        {
+          "concept_id": "science10.carbon_compounds.bonding_carbon",
+          "title": "Bonding in Carbon — Covalent Bond",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Bonding in Carbon — Covalent Bond — part of the chapter on Carbon and its Compounds.",
+          "key_ideas": [
+            "Core principles of bonding in carbon",
+            "Step-by-step problem solving for bonding in carbon",
+            "Real-world applications of bonding in carbon"
+          ]
+        },
+        {
+          "concept_id": "science10.carbon_compounds.hydrocarbons",
+          "title": "Saturated and Unsaturated Hydrocarbons",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.carbon_compounds.bonding_carbon"
+          ],
+          "description": "Saturated and Unsaturated Hydrocarbons — part of the chapter on Carbon and its Compounds.",
+          "key_ideas": [
+            "Core principles of saturated and unsaturated hydrocarbons",
+            "Step-by-step problem solving for saturated and unsaturated hydrocarbons",
+            "Real-world applications of saturated and unsaturated hydrocarbons"
+          ]
+        },
+        {
+          "concept_id": "science10.carbon_compounds.functional_groups",
+          "title": "Functional Groups and Nomenclature",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science10.carbon_compounds.hydrocarbons"
+          ],
+          "description": "Functional Groups and Nomenclature — part of the chapter on Carbon and its Compounds.",
+          "key_ideas": [
+            "Core principles of functional groups and nomenclature",
+            "Step-by-step problem solving for functional groups and nomenclature",
+            "Real-world applications of functional groups and nomenclature"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Periodic Classification of Elements",
+      "concepts": [
+        {
+          "concept_id": "science10.periodic_table.early_classification",
+          "title": "Early Attempts at Classification",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Early Attempts at Classification — part of the chapter on Periodic Classification of Elements.",
+          "key_ideas": [
+            "Core principles of early attempts at classification",
+            "Step-by-step problem solving for early attempts at classification",
+            "Real-world applications of early attempts at classification"
+          ]
+        },
+        {
+          "concept_id": "science10.periodic_table.modern_periodic",
+          "title": "Modern Periodic Table — Trends",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.periodic_table.early_classification"
+          ],
+          "description": "Modern Periodic Table — Trends — part of the chapter on Periodic Classification of Elements.",
+          "key_ideas": [
+            "Core principles of modern periodic table",
+            "Step-by-step problem solving for modern periodic table",
+            "Real-world applications of modern periodic table"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Life Processes",
+      "concepts": [
+        {
+          "concept_id": "science10.life_processes.nutrition",
+          "title": "Nutrition — Autotrophic and Heterotrophic",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Nutrition — Autotrophic and Heterotrophic — part of the chapter on Life Processes.",
+          "key_ideas": [
+            "Core principles of nutrition",
+            "Step-by-step problem solving for nutrition",
+            "Real-world applications of nutrition"
+          ]
+        },
+        {
+          "concept_id": "science10.life_processes.respiration10",
+          "title": "Respiration",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Respiration — part of the chapter on Life Processes.",
+          "key_ideas": [
+            "Core principles of respiration",
+            "Step-by-step problem solving for respiration",
+            "Real-world applications of respiration"
+          ]
+        },
+        {
+          "concept_id": "science10.life_processes.transportation",
+          "title": "Transportation in Animals and Plants",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Transportation in Animals and Plants — part of the chapter on Life Processes.",
+          "key_ideas": [
+            "Core principles of transportation in animals and plants",
+            "Step-by-step problem solving for transportation in animals and plants",
+            "Real-world applications of transportation in animals and plants"
+          ]
+        },
+        {
+          "concept_id": "science10.life_processes.excretion",
+          "title": "Excretion in Organisms",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Excretion in Organisms — part of the chapter on Life Processes.",
+          "key_ideas": [
+            "Core principles of excretion in organisms",
+            "Step-by-step problem solving for excretion in organisms",
+            "Real-world applications of excretion in organisms"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Control and Coordination",
+      "concepts": [
+        {
+          "concept_id": "science10.control_coordination.nervous_system",
+          "title": "Nervous System",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Nervous System — part of the chapter on Control and Coordination.",
+          "key_ideas": [
+            "Core principles of nervous system",
+            "Step-by-step problem solving for nervous system",
+            "Real-world applications of nervous system"
+          ]
+        },
+        {
+          "concept_id": "science10.control_coordination.hormones10",
+          "title": "Hormones in Animals and Plants",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Hormones in Animals and Plants — part of the chapter on Control and Coordination.",
+          "key_ideas": [
+            "Core principles of hormones in animals and plants",
+            "Step-by-step problem solving for hormones in animals and plants",
+            "Real-world applications of hormones in animals and plants"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "How Do Organisms Reproduce?",
+      "concepts": [
+        {
+          "concept_id": "science10.reproduction10.asexual_modes",
+          "title": "Modes of Asexual Reproduction",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Modes of Asexual Reproduction — part of the chapter on How Do Organisms Reproduce?.",
+          "key_ideas": [
+            "Core principles of modes of asexual reproduction",
+            "Step-by-step problem solving for modes of asexual reproduction",
+            "Real-world applications of modes of asexual reproduction"
+          ]
+        },
+        {
+          "concept_id": "science10.reproduction10.sexual_reproduction10",
+          "title": "Sexual Reproduction in Organisms",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.reproduction10.asexual_modes"
+          ],
+          "description": "Sexual Reproduction in Organisms — part of the chapter on How Do Organisms Reproduce?.",
+          "key_ideas": [
+            "Core principles of sexual reproduction in organisms",
+            "Step-by-step problem solving for sexual reproduction in organisms",
+            "Real-world applications of sexual reproduction in organisms"
+          ]
+        },
+        {
+          "concept_id": "science10.reproduction10.reproductive_health",
+          "title": "Reproductive Health and Contraception",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science10.reproduction10.sexual_reproduction10"
+          ],
+          "description": "Reproductive Health and Contraception — part of the chapter on How Do Organisms Reproduce?.",
+          "key_ideas": [
+            "Core principles of reproductive health and contraception",
+            "Step-by-step problem solving for reproductive health and contraception",
+            "Real-world applications of reproductive health and contraception"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Heredity and Evolution",
+      "concepts": [
+        {
+          "concept_id": "science10.heredity_evolution.mendels_laws",
+          "title": "Mendel's Laws of Inheritance",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Mendel's Laws of Inheritance — part of the chapter on Heredity and Evolution.",
+          "key_ideas": [
+            "Core principles of mendel's laws of inheritance",
+            "Step-by-step problem solving for mendel's laws of inheritance",
+            "Real-world applications of mendel's laws of inheritance"
+          ]
+        },
+        {
+          "concept_id": "science10.heredity_evolution.sex_determination",
+          "title": "Sex Determination",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science10.heredity_evolution.mendels_laws"
+          ],
+          "description": "Sex Determination — part of the chapter on Heredity and Evolution.",
+          "key_ideas": [
+            "Core principles of sex determination",
+            "Step-by-step problem solving for sex determination",
+            "Real-world applications of sex determination"
+          ]
+        },
+        {
+          "concept_id": "science10.heredity_evolution.evolution",
+          "title": "Evolution — Evidence and Speciation",
+          "bloom_level": "understand",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science10.heredity_evolution.mendels_laws"
+          ],
+          "description": "Evolution — Evidence and Speciation — part of the chapter on Heredity and Evolution.",
+          "key_ideas": [
+            "Core principles of evolution",
+            "Step-by-step problem solving for evolution",
+            "Real-world applications of evolution"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Light — Reflection and Refraction",
+      "concepts": [
+        {
+          "concept_id": "science10.light_reflection.reflection_mirrors",
+          "title": "Reflection from Spherical Mirrors",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Reflection from Spherical Mirrors — part of the chapter on Light — Reflection and Refraction.",
+          "key_ideas": [
+            "Core principles of reflection from spherical mirrors",
+            "Step-by-step problem solving for reflection from spherical mirrors",
+            "Real-world applications of reflection from spherical mirrors"
+          ]
+        },
+        {
+          "concept_id": "science10.light_reflection.refraction",
+          "title": "Refraction of Light through Glass Slab",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.light_reflection.reflection_mirrors"
+          ],
+          "description": "Refraction of Light through Glass Slab — part of the chapter on Light — Reflection and Refraction.",
+          "key_ideas": [
+            "Core principles of refraction of light through glass slab",
+            "Step-by-step problem solving for refraction of light through glass slab",
+            "Real-world applications of refraction of light through glass slab"
+          ]
+        },
+        {
+          "concept_id": "science10.light_reflection.lenses",
+          "title": "Image Formation by Lenses",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science10.light_reflection.refraction"
+          ],
+          "description": "Image Formation by Lenses — part of the chapter on Light — Reflection and Refraction.",
+          "key_ideas": [
+            "Core principles of image formation by lenses",
+            "Step-by-step problem solving for image formation by lenses",
+            "Real-world applications of image formation by lenses"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "The Human Eye and the Colourful World",
+      "concepts": [
+        {
+          "concept_id": "science10.human_eye.eye_structure",
+          "title": "Structure and Working of Human Eye",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Structure and Working of Human Eye — part of the chapter on The Human Eye and the Colourful World.",
+          "key_ideas": [
+            "Core principles of structure and working of human eye",
+            "Step-by-step problem solving for structure and working of human eye",
+            "Real-world applications of structure and working of human eye"
+          ]
+        },
+        {
+          "concept_id": "science10.human_eye.defects_correction",
+          "title": "Defects of Vision and Correction",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science10.human_eye.eye_structure"
+          ],
+          "description": "Defects of Vision and Correction — part of the chapter on The Human Eye and the Colourful World.",
+          "key_ideas": [
+            "Core principles of defects of vision and correction",
+            "Step-by-step problem solving for defects of vision and correction",
+            "Real-world applications of defects of vision and correction"
+          ]
+        },
+        {
+          "concept_id": "science10.human_eye.scattering_dispersion",
+          "title": "Scattering and Dispersion of Light",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science10.human_eye.eye_structure"
+          ],
+          "description": "Scattering and Dispersion of Light — part of the chapter on The Human Eye and the Colourful World.",
+          "key_ideas": [
+            "Core principles of scattering and dispersion of light",
+            "Step-by-step problem solving for scattering and dispersion of light",
+            "Real-world applications of scattering and dispersion of light"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Electricity",
+      "concepts": [
+        {
+          "concept_id": "science10.electricity10.ohms_law",
+          "title": "Ohm's Law",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Ohm's Law — part of the chapter on Electricity.",
+          "key_ideas": [
+            "Core principles of ohm's law",
+            "Step-by-step problem solving for ohm's law",
+            "Real-world applications of ohm's law"
+          ]
+        },
+        {
+          "concept_id": "science10.electricity10.resistance",
+          "title": "Resistance — Series and Parallel",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science10.electricity10.ohms_law"
+          ],
+          "description": "Resistance — Series and Parallel — part of the chapter on Electricity.",
+          "key_ideas": [
+            "Core principles of resistance",
+            "Step-by-step problem solving for resistance",
+            "Real-world applications of resistance"
+          ]
+        },
+        {
+          "concept_id": "science10.electricity10.electric_power",
+          "title": "Electric Power and Energy",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science10.electricity10.resistance"
+          ],
+          "description": "Electric Power and Energy — part of the chapter on Electricity.",
+          "key_ideas": [
+            "Core principles of electric power and energy",
+            "Step-by-step problem solving for electric power and energy",
+            "Real-world applications of electric power and energy"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Magnetic Effects of Electric Current",
+      "concepts": [
+        {
+          "concept_id": "science10.magnetic_effects.magnetic_field",
+          "title": "Magnetic Field and Field Lines",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Magnetic Field and Field Lines — part of the chapter on Magnetic Effects of Electric Current.",
+          "key_ideas": [
+            "Core principles of magnetic field and field lines",
+            "Step-by-step problem solving for magnetic field and field lines",
+            "Real-world applications of magnetic field and field lines"
+          ]
+        },
+        {
+          "concept_id": "science10.magnetic_effects.electromagnetic",
+          "title": "Electromagnetic Induction",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science10.magnetic_effects.magnetic_field"
+          ],
+          "description": "Electromagnetic Induction — part of the chapter on Magnetic Effects of Electric Current.",
+          "key_ideas": [
+            "Core principles of electromagnetic induction",
+            "Step-by-step problem solving for electromagnetic induction",
+            "Real-world applications of electromagnetic induction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Sources of Energy",
+      "concepts": [
+        {
+          "concept_id": "science10.sources_energy.conventional",
+          "title": "Conventional Sources — Fossil Fuels, Thermal, Hydro",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Conventional Sources — Fossil Fuels, Thermal, Hydro — part of the chapter on Sources of Energy.",
+          "key_ideas": [
+            "Core principles of conventional sources",
+            "Step-by-step problem solving for conventional sources",
+            "Real-world applications of conventional sources"
+          ]
+        },
+        {
+          "concept_id": "science10.sources_energy.non_conventional",
+          "title": "Non-Conventional — Solar, Wind, Nuclear, Biomass",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Non-Conventional — Solar, Wind, Nuclear, Biomass — part of the chapter on Sources of Energy.",
+          "key_ideas": [
+            "Core principles of non-conventional",
+            "Step-by-step problem solving for non-conventional",
+            "Real-world applications of non-conventional"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Our Environment",
+      "concepts": [
+        {
+          "concept_id": "science10.environment.ecosystem_components",
+          "title": "Ecosystem Components and Food Chains",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Ecosystem Components and Food Chains — part of the chapter on Our Environment.",
+          "key_ideas": [
+            "Core principles of ecosystem components and food chains",
+            "Step-by-step problem solving for ecosystem components and food chains",
+            "Real-world applications of ecosystem components and food chains"
+          ]
+        },
+        {
+          "concept_id": "science10.environment.ozone_depletion",
+          "title": "Ozone Layer Depletion",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Ozone Layer Depletion — part of the chapter on Our Environment.",
+          "key_ideas": [
+            "Core principles of ozone layer depletion",
+            "Step-by-step problem solving for ozone layer depletion",
+            "Real-world applications of ozone layer depletion"
+          ]
+        }
+      ]
+    }
+  ]
+}

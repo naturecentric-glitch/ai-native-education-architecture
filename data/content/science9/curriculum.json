@@ -1,0 +1,660 @@
+{
+  "course_id": "science9",
+  "title": "Class 9 Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Matter in Our Surroundings",
+      "concepts": [
+        {
+          "concept_id": "science9.matter.states_of_matter",
+          "title": "States of Matter and Their Properties",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "States of Matter and Their Properties — part of the chapter on Matter in Our Surroundings.",
+          "key_ideas": [
+            "Core principles of states of matter and their properties",
+            "Step-by-step problem solving for states of matter and their properties",
+            "Real-world applications of states of matter and their properties"
+          ]
+        },
+        {
+          "concept_id": "science9.matter.change_of_state",
+          "title": "Change of State — Melting, Boiling, Evaporation",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science9.matter.states_of_matter"
+          ],
+          "description": "Change of State — Melting, Boiling, Evaporation — part of the chapter on Matter in Our Surroundings.",
+          "key_ideas": [
+            "Core principles of change of state",
+            "Step-by-step problem solving for change of state",
+            "Real-world applications of change of state"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Is Matter Around Us Pure?",
+      "concepts": [
+        {
+          "concept_id": "science9.pure_matter.mixtures_solutions",
+          "title": "Mixtures, Solutions, Suspensions, Colloids",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Mixtures, Solutions, Suspensions, Colloids — part of the chapter on Is Matter Around Us Pure?.",
+          "key_ideas": [
+            "Core principles of mixtures, solutions, suspensions, colloids",
+            "Step-by-step problem solving for mixtures, solutions, suspensions, colloids",
+            "Real-world applications of mixtures, solutions, suspensions, colloids"
+          ]
+        },
+        {
+          "concept_id": "science9.pure_matter.separation_techniques",
+          "title": "Separation Techniques — Chromatography, Distillation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science9.pure_matter.mixtures_solutions"
+          ],
+          "description": "Separation Techniques — Chromatography, Distillation — part of the chapter on Is Matter Around Us Pure?.",
+          "key_ideas": [
+            "Core principles of separation techniques",
+            "Step-by-step problem solving for separation techniques",
+            "Real-world applications of separation techniques"
+          ]
+        },
+        {
+          "concept_id": "science9.pure_matter.elements_compounds",
+          "title": "Elements, Compounds and Mixtures",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science9.pure_matter.mixtures_solutions"
+          ],
+          "description": "Elements, Compounds and Mixtures — part of the chapter on Is Matter Around Us Pure?.",
+          "key_ideas": [
+            "Core principles of elements, compounds and mixtures",
+            "Step-by-step problem solving for elements, compounds and mixtures",
+            "Real-world applications of elements, compounds and mixtures"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Atoms and Molecules",
+      "concepts": [
+        {
+          "concept_id": "science9.atoms_molecules.laws_chemical",
+          "title": "Laws of Chemical Combination",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Laws of Chemical Combination — part of the chapter on Atoms and Molecules.",
+          "key_ideas": [
+            "Core principles of laws of chemical combination",
+            "Step-by-step problem solving for laws of chemical combination",
+            "Real-world applications of laws of chemical combination"
+          ]
+        },
+        {
+          "concept_id": "science9.atoms_molecules.atomic_mass",
+          "title": "Atomic Mass and Molecular Mass",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science9.atoms_molecules.laws_chemical"
+          ],
+          "description": "Atomic Mass and Molecular Mass — part of the chapter on Atoms and Molecules.",
+          "key_ideas": [
+            "Core principles of atomic mass and molecular mass",
+            "Step-by-step problem solving for atomic mass and molecular mass",
+            "Real-world applications of atomic mass and molecular mass"
+          ]
+        },
+        {
+          "concept_id": "science9.atoms_molecules.mole_concept",
+          "title": "Mole Concept",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science9.atoms_molecules.atomic_mass"
+          ],
+          "description": "Mole Concept — part of the chapter on Atoms and Molecules.",
+          "key_ideas": [
+            "Core principles of mole concept",
+            "Step-by-step problem solving for mole concept",
+            "Real-world applications of mole concept"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Structure of the Atom",
+      "concepts": [
+        {
+          "concept_id": "science9.atomic_structure.subatomic_particles",
+          "title": "Electrons, Protons and Neutrons",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Electrons, Protons and Neutrons — part of the chapter on Structure of the Atom.",
+          "key_ideas": [
+            "Core principles of electrons, protons and neutrons",
+            "Step-by-step problem solving for electrons, protons and neutrons",
+            "Real-world applications of electrons, protons and neutrons"
+          ]
+        },
+        {
+          "concept_id": "science9.atomic_structure.atomic_models",
+          "title": "Thomson's and Rutherford's Models",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science9.atomic_structure.subatomic_particles"
+          ],
+          "description": "Thomson's and Rutherford's Models — part of the chapter on Structure of the Atom.",
+          "key_ideas": [
+            "Core principles of thomson's and rutherford's models",
+            "Step-by-step problem solving for thomson's and rutherford's models",
+            "Real-world applications of thomson's and rutherford's models"
+          ]
+        },
+        {
+          "concept_id": "science9.atomic_structure.bohr_model",
+          "title": "Bohr's Model and Electron Configuration",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science9.atomic_structure.atomic_models"
+          ],
+          "description": "Bohr's Model and Electron Configuration — part of the chapter on Structure of the Atom.",
+          "key_ideas": [
+            "Core principles of bohr's model and electron configuration",
+            "Step-by-step problem solving for bohr's model and electron configuration",
+            "Real-world applications of bohr's model and electron configuration"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "The Fundamental Unit of Life",
+      "concepts": [
+        {
+          "concept_id": "science9.cell_fundamental.cell_structure",
+          "title": "Cell Structure and Organelles",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Cell Structure and Organelles — part of the chapter on The Fundamental Unit of Life.",
+          "key_ideas": [
+            "Core principles of cell structure and organelles",
+            "Step-by-step problem solving for cell structure and organelles",
+            "Real-world applications of cell structure and organelles"
+          ]
+        },
+        {
+          "concept_id": "science9.cell_fundamental.plant_animal_cell",
+          "title": "Plant and Animal Cell Differences",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science9.cell_fundamental.cell_structure"
+          ],
+          "description": "Plant and Animal Cell Differences — part of the chapter on The Fundamental Unit of Life.",
+          "key_ideas": [
+            "Core principles of plant and animal cell differences",
+            "Step-by-step problem solving for plant and animal cell differences",
+            "Real-world applications of plant and animal cell differences"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Tissues",
+      "concepts": [
+        {
+          "concept_id": "science9.tissues.plant_tissues",
+          "title": "Plant Tissues — Meristematic and Permanent",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Plant Tissues — Meristematic and Permanent — part of the chapter on Tissues.",
+          "key_ideas": [
+            "Core principles of plant tissues",
+            "Step-by-step problem solving for plant tissues",
+            "Real-world applications of plant tissues"
+          ]
+        },
+        {
+          "concept_id": "science9.tissues.animal_tissues",
+          "title": "Animal Tissues — Epithelial, Connective, Muscular, Nervous",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Animal Tissues — Epithelial, Connective, Muscular, Nervous — part of the chapter on Tissues.",
+          "key_ideas": [
+            "Core principles of animal tissues",
+            "Step-by-step problem solving for animal tissues",
+            "Real-world applications of animal tissues"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Diversity in Living Organisms",
+      "concepts": [
+        {
+          "concept_id": "science9.diversity.classification",
+          "title": "Basis of Classification",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Basis of Classification — part of the chapter on Diversity in Living Organisms.",
+          "key_ideas": [
+            "Core principles of basis of classification",
+            "Step-by-step problem solving for basis of classification",
+            "Real-world applications of basis of classification"
+          ]
+        },
+        {
+          "concept_id": "science9.diversity.five_kingdoms",
+          "title": "Five Kingdom Classification",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science9.diversity.classification"
+          ],
+          "description": "Five Kingdom Classification — part of the chapter on Diversity in Living Organisms.",
+          "key_ideas": [
+            "Core principles of five kingdom classification",
+            "Step-by-step problem solving for five kingdom classification",
+            "Real-world applications of five kingdom classification"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Motion",
+      "concepts": [
+        {
+          "concept_id": "science9.motion.distance_displacement",
+          "title": "Distance and Displacement",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Distance and Displacement — part of the chapter on Motion.",
+          "key_ideas": [
+            "Core principles of distance and displacement",
+            "Step-by-step problem solving for distance and displacement",
+            "Real-world applications of distance and displacement"
+          ]
+        },
+        {
+          "concept_id": "science9.motion.speed_velocity",
+          "title": "Speed, Velocity and Acceleration",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science9.motion.distance_displacement"
+          ],
+          "description": "Speed, Velocity and Acceleration — part of the chapter on Motion.",
+          "key_ideas": [
+            "Core principles of speed, velocity and acceleration",
+            "Step-by-step problem solving for speed, velocity and acceleration",
+            "Real-world applications of speed, velocity and acceleration"
+          ]
+        },
+        {
+          "concept_id": "science9.motion.equations_of_motion",
+          "title": "Equations of Motion",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science9.motion.speed_velocity"
+          ],
+          "description": "Equations of Motion — part of the chapter on Motion.",
+          "key_ideas": [
+            "Core principles of equations of motion",
+            "Step-by-step problem solving for equations of motion",
+            "Real-world applications of equations of motion"
+          ]
+        },
+        {
+          "concept_id": "science9.motion.graphical_analysis",
+          "title": "Distance-Time and Velocity-Time Graphs",
+          "bloom_level": "analyze",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science9.motion.speed_velocity"
+          ],
+          "description": "Distance-Time and Velocity-Time Graphs — part of the chapter on Motion.",
+          "key_ideas": [
+            "Core principles of distance-time and velocity-time graphs",
+            "Step-by-step problem solving for distance-time and velocity-time graphs",
+            "Real-world applications of distance-time and velocity-time graphs"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Force and Laws of Motion",
+      "concepts": [
+        {
+          "concept_id": "science9.force_laws.newtons_first",
+          "title": "Newton's First Law — Inertia",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Newton's First Law — Inertia — part of the chapter on Force and Laws of Motion.",
+          "key_ideas": [
+            "Core principles of newton's first law",
+            "Step-by-step problem solving for newton's first law",
+            "Real-world applications of newton's first law"
+          ]
+        },
+        {
+          "concept_id": "science9.force_laws.newtons_second",
+          "title": "Newton's Second Law — F=ma",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science9.force_laws.newtons_first"
+          ],
+          "description": "Newton's Second Law — F=ma — part of the chapter on Force and Laws of Motion.",
+          "key_ideas": [
+            "Core principles of newton's second law",
+            "Step-by-step problem solving for newton's second law",
+            "Real-world applications of newton's second law"
+          ]
+        },
+        {
+          "concept_id": "science9.force_laws.newtons_third",
+          "title": "Newton's Third Law — Action and Reaction",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science9.force_laws.newtons_second"
+          ],
+          "description": "Newton's Third Law — Action and Reaction — part of the chapter on Force and Laws of Motion.",
+          "key_ideas": [
+            "Core principles of newton's third law",
+            "Step-by-step problem solving for newton's third law",
+            "Real-world applications of newton's third law"
+          ]
+        },
+        {
+          "concept_id": "science9.force_laws.momentum",
+          "title": "Momentum and Conservation of Momentum",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science9.force_laws.newtons_second"
+          ],
+          "description": "Momentum and Conservation of Momentum — part of the chapter on Force and Laws of Motion.",
+          "key_ideas": [
+            "Core principles of momentum and conservation of momentum",
+            "Step-by-step problem solving for momentum and conservation of momentum",
+            "Real-world applications of momentum and conservation of momentum"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Gravitation",
+      "concepts": [
+        {
+          "concept_id": "science9.gravitation.universal_gravitation",
+          "title": "Universal Law of Gravitation",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Universal Law of Gravitation — part of the chapter on Gravitation.",
+          "key_ideas": [
+            "Core principles of universal law of gravitation",
+            "Step-by-step problem solving for universal law of gravitation",
+            "Real-world applications of universal law of gravitation"
+          ]
+        },
+        {
+          "concept_id": "science9.gravitation.free_fall",
+          "title": "Free Fall and Acceleration Due to Gravity",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science9.gravitation.universal_gravitation"
+          ],
+          "description": "Free Fall and Acceleration Due to Gravity — part of the chapter on Gravitation.",
+          "key_ideas": [
+            "Core principles of free fall and acceleration due to gravity",
+            "Step-by-step problem solving for free fall and acceleration due to gravity",
+            "Real-world applications of free fall and acceleration due to gravity"
+          ]
+        },
+        {
+          "concept_id": "science9.gravitation.mass_weight",
+          "title": "Mass and Weight",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science9.gravitation.free_fall"
+          ],
+          "description": "Mass and Weight — part of the chapter on Gravitation.",
+          "key_ideas": [
+            "Core principles of mass and weight",
+            "Step-by-step problem solving for mass and weight",
+            "Real-world applications of mass and weight"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Work and Energy",
+      "concepts": [
+        {
+          "concept_id": "science9.work_energy.work",
+          "title": "Work Done by a Force",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Work Done by a Force — part of the chapter on Work and Energy.",
+          "key_ideas": [
+            "Core principles of work done by a force",
+            "Step-by-step problem solving for work done by a force",
+            "Real-world applications of work done by a force"
+          ]
+        },
+        {
+          "concept_id": "science9.work_energy.kinetic_potential",
+          "title": "Kinetic and Potential Energy",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science9.work_energy.work"
+          ],
+          "description": "Kinetic and Potential Energy — part of the chapter on Work and Energy.",
+          "key_ideas": [
+            "Core principles of kinetic and potential energy",
+            "Step-by-step problem solving for kinetic and potential energy",
+            "Real-world applications of kinetic and potential energy"
+          ]
+        },
+        {
+          "concept_id": "science9.work_energy.conservation_energy",
+          "title": "Law of Conservation of Energy",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "science9.work_energy.kinetic_potential"
+          ],
+          "description": "Law of Conservation of Energy — part of the chapter on Work and Energy.",
+          "key_ideas": [
+            "Core principles of law of conservation of energy",
+            "Step-by-step problem solving for law of conservation of energy",
+            "Real-world applications of law of conservation of energy"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Sound",
+      "concepts": [
+        {
+          "concept_id": "science9.sound9.production_propagation",
+          "title": "Production and Propagation of Sound",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Production and Propagation of Sound — part of the chapter on Sound.",
+          "key_ideas": [
+            "Core principles of production and propagation of sound",
+            "Step-by-step problem solving for production and propagation of sound",
+            "Real-world applications of production and propagation of sound"
+          ]
+        },
+        {
+          "concept_id": "science9.sound9.characteristics",
+          "title": "Characteristics — Frequency, Amplitude, Speed",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science9.sound9.production_propagation"
+          ],
+          "description": "Characteristics — Frequency, Amplitude, Speed — part of the chapter on Sound.",
+          "key_ideas": [
+            "Core principles of characteristics",
+            "Step-by-step problem solving for characteristics",
+            "Real-world applications of characteristics"
+          ]
+        },
+        {
+          "concept_id": "science9.sound9.echo_resonance",
+          "title": "Echo, Reverberation and Resonance",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science9.sound9.characteristics"
+          ],
+          "description": "Echo, Reverberation and Resonance — part of the chapter on Sound.",
+          "key_ideas": [
+            "Core principles of echo, reverberation and resonance",
+            "Step-by-step problem solving for echo, reverberation and resonance",
+            "Real-world applications of echo, reverberation and resonance"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Why Do We Fall Ill?",
+      "concepts": [
+        {
+          "concept_id": "science9.health.health_disease",
+          "title": "Health and Disease",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Health and Disease — part of the chapter on Why Do We Fall Ill?.",
+          "key_ideas": [
+            "Core principles of health and disease",
+            "Step-by-step problem solving for health and disease",
+            "Real-world applications of health and disease"
+          ]
+        },
+        {
+          "concept_id": "science9.health.infectious_diseases",
+          "title": "Infectious Diseases — Causes and Prevention",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science9.health.health_disease"
+          ],
+          "description": "Infectious Diseases — Causes and Prevention — part of the chapter on Why Do We Fall Ill?.",
+          "key_ideas": [
+            "Core principles of infectious diseases",
+            "Step-by-step problem solving for infectious diseases",
+            "Real-world applications of infectious diseases"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Natural Resources",
+      "concepts": [
+        {
+          "concept_id": "science9.natural_resources.biogeochemical_cycles",
+          "title": "Biogeochemical Cycles — Water, Carbon, Nitrogen",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Biogeochemical Cycles — Water, Carbon, Nitrogen — part of the chapter on Natural Resources.",
+          "key_ideas": [
+            "Core principles of biogeochemical cycles",
+            "Step-by-step problem solving for biogeochemical cycles",
+            "Real-world applications of biogeochemical cycles"
+          ]
+        },
+        {
+          "concept_id": "science9.natural_resources.pollution_ozone",
+          "title": "Pollution and Ozone Layer",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Pollution and Ozone Layer — part of the chapter on Natural Resources.",
+          "key_ideas": [
+            "Core principles of pollution and ozone layer",
+            "Step-by-step problem solving for pollution and ozone layer",
+            "Real-world applications of pollution and ozone layer"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Improvement in Food Resources",
+      "concepts": [
+        {
+          "concept_id": "science9.food_resources.crop_improvement",
+          "title": "Crop Improvement and Management",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Crop Improvement and Management — part of the chapter on Improvement in Food Resources.",
+          "key_ideas": [
+            "Core principles of crop improvement and management",
+            "Step-by-step problem solving for crop improvement and management",
+            "Real-world applications of crop improvement and management"
+          ]
+        },
+        {
+          "concept_id": "science9.food_resources.animal_husbandry",
+          "title": "Animal Husbandry",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Animal Husbandry — part of the chapter on Improvement in Food Resources.",
+          "key_ideas": [
+            "Core principles of animal husbandry",
+            "Step-by-step problem solving for animal husbandry",
+            "Real-world applications of animal husbandry"
+          ]
+        }
+      ]
+    }
+  ]
+}

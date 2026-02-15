@@ -1,0 +1,715 @@
+{
+  "course_id": "math11",
+  "title": "Class 11 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Sets",
+      "concepts": [
+        {
+          "concept_id": "math11.sets.set_notation",
+          "title": "Set Notation and Representation",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Set Notation and Representation — part of the chapter on Sets.",
+          "key_ideas": [
+            "Core principles of set notation and representation",
+            "Step-by-step problem solving for set notation and representation",
+            "Real-world applications of set notation and representation"
+          ]
+        },
+        {
+          "concept_id": "math11.sets.types_of_sets",
+          "title": "Types of Sets (Empty, Finite, Infinite, Equal)",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math11.sets.set_notation"
+          ],
+          "description": "Types of Sets (Empty, Finite, Infinite, Equal) — part of the chapter on Sets.",
+          "key_ideas": [
+            "Core principles of types of sets (empty, finite, infinite, equal)",
+            "Step-by-step problem solving for types of sets (empty, finite, infinite, equal)",
+            "Real-world applications of types of sets (empty, finite, infinite, equal)"
+          ]
+        },
+        {
+          "concept_id": "math11.sets.venn_diagrams",
+          "title": "Venn Diagrams and Set Operations",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math11.sets.types_of_sets"
+          ],
+          "description": "Venn Diagrams and Set Operations — part of the chapter on Sets.",
+          "key_ideas": [
+            "Core principles of venn diagrams and set operations",
+            "Step-by-step problem solving for venn diagrams and set operations",
+            "Real-world applications of venn diagrams and set operations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Relations and Functions",
+      "concepts": [
+        {
+          "concept_id": "math11.relations_functions.cartesian_product",
+          "title": "Cartesian Product of Sets",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Cartesian Product of Sets — part of the chapter on Relations and Functions.",
+          "key_ideas": [
+            "Core principles of cartesian product of sets",
+            "Step-by-step problem solving for cartesian product of sets",
+            "Real-world applications of cartesian product of sets"
+          ]
+        },
+        {
+          "concept_id": "math11.relations_functions.relations",
+          "title": "Relations — Domain, Codomain, Range",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math11.relations_functions.cartesian_product"
+          ],
+          "description": "Relations — Domain, Codomain, Range — part of the chapter on Relations and Functions.",
+          "key_ideas": [
+            "Core principles of relations",
+            "Step-by-step problem solving for relations",
+            "Real-world applications of relations"
+          ]
+        },
+        {
+          "concept_id": "math11.relations_functions.functions",
+          "title": "Functions — Types and Graphs",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math11.relations_functions.relations"
+          ],
+          "description": "Functions — Types and Graphs — part of the chapter on Relations and Functions.",
+          "key_ideas": [
+            "Core principles of functions",
+            "Step-by-step problem solving for functions",
+            "Real-world applications of functions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Trigonometric Functions",
+      "concepts": [
+        {
+          "concept_id": "math11.trig_functions.angles_measurement",
+          "title": "Angles and Their Measurement (Degrees and Radians)",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Angles and Their Measurement (Degrees and Radians) — part of the chapter on Trigonometric Functions.",
+          "key_ideas": [
+            "Core principles of angles and their measurement (degrees and radians)",
+            "Step-by-step problem solving for angles and their measurement (degrees and radians)",
+            "Real-world applications of angles and their measurement (degrees and radians)"
+          ]
+        },
+        {
+          "concept_id": "math11.trig_functions.trig_all_angles",
+          "title": "Trigonometric Functions of Any Angle",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math11.trig_functions.angles_measurement"
+          ],
+          "description": "Trigonometric Functions of Any Angle — part of the chapter on Trigonometric Functions.",
+          "key_ideas": [
+            "Core principles of trigonometric functions of any angle",
+            "Step-by-step problem solving for trigonometric functions of any angle",
+            "Real-world applications of trigonometric functions of any angle"
+          ]
+        },
+        {
+          "concept_id": "math11.trig_functions.trig_identities",
+          "title": "Trigonometric Identities and Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math11.trig_functions.trig_all_angles"
+          ],
+          "description": "Trigonometric Identities and Equations — part of the chapter on Trigonometric Functions.",
+          "key_ideas": [
+            "Core principles of trigonometric identities and equations",
+            "Step-by-step problem solving for trigonometric identities and equations",
+            "Real-world applications of trigonometric identities and equations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Principle of Mathematical Induction",
+      "concepts": [
+        {
+          "concept_id": "math11.induction.pmi",
+          "title": "Principle of Mathematical Induction",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Principle of Mathematical Induction — part of the chapter on Principle of Mathematical Induction.",
+          "key_ideas": [
+            "Core principles of principle of mathematical induction",
+            "Step-by-step problem solving for principle of mathematical induction",
+            "Real-world applications of principle of mathematical induction"
+          ]
+        },
+        {
+          "concept_id": "math11.induction.applications_pmi",
+          "title": "Applications of PMI",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "math11.induction.pmi"
+          ],
+          "description": "Applications of PMI — part of the chapter on Principle of Mathematical Induction.",
+          "key_ideas": [
+            "Core principles of applications of pmi",
+            "Step-by-step problem solving for applications of pmi",
+            "Real-world applications of applications of pmi"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Complex Numbers and Quadratic Equations",
+      "concepts": [
+        {
+          "concept_id": "math11.complex_numbers.complex_intro",
+          "title": "Complex Numbers — Definition and Algebra",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Complex Numbers — Definition and Algebra — part of the chapter on Complex Numbers and Quadratic Equations.",
+          "key_ideas": [
+            "Core principles of complex numbers",
+            "Step-by-step problem solving for complex numbers",
+            "Real-world applications of complex numbers"
+          ]
+        },
+        {
+          "concept_id": "math11.complex_numbers.argand_plane",
+          "title": "Argand Plane and Modulus",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.complex_numbers.complex_intro"
+          ],
+          "description": "Argand Plane and Modulus — part of the chapter on Complex Numbers and Quadratic Equations.",
+          "key_ideas": [
+            "Core principles of argand plane and modulus",
+            "Step-by-step problem solving for argand plane and modulus",
+            "Real-world applications of argand plane and modulus"
+          ]
+        },
+        {
+          "concept_id": "math11.complex_numbers.quadratic_complex",
+          "title": "Quadratic Equations with Complex Roots",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math11.complex_numbers.argand_plane"
+          ],
+          "description": "Quadratic Equations with Complex Roots — part of the chapter on Complex Numbers and Quadratic Equations.",
+          "key_ideas": [
+            "Core principles of quadratic equations with complex roots",
+            "Step-by-step problem solving for quadratic equations with complex roots",
+            "Real-world applications of quadratic equations with complex roots"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Linear Inequalities",
+      "concepts": [
+        {
+          "concept_id": "math11.linear_inequalities.solving_inequalities",
+          "title": "Solving Linear Inequalities",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Solving Linear Inequalities — part of the chapter on Linear Inequalities.",
+          "key_ideas": [
+            "Core principles of solving linear inequalities",
+            "Step-by-step problem solving for solving linear inequalities",
+            "Real-world applications of solving linear inequalities"
+          ]
+        },
+        {
+          "concept_id": "math11.linear_inequalities.graphical_solution",
+          "title": "Graphical Solution of Inequalities",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math11.linear_inequalities.solving_inequalities"
+          ],
+          "description": "Graphical Solution of Inequalities — part of the chapter on Linear Inequalities.",
+          "key_ideas": [
+            "Core principles of graphical solution of inequalities",
+            "Step-by-step problem solving for graphical solution of inequalities",
+            "Real-world applications of graphical solution of inequalities"
+          ]
+        },
+        {
+          "concept_id": "math11.linear_inequalities.system_inequalities",
+          "title": "System of Linear Inequalities",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.linear_inequalities.graphical_solution"
+          ],
+          "description": "System of Linear Inequalities — part of the chapter on Linear Inequalities.",
+          "key_ideas": [
+            "Core principles of system of linear inequalities",
+            "Step-by-step problem solving for system of linear inequalities",
+            "Real-world applications of system of linear inequalities"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Permutations and Combinations",
+      "concepts": [
+        {
+          "concept_id": "math11.permutations.counting_principle",
+          "title": "Fundamental Principle of Counting",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Fundamental Principle of Counting — part of the chapter on Permutations and Combinations.",
+          "key_ideas": [
+            "Core principles of fundamental principle of counting",
+            "Step-by-step problem solving for fundamental principle of counting",
+            "Real-world applications of fundamental principle of counting"
+          ]
+        },
+        {
+          "concept_id": "math11.permutations.permutations",
+          "title": "Permutations",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.permutations.counting_principle"
+          ],
+          "description": "Permutations — part of the chapter on Permutations and Combinations.",
+          "key_ideas": [
+            "Core principles of permutations",
+            "Step-by-step problem solving for permutations",
+            "Real-world applications of permutations"
+          ]
+        },
+        {
+          "concept_id": "math11.permutations.combinations",
+          "title": "Combinations",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.permutations.permutations"
+          ],
+          "description": "Combinations — part of the chapter on Permutations and Combinations.",
+          "key_ideas": [
+            "Core principles of combinations",
+            "Step-by-step problem solving for combinations",
+            "Real-world applications of combinations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Binomial Theorem",
+      "concepts": [
+        {
+          "concept_id": "math11.binomial.binomial_theorem",
+          "title": "Binomial Theorem for Positive Integers",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Binomial Theorem for Positive Integers — part of the chapter on Binomial Theorem.",
+          "key_ideas": [
+            "Core principles of binomial theorem for positive integers",
+            "Step-by-step problem solving for binomial theorem for positive integers",
+            "Real-world applications of binomial theorem for positive integers"
+          ]
+        },
+        {
+          "concept_id": "math11.binomial.general_term",
+          "title": "General and Middle Terms",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "math11.binomial.binomial_theorem"
+          ],
+          "description": "General and Middle Terms — part of the chapter on Binomial Theorem.",
+          "key_ideas": [
+            "Core principles of general and middle terms",
+            "Step-by-step problem solving for general and middle terms",
+            "Real-world applications of general and middle terms"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Sequences and Series",
+      "concepts": [
+        {
+          "concept_id": "math11.sequences.ap_gp",
+          "title": "Arithmetic and Geometric Progressions",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Arithmetic and Geometric Progressions — part of the chapter on Sequences and Series.",
+          "key_ideas": [
+            "Core principles of arithmetic and geometric progressions",
+            "Step-by-step problem solving for arithmetic and geometric progressions",
+            "Real-world applications of arithmetic and geometric progressions"
+          ]
+        },
+        {
+          "concept_id": "math11.sequences.sum_series",
+          "title": "Sum of n Terms — AP and GP",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.sequences.ap_gp"
+          ],
+          "description": "Sum of n Terms — AP and GP — part of the chapter on Sequences and Series.",
+          "key_ideas": [
+            "Core principles of sum of n terms",
+            "Step-by-step problem solving for sum of n terms",
+            "Real-world applications of sum of n terms"
+          ]
+        },
+        {
+          "concept_id": "math11.sequences.special_series",
+          "title": "Sum of Special Series",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math11.sequences.sum_series"
+          ],
+          "description": "Sum of Special Series — part of the chapter on Sequences and Series.",
+          "key_ideas": [
+            "Core principles of sum of special series",
+            "Step-by-step problem solving for sum of special series",
+            "Real-world applications of sum of special series"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Straight Lines",
+      "concepts": [
+        {
+          "concept_id": "math11.straight_lines.slope",
+          "title": "Slope of a Line",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Slope of a Line — part of the chapter on Straight Lines.",
+          "key_ideas": [
+            "Core principles of slope of a line",
+            "Step-by-step problem solving for slope of a line",
+            "Real-world applications of slope of a line"
+          ]
+        },
+        {
+          "concept_id": "math11.straight_lines.forms_of_line",
+          "title": "Various Forms of Equation of a Line",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math11.straight_lines.slope"
+          ],
+          "description": "Various Forms of Equation of a Line — part of the chapter on Straight Lines.",
+          "key_ideas": [
+            "Core principles of various forms of equation of a line",
+            "Step-by-step problem solving for various forms of equation of a line",
+            "Real-world applications of various forms of equation of a line"
+          ]
+        },
+        {
+          "concept_id": "math11.straight_lines.distance_line",
+          "title": "Distance of a Point from a Line",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.straight_lines.forms_of_line"
+          ],
+          "description": "Distance of a Point from a Line — part of the chapter on Straight Lines.",
+          "key_ideas": [
+            "Core principles of distance of a point from a line",
+            "Step-by-step problem solving for distance of a point from a line",
+            "Real-world applications of distance of a point from a line"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Conic Sections",
+      "concepts": [
+        {
+          "concept_id": "math11.conic_sections.circle_eq",
+          "title": "Equation of a Circle",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Equation of a Circle — part of the chapter on Conic Sections.",
+          "key_ideas": [
+            "Core principles of equation of a circle",
+            "Step-by-step problem solving for equation of a circle",
+            "Real-world applications of equation of a circle"
+          ]
+        },
+        {
+          "concept_id": "math11.conic_sections.parabola",
+          "title": "Parabola — Standard Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.conic_sections.circle_eq"
+          ],
+          "description": "Parabola — Standard Equations — part of the chapter on Conic Sections.",
+          "key_ideas": [
+            "Core principles of parabola",
+            "Step-by-step problem solving for parabola",
+            "Real-world applications of parabola"
+          ]
+        },
+        {
+          "concept_id": "math11.conic_sections.ellipse_hyperbola",
+          "title": "Ellipse and Hyperbola",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math11.conic_sections.parabola"
+          ],
+          "description": "Ellipse and Hyperbola — part of the chapter on Conic Sections.",
+          "key_ideas": [
+            "Core principles of ellipse and hyperbola",
+            "Step-by-step problem solving for ellipse and hyperbola",
+            "Real-world applications of ellipse and hyperbola"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Introduction to Three Dimensional Geometry",
+      "concepts": [
+        {
+          "concept_id": "math11.three_d_intro.coordinate_axes_3d",
+          "title": "Coordinate Axes and Planes in 3D",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Coordinate Axes and Planes in 3D — part of the chapter on Introduction to Three Dimensional Geometry.",
+          "key_ideas": [
+            "Core principles of coordinate axes and planes in 3d",
+            "Step-by-step problem solving for coordinate axes and planes in 3d",
+            "Real-world applications of coordinate axes and planes in 3d"
+          ]
+        },
+        {
+          "concept_id": "math11.three_d_intro.distance_3d",
+          "title": "Distance Between Two Points in 3D",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math11.three_d_intro.coordinate_axes_3d"
+          ],
+          "description": "Distance Between Two Points in 3D — part of the chapter on Introduction to Three Dimensional Geometry.",
+          "key_ideas": [
+            "Core principles of distance between two points in 3d",
+            "Step-by-step problem solving for distance between two points in 3d",
+            "Real-world applications of distance between two points in 3d"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Limits and Derivatives",
+      "concepts": [
+        {
+          "concept_id": "math11.limits_derivatives.limits",
+          "title": "Intuitive Idea of Limits",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Intuitive Idea of Limits — part of the chapter on Limits and Derivatives.",
+          "key_ideas": [
+            "Core principles of intuitive idea of limits",
+            "Step-by-step problem solving for intuitive idea of limits",
+            "Real-world applications of intuitive idea of limits"
+          ]
+        },
+        {
+          "concept_id": "math11.limits_derivatives.limit_algebra",
+          "title": "Algebra of Limits",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.limits_derivatives.limits"
+          ],
+          "description": "Algebra of Limits — part of the chapter on Limits and Derivatives.",
+          "key_ideas": [
+            "Core principles of algebra of limits",
+            "Step-by-step problem solving for algebra of limits",
+            "Real-world applications of algebra of limits"
+          ]
+        },
+        {
+          "concept_id": "math11.limits_derivatives.derivatives",
+          "title": "Derivatives — First Principles",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math11.limits_derivatives.limit_algebra"
+          ],
+          "description": "Derivatives — First Principles — part of the chapter on Limits and Derivatives.",
+          "key_ideas": [
+            "Core principles of derivatives",
+            "Step-by-step problem solving for derivatives",
+            "Real-world applications of derivatives"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Mathematical Reasoning",
+      "concepts": [
+        {
+          "concept_id": "math11.reasoning.statements",
+          "title": "Statements and Logical Connectives",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Statements and Logical Connectives — part of the chapter on Mathematical Reasoning.",
+          "key_ideas": [
+            "Core principles of statements and logical connectives",
+            "Step-by-step problem solving for statements and logical connectives",
+            "Real-world applications of statements and logical connectives"
+          ]
+        },
+        {
+          "concept_id": "math11.reasoning.validation",
+          "title": "Validating Statements — Contrapositive, Contradiction",
+          "bloom_level": "analyze",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.reasoning.statements"
+          ],
+          "description": "Validating Statements — Contrapositive, Contradiction — part of the chapter on Mathematical Reasoning.",
+          "key_ideas": [
+            "Core principles of validating statements",
+            "Step-by-step problem solving for validating statements",
+            "Real-world applications of validating statements"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Statistics",
+      "concepts": [
+        {
+          "concept_id": "math11.statistics.dispersion",
+          "title": "Measures of Dispersion",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Measures of Dispersion — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of measures of dispersion",
+            "Step-by-step problem solving for measures of dispersion",
+            "Real-world applications of measures of dispersion"
+          ]
+        },
+        {
+          "concept_id": "math11.statistics.mean_deviation",
+          "title": "Mean Deviation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math11.statistics.dispersion"
+          ],
+          "description": "Mean Deviation — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of mean deviation",
+            "Step-by-step problem solving for mean deviation",
+            "Real-world applications of mean deviation"
+          ]
+        },
+        {
+          "concept_id": "math11.statistics.variance_sd",
+          "title": "Variance and Standard Deviation",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math11.statistics.mean_deviation"
+          ],
+          "description": "Variance and Standard Deviation — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of variance and standard deviation",
+            "Step-by-step problem solving for variance and standard deviation",
+            "Real-world applications of variance and standard deviation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch16",
+      "title": "Probability",
+      "concepts": [
+        {
+          "concept_id": "math11.probability.random_experiments",
+          "title": "Random Experiments and Events",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Random Experiments and Events — part of the chapter on Probability.",
+          "key_ideas": [
+            "Core principles of random experiments and events",
+            "Step-by-step problem solving for random experiments and events",
+            "Real-world applications of random experiments and events"
+          ]
+        },
+        {
+          "concept_id": "math11.probability.axiomatic_prob",
+          "title": "Axiomatic Approach to Probability",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math11.probability.random_experiments"
+          ],
+          "description": "Axiomatic Approach to Probability — part of the chapter on Probability.",
+          "key_ideas": [
+            "Core principles of axiomatic approach to probability",
+            "Step-by-step problem solving for axiomatic approach to probability",
+            "Real-world applications of axiomatic approach to probability"
+          ]
+        }
+      ]
+    }
+  ]
+}

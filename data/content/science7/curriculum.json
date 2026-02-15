@@ -1,0 +1,538 @@
+{
+  "course_id": "science7",
+  "title": "Class 7 Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Nutrition in Plants",
+      "concepts": [
+        {
+          "concept_id": "science7.nutrition_plants.photosynthesis",
+          "title": "Photosynthesis",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Photosynthesis — part of the chapter on Nutrition in Plants.",
+          "key_ideas": [
+            "Core principles of photosynthesis",
+            "Step-by-step problem solving for photosynthesis",
+            "Real-world applications of photosynthesis"
+          ]
+        },
+        {
+          "concept_id": "science7.nutrition_plants.modes_nutrition",
+          "title": "Autotrophic and Heterotrophic Nutrition",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Autotrophic and Heterotrophic Nutrition — part of the chapter on Nutrition in Plants.",
+          "key_ideas": [
+            "Core principles of autotrophic and heterotrophic nutrition",
+            "Step-by-step problem solving for autotrophic and heterotrophic nutrition",
+            "Real-world applications of autotrophic and heterotrophic nutrition"
+          ]
+        },
+        {
+          "concept_id": "science7.nutrition_plants.symbiosis",
+          "title": "Symbiotic Relationships",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science7.nutrition_plants.modes_nutrition"
+          ],
+          "description": "Symbiotic Relationships — part of the chapter on Nutrition in Plants.",
+          "key_ideas": [
+            "Core principles of symbiotic relationships",
+            "Step-by-step problem solving for symbiotic relationships",
+            "Real-world applications of symbiotic relationships"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Nutrition in Animals",
+      "concepts": [
+        {
+          "concept_id": "science7.nutrition_animals.digestion_humans",
+          "title": "Human Digestive System",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Human Digestive System — part of the chapter on Nutrition in Animals.",
+          "key_ideas": [
+            "Core principles of human digestive system",
+            "Step-by-step problem solving for human digestive system",
+            "Real-world applications of human digestive system"
+          ]
+        },
+        {
+          "concept_id": "science7.nutrition_animals.digestion_animals",
+          "title": "Digestion in Grass-Eating Animals",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Digestion in Grass-Eating Animals — part of the chapter on Nutrition in Animals.",
+          "key_ideas": [
+            "Core principles of digestion in grass-eating animals",
+            "Step-by-step problem solving for digestion in grass-eating animals",
+            "Real-world applications of digestion in grass-eating animals"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Heat",
+      "concepts": [
+        {
+          "concept_id": "science7.heat.temperature",
+          "title": "Temperature and Thermometer",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Temperature and Thermometer — part of the chapter on Heat.",
+          "key_ideas": [
+            "Core principles of temperature and thermometer",
+            "Step-by-step problem solving for temperature and thermometer",
+            "Real-world applications of temperature and thermometer"
+          ]
+        },
+        {
+          "concept_id": "science7.heat.conduction_convection",
+          "title": "Conduction, Convection and Radiation",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science7.heat.temperature"
+          ],
+          "description": "Conduction, Convection and Radiation — part of the chapter on Heat.",
+          "key_ideas": [
+            "Core principles of conduction, convection and radiation",
+            "Step-by-step problem solving for conduction, convection and radiation",
+            "Real-world applications of conduction, convection and radiation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Acids, Bases and Salts",
+      "concepts": [
+        {
+          "concept_id": "science7.acids_bases.indicators",
+          "title": "Indicators — Litmus, Turmeric",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Indicators — Litmus, Turmeric — part of the chapter on Acids, Bases and Salts.",
+          "key_ideas": [
+            "Core principles of indicators",
+            "Step-by-step problem solving for indicators",
+            "Real-world applications of indicators"
+          ]
+        },
+        {
+          "concept_id": "science7.acids_bases.neutralisation",
+          "title": "Neutralisation Reaction",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science7.acids_bases.indicators"
+          ],
+          "description": "Neutralisation Reaction — part of the chapter on Acids, Bases and Salts.",
+          "key_ideas": [
+            "Core principles of neutralisation reaction",
+            "Step-by-step problem solving for neutralisation reaction",
+            "Real-world applications of neutralisation reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Physical and Chemical Changes",
+      "concepts": [
+        {
+          "concept_id": "science7.physical_chemical.physical_change",
+          "title": "Physical Changes",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Physical Changes — part of the chapter on Physical and Chemical Changes.",
+          "key_ideas": [
+            "Core principles of physical changes",
+            "Step-by-step problem solving for physical changes",
+            "Real-world applications of physical changes"
+          ]
+        },
+        {
+          "concept_id": "science7.physical_chemical.chemical_change",
+          "title": "Chemical Changes",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science7.physical_chemical.physical_change"
+          ],
+          "description": "Chemical Changes — part of the chapter on Physical and Chemical Changes.",
+          "key_ideas": [
+            "Core principles of chemical changes",
+            "Step-by-step problem solving for chemical changes",
+            "Real-world applications of chemical changes"
+          ]
+        },
+        {
+          "concept_id": "science7.physical_chemical.rusting_crystallisation",
+          "title": "Rusting and Crystallisation",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science7.physical_chemical.chemical_change"
+          ],
+          "description": "Rusting and Crystallisation — part of the chapter on Physical and Chemical Changes.",
+          "key_ideas": [
+            "Core principles of rusting and crystallisation",
+            "Step-by-step problem solving for rusting and crystallisation",
+            "Real-world applications of rusting and crystallisation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Weather, Climate and Adaptations",
+      "concepts": [
+        {
+          "concept_id": "science7.weather.weather_climate",
+          "title": "Weather vs Climate",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Weather vs Climate — part of the chapter on Weather, Climate and Adaptations.",
+          "key_ideas": [
+            "Core principles of weather vs climate",
+            "Step-by-step problem solving for weather vs climate",
+            "Real-world applications of weather vs climate"
+          ]
+        },
+        {
+          "concept_id": "science7.weather.adaptations",
+          "title": "Adaptations of Animals to Climate",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science7.weather.weather_climate"
+          ],
+          "description": "Adaptations of Animals to Climate — part of the chapter on Weather, Climate and Adaptations.",
+          "key_ideas": [
+            "Core principles of adaptations of animals to climate",
+            "Step-by-step problem solving for adaptations of animals to climate",
+            "Real-world applications of adaptations of animals to climate"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Soil",
+      "concepts": [
+        {
+          "concept_id": "science7.soil.soil_profile",
+          "title": "Soil Profile and Types",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Soil Profile and Types — part of the chapter on Soil.",
+          "key_ideas": [
+            "Core principles of soil profile and types",
+            "Step-by-step problem solving for soil profile and types",
+            "Real-world applications of soil profile and types"
+          ]
+        },
+        {
+          "concept_id": "science7.soil.soil_moisture",
+          "title": "Soil and Moisture Absorption",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science7.soil.soil_profile"
+          ],
+          "description": "Soil and Moisture Absorption — part of the chapter on Soil.",
+          "key_ideas": [
+            "Core principles of soil and moisture absorption",
+            "Step-by-step problem solving for soil and moisture absorption",
+            "Real-world applications of soil and moisture absorption"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Respiration in Organisms",
+      "concepts": [
+        {
+          "concept_id": "science7.respiration.breathing",
+          "title": "Breathing and Respiration",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Breathing and Respiration — part of the chapter on Respiration in Organisms.",
+          "key_ideas": [
+            "Core principles of breathing and respiration",
+            "Step-by-step problem solving for breathing and respiration",
+            "Real-world applications of breathing and respiration"
+          ]
+        },
+        {
+          "concept_id": "science7.respiration.aerobic_anaerobic",
+          "title": "Aerobic and Anaerobic Respiration",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science7.respiration.breathing"
+          ],
+          "description": "Aerobic and Anaerobic Respiration — part of the chapter on Respiration in Organisms.",
+          "key_ideas": [
+            "Core principles of aerobic and anaerobic respiration",
+            "Step-by-step problem solving for aerobic and anaerobic respiration",
+            "Real-world applications of aerobic and anaerobic respiration"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Transportation in Animals and Plants",
+      "concepts": [
+        {
+          "concept_id": "science7.transport_plants_animals.circulatory",
+          "title": "Circulatory System — Blood, Heart",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Circulatory System — Blood, Heart — part of the chapter on Transportation in Animals and Plants.",
+          "key_ideas": [
+            "Core principles of circulatory system",
+            "Step-by-step problem solving for circulatory system",
+            "Real-world applications of circulatory system"
+          ]
+        },
+        {
+          "concept_id": "science7.transport_plants_animals.transport_plants",
+          "title": "Transport of Water and Nutrients in Plants",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Transport of Water and Nutrients in Plants — part of the chapter on Transportation in Animals and Plants.",
+          "key_ideas": [
+            "Core principles of transport of water and nutrients in plants",
+            "Step-by-step problem solving for transport of water and nutrients in plants",
+            "Real-world applications of transport of water and nutrients in plants"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Reproduction in Plants",
+      "concepts": [
+        {
+          "concept_id": "science7.reproduction_plants.asexual",
+          "title": "Vegetative Propagation, Budding, Fragmentation",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Vegetative Propagation, Budding, Fragmentation — part of the chapter on Reproduction in Plants.",
+          "key_ideas": [
+            "Core principles of vegetative propagation, budding, fragmentation",
+            "Step-by-step problem solving for vegetative propagation, budding, fragmentation",
+            "Real-world applications of vegetative propagation, budding, fragmentation"
+          ]
+        },
+        {
+          "concept_id": "science7.reproduction_plants.sexual_plants",
+          "title": "Pollination and Fertilisation",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science7.reproduction_plants.asexual"
+          ],
+          "description": "Pollination and Fertilisation — part of the chapter on Reproduction in Plants.",
+          "key_ideas": [
+            "Core principles of pollination and fertilisation",
+            "Step-by-step problem solving for pollination and fertilisation",
+            "Real-world applications of pollination and fertilisation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Motion and Time",
+      "concepts": [
+        {
+          "concept_id": "science7.motion_time.speed",
+          "title": "Speed and Its Measurement",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Speed and Its Measurement — part of the chapter on Motion and Time.",
+          "key_ideas": [
+            "Core principles of speed and its measurement",
+            "Step-by-step problem solving for speed and its measurement",
+            "Real-world applications of speed and its measurement"
+          ]
+        },
+        {
+          "concept_id": "science7.motion_time.distance_time_graph",
+          "title": "Distance-Time Graph",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science7.motion_time.speed"
+          ],
+          "description": "Distance-Time Graph — part of the chapter on Motion and Time.",
+          "key_ideas": [
+            "Core principles of distance-time graph",
+            "Step-by-step problem solving for distance-time graph",
+            "Real-world applications of distance-time graph"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Electric Current and Its Effects",
+      "concepts": [
+        {
+          "concept_id": "science7.electric_current.heating_effect",
+          "title": "Heating Effect of Electric Current",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Heating Effect of Electric Current — part of the chapter on Electric Current and Its Effects.",
+          "key_ideas": [
+            "Core principles of heating effect of electric current",
+            "Step-by-step problem solving for heating effect of electric current",
+            "Real-world applications of heating effect of electric current"
+          ]
+        },
+        {
+          "concept_id": "science7.electric_current.magnetic_effect",
+          "title": "Magnetic Effect of Current — Electromagnet",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science7.electric_current.heating_effect"
+          ],
+          "description": "Magnetic Effect of Current — Electromagnet — part of the chapter on Electric Current and Its Effects.",
+          "key_ideas": [
+            "Core principles of magnetic effect of current",
+            "Step-by-step problem solving for magnetic effect of current",
+            "Real-world applications of magnetic effect of current"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Light",
+      "concepts": [
+        {
+          "concept_id": "science7.light7.reflection_light",
+          "title": "Reflection of Light",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Reflection of Light — part of the chapter on Light.",
+          "key_ideas": [
+            "Core principles of reflection of light",
+            "Step-by-step problem solving for reflection of light",
+            "Real-world applications of reflection of light"
+          ]
+        },
+        {
+          "concept_id": "science7.light7.dispersion",
+          "title": "Dispersion of Light — Spectrum",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "science7.light7.reflection_light"
+          ],
+          "description": "Dispersion of Light — Spectrum — part of the chapter on Light.",
+          "key_ideas": [
+            "Core principles of dispersion of light",
+            "Step-by-step problem solving for dispersion of light",
+            "Real-world applications of dispersion of light"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Water: A Precious Resource",
+      "concepts": [
+        {
+          "concept_id": "science7.water7.water_distribution",
+          "title": "Distribution of Water on Earth",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Distribution of Water on Earth — part of the chapter on Water: A Precious Resource.",
+          "key_ideas": [
+            "Core principles of distribution of water on earth",
+            "Step-by-step problem solving for distribution of water on earth",
+            "Real-world applications of distribution of water on earth"
+          ]
+        },
+        {
+          "concept_id": "science7.water7.water_management",
+          "title": "Water Management and Harvesting",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science7.water7.water_distribution"
+          ],
+          "description": "Water Management and Harvesting — part of the chapter on Water: A Precious Resource.",
+          "key_ideas": [
+            "Core principles of water management and harvesting",
+            "Step-by-step problem solving for water management and harvesting",
+            "Real-world applications of water management and harvesting"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Forests: Our Lifeline",
+      "concepts": [
+        {
+          "concept_id": "science7.forests.food_chains",
+          "title": "Food Chains and Food Webs",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Food Chains and Food Webs — part of the chapter on Forests: Our Lifeline.",
+          "key_ideas": [
+            "Core principles of food chains and food webs",
+            "Step-by-step problem solving for food chains and food webs",
+            "Real-world applications of food chains and food webs"
+          ]
+        },
+        {
+          "concept_id": "science7.forests.forest_ecosystem",
+          "title": "Forest as an Ecosystem",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Forest as an Ecosystem — part of the chapter on Forests: Our Lifeline.",
+          "key_ideas": [
+            "Core principles of forest as an ecosystem",
+            "Step-by-step problem solving for forest as an ecosystem",
+            "Real-world applications of forest as an ecosystem"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "course_id": "economics9",
+  "title": "Class 9 Economics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "The Story of Village Palampur",
+      "concepts": [
+        {
+          "concept_id": "economics9.village_economy.factors_production",
+          "title": "Factors of Production — Land, Labour, Capital, Enterprise",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Factors of Production — Land, Labour, Capital, Enterprise — part of the chapter on The Story of Village Palampur.",
+          "key_ideas": [
+            "Core principles of factors of production",
+            "Step-by-step problem solving for factors of production",
+            "Real-world applications of factors of production"
+          ]
+        },
+        {
+          "concept_id": "economics9.village_economy.farming_palampur",
+          "title": "Farming and Non-Farm Activities",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Farming and Non-Farm Activities — part of the chapter on The Story of Village Palampur.",
+          "key_ideas": [
+            "Core principles of farming and non-farm activities",
+            "Step-by-step problem solving for farming and non-farm activities",
+            "Real-world applications of farming and non-farm activities"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "People as Resource",
+      "concepts": [
+        {
+          "concept_id": "economics9.people_as_resource.human_capital",
+          "title": "Human Capital Formation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Human Capital Formation — part of the chapter on People as Resource.",
+          "key_ideas": [
+            "Core principles of human capital formation",
+            "Step-by-step problem solving for human capital formation",
+            "Real-world applications of human capital formation"
+          ]
+        },
+        {
+          "concept_id": "economics9.people_as_resource.unemployment",
+          "title": "Types of Unemployment",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "economics9.people_as_resource.human_capital"
+          ],
+          "description": "Types of Unemployment — part of the chapter on People as Resource.",
+          "key_ideas": [
+            "Core principles of types of unemployment",
+            "Step-by-step problem solving for types of unemployment",
+            "Real-world applications of types of unemployment"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Poverty as a Challenge",
+      "concepts": [
+        {
+          "concept_id": "economics9.poverty.poverty_line",
+          "title": "Poverty Line and Measurement",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Poverty Line and Measurement — part of the chapter on Poverty as a Challenge.",
+          "key_ideas": [
+            "Core principles of poverty line and measurement",
+            "Step-by-step problem solving for poverty line and measurement",
+            "Real-world applications of poverty line and measurement"
+          ]
+        },
+        {
+          "concept_id": "economics9.poverty.poverty_alleviation",
+          "title": "Poverty Alleviation Programmes",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "economics9.poverty.poverty_line"
+          ],
+          "description": "Poverty Alleviation Programmes — part of the chapter on Poverty as a Challenge.",
+          "key_ideas": [
+            "Core principles of poverty alleviation programmes",
+            "Step-by-step problem solving for poverty alleviation programmes",
+            "Real-world applications of poverty alleviation programmes"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Food Security in India",
+      "concepts": [
+        {
+          "concept_id": "economics9.food_security.food_security_concept",
+          "title": "What Is Food Security?",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "What Is Food Security? — part of the chapter on Food Security in India.",
+          "key_ideas": [
+            "Core principles of what is food security?",
+            "Step-by-step problem solving for what is food security?",
+            "Real-world applications of what is food security?"
+          ]
+        },
+        {
+          "concept_id": "economics9.food_security.pds",
+          "title": "Public Distribution System",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "economics9.food_security.food_security_concept"
+          ],
+          "description": "Public Distribution System — part of the chapter on Food Security in India.",
+          "key_ideas": [
+            "Core principles of public distribution system",
+            "Step-by-step problem solving for public distribution system",
+            "Real-world applications of public distribution system"
+          ]
+        }
+      ]
+    }
+  ]
+}

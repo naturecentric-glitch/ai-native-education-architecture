@@ -1,0 +1,296 @@
+{
+  "course_id": "jee_math",
+  "title": "JEE Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Algebra",
+      "concepts": [
+        {
+          "concept_id": "jee_math.algebra.quadratic_theory",
+          "title": "Quadratic Equations — Theory of Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Quadratic Equations — Theory of Equations — part of the chapter on Algebra.",
+          "key_ideas": [
+            "Core principles of quadratic equations",
+            "Step-by-step problem solving for quadratic equations",
+            "Real-world applications of quadratic equations"
+          ]
+        },
+        {
+          "concept_id": "jee_math.algebra.sequences_series",
+          "title": "Sequences, Series and Summation",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Sequences, Series and Summation — part of the chapter on Algebra.",
+          "key_ideas": [
+            "Core principles of sequences, series and summation",
+            "Step-by-step problem solving for sequences, series and summation",
+            "Real-world applications of sequences, series and summation"
+          ]
+        },
+        {
+          "concept_id": "jee_math.algebra.matrices_determinants",
+          "title": "Matrices and Determinants (JEE Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "jee_math.algebra.quadratic_theory"
+          ],
+          "description": "Matrices and Determinants (JEE Level) — part of the chapter on Algebra.",
+          "key_ideas": [
+            "Core principles of matrices and determinants (jee level)",
+            "Step-by-step problem solving for matrices and determinants (jee level)",
+            "Real-world applications of matrices and determinants (jee level)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.algebra.pnc_binomial",
+          "title": "Permutations, Combinations, Binomial Theorem",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Permutations, Combinations, Binomial Theorem — part of the chapter on Algebra.",
+          "key_ideas": [
+            "Core principles of permutations, combinations, binomial theorem",
+            "Step-by-step problem solving for permutations, combinations, binomial theorem",
+            "Real-world applications of permutations, combinations, binomial theorem"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Calculus",
+      "concepts": [
+        {
+          "concept_id": "jee_math.calculus.limits_continuity",
+          "title": "Limits and Continuity (JEE Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [],
+          "description": "Limits and Continuity (JEE Level) — part of the chapter on Calculus.",
+          "key_ideas": [
+            "Core principles of limits and continuity (jee level)",
+            "Step-by-step problem solving for limits and continuity (jee level)",
+            "Real-world applications of limits and continuity (jee level)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.calculus.differentiation_jee",
+          "title": "Differentiation Techniques",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "jee_math.calculus.limits_continuity"
+          ],
+          "description": "Differentiation Techniques — part of the chapter on Calculus.",
+          "key_ideas": [
+            "Core principles of differentiation techniques",
+            "Step-by-step problem solving for differentiation techniques",
+            "Real-world applications of differentiation techniques"
+          ]
+        },
+        {
+          "concept_id": "jee_math.calculus.application_derivatives_jee",
+          "title": "Application of Derivatives — Maxima, Minima, Tangents",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "jee_math.calculus.differentiation_jee"
+          ],
+          "description": "Application of Derivatives — Maxima, Minima, Tangents — part of the chapter on Calculus.",
+          "key_ideas": [
+            "Core principles of application of derivatives",
+            "Step-by-step problem solving for application of derivatives",
+            "Real-world applications of application of derivatives"
+          ]
+        },
+        {
+          "concept_id": "jee_math.calculus.integration_jee",
+          "title": "Definite and Indefinite Integration",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "jee_math.calculus.differentiation_jee"
+          ],
+          "description": "Definite and Indefinite Integration — part of the chapter on Calculus.",
+          "key_ideas": [
+            "Core principles of definite and indefinite integration",
+            "Step-by-step problem solving for definite and indefinite integration",
+            "Real-world applications of definite and indefinite integration"
+          ]
+        },
+        {
+          "concept_id": "jee_math.calculus.differential_equations_jee",
+          "title": "Differential Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "jee_math.calculus.integration_jee"
+          ],
+          "description": "Differential Equations — part of the chapter on Calculus.",
+          "key_ideas": [
+            "Core principles of differential equations",
+            "Step-by-step problem solving for differential equations",
+            "Real-world applications of differential equations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Coordinate Geometry",
+      "concepts": [
+        {
+          "concept_id": "jee_math.coordinate_geometry_jee.straight_lines_jee",
+          "title": "Straight Lines (JEE Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Straight Lines (JEE Level) — part of the chapter on Coordinate Geometry.",
+          "key_ideas": [
+            "Core principles of straight lines (jee level)",
+            "Step-by-step problem solving for straight lines (jee level)",
+            "Real-world applications of straight lines (jee level)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.coordinate_geometry_jee.circles_jee",
+          "title": "Circles",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "jee_math.coordinate_geometry_jee.straight_lines_jee"
+          ],
+          "description": "Circles — part of the chapter on Coordinate Geometry.",
+          "key_ideas": [
+            "Core principles of circles",
+            "Step-by-step problem solving for circles",
+            "Real-world applications of circles"
+          ]
+        },
+        {
+          "concept_id": "jee_math.coordinate_geometry_jee.conics_jee",
+          "title": "Parabola, Ellipse, Hyperbola (JEE Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "jee_math.coordinate_geometry_jee.circles_jee"
+          ],
+          "description": "Parabola, Ellipse, Hyperbola (JEE Level) — part of the chapter on Coordinate Geometry.",
+          "key_ideas": [
+            "Core principles of parabola, ellipse, hyperbola (jee level)",
+            "Step-by-step problem solving for parabola, ellipse, hyperbola (jee level)",
+            "Real-world applications of parabola, ellipse, hyperbola (jee level)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Vectors and 3D Geometry",
+      "concepts": [
+        {
+          "concept_id": "jee_math.vectors_3d_jee.vectors_jee",
+          "title": "Vectors — Dot, Cross Product (JEE Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Vectors — Dot, Cross Product (JEE Level) — part of the chapter on Vectors and 3D Geometry.",
+          "key_ideas": [
+            "Core principles of vectors",
+            "Step-by-step problem solving for vectors",
+            "Real-world applications of vectors"
+          ]
+        },
+        {
+          "concept_id": "jee_math.vectors_3d_jee.3d_geometry_jee",
+          "title": "3D Geometry — Lines, Planes",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "jee_math.vectors_3d_jee.vectors_jee"
+          ],
+          "description": "3D Geometry — Lines, Planes — part of the chapter on Vectors and 3D Geometry.",
+          "key_ideas": [
+            "Core principles of 3d geometry",
+            "Step-by-step problem solving for 3d geometry",
+            "Real-world applications of 3d geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Trigonometry",
+      "concepts": [
+        {
+          "concept_id": "jee_math.trigonometry_jee.trig_equations_jee",
+          "title": "Trigonometric Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Trigonometric Equations — part of the chapter on Trigonometry.",
+          "key_ideas": [
+            "Core principles of trigonometric equations",
+            "Step-by-step problem solving for trigonometric equations",
+            "Real-world applications of trigonometric equations"
+          ]
+        },
+        {
+          "concept_id": "jee_math.trigonometry_jee.inverse_trig_jee",
+          "title": "Inverse Trigonometric Functions (JEE Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "jee_math.trigonometry_jee.trig_equations_jee"
+          ],
+          "description": "Inverse Trigonometric Functions (JEE Level) — part of the chapter on Trigonometry.",
+          "key_ideas": [
+            "Core principles of inverse trigonometric functions (jee level)",
+            "Step-by-step problem solving for inverse trigonometric functions (jee level)",
+            "Real-world applications of inverse trigonometric functions (jee level)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Probability and Statistics",
+      "concepts": [
+        {
+          "concept_id": "jee_math.probability_jee.probability_jee",
+          "title": "Probability (JEE Level)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Probability (JEE Level) — part of the chapter on Probability and Statistics.",
+          "key_ideas": [
+            "Core principles of probability (jee level)",
+            "Step-by-step problem solving for probability (jee level)",
+            "Real-world applications of probability (jee level)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.probability_jee.distributions_jee",
+          "title": "Probability Distributions — Binomial",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "jee_math.probability_jee.probability_jee"
+          ],
+          "description": "Probability Distributions — Binomial — part of the chapter on Probability and Statistics.",
+          "key_ideas": [
+            "Core principles of probability distributions",
+            "Step-by-step problem solving for probability distributions",
+            "Real-world applications of probability distributions"
+          ]
+        }
+      ]
+    }
+  ]
+}

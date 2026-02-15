@@ -1,0 +1,568 @@
+{
+  "course_id": "chemistry12",
+  "title": "Class 12 Chemistry",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "The Solid State",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.solid_state.crystal_lattice",
+          "title": "Crystal Lattice and Unit Cell",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Crystal Lattice and Unit Cell — part of the chapter on The Solid State.",
+          "key_ideas": [
+            "Core principles of crystal lattice and unit cell",
+            "Step-by-step problem solving for crystal lattice and unit cell",
+            "Real-world applications of crystal lattice and unit cell"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.solid_state.packing_defects",
+          "title": "Packing Efficiency and Crystal Defects",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry12.solid_state.crystal_lattice"
+          ],
+          "description": "Packing Efficiency and Crystal Defects — part of the chapter on The Solid State.",
+          "key_ideas": [
+            "Core principles of packing efficiency and crystal defects",
+            "Step-by-step problem solving for packing efficiency and crystal defects",
+            "Real-world applications of packing efficiency and crystal defects"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Solutions",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.solutions.concentration",
+          "title": "Concentration Terms — Molarity, Molality, Mole Fraction",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Concentration Terms — Molarity, Molality, Mole Fraction — part of the chapter on Solutions.",
+          "key_ideas": [
+            "Core principles of concentration terms",
+            "Step-by-step problem solving for concentration terms",
+            "Real-world applications of concentration terms"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.solutions.colligative",
+          "title": "Colligative Properties",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry12.solutions.concentration"
+          ],
+          "description": "Colligative Properties — part of the chapter on Solutions.",
+          "key_ideas": [
+            "Core principles of colligative properties",
+            "Step-by-step problem solving for colligative properties",
+            "Real-world applications of colligative properties"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Electrochemistry",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.electrochemistry.galvanic_cell",
+          "title": "Galvanic Cells and EMF",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Galvanic Cells and EMF — part of the chapter on Electrochemistry.",
+          "key_ideas": [
+            "Core principles of galvanic cells and emf",
+            "Step-by-step problem solving for galvanic cells and emf",
+            "Real-world applications of galvanic cells and emf"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.electrochemistry.nernst_equation",
+          "title": "Nernst Equation",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry12.electrochemistry.galvanic_cell"
+          ],
+          "description": "Nernst Equation — part of the chapter on Electrochemistry.",
+          "key_ideas": [
+            "Core principles of nernst equation",
+            "Step-by-step problem solving for nernst equation",
+            "Real-world applications of nernst equation"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.electrochemistry.electrolysis",
+          "title": "Electrolysis and Faraday's Laws",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry12.electrochemistry.nernst_equation"
+          ],
+          "description": "Electrolysis and Faraday's Laws — part of the chapter on Electrochemistry.",
+          "key_ideas": [
+            "Core principles of electrolysis and faraday's laws",
+            "Step-by-step problem solving for electrolysis and faraday's laws",
+            "Real-world applications of electrolysis and faraday's laws"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Chemical Kinetics",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.chemical_kinetics.rate_law",
+          "title": "Rate of Reaction and Rate Law",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Rate of Reaction and Rate Law — part of the chapter on Chemical Kinetics.",
+          "key_ideas": [
+            "Core principles of rate of reaction and rate law",
+            "Step-by-step problem solving for rate of reaction and rate law",
+            "Real-world applications of rate of reaction and rate law"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.chemical_kinetics.order_molecularity",
+          "title": "Order, Molecularity and Integrated Rate Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry12.chemical_kinetics.rate_law"
+          ],
+          "description": "Order, Molecularity and Integrated Rate Equations — part of the chapter on Chemical Kinetics.",
+          "key_ideas": [
+            "Core principles of order, molecularity and integrated rate equations",
+            "Step-by-step problem solving for order, molecularity and integrated rate equations",
+            "Real-world applications of order, molecularity and integrated rate equations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Surface Chemistry",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.surface_chemistry.adsorption",
+          "title": "Adsorption — Physical and Chemical",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Adsorption — Physical and Chemical — part of the chapter on Surface Chemistry.",
+          "key_ideas": [
+            "Core principles of adsorption",
+            "Step-by-step problem solving for adsorption",
+            "Real-world applications of adsorption"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.surface_chemistry.colloids",
+          "title": "Colloids — Types and Properties",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "chemistry12.surface_chemistry.adsorption"
+          ],
+          "description": "Colloids — Types and Properties — part of the chapter on Surface Chemistry.",
+          "key_ideas": [
+            "Core principles of colloids",
+            "Step-by-step problem solving for colloids",
+            "Real-world applications of colloids"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "General Principles of Isolation of Elements",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.isolation.metallurgy",
+          "title": "Metallurgical Processes",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Metallurgical Processes — part of the chapter on General Principles of Isolation of Elements.",
+          "key_ideas": [
+            "Core principles of metallurgical processes",
+            "Step-by-step problem solving for metallurgical processes",
+            "Real-world applications of metallurgical processes"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.isolation.refining",
+          "title": "Refining of Metals",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "chemistry12.isolation.metallurgy"
+          ],
+          "description": "Refining of Metals — part of the chapter on General Principles of Isolation of Elements.",
+          "key_ideas": [
+            "Core principles of refining of metals",
+            "Step-by-step problem solving for refining of metals",
+            "Real-world applications of refining of metals"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "The p-Block Elements",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.p_block_12.group_15",
+          "title": "Group 15 — Nitrogen Family",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Group 15 — Nitrogen Family — part of the chapter on The p-Block Elements.",
+          "key_ideas": [
+            "Core principles of group 15",
+            "Step-by-step problem solving for group 15",
+            "Real-world applications of group 15"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.p_block_12.group_16",
+          "title": "Group 16 — Oxygen Family",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Group 16 — Oxygen Family — part of the chapter on The p-Block Elements.",
+          "key_ideas": [
+            "Core principles of group 16",
+            "Step-by-step problem solving for group 16",
+            "Real-world applications of group 16"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.p_block_12.group_17_18",
+          "title": "Group 17 (Halogens) and Group 18 (Noble Gases)",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Group 17 (Halogens) and Group 18 (Noble Gases) — part of the chapter on The p-Block Elements.",
+          "key_ideas": [
+            "Core principles of group 17 (halogens) and group 18 (noble gases)",
+            "Step-by-step problem solving for group 17 (halogens) and group 18 (noble gases)",
+            "Real-world applications of group 17 (halogens) and group 18 (noble gases)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "The d- and f-Block Elements",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.d_f_block.transition_metals",
+          "title": "Transition Metals — Properties and Trends",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Transition Metals — Properties and Trends — part of the chapter on The d- and f-Block Elements.",
+          "key_ideas": [
+            "Core principles of transition metals",
+            "Step-by-step problem solving for transition metals",
+            "Real-world applications of transition metals"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.d_f_block.lanthanoids_actinoids",
+          "title": "Lanthanoids and Actinoids",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Lanthanoids and Actinoids — part of the chapter on The d- and f-Block Elements.",
+          "key_ideas": [
+            "Core principles of lanthanoids and actinoids",
+            "Step-by-step problem solving for lanthanoids and actinoids",
+            "Real-world applications of lanthanoids and actinoids"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Coordination Compounds",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.coordination.nomenclature_coord",
+          "title": "Nomenclature of Coordination Compounds",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Nomenclature of Coordination Compounds — part of the chapter on Coordination Compounds.",
+          "key_ideas": [
+            "Core principles of nomenclature of coordination compounds",
+            "Step-by-step problem solving for nomenclature of coordination compounds",
+            "Real-world applications of nomenclature of coordination compounds"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.coordination.isomerism_coord",
+          "title": "Isomerism in Coordination Compounds",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry12.coordination.nomenclature_coord"
+          ],
+          "description": "Isomerism in Coordination Compounds — part of the chapter on Coordination Compounds.",
+          "key_ideas": [
+            "Core principles of isomerism in coordination compounds",
+            "Step-by-step problem solving for isomerism in coordination compounds",
+            "Real-world applications of isomerism in coordination compounds"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.coordination.bonding_coord",
+          "title": "Bonding — VBT and CFT",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "chemistry12.coordination.isomerism_coord"
+          ],
+          "description": "Bonding — VBT and CFT — part of the chapter on Coordination Compounds.",
+          "key_ideas": [
+            "Core principles of bonding",
+            "Step-by-step problem solving for bonding",
+            "Real-world applications of bonding"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Haloalkanes and Haloarenes",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.haloalkanes.preparation_haloalkanes",
+          "title": "Preparation and Properties",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Preparation and Properties — part of the chapter on Haloalkanes and Haloarenes.",
+          "key_ideas": [
+            "Core principles of preparation and properties",
+            "Step-by-step problem solving for preparation and properties",
+            "Real-world applications of preparation and properties"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.haloalkanes.reactions_haloalkanes",
+          "title": "SN1, SN2, Elimination Reactions",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry12.haloalkanes.preparation_haloalkanes"
+          ],
+          "description": "SN1, SN2, Elimination Reactions — part of the chapter on Haloalkanes and Haloarenes.",
+          "key_ideas": [
+            "Core principles of sn1, sn2, elimination reactions",
+            "Step-by-step problem solving for sn1, sn2, elimination reactions",
+            "Real-world applications of sn1, sn2, elimination reactions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Alcohols, Phenols and Ethers",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.alcohols.preparation_alcohols",
+          "title": "Preparation and Physical Properties",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Preparation and Physical Properties — part of the chapter on Alcohols, Phenols and Ethers.",
+          "key_ideas": [
+            "Core principles of preparation and physical properties",
+            "Step-by-step problem solving for preparation and physical properties",
+            "Real-world applications of preparation and physical properties"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.alcohols.reactions_alcohols",
+          "title": "Chemical Reactions of Alcohols and Phenols",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry12.alcohols.preparation_alcohols"
+          ],
+          "description": "Chemical Reactions of Alcohols and Phenols — part of the chapter on Alcohols, Phenols and Ethers.",
+          "key_ideas": [
+            "Core principles of chemical reactions of alcohols and phenols",
+            "Step-by-step problem solving for chemical reactions of alcohols and phenols",
+            "Real-world applications of chemical reactions of alcohols and phenols"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.aldehydes_ketones.preparation_carbonyl",
+          "title": "Preparation of Aldehydes and Ketones",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Preparation of Aldehydes and Ketones — part of the chapter on Aldehydes, Ketones and Carboxylic Acids.",
+          "key_ideas": [
+            "Core principles of preparation of aldehydes and ketones",
+            "Step-by-step problem solving for preparation of aldehydes and ketones",
+            "Real-world applications of preparation of aldehydes and ketones"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.aldehydes_ketones.nucleophilic_addition",
+          "title": "Nucleophilic Addition Reactions",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry12.aldehydes_ketones.preparation_carbonyl"
+          ],
+          "description": "Nucleophilic Addition Reactions — part of the chapter on Aldehydes, Ketones and Carboxylic Acids.",
+          "key_ideas": [
+            "Core principles of nucleophilic addition reactions",
+            "Step-by-step problem solving for nucleophilic addition reactions",
+            "Real-world applications of nucleophilic addition reactions"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.aldehydes_ketones.carboxylic_acids",
+          "title": "Carboxylic Acids — Properties and Reactions",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry12.aldehydes_ketones.nucleophilic_addition"
+          ],
+          "description": "Carboxylic Acids — Properties and Reactions — part of the chapter on Aldehydes, Ketones and Carboxylic Acids.",
+          "key_ideas": [
+            "Core principles of carboxylic acids",
+            "Step-by-step problem solving for carboxylic acids",
+            "Real-world applications of carboxylic acids"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Amines",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.amines.classification_amines",
+          "title": "Classification and Preparation",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Classification and Preparation — part of the chapter on Amines.",
+          "key_ideas": [
+            "Core principles of classification and preparation",
+            "Step-by-step problem solving for classification and preparation",
+            "Real-world applications of classification and preparation"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.amines.reactions_amines",
+          "title": "Chemical Reactions of Amines",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry12.amines.classification_amines"
+          ],
+          "description": "Chemical Reactions of Amines — part of the chapter on Amines.",
+          "key_ideas": [
+            "Core principles of chemical reactions of amines",
+            "Step-by-step problem solving for chemical reactions of amines",
+            "Real-world applications of chemical reactions of amines"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Biomolecules",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.biomolecules.carbohydrates",
+          "title": "Carbohydrates — Mono, Di, Polysaccharides",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Carbohydrates — Mono, Di, Polysaccharides — part of the chapter on Biomolecules.",
+          "key_ideas": [
+            "Core principles of carbohydrates",
+            "Step-by-step problem solving for carbohydrates",
+            "Real-world applications of carbohydrates"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.biomolecules.proteins_nucleic",
+          "title": "Proteins, Enzymes and Nucleic Acids",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "chemistry12.biomolecules.carbohydrates"
+          ],
+          "description": "Proteins, Enzymes and Nucleic Acids — part of the chapter on Biomolecules.",
+          "key_ideas": [
+            "Core principles of proteins, enzymes and nucleic acids",
+            "Step-by-step problem solving for proteins, enzymes and nucleic acids",
+            "Real-world applications of proteins, enzymes and nucleic acids"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Polymers",
+      "concepts": [
+        {
+          "concept_id": "chemistry12.polymers.classification_polymers",
+          "title": "Classification of Polymers",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Classification of Polymers — part of the chapter on Polymers.",
+          "key_ideas": [
+            "Core principles of classification of polymers",
+            "Step-by-step problem solving for classification of polymers",
+            "Real-world applications of classification of polymers"
+          ]
+        },
+        {
+          "concept_id": "chemistry12.polymers.important_polymers",
+          "title": "Important Polymers — Nylon, Bakelite, Rubber",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Important Polymers — Nylon, Bakelite, Rubber — part of the chapter on Polymers.",
+          "key_ideas": [
+            "Core principles of important polymers",
+            "Step-by-step problem solving for important polymers",
+            "Real-world applications of important polymers"
+          ]
+        }
+      ]
+    }
+  ]
+}

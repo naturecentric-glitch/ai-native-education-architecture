@@ -1,0 +1,653 @@
+{
+  "course_id": "math10",
+  "title": "Class 10 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Real Numbers",
+      "concepts": [
+        {
+          "concept_id": "math10.real_numbers.euclid_division",
+          "title": "Euclid's Division Lemma",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Euclid's Division Lemma — part of the chapter on Real Numbers.",
+          "key_ideas": [
+            "Core principles of euclid's division lemma",
+            "Step-by-step problem solving for euclid's division lemma",
+            "Real-world applications of euclid's division lemma"
+          ]
+        },
+        {
+          "concept_id": "math10.real_numbers.fundamental_theorem",
+          "title": "Fundamental Theorem of Arithmetic",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.real_numbers.euclid_division"
+          ],
+          "description": "Fundamental Theorem of Arithmetic — part of the chapter on Real Numbers.",
+          "key_ideas": [
+            "Core principles of fundamental theorem of arithmetic",
+            "Step-by-step problem solving for fundamental theorem of arithmetic",
+            "Real-world applications of fundamental theorem of arithmetic"
+          ]
+        },
+        {
+          "concept_id": "math10.real_numbers.irrational_proofs",
+          "title": "Proof of Irrationality",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.real_numbers.fundamental_theorem"
+          ],
+          "description": "Proof of Irrationality — part of the chapter on Real Numbers.",
+          "key_ideas": [
+            "Core principles of proof of irrationality",
+            "Step-by-step problem solving for proof of irrationality",
+            "Real-world applications of proof of irrationality"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Polynomials",
+      "concepts": [
+        {
+          "concept_id": "math10.polynomials.zeroes_relationship",
+          "title": "Relationship Between Zeroes and Coefficients",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Relationship Between Zeroes and Coefficients — part of the chapter on Polynomials.",
+          "key_ideas": [
+            "Core principles of relationship between zeroes and coefficients",
+            "Step-by-step problem solving for relationship between zeroes and coefficients",
+            "Real-world applications of relationship between zeroes and coefficients"
+          ]
+        },
+        {
+          "concept_id": "math10.polynomials.division_algorithm",
+          "title": "Division Algorithm for Polynomials",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.polynomials.zeroes_relationship"
+          ],
+          "description": "Division Algorithm for Polynomials — part of the chapter on Polynomials.",
+          "key_ideas": [
+            "Core principles of division algorithm for polynomials",
+            "Step-by-step problem solving for division algorithm for polynomials",
+            "Real-world applications of division algorithm for polynomials"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Pair of Linear Equations in Two Variables",
+      "concepts": [
+        {
+          "concept_id": "math10.linear_eq_pair.graphical_method",
+          "title": "Graphical Method of Solution",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Graphical Method of Solution — part of the chapter on Pair of Linear Equations in Two Variables.",
+          "key_ideas": [
+            "Core principles of graphical method of solution",
+            "Step-by-step problem solving for graphical method of solution",
+            "Real-world applications of graphical method of solution"
+          ]
+        },
+        {
+          "concept_id": "math10.linear_eq_pair.algebraic_methods",
+          "title": "Substitution, Elimination, Cross-Multiplication",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.linear_eq_pair.graphical_method"
+          ],
+          "description": "Substitution, Elimination, Cross-Multiplication — part of the chapter on Pair of Linear Equations in Two Variables.",
+          "key_ideas": [
+            "Core principles of substitution, elimination, cross-multiplication",
+            "Step-by-step problem solving for substitution, elimination, cross-multiplication",
+            "Real-world applications of substitution, elimination, cross-multiplication"
+          ]
+        },
+        {
+          "concept_id": "math10.linear_eq_pair.word_problems",
+          "title": "Word Problems on Linear Equation Pairs",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.linear_eq_pair.algebraic_methods"
+          ],
+          "description": "Word Problems on Linear Equation Pairs — part of the chapter on Pair of Linear Equations in Two Variables.",
+          "key_ideas": [
+            "Core principles of word problems on linear equation pairs",
+            "Step-by-step problem solving for word problems on linear equation pairs",
+            "Real-world applications of word problems on linear equation pairs"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Quadratic Equations",
+      "concepts": [
+        {
+          "concept_id": "math10.quadratic_equations.standard_form",
+          "title": "Standard Form and Factorisation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Standard Form and Factorisation — part of the chapter on Quadratic Equations.",
+          "key_ideas": [
+            "Core principles of standard form and factorisation",
+            "Step-by-step problem solving for standard form and factorisation",
+            "Real-world applications of standard form and factorisation"
+          ]
+        },
+        {
+          "concept_id": "math10.quadratic_equations.quadratic_formula",
+          "title": "Quadratic Formula",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.quadratic_equations.standard_form"
+          ],
+          "description": "Quadratic Formula — part of the chapter on Quadratic Equations.",
+          "key_ideas": [
+            "Core principles of quadratic formula",
+            "Step-by-step problem solving for quadratic formula",
+            "Real-world applications of quadratic formula"
+          ]
+        },
+        {
+          "concept_id": "math10.quadratic_equations.nature_of_roots",
+          "title": "Nature of Roots (Discriminant)",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.quadratic_equations.quadratic_formula"
+          ],
+          "description": "Nature of Roots (Discriminant) — part of the chapter on Quadratic Equations.",
+          "key_ideas": [
+            "Core principles of nature of roots (discriminant)",
+            "Step-by-step problem solving for nature of roots (discriminant)",
+            "Real-world applications of nature of roots (discriminant)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Arithmetic Progressions",
+      "concepts": [
+        {
+          "concept_id": "math10.arithmetic_progressions.ap_intro",
+          "title": "Introduction to AP — nth Term",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Introduction to AP — nth Term — part of the chapter on Arithmetic Progressions.",
+          "key_ideas": [
+            "Core principles of introduction to ap",
+            "Step-by-step problem solving for introduction to ap",
+            "Real-world applications of introduction to ap"
+          ]
+        },
+        {
+          "concept_id": "math10.arithmetic_progressions.sum_of_ap",
+          "title": "Sum of First n Terms",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.arithmetic_progressions.ap_intro"
+          ],
+          "description": "Sum of First n Terms — part of the chapter on Arithmetic Progressions.",
+          "key_ideas": [
+            "Core principles of sum of first n terms",
+            "Step-by-step problem solving for sum of first n terms",
+            "Real-world applications of sum of first n terms"
+          ]
+        },
+        {
+          "concept_id": "math10.arithmetic_progressions.ap_applications",
+          "title": "Applications of AP",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.arithmetic_progressions.sum_of_ap"
+          ],
+          "description": "Applications of AP — part of the chapter on Arithmetic Progressions.",
+          "key_ideas": [
+            "Core principles of applications of ap",
+            "Step-by-step problem solving for applications of ap",
+            "Real-world applications of applications of ap"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Triangles",
+      "concepts": [
+        {
+          "concept_id": "math10.triangles.similarity_criteria",
+          "title": "Similarity of Triangles (AA, SSS, SAS)",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Similarity of Triangles (AA, SSS, SAS) — part of the chapter on Triangles.",
+          "key_ideas": [
+            "Core principles of similarity of triangles (aa, sss, sas)",
+            "Step-by-step problem solving for similarity of triangles (aa, sss, sas)",
+            "Real-world applications of similarity of triangles (aa, sss, sas)"
+          ]
+        },
+        {
+          "concept_id": "math10.triangles.bpt",
+          "title": "Basic Proportionality Theorem",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.triangles.similarity_criteria"
+          ],
+          "description": "Basic Proportionality Theorem — part of the chapter on Triangles.",
+          "key_ideas": [
+            "Core principles of basic proportionality theorem",
+            "Step-by-step problem solving for basic proportionality theorem",
+            "Real-world applications of basic proportionality theorem"
+          ]
+        },
+        {
+          "concept_id": "math10.triangles.pythagoras_theorem",
+          "title": "Pythagoras Theorem and Converse",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.triangles.bpt"
+          ],
+          "description": "Pythagoras Theorem and Converse — part of the chapter on Triangles.",
+          "key_ideas": [
+            "Core principles of pythagoras theorem and converse",
+            "Step-by-step problem solving for pythagoras theorem and converse",
+            "Real-world applications of pythagoras theorem and converse"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Coordinate Geometry",
+      "concepts": [
+        {
+          "concept_id": "math10.coordinate_geometry.distance_formula",
+          "title": "Distance Formula",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Distance Formula — part of the chapter on Coordinate Geometry.",
+          "key_ideas": [
+            "Core principles of distance formula",
+            "Step-by-step problem solving for distance formula",
+            "Real-world applications of distance formula"
+          ]
+        },
+        {
+          "concept_id": "math10.coordinate_geometry.section_formula",
+          "title": "Section Formula",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.coordinate_geometry.distance_formula"
+          ],
+          "description": "Section Formula — part of the chapter on Coordinate Geometry.",
+          "key_ideas": [
+            "Core principles of section formula",
+            "Step-by-step problem solving for section formula",
+            "Real-world applications of section formula"
+          ]
+        },
+        {
+          "concept_id": "math10.coordinate_geometry.area_triangle_coord",
+          "title": "Area of Triangle (Coordinates)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.coordinate_geometry.section_formula"
+          ],
+          "description": "Area of Triangle (Coordinates) — part of the chapter on Coordinate Geometry.",
+          "key_ideas": [
+            "Core principles of area of triangle (coordinates)",
+            "Step-by-step problem solving for area of triangle (coordinates)",
+            "Real-world applications of area of triangle (coordinates)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Introduction to Trigonometry",
+      "concepts": [
+        {
+          "concept_id": "math10.trigonometry.trig_ratios",
+          "title": "Trigonometric Ratios",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Trigonometric Ratios — part of the chapter on Introduction to Trigonometry.",
+          "key_ideas": [
+            "Core principles of trigonometric ratios",
+            "Step-by-step problem solving for trigonometric ratios",
+            "Real-world applications of trigonometric ratios"
+          ]
+        },
+        {
+          "concept_id": "math10.trigonometry.trig_specific_angles",
+          "title": "Trig Ratios of Specific Angles",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.trigonometry.trig_ratios"
+          ],
+          "description": "Trig Ratios of Specific Angles — part of the chapter on Introduction to Trigonometry.",
+          "key_ideas": [
+            "Core principles of trig ratios of specific angles",
+            "Step-by-step problem solving for trig ratios of specific angles",
+            "Real-world applications of trig ratios of specific angles"
+          ]
+        },
+        {
+          "concept_id": "math10.trigonometry.trig_identities",
+          "title": "Trigonometric Identities",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.trigonometry.trig_specific_angles"
+          ],
+          "description": "Trigonometric Identities — part of the chapter on Introduction to Trigonometry.",
+          "key_ideas": [
+            "Core principles of trigonometric identities",
+            "Step-by-step problem solving for trigonometric identities",
+            "Real-world applications of trigonometric identities"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Some Applications of Trigonometry",
+      "concepts": [
+        {
+          "concept_id": "math10.trig_applications.heights_distances",
+          "title": "Heights and Distances",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.trigonometry.trig_ratios"
+          ],
+          "description": "Heights and Distances — part of the chapter on Some Applications of Trigonometry.",
+          "key_ideas": [
+            "Core principles of heights and distances",
+            "Step-by-step problem solving for heights and distances",
+            "Real-world applications of heights and distances"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Circles",
+      "concepts": [
+        {
+          "concept_id": "math10.circles.tangent_circle",
+          "title": "Tangent to a Circle",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Tangent to a Circle — part of the chapter on Circles.",
+          "key_ideas": [
+            "Core principles of tangent to a circle",
+            "Step-by-step problem solving for tangent to a circle",
+            "Real-world applications of tangent to a circle"
+          ]
+        },
+        {
+          "concept_id": "math10.circles.tangent_theorems",
+          "title": "Number of Tangents from a Point",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.circles.tangent_circle"
+          ],
+          "description": "Number of Tangents from a Point — part of the chapter on Circles.",
+          "key_ideas": [
+            "Core principles of number of tangents from a point",
+            "Step-by-step problem solving for number of tangents from a point",
+            "Real-world applications of number of tangents from a point"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Constructions",
+      "concepts": [
+        {
+          "concept_id": "math10.constructions.divide_segment",
+          "title": "Division of a Line Segment",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Division of a Line Segment — part of the chapter on Constructions.",
+          "key_ideas": [
+            "Core principles of division of a line segment",
+            "Step-by-step problem solving for division of a line segment",
+            "Real-world applications of division of a line segment"
+          ]
+        },
+        {
+          "concept_id": "math10.constructions.tangent_construction",
+          "title": "Construction of Tangents to a Circle",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.constructions.divide_segment"
+          ],
+          "description": "Construction of Tangents to a Circle — part of the chapter on Constructions.",
+          "key_ideas": [
+            "Core principles of construction of tangents to a circle",
+            "Step-by-step problem solving for construction of tangents to a circle",
+            "Real-world applications of construction of tangents to a circle"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Areas Related to Circles",
+      "concepts": [
+        {
+          "concept_id": "math10.areas_circles.perimeter_area_circle",
+          "title": "Perimeter and Area of Circle",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Perimeter and Area of Circle — part of the chapter on Areas Related to Circles.",
+          "key_ideas": [
+            "Core principles of perimeter and area of circle",
+            "Step-by-step problem solving for perimeter and area of circle",
+            "Real-world applications of perimeter and area of circle"
+          ]
+        },
+        {
+          "concept_id": "math10.areas_circles.sector_segment",
+          "title": "Area of Sector and Segment",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.areas_circles.perimeter_area_circle"
+          ],
+          "description": "Area of Sector and Segment — part of the chapter on Areas Related to Circles.",
+          "key_ideas": [
+            "Core principles of area of sector and segment",
+            "Step-by-step problem solving for area of sector and segment",
+            "Real-world applications of area of sector and segment"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Surface Areas and Volumes",
+      "concepts": [
+        {
+          "concept_id": "math10.surface_area_volume.combination_solids",
+          "title": "Surface Area of Combination of Solids",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Surface Area of Combination of Solids — part of the chapter on Surface Areas and Volumes.",
+          "key_ideas": [
+            "Core principles of surface area of combination of solids",
+            "Step-by-step problem solving for surface area of combination of solids",
+            "Real-world applications of surface area of combination of solids"
+          ]
+        },
+        {
+          "concept_id": "math10.surface_area_volume.volume_combination",
+          "title": "Volume of Combination of Solids",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.surface_area_volume.combination_solids"
+          ],
+          "description": "Volume of Combination of Solids — part of the chapter on Surface Areas and Volumes.",
+          "key_ideas": [
+            "Core principles of volume of combination of solids",
+            "Step-by-step problem solving for volume of combination of solids",
+            "Real-world applications of volume of combination of solids"
+          ]
+        },
+        {
+          "concept_id": "math10.surface_area_volume.frustum",
+          "title": "Frustum of a Cone",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.surface_area_volume.volume_combination"
+          ],
+          "description": "Frustum of a Cone — part of the chapter on Surface Areas and Volumes.",
+          "key_ideas": [
+            "Core principles of frustum of a cone",
+            "Step-by-step problem solving for frustum of a cone",
+            "Real-world applications of frustum of a cone"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Statistics",
+      "concepts": [
+        {
+          "concept_id": "math10.statistics.mean_grouped",
+          "title": "Mean of Grouped Data",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Mean of Grouped Data — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of mean of grouped data",
+            "Step-by-step problem solving for mean of grouped data",
+            "Real-world applications of mean of grouped data"
+          ]
+        },
+        {
+          "concept_id": "math10.statistics.median_grouped",
+          "title": "Median of Grouped Data",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.statistics.mean_grouped"
+          ],
+          "description": "Median of Grouped Data — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of median of grouped data",
+            "Step-by-step problem solving for median of grouped data",
+            "Real-world applications of median of grouped data"
+          ]
+        },
+        {
+          "concept_id": "math10.statistics.mode_grouped",
+          "title": "Mode of Grouped Data",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math10.statistics.mean_grouped"
+          ],
+          "description": "Mode of Grouped Data — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of mode of grouped data",
+            "Step-by-step problem solving for mode of grouped data",
+            "Real-world applications of mode of grouped data"
+          ]
+        },
+        {
+          "concept_id": "math10.statistics.ogive",
+          "title": "Cumulative Frequency and Ogives",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.statistics.median_grouped"
+          ],
+          "description": "Cumulative Frequency and Ogives — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of cumulative frequency and ogives",
+            "Step-by-step problem solving for cumulative frequency and ogives",
+            "Real-world applications of cumulative frequency and ogives"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Probability",
+      "concepts": [
+        {
+          "concept_id": "math10.probability.theoretical_prob",
+          "title": "Theoretical Probability",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Theoretical Probability — part of the chapter on Probability.",
+          "key_ideas": [
+            "Core principles of theoretical probability",
+            "Step-by-step problem solving for theoretical probability",
+            "Real-world applications of theoretical probability"
+          ]
+        },
+        {
+          "concept_id": "math10.probability.prob_events",
+          "title": "Probability of Events (Complement, Impossible, Sure)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math10.probability.theoretical_prob"
+          ],
+          "description": "Probability of Events (Complement, Impossible, Sure) — part of the chapter on Probability.",
+          "key_ideas": [
+            "Core principles of probability of events (complement, impossible, sure)",
+            "Step-by-step problem solving for probability of events (complement, impossible, sure)",
+            "Real-world applications of probability of events (complement, impossible, sure)"
+          ]
+        }
+      ]
+    }
+  ]
+}

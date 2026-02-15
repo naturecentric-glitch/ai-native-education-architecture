@@ -1,0 +1,621 @@
+{
+  "course_id": "math9",
+  "title": "Class 9 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Number Systems",
+      "concepts": [
+        {
+          "concept_id": "math9.number_systems.irrational_numbers",
+          "title": "Irrational Numbers",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Irrational Numbers — part of the chapter on Number Systems.",
+          "key_ideas": [
+            "Core principles of irrational numbers",
+            "Step-by-step problem solving for irrational numbers",
+            "Real-world applications of irrational numbers"
+          ]
+        },
+        {
+          "concept_id": "math9.number_systems.real_number_line",
+          "title": "Real Numbers on Number Line",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.number_systems.irrational_numbers"
+          ],
+          "description": "Real Numbers on Number Line — part of the chapter on Number Systems.",
+          "key_ideas": [
+            "Core principles of real numbers on number line",
+            "Step-by-step problem solving for real numbers on number line",
+            "Real-world applications of real numbers on number line"
+          ]
+        },
+        {
+          "concept_id": "math9.number_systems.laws_radicals",
+          "title": "Laws of Radicals and Exponents for Real Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math9.number_systems.real_number_line"
+          ],
+          "description": "Laws of Radicals and Exponents for Real Numbers — part of the chapter on Number Systems.",
+          "key_ideas": [
+            "Core principles of laws of radicals and exponents for real numbers",
+            "Step-by-step problem solving for laws of radicals and exponents for real numbers",
+            "Real-world applications of laws of radicals and exponents for real numbers"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Polynomials",
+      "concepts": [
+        {
+          "concept_id": "math9.polynomials.types_polynomials",
+          "title": "Polynomials in One Variable",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Polynomials in One Variable — part of the chapter on Polynomials.",
+          "key_ideas": [
+            "Core principles of polynomials in one variable",
+            "Step-by-step problem solving for polynomials in one variable",
+            "Real-world applications of polynomials in one variable"
+          ]
+        },
+        {
+          "concept_id": "math9.polynomials.zeroes_polynomial",
+          "title": "Zeroes of a Polynomial",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.polynomials.types_polynomials"
+          ],
+          "description": "Zeroes of a Polynomial — part of the chapter on Polynomials.",
+          "key_ideas": [
+            "Core principles of zeroes of a polynomial",
+            "Step-by-step problem solving for zeroes of a polynomial",
+            "Real-world applications of zeroes of a polynomial"
+          ]
+        },
+        {
+          "concept_id": "math9.polynomials.remainder_theorem",
+          "title": "Remainder Theorem and Factor Theorem",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math9.polynomials.zeroes_polynomial"
+          ],
+          "description": "Remainder Theorem and Factor Theorem — part of the chapter on Polynomials.",
+          "key_ideas": [
+            "Core principles of remainder theorem and factor theorem",
+            "Step-by-step problem solving for remainder theorem and factor theorem",
+            "Real-world applications of remainder theorem and factor theorem"
+          ]
+        },
+        {
+          "concept_id": "math9.polynomials.algebraic_identities",
+          "title": "Algebraic Identities",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math9.polynomials.remainder_theorem"
+          ],
+          "description": "Algebraic Identities — part of the chapter on Polynomials.",
+          "key_ideas": [
+            "Core principles of algebraic identities",
+            "Step-by-step problem solving for algebraic identities",
+            "Real-world applications of algebraic identities"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Coordinate Geometry",
+      "concepts": [
+        {
+          "concept_id": "math9.coordinate_geometry.cartesian_plane",
+          "title": "Cartesian Plane and Coordinates",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Cartesian Plane and Coordinates — part of the chapter on Coordinate Geometry.",
+          "key_ideas": [
+            "Core principles of cartesian plane and coordinates",
+            "Step-by-step problem solving for cartesian plane and coordinates",
+            "Real-world applications of cartesian plane and coordinates"
+          ]
+        },
+        {
+          "concept_id": "math9.coordinate_geometry.plotting_points",
+          "title": "Plotting Points in All Quadrants",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math9.coordinate_geometry.cartesian_plane"
+          ],
+          "description": "Plotting Points in All Quadrants — part of the chapter on Coordinate Geometry.",
+          "key_ideas": [
+            "Core principles of plotting points in all quadrants",
+            "Step-by-step problem solving for plotting points in all quadrants",
+            "Real-world applications of plotting points in all quadrants"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Linear Equations in Two Variables",
+      "concepts": [
+        {
+          "concept_id": "math9.linear_eq_two_var.forming_equations",
+          "title": "Forming Linear Equations in Two Variables",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Forming Linear Equations in Two Variables — part of the chapter on Linear Equations in Two Variables.",
+          "key_ideas": [
+            "Core principles of forming linear equations in two variables",
+            "Step-by-step problem solving for forming linear equations in two variables",
+            "Real-world applications of forming linear equations in two variables"
+          ]
+        },
+        {
+          "concept_id": "math9.linear_eq_two_var.graphical_solution",
+          "title": "Graphical Representation of Linear Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.linear_eq_two_var.forming_equations"
+          ],
+          "description": "Graphical Representation of Linear Equations — part of the chapter on Linear Equations in Two Variables.",
+          "key_ideas": [
+            "Core principles of graphical representation of linear equations",
+            "Step-by-step problem solving for graphical representation of linear equations",
+            "Real-world applications of graphical representation of linear equations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Introduction to Euclid's Geometry",
+      "concepts": [
+        {
+          "concept_id": "math9.euclid_geometry.axioms_postulates",
+          "title": "Euclid's Axioms and Postulates",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Euclid's Axioms and Postulates — part of the chapter on Introduction to Euclid's Geometry.",
+          "key_ideas": [
+            "Core principles of euclid's axioms and postulates",
+            "Step-by-step problem solving for euclid's axioms and postulates",
+            "Real-world applications of euclid's axioms and postulates"
+          ]
+        },
+        {
+          "concept_id": "math9.euclid_geometry.equivalent_axioms",
+          "title": "Equivalent Versions of Fifth Postulate",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.euclid_geometry.axioms_postulates"
+          ],
+          "description": "Equivalent Versions of Fifth Postulate — part of the chapter on Introduction to Euclid's Geometry.",
+          "key_ideas": [
+            "Core principles of equivalent versions of fifth postulate",
+            "Step-by-step problem solving for equivalent versions of fifth postulate",
+            "Real-world applications of equivalent versions of fifth postulate"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Lines and Angles",
+      "concepts": [
+        {
+          "concept_id": "math9.lines_angles.angle_pairs",
+          "title": "Pairs of Angles",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Pairs of Angles — part of the chapter on Lines and Angles.",
+          "key_ideas": [
+            "Core principles of pairs of angles",
+            "Step-by-step problem solving for pairs of angles",
+            "Real-world applications of pairs of angles"
+          ]
+        },
+        {
+          "concept_id": "math9.lines_angles.parallel_transversal",
+          "title": "Parallel Lines and Transversal",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.lines_angles.angle_pairs"
+          ],
+          "description": "Parallel Lines and Transversal — part of the chapter on Lines and Angles.",
+          "key_ideas": [
+            "Core principles of parallel lines and transversal",
+            "Step-by-step problem solving for parallel lines and transversal",
+            "Real-world applications of parallel lines and transversal"
+          ]
+        },
+        {
+          "concept_id": "math9.lines_angles.angle_sum_triangle",
+          "title": "Angle Sum Property of Triangle",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math9.lines_angles.parallel_transversal"
+          ],
+          "description": "Angle Sum Property of Triangle — part of the chapter on Lines and Angles.",
+          "key_ideas": [
+            "Core principles of angle sum property of triangle",
+            "Step-by-step problem solving for angle sum property of triangle",
+            "Real-world applications of angle sum property of triangle"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Triangles",
+      "concepts": [
+        {
+          "concept_id": "math9.triangles.congruence_criteria",
+          "title": "Congruence Criteria (SAS, ASA, SSS, RHS)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Congruence Criteria (SAS, ASA, SSS, RHS) — part of the chapter on Triangles.",
+          "key_ideas": [
+            "Core principles of congruence criteria (sas, asa, sss, rhs)",
+            "Step-by-step problem solving for congruence criteria (sas, asa, sss, rhs)",
+            "Real-world applications of congruence criteria (sas, asa, sss, rhs)"
+          ]
+        },
+        {
+          "concept_id": "math9.triangles.triangle_inequalities",
+          "title": "Inequalities in Triangles",
+          "bloom_level": "analyze",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math9.triangles.congruence_criteria"
+          ],
+          "description": "Inequalities in Triangles — part of the chapter on Triangles.",
+          "key_ideas": [
+            "Core principles of inequalities in triangles",
+            "Step-by-step problem solving for inequalities in triangles",
+            "Real-world applications of inequalities in triangles"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Quadrilaterals",
+      "concepts": [
+        {
+          "concept_id": "math9.quadrilaterals.angle_sum_quad",
+          "title": "Angle Sum Property of Quadrilateral",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Angle Sum Property of Quadrilateral — part of the chapter on Quadrilaterals.",
+          "key_ideas": [
+            "Core principles of angle sum property of quadrilateral",
+            "Step-by-step problem solving for angle sum property of quadrilateral",
+            "Real-world applications of angle sum property of quadrilateral"
+          ]
+        },
+        {
+          "concept_id": "math9.quadrilaterals.properties_parallelogram",
+          "title": "Properties of Parallelogram",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.quadrilaterals.angle_sum_quad"
+          ],
+          "description": "Properties of Parallelogram — part of the chapter on Quadrilaterals.",
+          "key_ideas": [
+            "Core principles of properties of parallelogram",
+            "Step-by-step problem solving for properties of parallelogram",
+            "Real-world applications of properties of parallelogram"
+          ]
+        },
+        {
+          "concept_id": "math9.quadrilaterals.midpoint_theorem",
+          "title": "Mid-Point Theorem",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math9.quadrilaterals.properties_parallelogram"
+          ],
+          "description": "Mid-Point Theorem — part of the chapter on Quadrilaterals.",
+          "key_ideas": [
+            "Core principles of mid-point theorem",
+            "Step-by-step problem solving for mid-point theorem",
+            "Real-world applications of mid-point theorem"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Areas of Parallelograms and Triangles",
+      "concepts": [
+        {
+          "concept_id": "math9.areas_parallelograms.same_base_parallels",
+          "title": "Figures on Same Base and Between Same Parallels",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Figures on Same Base and Between Same Parallels — part of the chapter on Areas of Parallelograms and Triangles.",
+          "key_ideas": [
+            "Core principles of figures on same base and between same parallels",
+            "Step-by-step problem solving for figures on same base and between same parallels",
+            "Real-world applications of figures on same base and between same parallels"
+          ]
+        },
+        {
+          "concept_id": "math9.areas_parallelograms.area_theorems",
+          "title": "Area Theorems for Parallelograms and Triangles",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math9.areas_parallelograms.same_base_parallels"
+          ],
+          "description": "Area Theorems for Parallelograms and Triangles — part of the chapter on Areas of Parallelograms and Triangles.",
+          "key_ideas": [
+            "Core principles of area theorems for parallelograms and triangles",
+            "Step-by-step problem solving for area theorems for parallelograms and triangles",
+            "Real-world applications of area theorems for parallelograms and triangles"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Circles",
+      "concepts": [
+        {
+          "concept_id": "math9.circles.circle_terms",
+          "title": "Chord, Arc, Sector, Segment",
+          "bloom_level": "remember",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Chord, Arc, Sector, Segment — part of the chapter on Circles.",
+          "key_ideas": [
+            "Core principles of chord, arc, sector, segment",
+            "Step-by-step problem solving for chord, arc, sector, segment",
+            "Real-world applications of chord, arc, sector, segment"
+          ]
+        },
+        {
+          "concept_id": "math9.circles.angle_subtended",
+          "title": "Angle Subtended by a Chord",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.circles.circle_terms"
+          ],
+          "description": "Angle Subtended by a Chord — part of the chapter on Circles.",
+          "key_ideas": [
+            "Core principles of angle subtended by a chord",
+            "Step-by-step problem solving for angle subtended by a chord",
+            "Real-world applications of angle subtended by a chord"
+          ]
+        },
+        {
+          "concept_id": "math9.circles.cyclic_quadrilateral",
+          "title": "Cyclic Quadrilateral",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math9.circles.angle_subtended"
+          ],
+          "description": "Cyclic Quadrilateral — part of the chapter on Circles.",
+          "key_ideas": [
+            "Core principles of cyclic quadrilateral",
+            "Step-by-step problem solving for cyclic quadrilateral",
+            "Real-world applications of cyclic quadrilateral"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Constructions",
+      "concepts": [
+        {
+          "concept_id": "math9.constructions.bisect_angle",
+          "title": "Bisecting an Angle and Perpendicular Bisector",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Bisecting an Angle and Perpendicular Bisector — part of the chapter on Constructions.",
+          "key_ideas": [
+            "Core principles of bisecting an angle and perpendicular bisector",
+            "Step-by-step problem solving for bisecting an angle and perpendicular bisector",
+            "Real-world applications of bisecting an angle and perpendicular bisector"
+          ]
+        },
+        {
+          "concept_id": "math9.constructions.construct_triangle",
+          "title": "Construction of Triangles (Given Conditions)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.constructions.bisect_angle"
+          ],
+          "description": "Construction of Triangles (Given Conditions) — part of the chapter on Constructions.",
+          "key_ideas": [
+            "Core principles of construction of triangles (given conditions)",
+            "Step-by-step problem solving for construction of triangles (given conditions)",
+            "Real-world applications of construction of triangles (given conditions)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Heron's Formula",
+      "concepts": [
+        {
+          "concept_id": "math9.herons_formula.herons",
+          "title": "Area Using Heron's Formula",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Area Using Heron's Formula — part of the chapter on Heron's Formula.",
+          "key_ideas": [
+            "Core principles of area using heron's formula",
+            "Step-by-step problem solving for area using heron's formula",
+            "Real-world applications of area using heron's formula"
+          ]
+        },
+        {
+          "concept_id": "math9.herons_formula.applications_herons",
+          "title": "Applications to Quadrilaterals",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math9.herons_formula.herons"
+          ],
+          "description": "Applications to Quadrilaterals — part of the chapter on Heron's Formula.",
+          "key_ideas": [
+            "Core principles of applications to quadrilaterals",
+            "Step-by-step problem solving for applications to quadrilaterals",
+            "Real-world applications of applications to quadrilaterals"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Surface Areas and Volumes",
+      "concepts": [
+        {
+          "concept_id": "math9.surface_area_volume.cuboid_cylinder",
+          "title": "Surface Area of Cuboid, Cylinder",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Surface Area of Cuboid, Cylinder — part of the chapter on Surface Areas and Volumes.",
+          "key_ideas": [
+            "Core principles of surface area of cuboid, cylinder",
+            "Step-by-step problem solving for surface area of cuboid, cylinder",
+            "Real-world applications of surface area of cuboid, cylinder"
+          ]
+        },
+        {
+          "concept_id": "math9.surface_area_volume.cone_sphere",
+          "title": "Surface Area of Cone, Sphere",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.surface_area_volume.cuboid_cylinder"
+          ],
+          "description": "Surface Area of Cone, Sphere — part of the chapter on Surface Areas and Volumes.",
+          "key_ideas": [
+            "Core principles of surface area of cone, sphere",
+            "Step-by-step problem solving for surface area of cone, sphere",
+            "Real-world applications of surface area of cone, sphere"
+          ]
+        },
+        {
+          "concept_id": "math9.surface_area_volume.volumes",
+          "title": "Volume of Cuboid, Cylinder, Cone, Sphere",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math9.surface_area_volume.cone_sphere"
+          ],
+          "description": "Volume of Cuboid, Cylinder, Cone, Sphere — part of the chapter on Surface Areas and Volumes.",
+          "key_ideas": [
+            "Core principles of volume of cuboid, cylinder, cone, sphere",
+            "Step-by-step problem solving for volume of cuboid, cylinder, cone, sphere",
+            "Real-world applications of volume of cuboid, cylinder, cone, sphere"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Statistics",
+      "concepts": [
+        {
+          "concept_id": "math9.statistics.mean_median_mode",
+          "title": "Mean, Median and Mode",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Mean, Median and Mode — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of mean, median and mode",
+            "Step-by-step problem solving for mean, median and mode",
+            "Real-world applications of mean, median and mode"
+          ]
+        },
+        {
+          "concept_id": "math9.statistics.grouped_data",
+          "title": "Frequency Distribution and Histograms",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.statistics.mean_median_mode"
+          ],
+          "description": "Frequency Distribution and Histograms — part of the chapter on Statistics.",
+          "key_ideas": [
+            "Core principles of frequency distribution and histograms",
+            "Step-by-step problem solving for frequency distribution and histograms",
+            "Real-world applications of frequency distribution and histograms"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch15",
+      "title": "Probability",
+      "concepts": [
+        {
+          "concept_id": "math9.probability.experimental_prob",
+          "title": "Experimental Probability",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Experimental Probability — part of the chapter on Probability.",
+          "key_ideas": [
+            "Core principles of experimental probability",
+            "Step-by-step problem solving for experimental probability",
+            "Real-world applications of experimental probability"
+          ]
+        },
+        {
+          "concept_id": "math9.probability.applications_prob",
+          "title": "Probability Applications",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math9.probability.experimental_prob"
+          ],
+          "description": "Probability Applications — part of the chapter on Probability.",
+          "key_ideas": [
+            "Core principles of probability applications",
+            "Step-by-step problem solving for probability applications",
+            "Real-world applications of probability applications"
+          ]
+        }
+      ]
+    }
+  ]
+}

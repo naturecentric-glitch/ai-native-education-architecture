@@ -20,6 +20,8 @@ for d in [CONTENT_DIR, MASTERY_DIR, STUDENT_DIR]:
 
 # Google Gemini
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+AI_MODEL = os.getenv("AI_MODEL", "gemini-3-pro-preview")
+AI_EXPANSION_MODEL = os.getenv("AI_EXPANSION_MODEL", "gemini-3-pro-preview")
 
 # App
 APP_HOST = os.getenv("APP_HOST", "0.0.0.0")

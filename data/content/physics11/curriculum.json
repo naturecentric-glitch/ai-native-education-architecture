@@ -1,0 +1,663 @@
+{
+  "course_id": "physics11",
+  "title": "Class 11 Physics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Units and Measurements",
+      "concepts": [
+        {
+          "concept_id": "physics11.units.si_units",
+          "title": "SI Units and Dimensions",
+          "bloom_level": "remember",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "SI Units and Dimensions — part of the chapter on Units and Measurements.",
+          "key_ideas": [
+            "Core principles of si units and dimensions",
+            "Step-by-step problem solving for si units and dimensions",
+            "Real-world applications of si units and dimensions"
+          ]
+        },
+        {
+          "concept_id": "physics11.units.dimensional_analysis",
+          "title": "Dimensional Analysis",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics11.units.si_units"
+          ],
+          "description": "Dimensional Analysis — part of the chapter on Units and Measurements.",
+          "key_ideas": [
+            "Core principles of dimensional analysis",
+            "Step-by-step problem solving for dimensional analysis",
+            "Real-world applications of dimensional analysis"
+          ]
+        },
+        {
+          "concept_id": "physics11.units.significant_figures",
+          "title": "Significant Figures and Errors",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "physics11.units.si_units"
+          ],
+          "description": "Significant Figures and Errors — part of the chapter on Units and Measurements.",
+          "key_ideas": [
+            "Core principles of significant figures and errors",
+            "Step-by-step problem solving for significant figures and errors",
+            "Real-world applications of significant figures and errors"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Motion in a Straight Line",
+      "concepts": [
+        {
+          "concept_id": "physics11.straight_line_motion.kinematics_1d",
+          "title": "Position, Velocity, Acceleration",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Position, Velocity, Acceleration — part of the chapter on Motion in a Straight Line.",
+          "key_ideas": [
+            "Core principles of position, velocity, acceleration",
+            "Step-by-step problem solving for position, velocity, acceleration",
+            "Real-world applications of position, velocity, acceleration"
+          ]
+        },
+        {
+          "concept_id": "physics11.straight_line_motion.equations_motion",
+          "title": "Kinematic Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics11.straight_line_motion.kinematics_1d"
+          ],
+          "description": "Kinematic Equations — part of the chapter on Motion in a Straight Line.",
+          "key_ideas": [
+            "Core principles of kinematic equations",
+            "Step-by-step problem solving for kinematic equations",
+            "Real-world applications of kinematic equations"
+          ]
+        },
+        {
+          "concept_id": "physics11.straight_line_motion.free_fall",
+          "title": "Free Fall",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics11.straight_line_motion.equations_motion"
+          ],
+          "description": "Free Fall — part of the chapter on Motion in a Straight Line.",
+          "key_ideas": [
+            "Core principles of free fall",
+            "Step-by-step problem solving for free fall",
+            "Real-world applications of free fall"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Motion in a Plane",
+      "concepts": [
+        {
+          "concept_id": "physics11.motion_plane.vectors",
+          "title": "Vectors — Addition, Resolution",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Vectors — Addition, Resolution — part of the chapter on Motion in a Plane.",
+          "key_ideas": [
+            "Core principles of vectors",
+            "Step-by-step problem solving for vectors",
+            "Real-world applications of vectors"
+          ]
+        },
+        {
+          "concept_id": "physics11.motion_plane.projectile",
+          "title": "Projectile Motion",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.motion_plane.vectors"
+          ],
+          "description": "Projectile Motion — part of the chapter on Motion in a Plane.",
+          "key_ideas": [
+            "Core principles of projectile motion",
+            "Step-by-step problem solving for projectile motion",
+            "Real-world applications of projectile motion"
+          ]
+        },
+        {
+          "concept_id": "physics11.motion_plane.circular_motion",
+          "title": "Uniform Circular Motion",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.motion_plane.vectors"
+          ],
+          "description": "Uniform Circular Motion — part of the chapter on Motion in a Plane.",
+          "key_ideas": [
+            "Core principles of uniform circular motion",
+            "Step-by-step problem solving for uniform circular motion",
+            "Real-world applications of uniform circular motion"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Laws of Motion",
+      "concepts": [
+        {
+          "concept_id": "physics11.laws_motion.newtons_laws",
+          "title": "Newton's Laws of Motion",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Newton's Laws of Motion — part of the chapter on Laws of Motion.",
+          "key_ideas": [
+            "Core principles of newton's laws of motion",
+            "Step-by-step problem solving for newton's laws of motion",
+            "Real-world applications of newton's laws of motion"
+          ]
+        },
+        {
+          "concept_id": "physics11.laws_motion.friction",
+          "title": "Friction — Static and Kinetic",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics11.laws_motion.newtons_laws"
+          ],
+          "description": "Friction — Static and Kinetic — part of the chapter on Laws of Motion.",
+          "key_ideas": [
+            "Core principles of friction",
+            "Step-by-step problem solving for friction",
+            "Real-world applications of friction"
+          ]
+        },
+        {
+          "concept_id": "physics11.laws_motion.circular_dynamics",
+          "title": "Circular Motion Dynamics",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.laws_motion.newtons_laws",
+            "physics11.motion_plane.circular_motion"
+          ],
+          "description": "Circular Motion Dynamics — part of the chapter on Laws of Motion.",
+          "key_ideas": [
+            "Core principles of circular motion dynamics",
+            "Step-by-step problem solving for circular motion dynamics",
+            "Real-world applications of circular motion dynamics"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Work, Energy and Power",
+      "concepts": [
+        {
+          "concept_id": "physics11.work_energy_power.work_ke_theorem",
+          "title": "Work-Energy Theorem",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Work-Energy Theorem — part of the chapter on Work, Energy and Power.",
+          "key_ideas": [
+            "Core principles of work-energy theorem",
+            "Step-by-step problem solving for work-energy theorem",
+            "Real-world applications of work-energy theorem"
+          ]
+        },
+        {
+          "concept_id": "physics11.work_energy_power.conservation_energy",
+          "title": "Conservation of Mechanical Energy",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "physics11.work_energy_power.work_ke_theorem"
+          ],
+          "description": "Conservation of Mechanical Energy — part of the chapter on Work, Energy and Power.",
+          "key_ideas": [
+            "Core principles of conservation of mechanical energy",
+            "Step-by-step problem solving for conservation of mechanical energy",
+            "Real-world applications of conservation of mechanical energy"
+          ]
+        },
+        {
+          "concept_id": "physics11.work_energy_power.power_collisions",
+          "title": "Power and Collisions",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.work_energy_power.conservation_energy"
+          ],
+          "description": "Power and Collisions — part of the chapter on Work, Energy and Power.",
+          "key_ideas": [
+            "Core principles of power and collisions",
+            "Step-by-step problem solving for power and collisions",
+            "Real-world applications of power and collisions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "System of Particles and Rotational Motion",
+      "concepts": [
+        {
+          "concept_id": "physics11.rotational_motion.centre_of_mass",
+          "title": "Centre of Mass",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Centre of Mass — part of the chapter on System of Particles and Rotational Motion.",
+          "key_ideas": [
+            "Core principles of centre of mass",
+            "Step-by-step problem solving for centre of mass",
+            "Real-world applications of centre of mass"
+          ]
+        },
+        {
+          "concept_id": "physics11.rotational_motion.moment_of_inertia",
+          "title": "Moment of Inertia",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.rotational_motion.centre_of_mass"
+          ],
+          "description": "Moment of Inertia — part of the chapter on System of Particles and Rotational Motion.",
+          "key_ideas": [
+            "Core principles of moment of inertia",
+            "Step-by-step problem solving for moment of inertia",
+            "Real-world applications of moment of inertia"
+          ]
+        },
+        {
+          "concept_id": "physics11.rotational_motion.angular_momentum",
+          "title": "Angular Momentum and Torque",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "physics11.rotational_motion.moment_of_inertia"
+          ],
+          "description": "Angular Momentum and Torque — part of the chapter on System of Particles and Rotational Motion.",
+          "key_ideas": [
+            "Core principles of angular momentum and torque",
+            "Step-by-step problem solving for angular momentum and torque",
+            "Real-world applications of angular momentum and torque"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Gravitation",
+      "concepts": [
+        {
+          "concept_id": "physics11.gravitation.gravitational_law",
+          "title": "Newton's Law of Gravitation",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Newton's Law of Gravitation — part of the chapter on Gravitation.",
+          "key_ideas": [
+            "Core principles of newton's law of gravitation",
+            "Step-by-step problem solving for newton's law of gravitation",
+            "Real-world applications of newton's law of gravitation"
+          ]
+        },
+        {
+          "concept_id": "physics11.gravitation.gravitational_field",
+          "title": "Gravitational Field, Potential Energy",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "physics11.gravitation.gravitational_law"
+          ],
+          "description": "Gravitational Field, Potential Energy — part of the chapter on Gravitation.",
+          "key_ideas": [
+            "Core principles of gravitational field, potential energy",
+            "Step-by-step problem solving for gravitational field, potential energy",
+            "Real-world applications of gravitational field, potential energy"
+          ]
+        },
+        {
+          "concept_id": "physics11.gravitation.orbital_motion",
+          "title": "Orbital Motion and Satellites",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.gravitation.gravitational_field"
+          ],
+          "description": "Orbital Motion and Satellites — part of the chapter on Gravitation.",
+          "key_ideas": [
+            "Core principles of orbital motion and satellites",
+            "Step-by-step problem solving for orbital motion and satellites",
+            "Real-world applications of orbital motion and satellites"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Mechanical Properties of Solids",
+      "concepts": [
+        {
+          "concept_id": "physics11.mech_solids.stress_strain",
+          "title": "Stress and Strain",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Stress and Strain — part of the chapter on Mechanical Properties of Solids.",
+          "key_ideas": [
+            "Core principles of stress and strain",
+            "Step-by-step problem solving for stress and strain",
+            "Real-world applications of stress and strain"
+          ]
+        },
+        {
+          "concept_id": "physics11.mech_solids.elastic_moduli",
+          "title": "Elastic Moduli — Young's, Bulk, Shear",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "physics11.mech_solids.stress_strain"
+          ],
+          "description": "Elastic Moduli — Young's, Bulk, Shear — part of the chapter on Mechanical Properties of Solids.",
+          "key_ideas": [
+            "Core principles of elastic moduli",
+            "Step-by-step problem solving for elastic moduli",
+            "Real-world applications of elastic moduli"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Mechanical Properties of Fluids",
+      "concepts": [
+        {
+          "concept_id": "physics11.mech_fluids.pressure_pascals",
+          "title": "Pressure and Pascal's Law",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Pressure and Pascal's Law — part of the chapter on Mechanical Properties of Fluids.",
+          "key_ideas": [
+            "Core principles of pressure and pascal's law",
+            "Step-by-step problem solving for pressure and pascal's law",
+            "Real-world applications of pressure and pascal's law"
+          ]
+        },
+        {
+          "concept_id": "physics11.mech_fluids.bernoulli",
+          "title": "Bernoulli's Principle",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.mech_fluids.pressure_pascals"
+          ],
+          "description": "Bernoulli's Principle — part of the chapter on Mechanical Properties of Fluids.",
+          "key_ideas": [
+            "Core principles of bernoulli's principle",
+            "Step-by-step problem solving for bernoulli's principle",
+            "Real-world applications of bernoulli's principle"
+          ]
+        },
+        {
+          "concept_id": "physics11.mech_fluids.viscosity_surface",
+          "title": "Viscosity and Surface Tension",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "physics11.mech_fluids.pressure_pascals"
+          ],
+          "description": "Viscosity and Surface Tension — part of the chapter on Mechanical Properties of Fluids.",
+          "key_ideas": [
+            "Core principles of viscosity and surface tension",
+            "Step-by-step problem solving for viscosity and surface tension",
+            "Real-world applications of viscosity and surface tension"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Thermal Properties of Matter",
+      "concepts": [
+        {
+          "concept_id": "physics11.thermal.heat_temperature",
+          "title": "Heat, Temperature and Thermal Expansion",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Heat, Temperature and Thermal Expansion — part of the chapter on Thermal Properties of Matter.",
+          "key_ideas": [
+            "Core principles of heat, temperature and thermal expansion",
+            "Step-by-step problem solving for heat, temperature and thermal expansion",
+            "Real-world applications of heat, temperature and thermal expansion"
+          ]
+        },
+        {
+          "concept_id": "physics11.thermal.calorimetry",
+          "title": "Calorimetry and Specific Heat",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics11.thermal.heat_temperature"
+          ],
+          "description": "Calorimetry and Specific Heat — part of the chapter on Thermal Properties of Matter.",
+          "key_ideas": [
+            "Core principles of calorimetry and specific heat",
+            "Step-by-step problem solving for calorimetry and specific heat",
+            "Real-world applications of calorimetry and specific heat"
+          ]
+        },
+        {
+          "concept_id": "physics11.thermal.heat_transfer",
+          "title": "Conduction, Convection and Radiation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics11.thermal.calorimetry"
+          ],
+          "description": "Conduction, Convection and Radiation — part of the chapter on Thermal Properties of Matter.",
+          "key_ideas": [
+            "Core principles of conduction, convection and radiation",
+            "Step-by-step problem solving for conduction, convection and radiation",
+            "Real-world applications of conduction, convection and radiation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Thermodynamics",
+      "concepts": [
+        {
+          "concept_id": "physics11.thermodynamics.first_law",
+          "title": "First Law of Thermodynamics",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "First Law of Thermodynamics — part of the chapter on Thermodynamics.",
+          "key_ideas": [
+            "Core principles of first law of thermodynamics",
+            "Step-by-step problem solving for first law of thermodynamics",
+            "Real-world applications of first law of thermodynamics"
+          ]
+        },
+        {
+          "concept_id": "physics11.thermodynamics.second_law",
+          "title": "Second Law and Entropy",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.thermodynamics.first_law"
+          ],
+          "description": "Second Law and Entropy — part of the chapter on Thermodynamics.",
+          "key_ideas": [
+            "Core principles of second law and entropy",
+            "Step-by-step problem solving for second law and entropy",
+            "Real-world applications of second law and entropy"
+          ]
+        },
+        {
+          "concept_id": "physics11.thermodynamics.heat_engines",
+          "title": "Heat Engines and Carnot Cycle",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "physics11.thermodynamics.second_law"
+          ],
+          "description": "Heat Engines and Carnot Cycle — part of the chapter on Thermodynamics.",
+          "key_ideas": [
+            "Core principles of heat engines and carnot cycle",
+            "Step-by-step problem solving for heat engines and carnot cycle",
+            "Real-world applications of heat engines and carnot cycle"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Kinetic Theory",
+      "concepts": [
+        {
+          "concept_id": "physics11.kinetic_theory.gas_laws",
+          "title": "Ideal Gas Laws",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Ideal Gas Laws — part of the chapter on Kinetic Theory.",
+          "key_ideas": [
+            "Core principles of ideal gas laws",
+            "Step-by-step problem solving for ideal gas laws",
+            "Real-world applications of ideal gas laws"
+          ]
+        },
+        {
+          "concept_id": "physics11.kinetic_theory.kinetic_interpretation",
+          "title": "Kinetic Interpretation of Temperature",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.kinetic_theory.gas_laws"
+          ],
+          "description": "Kinetic Interpretation of Temperature — part of the chapter on Kinetic Theory.",
+          "key_ideas": [
+            "Core principles of kinetic interpretation of temperature",
+            "Step-by-step problem solving for kinetic interpretation of temperature",
+            "Real-world applications of kinetic interpretation of temperature"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Oscillations",
+      "concepts": [
+        {
+          "concept_id": "physics11.oscillations.shm",
+          "title": "Simple Harmonic Motion",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Simple Harmonic Motion — part of the chapter on Oscillations.",
+          "key_ideas": [
+            "Core principles of simple harmonic motion",
+            "Step-by-step problem solving for simple harmonic motion",
+            "Real-world applications of simple harmonic motion"
+          ]
+        },
+        {
+          "concept_id": "physics11.oscillations.energy_shm",
+          "title": "Energy in SHM",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.oscillations.shm"
+          ],
+          "description": "Energy in SHM — part of the chapter on Oscillations.",
+          "key_ideas": [
+            "Core principles of energy in shm",
+            "Step-by-step problem solving for energy in shm",
+            "Real-world applications of energy in shm"
+          ]
+        },
+        {
+          "concept_id": "physics11.oscillations.damped_forced",
+          "title": "Damped and Forced Oscillations",
+          "bloom_level": "analyze",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "physics11.oscillations.energy_shm"
+          ],
+          "description": "Damped and Forced Oscillations — part of the chapter on Oscillations.",
+          "key_ideas": [
+            "Core principles of damped and forced oscillations",
+            "Step-by-step problem solving for damped and forced oscillations",
+            "Real-world applications of damped and forced oscillations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Waves",
+      "concepts": [
+        {
+          "concept_id": "physics11.waves.wave_types",
+          "title": "Transverse and Longitudinal Waves",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Transverse and Longitudinal Waves — part of the chapter on Waves.",
+          "key_ideas": [
+            "Core principles of transverse and longitudinal waves",
+            "Step-by-step problem solving for transverse and longitudinal waves",
+            "Real-world applications of transverse and longitudinal waves"
+          ]
+        },
+        {
+          "concept_id": "physics11.waves.wave_equation",
+          "title": "Wave Equation and Speed",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "physics11.waves.wave_types"
+          ],
+          "description": "Wave Equation and Speed — part of the chapter on Waves.",
+          "key_ideas": [
+            "Core principles of wave equation and speed",
+            "Step-by-step problem solving for wave equation and speed",
+            "Real-world applications of wave equation and speed"
+          ]
+        },
+        {
+          "concept_id": "physics11.waves.superposition",
+          "title": "Superposition, Standing Waves and Beats",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics11.waves.wave_equation"
+          ],
+          "description": "Superposition, Standing Waves and Beats — part of the chapter on Waves.",
+          "key_ideas": [
+            "Core principles of superposition, standing waves and beats",
+            "Step-by-step problem solving for superposition, standing waves and beats",
+            "Real-world applications of superposition, standing waves and beats"
+          ]
+        }
+      ]
+    }
+  ]
+}

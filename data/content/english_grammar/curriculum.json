@@ -1,0 +1,281 @@
+{
+  "course_id": "english_grammar",
+  "title": "English Grammar & Writing Skills",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Parts of Speech",
+      "concepts": [
+        {
+          "concept_id": "english_grammar.parts_of_speech.nouns_pronouns",
+          "title": "Nouns and Pronouns",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Nouns and Pronouns — part of the chapter on Parts of Speech.",
+          "key_ideas": [
+            "Core principles of nouns and pronouns",
+            "Step-by-step problem solving for nouns and pronouns",
+            "Real-world applications of nouns and pronouns"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.parts_of_speech.verbs_tenses",
+          "title": "Verbs and Tenses",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english_grammar.parts_of_speech.nouns_pronouns"
+          ],
+          "description": "Verbs and Tenses — part of the chapter on Parts of Speech.",
+          "key_ideas": [
+            "Core principles of verbs and tenses",
+            "Step-by-step problem solving for verbs and tenses",
+            "Real-world applications of verbs and tenses"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.parts_of_speech.adjectives_adverbs",
+          "title": "Adjectives and Adverbs",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "english_grammar.parts_of_speech.nouns_pronouns"
+          ],
+          "description": "Adjectives and Adverbs — part of the chapter on Parts of Speech.",
+          "key_ideas": [
+            "Core principles of adjectives and adverbs",
+            "Step-by-step problem solving for adjectives and adverbs",
+            "Real-world applications of adjectives and adverbs"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.parts_of_speech.prepositions_conjunctions",
+          "title": "Prepositions and Conjunctions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english_grammar.parts_of_speech.adjectives_adverbs"
+          ],
+          "description": "Prepositions and Conjunctions — part of the chapter on Parts of Speech.",
+          "key_ideas": [
+            "Core principles of prepositions and conjunctions",
+            "Step-by-step problem solving for prepositions and conjunctions",
+            "Real-world applications of prepositions and conjunctions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Sentence Structure",
+      "concepts": [
+        {
+          "concept_id": "english_grammar.sentence_structure.subject_predicate",
+          "title": "Subject and Predicate",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Subject and Predicate — part of the chapter on Sentence Structure.",
+          "key_ideas": [
+            "Core principles of subject and predicate",
+            "Step-by-step problem solving for subject and predicate",
+            "Real-world applications of subject and predicate"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.sentence_structure.types_sentences",
+          "title": "Types of Sentences — Assertive, Interrogative, Imperative, Exclamatory",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "english_grammar.sentence_structure.subject_predicate"
+          ],
+          "description": "Types of Sentences — Assertive, Interrogative, Imperative, Exclamatory — part of the chapter on Sentence Structure.",
+          "key_ideas": [
+            "Core principles of types of sentences",
+            "Step-by-step problem solving for types of sentences",
+            "Real-world applications of types of sentences"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.sentence_structure.simple_compound_complex",
+          "title": "Simple, Compound and Complex Sentences",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "english_grammar.sentence_structure.types_sentences"
+          ],
+          "description": "Simple, Compound and Complex Sentences — part of the chapter on Sentence Structure.",
+          "key_ideas": [
+            "Core principles of simple, compound and complex sentences",
+            "Step-by-step problem solving for simple, compound and complex sentences",
+            "Real-world applications of simple, compound and complex sentences"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Tenses",
+      "concepts": [
+        {
+          "concept_id": "english_grammar.tenses.present_tenses",
+          "title": "Present Tense — Simple, Continuous, Perfect",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Present Tense — Simple, Continuous, Perfect — part of the chapter on Tenses.",
+          "key_ideas": [
+            "Core principles of present tense",
+            "Step-by-step problem solving for present tense",
+            "Real-world applications of present tense"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.tenses.past_tenses",
+          "title": "Past Tense — Simple, Continuous, Perfect",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Past Tense — Simple, Continuous, Perfect — part of the chapter on Tenses.",
+          "key_ideas": [
+            "Core principles of past tense",
+            "Step-by-step problem solving for past tense",
+            "Real-world applications of past tense"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.tenses.future_tenses",
+          "title": "Future Tense — Simple, Continuous, Perfect",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Future Tense — Simple, Continuous, Perfect — part of the chapter on Tenses.",
+          "key_ideas": [
+            "Core principles of future tense",
+            "Step-by-step problem solving for future tense",
+            "Real-world applications of future tense"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Active-Passive Voice and Direct-Indirect Speech",
+      "concepts": [
+        {
+          "concept_id": "english_grammar.voice_speech.active_passive",
+          "title": "Active and Passive Voice",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Active and Passive Voice — part of the chapter on Active-Passive Voice and Direct-Indirect Speech.",
+          "key_ideas": [
+            "Core principles of active and passive voice",
+            "Step-by-step problem solving for active and passive voice",
+            "Real-world applications of active and passive voice"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.voice_speech.direct_indirect",
+          "title": "Direct and Indirect Speech",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english_grammar.voice_speech.active_passive"
+          ],
+          "description": "Direct and Indirect Speech — part of the chapter on Active-Passive Voice and Direct-Indirect Speech.",
+          "key_ideas": [
+            "Core principles of direct and indirect speech",
+            "Step-by-step problem solving for direct and indirect speech",
+            "Real-world applications of direct and indirect speech"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Reading Comprehension",
+      "concepts": [
+        {
+          "concept_id": "english_grammar.comprehension.unseen_passages",
+          "title": "Unseen Passages — Factual and Discursive",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Unseen Passages — Factual and Discursive — part of the chapter on Reading Comprehension.",
+          "key_ideas": [
+            "Core principles of unseen passages",
+            "Step-by-step problem solving for unseen passages",
+            "Real-world applications of unseen passages"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.comprehension.note_making",
+          "title": "Note Making and Summarising",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english_grammar.comprehension.unseen_passages"
+          ],
+          "description": "Note Making and Summarising — part of the chapter on Reading Comprehension.",
+          "key_ideas": [
+            "Core principles of note making and summarising",
+            "Step-by-step problem solving for note making and summarising",
+            "Real-world applications of note making and summarising"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Writing Skills",
+      "concepts": [
+        {
+          "concept_id": "english_grammar.writing.paragraph_writing",
+          "title": "Paragraph Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Paragraph Writing — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of paragraph writing",
+            "Step-by-step problem solving for paragraph writing",
+            "Real-world applications of paragraph writing"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.writing.letter_writing",
+          "title": "Letter Writing — Formal and Informal",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "english_grammar.writing.paragraph_writing"
+          ],
+          "description": "Letter Writing — Formal and Informal — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of letter writing",
+            "Step-by-step problem solving for letter writing",
+            "Real-world applications of letter writing"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.writing.essay_writing",
+          "title": "Essay and Article Writing",
+          "bloom_level": "create",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english_grammar.writing.letter_writing"
+          ],
+          "description": "Essay and Article Writing — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of essay and article writing",
+            "Step-by-step problem solving for essay and article writing",
+            "Real-world applications of essay and article writing"
+          ]
+        }
+      ]
+    }
+  ]
+}

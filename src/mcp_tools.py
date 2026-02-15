@@ -168,7 +168,8 @@ async def tool_teach_concept(student_id: str, course_id: str, concept_id: str) -
     mastery = node.mastery_level if node else 0.0
     misconceptions = node.misconceptions_detected if node else []
 
-    lesson = await teach_concept(concept, student.name, mastery, misconceptions)
+    course_info_dict = tree.course_info.model_dump() if tree.course_info else None
+    lesson = await teach_concept(concept, student.name, mastery, misconceptions, course_info=course_info_dict)
     return {
         "course_id": course_id,
         "concept_id": concept_id,
@@ -197,7 +198,8 @@ async def tool_generate_questions(
     if not concept:
         return {"error": f"Concept {concept_id} not found in course {course_id}"}
 
-    questions = await generate_questions(concept, count, difficulty)
+    course_info_dict = tree.course_info.model_dump() if tree.course_info else None
+    questions = await generate_questions(concept, count, difficulty, course_info=course_info_dict)
     return {
         "course_id": course_id,
         "concept_id": concept_id,
@@ -230,7 +232,8 @@ async def tool_evaluate_answer(
     node = student.mastery_nodes.get(concept_id)
     previous_mastery = node.mastery_level if node else 0.0
 
-    evaluation = await evaluate_answer(concept, question, answer, previous_mastery)
+    course_info_dict = tree.course_info.model_dump() if tree.course_info else None
+    evaluation = await evaluate_answer(concept, question, answer, previous_mastery, course_info=course_info_dict)
 
     mastery_score = evaluation.get("mastery_score", 0.0)
     misconceptions = evaluation.get("misconceptions", [])

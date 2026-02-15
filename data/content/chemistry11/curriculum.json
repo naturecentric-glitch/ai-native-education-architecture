@@ -1,0 +1,519 @@
+{
+  "course_id": "chemistry11",
+  "title": "Class 11 Chemistry",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Some Basic Concepts of Chemistry",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.basic_concepts.mole_concept",
+          "title": "Mole Concept and Molar Mass",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Mole Concept and Molar Mass — part of the chapter on Some Basic Concepts of Chemistry.",
+          "key_ideas": [
+            "Core principles of mole concept and molar mass",
+            "Step-by-step problem solving for mole concept and molar mass",
+            "Real-world applications of mole concept and molar mass"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.basic_concepts.stoichiometry",
+          "title": "Stoichiometry and Limiting Reagent",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry11.basic_concepts.mole_concept"
+          ],
+          "description": "Stoichiometry and Limiting Reagent — part of the chapter on Some Basic Concepts of Chemistry.",
+          "key_ideas": [
+            "Core principles of stoichiometry and limiting reagent",
+            "Step-by-step problem solving for stoichiometry and limiting reagent",
+            "Real-world applications of stoichiometry and limiting reagent"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Structure of Atom",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.atomic_structure.quantum_numbers",
+          "title": "Quantum Numbers and Orbitals",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Quantum Numbers and Orbitals — part of the chapter on Structure of Atom.",
+          "key_ideas": [
+            "Core principles of quantum numbers and orbitals",
+            "Step-by-step problem solving for quantum numbers and orbitals",
+            "Real-world applications of quantum numbers and orbitals"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.atomic_structure.electron_config",
+          "title": "Electron Configuration and Aufbau Principle",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry11.atomic_structure.quantum_numbers"
+          ],
+          "description": "Electron Configuration and Aufbau Principle — part of the chapter on Structure of Atom.",
+          "key_ideas": [
+            "Core principles of electron configuration and aufbau principle",
+            "Step-by-step problem solving for electron configuration and aufbau principle",
+            "Real-world applications of electron configuration and aufbau principle"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Classification of Elements and Periodicity",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.classification.periodic_table",
+          "title": "Modern Periodic Table",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Modern Periodic Table — part of the chapter on Classification of Elements and Periodicity.",
+          "key_ideas": [
+            "Core principles of modern periodic table",
+            "Step-by-step problem solving for modern periodic table",
+            "Real-world applications of modern periodic table"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.classification.periodic_trends",
+          "title": "Periodic Trends — Ionization Energy, Electronegativity",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "chemistry11.classification.periodic_table"
+          ],
+          "description": "Periodic Trends — Ionization Energy, Electronegativity — part of the chapter on Classification of Elements and Periodicity.",
+          "key_ideas": [
+            "Core principles of periodic trends",
+            "Step-by-step problem solving for periodic trends",
+            "Real-world applications of periodic trends"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Chemical Bonding and Molecular Structure",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.chemical_bonding.ionic_covalent",
+          "title": "Ionic and Covalent Bonding",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Ionic and Covalent Bonding — part of the chapter on Chemical Bonding and Molecular Structure.",
+          "key_ideas": [
+            "Core principles of ionic and covalent bonding",
+            "Step-by-step problem solving for ionic and covalent bonding",
+            "Real-world applications of ionic and covalent bonding"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.chemical_bonding.vsepr",
+          "title": "VSEPR Theory and Molecular Geometry",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry11.chemical_bonding.ionic_covalent"
+          ],
+          "description": "VSEPR Theory and Molecular Geometry — part of the chapter on Chemical Bonding and Molecular Structure.",
+          "key_ideas": [
+            "Core principles of vsepr theory and molecular geometry",
+            "Step-by-step problem solving for vsepr theory and molecular geometry",
+            "Real-world applications of vsepr theory and molecular geometry"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.chemical_bonding.hybridisation",
+          "title": "Hybridisation and MO Theory",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "chemistry11.chemical_bonding.vsepr"
+          ],
+          "description": "Hybridisation and MO Theory — part of the chapter on Chemical Bonding and Molecular Structure.",
+          "key_ideas": [
+            "Core principles of hybridisation and mo theory",
+            "Step-by-step problem solving for hybridisation and mo theory",
+            "Real-world applications of hybridisation and mo theory"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "States of Matter",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.states_matter.gas_laws_chem",
+          "title": "Gas Laws — Boyle's, Charles's, Ideal Gas",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Gas Laws — Boyle's, Charles's, Ideal Gas — part of the chapter on States of Matter.",
+          "key_ideas": [
+            "Core principles of gas laws",
+            "Step-by-step problem solving for gas laws",
+            "Real-world applications of gas laws"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.states_matter.intermolecular",
+          "title": "Intermolecular Forces and Liquefaction",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "chemistry11.states_matter.gas_laws_chem"
+          ],
+          "description": "Intermolecular Forces and Liquefaction — part of the chapter on States of Matter.",
+          "key_ideas": [
+            "Core principles of intermolecular forces and liquefaction",
+            "Step-by-step problem solving for intermolecular forces and liquefaction",
+            "Real-world applications of intermolecular forces and liquefaction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Thermodynamics",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.thermodynamics_chem.enthalpy",
+          "title": "Enthalpy and Hess's Law",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Enthalpy and Hess's Law — part of the chapter on Thermodynamics.",
+          "key_ideas": [
+            "Core principles of enthalpy and hess's law",
+            "Step-by-step problem solving for enthalpy and hess's law",
+            "Real-world applications of enthalpy and hess's law"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.thermodynamics_chem.gibbs_energy",
+          "title": "Gibbs Free Energy and Spontaneity",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "chemistry11.thermodynamics_chem.enthalpy"
+          ],
+          "description": "Gibbs Free Energy and Spontaneity — part of the chapter on Thermodynamics.",
+          "key_ideas": [
+            "Core principles of gibbs free energy and spontaneity",
+            "Step-by-step problem solving for gibbs free energy and spontaneity",
+            "Real-world applications of gibbs free energy and spontaneity"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Equilibrium",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.equilibrium.chemical_equilibrium",
+          "title": "Chemical Equilibrium and Le Chatelier's Principle",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Chemical Equilibrium and Le Chatelier's Principle — part of the chapter on Equilibrium.",
+          "key_ideas": [
+            "Core principles of chemical equilibrium and le chatelier's principle",
+            "Step-by-step problem solving for chemical equilibrium and le chatelier's principle",
+            "Real-world applications of chemical equilibrium and le chatelier's principle"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.equilibrium.ionic_equilibrium",
+          "title": "Ionic Equilibrium — pH, Buffers, Solubility",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "chemistry11.equilibrium.chemical_equilibrium"
+          ],
+          "description": "Ionic Equilibrium — pH, Buffers, Solubility — part of the chapter on Equilibrium.",
+          "key_ideas": [
+            "Core principles of ionic equilibrium",
+            "Step-by-step problem solving for ionic equilibrium",
+            "Real-world applications of ionic equilibrium"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Redox Reactions",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.redox.oxidation_numbers",
+          "title": "Oxidation Number Method",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Oxidation Number Method — part of the chapter on Redox Reactions.",
+          "key_ideas": [
+            "Core principles of oxidation number method",
+            "Step-by-step problem solving for oxidation number method",
+            "Real-world applications of oxidation number method"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.redox.balancing_redox",
+          "title": "Balancing Redox Reactions",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry11.redox.oxidation_numbers"
+          ],
+          "description": "Balancing Redox Reactions — part of the chapter on Redox Reactions.",
+          "key_ideas": [
+            "Core principles of balancing redox reactions",
+            "Step-by-step problem solving for balancing redox reactions",
+            "Real-world applications of balancing redox reactions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Hydrogen",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.hydrogen.hydrogen_properties",
+          "title": "Properties and Preparation of Hydrogen",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Properties and Preparation of Hydrogen — part of the chapter on Hydrogen.",
+          "key_ideas": [
+            "Core principles of properties and preparation of hydrogen",
+            "Step-by-step problem solving for properties and preparation of hydrogen",
+            "Real-world applications of properties and preparation of hydrogen"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.hydrogen.water_chemistry",
+          "title": "Water — Hard and Soft, Heavy Water",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Water — Hard and Soft, Heavy Water — part of the chapter on Hydrogen.",
+          "key_ideas": [
+            "Core principles of water",
+            "Step-by-step problem solving for water",
+            "Real-world applications of water"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "The s-Block Elements",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.s_block.alkali_metals",
+          "title": "Alkali Metals — Properties and Compounds",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Alkali Metals — Properties and Compounds — part of the chapter on The s-Block Elements.",
+          "key_ideas": [
+            "Core principles of alkali metals",
+            "Step-by-step problem solving for alkali metals",
+            "Real-world applications of alkali metals"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.s_block.alkaline_earth",
+          "title": "Alkaline Earth Metals",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Alkaline Earth Metals — part of the chapter on The s-Block Elements.",
+          "key_ideas": [
+            "Core principles of alkaline earth metals",
+            "Step-by-step problem solving for alkaline earth metals",
+            "Real-world applications of alkaline earth metals"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Some p-Block Elements",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.p_block_11.group_13",
+          "title": "Group 13 Elements — Boron Family",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Group 13 Elements — Boron Family — part of the chapter on Some p-Block Elements.",
+          "key_ideas": [
+            "Core principles of group 13 elements",
+            "Step-by-step problem solving for group 13 elements",
+            "Real-world applications of group 13 elements"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.p_block_11.group_14",
+          "title": "Group 14 Elements — Carbon Family",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Group 14 Elements — Carbon Family — part of the chapter on Some p-Block Elements.",
+          "key_ideas": [
+            "Core principles of group 14 elements",
+            "Step-by-step problem solving for group 14 elements",
+            "Real-world applications of group 14 elements"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch12",
+      "title": "Organic Chemistry — Some Basic Principles",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.organic_basics.iupac",
+          "title": "IUPAC Nomenclature",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "IUPAC Nomenclature — part of the chapter on Organic Chemistry — Some Basic Principles.",
+          "key_ideas": [
+            "Core principles of iupac nomenclature",
+            "Step-by-step problem solving for iupac nomenclature",
+            "Real-world applications of iupac nomenclature"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.organic_basics.isomerism",
+          "title": "Isomerism — Structural and Stereoisomerism",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry11.organic_basics.iupac"
+          ],
+          "description": "Isomerism — Structural and Stereoisomerism — part of the chapter on Organic Chemistry — Some Basic Principles.",
+          "key_ideas": [
+            "Core principles of isomerism",
+            "Step-by-step problem solving for isomerism",
+            "Real-world applications of isomerism"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.organic_basics.reaction_mechanisms",
+          "title": "Reaction Mechanisms — SN1, SN2, E1, E2",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "chemistry11.organic_basics.isomerism"
+          ],
+          "description": "Reaction Mechanisms — SN1, SN2, E1, E2 — part of the chapter on Organic Chemistry — Some Basic Principles.",
+          "key_ideas": [
+            "Core principles of reaction mechanisms",
+            "Step-by-step problem solving for reaction mechanisms",
+            "Real-world applications of reaction mechanisms"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch13",
+      "title": "Hydrocarbons",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.hydrocarbons.alkanes",
+          "title": "Alkanes — Properties and Reactions",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Alkanes — Properties and Reactions — part of the chapter on Hydrocarbons.",
+          "key_ideas": [
+            "Core principles of alkanes",
+            "Step-by-step problem solving for alkanes",
+            "Real-world applications of alkanes"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.hydrocarbons.alkenes_alkynes",
+          "title": "Alkenes and Alkynes",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "chemistry11.hydrocarbons.alkanes"
+          ],
+          "description": "Alkenes and Alkynes — part of the chapter on Hydrocarbons.",
+          "key_ideas": [
+            "Core principles of alkenes and alkynes",
+            "Step-by-step problem solving for alkenes and alkynes",
+            "Real-world applications of alkenes and alkynes"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.hydrocarbons.aromatic",
+          "title": "Aromatic Hydrocarbons — Benzene",
+          "bloom_level": "understand",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "chemistry11.hydrocarbons.alkenes_alkynes"
+          ],
+          "description": "Aromatic Hydrocarbons — Benzene — part of the chapter on Hydrocarbons.",
+          "key_ideas": [
+            "Core principles of aromatic hydrocarbons",
+            "Step-by-step problem solving for aromatic hydrocarbons",
+            "Real-world applications of aromatic hydrocarbons"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch14",
+      "title": "Environmental Chemistry",
+      "concepts": [
+        {
+          "concept_id": "chemistry11.environmental.pollution_chem",
+          "title": "Air, Water and Soil Pollution",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Air, Water and Soil Pollution — part of the chapter on Environmental Chemistry.",
+          "key_ideas": [
+            "Core principles of air, water and soil pollution",
+            "Step-by-step problem solving for air, water and soil pollution",
+            "Real-world applications of air, water and soil pollution"
+          ]
+        },
+        {
+          "concept_id": "chemistry11.environmental.green_chemistry",
+          "title": "Green Chemistry",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Green Chemistry — part of the chapter on Environmental Chemistry.",
+          "key_ideas": [
+            "Core principles of green chemistry",
+            "Step-by-step problem solving for green chemistry",
+            "Real-world applications of green chemistry"
+          ]
+        }
+      ]
+    }
+  ]
+}
