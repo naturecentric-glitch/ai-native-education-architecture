@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎓 Class 6 Mathematics — AI Tutor</title>
+    <title>🎓 AI-Native Education Platform</title>
     <style>
         :root {
             --primary: #4A90D9;
@@ -15,7 +15,7 @@
             --text: #2C3E50;
             --text-light: #7F8C8D;
             --border: #E1E8ED;
-            --radius: 12px;
+            --radius: 14px;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -27,153 +27,115 @@
             line-height: 1.6;
         }
 
-        /* ── Header ─────────────────────────────────────────── */
-        .header {
-            background: linear-gradient(135deg, var(--primary), #2C5F8A);
+        /* ── Hero ───────────────────────────────────────────── */
+        .hero {
+            background: linear-gradient(135deg, #4A90D9 0%, #2C5F8A 50%, #1A3A5C 100%);
             color: white;
-            padding: 1.5rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        .header h1 { font-size: 1.5rem; }
-        .header .student-info {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            font-size: 0.9rem;
-        }
-        .header .student-info .avatar {
-            width: 36px; height: 36px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.3);
-            display: flex; align-items: center; justify-content: center;
-            font-size: 1.2rem;
-        }
-        .mastery-bar-header {
-            background: rgba(255,255,255,0.2);
-            border-radius: 10px;
-            width: 120px; height: 8px;
+            text-align: center;
+            padding: 4rem 2rem 3rem;
+            position: relative;
             overflow: hidden;
         }
-        .mastery-bar-header .fill {
-            height: 100%;
-            background: var(--success);
-            border-radius: 10px;
-            transition: width 0.5s;
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+            animation: float 20s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(30px, -30px); }
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .hero .subtitle {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            opacity: 0.7;
         }
 
-        /* ── Layout ─────────────────────────────────────────── */
-        .container {
-            max-width: 1200px;
+        /* ── Course Grid ────────────────────────────────────── */
+        .section {
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 1.5rem;
+            padding: 2rem 1.5rem;
+        }
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .course-grid {
             display: grid;
-            grid-template-columns: 300px 1fr;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 1.5rem;
         }
-
-        /* ── Sidebar ────────────────────────────────────────── */
-        .sidebar {
-            position: sticky;
-            top: 1rem;
-            max-height: calc(100vh - 100px);
-            overflow-y: auto;
-        }
-        .chapter-card {
+        .course-card {
             background: var(--card);
             border-radius: var(--radius);
-            margin-bottom: 0.75rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
             overflow: hidden;
-        }
-        .chapter-header {
-            padding: 0.75rem 1rem;
-            font-weight: 600;
-            font-size: 0.85rem;
-            background: #F8F9FA;
-            border-bottom: 1px solid var(--border);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
             cursor: pointer;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            flex-direction: column;
         }
-        .chapter-header:hover { background: #EEF2F7; }
-        .chapter-header .arrow { transition: transform 0.2s; }
-        .chapter-header.open .arrow { transform: rotate(90deg); }
-        .concept-list { display: none; padding: 0.5rem 0; }
-        .concept-list.show { display: block; }
-        .concept-item {
-            padding: 0.5rem 1rem;
-            font-size: 0.82rem;
-            cursor: pointer;
+        .course-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+        .course-card .card-banner {
+            height: 120px;
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            border-left: 3px solid transparent;
-            transition: all 0.15s;
+            justify-content: center;
+            font-size: 3.5rem;
+            position: relative;
         }
-        .concept-item:hover { background: #F0F4F8; border-left-color: var(--primary); }
-        .concept-item.active { background: #E8F0FE; border-left-color: var(--primary); font-weight: 600; }
-        .concept-item .status {
-            width: 10px; height: 10px;
-            border-radius: 50%;
-            flex-shrink: 0;
+        .course-card .card-banner::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0; right: 0;
+            height: 40px;
+            background: linear-gradient(to top, var(--card), transparent);
         }
-        .status.mastered { background: var(--success); }
-        .status.in_progress { background: var(--warning); }
-        .status.available { background: var(--primary); }
-        .status.locked { background: var(--border); }
-
-        /* ── Main Content ───────────────────────────────────── */
-        .main-content { min-height: 60vh; }
-        .card {
-            background: var(--card);
-            border-radius: var(--radius);
-            padding: 1.5rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-            margin-bottom: 1.25rem;
-        }
-        .card h2 { font-size: 1.2rem; margin-bottom: 0.5rem; }
-        .card h3 { font-size: 1rem; margin-bottom: 0.5rem; color: var(--primary); }
-
-        /* ── Welcome Screen ─────────────────────────────────── */
-        .welcome {
-            text-align: center;
-            padding: 4rem 2rem;
-        }
-        .welcome h2 { font-size: 1.8rem; margin-bottom: 1rem; }
-        .welcome p { color: var(--text-light); font-size: 1rem; max-width: 500px; margin: 0 auto 2rem; }
-        .recommended-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-        .rec-card {
-            background: linear-gradient(135deg, #EBF5FF, #F0F4FF);
-            border: 1px solid #D0E1F9;
-            border-radius: var(--radius);
+        .course-card .card-body {
             padding: 1.25rem;
-            cursor: pointer;
-            transition: transform 0.15s, box-shadow 0.15s;
-            text-align: left;
-        }
-        .rec-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(74,144,217,0.15); }
-        .rec-card .title { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.25rem; }
-        .rec-card .chapter { font-size: 0.75rem; color: var(--text-light); }
-        .rec-card .difficulty { font-size: 0.75rem; margin-top: 0.5rem; }
-
-        /* ── Concept View ───────────────────────────────────── */
-        .concept-header {
+            flex: 1;
             display: flex;
-            justify-content: space-between;
-            align-items: start;
+            flex-direction: column;
+        }
+        .course-card .card-body h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.35rem;
+        }
+        .course-card .card-body .description {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            flex: 1;
             margin-bottom: 1rem;
         }
-        .concept-header .meta {
-            display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;
+        .course-card .card-meta {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
         }
         .badge {
             padding: 0.2rem 0.6rem;
@@ -182,153 +144,18 @@
             font-weight: 600;
             text-transform: uppercase;
         }
-        .badge.bloom { background: #E8F5E9; color: #2E7D32; }
-        .badge.difficulty { background: #FFF3E0; color: #E65100; }
-        .badge.chapter { background: #E3F2FD; color: #1565C0; }
+        .badge.grade { background: #E3F2FD; color: #1565C0; }
+        .badge.board { background: #E8F5E9; color: #2E7D32; }
+        .badge.subject { background: #FFF3E0; color: #E65100; }
+        .badge.status-active { background: #E8F5E9; color: #2E7D32; }
+        .badge.status-coming { background: #FFF8E1; color: #F57F17; }
 
-        .mastery-display {
+        /* ── Empty / Loading ────────────────────────────────── */
+        .loading-state, .empty-state {
             text-align: center;
-            padding: 1rem;
-        }
-        .mastery-ring {
-            width: 80px; height: 80px;
-            border-radius: 50%;
-            border: 6px solid var(--border);
-            display: flex; align-items: center; justify-content: center;
-            margin: 0 auto 0.5rem;
-            font-size: 1.2rem; font-weight: 700;
-            position: relative;
-        }
-        .mastery-ring.high { border-color: var(--success); color: var(--success); }
-        .mastery-ring.mid { border-color: var(--warning); color: var(--warning); }
-        .mastery-ring.low { border-color: var(--danger); color: var(--danger); }
-        .mastery-ring.none { border-color: var(--border); color: var(--text-light); }
-
-        .key-ideas { list-style: none; padding: 0; }
-        .key-ideas li {
-            padding: 0.4rem 0 0.4rem 1.5rem;
-            position: relative;
-            font-size: 0.9rem;
-        }
-        .key-ideas li::before {
-            content: '💡';
-            position: absolute;
-            left: 0;
-        }
-
-        /* ── Buttons ────────────────────────────────────────── */
-        .btn {
-            padding: 0.6rem 1.2rem;
-            border: none;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.15s;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
-        .btn-primary { background: var(--primary); color: white; }
-        .btn-primary:hover:not(:disabled) { background: #3A7BC8; }
-        .btn-success { background: var(--success); color: white; }
-        .btn-success:hover:not(:disabled) { background: #27AE60; }
-        .btn-outline {
-            background: transparent;
-            border: 2px solid var(--primary);
-            color: var(--primary);
-        }
-        .btn-outline:hover:not(:disabled) { background: var(--primary); color: white; }
-        .btn-group { display: flex; gap: 0.75rem; margin-top: 1rem; flex-wrap: wrap; }
-
-        /* ── Lesson Content ─────────────────────────────────── */
-        .lesson-section {
-            margin-bottom: 1.5rem;
-            padding: 1.25rem;
-            background: #FAFBFC;
-            border-radius: 8px;
-            border-left: 4px solid var(--primary);
-        }
-        .lesson-section.hook { border-left-color: #E67E22; background: #FEF9F0; }
-        .lesson-section.example { border-left-color: var(--success); background: #F0FAF4; }
-        .lesson-section.try-this { border-left-color: #9B59B6; background: #F8F0FE; }
-        .lesson-section.fun-fact { border-left-color: #E74C3C; background: #FEF0F0; }
-        .lesson-section h4 { margin-bottom: 0.5rem; font-size: 0.95rem; }
-        .lesson-section p, .lesson-section pre {
-            font-size: 0.88rem;
-            white-space: pre-wrap;
-            line-height: 1.7;
-        }
-
-        /* ── Question/Answer ────────────────────────────────── */
-        .question-card {
-            background: #FAFBFC;
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 1.25rem;
-            margin-bottom: 1rem;
-        }
-        .question-card .q-type {
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-        }
-        .question-card .q-text { font-size: 0.95rem; margin-bottom: 0.75rem; }
-        .question-card textarea {
-            width: 100%;
-            min-height: 80px;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 0.75rem;
-            font-size: 0.88rem;
-            font-family: inherit;
-            resize: vertical;
-        }
-        .question-card textarea:focus { outline: none; border-color: var(--primary); }
-        .hint-text {
-            font-size: 0.8rem;
+            padding: 4rem 2rem;
             color: var(--text-light);
-            margin-top: 0.5rem;
-            display: none;
         }
-        .hint-text.show { display: block; }
-
-        /* ── Evaluation Result ──────────────────────────────── */
-        .eval-result {
-            margin-top: 1rem;
-            padding: 1.25rem;
-            border-radius: 8px;
-            display: none;
-        }
-        .eval-result.show { display: block; }
-        .eval-result.good { background: #F0FAF4; border: 1px solid #2ECC71; }
-        .eval-result.needs-work { background: #FEF9F0; border: 1px solid #F39C12; }
-        .eval-result.struggling { background: #FEF0F0; border: 1px solid #E74C3C; }
-        .eval-scores {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 0.75rem;
-            margin: 1rem 0;
-        }
-        .score-item {
-            text-align: center;
-            padding: 0.75rem;
-            background: rgba(255,255,255,0.8);
-            border-radius: 8px;
-        }
-        .score-item .value { font-size: 1.5rem; font-weight: 700; }
-        .score-item .label { font-size: 0.7rem; color: var(--text-light); text-transform: uppercase; }
-
-        /* ── Loading ────────────────────────────────────────── */
-        .loading {
-            display: none;
-            text-align: center;
-            padding: 2rem;
-        }
-        .loading.show { display: block; }
         .spinner {
             width: 40px; height: 40px;
             border: 4px solid var(--border);
@@ -339,507 +166,103 @@
         }
         @keyframes spin { to { transform: rotate(360deg); } }
 
-        /* ── Responsive ─────────────────────────────────────── */
-        @media (max-width: 768px) {
-            .container {
-                grid-template-columns: 1fr;
-            }
-            .sidebar {
-                position: static;
-                max-height: none;
-            }
+        /* ── Footer ─────────────────────────────────────────── */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: var(--text-light);
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .course-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
 
-<!-- Header -->
-<div class="header">
-    <h1>🎓 Class 6 Mathematics</h1>
-    <div class="student-info">
-        <div>
-            <div id="studentName" style="font-weight:600">Student</div>
-            <div style="font-size:0.75rem;opacity:0.8">
-                <span id="masteredCount">0</span> / <span id="totalConcepts">0</span> concepts mastered
-            </div>
-        </div>
-        <div class="mastery-bar-header">
-            <div class="fill" id="overallMastery" style="width: 0%"></div>
-        </div>
-        <div class="avatar">👤</div>
-    </div>
+<!-- Hero -->
+<div class="hero">
+    <h1>🎓 AI-Native Education</h1>
+    <p>Mastery-based learning powered by AI. Pick a course below and let your personal tutor guide you through every concept.</p>
+    <div class="subtitle">Personalized • Adaptive • Mastery-Driven</div>
 </div>
 
-<!-- Main Layout -->
-<div class="container">
+<!-- Courses Section -->
+<div class="section">
+    <div class="section-title">📚 Available Courses</div>
 
-    <!-- Sidebar — Curriculum Tree -->
-    <div class="sidebar" id="sidebar">
-        <div style="padding: 0.5rem 0; margin-bottom: 0.5rem;">
-            <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-light); font-weight: 700; letter-spacing: 0.5px;">
-                📖 Curriculum
-            </div>
-        </div>
-        <!-- Chapters loaded dynamically -->
+    <div id="loadingState" class="loading-state">
+        <div class="spinner"></div>
+        <p>Loading courses...</p>
     </div>
 
-    <!-- Main Content Area -->
-    <div class="main-content" id="mainContent">
-        <!-- Welcome Screen (default) -->
-        <div id="welcomeScreen">
-            <div class="card welcome">
-                <h2>👋 Welcome to your AI Math Tutor!</h2>
-                <p>I'm here to help you master Class 6 Mathematics. Pick a topic from the sidebar, or start with one of my recommendations below!</p>
-            </div>
-            <div class="card">
-                <h3>🚀 Recommended for You</h3>
-                <div class="recommended-grid" id="recommendedGrid">
-                    <!-- Loaded dynamically -->
-                </div>
-            </div>
-        </div>
-
-        <!-- Concept View (hidden by default) -->
-        <div id="conceptView" style="display:none">
-            <!-- Concept Header -->
-            <div class="card">
-                <div class="concept-header">
-                    <div>
-                        <h2 id="conceptTitle"></h2>
-                        <p id="conceptDesc" style="color: var(--text-light); font-size:0.9rem; margin-top:0.25rem;"></p>
-                        <div class="meta">
-                            <span class="badge chapter" id="conceptChapter"></span>
-                            <span class="badge bloom" id="conceptBloom"></span>
-                            <span class="badge difficulty" id="conceptDifficulty"></span>
-                        </div>
-                    </div>
-                    <div class="mastery-display">
-                        <div class="mastery-ring none" id="masteryRing">
-                            <span id="masteryPercent">0%</span>
-                        </div>
-                        <div style="font-size:0.75rem;color:var(--text-light)">Mastery</div>
-                    </div>
-                </div>
-                <div>
-                    <h3 style="margin-top:1rem;">💡 Key Ideas</h3>
-                    <ul class="key-ideas" id="keyIdeas"></ul>
-                </div>
-                <div class="btn-group">
-                    <button class="btn btn-primary" onclick="startLesson()">📖 Learn This</button>
-                    <button class="btn btn-success" onclick="startPractice()">✏️ Practice</button>
-                    <button class="btn btn-outline" onclick="showConceptMap()">🗺️ Prerequisites</button>
-                </div>
-            </div>
-
-            <!-- Lesson Area -->
-            <div id="lessonArea" style="display:none"></div>
-
-            <!-- Practice Area -->
-            <div id="practiceArea" style="display:none"></div>
-
-            <!-- Loading Indicator -->
-            <div class="loading" id="loading">
-                <div class="spinner"></div>
-                <p>🧠 AI is thinking...</p>
-            </div>
-        </div>
+    <div id="emptyState" class="empty-state" style="display:none">
+        <p style="font-size:1.5rem;margin-bottom:0.5rem">📭</p>
+        <p>No courses available yet. Check back soon!</p>
     </div>
+
+    <div class="course-grid" id="courseGrid"></div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    AI-Native Education Platform &middot; Built with Gemini AI &middot; <a href="https://github.com/naturecentric-glitch/ai-native-education-architecture" target="_blank" style="color:var(--primary)">GitHub</a>
 </div>
 
 <script>
-// ── State ───────────────────────────────────────────────────────────────────
-const STUDENT_ID = 'student-001';
-const API = '';  // same origin
-let currentConcept = null;
-let studentData = null;
-let curriculumData = null;
+async function loadCourses() {
+    const grid = document.getElementById('courseGrid');
+    const loading = document.getElementById('loadingState');
+    const empty = document.getElementById('emptyState');
 
-// ── Init ────────────────────────────────────────────────────────────────────
-async function init() {
     try {
-        const [curriculum, student] = await Promise.all([
-            fetchAPI('/api/curriculum'),
-            fetchAPI(`/api/student/${STUDENT_ID}`),
-        ]);
-        curriculumData = curriculum;
-        studentData = student;
-        renderSidebar(curriculum);
-        renderStudentHeader(student);
-        renderRecommendations(student);
-    } catch (e) {
-        console.error('Init failed:', e);
-    }
-}
+        const res = await fetch('/api/courses');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        const courses = data.courses || [];
 
-// ── API Helper ──────────────────────────────────────────────────────────────
-async function fetchAPI(url, options = {}) {
-    const res = await fetch(`${API}${url}`, {
-        headers: { 'Content-Type': 'application/json' },
-        ...options,
-    });
-    if (!res.ok) throw new Error(`API error: ${res.status}`);
-    return res.json();
-}
+        loading.style.display = 'none';
 
-// ── Render Sidebar ──────────────────────────────────────────────────────────
-function renderSidebar(curriculum) {
-    const sidebar = document.getElementById('sidebar');
-    const label = sidebar.querySelector('div');
-    sidebar.innerHTML = '';
-    sidebar.appendChild(label);
-
-    const masteryMap = {};
-    if (studentData) {
-        for (const m of studentData.mastery_summary) {
-            masteryMap[m.concept_id] = m;
+        if (courses.length === 0) {
+            empty.style.display = 'block';
+            return;
         }
-    }
 
-    for (const chapter of curriculum.chapters) {
-        const card = document.createElement('div');
-        card.className = 'chapter-card';
+        for (const course of courses) {
+            const card = document.createElement('div');
+            card.className = 'course-card';
+            card.onclick = () => {
+                window.location.href = `/course/${course.course_id}`;
+            };
 
-        const header = document.createElement('div');
-        header.className = 'chapter-header';
-        header.innerHTML = `<span>${chapter.title}</span><span class="arrow">›</span>`;
-        header.onclick = () => {
-            header.classList.toggle('open');
-            list.classList.toggle('show');
-        };
-
-        const list = document.createElement('div');
-        list.className = 'concept-list';
-
-        for (const concept of chapter.concepts) {
-            const m = masteryMap[concept.concept_id];
-            const status = m ? m.status : 'available';
-            const item = document.createElement('div');
-            item.className = 'concept-item';
-            item.dataset.conceptId = concept.concept_id;
-            item.innerHTML = `
-                <span>${concept.title}</span>
-                <span class="status ${status}" title="${status}"></span>
+            const color = course.color || '#4A90D9';
+            card.innerHTML = `
+                <div class="card-banner" style="background: linear-gradient(135deg, ${color}22, ${color}44);">
+                    ${course.icon || '📖'}
+                </div>
+                <div class="card-body">
+                    <h3>${course.title}</h3>
+                    <div class="description">${course.description || ''}</div>
+                    <div class="card-meta">
+                        <span class="badge grade">Grade ${course.grade}</span>
+                        <span class="badge board">${course.board || 'General'}</span>
+                        <span class="badge subject">${course.subject}</span>
+                    </div>
+                </div>
             `;
-            item.onclick = () => selectConcept(concept.concept_id);
-            list.appendChild(item);
+            grid.appendChild(card);
         }
-
-        card.appendChild(header);
-        card.appendChild(list);
-        sidebar.appendChild(card);
-    }
-}
-
-// ── Render Header Stats ─────────────────────────────────────────────────────
-function renderStudentHeader(student) {
-    document.getElementById('studentName').textContent = student.name;
-    document.getElementById('masteredCount').textContent = student.mastered_count;
-    document.getElementById('totalConcepts').textContent = student.total_concepts;
-    const pct = student.total_concepts > 0 ? (student.mastered_count / student.total_concepts * 100) : 0;
-    document.getElementById('overallMastery').style.width = pct + '%';
-}
-
-// ── Render Recommendations ──────────────────────────────────────────────────
-function renderRecommendations(student) {
-    const grid = document.getElementById('recommendedGrid');
-    grid.innerHTML = '';
-    for (const rec of student.next_recommended) {
-        const card = document.createElement('div');
-        card.className = 'rec-card';
-        card.onclick = () => selectConcept(rec.concept_id);
-        card.innerHTML = `
-            <div class="title">${rec.title}</div>
-            <div class="difficulty">
-                ${'⭐'.repeat(Math.ceil(rec.difficulty * 5))} Difficulty
-            </div>
-        `;
-        grid.appendChild(card);
-    }
-}
-
-// ── Select a Concept ────────────────────────────────────────────────────────
-async function selectConcept(conceptId) {
-    showLoading(true);
-    document.getElementById('welcomeScreen').style.display = 'none';
-    document.getElementById('conceptView').style.display = 'block';
-    document.getElementById('lessonArea').style.display = 'none';
-    document.getElementById('practiceArea').style.display = 'none';
-
-    // Highlight in sidebar
-    document.querySelectorAll('.concept-item').forEach(el => {
-        el.classList.toggle('active', el.dataset.conceptId === conceptId);
-    });
-    // Auto-open the parent chapter
-    document.querySelectorAll('.concept-item.active').forEach(el => {
-        const list = el.closest('.concept-list');
-        if (list) list.classList.add('show');
-        const header = list?.previousElementSibling;
-        if (header) header.classList.add('open');
-    });
-
-    try {
-        const concept = await fetchAPI(`/api/concept/${conceptId}`);
-        currentConcept = concept;
-        renderConceptView(concept);
     } catch (e) {
-        console.error(e);
-    }
-    showLoading(false);
-}
-
-function renderConceptView(concept) {
-    document.getElementById('conceptTitle').textContent = concept.title;
-    document.getElementById('conceptDesc').textContent = concept.description;
-    document.getElementById('conceptChapter').textContent = concept.chapter;
-    document.getElementById('conceptBloom').textContent = concept.bloom_level;
-    document.getElementById('conceptDifficulty').textContent = `Difficulty: ${(concept.difficulty * 100).toFixed(0)}%`;
-
-    // Mastery ring
-    const mastery = getMasteryForConcept(concept.concept_id);
-    const ring = document.getElementById('masteryRing');
-    const pct = Math.round(mastery * 100);
-    document.getElementById('masteryPercent').textContent = pct + '%';
-    ring.className = 'mastery-ring ' + (pct >= 70 ? 'high' : pct >= 30 ? 'mid' : pct > 0 ? 'low' : 'none');
-
-    // Key ideas
-    const list = document.getElementById('keyIdeas');
-    list.innerHTML = concept.key_ideas.map(k => `<li>${k}</li>`).join('');
-}
-
-function getMasteryForConcept(conceptId) {
-    if (!studentData) return 0;
-    const m = studentData.mastery_summary.find(s => s.concept_id === conceptId);
-    return m ? m.mastery_level : 0;
-}
-
-// ── Start Lesson ────────────────────────────────────────────────────────────
-async function startLesson() {
-    if (!currentConcept) return;
-    const area = document.getElementById('lessonArea');
-    area.style.display = 'none';
-    document.getElementById('practiceArea').style.display = 'none';
-    showLoading(true);
-
-    try {
-        const result = await fetchAPI('/api/teach', {
-            method: 'POST',
-            body: JSON.stringify({ student_id: STUDENT_ID, concept_id: currentConcept.concept_id }),
-        });
-        renderLesson(result.lesson);
-        area.style.display = 'block';
-    } catch (e) {
-        console.error(e);
-        area.innerHTML = '<div class="card">❌ Failed to generate lesson. Please try again.</div>';
-        area.style.display = 'block';
-    }
-    showLoading(false);
-}
-
-function renderLesson(lesson) {
-    const area = document.getElementById('lessonArea');
-    area.innerHTML = `
-        <div class="card">
-            <h2>📖 ${lesson.title || 'Lesson'}</h2>
-
-            ${lesson.hook ? `<div class="lesson-section hook">
-                <h4>🎣 Let's Start With a Story...</h4>
-                <p>${lesson.hook}</p>
-            </div>` : ''}
-
-            <div class="lesson-section">
-                <h4>📝 Explanation</h4>
-                <p>${lesson.explanation || ''}</p>
-            </div>
-
-            ${lesson.worked_example ? `<div class="lesson-section example">
-                <h4>✅ Worked Example</h4>
-                <p>${lesson.worked_example}</p>
-            </div>` : ''}
-
-            ${lesson.try_this ? `<div class="lesson-section try-this">
-                <h4>🧩 Try This!</h4>
-                <p><strong>${lesson.try_this.question || ''}</strong></p>
-                <p style="margin-top:0.5rem;font-size:0.8rem;color:var(--text-light)">
-                    💡 Hint: ${lesson.try_this.hint || 'Think step by step!'}
-                </p>
-                <details style="margin-top:0.75rem">
-                    <summary style="cursor:pointer;color:var(--primary);font-weight:600;font-size:0.85rem">Show Answer</summary>
-                    <p style="margin-top:0.5rem">${lesson.try_this.answer || ''}</p>
-                </details>
-            </div>` : ''}
-
-            ${lesson.fun_fact ? `<div class="lesson-section fun-fact">
-                <h4>🤩 Fun Fact</h4>
-                <p>${lesson.fun_fact}</p>
-            </div>` : ''}
-
-            <div class="btn-group">
-                <button class="btn btn-success" onclick="startPractice()">✏️ Now Let's Practice!</button>
-            </div>
-        </div>
-    `;
-}
-
-// ── Start Practice ──────────────────────────────────────────────────────────
-async function startPractice() {
-    if (!currentConcept) return;
-    document.getElementById('lessonArea').style.display = 'none';
-    const area = document.getElementById('practiceArea');
-    area.style.display = 'none';
-    showLoading(true);
-
-    try {
-        const result = await fetchAPI('/api/questions', {
-            method: 'POST',
-            body: JSON.stringify({ concept_id: currentConcept.concept_id, count: 3, difficulty: 'medium' }),
-        });
-        renderQuestions(result.questions);
-        area.style.display = 'block';
-    } catch (e) {
-        console.error(e);
-        area.innerHTML = '<div class="card">❌ Failed to generate questions. Please try again.</div>';
-        area.style.display = 'block';
-    }
-    showLoading(false);
-}
-
-function renderQuestions(questions) {
-    const area = document.getElementById('practiceArea');
-    area.innerHTML = `<div class="card"><h2>✏️ Practice Questions</h2></div>`;
-
-    questions.forEach((q, i) => {
-        const qCard = document.createElement('div');
-        qCard.className = 'card';
-        qCard.innerHTML = `
-            <div class="question-card">
-                <div class="q-type">${q.type || 'Question'} — ${(q.difficulty * 100).toFixed(0)}% difficulty</div>
-                <div class="q-text"><strong>Q${i + 1}.</strong> ${q.question}</div>
-                <textarea id="answer-${i}" placeholder="Type your answer here..."></textarea>
-                ${q.hint ? `<div class="hint-text" id="hint-${i}">💡 ${q.hint}</div>` : ''}
-                <div class="btn-group">
-                    <button class="btn btn-primary" onclick="submitAnswer(${i}, '${escapeQuotes(q.question)}', '${escapeQuotes(q.expected_answer || '')}')">Submit Answer</button>
-                    ${q.hint ? `<button class="btn btn-outline" onclick="document.getElementById('hint-${i}').classList.toggle('show')">Show Hint</button>` : ''}
-                </div>
-                <div class="eval-result" id="eval-${i}"></div>
-            </div>
-        `;
-        area.appendChild(qCard);
-    });
-}
-
-function escapeQuotes(str) {
-    return (str || '').replace(/'/g, "\\'").replace(/"/g, '\\"');
-}
-
-// ── Submit Answer for Evaluation ────────────────────────────────────────────
-async function submitAnswer(index, question, expectedAnswer) {
-    const answerEl = document.getElementById(`answer-${index}`);
-    const answer = answerEl.value.trim();
-    if (!answer) { alert('Please write your answer first!'); return; }
-
-    const evalDiv = document.getElementById(`eval-${index}`);
-    evalDiv.className = 'eval-result';
-    evalDiv.innerHTML = '<div class="spinner" style="margin:1rem auto"></div><p style="text-align:center">Evaluating...</p>';
-    evalDiv.classList.add('show');
-
-    try {
-        const result = await fetchAPI('/api/evaluate', {
-            method: 'POST',
-            body: JSON.stringify({
-                student_id: STUDENT_ID,
-                concept_id: currentConcept.concept_id,
-                question: question,
-                answer: answer,
-            }),
-        });
-
-        const ev = result.evaluation;
-        const score = ev.mastery_score || 0;
-        const cls = score >= 0.7 ? 'good' : score >= 0.4 ? 'needs-work' : 'struggling';
-
-        evalDiv.className = `eval-result show ${cls}`;
-        evalDiv.innerHTML = `
-            <div class="eval-scores">
-                <div class="score-item">
-                    <div class="value">${(ev.conceptual_understanding * 100).toFixed(0)}%</div>
-                    <div class="label">Understanding</div>
-                </div>
-                <div class="score-item">
-                    <div class="value">${(ev.logic_traceability * 100).toFixed(0)}%</div>
-                    <div class="label">Logic</div>
-                </div>
-                <div class="score-item">
-                    <div class="value">${(ev.completeness * 100).toFixed(0)}%</div>
-                    <div class="label">Completeness</div>
-                </div>
-            </div>
-            <p><strong>Feedback:</strong> ${ev.feedback || ''}</p>
-            ${ev.correct_approach ? `<p style="margin-top:0.5rem"><strong>💡 Right Approach:</strong> ${ev.correct_approach}</p>` : ''}
-            ${ev.next_step ? `<p style="margin-top:0.5rem"><strong>🚀 Next Step:</strong> ${ev.next_step}</p>` : ''}
-            ${ev.misconceptions && ev.misconceptions.length > 0 ? `
-                <p style="margin-top:0.5rem"><strong>⚠️ Watch out for:</strong> ${ev.misconceptions.join(', ')}</p>
-            ` : ''}
-            <p style="margin-top:0.75rem;font-size:0.8rem;color:var(--text-light)">
-                Mastery: ${(result.previous_mastery * 100).toFixed(0)}% → ${(result.new_mastery * 100).toFixed(0)}%
-            </p>
-        `;
-
-        // Refresh student data
-        studentData = await fetchAPI(`/api/student/${STUDENT_ID}`);
-        renderStudentHeader(studentData);
-        renderSidebar(curriculumData);
-        // Update mastery ring
-        const mastery = result.new_mastery;
-        const ring = document.getElementById('masteryRing');
-        const pct = Math.round(mastery * 100);
-        document.getElementById('masteryPercent').textContent = pct + '%';
-        ring.className = 'mastery-ring ' + (pct >= 70 ? 'high' : pct >= 30 ? 'mid' : pct > 0 ? 'low' : 'none');
-
-    } catch (e) {
-        console.error(e);
-        evalDiv.className = 'eval-result show struggling';
-        evalDiv.innerHTML = '<p>❌ Evaluation failed. Please try again.</p>';
+        console.error('Failed to load courses:', e);
+        loading.innerHTML = '<p style="color:#E74C3C">❌ Failed to load courses. Is the server running?</p>';
     }
 }
 
-// ── Show Concept Map ────────────────────────────────────────────────────────
-function showConceptMap() {
-    if (!currentConcept) return;
-    const area = document.getElementById('lessonArea');
-    document.getElementById('practiceArea').style.display = 'none';
-
-    let html = '<div class="card"><h2>🗺️ Concept Map</h2>';
-
-    if (currentConcept.prerequisites.length > 0) {
-        html += '<h3 style="margin-top:1rem">Prerequisites (learn these first):</h3><ul>';
-        for (const p of currentConcept.prerequisites) {
-            html += `<li style="padding:0.3rem 0;cursor:pointer;color:var(--primary)" onclick="selectConcept('${p.id}')">${p.title}</li>`;
-        }
-        html += '</ul>';
-    } else {
-        html += '<p style="color:var(--text-light);margin-top:1rem">✅ No prerequisites — you can start here!</p>';
-    }
-
-    if (currentConcept.unlocks.length > 0) {
-        html += '<h3 style="margin-top:1rem">Unlocks (learn after mastering this):</h3><ul>';
-        for (const u of currentConcept.unlocks) {
-            html += `<li style="padding:0.3rem 0;cursor:pointer;color:var(--primary)" onclick="selectConcept('${u.id}')">${u.title}</li>`;
-        }
-        html += '</ul>';
-    }
-
-    html += '</div>';
-    area.innerHTML = html;
-    area.style.display = 'block';
-}
-
-// ── Utilities ───────────────────────────────────────────────────────────────
-function showLoading(show) {
-    document.getElementById('loading').classList.toggle('show', show);
-}
-
-// ── Boot ────────────────────────────────────────────────────────────────────
-init();
+loadCourses();
 </script>
 
 </body>

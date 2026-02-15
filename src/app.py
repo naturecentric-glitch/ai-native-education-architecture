@@ -1,20 +1,23 @@
 """
-AI Host — FastAPI Application
+AI Host — FastAPI Application (Multi-Course)
 
 Central server that exposes the education platform via REST endpoints.
+All routes are course-aware. /api/courses lists available courses,
+and all other routes are scoped under /api/courses/{course_id}/...
+
 In production, this would use LangGraph for multi-step agent orchestration.
 For local dev, it calls MCP tools directly.
 """
-import json
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
-from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from src.config import APP_HOST, APP_PORT
 from src.mcp_tools import (
+    tool_list_courses,
+    tool_get_course_info,
     tool_get_curriculum,
     tool_get_student_profile,
     tool_teach_concept,
@@ -29,15 +32,19 @@ from src.mcp_tools import (
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    from src.mastery_tree import list_courses
+    courses = list_courses()
     print("🚀 AI-Native Education Platform starting...")
-    print("📚 Class 6 Mathematics — NCERT Curriculum loaded")
+    print(f"📚 {len(courses)} course(s) registered:")
+    for c in courses:
+        print(f"   {c.icon} {c.title} ({c.course_id})")
     yield
     print("👋 Shutting down...")
 
 app = FastAPI(
     title="AI-Native Education Platform",
-    description="Class 6 Mathematics — Mastery-based learning with Gemini AI",
-    version="0.1.0",
+    description="Multi-course, mastery-based learning platform with Gemini AI",
+    version="0.2.0",
     lifespan=lifespan,
 )
 
@@ -67,57 +74,83 @@ class EvaluateRequest(BaseModel):
     answer: str
 
 
-# ── API Endpoints ────────────────────────────────────────────────────────────
+# ── Course Discovery ─────────────────────────────────────────────────────────
 
-@app.get("/api/curriculum")
-async def get_curriculum():
-    """Get the full curriculum — chapters and concepts."""
-    return tool_get_curriculum()
+@app.get("/api/courses")
+async def get_courses():
+    """List all available courses on the platform."""
+    return tool_list_courses()
 
 
-@app.get("/api/concept/{concept_id}")
-async def get_concept(concept_id: str):
-    """Get details for a specific concept."""
-    result = tool_get_concept(concept_id)
+@app.get("/api/courses/{course_id}")
+async def get_course(course_id: str):
+    """Get metadata and stats for a specific course."""
+    result = tool_get_course_info(course_id)
     if "error" in result:
         raise HTTPException(status_code=404, detail=result["error"])
     return result
 
 
-@app.get("/api/student/{student_id}")
-async def get_student(student_id: str):
-    """Get student profile and mastery state."""
-    return tool_get_student_profile(student_id)
+# ── Course-Scoped Endpoints ──────────────────────────────────────────────────
+
+@app.get("/api/courses/{course_id}/curriculum")
+async def get_curriculum(course_id: str):
+    """Get the full curriculum for a course — chapters and concepts."""
+    result = tool_get_curriculum(course_id)
+    if "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
 
 
-@app.get("/api/student/{student_id}/next")
-async def get_next(student_id: str, limit: int = 3):
-    """Get next recommended concepts for a student."""
-    return tool_get_next_concepts(student_id, limit)
+@app.get("/api/courses/{course_id}/concepts/{concept_id}")
+async def get_concept(course_id: str, concept_id: str):
+    """Get details for a specific concept within a course."""
+    result = tool_get_concept(course_id, concept_id)
+    if "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
 
 
-@app.post("/api/teach")
-async def teach(req: TeachRequest):
+@app.get("/api/courses/{course_id}/students/{student_id}")
+async def get_student(course_id: str, student_id: str):
+    """Get student profile and mastery state for a course."""
+    result = tool_get_student_profile(student_id, course_id)
+    if "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
+
+
+@app.get("/api/courses/{course_id}/students/{student_id}/next")
+async def get_next(course_id: str, student_id: str, limit: int = 3):
+    """Get next recommended concepts for a student in a course."""
+    result = tool_get_next_concepts(student_id, course_id, limit)
+    if "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
+
+
+@app.post("/api/courses/{course_id}/teach")
+async def teach(course_id: str, req: TeachRequest):
     """Generate a personalized lesson for a concept."""
-    result = await tool_teach_concept(req.student_id, req.concept_id)
+    result = await tool_teach_concept(req.student_id, course_id, req.concept_id)
     if "error" in result:
         raise HTTPException(status_code=404, detail=result["error"])
     return result
 
 
-@app.post("/api/questions")
-async def questions(req: QuestionRequest):
+@app.post("/api/courses/{course_id}/questions")
+async def questions(course_id: str, req: QuestionRequest):
     """Generate practice questions for a concept."""
-    result = await tool_generate_questions(req.concept_id, req.count, req.difficulty)
+    result = await tool_generate_questions(course_id, req.concept_id, req.count, req.difficulty)
     if "error" in result:
         raise HTTPException(status_code=404, detail=result["error"])
     return result
 
 
-@app.post("/api/evaluate")
-async def evaluate(req: EvaluateRequest):
+@app.post("/api/courses/{course_id}/evaluate")
+async def evaluate(course_id: str, req: EvaluateRequest):
     """Evaluate a student's answer and update mastery."""
-    result = await tool_evaluate_answer(req.student_id, req.concept_id, req.question, req.answer)
+    result = await tool_evaluate_answer(req.student_id, course_id, req.concept_id, req.question, req.answer)
     if "error" in result:
         raise HTTPException(status_code=404, detail=result["error"])
     return result
@@ -127,9 +160,17 @@ async def evaluate(req: EvaluateRequest):
 
 @app.get("/", response_class=HTMLResponse)
 async def home():
-    """Serve the main student interface."""
+    """Serve the course catalog (landing page)."""
     with open("frontend/index.html") as f:
         return HTMLResponse(content=f.read())
+
+
+@app.get("/course/{course_id}", response_class=HTMLResponse)
+async def course_page(course_id: str):
+    """Serve the course learning interface."""
+    with open("frontend/course.html") as f:
+        html = f.read().replace("{{COURSE_ID}}", course_id)
+        return HTMLResponse(content=html)
 
 
 # ── Run ──────────────────────────────────────────────────────────────────────

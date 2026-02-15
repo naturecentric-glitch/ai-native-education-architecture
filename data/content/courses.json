@@ -1,0 +1,17 @@
+{
+  "courses": [
+    {
+      "course_id": "math6",
+      "title": "Class 6 Mathematics",
+      "subject": "mathematics",
+      "grade": 6,
+      "board": "NCERT",
+      "language": "english",
+      "icon": "🔢",
+      "color": "#4A90D9",
+      "description": "Complete NCERT Class 6 Mathematics — from numbers to algebra, geometry to data handling.",
+      "curriculum_file": "math6/curriculum.json",
+      "status": "active"
+    }
+  ]
+}

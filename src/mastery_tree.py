@@ -45,23 +45,75 @@ class StudentProfile(BaseModel):
     name: str
     grade: int = 6
     preferred_language: str = "english"
-    mastery_nodes: dict[str, MasteryNode] = {}
+    enrolled_courses: list[str] = []  # course_ids the student is enrolled in
+    mastery_nodes: dict[str, MasteryNode] = {}  # keyed by concept_id (globally unique)
     created_at: str = Field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
+
+
+# ── Course Info ──────────────────────────────────────────────────────────────
+
+class CourseInfo(BaseModel):
+    course_id: str
+    title: str
+    subject: str
+    grade: int
+    board: str = "General"
+    language: str = "english"
+    icon: str = "📖"
+    color: str = "#4A90D9"
+    description: str = ""
+    curriculum_file: str  # relative path under CONTENT_DIR
+    status: str = "active"  # active, draft, archived
+
+
+# ── Course Registry ──────────────────────────────────────────────────────────
+
+REGISTRY_PATH = CONTENT_DIR / "courses.json"
+
+
+def load_course_registry() -> dict[str, CourseInfo]:
+    """Load all registered courses from courses.json."""
+    if not REGISTRY_PATH.exists():
+        raise FileNotFoundError(f"Course registry not found: {REGISTRY_PATH}")
+    with open(REGISTRY_PATH) as f:
+        data = json.load(f)
+    return {
+        c["course_id"]: CourseInfo(**c)
+        for c in data.get("courses", [])
+    }
+
+
+def get_course_info(course_id: str) -> CourseInfo:
+    """Get metadata for a single course."""
+    registry = load_course_registry()
+    if course_id not in registry:
+        raise ValueError(f"Course '{course_id}' not found. Available: {list(registry.keys())}")
+    return registry[course_id]
+
+
+def list_courses(active_only: bool = True) -> list[CourseInfo]:
+    """List all registered courses."""
+    registry = load_course_registry()
+    courses = list(registry.values())
+    if active_only:
+        courses = [c for c in courses if c.status == "active"]
+    return courses
 
 
 # ── Mastery Tree Service ─────────────────────────────────────────────────────
 
 class MasteryTree:
-    """Manages the concept graph and student mastery state."""
+    """Manages the concept graph and student mastery state for a single course."""
 
-    def __init__(self, subject: str = "math6"):
-        self.subject = subject
+    def __init__(self, course_id: str):
+        self.course_id = course_id
+        self.course_info = get_course_info(course_id)
         self.concepts: dict[str, Concept] = {}
         self._load_curriculum()
 
     def _load_curriculum(self):
-        """Load concept graph from curriculum JSON."""
-        curriculum_path = CONTENT_DIR / self.subject / "curriculum.json"
+        """Load concept graph from curriculum JSON (path from registry)."""
+        curriculum_path = CONTENT_DIR / self.course_info.curriculum_file
         if not curriculum_path.exists():
             raise FileNotFoundError(f"Curriculum not found: {curriculum_path}")
 
