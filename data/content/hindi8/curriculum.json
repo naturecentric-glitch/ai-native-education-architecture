@@ -1,0 +1,110 @@
+{
+  "course_id": "hindi8",
+  "title": "Class 8 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "गद्य",
+      "concepts": [
+        {
+          "concept_id": "hindi8.gadya8.lessons8",
+          "title": "Stories, Essays with Questions",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Stories, Essays with Questions — part of the chapter on गद्य.",
+          "key_ideas": [
+            "Core principles of stories, essays with questions",
+            "Step-by-step problem solving for stories, essays with questions",
+            "Real-world applications of stories, essays with questions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "पद्य",
+      "concepts": [
+        {
+          "concept_id": "hindi8.padya8.kavita8",
+          "title": "Poems with Deep Interpretation",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Poems with Deep Interpretation — part of the chapter on पद्य.",
+          "key_ideas": [
+            "Core principles of poems with deep interpretation",
+            "Step-by-step problem solving for poems with deep interpretation",
+            "Real-world applications of poems with deep interpretation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "व्याकरण",
+      "concepts": [
+        {
+          "concept_id": "hindi8.vyakaran8.samas8",
+          "title": "समास — Compound Words",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "समास — Compound Words — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of समास",
+            "Step-by-step problem solving for समास",
+            "Real-world applications of समास"
+          ]
+        },
+        {
+          "concept_id": "hindi8.vyakaran8.alankar",
+          "title": "अलंकार — Figures of Speech",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "अलंकार — Figures of Speech — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of अलंकार",
+            "Step-by-step problem solving for अलंकार",
+            "Real-world applications of अलंकार"
+          ]
+        },
+        {
+          "concept_id": "hindi8.vyakaran8.sandhi8",
+          "title": "संधि",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "hindi8.vyakaran8.samas8"
+          ],
+          "description": "संधि — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of संधि",
+            "Step-by-step problem solving for संधि",
+            "Real-world applications of संधि"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "लेखन",
+      "concepts": [
+        {
+          "concept_id": "hindi8.lekhan8.essay_letter8",
+          "title": "Essay, Letter, Report Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Essay, Letter, Report Writing — part of the chapter on लेखन.",
+          "key_ideas": [
+            "Core principles of essay, letter, report writing",
+            "Step-by-step problem solving for essay, letter, report writing",
+            "Real-world applications of essay, letter, report writing"
+          ]
+        }
+      ]
+    }
+  ]
+}

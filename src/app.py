@@ -8,11 +8,15 @@ and all other routes are scoped under /api/courses/{course_id}/...
 In production, this would use LangGraph for multi-step agent orchestration.
 For local dev, it calls MCP tools directly.
 """
+import logging
+import traceback
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
+
+logger = logging.getLogger(__name__)
 
 from src.config import APP_HOST, APP_PORT
 from src.mcp_tools import (
@@ -27,6 +31,7 @@ from src.mcp_tools import (
     tool_get_concept,
 )
 from src.gemini_engine import expand_full_course
+from src.content_cache import cache as content_cache
 
 
 # ── App Setup ────────────────────────────────────────────────────────────────
@@ -133,28 +138,49 @@ async def get_next(course_id: str, student_id: str, limit: int = 3):
 @app.post("/api/courses/{course_id}/teach")
 async def teach(course_id: str, req: TeachRequest):
     """Generate a personalized lesson for a concept."""
-    result = await tool_teach_concept(req.student_id, course_id, req.concept_id)
-    if "error" in result:
-        raise HTTPException(status_code=404, detail=result["error"])
-    return result
+    try:
+        result = await tool_teach_concept(req.student_id, course_id, req.concept_id)
+        if "error" in result:
+            raise HTTPException(status_code=404, detail=result["error"])
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("teach %s/%s failed: %s", course_id, req.concept_id, e)
+        logger.debug(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"AI generation failed: {type(e).__name__}: {e}")
 
 
 @app.post("/api/courses/{course_id}/questions")
 async def questions(course_id: str, req: QuestionRequest):
     """Generate practice questions for a concept."""
-    result = await tool_generate_questions(course_id, req.concept_id, req.count, req.difficulty)
-    if "error" in result:
-        raise HTTPException(status_code=404, detail=result["error"])
-    return result
+    try:
+        result = await tool_generate_questions(course_id, req.concept_id, req.count, req.difficulty)
+        if "error" in result:
+            raise HTTPException(status_code=404, detail=result["error"])
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("questions %s/%s failed: %s", course_id, req.concept_id, e)
+        logger.debug(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"AI generation failed: {type(e).__name__}: {e}")
 
 
 @app.post("/api/courses/{course_id}/evaluate")
 async def evaluate(course_id: str, req: EvaluateRequest):
     """Evaluate a student's answer and update mastery."""
-    result = await tool_evaluate_answer(req.student_id, course_id, req.concept_id, req.question, req.answer)
-    if "error" in result:
-        raise HTTPException(status_code=404, detail=result["error"])
-    return result
+    try:
+        result = await tool_evaluate_answer(req.student_id, course_id, req.concept_id, req.question, req.answer)
+        if "error" in result:
+            raise HTTPException(status_code=404, detail=result["error"])
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error("evaluate %s/%s failed: %s", course_id, req.concept_id, e)
+        logger.debug(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"AI evaluation failed: {type(e).__name__}: {e}")
 
 
 # ── Admin / Expansion Endpoints ──────────────────────────────────────────────
@@ -168,6 +194,12 @@ async def expand_course(course_id: str):
     if "error" in result:
         raise HTTPException(status_code=404, detail=result["error"])
     return result
+
+
+@app.get("/api/admin/cache/stats")
+async def cache_stats(course_id: str | None = None):
+    """Get content cache statistics."""
+    return content_cache.stats(course_id)
 
 
 # ── Serve Frontend ───────────────────────────────────────────────────────────

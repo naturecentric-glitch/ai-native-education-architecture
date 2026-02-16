@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "Find the discriminant and determine the nature of roots: (a) 2x² − 6x + 3 = 0, (b) x² − 4x + 4 = 0, (c) 3x² + x + 5 = 0",
+    "hint": "D = b² − 4ac. If D > 0: two distinct roots. D = 0: equal roots. D < 0: no real roots.",
+    "expected_answer": "(a) D = 36−24 = 12 > 0 → two distinct real roots\n(b) D = 16−16 = 0 → two equal roots (x = 2)\n(c) D = 1−60 = −59 < 0 → no real roots",
+    "concepts_tested": [
+      "Discriminant",
+      "Nature of roots"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.5,
+    "question": "For what values of k does the equation kx² − 6x + 1 = 0 have (i) equal roots (ii) no real roots?",
+    "hint": "D = 36 − 4k. Equal roots: D = 0. No real roots: D < 0.",
+    "expected_answer": "(i) D = 36−4k = 0 → k = 9\n(ii) D = 36−4k < 0 → k > 9\nAlso note: k ≠ 0 (otherwise it's not quadratic).",
+    "concepts_tested": [
+      "Discriminant",
+      "Conditions on coefficients"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.65,
+    "question": "A shopkeeper buys a number of books for ₹80. If he had bought 4 more books for the same amount, each book would have cost ₹1 less. Find the number of books he bought. First determine if the equation has real solutions.",
+    "hint": "Let n = number of books. Cost per book = 80/n. New cost = 80/(n+4) = 80/n − 1. Form quadratic and check discriminant.",
+    "expected_answer": "80/n − 80/(n+4) = 1\n80(n+4−n)/(n(n+4)) = 1\n320 = n² + 4n\nn² + 4n − 320 = 0\nD = 16 + 1280 = 1296 = 36² > 0 → real solutions exist!\nn = (−4+36)/2 = 16 (reject −20)\nHe bought 16 books.",
+    "concepts_tested": [
+      "Discriminant",
+      "Quadratic word problem"
+    ]
+  }
+]

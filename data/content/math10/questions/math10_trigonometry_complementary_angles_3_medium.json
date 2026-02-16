@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "State and explain the key concept: sin(90°−θ) = cos θ and cos(90°−θ) = sin θ.",
+    "hint": "Think about the definition and main formula related to Trigonometric Ratios of Complementary Angles.",
+    "expected_answer": "This tests understanding of: sin(90°−θ) = cos θ and cos(90°−θ) = sin θ. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Trigonometric Ratios of Complementary Angles"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "question": "Solve an NCERT example problem related to 'Trigonometric Ratios of Complementary Angles'. Show all steps clearly.",
+    "hint": "Review the key ideas: sin(90°−θ) = cos θ and cos(90°−θ) = sin θ, tan(90°−θ) = cot θ and cot(90°−θ) = tan θ.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Trigonometric Ratios of Complementary Angles. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Trigonometric Ratios of Complementary Angles"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.55,
+    "question": "How would you apply 'Trigonometric Ratios of Complementary Angles' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where trigonometric ratios of complementary angles concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Trigonometric Ratios of Complementary Angles.",
+    "concepts_tested": [
+      "Trigonometric Ratios of Complementary Angles",
+      "Real-world application"
+    ]
+  }
+]

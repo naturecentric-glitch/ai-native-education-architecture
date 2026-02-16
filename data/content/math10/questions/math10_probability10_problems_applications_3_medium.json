@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.45,
+    "question": "State and explain the key concept: Coin: P(Head) = P(Tail) = 1/2; two coins: 4 outcomes (HH,HT,TH,TT).",
+    "hint": "Think about the definition and main formula related to Probability Problems — Coins, Dice, Cards.",
+    "expected_answer": "This tests understanding of: Coin: P(Head) = P(Tail) = 1/2; two coins: 4 outcomes (HH,HT,TH,TT). Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Probability Problems — Coins, Dice, Cards"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "question": "Solve an NCERT example problem related to 'Probability Problems — Coins, Dice, Cards'. Show all steps clearly.",
+    "hint": "Review the key ideas: Coin: P(Head) = P(Tail) = 1/2; two coins: 4 outcomes (HH,HT,TH,TT), Die: 6 outcomes (1-6); two dice: 36 outcomes.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Probability Problems — Coins, Dice, Cards. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Probability Problems — Coins, Dice, Cards"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "How would you apply 'Probability Problems — Coins, Dice, Cards' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where probability problems — coins, dice, cards concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Probability Problems — Coins, Dice, Cards.",
+    "concepts_tested": [
+      "Probability Problems — Coins, Dice, Cards",
+      "Real-world application"
+    ]
+  }
+]

@@ -1,0 +1,451 @@
+{
+  "course_id": "civics6",
+  "title": "Class 6 Civics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Understanding Diversity",
+      "concepts": [
+        {
+          "concept_id": "civics6.diversity.unity_diversity",
+          "title": "Unity in Diversity — India",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Unity in Diversity — India — part of the chapter on Understanding Diversity.",
+          "key_ideas": [
+            "Core principles of unity in diversity",
+            "Step-by-step problem solving for unity in diversity",
+            "Real-world applications of unity in diversity"
+          ]
+        },
+        {
+          "concept_id": "civics6.diversity.definition_forms",
+          "title": "Meaning and Forms of Diversity",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the concept of diversity as the state of being different from one another in terms of language, religion, food, clothes, and cultural background.",
+          "key_ideas": [
+            "Recognizing individual differences",
+            "Different languages and religions",
+            "Cultural variations in food and festivals",
+            "How diversity adds variety to life"
+          ]
+        },
+        {
+          "concept_id": "civics6.diversity.diversity_vs_inequality",
+          "title": "Distinction between Diversity and Inequality",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "civics6.diversity.definition_forms"
+          ],
+          "description": "Understanding the difference between being unique (diversity) and not having equal access to resources or opportunities (inequality), with a focus on economic differences and the caste system.",
+          "key_ideas": [
+            "Diversity is about difference, inequality is about unfairness",
+            "Economic disparity (rich vs poor)",
+            "The caste system as a form of inequality",
+            "Story of Samir Ek and Samir Do"
+          ]
+        },
+        {
+          "concept_id": "civics6.diversity.factors_history_geography",
+          "title": "Historical and Geographical Factors",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics6.diversity.definition_forms"
+          ],
+          "description": "Exploration of how the history of a place and its geographical features influence the diversity and culture of that region.",
+          "key_ideas": [
+            "Influence of climate on food and clothing",
+            "Impact of migration and trade routes",
+            "Isolation vs. mixing of cultures",
+            "Adaptation to physical environment"
+          ]
+        },
+        {
+          "concept_id": "civics6.diversity.case_study_ladakh_kerala",
+          "title": "Case Study: Ladakh and Kerala",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "civics6.diversity.factors_history_geography"
+          ],
+          "description": "A comparative analysis of two distinct Indian regions—Ladakh (a cold desert) and Kerala (a coastal state)—to see how geography and history shape their unique diverse cultures.",
+          "key_ideas": [
+            "Ladakh: Wool trade, Buddhism, and Islam",
+            "Kerala: Spices, sea trade, and religious diversity",
+            "Comparison of food habits (meat/dairy vs. rice/fish)",
+            "Chinese and Arab historical influences"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "What Is Government?",
+      "concepts": [
+        {
+          "concept_id": "civics6.government.democracy_levels",
+          "title": "Democracy and Levels of Government",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Democracy and Levels of Government — part of the chapter on What Is Government?.",
+          "key_ideas": [
+            "Core principles of democracy and levels of government",
+            "Step-by-step problem solving for democracy and levels of government",
+            "Real-world applications of democracy and levels of government"
+          ]
+        },
+        {
+          "concept_id": "civics6.government.definition_functions",
+          "title": "Functions and Need for Government",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "An introduction to the definition of government and the wide range of activities it undertakes to manage a country and ensure the welfare of its citizens.",
+          "key_ideas": [
+            "Government as a decision-making body",
+            "Building infrastructure like roads and schools",
+            "Managing social issues and welfare programs",
+            "Protecting national boundaries and maintaining peace"
+          ]
+        },
+        {
+          "concept_id": "civics6.government.laws_enforcement",
+          "title": "Laws and the Government",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "civics6.government.definition_functions"
+          ],
+          "description": "Explores the relationship between government and laws, explaining that a government needs the power to enforce rules, not just make them.",
+          "key_ideas": [
+            "Laws apply equally to all citizens",
+            "The power to enforce decisions",
+            "Role of courts when laws are broken",
+            "Government's authority to penalize offenders"
+          ]
+        },
+        {
+          "concept_id": "civics6.government.types_monarchy",
+          "title": "Monarchy vs. Democracy",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics6.government.definition_functions"
+          ],
+          "description": "Differentiates between the two main types of government discussed in the curriculum: Democracy and Monarchy, focusing on the source of power and accountability.",
+          "key_ideas": [
+            "Rule by a King or Queen (Monarch)",
+            "Hereditary nature of power in monarchies",
+            "Lack of necessity for monarchs to explain decisions",
+            "Contrast with democratic accountability"
+          ]
+        },
+        {
+          "concept_id": "civics6.government.suffrage_movement",
+          "title": "Universal Adult Franchise and Suffrage",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "civics6.government.democracy_levels"
+          ],
+          "description": "Examines the history of voting rights, highlighting that governments were not always democratic and discussing the struggle for women's right to vote.",
+          "key_ideas": [
+            "Definition of Universal Adult Franchise",
+            "The Suffrage Movement (Votes for Women)",
+            "Historical exclusion of the poor and women from voting",
+            "Representative democracy (electing leaders rather than ruling directly)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Panchayati Raj",
+      "concepts": [
+        {
+          "concept_id": "civics6.panchayati_raj.local_governance",
+          "title": "Gram Panchayat and Local Self-Government",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Gram Panchayat and Local Self-Government — part of the chapter on Panchayati Raj.",
+          "key_ideas": [
+            "Core principles of gram panchayat and local self-government",
+            "Step-by-step problem solving for gram panchayat and local self-government",
+            "Real-world applications of gram panchayat and local self-government"
+          ]
+        },
+        {
+          "concept_id": "civics6.panchayati_raj.gram_sabha_significance",
+          "title": "The Gram Sabha and Its Significance",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "civics6.panchayati_raj.local_governance"
+          ],
+          "description": "Introduction to the Gram Sabha as the primary body of the Panchayati Raj system, comprising all adults in the village who have the right to vote.",
+          "key_ideas": [
+            "The Gram Sabha is a meeting of all adults who live in the area covered by a Panchayat",
+            "It prevents the Panchayat from doing wrong things like misusing money",
+            "It plays a key role in approving the plans of the Gram Panchayat"
+          ]
+        },
+        {
+          "concept_id": "civics6.panchayati_raj.panchayat_secretary",
+          "title": "Role of the Panchayat Secretary",
+          "bloom_level": "remember",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "civics6.panchayati_raj.gram_sabha_significance"
+          ],
+          "description": "Understanding the distinction between elected representatives and appointed government officials within the local administration.",
+          "key_ideas": [
+            "The Secretary is appointed by the government, not elected",
+            "Responsible for calling the meetings of the Gram Sabha and Gram Panchayat",
+            "Duties include keeping a record of the proceedings and decisions"
+          ]
+        },
+        {
+          "concept_id": "civics6.panchayati_raj.functions_and_funds",
+          "title": "Public Welfare Works and Sources of Funds",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics6.panchayati_raj.local_governance"
+          ],
+          "description": "Exploration of the specific developmental tasks undertaken by the Panchayat and how these activities are financed.",
+          "key_ideas": [
+            "Construction and maintenance of water sources, roads, drainage, and school buildings",
+            "Levying and collecting local taxes",
+            "Receiving funds from government schemes and donations for community works"
+          ]
+        },
+        {
+          "concept_id": "civics6.panchayati_raj.three_levels_panchayat",
+          "title": "Three Levels of Panchayats",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "civics6.panchayati_raj.local_governance",
+            "civics6.panchayati_raj.gram_sabha_significance"
+          ],
+          "description": "An overview of the hierarchical structure of rural governance extending from the village level up to the district level.",
+          "key_ideas": [
+            "Gram Panchayat works at the village level",
+            "Janpad Panchayat or Panchayat Samiti works at the block level",
+            "Zila Parishad works at the district level and makes developmental plans for the whole district"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Urban Administration",
+      "concepts": [
+        {
+          "concept_id": "civics6.urban_admin.municipality",
+          "title": "Municipal Corporation and Functions",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Municipal Corporation and Functions — part of the chapter on Urban Administration.",
+          "key_ideas": [
+            "Core principles of municipal corporation and functions",
+            "Step-by-step problem solving for municipal corporation and functions",
+            "Real-world applications of municipal corporation and functions"
+          ]
+        },
+        {
+          "concept_id": "civics6.urban_admin.wards_and_councillors",
+          "title": "Ward Division and Elected Councillors",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "civics6.urban_admin.municipality"
+          ],
+          "description": "Explains how a city is divided into smaller geographical areas called wards to facilitate management, and the role of the Ward Councillor elected from each area.",
+          "key_ideas": [
+            "Cities are divided into wards for easier administration",
+            "Each ward elects a representative known as the Ward Councillor",
+            "Councillors represent the local needs of their specific ward"
+          ]
+        },
+        {
+          "concept_id": "civics6.urban_admin.admin_structure",
+          "title": "Administrative Staff vs. Elected Representatives",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics6.urban_admin.wards_and_councillors"
+          ],
+          "description": "Distinguishes between the political arm (Councillors) who make decisions and the administrative arm (Commissioner and staff) who implement them.",
+          "key_ideas": [
+            "Councillors are elected by the people",
+            "The Commissioner and administrative staff are appointed by the government",
+            "Councillors make policy decisions; administrative staff implement them"
+          ]
+        },
+        {
+          "concept_id": "civics6.urban_admin.revenue_sources",
+          "title": "Sources of Funds and Taxes",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics6.urban_admin.municipality"
+          ],
+          "description": "Details how the Municipal Corporation generates money to provide services through various types of taxes paid by citizens.",
+          "key_ideas": [
+            "Property tax is a major source of revenue based on house size",
+            "Taxes are also collected for water, education, and other services",
+            "Money collected is used to fund city services like garbage collection and streetlights"
+          ]
+        },
+        {
+          "concept_id": "civics6.urban_admin.citizen_grievance",
+          "title": "Community Protest and Problem Solving",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "civics6.urban_admin.wards_and_councillors"
+          ],
+          "description": "Describes the mechanisms available to citizens when services fail, such as approaching the Ward Councillor or organizing community protests.",
+          "key_ideas": [
+            "Citizens can approach their Ward Councillor to resolve local issues",
+            "Petitions and protests can be submitted to the Ward Engineer or Commissioner",
+            "Active citizenship helps ensure the municipality performs its duties"
+          ]
+        },
+        {
+          "concept_id": "civics6.urban_admin.subcontracting",
+          "title": "Sub-Contracting of Services",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "civics6.urban_admin.admin_structure"
+          ],
+          "description": "Explains the modern trend where Municipal Corporations hire private companies to perform tasks previously done by government workers, such as waste management.",
+          "key_ideas": [
+            "Sub-contracting involves hiring private contractors for government work",
+            "It is often used for garbage collection and processing",
+            "This shifts responsibility from permanent government workers to private contract workers"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Rural Livelihoods and Urban Livelihoods",
+      "concepts": [
+        {
+          "concept_id": "civics6.livelihoods.rural_urban",
+          "title": "Rural and Urban Livelihoods",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Rural and Urban Livelihoods — part of the chapter on Rural Livelihoods and Urban Livelihoods.",
+          "key_ideas": [
+            "Core principles of rural and urban livelihoods",
+            "Step-by-step problem solving for rural and urban livelihoods",
+            "Real-world applications of rural and urban livelihoods"
+          ]
+        },
+        {
+          "concept_id": "civics6.livelihoods.agricultural_laborers_farmers",
+          "title": "Types of Farmers and Agricultural Laborers",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "civics6.livelihoods.rural_urban"
+          ],
+          "description": "Explores the hierarchy within rural agriculture, distinguishing between landless agricultural laborers, small farmers, and large landowners.",
+          "key_ideas": [
+            "Landless laborers rely entirely on working on others' fields for daily wages.",
+            "Small farmers own barely enough land to meet their family's needs.",
+            "Large farmers hire others to work and often have secondary businesses like mills or shops."
+          ]
+        },
+        {
+          "concept_id": "civics6.livelihoods.rural_debt_seasonality",
+          "title": "Seasonality and Debt in Rural Areas",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics6.livelihoods.agricultural_laborers_farmers"
+          ],
+          "description": "Examines why agricultural work is seasonal and how this leads to borrowing money, often trapping farmers in a cycle of debt.",
+          "key_ideas": [
+            "Agriculture involves specific busy seasons (sowing, harvesting) and long periods of no work.",
+            "Farmers often borrow money for seeds, fertilizers, and pesticides before the harvest.",
+            "Crop failure due to lack of rain or pests can lead to severe distress and inability to repay loans."
+          ]
+        },
+        {
+          "concept_id": "civics6.livelihoods.rural_non_farm_activities",
+          "title": "Non-Farming Activities in Villages",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "civics6.livelihoods.rural_urban"
+          ],
+          "description": "Identifies various sources of income in rural areas that do not involve cultivating crops directly.",
+          "key_ideas": [
+            "Many rural families depend on animal husbandry and selling milk to cooperatives.",
+            "Fishing is a primary livelihood for coastal villages.",
+            "Crafts (basket weaving), collection of forest produce (honey, mahua), and small shopkeeping are common non-farm jobs."
+          ]
+        },
+        {
+          "concept_id": "civics6.livelihoods.urban_self_employment",
+          "title": "Street Vendors and Self-Employment",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "civics6.livelihoods.rural_urban"
+          ],
+          "description": "Looks at the lives of urban workers who work for themselves, such as street vendors and rickshaw pullers, and the challenges they face.",
+          "key_ideas": [
+            "Street vendors do not have permanent shops and often face harassment or eviction.",
+            "They organize their own work, deciding what to buy and where to sell.",
+            "Government laws are evolving to recognize vending zones and protect their right to livelihood."
+          ]
+        },
+        {
+          "concept_id": "civics6.livelihoods.casual_wage_labor",
+          "title": "Casual Wage Labor and Factory Work",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics6.livelihoods.urban_self_employment"
+          ],
+          "description": "Discusses the nature of casual work where employment is temporary, hours are long, and job security is non-existent.",
+          "key_ideas": [
+            "Casual workers gather at 'Labor Chowks' waiting for daily employment.",
+            "Factory workers often work long shifts during peak seasons but have no work during lean periods.",
+            "Casual workers receive no medical benefits, paid holidays, or job protection."
+          ]
+        },
+        {
+          "concept_id": "civics6.livelihoods.permanent_employment_benefits",
+          "title": "Permanent Employment and Benefits",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "civics6.livelihoods.casual_wage_labor"
+          ],
+          "description": "Contrasts casual labor with regular permanent employment, highlighting the benefits and security associated with office jobs.",
+          "key_ideas": [
+            "Permanent employees receive a regular monthly salary regardless of daily workload.",
+            "Benefits include Provident Fund (savings), paid annual leave, and medical coverage.",
+            "Job security ensures they are not asked to leave without notice or valid reason."
+          ]
+        }
+      ]
+    }
+  ]
+}

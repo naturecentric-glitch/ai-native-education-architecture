@@ -1,0 +1,541 @@
+{
+  "course_id": "geography7",
+  "title": "Class 7 Geography",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Environment",
+      "concepts": [
+        {
+          "concept_id": "geography7.environment.natural_human",
+          "title": "Natural and Human Environment",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Natural and Human Environment — part of the chapter on Environment.",
+          "key_ideas": [
+            "Core principles of natural and human environment",
+            "Step-by-step problem solving for natural and human environment",
+            "Real-world applications of natural and human environment"
+          ]
+        },
+        {
+          "concept_id": "geography7.environment.domains_of_earth",
+          "title": "Domains of the Natural Environment",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "geography7.environment.natural_human"
+          ],
+          "description": "Exploration of the three major physical components of the environment: the solid crust (Lithosphere), the domain of water (Hydrosphere), and the layer of air (Atmosphere).",
+          "key_ideas": [
+            "Lithosphere is the solid crust or hard top layer of the earth made of rocks and minerals.",
+            "Hydrosphere comprises various sources of water like rivers, lakes, seas, and oceans.",
+            "Atmosphere is the thin layer of air that surrounds the earth, held by gravity."
+          ]
+        },
+        {
+          "concept_id": "geography7.environment.biosphere",
+          "title": "The Biosphere",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography7.environment.domains_of_earth"
+          ],
+          "description": "Understanding the narrow zone where land, water, and air interact with each other to support life.",
+          "key_ideas": [
+            "The biosphere is the living world consisting of the plant and animal kingdoms.",
+            "It requires the interaction of the lithosphere, hydrosphere, and atmosphere.",
+            "It is the unique feature of Earth that makes life possible."
+          ]
+        },
+        {
+          "concept_id": "geography7.environment.ecosystem",
+          "title": "Concept of Ecosystem",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography7.environment.biosphere"
+          ],
+          "description": "Study of the system formed by the interaction of all living organisms with each other and with the physical and chemical factors of their surroundings.",
+          "key_ideas": [
+            "All plants, animals, and humans depend on their immediate surroundings.",
+            "There is a relationship of interdependence between organisms.",
+            "Ecosystems can vary in size, from a small pond to a large rainforest or desert."
+          ]
+        },
+        {
+          "concept_id": "geography7.environment.human_interaction",
+          "title": "Human Modification of Environment",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "geography7.environment.natural_human",
+            "geography7.environment.ecosystem"
+          ],
+          "description": "Analysis of how humans interact with, adapt to, and modify their natural surroundings to fulfill growing needs.",
+          "key_ideas": [
+            "Early humans adapted to natural surroundings, while modern humans modify them.",
+            "Technological advancements like the wheel, agriculture, and industrialization changed the environment.",
+            "The importance of maintaining a perfect balance between the natural and human environment."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Inside Our Earth",
+      "concepts": [
+        {
+          "concept_id": "geography7.inside_earth.layers_rocks",
+          "title": "Layers of Earth and Types of Rocks",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Layers of Earth and Types of Rocks — part of the chapter on Inside Our Earth.",
+          "key_ideas": [
+            "Core principles of layers of earth and types of rocks",
+            "Step-by-step problem solving for layers of earth and types of rocks",
+            "Real-world applications of layers of earth and types of rocks"
+          ]
+        },
+        {
+          "concept_id": "geography7.inside_earth.interior_composition",
+          "title": "Chemical Composition of Earth's Layers",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "geography7.inside_earth.layers_rocks"
+          ],
+          "description": "Exploration of the specific chemical constituents that make up the Crust, Mantle, and Core, focusing on elemental combinations.",
+          "key_ideas": [
+            "Continental crust composition: Silica and Alumina (SiAl)",
+            "Oceanic crust composition: Silica and Magnesium (SiMa)",
+            "Core composition: Nickel and Iron (NiFe)"
+          ]
+        },
+        {
+          "concept_id": "geography7.inside_earth.igneous_formation",
+          "title": "Formation of Igneous Rocks: Intrusive and Extrusive",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography7.inside_earth.layers_rocks"
+          ],
+          "description": "Differentiating between the two main types of igneous rocks based on where molten magma cools and solidifies.",
+          "key_ideas": [
+            "Difference between Magma (inside) and Lava (surface)",
+            "Extrusive rocks: Rapid cooling, fine-grained structure (e.g., Basalt)",
+            "Intrusive rocks: Slow cooling deep inside, coarse-grained structure (e.g., Granite)"
+          ]
+        },
+        {
+          "concept_id": "geography7.inside_earth.sedimentary_metamorphic",
+          "title": "Sedimentary and Metamorphic Processes",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography7.inside_earth.layers_rocks"
+          ],
+          "description": "Understanding how environmental factors transform loose sediments and existing rocks into new rock types.",
+          "key_ideas": [
+            "Formation of sedimentary rocks through transport, deposition, and compression",
+            "The role of fossils in sedimentary layers",
+            "Metamorphism: Transformation via intense heat and pressure (e.g., Clay to Slate, Limestone to Marble)"
+          ]
+        },
+        {
+          "concept_id": "geography7.inside_earth.rock_cycle",
+          "title": "The Rock Cycle",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "geography7.inside_earth.igneous_formation",
+            "geography7.inside_earth.sedimentary_metamorphic"
+          ],
+          "description": "The continuous process of transformation where one type of rock changes into another under specific conditions.",
+          "key_ideas": [
+            "Cyclical nature of rock formation and destruction",
+            "Transition paths: Molten magma to rock and back to magma",
+            "Interconnectivity between igneous, sedimentary, and metamorphic states"
+          ]
+        },
+        {
+          "concept_id": "geography7.inside_earth.minerals_utility",
+          "title": "Minerals and Human Utility",
+          "bloom_level": "evaluate",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "geography7.inside_earth.layers_rocks"
+          ],
+          "description": "Identification of naturally occurring substances found in rocks and their importance to human civilization.",
+          "key_ideas": [
+            "Definition of minerals as naturally occurring substances with physical properties",
+            "Use as fuels (Coal, Natural Gas, Petroleum)",
+            "Industrial applications (Iron, Aluminium, Gold, Uranium)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Our Changing Earth",
+      "concepts": [
+        {
+          "concept_id": "geography7.our_changing_earth.weathering_erosion",
+          "title": "Weathering, Erosion and Deposition",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Weathering, Erosion and Deposition — part of the chapter on Our Changing Earth.",
+          "key_ideas": [
+            "Core principles of weathering, erosion and deposition",
+            "Step-by-step problem solving for weathering, erosion and deposition",
+            "Real-world applications of weathering, erosion and deposition"
+          ]
+        },
+        {
+          "concept_id": "geography7.our_changing_earth.lithospheric_plates_forces",
+          "title": "Lithospheric Plates and Earth Movements",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to how the Earth's crust is broken into moving plates and the forces that drive these movements.",
+          "key_ideas": [
+            "The lithosphere is broken into a number of plates known as Lithospheric plates.",
+            "Endogenic forces act in the interior of the earth.",
+            "Exogenic forces work on the surface of the earth."
+          ]
+        },
+        {
+          "concept_id": "geography7.our_changing_earth.volcanoes_earthquakes",
+          "title": "Volcanoes and Earthquakes",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "geography7.our_changing_earth.lithospheric_plates_forces"
+          ],
+          "description": "Study of sudden endogenic movements that cause mass destruction on the earth's surface.",
+          "key_ideas": [
+            "A volcano is a vent in the earth's crust through which molten material erupts.",
+            "The Focus is where the earthquake starts; the Epicenter is the surface point directly above it.",
+            "Earthquakes are measured using a seismograph and the Richter scale."
+          ]
+        },
+        {
+          "concept_id": "geography7.our_changing_earth.work_of_river",
+          "title": "Landforms Made by Rivers",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography7.our_changing_earth.weathering_erosion"
+          ],
+          "description": "Exploration of how running water shapes the landscape through erosion and deposition.",
+          "key_ideas": [
+            "Formation of waterfalls when hard rock erodes softer rock.",
+            "Creation of meanders, ox-bow lakes, and levees in the plains.",
+            "Formation of deltas at the river mouth where the flow slows down."
+          ]
+        },
+        {
+          "concept_id": "geography7.our_changing_earth.work_of_sea_waves",
+          "title": "Coastal Landforms",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "geography7.our_changing_earth.weathering_erosion"
+          ],
+          "description": "Understanding how sea waves erode and deposit material to create specific coastal features.",
+          "key_ideas": [
+            "Erosion creates hollows in rocks called sea caves.",
+            "Sea arches form when only the roof of the cave remains.",
+            "Stacks are formed when the roof collapses, and cliffs are steep rocky coasts."
+          ]
+        },
+        {
+          "concept_id": "geography7.our_changing_earth.work_of_ice_wind",
+          "title": "Glacial and Desert Landforms",
+          "bloom_level": "understand",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "geography7.our_changing_earth.weathering_erosion"
+          ],
+          "description": "Examination of how ice (glaciers) and wind modify landscapes in extreme environments.",
+          "key_ideas": [
+            "Glaciers carve out deep hollows and deposit glacial moraines.",
+            "Wind erosion creates mushroom rocks in deserts.",
+            "Wind deposition creates sand dunes and loess."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Air and Water",
+      "concepts": [
+        {
+          "concept_id": "geography7.air_water.atmosphere_water_cycle",
+          "title": "Atmosphere Composition and Water Cycle",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Atmosphere Composition and Water Cycle — part of the chapter on Air and Water.",
+          "key_ideas": [
+            "Core principles of atmosphere composition and water cycle",
+            "Step-by-step problem solving for atmosphere composition and water cycle",
+            "Real-world applications of atmosphere composition and water cycle"
+          ]
+        },
+        {
+          "concept_id": "geography7.air_water.structure_of_atmosphere",
+          "title": "Structure of the Atmosphere",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "geography7.air_water.atmosphere_water_cycle"
+          ],
+          "description": "Exploration of the five distinct layers of the atmosphere starting from the Earth's surface, detailing the unique characteristics and importance of each layer.",
+          "key_ideas": [
+            "The atmosphere is divided into Troposphere, Stratosphere, Mesosphere, Thermosphere, and Exosphere.",
+            "Weather phenomena occur primarily in the Troposphere.",
+            "The Stratosphere contains the ozone layer which protects against UV rays."
+          ]
+        },
+        {
+          "concept_id": "geography7.air_water.weather_and_climate",
+          "title": "Weather, Climate, and Temperature",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography7.air_water.structure_of_atmosphere"
+          ],
+          "description": "Differentiation between short-term weather conditions and long-term climate patterns, including the factors influencing temperature and insolation.",
+          "key_ideas": [
+            "Weather is the hour-to-hour condition of the atmosphere, while climate is the average weather over a long period.",
+            "Insolation is the incoming solar energy intercepted by the Earth.",
+            "Temperature decreases as altitude increases."
+          ]
+        },
+        {
+          "concept_id": "geography7.air_water.air_pressure_winds",
+          "title": "Air Pressure and Wind Systems",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography7.air_water.weather_and_climate"
+          ],
+          "description": "Analysis of how air pressure differences create wind, classifying winds into permanent, seasonal, and local types.",
+          "key_ideas": [
+            "Air moves from high pressure areas to low pressure areas, creating wind.",
+            "Hot air rises creating low pressure; cold air sinks creating high pressure.",
+            "Winds are classified as Permanent (Trade winds), Seasonal (Monsoon), and Local (Land/Sea breeze)."
+          ]
+        },
+        {
+          "concept_id": "geography7.air_water.ocean_circulation_tides",
+          "title": "Movements of Ocean Water: Waves and Tides",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography7.air_water.atmosphere_water_cycle"
+          ],
+          "description": "Study of the dynamic nature of ocean water, focusing on the formation of waves and the rhythmic rise and fall of water known as tides.",
+          "key_ideas": [
+            "Waves are formed when winds scrape across the ocean surface.",
+            "Tides are the rhythmic rise and fall of ocean water twice a day caused by the gravitational pull of the sun and moon.",
+            "Spring tides occur during full and new moons; Neap tides occur during the first and third quarters."
+          ]
+        },
+        {
+          "concept_id": "geography7.air_water.ocean_currents",
+          "title": "Ocean Currents and their Effects",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "geography7.air_water.ocean_circulation_tides",
+            "geography7.air_water.weather_and_climate"
+          ],
+          "description": "Examination of warm and cold ocean currents, their flow patterns, and their significant impact on the climate of coastal regions and fishing grounds.",
+          "key_ideas": [
+            "Ocean currents are streams of water flowing constantly on the ocean surface in definite directions.",
+            "Warm currents originate near the equator and move to poles; cold currents carry water from polar to tropical latitudes.",
+            "The meeting place of warm and cold currents provides the best fishing grounds but can create foggy weather."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Natural Vegetation and Wildlife",
+      "concepts": [
+        {
+          "concept_id": "geography7.natural_vegetation.forests_grasslands",
+          "title": "Forests, Grasslands and Wildlife",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Forests, Grasslands and Wildlife — part of the chapter on Natural Vegetation and Wildlife.",
+          "key_ideas": [
+            "Core principles of forests, grasslands and wildlife",
+            "Step-by-step problem solving for forests, grasslands and wildlife",
+            "Real-world applications of forests, grasslands and wildlife"
+          ]
+        },
+        {
+          "concept_id": "geography7.natural_vegetation.factors_growth",
+          "title": "Factors Affecting Vegetation Growth",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "geography7.natural_vegetation.forests_grasslands"
+          ],
+          "description": "Explores the primary climatic and physical factors that determine the type and density of natural vegetation in a region.",
+          "key_ideas": [
+            "Impact of temperature and moisture on plant life",
+            "Influence of slope and soil thickness",
+            "Variation of vegetation from the equator to the poles"
+          ]
+        },
+        {
+          "concept_id": "geography7.natural_vegetation.tropical_forest_types",
+          "title": "Tropical Evergreen and Deciduous Forests",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "geography7.natural_vegetation.factors_growth"
+          ],
+          "description": "Differentiates between the dense tropical evergreen forests near the equator and the tropical deciduous (monsoon) forests found in regions like India.",
+          "key_ideas": [
+            "Characteristics of the 'lungs of the earth' (Amazon)",
+            "Hardwood trees like Rosewood, Ebony, and Mahogany",
+            "Seasonal shedding of leaves in deciduous forests to conserve water"
+          ]
+        },
+        {
+          "concept_id": "geography7.natural_vegetation.temperate_mediterranean_regions",
+          "title": "Temperate Forests and Mediterranean Vegetation",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography7.natural_vegetation.tropical_forest_types"
+          ],
+          "description": "Examines vegetation found in mid-latitudes, including the distinct Mediterranean vegetation known as the 'orchards of the world'.",
+          "key_ideas": [
+            "Temperate evergreen vs. temperate deciduous locations",
+            "Cultivation of citrus fruits (oranges, olives, grapes)",
+            "Adaptations of plants to dry summers and mild rainy winters"
+          ]
+        },
+        {
+          "concept_id": "geography7.natural_vegetation.coniferous_forests_taiga",
+          "title": "Coniferous Forests (Taiga)",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography7.natural_vegetation.factors_growth"
+          ],
+          "description": "Focuses on the tall, softwood evergreen trees found in the higher latitudes of the Northern Hemisphere and their commercial utility.",
+          "key_ideas": [
+            "Characteristics of Taiga vegetation (50°N to 70°N)",
+            "Commercial use of softwood (Chir, Pine, Cedar) for paper and pulp",
+            "Wildlife adaptations (Silver Fox, Polar Bear)"
+          ]
+        },
+        {
+          "concept_id": "geography7.natural_vegetation.grasslands_desert_tundra",
+          "title": "Grasslands, Thorny Bushes, and Tundra",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "geography7.natural_vegetation.factors_growth"
+          ],
+          "description": "Compares vegetation types in regions with moderate to low rainfall or extreme cold, contrasting tropical grasslands with polar tundra.",
+          "key_ideas": [
+            "Difference between Tropical (Savanna) and Temperate grasslands",
+            "Adaptations of thorny bushes in dry deserts",
+            "Limited vegetation (mosses, lichens) in the Tundra region"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Human Environment Interactions",
+      "concepts": [
+        {
+          "concept_id": "geography7.human_environment.settlement_transport",
+          "title": "Settlements and Transport",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Settlements and Transport — part of the chapter on Human Environment Interactions.",
+          "key_ideas": [
+            "Core principles of settlements and transport",
+            "Step-by-step problem solving for settlements and transport",
+            "Real-world applications of settlements and transport"
+          ]
+        },
+        {
+          "concept_id": "geography7.human_environment.communication_and_technology",
+          "title": "Communication and Mass Media",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "geography7.human_environment.settlement_transport"
+          ],
+          "description": "Explores how information is conveyed and how technological advancements have transformed communication from physical mail to global electronic networks.",
+          "key_ideas": [
+            "Evolution from postal services to electronic mail and satellites",
+            "Role of mass media (newspapers, radio, television) in society",
+            "Concept of the global society through internet connectivity"
+          ]
+        },
+        {
+          "concept_id": "geography7.human_environment.life_in_tropical_regions",
+          "title": "Life in the Amazon Basin",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography7.human_environment.settlement_transport"
+          ],
+          "description": "Examines human interaction with the tropical rainforest environment, focusing on the climate, flora, fauna, and changing agricultural practices in the Amazon.",
+          "key_ideas": [
+            "Hot and wet climate influence on dense vegetation",
+            "Slash and burn agriculture (shifting cultivation)",
+            "Impact of developmental activities and deforestation on the rainforest"
+          ]
+        },
+        {
+          "concept_id": "geography7.human_environment.life_in_subtropical_regions",
+          "title": "Life in the Ganga-Brahmaputra Basin",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography7.human_environment.settlement_transport"
+          ],
+          "description": "Analyzes the relationship between the river topography and high population density in the subtropical region of the Indian subcontinent.",
+          "key_ideas": [
+            "Importance of fertile plains and river transport for agriculture",
+            "Monsoon climate influence on crops like paddy and jute",
+            "Growth of major cities and the challenge of river pollution"
+          ]
+        },
+        {
+          "concept_id": "geography7.human_environment.adaptation_in_deserts",
+          "title": "Life in Hot and Cold Deserts",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "geography7.human_environment.settlement_transport"
+          ],
+          "description": "Compares how humans adapt to extreme temperature variations and water scarcity in the Sahara (hot desert) and Ladakh (cold desert).",
+          "key_ideas": [
+            "Nomadic lifestyles and oasis settlements in the Sahara",
+            "Cultural and physical adaptations to high altitude and cold in Ladakh",
+            "Economic activities: Oil in Sahara vs. Tourism in Ladakh"
+          ]
+        }
+      ]
+    }
+  ]
+}

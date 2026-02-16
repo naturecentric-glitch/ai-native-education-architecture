@@ -7,31 +7,16 @@
       "title": "Development",
       "concepts": [
         {
-          "concept_id": "economics10.development.development_concept",
-          "title": "What Is Development? Different Perspectives",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "What Is Development? Different Perspectives — part of the chapter on Development.",
-          "key_ideas": [
-            "Core principles of what is development? different perspectives",
-            "Step-by-step problem solving for what is development? different perspectives",
-            "Real-world applications of what is development? different perspectives"
-          ]
-        },
-        {
           "concept_id": "economics10.development.hdi",
-          "title": "Human Development Index",
-          "bloom_level": "apply",
+          "title": "Development Perspectives and HDI",
+          "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "economics10.development.development_concept"
-          ],
-          "description": "Human Development Index — part of the chapter on Development.",
+          "prerequisites": [],
+          "description": "Development Perspectives and HDI — part of the chapter on Development.",
           "key_ideas": [
-            "Core principles of human development index",
-            "Step-by-step problem solving for human development index",
-            "Real-world applications of human development index"
+            "Core principles of development perspectives and hdi",
+            "Step-by-step problem solving for development perspectives and hdi",
+            "Real-world applications of development perspectives and hdi"
           ]
         }
       ]
@@ -42,30 +27,15 @@
       "concepts": [
         {
           "concept_id": "economics10.sectors_economy.primary_secondary_tertiary",
-          "title": "Primary, Secondary and Tertiary Sectors",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Primary, Secondary and Tertiary Sectors — part of the chapter on Sectors of the Indian Economy.",
-          "key_ideas": [
-            "Core principles of primary, secondary and tertiary sectors",
-            "Step-by-step problem solving for primary, secondary and tertiary sectors",
-            "Real-world applications of primary, secondary and tertiary sectors"
-          ]
-        },
-        {
-          "concept_id": "economics10.sectors_economy.organised_unorganised",
-          "title": "Organised and Unorganised Sectors",
+          "title": "Primary, Secondary, Tertiary Sectors",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "economics10.sectors_economy.primary_secondary_tertiary"
-          ],
-          "description": "Organised and Unorganised Sectors — part of the chapter on Sectors of the Indian Economy.",
+          "prerequisites": [],
+          "description": "Primary, Secondary, Tertiary Sectors — part of the chapter on Sectors of the Indian Economy.",
           "key_ideas": [
-            "Core principles of organised and unorganised sectors",
-            "Step-by-step problem solving for organised and unorganised sectors",
-            "Real-world applications of organised and unorganised sectors"
+            "Core principles of primary, secondary, tertiary sectors",
+            "Step-by-step problem solving for primary, secondary, tertiary sectors",
+            "Real-world applications of primary, secondary, tertiary sectors"
           ]
         }
       ]
@@ -75,80 +45,35 @@
       "title": "Money and Credit",
       "concepts": [
         {
-          "concept_id": "economics10.money_credit.money_functions",
-          "title": "Functions of Money",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Functions of Money — part of the chapter on Money and Credit.",
-          "key_ideas": [
-            "Core principles of functions of money",
-            "Step-by-step problem solving for functions of money",
-            "Real-world applications of functions of money"
-          ]
-        },
-        {
-          "concept_id": "economics10.money_credit.credit_banking",
-          "title": "Credit and Banking System",
+          "concept_id": "economics10.money_credit.banking",
+          "title": "Functions of Money and Banking",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "economics10.money_credit.money_functions"
-          ],
-          "description": "Credit and Banking System — part of the chapter on Money and Credit.",
+          "prerequisites": [],
+          "description": "Functions of Money and Banking — part of the chapter on Money and Credit.",
           "key_ideas": [
-            "Core principles of credit and banking system",
-            "Step-by-step problem solving for credit and banking system",
-            "Real-world applications of credit and banking system"
+            "Core principles of functions of money and banking",
+            "Step-by-step problem solving for functions of money and banking",
+            "Real-world applications of functions of money and banking"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch04",
-      "title": "Globalisation and the Indian Economy",
+      "title": "Globalisation",
       "concepts": [
         {
-          "concept_id": "economics10.globalisation.globalisation_intro",
-          "title": "What Is Globalisation?",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "What Is Globalisation? — part of the chapter on Globalisation and the Indian Economy.",
-          "key_ideas": [
-            "Core principles of what is globalisation?",
-            "Step-by-step problem solving for what is globalisation?",
-            "Real-world applications of what is globalisation?"
-          ]
-        },
-        {
-          "concept_id": "economics10.globalisation.mncs_trade",
-          "title": "MNCs, Trade and Foreign Investment",
+          "concept_id": "economics10.globalisation10.mncs_impact",
+          "title": "MNCs, Trade and Impact on India",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "economics10.globalisation.globalisation_intro"
-          ],
-          "description": "MNCs, Trade and Foreign Investment — part of the chapter on Globalisation and the Indian Economy.",
+          "prerequisites": [],
+          "description": "MNCs, Trade and Impact on India — part of the chapter on Globalisation.",
           "key_ideas": [
-            "Core principles of mncs, trade and foreign investment",
-            "Step-by-step problem solving for mncs, trade and foreign investment",
-            "Real-world applications of mncs, trade and foreign investment"
-          ]
-        },
-        {
-          "concept_id": "economics10.globalisation.impact_india",
-          "title": "Impact of Globalisation on India",
-          "bloom_level": "analyze",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "economics10.globalisation.mncs_trade"
-          ],
-          "description": "Impact of Globalisation on India — part of the chapter on Globalisation and the Indian Economy.",
-          "key_ideas": [
-            "Core principles of impact of globalisation on india",
-            "Step-by-step problem solving for impact of globalisation on india",
-            "Real-world applications of impact of globalisation on india"
+            "Core principles of mncs, trade and impact on india",
+            "Step-by-step problem solving for mncs, trade and impact on india",
+            "Real-world applications of mncs, trade and impact on india"
           ]
         }
       ]
@@ -158,31 +83,16 @@
       "title": "Consumer Rights",
       "concepts": [
         {
-          "concept_id": "economics10.consumer_rights.consumer_awareness",
-          "title": "Consumer Awareness and Rights",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Consumer Awareness and Rights — part of the chapter on Consumer Rights.",
-          "key_ideas": [
-            "Core principles of consumer awareness and rights",
-            "Step-by-step problem solving for consumer awareness and rights",
-            "Real-world applications of consumer awareness and rights"
-          ]
-        },
-        {
           "concept_id": "economics10.consumer_rights.consumer_protection",
-          "title": "Consumer Protection Act",
+          "title": "Consumer Awareness and Protection Act",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "economics10.consumer_rights.consumer_awareness"
-          ],
-          "description": "Consumer Protection Act — part of the chapter on Consumer Rights.",
+          "prerequisites": [],
+          "description": "Consumer Awareness and Protection Act — part of the chapter on Consumer Rights.",
           "key_ideas": [
-            "Core principles of consumer protection act",
-            "Step-by-step problem solving for consumer protection act",
-            "Real-world applications of consumer protection act"
+            "Core principles of consumer awareness and protection act",
+            "Step-by-step problem solving for consumer awareness and protection act",
+            "Real-world applications of consumer awareness and protection act"
           ]
         }
       ]

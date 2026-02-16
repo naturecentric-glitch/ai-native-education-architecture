@@ -1,0 +1,12 @@
+{
+  "title": "Probability Problems — Coins, Dice, Cards — Probability",
+  "hook": "Let's explore <strong>Probability Problems — Coins, Dice, Cards</strong> from the chapter on Probability. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Probability Problems — Coins, Dice, Cards</strong>\n\n<em>Apply probability to standard experiments: tossing coins, rolling dice, drawing cards from a deck. Systematic counting is key.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Coin: P(Head) = P(Tail) = 1/2; two coins: 4 outcomes (HH,HT,TH,TT)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Die: 6 outcomes (1-6); two dice: 36 outcomes</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Deck of cards: 52 cards, 4 suits × 13 ranks</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Strategy: list sample space, count favourable outcomes, apply P = favourable/total</div>",
+  "worked_example": "<em>A detailed worked example for Probability Problems — Coins, Dice, Cards will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Probability Problems — Coins, Dice, Cards and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and probability concepts like probability problems — coins, dice, cards are used in engineering, data science, and everyday problem solving!"
+}

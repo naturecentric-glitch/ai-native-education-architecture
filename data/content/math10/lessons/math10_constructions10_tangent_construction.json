@@ -1,0 +1,12 @@
+{
+  "title": "Construction of Tangents to a Circle — Constructions",
+  "hook": "Let's explore <strong>Construction of Tangents to a Circle</strong> from the chapter on Constructions. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Construction of Tangents to a Circle</strong>\n\n<em>Construct tangents to a circle from a point outside it, and construct a tangent at a point on the circle. Uses the property that tangent ⊥ radius.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Tangent from external point: find midpoint of OP, draw circle with that as centre</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Intersection points give points of tangency</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Tangent at a point on circle: draw radius, construct perpendicular</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Two tangents from external point are always equal</div>",
+  "worked_example": "<em>A detailed worked example for Construction of Tangents to a Circle will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Construction of Tangents to a Circle and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and constructions concepts like construction of tangents to a circle are used in engineering, data science, and everyday problem solving!"
+}

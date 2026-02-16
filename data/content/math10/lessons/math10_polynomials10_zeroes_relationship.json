@@ -1,0 +1,12 @@
+{
+  "title": "Relationship Between Zeroes and Coefficients — Polynomials",
+  "hook": "Let's explore <strong>Relationship Between Zeroes and Coefficients</strong> from the chapter on Polynomials. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Relationship Between Zeroes and Coefficients</strong>\n\n<em>For a quadratic polynomial ax²+bx+c with zeroes α and β: sum of zeroes = -b/a, product of zeroes = c/a. Extends to cubics.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 For ax²+bx+c: α + β = −b/a (sum of zeroes)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 For ax²+bx+c: αβ = c/a (product of zeroes)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 For cubic ax³+bx²+cx+d: α+β+γ = −b/a, αβ+βγ+γα = c/a, αβγ = −d/a</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Can form polynomial from given zeroes: k[x² − (sum)x + (product)]</div>",
+  "worked_example": "<em>A detailed worked example for Relationship Between Zeroes and Coefficients will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Relationship Between Zeroes and Coefficients and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and polynomials concepts like relationship between zeroes and coefficients are used in engineering, data science, and everyday problem solving!"
+}

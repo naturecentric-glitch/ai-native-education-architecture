@@ -1,0 +1,598 @@
+{
+  "course_id": "english6",
+  "title": "Class 6 English",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Parts of Speech",
+      "concepts": [
+        {
+          "concept_id": "english6.parts_of_speech.nouns_pronouns",
+          "title": "Nouns and Pronouns",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Nouns and Pronouns — part of the chapter on Parts of Speech.",
+          "key_ideas": [
+            "Core principles of nouns and pronouns",
+            "Step-by-step problem solving for nouns and pronouns",
+            "Real-world applications of nouns and pronouns"
+          ]
+        },
+        {
+          "concept_id": "english6.parts_of_speech.verbs_tenses",
+          "title": "Verbs and Tenses",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english6.parts_of_speech.nouns_pronouns"
+          ],
+          "description": "Verbs and Tenses — part of the chapter on Parts of Speech.",
+          "key_ideas": [
+            "Core principles of verbs and tenses",
+            "Step-by-step problem solving for verbs and tenses",
+            "Real-world applications of verbs and tenses"
+          ]
+        },
+        {
+          "concept_id": "english6.parts_of_speech.adjectives_degrees",
+          "title": "Adjectives and Degrees of Comparison",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english6.parts_of_speech.nouns_pronouns"
+          ],
+          "description": "Introduction to words that describe or modify nouns and pronouns, including the rules for forming comparative and superlative degrees.",
+          "key_ideas": [
+            "Identifying adjectives of quality, quantity, and number",
+            "Using positive, comparative, and superlative degrees correctly",
+            "Position of adjectives in a sentence"
+          ]
+        },
+        {
+          "concept_id": "english6.parts_of_speech.adverbs_modification",
+          "title": "Adverbs and Modification",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english6.parts_of_speech.verbs_tenses",
+            "english6.parts_of_speech.adjectives_degrees"
+          ],
+          "description": "Understanding how adverbs modify verbs, adjectives, or other adverbs to express manner, place, time, or frequency.",
+          "key_ideas": [
+            "Distinguishing between adjectives and adverbs",
+            "Adverbs of manner (how), place (where), and time (when)",
+            "Formation of adverbs using the '-ly' suffix"
+          ]
+        },
+        {
+          "concept_id": "english6.parts_of_speech.prepositions_relationships",
+          "title": "Prepositions of Time, Place, and Direction",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english6.parts_of_speech.nouns_pronouns",
+            "english6.parts_of_speech.verbs_tenses"
+          ],
+          "description": "Learning words that establish relationships between nouns/pronouns and other parts of the sentence regarding location, timing, or movement.",
+          "key_ideas": [
+            "Common prepositions (in, on, at, under, between)",
+            "Differentiating between prepositions of time and place",
+            "Correct usage to avoid common grammatical errors"
+          ]
+        },
+        {
+          "concept_id": "english6.parts_of_speech.conjunctions_linking",
+          "title": "Conjunctions and Linking Words",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english6.parts_of_speech.verbs_tenses"
+          ],
+          "description": "Using connecting words to join words, phrases, or clauses together to form compound or complex sentences.",
+          "key_ideas": [
+            "Coordinating conjunctions (and, but, or, so)",
+            "Subordinating conjunctions (because, although, if)",
+            "Using conjunctions to improve sentence flow and logic"
+          ]
+        },
+        {
+          "concept_id": "english6.parts_of_speech.interjections_identification",
+          "title": "Interjections and Part of Speech Identification",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english6.parts_of_speech.adjectives_degrees",
+            "english6.parts_of_speech.adverbs_modification",
+            "english6.parts_of_speech.prepositions_relationships",
+            "english6.parts_of_speech.conjunctions_linking"
+          ],
+          "description": "Recognizing words that express sudden emotion and applying knowledge of all eight parts of speech to analyze sentences.",
+          "key_ideas": [
+            "Using interjections (Wow!, Alas!, Hurrah!) for expression",
+            "Punctuation rules for interjections",
+            "Identifying the correct part of speech for words based on context"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Sentence Structure",
+      "concepts": [
+        {
+          "concept_id": "english6.sentence_structure.simple_compound_complex",
+          "title": "Simple, Compound and Complex Sentences",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Simple, Compound and Complex Sentences — part of the chapter on Sentence Structure.",
+          "key_ideas": [
+            "Core principles of simple, compound and complex sentences",
+            "Step-by-step problem solving for simple, compound and complex sentences",
+            "Real-world applications of simple, compound and complex sentences"
+          ]
+        },
+        {
+          "concept_id": "english6.sentence_structure.subject_and_predicate",
+          "title": "Subject and Predicate",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the two fundamental parts of every complete sentence: the person or thing doing the action (Subject) and the part that tells something about the subject (Predicate).",
+          "key_ideas": [
+            "Identifying the 'who' or 'what' (Subject)",
+            "Identifying the action or state of being (Predicate)",
+            "The role of the verb in the predicate"
+          ]
+        },
+        {
+          "concept_id": "english6.sentence_structure.functional_types",
+          "title": "Types of Sentences Based on Function",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english6.sentence_structure.subject_and_predicate"
+          ],
+          "description": "Categorizing sentences based on their purpose: making statements, asking questions, giving commands, or expressing strong emotion.",
+          "key_ideas": [
+            "Declarative sentences (Statements)",
+            "Interrogative sentences (Questions)",
+            "Imperative sentences (Commands/Requests)",
+            "Exclamatory sentences (Strong emotions)"
+          ]
+        },
+        {
+          "concept_id": "english6.sentence_structure.reordering_sentences",
+          "title": "Word Order and Sentence Formation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english6.sentence_structure.subject_and_predicate"
+          ],
+          "description": "Learning the correct arrangement of words (syntax) to create meaningful sentences, focusing on the Subject-Verb-Object (SVO) pattern.",
+          "key_ideas": [
+            "Standard SVO (Subject-Verb-Object) pattern",
+            "Rearranging jumbled words to form meaning",
+            "Placement of adjectives and adverbs"
+          ]
+        },
+        {
+          "concept_id": "english6.sentence_structure.phrase_vs_clause",
+          "title": "Phrases and Clauses",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english6.sentence_structure.subject_and_predicate"
+          ],
+          "description": "Distinguishing between groups of words that form a complete thought (clauses) and those that do not contain a subject-verb unit (phrases). This is a foundation for understanding complex sentences.",
+          "key_ideas": [
+            "Definition of a Phrase (no subject-verb pair)",
+            "Definition of a Clause (contains subject and verb)",
+            "Independent vs. Dependent Clauses"
+          ]
+        },
+        {
+          "concept_id": "english6.sentence_structure.subject_verb_agreement",
+          "title": "Subject-Verb Agreement",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english6.sentence_structure.subject_and_predicate"
+          ],
+          "description": "Rules ensuring that the subject and verb in a sentence match in number (singular vs. plural).",
+          "key_ideas": [
+            "Singular subjects take singular verbs",
+            "Plural subjects take plural verbs",
+            "Handling collective nouns and compound subjects"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Tenses",
+      "concepts": [
+        {
+          "concept_id": "english6.tenses.all_tenses",
+          "title": "Present, Past and Future — Simple, Continuous, Perfect",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Present, Past and Future — Simple, Continuous, Perfect — part of the chapter on Tenses.",
+          "key_ideas": [
+            "Core principles of present, past and future",
+            "Step-by-step problem solving for present, past and future",
+            "Real-world applications of present, past and future"
+          ]
+        },
+        {
+          "concept_id": "english6.tenses.verb_forms",
+          "title": "Regular and Irregular Verb Forms",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Identification and memorization of base forms (V1), past forms (V2), and past participles (V3) for regular and irregular verbs.",
+          "key_ideas": [
+            "Regular verbs add '-ed' or '-d' to form the past tense",
+            "Irregular verbs change spelling completely (e.g., go -> went)",
+            "The three forms: Base, Past Simple, and Past Participle"
+          ]
+        },
+        {
+          "concept_id": "english6.tenses.present_contrast",
+          "title": "Simple Present vs. Present Continuous",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english6.tenses.verb_forms"
+          ],
+          "description": "Distinguishing between habitual actions or universal truths (Simple Present) and actions happening at the moment of speaking (Present Continuous).",
+          "key_ideas": [
+            "Using Simple Present for habits, routines, and facts",
+            "Using Present Continuous for ongoing actions right now",
+            "Identifying signal words: 'always/usually' vs. 'now/at the moment'"
+          ]
+        },
+        {
+          "concept_id": "english6.tenses.past_contrast",
+          "title": "Simple Past vs. Past Continuous",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english6.tenses.verb_forms"
+          ],
+          "description": "Understanding the difference between completed past actions and actions that were in progress at a specific time in the past.",
+          "key_ideas": [
+            "Simple Past describes completed actions at a specific time",
+            "Past Continuous describes background actions or interruptions",
+            "Using 'when' and 'while' to connect past events"
+          ]
+        },
+        {
+          "concept_id": "english6.tenses.future_expression",
+          "title": "Expressing Future Time: Will vs. Going To",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Learning different ways to express future actions using 'will', 'shall', and 'going to' based on intent and prediction.",
+          "key_ideas": [
+            "Using 'will' for instant decisions or predictions",
+            "Using 'going to' for planned actions or intentions",
+            "Understanding the auxiliary role of 'shall' in suggestions"
+          ]
+        },
+        {
+          "concept_id": "english6.tenses.sentence_transformation",
+          "title": "Negative and Interrogative Structures",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english6.tenses.all_tenses"
+          ],
+          "description": "Constructing negative sentences and questions across different tenses using appropriate auxiliary verbs (do, does, did, will, have).",
+          "key_ideas": [
+            "Using 'do/does/did' + not for Simple Present and Past negatives",
+            "Inverting subject and auxiliary verb to form questions",
+            "Ensuring main verbs return to base form when using 'did'"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Active-Passive Voice and Direct-Indirect Speech",
+      "concepts": [
+        {
+          "concept_id": "english6.voice_speech.active_passive",
+          "title": "Active and Passive Voice",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Active and Passive Voice — part of the chapter on Active-Passive Voice and Direct-Indirect Speech.",
+          "key_ideas": [
+            "Core principles of active and passive voice",
+            "Step-by-step problem solving for active and passive voice",
+            "Real-world applications of active and passive voice"
+          ]
+        },
+        {
+          "concept_id": "english6.voice_speech.direct_indirect",
+          "title": "Direct and Indirect Speech",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english6.voice_speech.active_passive"
+          ],
+          "description": "Direct and Indirect Speech — part of the chapter on Active-Passive Voice and Direct-Indirect Speech.",
+          "key_ideas": [
+            "Core principles of direct and indirect speech",
+            "Step-by-step problem solving for direct and indirect speech",
+            "Real-world applications of direct and indirect speech"
+          ]
+        },
+        {
+          "concept_id": "english6.voice_speech.passive_structure_by",
+          "title": "Subject-Object Transformation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english6.voice_speech.active_passive"
+          ],
+          "description": "Understanding how the object of an active sentence becomes the subject of a passive sentence and the use of the agent marker 'by'.",
+          "key_ideas": [
+            "Swap the positions of Subject and Object",
+            "The doer of the action moves to the end",
+            "Introduction of the preposition 'by' before the doer",
+            "Identifying transitive verbs required for passive voice"
+          ]
+        },
+        {
+          "concept_id": "english6.voice_speech.passive_verb_forms",
+          "title": "Verb Forms in Passive Voice",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english6.voice_speech.passive_structure_by"
+          ],
+          "description": "Rules for changing the main verb into the Past Participle (V3) form and selecting the correct auxiliary verb (is/am/are/was/were) based on tense.",
+          "key_ideas": [
+            "Passive voice always uses the Past Participle (V3) form",
+            "Using 'is/am/are' for Simple Present passive",
+            "Using 'was/were' for Simple Past passive",
+            "Agreement of the auxiliary verb with the new subject"
+          ]
+        },
+        {
+          "concept_id": "english6.voice_speech.indirect_connectors",
+          "title": "Reporting Verbs and Connectors",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english6.voice_speech.direct_indirect"
+          ],
+          "description": "Learning how to remove inverted commas and use conjunctions like 'that' when converting direct speech to indirect speech.",
+          "key_ideas": [
+            "Removal of inverted commas (quotation marks)",
+            "Changing 'said to' into 'told'",
+            "Using the conjunction 'that' to connect clauses",
+            "Identifying the reporting verb"
+          ]
+        },
+        {
+          "concept_id": "english6.voice_speech.indirect_pronoun_time",
+          "title": "Pronoun and Time Shifts",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english6.voice_speech.indirect_connectors"
+          ],
+          "description": "Rules for changing personal pronouns to match the reporter and converting words denoting nearness in time/place to distance (e.g., now to then).",
+          "key_ideas": [
+            "First-person pronouns change according to the subject",
+            "Second-person pronouns change according to the object",
+            "Changing 'now' to 'then', 'here' to 'there'",
+            "Changing 'today' to 'that day', 'tomorrow' to 'the next day'"
+          ]
+        },
+        {
+          "concept_id": "english6.voice_speech.indirect_tense_backshift",
+          "title": "Tense Backshift in Indirect Speech",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english6.voice_speech.indirect_pronoun_time"
+          ],
+          "description": "Understanding how to shift the tense of the reported speech back into the past when the reporting verb is in the past tense.",
+          "key_ideas": [
+            "Simple Present becomes Simple Past",
+            "Present Continuous becomes Past Continuous",
+            "No tense change if the reporting verb is in Present or Future tense",
+            "Universal truths remain in Present tense"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Reading Comprehension",
+      "concepts": [
+        {
+          "concept_id": "english6.comprehension.unseen_passages",
+          "title": "Unseen Passages and Note Making",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Unseen Passages and Note Making — part of the chapter on Reading Comprehension.",
+          "key_ideas": [
+            "Core principles of unseen passages and note making",
+            "Step-by-step problem solving for unseen passages and note making",
+            "Real-world applications of unseen passages and note making"
+          ]
+        },
+        {
+          "concept_id": "english6.comprehension.context_clues",
+          "title": "Vocabulary and Context Clues",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english6.comprehension.unseen_passages"
+          ],
+          "description": "Techniques to deduce the meaning of unfamiliar words by analyzing the surrounding text rather than relying solely on a dictionary.",
+          "key_ideas": [
+            "Using synonyms and antonyms in the sentence as clues",
+            "Identifying definitions or examples provided within the text",
+            "Using the general mood or tone of the passage to guess word meaning"
+          ]
+        },
+        {
+          "concept_id": "english6.comprehension.main_idea_theme",
+          "title": "Identifying Main Idea and Theme",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english6.comprehension.unseen_passages"
+          ],
+          "description": "Learning to distinguish between the central message of a passage and the supporting details used to explain it.",
+          "key_ideas": [
+            "Finding the topic sentence in a paragraph",
+            "Distinguishing between major points and minor details",
+            "Summarizing the central theme in one or two sentences"
+          ]
+        },
+        {
+          "concept_id": "english6.comprehension.fact_vs_opinion",
+          "title": "Distinguishing Fact and Opinion",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english6.comprehension.unseen_passages"
+          ],
+          "description": "Developing critical reading skills to identify statements that can be proven true versus statements representing feelings or beliefs.",
+          "key_ideas": [
+            "Identifying verifiable evidence (dates, numbers, historical events)",
+            "Recognizing signal words for opinions (believe, feel, best, worst)",
+            "Understanding author bias in a text"
+          ]
+        },
+        {
+          "concept_id": "english6.comprehension.inference_deduction",
+          "title": "Inference and Deduction",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english6.comprehension.context_clues",
+            "english6.comprehension.main_idea_theme"
+          ],
+          "description": "Reading 'between the lines' to understand information that is implied by the author but not explicitly stated in the text.",
+          "key_ideas": [
+            "Drawing conclusions based on evidence in the text",
+            "Predicting outcomes based on character actions",
+            "Understanding character traits through dialogue and behavior"
+          ]
+        },
+        {
+          "concept_id": "english6.comprehension.poetry_appreciation",
+          "title": "Poetry Comprehension",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english6.comprehension.inference_deduction"
+          ],
+          "description": "Analyzing poetic texts to understand literal meaning, imagery, and basic poetic devices used to convey emotion.",
+          "key_ideas": [
+            "Identifying rhyme schemes and rhythm",
+            "Understanding basic imagery (similes and metaphors)",
+            "Interpreting the mood or feeling of the poem"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Writing Skills",
+      "concepts": [
+        {
+          "concept_id": "english6.writing_skills.letter_essay",
+          "title": "Letter, Essay and Article Writing",
+          "bloom_level": "create",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Letter, Essay and Article Writing — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of letter, essay and article writing",
+            "Step-by-step problem solving for letter, essay and article writing",
+            "Real-world applications of letter, essay and article writing"
+          ]
+        },
+        {
+          "concept_id": "english6.writing_skills.message_writing",
+          "title": "Message Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learn to draft short, informal messages to convey important information when direct communication is not possible, focusing on brevity and clarity.",
+          "key_ideas": [
+            "Format: Date, Time, Salutation, and Sender",
+            "Conveying the core information concisely",
+            "Using indirect speech to report telephone conversations"
+          ]
+        },
+        {
+          "concept_id": "english6.writing_skills.notice_writing",
+          "title": "Notice Writing",
+          "bloom_level": "create",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Understand how to write formal notices for school boards or public displays to announce events, lost and found items, or appeals.",
+          "key_ideas": [
+            "Standard format: Box, Issuing Authority, Date, Heading",
+            "The 5 Ws: What, Where, When, Who, Whom",
+            "Adhering to word limits (usually 50 words)"
+          ]
+        },
+        {
+          "concept_id": "english6.writing_skills.diary_entry",
+          "title": "Diary Entry",
+          "bloom_level": "create",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Develop the skill of recording personal experiences, feelings, and reactions to daily events in a creative and reflective manner.",
+          "key_ideas": [
+            "Using first-person perspective ('I')",
+            "Informal and expressive tone",
+            "Format: Date, Day, Time, and Signature"
+          ]
+        },
+        {
+          "concept_id": "english6.writing_skills.picture_composition",
+          "title": "Picture Composition",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Practice observing visual cues in an image and translating them into a coherent paragraph or story using descriptive language.",
+          "key_ideas": [
+            "Observation of details (characters, setting, action)",
+            "Using descriptive adjectives and prepositions",
+            "Logical sequencing of sentences"
+          ]
+        },
+        {
+          "concept_id": "english6.writing_skills.story_writing",
+          "title": "Story Writing",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english6.writing_skills.picture_composition"
+          ],
+          "description": "Learn to construct a narrative story based on given outlines, hints, or moral themes, ensuring a logical flow from beginning to end.",
+          "key_ideas": [
+            "Developing a plot from an outline",
+            "Character and setting description",
+            "Providing a suitable title and moral"
+          ]
+        }
+      ]
+    }
+  ]
+}

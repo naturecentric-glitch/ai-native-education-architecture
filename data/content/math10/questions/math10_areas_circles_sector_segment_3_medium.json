@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.45,
+    "question": "State and explain the key concept: Arc length = (θ/360°) × 2πr.",
+    "hint": "Think about the definition and main formula related to Area of Sector and Segment.",
+    "expected_answer": "This tests understanding of: Arc length = (θ/360°) × 2πr. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Area of Sector and Segment"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "question": "Solve an NCERT example problem related to 'Area of Sector and Segment'. Show all steps clearly.",
+    "hint": "Review the key ideas: Arc length = (θ/360°) × 2πr, Area of sector = (θ/360°) × πr².",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Area of Sector and Segment. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Area of Sector and Segment"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "How would you apply 'Area of Sector and Segment' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where area of sector and segment concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Area of Sector and Segment.",
+    "concepts_tested": [
+      "Area of Sector and Segment",
+      "Real-world application"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.45,
+    "question": "State and explain the key concept: AA criterion: two pairs of equal angles ⇒ triangles are similar.",
+    "hint": "Think about the definition and main formula related to Criteria for Similarity of Triangles.",
+    "expected_answer": "This tests understanding of: AA criterion: two pairs of equal angles ⇒ triangles are similar. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Criteria for Similarity of Triangles"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "question": "Solve an NCERT example problem related to 'Criteria for Similarity of Triangles'. Show all steps clearly.",
+    "hint": "Review the key ideas: AA criterion: two pairs of equal angles ⇒ triangles are similar, SSS criterion: all three pairs of sides in proportion ⇒ similar.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Criteria for Similarity of Triangles. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Criteria for Similarity of Triangles"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "How would you apply 'Criteria for Similarity of Triangles' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where criteria for similarity of triangles concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Criteria for Similarity of Triangles.",
+    "concepts_tested": [
+      "Criteria for Similarity of Triangles",
+      "Real-world application"
+    ]
+  }
+]

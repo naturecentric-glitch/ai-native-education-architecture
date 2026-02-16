@@ -84,31 +84,16 @@
           ]
         },
         {
-          "concept_id": "math7.fractions_decimals.mul_decimals",
-          "title": "Multiplication of Decimals",
+          "concept_id": "math7.fractions_decimals.operations_decimals",
+          "title": "Operations on Decimals",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Multiplication of Decimals — part of the chapter on Fractions and Decimals.",
+          "description": "Operations on Decimals — part of the chapter on Fractions and Decimals.",
           "key_ideas": [
-            "Core principles of multiplication of decimals",
-            "Step-by-step problem solving for multiplication of decimals",
-            "Real-world applications of multiplication of decimals"
-          ]
-        },
-        {
-          "concept_id": "math7.fractions_decimals.div_decimals",
-          "title": "Division of Decimals",
-          "bloom_level": "apply",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "math7.fractions_decimals.mul_decimals"
-          ],
-          "description": "Division of Decimals — part of the chapter on Fractions and Decimals.",
-          "key_ideas": [
-            "Core principles of division of decimals",
-            "Step-by-step problem solving for division of decimals",
-            "Real-world applications of division of decimals"
+            "Core principles of operations on decimals",
+            "Step-by-step problem solving for operations on decimals",
+            "Real-world applications of operations on decimals"
           ]
         }
       ]
@@ -118,26 +103,11 @@
       "title": "Data Handling",
       "concepts": [
         {
-          "concept_id": "math7.data_handling.collecting_data",
-          "title": "Collecting and Organizing Data",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": [],
-          "description": "Collecting and Organizing Data — part of the chapter on Data Handling.",
-          "key_ideas": [
-            "Core principles of collecting and organizing data",
-            "Step-by-step problem solving for collecting and organizing data",
-            "Real-world applications of collecting and organizing data"
-          ]
-        },
-        {
           "concept_id": "math7.data_handling.arithmetic_mean",
           "title": "Arithmetic Mean",
           "bloom_level": "apply",
           "difficulty": 0.3,
-          "prerequisites": [
-            "math7.data_handling.collecting_data"
-          ],
+          "prerequisites": [],
           "description": "Arithmetic Mean — part of the chapter on Data Handling.",
           "key_ideas": [
             "Core principles of arithmetic mean",
@@ -150,9 +120,7 @@
           "title": "Bar Graphs",
           "bloom_level": "apply",
           "difficulty": 0.3,
-          "prerequisites": [
-            "math7.data_handling.collecting_data"
-          ],
+          "prerequisites": [],
           "description": "Bar Graphs — part of the chapter on Data Handling.",
           "key_ideas": [
             "Core principles of bar graphs",
@@ -182,26 +150,11 @@
       "title": "Simple Equations",
       "concepts": [
         {
-          "concept_id": "math7.simple_equations.variable_equation",
-          "title": "Variables and Equations",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Variables and Equations — part of the chapter on Simple Equations.",
-          "key_ideas": [
-            "Core principles of variables and equations",
-            "Step-by-step problem solving for variables and equations",
-            "Real-world applications of variables and equations"
-          ]
-        },
-        {
           "concept_id": "math7.simple_equations.solving_equations",
           "title": "Solving Simple Equations",
           "bloom_level": "apply",
           "difficulty": 0.35,
-          "prerequisites": [
-            "math7.simple_equations.variable_equation"
-          ],
+          "prerequisites": [],
           "description": "Solving Simple Equations — part of the chapter on Simple Equations.",
           "key_ideas": [
             "Core principles of solving simple equations",
@@ -244,27 +197,12 @@
           ]
         },
         {
-          "concept_id": "math7.lines_angles.adjacent_angles",
-          "title": "Adjacent and Vertically Opposite Angles",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [
-            "math7.lines_angles.related_angles"
-          ],
-          "description": "Adjacent and Vertically Opposite Angles — part of the chapter on Lines and Angles.",
-          "key_ideas": [
-            "Core principles of adjacent and vertically opposite angles",
-            "Step-by-step problem solving for adjacent and vertically opposite angles",
-            "Real-world applications of adjacent and vertically opposite angles"
-          ]
-        },
-        {
           "concept_id": "math7.lines_angles.parallel_transversal",
           "title": "Parallel Lines and Transversal",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [
-            "math7.lines_angles.adjacent_angles"
+            "math7.lines_angles.related_angles"
           ],
           "description": "Parallel Lines and Transversal — part of the chapter on Lines and Angles.",
           "key_ideas": [
@@ -280,26 +218,11 @@
       "title": "The Triangle and Its Properties",
       "concepts": [
         {
-          "concept_id": "math7.triangles.types_triangles",
-          "title": "Types of Triangles",
-          "bloom_level": "remember",
-          "difficulty": 0.2,
-          "prerequisites": [],
-          "description": "Types of Triangles — part of the chapter on The Triangle and Its Properties.",
-          "key_ideas": [
-            "Core principles of types of triangles",
-            "Step-by-step problem solving for types of triangles",
-            "Real-world applications of types of triangles"
-          ]
-        },
-        {
           "concept_id": "math7.triangles.angle_sum",
           "title": "Angle Sum Property",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "math7.triangles.types_triangles"
-          ],
+          "prerequisites": [],
           "description": "Angle Sum Property — part of the chapter on The Triangle and Its Properties.",
           "key_ideas": [
             "Core principles of angle sum property",
@@ -344,26 +267,11 @@
       "title": "Congruence of Triangles",
       "concepts": [
         {
-          "concept_id": "math7.congruence.congruent_figures",
-          "title": "Congruent Figures",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Congruent Figures — part of the chapter on Congruence of Triangles.",
-          "key_ideas": [
-            "Core principles of congruent figures",
-            "Step-by-step problem solving for congruent figures",
-            "Real-world applications of congruent figures"
-          ]
-        },
-        {
           "concept_id": "math7.congruence.criteria_congruence",
           "title": "Criteria for Congruence (SSS, SAS, ASA, RHS)",
           "bloom_level": "apply",
           "difficulty": 0.4,
-          "prerequisites": [
-            "math7.congruence.congruent_figures"
-          ],
+          "prerequisites": [],
           "description": "Criteria for Congruence (SSS, SAS, ASA, RHS) — part of the chapter on Congruence of Triangles.",
           "key_ideas": [
             "Core principles of criteria for congruence (sss, sas, asa, rhs)",
@@ -378,26 +286,11 @@
       "title": "Comparing Quantities",
       "concepts": [
         {
-          "concept_id": "math7.comparing_quantities.ratios",
-          "title": "Ratios and Equivalent Ratios",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Ratios and Equivalent Ratios — part of the chapter on Comparing Quantities.",
-          "key_ideas": [
-            "Core principles of ratios and equivalent ratios",
-            "Step-by-step problem solving for ratios and equivalent ratios",
-            "Real-world applications of ratios and equivalent ratios"
-          ]
-        },
-        {
           "concept_id": "math7.comparing_quantities.percentage",
           "title": "Percentage",
           "bloom_level": "apply",
           "difficulty": 0.3,
-          "prerequisites": [
-            "math7.comparing_quantities.ratios"
-          ],
+          "prerequisites": [],
           "description": "Percentage — part of the chapter on Comparing Quantities.",
           "key_ideas": [
             "Core principles of percentage",
@@ -473,83 +366,19 @@
     },
     {
       "chapter_id": "ch10",
-      "title": "Practical Geometry",
-      "concepts": [
-        {
-          "concept_id": "math7.practical_geometry.construct_parallel",
-          "title": "Constructing Parallel Lines",
-          "bloom_level": "apply",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Constructing Parallel Lines — part of the chapter on Practical Geometry.",
-          "key_ideas": [
-            "Core principles of constructing parallel lines",
-            "Step-by-step problem solving for constructing parallel lines",
-            "Real-world applications of constructing parallel lines"
-          ]
-        },
-        {
-          "concept_id": "math7.practical_geometry.construct_triangles",
-          "title": "Constructing Triangles (SSS, SAS, ASA)",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "math7.practical_geometry.construct_parallel"
-          ],
-          "description": "Constructing Triangles (SSS, SAS, ASA) — part of the chapter on Practical Geometry.",
-          "key_ideas": [
-            "Core principles of constructing triangles (sss, sas, asa)",
-            "Step-by-step problem solving for constructing triangles (sss, sas, asa)",
-            "Real-world applications of constructing triangles (sss, sas, asa)"
-          ]
-        }
-      ]
-    },
-    {
-      "chapter_id": "ch11",
       "title": "Perimeter and Area",
       "concepts": [
         {
-          "concept_id": "math7.perimeter_area.area_rectangle",
-          "title": "Area of Rectangle and Square",
-          "bloom_level": "apply",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Area of Rectangle and Square — part of the chapter on Perimeter and Area.",
-          "key_ideas": [
-            "Core principles of area of rectangle and square",
-            "Step-by-step problem solving for area of rectangle and square",
-            "Real-world applications of area of rectangle and square"
-          ]
-        },
-        {
           "concept_id": "math7.perimeter_area.area_parallelogram",
-          "title": "Area of Parallelogram",
+          "title": "Area of Parallelogram and Triangle",
           "bloom_level": "apply",
           "difficulty": 0.3,
-          "prerequisites": [
-            "math7.perimeter_area.area_rectangle"
-          ],
-          "description": "Area of Parallelogram — part of the chapter on Perimeter and Area.",
+          "prerequisites": [],
+          "description": "Area of Parallelogram and Triangle — part of the chapter on Perimeter and Area.",
           "key_ideas": [
-            "Core principles of area of parallelogram",
-            "Step-by-step problem solving for area of parallelogram",
-            "Real-world applications of area of parallelogram"
-          ]
-        },
-        {
-          "concept_id": "math7.perimeter_area.area_triangle",
-          "title": "Area of Triangle",
-          "bloom_level": "apply",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "math7.perimeter_area.area_parallelogram"
-          ],
-          "description": "Area of Triangle — part of the chapter on Perimeter and Area.",
-          "key_ideas": [
-            "Core principles of area of triangle",
-            "Step-by-step problem solving for area of triangle",
-            "Real-world applications of area of triangle"
+            "Core principles of area of parallelogram and triangle",
+            "Step-by-step problem solving for area of parallelogram and triangle",
+            "Real-world applications of area of parallelogram and triangle"
           ]
         },
         {
@@ -558,7 +387,7 @@
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [
-            "math7.perimeter_area.area_triangle"
+            "math7.perimeter_area.area_parallelogram"
           ],
           "description": "Circumference and Area of Circle — part of the chapter on Perimeter and Area.",
           "key_ideas": [
@@ -570,7 +399,7 @@
       ]
     },
     {
-      "chapter_id": "ch12",
+      "chapter_id": "ch11",
       "title": "Algebraic Expressions",
       "concepts": [
         {
@@ -587,27 +416,12 @@
           ]
         },
         {
-          "concept_id": "math7.algebraic_expressions.like_unlike_terms",
-          "title": "Like and Unlike Terms",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [
-            "math7.algebraic_expressions.terms_coefficients"
-          ],
-          "description": "Like and Unlike Terms — part of the chapter on Algebraic Expressions.",
-          "key_ideas": [
-            "Core principles of like and unlike terms",
-            "Step-by-step problem solving for like and unlike terms",
-            "Real-world applications of like and unlike terms"
-          ]
-        },
-        {
           "concept_id": "math7.algebraic_expressions.add_sub_expressions",
           "title": "Adding and Subtracting Algebraic Expressions",
           "bloom_level": "apply",
           "difficulty": 0.35,
           "prerequisites": [
-            "math7.algebraic_expressions.like_unlike_terms"
+            "math7.algebraic_expressions.terms_coefficients"
           ],
           "description": "Adding and Subtracting Algebraic Expressions — part of the chapter on Algebraic Expressions.",
           "key_ideas": [
@@ -619,30 +433,15 @@
       ]
     },
     {
-      "chapter_id": "ch13",
+      "chapter_id": "ch12",
       "title": "Exponents and Powers",
       "concepts": [
-        {
-          "concept_id": "math7.exponents.exponent_intro",
-          "title": "Exponents",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Exponents — part of the chapter on Exponents and Powers.",
-          "key_ideas": [
-            "Core principles of exponents",
-            "Step-by-step problem solving for exponents",
-            "Real-world applications of exponents"
-          ]
-        },
         {
           "concept_id": "math7.exponents.laws_exponents",
           "title": "Laws of Exponents",
           "bloom_level": "apply",
           "difficulty": 0.35,
-          "prerequisites": [
-            "math7.exponents.exponent_intro"
-          ],
+          "prerequisites": [],
           "description": "Laws of Exponents — part of the chapter on Exponents and Powers.",
           "key_ideas": [
             "Core principles of laws of exponents",
@@ -652,46 +451,31 @@
         },
         {
           "concept_id": "math7.exponents.standard_form",
-          "title": "Expressing Large Numbers in Standard Form",
+          "title": "Standard Form of Large Numbers",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [
             "math7.exponents.laws_exponents"
           ],
-          "description": "Expressing Large Numbers in Standard Form — part of the chapter on Exponents and Powers.",
+          "description": "Standard Form of Large Numbers — part of the chapter on Exponents and Powers.",
           "key_ideas": [
-            "Core principles of expressing large numbers in standard form",
-            "Step-by-step problem solving for expressing large numbers in standard form",
-            "Real-world applications of expressing large numbers in standard form"
+            "Core principles of standard form of large numbers",
+            "Step-by-step problem solving for standard form of large numbers",
+            "Real-world applications of standard form of large numbers"
           ]
         }
       ]
     },
     {
-      "chapter_id": "ch14",
+      "chapter_id": "ch13",
       "title": "Symmetry",
       "concepts": [
         {
-          "concept_id": "math7.symmetry.lines_symmetry",
-          "title": "Lines of Symmetry",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": [],
-          "description": "Lines of Symmetry — part of the chapter on Symmetry.",
-          "key_ideas": [
-            "Core principles of lines of symmetry",
-            "Step-by-step problem solving for lines of symmetry",
-            "Real-world applications of lines of symmetry"
-          ]
-        },
-        {
-          "concept_id": "math7.symmetry.rotational_symmetry",
+          "concept_id": "math7.symmetry7.rotational_symmetry",
           "title": "Rotational Symmetry",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "math7.symmetry.lines_symmetry"
-          ],
+          "prerequisites": [],
           "description": "Rotational Symmetry — part of the chapter on Symmetry.",
           "key_ideas": [
             "Core principles of rotational symmetry",
@@ -702,30 +486,15 @@
       ]
     },
     {
-      "chapter_id": "ch15",
+      "chapter_id": "ch14",
       "title": "Visualising Solid Shapes",
       "concepts": [
-        {
-          "concept_id": "math7.solid_shapes.faces_edges_vertices",
-          "title": "Faces, Edges and Vertices",
-          "bloom_level": "remember",
-          "difficulty": 0.2,
-          "prerequisites": [],
-          "description": "Faces, Edges and Vertices — part of the chapter on Visualising Solid Shapes.",
-          "key_ideas": [
-            "Core principles of faces, edges and vertices",
-            "Step-by-step problem solving for faces, edges and vertices",
-            "Real-world applications of faces, edges and vertices"
-          ]
-        },
         {
           "concept_id": "math7.solid_shapes.nets_solids",
           "title": "Nets of 3D Shapes",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "math7.solid_shapes.faces_edges_vertices"
-          ],
+          "prerequisites": [],
           "description": "Nets of 3D Shapes — part of the chapter on Visualising Solid Shapes.",
           "key_ideas": [
             "Core principles of nets of 3d shapes",
@@ -735,17 +504,17 @@
         },
         {
           "concept_id": "math7.solid_shapes.cross_sections",
-          "title": "Cross Sections and Shadows",
+          "title": "Cross Sections",
           "bloom_level": "analyze",
           "difficulty": 0.35,
           "prerequisites": [
             "math7.solid_shapes.nets_solids"
           ],
-          "description": "Cross Sections and Shadows — part of the chapter on Visualising Solid Shapes.",
+          "description": "Cross Sections — part of the chapter on Visualising Solid Shapes.",
           "key_ideas": [
-            "Core principles of cross sections and shadows",
-            "Step-by-step problem solving for cross sections and shadows",
-            "Real-world applications of cross sections and shadows"
+            "Core principles of cross sections",
+            "Step-by-step problem solving for cross sections",
+            "Real-world applications of cross sections"
           ]
         }
       ]

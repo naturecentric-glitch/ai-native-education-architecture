@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.55,
+    "question": "State and explain the key concept: Draw the figure, identify right triangle, mark known/unknown sides.",
+    "hint": "Think about the definition and main formula related to Heights and Distances Problems.",
+    "expected_answer": "This tests understanding of: Draw the figure, identify right triangle, mark known/unknown sides. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Heights and Distances Problems"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "question": "Solve an NCERT example problem related to 'Heights and Distances Problems'. Show all steps clearly.",
+    "hint": "Review the key ideas: Draw the figure, identify right triangle, mark known/unknown sides, Use tan θ = height/distance (most common ratio in these problems).",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Heights and Distances Problems. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Heights and Distances Problems"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.7000000000000001,
+    "question": "How would you apply 'Heights and Distances Problems' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where heights and distances problems concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Heights and Distances Problems.",
+    "concepts_tested": [
+      "Heights and Distances Problems",
+      "Real-world application"
+    ]
+  }
+]

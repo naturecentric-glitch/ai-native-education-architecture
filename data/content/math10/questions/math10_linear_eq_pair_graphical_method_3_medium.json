@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.35,
+    "question": "State and explain the key concept: Intersecting lines: a₁/a₂ ≠ b₁/b₂ → unique solution (consistent).",
+    "hint": "Think about the definition and main formula related to Graphical Representation and Consistency.",
+    "expected_answer": "This tests understanding of: Intersecting lines: a₁/a₂ ≠ b₁/b₂ → unique solution (consistent). Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Graphical Representation and Consistency"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.44999999999999996,
+    "question": "Solve an NCERT example problem related to 'Graphical Representation and Consistency'. Show all steps clearly.",
+    "hint": "Review the key ideas: Intersecting lines: a₁/a₂ ≠ b₁/b₂ → unique solution (consistent), Parallel lines: a₁/a₂ = b₁/b₂ ≠ c₁/c₂ → no solution (inconsistent).",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Graphical Representation and Consistency. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Graphical Representation and Consistency"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.5,
+    "question": "How would you apply 'Graphical Representation and Consistency' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where graphical representation and consistency concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Graphical Representation and Consistency.",
+    "concepts_tested": [
+      "Graphical Representation and Consistency",
+      "Real-world application"
+    ]
+  }
+]

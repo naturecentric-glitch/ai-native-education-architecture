@@ -1,0 +1,12 @@
+{
+  "title": "Graphical Representation and Consistency — Pair of Linear Equations in Two Variables",
+  "hook": "Let's explore <strong>Graphical Representation and Consistency</strong> from the chapter on Pair of Linear Equations in Two Variables. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Graphical Representation and Consistency</strong>\n\n<em>A pair of linear equations can be represented as two lines on a graph. The lines may intersect (unique solution), be parallel (no solution), or coincide (infinite solutions).</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Intersecting lines: a₁/a₂ ≠ b₁/b₂ → unique solution (consistent)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Parallel lines: a₁/a₂ = b₁/b₂ ≠ c₁/c₂ → no solution (inconsistent)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Coincident lines: a₁/a₂ = b₁/b₂ = c₁/c₂ → infinite solutions (dependent)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Solution of pair = coordinates of point of intersection</div>",
+  "worked_example": "<em>A detailed worked example for Graphical Representation and Consistency will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Graphical Representation and Consistency and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and pair of linear equations in two variables concepts like graphical representation and consistency are used in engineering, data science, and everyday problem solving!"
+}

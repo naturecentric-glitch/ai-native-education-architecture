@@ -1,0 +1,500 @@
+{
+  "course_id": "evs5",
+  "title": "Class 5 EVS",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Super Senses",
+      "concepts": [
+        {
+          "concept_id": "evs5.super_senses.animal_senses",
+          "title": "How Animals See, Hear, Smell",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "How Animals See, Hear, Smell — part of the chapter on Super Senses.",
+          "key_ideas": [
+            "Core principles of how animals see, hear, smell",
+            "Step-by-step problem solving for how animals see, hear, smell",
+            "Real-world applications of how animals see, hear, smell"
+          ]
+        },
+        {
+          "concept_id": "evs5.super_senses.night_animals",
+          "title": "Animals That Are Active at Night",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Animals That Are Active at Night — part of the chapter on Super Senses.",
+          "key_ideas": [
+            "Core principles of animals that are active at night",
+            "Step-by-step problem solving for animals that are active at night",
+            "Real-world applications of animals that are active at night"
+          ]
+        },
+        {
+          "concept_id": "evs5.super_senses.super_smell_ants",
+          "title": "Super Sense of Smell: Ants and Insects",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs5.super_senses.animal_senses"
+          ],
+          "description": "Explores how insects like ants and silkworms use their powerful sense of smell to navigate, find food, and locate mates.",
+          "key_ideas": [
+            "Ants leave a chemical trail (smell) on the ground to guide others.",
+            "Mosquitoes find humans by body smell and heat.",
+            "Silkworms can find female moths from kilometers away by smell."
+          ]
+        },
+        {
+          "concept_id": "evs5.super_senses.sensing_vibrations",
+          "title": "Sensing Sounds and Vibrations",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs5.super_senses.animal_senses"
+          ],
+          "description": "Differentiates between hearing through ears and sensing vibrations through the ground, focusing on snakes and tigers.",
+          "key_ideas": [
+            "Snakes do not have external ears; they feel vibrations on the ground.",
+            "Tigers use whiskers to sense movements and vibrations in the air.",
+            "Sharp hearing helps predators catch prey and prey to escape."
+          ]
+        },
+        {
+          "concept_id": "evs5.super_senses.warning_signals",
+          "title": "Animal Languages and Warning Signals",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs5.super_senses.animal_senses"
+          ],
+          "description": "Examines how animals use special sounds and behaviors to communicate danger to their groups.",
+          "key_ideas": [
+            "Langurs and birds make special alarm calls to warn of dangers like tigers or leopards.",
+            "Different sounds are used for different dangers (e.g., danger from sky vs. ground).",
+            "Some animals behave differently before natural disasters like earthquakes."
+          ]
+        },
+        {
+          "concept_id": "evs5.super_senses.sleep_and_hibernation",
+          "title": "Sleeping Patterns and Hibernation",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Investigates the varied sleeping habits of animals, including duration of sleep and seasonal deep sleep.",
+          "key_ideas": [
+            "Sloths sleep for nearly 17 hours a day while hanging upside down.",
+            "Some animals, like lizards, go into a long deep sleep (hibernation) during winter.",
+            "Comparison of sleep duration between cows, pythons, giraffes, and cats."
+          ]
+        },
+        {
+          "concept_id": "evs5.super_senses.poaching_and_conservation",
+          "title": "Poaching and Animal Protection",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs5.super_senses.animal_senses"
+          ],
+          "description": "Discusses why animals are hunted for their special body parts and the importance of national parks.",
+          "key_ideas": [
+            "Poaching is the illegal killing of animals for tusks, skin, horns, or musk.",
+            "The relationship between an animal's 'super sense' organ and why humans hunt them.",
+            "National Parks and Sanctuaries exist to protect animals and their habitats."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Seeds and Seeds",
+      "concepts": [
+        {
+          "concept_id": "evs5.seeds_seeds.seed_dispersal",
+          "title": "How Seeds Travel",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "How Seeds Travel — part of the chapter on Seeds and Seeds.",
+          "key_ideas": [
+            "Core principles of how seeds travel",
+            "Step-by-step problem solving for how seeds travel",
+            "Real-world applications of how seeds travel"
+          ]
+        },
+        {
+          "concept_id": "evs5.seeds_seeds.germination",
+          "title": "Germination — Seed to Plant",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Germination — Seed to Plant — part of the chapter on Seeds and Seeds.",
+          "key_ideas": [
+            "Core principles of germination",
+            "Step-by-step problem solving for germination",
+            "Real-world applications of germination"
+          ]
+        },
+        {
+          "concept_id": "evs5.seeds_seeds.parts_of_seed",
+          "title": "What is Inside a Seed?",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Exploration of the internal structure of a seed, identifying the protective and nutritive parts necessary for a baby plant to survive.",
+          "key_ideas": [
+            "The seed coat protects the seed",
+            "Cotyledons (seed leaves) store food",
+            "The embryo is the baby plant waiting to grow"
+          ]
+        },
+        {
+          "concept_id": "evs5.seeds_seeds.sprouting_conditions",
+          "title": "Experiments with Sprouting",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs5.seeds_seeds.germination"
+          ],
+          "description": "Analyzing the specific environmental conditions required for seeds to sprout effectively through observation and experimentation (e.g., wet cotton vs. submerged in water).",
+          "key_ideas": [
+            "Seeds need air, water, and warmth to sprout",
+            "Seeds submerged completely in water cannot breathe",
+            "Dry seeds do not change or grow"
+          ]
+        },
+        {
+          "concept_id": "evs5.seeds_seeds.hunter_plants",
+          "title": "Plants that Hunt",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Introduction to carnivorous plants, specifically the Pitcher plant (Nepenthes), explaining how and why some plants trap insects.",
+          "key_ideas": [
+            "Some plants eat insects to get nutrients",
+            "The Pitcher plant uses smell to attract insects",
+            "These plants are often found in areas with poor soil"
+          ]
+        },
+        {
+          "concept_id": "evs5.seeds_seeds.nature_inspiration",
+          "title": "Inventions from Nature: The Story of Velcro",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs5.seeds_seeds.seed_dispersal"
+          ],
+          "description": "Understanding how observing seed characteristics (like hooks and burrs) led to human inventions, specifically the creation of Velcro by George Mestral.",
+          "key_ideas": [
+            "George Mestral observed seeds sticking to his dog",
+            "Nature can inspire human inventions (Biomimicry)",
+            "Velcro mimics the tiny hooks found on certain seeds"
+          ]
+        },
+        {
+          "concept_id": "evs5.seeds_seeds.origin_of_vegetables",
+          "title": "Who Came from Where? (Vegetable Origins)",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs5.seeds_seeds.seed_dispersal"
+          ],
+          "description": "Tracing the geographical origins of common vegetables to understand that humans also help seeds travel across continents over history.",
+          "key_ideas": [
+            "Chillies came to India from South America",
+            "Cabbage and peas came from Europe",
+            "Humans carry seeds across oceans for trade and food"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Experiments with Water",
+      "concepts": [
+        {
+          "concept_id": "evs5.experiments_water.dissolving",
+          "title": "Things That Dissolve in Water",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Things That Dissolve in Water — part of the chapter on Experiments with Water.",
+          "key_ideas": [
+            "Core principles of things that dissolve in water",
+            "Step-by-step problem solving for things that dissolve in water",
+            "Real-world applications of things that dissolve in water"
+          ]
+        },
+        {
+          "concept_id": "evs5.experiments_water.evaporation",
+          "title": "Evaporation and Condensation",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "evs5.experiments_water.dissolving"
+          ],
+          "description": "Evaporation and Condensation — part of the chapter on Experiments with Water.",
+          "key_ideas": [
+            "Core principles of evaporation and condensation",
+            "Step-by-step problem solving for evaporation and condensation",
+            "Real-world applications of evaporation and condensation"
+          ]
+        },
+        {
+          "concept_id": "evs5.experiments_water.floating_sinking",
+          "title": "Floating and Sinking",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding why certain objects float on the surface of water while others sink to the bottom based on their material and shape.",
+          "key_ideas": [
+            "Lighter objects usually float, heavy objects usually sink",
+            "Shape affects floating (e.g., an iron ship floats, but an iron nail sinks)",
+            "Displacement of water helps things float"
+          ]
+        },
+        {
+          "concept_id": "evs5.experiments_water.oil_and_water",
+          "title": "Mixing Oil and Water",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs5.experiments_water.dissolving"
+          ],
+          "description": "Observing the behavior of oil when mixed with water and understanding why they do not mix (immiscibility).",
+          "key_ideas": [
+            "Oil does not dissolve in water",
+            "Oil forms a separate layer on top of water",
+            "Liquids that do not mix are called immiscible"
+          ]
+        },
+        {
+          "concept_id": "evs5.experiments_water.rate_of_dissolving",
+          "title": "Factors Affecting Dissolving Speed",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs5.experiments_water.dissolving"
+          ],
+          "description": "Investigating how different conditions change how quickly a substance dissolves in water.",
+          "key_ideas": [
+            "Stirring water makes things dissolve faster",
+            "Heating water increases the speed of dissolving",
+            "Powdered substances dissolve faster than solid lumps"
+          ]
+        },
+        {
+          "concept_id": "evs5.experiments_water.density_magic",
+          "title": "The Magic of Salt Water (Density)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs5.experiments_water.floating_sinking",
+            "evs5.experiments_water.dissolving"
+          ],
+          "description": "Exploring how adding salt to water changes its properties, allowing objects that normally sink (like a lemon or egg) to float.",
+          "key_ideas": [
+            "Salt water is 'thicker' (denser) than fresh water",
+            "Objects float easier in salty water",
+            "The Dead Sea is so salty that people can float without swimming"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Mapping Our Neighbourhood",
+      "concepts": [
+        {
+          "concept_id": "evs5.mapping.symbols_maps",
+          "title": "Symbols on Maps",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Symbols on Maps — part of the chapter on Mapping Our Neighbourhood.",
+          "key_ideas": [
+            "Core principles of symbols on maps",
+            "Step-by-step problem solving for symbols on maps",
+            "Real-world applications of symbols on maps"
+          ]
+        },
+        {
+          "concept_id": "evs5.mapping.scale_distance",
+          "title": "Scale and Distance",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "evs5.mapping.symbols_maps"
+          ],
+          "description": "Scale and Distance — part of the chapter on Mapping Our Neighbourhood.",
+          "key_ideas": [
+            "Core principles of scale and distance",
+            "Step-by-step problem solving for scale and distance",
+            "Real-world applications of scale and distance"
+          ]
+        },
+        {
+          "concept_id": "evs5.mapping.aerial_perspective",
+          "title": "Aerial Perspective (Top View)",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding that maps are drawn from a 'bird's eye view' or top-down perspective, looking different than objects seen from the side.",
+          "key_ideas": [
+            "Definition of aerial view",
+            "How 3D objects look in 2D from above",
+            "Difference between a photograph and a map"
+          ]
+        },
+        {
+          "concept_id": "evs5.mapping.cardinal_directions",
+          "title": "Cardinal Directions",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Learning the four main directions (North, South, East, West) to orient a map correctly.",
+          "key_ideas": [
+            "Identifying North, South, East, and West",
+            "Using a Compass Rose",
+            "Orienting a map relative to the real world"
+          ]
+        },
+        {
+          "concept_id": "evs5.mapping.navigating_routes",
+          "title": "Navigating Routes",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs5.mapping.symbols_maps",
+            "evs5.mapping.cardinal_directions"
+          ],
+          "description": "Using directions and landmarks to trace a path from one location to another on a map.",
+          "key_ideas": [
+            "Tracing paths between two points",
+            "Identifying left and right turns relative to the path",
+            "Describing a route using landmarks"
+          ]
+        },
+        {
+          "concept_id": "evs5.mapping.map_hierarchy",
+          "title": "Zooming In and Out",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs5.mapping.scale_distance"
+          ],
+          "description": "Comparing maps of different sizes, such as a map of a classroom versus a map of a city or country, to understand detail and coverage.",
+          "key_ideas": [
+            "Relationship between area covered and detail shown",
+            "Hierarchy: Room -> School -> City -> State",
+            "Why different maps are used for different purposes"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Social Topics",
+      "concepts": [
+        {
+          "concept_id": "evs5.social_topics.who_does_what",
+          "title": "Who Does What — Division of Labour",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Who Does What — Division of Labour — part of the chapter on Social Topics.",
+          "key_ideas": [
+            "Core principles of who does what",
+            "Step-by-step problem solving for who does what",
+            "Real-world applications of who does what"
+          ]
+        },
+        {
+          "concept_id": "evs5.social_topics.like_unlike",
+          "title": "Similarities and Differences Among People",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Similarities and Differences Among People — part of the chapter on Social Topics.",
+          "key_ideas": [
+            "Core principles of similarities and differences among people",
+            "Step-by-step problem solving for similarities and differences among people",
+            "Real-world applications of similarities and differences among people"
+          ]
+        },
+        {
+          "concept_id": "evs5.social_topics.gender_roles_stereotypes",
+          "title": "Gender Roles and Breaking Stereotypes",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs5.social_topics.like_unlike",
+            "evs5.social_topics.who_does_what"
+          ],
+          "description": "Explores societal expectations for boys and girls, challenging the idea that certain tasks or sports are meant only for one gender.",
+          "key_ideas": [
+            "Understanding gender stereotypes in household work and sports",
+            "Equal opportunities for girls and boys",
+            "Overcoming social barriers to pursue dreams (e.g., girls in sports)"
+          ]
+        },
+        {
+          "concept_id": "evs5.social_topics.dignity_of_labour",
+          "title": "Dignity of Labour and Social Justice",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs5.social_topics.who_does_what"
+          ],
+          "description": "Discusses the respectability of all types of work, specifically addressing sanitation work, untouchability, and the teachings of Mahatma Gandhi regarding social equality.",
+          "key_ideas": [
+            "No work is 'small' or 'dirty'",
+            "The importance of sanitation workers in society",
+            "Gandhiji's efforts to remove untouchability and promote equality"
+          ]
+        },
+        {
+          "concept_id": "evs5.social_topics.team_spirit",
+          "title": "Team Spirit and Cooperation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Focuses on the importance of working together towards a common goal, particularly through the lens of team sports and group activities.",
+          "key_ideas": [
+            "Playing for the team rather than for oneself",
+            "Cooperation and mutual respect among team members",
+            "Resolving conflicts constructively within a group"
+          ]
+        },
+        {
+          "concept_id": "evs5.social_topics.migration_displacement",
+          "title": "Migration, Displacement, and Changing Lives",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [],
+          "description": "Examines why families move from villages to cities or other areas, covering voluntary migration for work and forced displacement due to development projects like dams.",
+          "key_ideas": [
+            "Differences between village life and city life",
+            "Challenges faced by migrant families (schooling, housing, language)",
+            "Impact of displacement due to construction of dams and factories"
+          ]
+        },
+        {
+          "concept_id": "evs5.social_topics.community_assets",
+          "title": "Public Property and Community Responsibility",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Identifies shared resources within a community and the collective responsibility to maintain and protect them.",
+          "key_ideas": [
+            "Difference between private and public property",
+            "Caring for parks, schools, buses, and historical monuments",
+            "Role of citizens in maintaining community hygiene and order"
+          ]
+        }
+      ]
+    }
+  ]
+}

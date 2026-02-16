@@ -9,7 +9,7 @@
         {
           "concept_id": "science6.food.food_sources",
           "title": "Sources of Food",
-          "bloom_level": "remember",
+          "bloom_level": "understand",
           "difficulty": 0.15,
           "prerequisites": [],
           "description": "Sources of Food — part of the chapter on Food: Where Does it Come From?.",
@@ -20,33 +20,77 @@
           ]
         },
         {
-          "concept_id": "science6.food.food_materials",
-          "title": "Food Materials and Plant Parts",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": [
-            "science6.food.food_sources"
-          ],
-          "description": "Food Materials and Plant Parts — part of the chapter on Food: Where Does it Come From?.",
-          "key_ideas": [
-            "Core principles of food materials and plant parts",
-            "Step-by-step problem solving for food materials and plant parts",
-            "Real-world applications of food materials and plant parts"
-          ]
-        },
-        {
           "concept_id": "science6.food.herbivore_carnivore",
           "title": "Herbivores, Carnivores and Omnivores",
           "bloom_level": "understand",
           "difficulty": 0.2,
-          "prerequisites": [
-            "science6.food.food_sources"
-          ],
+          "prerequisites": [],
           "description": "Herbivores, Carnivores and Omnivores — part of the chapter on Food: Where Does it Come From?.",
           "key_ideas": [
             "Core principles of herbivores, carnivores and omnivores",
             "Step-by-step problem solving for herbivores, carnivores and omnivores",
             "Real-world applications of herbivores, carnivores and omnivores"
+          ]
+        },
+        {
+          "concept_id": "science6.food.ingredients",
+          "title": "Food Ingredients",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the raw materials or substances required to prepare a specific food item or dish.",
+          "key_ideas": [
+            "Definition of ingredients",
+            "Simple dishes require few ingredients (e.g., boiled rice)",
+            "Complex dishes require many ingredients (e.g., vegetable curry)"
+          ]
+        },
+        {
+          "concept_id": "science6.food.edible_plant_parts",
+          "title": "Edible Parts of Plants",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.food.food_sources"
+          ],
+          "description": "Identification and classification of different parts of a plant (root, stem, leaf, flower, fruit, seed) that are consumed as food.",
+          "key_ideas": [
+            "Plants have multiple edible parts",
+            "Examples of edible roots (carrot, radish)",
+            "Examples of edible stems (potato, ginger) and leaves (spinach)",
+            "Some plants have two or more edible parts (e.g., mustard seeds and leaves)"
+          ]
+        },
+        {
+          "concept_id": "science6.food.sprouting",
+          "title": "Sprouting of Seeds",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science6.food.edible_plant_parts"
+          ],
+          "description": "Understanding the process of germination where seeds like moong or chana grow a small white structure when soaked in water.",
+          "key_ideas": [
+            "Process of making sprouts from dry seeds",
+            "Observation of the white structure (root) growing out of the seed",
+            "Nutritional value of sprouted seeds",
+            "Eating sprouts raw or cooked"
+          ]
+        },
+        {
+          "concept_id": "science6.food.honey_process",
+          "title": "Honey Production",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.food.food_sources"
+          ],
+          "description": "Explanation of how honey is produced by bees, starting from the collection of sweet juices from flowers.",
+          "key_ideas": [
+            "Bees collect nectar from flowers",
+            "Conversion of nectar into honey",
+            "Storage of honey in beehives",
+            "Seasonal availability of flowers and nectar"
           ]
         }
       ]
@@ -57,45 +101,77 @@
       "concepts": [
         {
           "concept_id": "science6.components_food.nutrients",
-          "title": "Nutrients — Carbohydrates, Proteins, Fats",
+          "title": "Nutrients and Balanced Diet",
           "bloom_level": "understand",
           "difficulty": 0.25,
           "prerequisites": [],
-          "description": "Nutrients — Carbohydrates, Proteins, Fats — part of the chapter on Components of Food.",
+          "description": "Nutrients and Balanced Diet — part of the chapter on Components of Food.",
           "key_ideas": [
-            "Core principles of nutrients",
-            "Step-by-step problem solving for nutrients",
-            "Real-world applications of nutrients"
+            "Core principles of nutrients and balanced diet",
+            "Step-by-step problem solving for nutrients and balanced diet",
+            "Real-world applications of nutrients and balanced diet"
           ]
         },
         {
-          "concept_id": "science6.components_food.vitamins_minerals",
-          "title": "Vitamins and Minerals",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
+          "concept_id": "science6.components_food.tests_for_nutrients",
+          "title": "Testing for Nutrients",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
           "prerequisites": [
             "science6.components_food.nutrients"
           ],
-          "description": "Vitamins and Minerals — part of the chapter on Components of Food.",
+          "description": "Practical methods to detect the presence of starch, proteins, and fats in various food items using simple chemical solutions.",
           "key_ideas": [
-            "Core principles of vitamins and minerals",
-            "Step-by-step problem solving for vitamins and minerals",
-            "Real-world applications of vitamins and minerals"
+            "Iodine solution turns blue-black in the presence of starch.",
+            "Copper sulphate and caustic soda turn violet in the presence of protein.",
+            "An oily patch on paper indicates the presence of fat."
           ]
         },
         {
-          "concept_id": "science6.components_food.balanced_diet",
-          "title": "Balanced Diet and Deficiency Diseases",
-          "bloom_level": "apply",
+          "concept_id": "science6.components_food.nutrient_roles",
+          "title": "Roles of Major Nutrients",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.components_food.nutrients"
+          ],
+          "description": "Classification of food based on the specific function each nutrient performs in the human body, such as providing energy or building tissues.",
+          "key_ideas": [
+            "Carbohydrates and fats are 'energy-giving foods'.",
+            "Proteins are 'body-building foods' needed for growth and repair.",
+            "Vitamins and minerals are 'protective foods' that help fight disease."
+          ]
+        },
+        {
+          "concept_id": "science6.components_food.roughage_and_water",
+          "title": "Dietary Fibre and Water",
+          "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [
-            "science6.components_food.vitamins_minerals"
+            "science6.components_food.nutrients"
           ],
-          "description": "Balanced Diet and Deficiency Diseases — part of the chapter on Components of Food.",
+          "description": "Understanding the essential role of non-nutrient components like roughage (dietary fibre) and water in maintaining a healthy digestive system.",
           "key_ideas": [
-            "Core principles of balanced diet and deficiency diseases",
-            "Step-by-step problem solving for balanced diet and deficiency diseases",
-            "Real-world applications of balanced diet and deficiency diseases"
+            "Roughage adds bulk to food and helps the body get rid of undigested waste.",
+            "Water helps absorb nutrients from food.",
+            "Water is essential for regulating body temperature and excreting waste as urine and sweat."
+          ]
+        },
+        {
+          "concept_id": "science6.components_food.deficiency_diseases",
+          "title": "Deficiency Diseases",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "science6.components_food.nutrients",
+            "science6.components_food.nutrient_roles"
+          ],
+          "description": "The study of diseases and disorders caused by the lack of specific nutrients in the diet over a long period of time.",
+          "key_ideas": [
+            "Scurvy is caused by a deficiency of Vitamin C (bleeding gums).",
+            "Rickets is caused by a lack of Vitamin D (soft, bent bones).",
+            "Anaemia is caused by a lack of Iron (weakness).",
+            "Goiter is caused by a lack of Iodine (swollen neck glands)."
           ]
         }
       ]
@@ -118,18 +194,76 @@
           ]
         },
         {
-          "concept_id": "science6.fibre_fabric.spinning_weaving",
-          "title": "Spinning, Weaving and Knitting",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
+          "concept_id": "science6.fibre_fabric.synthetic_fibres",
+          "title": "Synthetic Fibres",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
           "prerequisites": [
             "science6.fibre_fabric.fibres"
           ],
-          "description": "Spinning, Weaving and Knitting — part of the chapter on Fibre to Fabric.",
+          "description": "Introduction to fibres that are made from chemical substances rather than obtained from plant or animal sources.",
           "key_ideas": [
-            "Core principles of spinning, weaving and knitting",
-            "Step-by-step problem solving for spinning, weaving and knitting",
-            "Real-world applications of spinning, weaving and knitting"
+            "Definition of synthetic fibres",
+            "Examples include polyester, nylon, and acrylic",
+            "Difference between natural and synthetic sources"
+          ]
+        },
+        {
+          "concept_id": "science6.fibre_fabric.processing_plant_fibres",
+          "title": "Processing Cotton and Jute",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.fibre_fabric.fibres"
+          ],
+          "description": "The specific methods used to extract usable fibres from cotton bolls and jute stems.",
+          "key_ideas": [
+            "Ginning: Separating cotton seeds from fibre",
+            "Harvesting jute stems and immersion in water",
+            "Climate and soil requirements for cotton and jute"
+          ]
+        },
+        {
+          "concept_id": "science6.fibre_fabric.spinning",
+          "title": "Spinning: Fibre to Yarn",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.fibre_fabric.processing_plant_fibres"
+          ],
+          "description": "The process of making yarn from fibres by drawing out and twisting strands to increase strength.",
+          "key_ideas": [
+            "Process of twisting fibres to form yarn",
+            "Traditional tools: Takli (hand spindle) and Charkha",
+            "Industrial spinning machines"
+          ]
+        },
+        {
+          "concept_id": "science6.fibre_fabric.weaving_knitting",
+          "title": "Weaving and Knitting: Yarn to Fabric",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "science6.fibre_fabric.spinning"
+          ],
+          "description": "The two main methods of converting yarn into fabric, distinguishing between arranging sets of yarns versus interlocking loops.",
+          "key_ideas": [
+            "Weaving: Arranging two sets of yarns together",
+            "Knitting: Using a single yarn to make a piece of fabric",
+            "Operation of handlooms and powerlooms"
+          ]
+        },
+        {
+          "concept_id": "science6.fibre_fabric.history_clothing",
+          "title": "History of Clothing Material",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "The evolution of human clothing from natural materials like bark and leaves to stitched fabrics.",
+          "key_ideas": [
+            "Use of big leaves, bark, and animal skins in ancient times",
+            "Impact of agriculture on weaving grasses and twigs",
+            "Invention of the sewing needle and stitched clothes"
           ]
         }
       ]
@@ -140,30 +274,75 @@
       "concepts": [
         {
           "concept_id": "science6.sorting_materials.properties_materials",
-          "title": "Properties of Materials",
+          "title": "Properties and Grouping of Materials",
           "bloom_level": "understand",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Properties of Materials — part of the chapter on Sorting Materials into Groups.",
+          "description": "Properties and Grouping of Materials — part of the chapter on Sorting Materials into Groups.",
           "key_ideas": [
-            "Core principles of properties of materials",
-            "Step-by-step problem solving for properties of materials",
-            "Real-world applications of properties of materials"
+            "Core principles of properties and grouping of materials",
+            "Step-by-step problem solving for properties and grouping of materials",
+            "Real-world applications of properties and grouping of materials"
           ]
         },
         {
-          "concept_id": "science6.sorting_materials.grouping",
-          "title": "Grouping Materials by Properties",
-          "bloom_level": "apply",
-          "difficulty": 0.25,
+          "concept_id": "science6.sorting_materials.appearance_hardness",
+          "title": "Appearance and Hardness of Materials",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
           "prerequisites": [
             "science6.sorting_materials.properties_materials"
           ],
-          "description": "Grouping Materials by Properties — part of the chapter on Sorting Materials into Groups.",
+          "description": "Exploration of physical attributes such as lustre, texture, and compressibility to classify materials.",
           "key_ideas": [
-            "Core principles of grouping materials by properties",
-            "Step-by-step problem solving for grouping materials by properties",
-            "Real-world applications of grouping materials by properties"
+            "Lustre refers to the shine of a material, often found in metals.",
+            "Materials can be rough or smooth to the touch.",
+            "Hard materials cannot be easily compressed or scratched, while soft materials can be."
+          ]
+        },
+        {
+          "concept_id": "science6.sorting_materials.solubility",
+          "title": "Solubility of Substances in Water",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science6.sorting_materials.properties_materials"
+          ],
+          "description": "Investigation into how different solids and liquids behave when mixed with water, distinguishing between soluble and insoluble substances.",
+          "key_ideas": [
+            "Soluble substances completely disappear or dissolve in water.",
+            "Insoluble substances do not mix with water and may settle at the bottom.",
+            "Some liquids mix well with water (miscible), while others form a separate layer (immiscible)."
+          ]
+        },
+        {
+          "concept_id": "science6.sorting_materials.float_sink",
+          "title": "Floating and Sinking in Water",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.sorting_materials.solubility"
+          ],
+          "description": "Understanding why certain objects float on the surface of water while others sink to the bottom based on their material properties.",
+          "key_ideas": [
+            "Heavier materials generally sink in water.",
+            "Lighter materials, like dry leaves or wood, often float.",
+            "The behavior of an object in water depends on the material it is made of."
+          ]
+        },
+        {
+          "concept_id": "science6.sorting_materials.transparency",
+          "title": "Transparency: Light and Visibility",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "science6.sorting_materials.properties_materials"
+          ],
+          "description": "Classification of materials based on the amount of light that passes through them and the visibility of objects behind them.",
+          "key_ideas": [
+            "Transparent materials allow light to pass through fully, making objects clearly visible.",
+            "Translucent materials allow partial light to pass, making objects look blurred.",
+            "Opaque materials do not allow light to pass through at all."
           ]
         }
       ]
@@ -174,45 +353,88 @@
       "concepts": [
         {
           "concept_id": "science6.separation.methods",
-          "title": "Methods of Separation — Handpicking, Sieving, Filtration",
-          "bloom_level": "understand",
+          "title": "Methods — Filtration, Evaporation, Sieving",
+          "bloom_level": "apply",
           "difficulty": 0.25,
           "prerequisites": [],
-          "description": "Methods of Separation — Handpicking, Sieving, Filtration — part of the chapter on Separation of Substances.",
+          "description": "Methods — Filtration, Evaporation, Sieving — part of the chapter on Separation of Substances.",
           "key_ideas": [
-            "Core principles of methods of separation",
-            "Step-by-step problem solving for methods of separation",
-            "Real-world applications of methods of separation"
+            "Core principles of methods",
+            "Step-by-step problem solving for methods",
+            "Real-world applications of methods"
           ]
         },
         {
-          "concept_id": "science6.separation.evaporation_condensation",
-          "title": "Evaporation and Condensation",
+          "concept_id": "science6.separation.purpose",
+          "title": "Need for Separation",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Introduction to why substances need to be separated from mixtures, focusing on removing harmful impurities and obtaining useful components.",
+          "key_ideas": [
+            "Removing non-useful or harmful components (e.g., stones from rice)",
+            "Separating two different but useful components (e.g., butter from milk)",
+            "Concept of pure substances versus mixtures"
+          ]
+        },
+        {
+          "concept_id": "science6.separation.dry_methods",
+          "title": "Handpicking, Threshing, and Winnowing",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [
-            "science6.separation.methods"
+            "science6.separation.purpose"
           ],
-          "description": "Evaporation and Condensation — part of the chapter on Separation of Substances.",
+          "description": "Techniques used primarily for separating solids from other solids based on size, shape, color, or weight.",
           "key_ideas": [
-            "Core principles of evaporation and condensation",
-            "Step-by-step problem solving for evaporation and condensation",
-            "Real-world applications of evaporation and condensation"
+            "Handpicking: Used when impurities are large and few in quantity",
+            "Threshing: Beating stalks to separate grain seeds",
+            "Winnowing: Using wind to separate lighter husk from heavier grain seeds"
           ]
         },
         {
-          "concept_id": "science6.separation.mixture_solution",
-          "title": "Mixtures and Solutions",
+          "concept_id": "science6.separation.sedimentation_decantation",
+          "title": "Sedimentation and Decantation",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science6.separation.purpose"
+          ],
+          "description": "Processes used to separate insoluble solids from liquids or two immiscible liquids based on density and settling.",
+          "key_ideas": [
+            "Sedimentation: Heavier components settle at the bottom of water",
+            "Decantation: Pouring out the water (or lighter liquid) without disturbing the sediment",
+            "Application in separating soil from water or oil from water"
+          ]
+        },
+        {
+          "concept_id": "science6.separation.condensation",
+          "title": "Condensation",
           "bloom_level": "understand",
-          "difficulty": 0.3,
+          "difficulty": 0.7,
           "prerequisites": [
             "science6.separation.methods"
           ],
-          "description": "Mixtures and Solutions — part of the chapter on Separation of Substances.",
+          "description": "The process of converting water vapor back into liquid form, often used in conjunction with evaporation to recover a liquid.",
           "key_ideas": [
-            "Core principles of mixtures and solutions",
-            "Step-by-step problem solving for mixtures and solutions",
-            "Real-world applications of mixtures and solutions"
+            "Conversion of gas (vapor) to liquid on cooling",
+            "Reverse process of evaporation",
+            "Role of condensation in the water cycle and recovering pure water"
+          ]
+        },
+        {
+          "concept_id": "science6.separation.saturated_solutions",
+          "title": "Solubility and Saturated Solutions",
+          "bloom_level": "analyze",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "science6.separation.methods"
+          ],
+          "description": "Understanding the limits of how much of a substance can be dissolved in water and how temperature affects this limit.",
+          "key_ideas": [
+            "Solution: A mixture of a solute dissolved in a solvent",
+            "Saturated solution: No more substance can be dissolved at that temperature",
+            "Heating a solution generally increases the solubility of the substance"
           ]
         }
       ]
@@ -235,18 +457,65 @@
           ]
         },
         {
-          "concept_id": "science6.changes.expand_contract",
+          "concept_id": "science6.changes.expansion_contraction",
           "title": "Expansion and Contraction",
           "bloom_level": "understand",
-          "difficulty": 0.25,
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Understanding how heating causes materials (especially metals) to expand and become larger, while cooling causes them to contract and return to their original size.",
+          "key_ideas": [
+            "Heating causes expansion in metals",
+            "Cooling causes contraction",
+            "Application: Fixing metal rims on wooden cart wheels",
+            "Application: Leaving gaps in railway tracks"
+          ]
+        },
+        {
+          "concept_id": "science6.changes.mixing_substances",
+          "title": "Changes Caused by Mixing",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
           "prerequisites": [
             "science6.changes.reversible"
           ],
-          "description": "Expansion and Contraction — part of the chapter on Changes Around Us.",
+          "description": "Exploring how mixing two or more substances can result in changes, some of which are reversible (like salt in water) and others irreversible (like curdling milk).",
           "key_ideas": [
-            "Core principles of expansion and contraction",
-            "Step-by-step problem solving for expansion and contraction",
-            "Real-world applications of expansion and contraction"
+            "Dissolving solids in liquids",
+            "Formation of solutions (reversible)",
+            "Setting of Plaster of Paris or cement (irreversible)",
+            "Formation of curd from milk (irreversible)"
+          ]
+        },
+        {
+          "concept_id": "science6.changes.water_states",
+          "title": "Changes in States of Water",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.changes.reversible"
+          ],
+          "description": "Identifying the interconversion of water between solid (ice), liquid (water), and gas (vapor) as a primary example of reversible physical changes.",
+          "key_ideas": [
+            "Melting of ice into water",
+            "Evaporation of water into vapor",
+            "Condensation of vapor into liquid",
+            "Freezing of water into ice"
+          ]
+        },
+        {
+          "concept_id": "science6.changes.complex_analysis",
+          "title": "Analyzing Complex Changes",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "science6.changes.reversible",
+            "science6.changes.expansion_contraction"
+          ],
+          "description": "Analyzing scenarios where multiple types of changes occur simultaneously or where the same material behaves differently under different conditions.",
+          "key_ideas": [
+            "Burning a candle: Melting wax (reversible) vs. Burning wick (irreversible)",
+            "Heating an iron rod (reversible) vs. Rusting iron (irreversible)",
+            "Differentiating changes based on the formation of new substances"
           ]
         }
       ]
@@ -256,44 +525,91 @@
       "title": "Getting to Know Plants",
       "concepts": [
         {
-          "concept_id": "science6.plants.plant_parts",
-          "title": "Parts of a Plant — Root, Stem, Leaf, Flower",
-          "bloom_level": "remember",
-          "difficulty": 0.15,
-          "prerequisites": [],
-          "description": "Parts of a Plant — Root, Stem, Leaf, Flower — part of the chapter on Getting to Know Plants.",
-          "key_ideas": [
-            "Core principles of parts of a plant",
-            "Step-by-step problem solving for parts of a plant",
-            "Real-world applications of parts of a plant"
-          ]
-        },
-        {
-          "concept_id": "science6.plants.types_plants",
-          "title": "Herbs, Shrubs and Trees",
+          "concept_id": "science6.plants6.plant_parts",
+          "title": "Parts of a Plant and Their Functions",
           "bloom_level": "understand",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Herbs, Shrubs and Trees — part of the chapter on Getting to Know Plants.",
+          "description": "Parts of a Plant and Their Functions — part of the chapter on Getting to Know Plants.",
           "key_ideas": [
-            "Core principles of herbs, shrubs and trees",
-            "Step-by-step problem solving for herbs, shrubs and trees",
-            "Real-world applications of herbs, shrubs and trees"
+            "Core principles of parts of a plant and their functions",
+            "Step-by-step problem solving for parts of a plant and their functions",
+            "Real-world applications of parts of a plant and their functions"
           ]
         },
         {
-          "concept_id": "science6.plants.flower_parts",
-          "title": "Parts of a Flower and Reproduction",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [
-            "science6.plants.plant_parts"
-          ],
-          "description": "Parts of a Flower and Reproduction — part of the chapter on Getting to Know Plants.",
+          "concept_id": "science6.plants6.plant_classification",
+          "title": "Classification: Herbs, Shrubs, and Trees",
+          "bloom_level": "analyze",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Categorizing plants into three major groups based on their height, the nature of their stem (hard or tender), and the placement of branches.",
           "key_ideas": [
-            "Core principles of parts of a flower and reproduction",
-            "Step-by-step problem solving for parts of a flower and reproduction",
-            "Real-world applications of parts of a flower and reproduction"
+            "Herbs have green, tender stems and are usually short.",
+            "Shrubs have hard stems branching near the base but are not very thick.",
+            "Trees are tall with hard, thick brown stems and upper branches."
+          ]
+        },
+        {
+          "concept_id": "science6.plants6.leaf_venation",
+          "title": "Leaf Venation Patterns",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.plants6.plant_parts"
+          ],
+          "description": "Understanding the design made by veins in a leaf and distinguishing between the two primary types of venation found in nature.",
+          "key_ideas": [
+            "Venation is the arrangement of veins in the leaf lamina.",
+            "Reticulate venation forms a net-like design on both sides of the midrib.",
+            "Parallel venation features veins running parallel to one another."
+          ]
+        },
+        {
+          "concept_id": "science6.plants6.root_systems",
+          "title": "Root Systems: Taproot and Fibrous Roots",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science6.plants6.plant_parts",
+            "science6.plants6.leaf_venation"
+          ],
+          "description": "Differentiating between the two main types of root systems and identifying the relationship between a plant's leaf venation and its root type.",
+          "key_ideas": [
+            "Taproots have one main primary root with smaller lateral roots.",
+            "Fibrous roots consist of similar-sized roots arising from the base of the stem.",
+            "Plants with reticulate venation generally have taproots, while those with parallel venation have fibrous roots."
+          ]
+        },
+        {
+          "concept_id": "science6.plants6.leaf_functions",
+          "title": "Processes of the Leaf: Transpiration and Photosynthesis",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.plants6.plant_parts"
+          ],
+          "description": "Exploring the critical biological processes performed by leaves, including how they release excess water and how they synthesize food for the plant.",
+          "key_ideas": [
+            "Transpiration is the process of water coming out of leaves in the form of vapor.",
+            "Photosynthesis is the process by which leaves prepare food using sunlight, water, and carbon dioxide.",
+            "Leaves contain a green pigment called chlorophyll essential for food production."
+          ]
+        },
+        {
+          "concept_id": "science6.plants6.flower_anatomy",
+          "title": "Structure of a Flower",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "science6.plants6.plant_parts"
+          ],
+          "description": "Examining the reproductive parts of a flower, identifying the distinct layers from the outer sepals to the inner reproductive organs.",
+          "key_ideas": [
+            "Sepals are small leaf-like structures that protect the flower bud.",
+            "Petals are often prominent and colored to attract insects.",
+            "Stamens are the male reproductive parts (consisting of anther and filament).",
+            "The Pistil is the innermost female reproductive part (consisting of stigma, style, and ovary)."
           ]
         }
       ]
@@ -304,35 +620,96 @@
       "concepts": [
         {
           "concept_id": "science6.body_movements.joints",
-          "title": "Types of Joints — Ball-Socket, Hinge, Pivot",
+          "title": "Types of Joints and Movement",
           "bloom_level": "understand",
           "difficulty": 0.25,
           "prerequisites": [],
-          "description": "Types of Joints — Ball-Socket, Hinge, Pivot — part of the chapter on Body Movements.",
+          "description": "Types of Joints and Movement — part of the chapter on Body Movements.",
           "key_ideas": [
-            "Core principles of types of joints",
-            "Step-by-step problem solving for types of joints",
-            "Real-world applications of types of joints"
+            "Core principles of types of joints and movement",
+            "Step-by-step problem solving for types of joints and movement",
+            "Real-world applications of types of joints and movement"
           ]
         },
         {
-          "concept_id": "science6.body_movements.movement_animals",
-          "title": "Movement in Different Animals",
+          "concept_id": "science6.body_movements.human_skeleton",
+          "title": "The Human Skeletal System",
           "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Movement in Different Animals — part of the chapter on Body Movements.",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.body_movements.joints"
+          ],
+          "description": "An overview of the internal framework of the human body, focusing on the structure and function of major bony components.",
           "key_ideas": [
-            "Core principles of movement in different animals",
-            "Step-by-step problem solving for movement in different animals",
-            "Real-world applications of movement in different animals"
+            "The skeleton provides shape and support to the body.",
+            "Key components include the skull, backbone (vertebral column), ribcage, and pelvic bones.",
+            "The skeleton protects delicate internal organs like the brain, heart, and lungs."
+          ]
+        },
+        {
+          "concept_id": "science6.body_movements.cartilage",
+          "title": "Cartilage",
+          "bloom_level": "remember",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.body_movements.human_skeleton"
+          ],
+          "description": "Introduction to the softer, elastic tissue found in the skeletal system that is not as hard as bone.",
+          "key_ideas": [
+            "Cartilage is softer than bone and can be bent.",
+            "It is found in the upper part of the ear and the tip of the nose.",
+            "Cartilage is also found between the joints of the body to prevent friction."
+          ]
+        },
+        {
+          "concept_id": "science6.body_movements.muscular_system",
+          "title": "Muscles and Movement",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.body_movements.human_skeleton",
+            "science6.body_movements.joints"
+          ],
+          "description": "Explanation of how muscles work in pairs to produce movement by pulling on bones.",
+          "key_ideas": [
+            "Muscles move bones by contracting (becoming shorter, stiffer, and thicker).",
+            "Muscles can only pull; they cannot push.",
+            "Two muscles work together in a pair to move a bone (e.g., biceps and triceps)."
+          ]
+        },
+        {
+          "concept_id": "science6.body_movements.gait_invertebrates",
+          "title": "Gait of Animals: Earthworms, Snails, and Cockroaches",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [],
+          "description": "Analysis of how animals without an internal bony skeleton move using specific body parts.",
+          "key_ideas": [
+            "Earthworms move by alternate extension and contraction of the body using muscles and tiny bristles.",
+            "Snails move using a muscular foot and produce a slimy substance to reduce friction.",
+            "Cockroaches walk using three pairs of legs and fly using two pairs of wings attached to breast muscles."
+          ]
+        },
+        {
+          "concept_id": "science6.body_movements.gait_vertebrates",
+          "title": "Gait of Animals: Birds, Fish, and Snakes",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "science6.body_movements.human_skeleton"
+          ],
+          "description": "Examination of how animals with backbones utilize their skeletal structure and body shape for locomotion in air, water, and on land.",
+          "key_ideas": [
+            "Birds have hollow, light bones and modified forelimbs (wings) for flight.",
+            "Fish have streamlined bodies and use fins and tails to swim by forming loops.",
+            "Snakes have a long backbone and move by slithering in loops, pushing against the ground."
           ]
         }
       ]
     },
     {
       "chapter_id": "ch09",
-      "title": "The Living Organisms and Their Surroundings",
+      "title": "Living Organisms and Their Surroundings",
       "concepts": [
         {
           "concept_id": "science6.living_organisms.habitat",
@@ -340,7 +717,7 @@
           "bloom_level": "understand",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Habitat and Adaptation — part of the chapter on The Living Organisms and Their Surroundings.",
+          "description": "Habitat and Adaptation — part of the chapter on Living Organisms and Their Surroundings.",
           "key_ideas": [
             "Core principles of habitat and adaptation",
             "Step-by-step problem solving for habitat and adaptation",
@@ -348,52 +725,183 @@
           ]
         },
         {
-          "concept_id": "science6.living_organisms.biotic_abiotic",
+          "concept_id": "science6.living_organisms.environment_components",
           "title": "Biotic and Abiotic Components",
           "bloom_level": "understand",
-          "difficulty": 0.25,
+          "difficulty": 0.2,
           "prerequisites": [
             "science6.living_organisms.habitat"
           ],
-          "description": "Biotic and Abiotic Components — part of the chapter on The Living Organisms and Their Surroundings.",
+          "description": "Differentiation between the living (biotic) and non-living (abiotic) elements that constitute an organism's surroundings and how they interact.",
           "key_ideas": [
-            "Core principles of biotic and abiotic components",
-            "Step-by-step problem solving for biotic and abiotic components",
-            "Real-world applications of biotic and abiotic components"
+            "Biotic components include plants, animals, and microorganisms.",
+            "Abiotic components include soil, water, air, sunlight, and heat.",
+            "Survival depends on the interaction between biotic and abiotic factors."
+          ]
+        },
+        {
+          "concept_id": "science6.living_organisms.terrestrial_habitats",
+          "title": "Terrestrial Habitats and Adaptations",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.living_organisms.habitat",
+            "science6.living_organisms.environment_components"
+          ],
+          "description": "Exploration of land-based environments including deserts, mountains, and grasslands, focusing on how specific animals and plants adapt to these conditions.",
+          "key_ideas": [
+            "Desert plants (cactus) and animals (camels) have adaptations to save water.",
+            "Mountain organisms (yaks, pines) are adapted to cold and wind.",
+            "Grassland animals (lions, deer) have adaptations for speed and camouflage."
+          ]
+        },
+        {
+          "concept_id": "science6.living_organisms.aquatic_habitats",
+          "title": "Aquatic Habitats and Adaptations",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science6.living_organisms.habitat",
+            "science6.living_organisms.environment_components"
+          ],
+          "description": "Examination of water-based environments, distinguishing between freshwater (ponds, lakes) and marine (oceans) habitats and the specific traits of organisms living there.",
+          "key_ideas": [
+            "Streamlined bodies help fish move easily in water.",
+            "Gills allow aquatic animals to use oxygen dissolved in water.",
+            "Aquatic plants often have hollow, light stems to float."
+          ]
+        },
+        {
+          "concept_id": "science6.living_organisms.characteristics_life",
+          "title": "Fundamental Characteristics of Living Things",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Identification of the primary biological processes that distinguish living organisms from non-living objects, specifically nutrition, growth, and respiration.",
+          "key_ideas": [
+            "All living things need food for energy and growth.",
+            "Growth is a permanent, irreversible change in size or shape.",
+            "Respiration is the process of releasing energy from food (breathing is part of this)."
+          ]
+        },
+        {
+          "concept_id": "science6.living_organisms.response_reproduction",
+          "title": "Response to Stimuli and Continuity of Life",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "science6.living_organisms.characteristics_life"
+          ],
+          "description": "Advanced characteristics of life including how organisms react to changes in their environment, remove waste, and ensure their species continues.",
+          "key_ideas": [
+            "Living things respond to stimuli (changes in surroundings like light or heat).",
+            "Excretion is the removal of waste products from the body.",
+            "Reproduction allows organisms to produce more of their own kind."
           ]
         }
       ]
     },
     {
       "chapter_id": "ch10",
-      "title": "Motion and Measurement of Distances",
+      "title": "Motion and Measurement",
       "concepts": [
         {
-          "concept_id": "science6.motion_measurement.standard_units",
-          "title": "Standard Units of Measurement",
-          "bloom_level": "remember",
+          "concept_id": "science6.motion_measurement.types_motion",
+          "title": "Types of Motion and Standard Units",
+          "bloom_level": "understand",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Standard Units of Measurement — part of the chapter on Motion and Measurement of Distances.",
+          "description": "Types of Motion and Standard Units — part of the chapter on Motion and Measurement.",
           "key_ideas": [
-            "Core principles of standard units of measurement",
-            "Step-by-step problem solving for standard units of measurement",
-            "Real-world applications of standard units of measurement"
+            "Core principles of types of motion and standard units",
+            "Step-by-step problem solving for types of motion and standard units",
+            "Real-world applications of types of motion and standard units"
           ]
         },
         {
-          "concept_id": "science6.motion_measurement.types_motion",
-          "title": "Types of Motion — Rectilinear, Circular, Periodic",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [
-            "science6.motion_measurement.standard_units"
-          ],
-          "description": "Types of Motion — Rectilinear, Circular, Periodic — part of the chapter on Motion and Measurement of Distances.",
+          "concept_id": "science6.motion_measurement.story_transport",
+          "title": "Story of Transport",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "An overview of how modes of transport have evolved from walking and using animals to the invention of the wheel, steam engines, and modern spacecraft.",
           "key_ideas": [
-            "Core principles of types of motion",
-            "Step-by-step problem solving for types of motion",
-            "Real-world applications of types of motion"
+            "Invention of the wheel as a turning point",
+            "Evolution from animal power to steam and fuel",
+            "Importance of measurement in developing transport"
+          ]
+        },
+        {
+          "concept_id": "science6.motion_measurement.measurement_techniques",
+          "title": "Correct Measurement of Length",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.motion_measurement.types_motion"
+          ],
+          "description": "Guidelines for measuring length accurately using a metre scale, focusing on avoiding common errors like parallax and handling broken scales.",
+          "key_ideas": [
+            "Correct placement of the scale along the object",
+            "Avoiding parallax error by looking straight down",
+            "Handling scales with broken zero marks"
+          ]
+        },
+        {
+          "concept_id": "science6.motion_measurement.measuring_curved_lines",
+          "title": "Measuring Curved Lines",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.motion_measurement.measurement_techniques"
+          ],
+          "description": "Techniques to measure the length of curved objects or paths where a straight scale cannot be used directly, specifically using a thread or divider.",
+          "key_ideas": [
+            "Using a thread to trace a curved path",
+            "Marking start and end points on the thread",
+            "Measuring the thread length against a standard scale"
+          ]
+        },
+        {
+          "concept_id": "science6.motion_measurement.rest_vs_motion",
+          "title": "Rest and Motion",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Defining the state of an object based on its position relative to its surroundings over time.",
+          "key_ideas": [
+            "Definition of being at 'rest'",
+            "Motion defined as a change in position with time",
+            "Importance of a reference point or surroundings"
+          ]
+        },
+        {
+          "concept_id": "science6.motion_measurement.periodic_rotational_motion",
+          "title": "Periodic and Rotational Motion",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science6.motion_measurement.types_motion"
+          ],
+          "description": "A deeper look into specific types of motion where objects repeat their path or move around a fixed axis.",
+          "key_ideas": [
+            "Periodic motion repeats after a fixed time interval (e.g., pendulum)",
+            "Rotational motion occurs around a fixed axis (e.g., fan blades)",
+            "Difference between circular motion and rotational motion"
+          ]
+        },
+        {
+          "concept_id": "science6.motion_measurement.combinations_of_motion",
+          "title": "Combinations of Motion",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "science6.motion_measurement.periodic_rotational_motion"
+          ],
+          "description": "Identifying objects that exhibit multiple types of motion simultaneously.",
+          "key_ideas": [
+            "Objects can undergo rectilinear and rotational motion together (e.g., a rolling ball)",
+            "Sewing machines exhibit circular (wheel) and periodic (needle) motion",
+            "Analyzing complex movements in daily life"
           ]
         }
       ]
@@ -403,46 +911,75 @@
       "title": "Light, Shadows and Reflections",
       "concepts": [
         {
-          "concept_id": "science6.light.transparent_opaque",
-          "title": "Transparent, Translucent and Opaque Objects",
+          "concept_id": "science6.light6.shadows",
+          "title": "Transparent, Translucent, Opaque and Shadows",
           "bloom_level": "understand",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Transparent, Translucent and Opaque Objects — part of the chapter on Light, Shadows and Reflections.",
+          "description": "Transparent, Translucent, Opaque and Shadows — part of the chapter on Light, Shadows and Reflections.",
           "key_ideas": [
-            "Core principles of transparent, translucent and opaque objects",
-            "Step-by-step problem solving for transparent, translucent and opaque objects",
-            "Real-world applications of transparent, translucent and opaque objects"
+            "Core principles of transparent, translucent, opaque and shadows",
+            "Step-by-step problem solving for transparent, translucent, opaque and shadows",
+            "Real-world applications of transparent, translucent, opaque and shadows"
           ]
         },
         {
-          "concept_id": "science6.light.shadows",
-          "title": "Formation of Shadows",
-          "bloom_level": "apply",
-          "difficulty": 0.25,
-          "prerequisites": [
-            "science6.light.transparent_opaque"
-          ],
-          "description": "Formation of Shadows — part of the chapter on Light, Shadows and Reflections.",
+          "concept_id": "science6.light6.luminous_objects",
+          "title": "Luminous and Non-luminous Objects",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Introduction to sources of light, distinguishing between objects that emit their own light and those that are visible only because they reflect light.",
           "key_ideas": [
-            "Core principles of formation of shadows",
-            "Step-by-step problem solving for formation of shadows",
-            "Real-world applications of formation of shadows"
+            "Luminous objects give out their own light (e.g., Sun, torch, candle)",
+            "Non-luminous objects do not emit light (e.g., table, moon)",
+            "We see non-luminous objects when light falls on them and travels to our eyes"
           ]
         },
         {
-          "concept_id": "science6.light.reflection_intro",
-          "title": "Introduction to Reflection",
+          "concept_id": "science6.light6.rectilinear_propagation",
+          "title": "Light Travels in a Straight Line",
           "bloom_level": "understand",
-          "difficulty": 0.3,
+          "difficulty": 0.4,
           "prerequisites": [
-            "science6.light.shadows"
+            "science6.light6.luminous_objects"
           ],
-          "description": "Introduction to Reflection — part of the chapter on Light, Shadows and Reflections.",
+          "description": "Understanding the fundamental property of light movement through experiments, such as looking at a candle through a straight versus a bent pipe.",
           "key_ideas": [
-            "Core principles of introduction to reflection",
-            "Step-by-step problem solving for introduction to reflection",
-            "Real-world applications of introduction to reflection"
+            "Rectilinear propagation of light",
+            "Light cannot bend around corners naturally",
+            "Line of sight requirements for visibility"
+          ]
+        },
+        {
+          "concept_id": "science6.light6.pinhole_camera",
+          "title": "The Pinhole Camera",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.light6.rectilinear_propagation",
+            "science6.light6.shadows"
+          ],
+          "description": "Exploration of how a simple device without a lens can form images, demonstrating that light travels in straight lines.",
+          "key_ideas": [
+            "Construction of a pinhole camera using boxes",
+            "Formation of inverted (upside down) images",
+            "Difference between an image and a shadow"
+          ]
+        },
+        {
+          "concept_id": "science6.light6.reflection",
+          "title": "Mirrors and Reflections",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "science6.light6.rectilinear_propagation"
+          ],
+          "description": "Examining how shiny surfaces change the direction of light and create clear images distinct from shadows.",
+          "key_ideas": [
+            "Reflection is the bouncing back of light from a surface",
+            "Mirrors change the direction of light falling on them",
+            "Lateral inversion (left appears right) basics"
           ]
         }
       ]
@@ -452,31 +989,93 @@
       "title": "Electricity and Circuits",
       "concepts": [
         {
-          "concept_id": "science6.electricity.electric_circuit",
-          "title": "Electric Circuit — Open and Closed",
+          "concept_id": "science6.electricity6.electric_circuit",
+          "title": "Electric Circuit and Conductors",
           "bloom_level": "understand",
           "difficulty": 0.25,
           "prerequisites": [],
-          "description": "Electric Circuit — Open and Closed — part of the chapter on Electricity and Circuits.",
+          "description": "Electric Circuit and Conductors — part of the chapter on Electricity and Circuits.",
           "key_ideas": [
-            "Core principles of electric circuit",
-            "Step-by-step problem solving for electric circuit",
-            "Real-world applications of electric circuit"
+            "Core principles of electric circuit and conductors",
+            "Step-by-step problem solving for electric circuit and conductors",
+            "Real-world applications of electric circuit and conductors"
           ]
         },
         {
-          "concept_id": "science6.electricity.conductors_insulators",
-          "title": "Conductors and Insulators",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [
-            "science6.electricity.electric_circuit"
-          ],
-          "description": "Conductors and Insulators — part of the chapter on Electricity and Circuits.",
+          "concept_id": "science6.electricity6.electric_cell",
+          "title": "The Electric Cell",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the electric cell as a source of electricity, focusing on its structure and terminals.",
           "key_ideas": [
-            "Core principles of conductors and insulators",
-            "Step-by-step problem solving for conductors and insulators",
-            "Real-world applications of conductors and insulators"
+            "An electric cell produces electricity from stored chemicals.",
+            "It has two terminals: a positive terminal (+) and a negative terminal (-).",
+            "The metal cap is the positive terminal, and the metal disc is the negative terminal."
+          ]
+        },
+        {
+          "concept_id": "science6.electricity6.bulb_structure",
+          "title": "Structure of an Electric Bulb",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.electricity6.electric_cell"
+          ],
+          "description": "Exploration of the internal components of a light bulb and how it connects to a power source.",
+          "key_ideas": [
+            "The thin wire that gives off light is called the filament.",
+            "The filament is fixed to two thick wires for support.",
+            "One thick wire connects to the metal case, the other to the metal tip at the base.",
+            "These two connection points act as the bulb's terminals."
+          ]
+        },
+        {
+          "concept_id": "science6.electricity6.electric_switch",
+          "title": "Electric Switch",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science6.electricity6.electric_circuit"
+          ],
+          "description": "Understanding the function and mechanism of a switch in controlling the flow of electricity.",
+          "key_ideas": [
+            "A switch is a simple device used to break or complete an electric circuit.",
+            "When the switch is 'ON', the circuit is complete and current flows.",
+            "When the switch is 'OFF', the circuit is broken and current stops."
+          ]
+        },
+        {
+          "concept_id": "science6.electricity6.circuit_states",
+          "title": "Open and Closed Circuits",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.electricity6.electric_circuit",
+            "science6.electricity6.electric_switch"
+          ],
+          "description": "Analyzing the difference between complete (closed) and incomplete (open) paths for electricity.",
+          "key_ideas": [
+            "Current only flows when the path starts at one terminal of the cell and ends at the other.",
+            "A 'closed circuit' allows current to flow, lighting the bulb.",
+            "An 'open circuit' has a gap in the path (e.g., a loose wire or open switch), preventing flow.",
+            "A fused bulb causes an open circuit because the filament is broken."
+          ]
+        },
+        {
+          "concept_id": "science6.electricity6.insulators_classification",
+          "title": "Insulators and Material Classification",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "science6.electricity6.electric_circuit"
+          ],
+          "description": "Distinguishing between materials that allow current to pass and those that do not, with a focus on safety.",
+          "key_ideas": [
+            "Insulators are materials that do not allow electric current to pass through them.",
+            "Common insulators include rubber, plastic, wood, and glass.",
+            "Insulators are used to cover electrical wires and switches to prevent electric shocks.",
+            "Classifying objects as conductors or insulators helps ensure electrical safety."
           ]
         }
       ]
@@ -486,31 +1085,89 @@
       "title": "Fun with Magnets",
       "concepts": [
         {
-          "concept_id": "science6.magnets.magnetic_nonmagnetic",
-          "title": "Magnetic and Non-Magnetic Materials",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": [],
-          "description": "Magnetic and Non-Magnetic Materials — part of the chapter on Fun with Magnets.",
-          "key_ideas": [
-            "Core principles of magnetic and non-magnetic materials",
-            "Step-by-step problem solving for magnetic and non-magnetic materials",
-            "Real-world applications of magnetic and non-magnetic materials"
-          ]
-        },
-        {
-          "concept_id": "science6.magnets.poles_attraction",
+          "concept_id": "science6.magnets6.poles_attraction",
           "title": "Poles of Magnet — Attraction and Repulsion",
           "bloom_level": "understand",
           "difficulty": 0.25,
-          "prerequisites": [
-            "science6.magnets.magnetic_nonmagnetic"
-          ],
+          "prerequisites": [],
           "description": "Poles of Magnet — Attraction and Repulsion — part of the chapter on Fun with Magnets.",
           "key_ideas": [
             "Core principles of poles of magnet",
             "Step-by-step problem solving for poles of magnet",
             "Real-world applications of poles of magnet"
+          ]
+        },
+        {
+          "concept_id": "science6.magnets6.discovery_shapes",
+          "title": "Discovery and Shapes of Magnets",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Introduction to the history of natural magnets (magnetite) and the identification of various artificial magnet shapes commonly used in the laboratory.",
+          "key_ideas": [
+            "Discovery of natural magnets (Magnetite/Lodestone)",
+            "Difference between natural and artificial magnets",
+            "Common shapes: Bar magnet, Horseshoe magnet, Cylindrical magnet, Ball-ended magnet"
+          ]
+        },
+        {
+          "concept_id": "science6.magnets6.magnetic_materials",
+          "title": "Magnetic and Non-Magnetic Materials",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "science6.magnets6.discovery_shapes"
+          ],
+          "description": "Classifying materials based on whether they are attracted to a magnet, distinguishing between magnetic metals and non-magnetic substances.",
+          "key_ideas": [
+            "Definition of magnetic materials (Iron, Nickel, Cobalt)",
+            "Definition of non-magnetic materials (Plastic, Wood, Rubber, Glass)",
+            "Sorting everyday objects based on magnetic properties"
+          ]
+        },
+        {
+          "concept_id": "science6.magnets6.finding_directions",
+          "title": "Finding Directions: The Magnetic Compass",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "science6.magnets6.poles_attraction"
+          ],
+          "description": "Understanding the directional property of magnets where a freely suspended magnet always aligns in the North-South direction, and the usage of a magnetic compass.",
+          "key_ideas": [
+            "A freely suspended magnet always comes to rest in the North-South direction",
+            "Structure and function of a magnetic compass",
+            "Using a compass to find directions for navigation"
+          ]
+        },
+        {
+          "concept_id": "science6.magnets6.making_magnets",
+          "title": "Making Your Own Magnet",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "science6.magnets6.magnetic_materials"
+          ],
+          "description": "Learning the method to convert a piece of iron into a temporary magnet using an existing permanent magnet.",
+          "key_ideas": [
+            "The 'Single Touch' method of making a magnet",
+            "Importance of rubbing in one direction without lifting",
+            "Testing the newly created magnet with iron filings"
+          ]
+        },
+        {
+          "concept_id": "science6.magnets6.precautions_storage",
+          "title": "Cautions and Storage of Magnets",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.magnets6.poles_attraction"
+          ],
+          "description": "Understanding how magnets lose their properties (demagnetization) and the correct methods to store them to retain magnetism.",
+          "key_ideas": [
+            "Causes of demagnetization: Heating, hammering, or dropping from a height",
+            "Damage caused by magnets to electronics (mobiles, TVs, computers)",
+            "Using magnetic keepers (soft iron pieces) for proper storage"
           ]
         }
       ]
@@ -520,29 +1177,74 @@
       "title": "Water",
       "concepts": [
         {
-          "concept_id": "science6.water.water_cycle",
-          "title": "Water Cycle",
+          "concept_id": "science6.water6.water_cycle",
+          "title": "Water Cycle and Conservation",
           "bloom_level": "understand",
           "difficulty": 0.25,
           "prerequisites": [],
-          "description": "Water Cycle — part of the chapter on Water.",
+          "description": "Water Cycle and Conservation — part of the chapter on Water.",
           "key_ideas": [
-            "Core principles of water cycle",
-            "Step-by-step problem solving for water cycle",
-            "Real-world applications of water cycle"
+            "Core principles of water cycle and conservation",
+            "Step-by-step problem solving for water cycle and conservation",
+            "Real-world applications of water cycle and conservation"
           ]
         },
         {
-          "concept_id": "science6.water.conservation",
-          "title": "Conservation of Water",
-          "bloom_level": "apply",
-          "difficulty": 0.25,
+          "concept_id": "science6.water6.uses_and_sources",
+          "title": "Uses and Sources of Water",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Conservation of Water — part of the chapter on Water.",
+          "description": "Introduction to the necessity of water for daily activities and the identification of natural water sources on Earth.",
           "key_ideas": [
-            "Core principles of conservation of water",
-            "Step-by-step problem solving for conservation of water",
-            "Real-world applications of conservation of water"
+            "Water is essential for drinking, brushing, bathing, washing, and industrial processes.",
+            "Primary sources include oceans, rivers, lakes, ponds, and groundwater.",
+            "Distinction between saline water (oceans) and freshwater."
+          ]
+        },
+        {
+          "concept_id": "science6.water6.evaporation_condensation",
+          "title": "Evaporation and Condensation",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.water6.uses_and_sources"
+          ],
+          "description": "Exploration of how water changes states, turning into vapor through heat and returning to liquid form on cooling.",
+          "key_ideas": [
+            "Evaporation is the process of water turning into vapor due to heat.",
+            "Transpiration is the loss of water from plants into the air.",
+            "Condensation is the conversion of water vapor back into liquid water, essential for cloud formation."
+          ]
+        },
+        {
+          "concept_id": "science6.water6.floods_and_droughts",
+          "title": "Floods and Droughts",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.water6.water_cycle"
+          ],
+          "description": "Analysis of the consequences of extreme weather conditions resulting from irregularities in rainfall patterns.",
+          "key_ideas": [
+            "Heavy rains lead to a rise in water levels in rivers and lakes, causing floods.",
+            "Floods damage crops, property, and pose risks to human and animal life.",
+            "Droughts occur due to lack of rain for long periods, leading to soil dryness and water scarcity."
+          ]
+        },
+        {
+          "concept_id": "science6.water6.rainwater_harvesting",
+          "title": "Rainwater Harvesting Techniques",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "science6.water6.water_cycle"
+          ],
+          "description": "Detailed study of methods to collect and store rainwater to increase groundwater availability.",
+          "key_ideas": [
+            "Rainwater harvesting is the process of collecting rainwater for future use.",
+            "Rooftop harvesting involves piping water from roofs to storage tanks or pits.",
+            "Directing water to the ground helps recharge the groundwater table."
           ]
         }
       ]
@@ -552,29 +1254,93 @@
       "title": "Air Around Us",
       "concepts": [
         {
-          "concept_id": "science6.air.composition",
-          "title": "Composition of Air",
+          "concept_id": "science6.air6.composition",
+          "title": "Composition and Importance of Air",
           "bloom_level": "understand",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Composition of Air — part of the chapter on Air Around Us.",
+          "description": "Composition and Importance of Air — part of the chapter on Air Around Us.",
           "key_ideas": [
-            "Core principles of composition of air",
-            "Step-by-step problem solving for composition of air",
-            "Real-world applications of composition of air"
+            "Core principles of composition and importance of air",
+            "Step-by-step problem solving for composition and importance of air",
+            "Real-world applications of composition and importance of air"
           ]
         },
         {
-          "concept_id": "science6.air.importance_air",
-          "title": "Importance of Air for Living Organisms",
-          "bloom_level": "understand",
+          "concept_id": "science6.air6.atmosphere_wind",
+          "title": "The Atmosphere and Wind",
+          "bloom_level": "remember",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Importance of Air for Living Organisms — part of the chapter on Air Around Us.",
+          "description": "Introduction to the layer of air surrounding the Earth and the concept of moving air.",
           "key_ideas": [
-            "Core principles of importance of air for living organisms",
-            "Step-by-step problem solving for importance of air for living organisms",
-            "Real-world applications of importance of air for living organisms"
+            "The atmosphere is the thin layer of air that surrounds the Earth.",
+            "The atmosphere extends many kilometers above the Earth's surface.",
+            "Moving air is called wind."
+          ]
+        },
+        {
+          "concept_id": "science6.air6.occupies_space",
+          "title": "Air Occupies Space",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.air6.atmosphere_wind"
+          ],
+          "description": "Demonstrating that air is matter, takes up space, and is transparent, even though it cannot be seen.",
+          "key_ideas": [
+            "Air is transparent and fills all available space.",
+            "An 'empty' bottle is actually full of air.",
+            "Experiments showing air bubbles escaping from submerged bottles prove air takes up space."
+          ]
+        },
+        {
+          "concept_id": "science6.air6.dissolved_air",
+          "title": "Air in Soil and Water",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.air6.composition",
+            "science6.air6.occupies_space"
+          ],
+          "description": "Explaining how aquatic animals and organisms living in the soil access oxygen for respiration.",
+          "key_ideas": [
+            "Water contains dissolved air which allows fish to breathe through gills.",
+            "Soil particles have spaces trapped between them that contain air.",
+            "Burrowing animals and plant roots use air trapped in soil for respiration.",
+            "When water is poured on soil, air bubbles escape as water displaces the air."
+          ]
+        },
+        {
+          "concept_id": "science6.air6.oxygen_cycle",
+          "title": "Balance of Oxygen and Carbon Dioxide",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "science6.air6.composition"
+          ],
+          "description": "Understanding the interdependence of plants and animals in maintaining the atmospheric balance.",
+          "key_ideas": [
+            "Animals inhale oxygen and exhale carbon dioxide (respiration).",
+            "Plants consume carbon dioxide and produce oxygen (photosynthesis).",
+            "This cycle ensures the amount of oxygen in the atmosphere remains relatively constant.",
+            "Burning fuels also consumes oxygen and produces carbon dioxide."
+          ]
+        },
+        {
+          "concept_id": "science6.air6.practical_uses",
+          "title": "Practical Uses of Air",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.air6.atmosphere_wind"
+          ],
+          "description": "Exploring how air and wind are utilized in daily life and nature.",
+          "key_ideas": [
+            "Wind helps rotate windmills used to draw water or generate electricity.",
+            "Air assists in the movement of sailboats, gliders, and parachutes.",
+            "Wind aids in the dispersal of seeds and pollen for plants.",
+            "Birds, bats, and insects rely on air to fly."
           ]
         }
       ]
@@ -585,30 +1351,90 @@
       "concepts": [
         {
           "concept_id": "science6.garbage.waste_management",
-          "title": "Dealing with Garbage — Reduce, Reuse, Recycle",
-          "bloom_level": "understand",
+          "title": "Reduce, Reuse, Recycle and Composting",
+          "bloom_level": "apply",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Dealing with Garbage — Reduce, Reuse, Recycle — part of the chapter on Garbage In, Garbage Out.",
+          "description": "Reduce, Reuse, Recycle and Composting — part of the chapter on Garbage In, Garbage Out.",
           "key_ideas": [
-            "Core principles of dealing with garbage",
-            "Step-by-step problem solving for dealing with garbage",
-            "Real-world applications of dealing with garbage"
+            "Core principles of reduce, reuse, recycle and composting",
+            "Step-by-step problem solving for reduce, reuse, recycle and composting",
+            "Real-world applications of reduce, reuse, recycle and composting"
           ]
         },
         {
-          "concept_id": "science6.garbage.composting",
-          "title": "Composting and Vermicomposting",
-          "bloom_level": "apply",
-          "difficulty": 0.25,
-          "prerequisites": [
-            "science6.garbage.waste_management"
-          ],
-          "description": "Composting and Vermicomposting — part of the chapter on Garbage In, Garbage Out.",
+          "concept_id": "science6.garbage.types_of_waste",
+          "title": "Biodegradable vs Non-Biodegradable Waste",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Distinguishing between waste materials that rot and mix with the soil naturally and those that do not decompose.",
           "key_ideas": [
-            "Core principles of composting and vermicomposting",
-            "Step-by-step problem solving for composting and vermicomposting",
-            "Real-world applications of composting and vermicomposting"
+            "Definition of biodegradable waste (kitchen waste, paper, leaves)",
+            "Definition of non-biodegradable waste (plastics, glass, metals)",
+            "The natural process of rotting and decomposition"
+          ]
+        },
+        {
+          "concept_id": "science6.garbage.waste_segregation",
+          "title": "Waste Segregation: Green and Blue Bins",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "science6.garbage.types_of_waste"
+          ],
+          "description": "The practice of separating waste at the source into different bins to facilitate proper disposal and recycling.",
+          "key_ideas": [
+            "Purpose of the Green Bin (wet/biodegradable waste)",
+            "Purpose of the Blue Bin (dry/non-biodegradable waste)",
+            "Importance of separating waste before disposal"
+          ]
+        },
+        {
+          "concept_id": "science6.garbage.landfills",
+          "title": "Landfills and Waste Disposal",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "science6.garbage.waste_segregation"
+          ],
+          "description": "Understanding how municipal garbage is collected and managed in large low-lying open areas known as landfills.",
+          "key_ideas": [
+            "Definition and function of a landfill",
+            "Spreading and covering garbage with soil",
+            "Converting filled landfills into parks or playgrounds"
+          ]
+        },
+        {
+          "concept_id": "science6.garbage.vermicomposting",
+          "title": "Vermicomposting with Redworms",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "science6.garbage.types_of_waste"
+          ],
+          "description": "The specific method of making compost using redworms to break down organic kitchen waste.",
+          "key_ideas": [
+            "Role of Redworms (Eisenia fetida) in composting",
+            "Function of the 'gizzard' in grinding food",
+            "Suitable foods for worms (vegetable peels) vs harmful foods (salt, oil)",
+            "Production of nutrient-rich vermicompost"
+          ]
+        },
+        {
+          "concept_id": "science6.garbage.plastics_impact",
+          "title": "Plastics: Boon or Curse?",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "science6.garbage.types_of_waste"
+          ],
+          "description": "Evaluating the environmental impact of plastic usage and the problems caused by improper disposal.",
+          "key_ideas": [
+            "Problems caused by burning plastics (toxic fumes)",
+            "Impact on animals (choking from eating plastic bags)",
+            "Clogging of drains and sewage systems",
+            "Minimizing use of plastic bags"
           ]
         }
       ]

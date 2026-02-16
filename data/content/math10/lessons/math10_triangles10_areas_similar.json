@@ -1,0 +1,12 @@
+{
+  "title": "Areas of Similar Triangles — Triangles",
+  "hook": "Let's explore <strong>Areas of Similar Triangles</strong> from the chapter on Triangles. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Areas of Similar Triangles</strong>\n\n<em>The ratio of areas of two similar triangles equals the square of the ratio of their corresponding sides (or altitudes, or medians).</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Area(△ABC)/Area(△DEF) = (AB/DE)² = (BC/EF)² = (CA/FD)²</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Also equals (altitude₁/altitude₂)² and (median₁/median₂)²</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 If sides are in ratio k:1, areas are in ratio k²:1</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Useful for finding areas without knowing all dimensions</div>",
+  "worked_example": "<em>A detailed worked example for Areas of Similar Triangles will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Areas of Similar Triangles and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and triangles concepts like areas of similar triangles are used in engineering, data science, and everyday problem solving!"
+}

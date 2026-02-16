@@ -1,0 +1,158 @@
+{
+  "course_id": "polsci11",
+  "title": "Class 11 Political Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Constitution: Why and How?",
+      "concepts": [
+        {
+          "concept_id": "polsci11.constitution_why.making_of",
+          "title": "Making of the Indian Constitution",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Making of the Indian Constitution — part of the chapter on Constitution: Why and How?.",
+          "key_ideas": [
+            "Core principles of making of the indian constitution",
+            "Step-by-step problem solving for making of the indian constitution",
+            "Real-world applications of making of the indian constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Rights in the Indian Constitution",
+      "concepts": [
+        {
+          "concept_id": "polsci11.rights.fundamental_rights11",
+          "title": "Fundamental Rights and Duties",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Fundamental Rights and Duties — part of the chapter on Rights in the Indian Constitution.",
+          "key_ideas": [
+            "Core principles of fundamental rights and duties",
+            "Step-by-step problem solving for fundamental rights and duties",
+            "Real-world applications of fundamental rights and duties"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Election and Representation",
+      "concepts": [
+        {
+          "concept_id": "polsci11.election_representation.electoral_system",
+          "title": "Electoral System in India",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Electoral System in India — part of the chapter on Election and Representation.",
+          "key_ideas": [
+            "Core principles of electoral system in india",
+            "Step-by-step problem solving for electoral system in india",
+            "Real-world applications of electoral system in india"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Executive",
+      "concepts": [
+        {
+          "concept_id": "polsci11.executive.president_pm_council",
+          "title": "President, PM and Council of Ministers",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "President, PM and Council of Ministers — part of the chapter on Executive.",
+          "key_ideas": [
+            "Core principles of president, pm and council of ministers",
+            "Step-by-step problem solving for president, pm and council of ministers",
+            "Real-world applications of president, pm and council of ministers"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Legislature",
+      "concepts": [
+        {
+          "concept_id": "polsci11.legislature.parliament_functions",
+          "title": "Parliament — Functions and Lawmaking",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Parliament — Functions and Lawmaking — part of the chapter on Legislature.",
+          "key_ideas": [
+            "Core principles of parliament",
+            "Step-by-step problem solving for parliament",
+            "Real-world applications of parliament"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Judiciary",
+      "concepts": [
+        {
+          "concept_id": "polsci11.judiciary11.supreme_high_court",
+          "title": "Supreme Court, High Courts, Judicial Review",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Supreme Court, High Courts, Judicial Review — part of the chapter on Judiciary.",
+          "key_ideas": [
+            "Core principles of supreme court, high courts, judicial review",
+            "Step-by-step problem solving for supreme court, high courts, judicial review",
+            "Real-world applications of supreme court, high courts, judicial review"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Federalism",
+      "concepts": [
+        {
+          "concept_id": "polsci11.federalism11.centre_state",
+          "title": "Centre-State Relations",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Centre-State Relations — part of the chapter on Federalism.",
+          "key_ideas": [
+            "Core principles of centre-state relations",
+            "Step-by-step problem solving for centre-state relations",
+            "Real-world applications of centre-state relations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Local Governments",
+      "concepts": [
+        {
+          "concept_id": "polsci11.local_governments.73rd_74th_amendments",
+          "title": "73rd and 74th Constitutional Amendments",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "73rd and 74th Constitutional Amendments — part of the chapter on Local Governments.",
+          "key_ideas": [
+            "Core principles of 73rd and 74th constitutional amendments",
+            "Step-by-step problem solving for 73rd and 74th constitutional amendments",
+            "Real-world applications of 73rd and 74th constitutional amendments"
+          ]
+        }
+      ]
+    }
+  ]
+}

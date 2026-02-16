@@ -10,43 +10,79 @@
           "concept_id": "math10.real_numbers.euclid_division",
           "title": "Euclid's Division Lemma",
           "bloom_level": "understand",
-          "difficulty": 0.4,
+          "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Euclid's Division Lemma — part of the chapter on Real Numbers.",
+          "description": "For any two positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b. This is the foundation for finding HCF.",
           "key_ideas": [
-            "Core principles of euclid's division lemma",
-            "Step-by-step problem solving for euclid's division lemma",
-            "Real-world applications of euclid's division lemma"
+            "Statement: a = bq + r where 0 ≤ r < b",
+            "Used to find HCF of two numbers step-by-step",
+            "Algorithm terminates when remainder becomes 0",
+            "The last non-zero remainder is the HCF"
+          ]
+        },
+        {
+          "concept_id": "math10.real_numbers.euclid_hcf",
+          "title": "Finding HCF Using Euclid's Algorithm",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math10.real_numbers.euclid_division"
+          ],
+          "description": "Apply Euclid's division lemma repeatedly to find the HCF of two or more numbers. The algorithm uses successive division until the remainder is zero.",
+          "key_ideas": [
+            "Apply a = bq + r repeatedly with divisor and remainder",
+            "HCF(a,b) = HCF(b,r) — key recursive property",
+            "Process stops when remainder = 0; divisor at that step = HCF",
+            "Can extend to find HCF of three or more numbers"
           ]
         },
         {
           "concept_id": "math10.real_numbers.fundamental_theorem",
           "title": "Fundamental Theorem of Arithmetic",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
+          "bloom_level": "understand",
+          "difficulty": 0.4,
           "prerequisites": [
-            "math10.real_numbers.euclid_division"
+            "math10.real_numbers.euclid_hcf"
           ],
-          "description": "Fundamental Theorem of Arithmetic — part of the chapter on Real Numbers.",
+          "description": "Every composite number can be expressed as a product of primes in a unique way (apart from the order of factors). This is the backbone of number theory.",
           "key_ideas": [
-            "Core principles of fundamental theorem of arithmetic",
-            "Step-by-step problem solving for fundamental theorem of arithmetic",
-            "Real-world applications of fundamental theorem of arithmetic"
+            "Every composite number = product of prime factors (uniquely)",
+            "Prime factorization using factor trees",
+            "Finding HCF using prime factorization: product of common primes with lowest powers",
+            "Finding LCM using prime factorization: product of all primes with highest powers",
+            "HCF × LCM = Product of the two numbers"
           ]
         },
         {
           "concept_id": "math10.real_numbers.irrational_proofs",
-          "title": "Proof of Irrationality",
+          "title": "Proving Irrationality",
           "bloom_level": "analyze",
-          "difficulty": 0.5,
+          "difficulty": 0.55,
           "prerequisites": [
             "math10.real_numbers.fundamental_theorem"
           ],
-          "description": "Proof of Irrationality — part of the chapter on Real Numbers.",
+          "description": "Use proof by contradiction and the Fundamental Theorem of Arithmetic to prove that numbers like √2, √3, √5 are irrational.",
           "key_ideas": [
-            "Core principles of proof of irrationality",
-            "Step-by-step problem solving for proof of irrationality",
-            "Real-world applications of proof of irrationality"
+            "Proof by contradiction: assume √2 = p/q in lowest terms",
+            "Show that p and q must both be even — contradicts 'lowest terms'",
+            "Key step: if p² is divisible by a prime, then p is also divisible by that prime",
+            "Same technique works for √3, √5, and any √p where p is prime"
+          ]
+        },
+        {
+          "concept_id": "math10.real_numbers.decimal_expansions",
+          "title": "Decimal Expansions of Rationals",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math10.real_numbers.fundamental_theorem"
+          ],
+          "description": "Determine whether the decimal expansion of a rational number p/q is terminating or non-terminating repeating, based on the prime factorization of q.",
+          "key_ideas": [
+            "Terminating decimal: q has only factors of 2 and 5 (q = 2ⁿ × 5ᵐ)",
+            "Non-terminating repeating: q has prime factors other than 2 and 5",
+            "Every rational number has either terminating or repeating decimal",
+            "Irrational numbers have non-terminating, non-repeating decimals"
           ]
         }
       ]
@@ -56,31 +92,50 @@
       "title": "Polynomials",
       "concepts": [
         {
-          "concept_id": "math10.polynomials.zeroes_relationship",
-          "title": "Relationship Between Zeroes and Coefficients",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
+          "concept_id": "math10.polynomials10.types_and_zeroes",
+          "title": "Types of Polynomials and Geometrical Meaning of Zeroes",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Relationship Between Zeroes and Coefficients — part of the chapter on Polynomials.",
+          "description": "Linear, quadratic, and cubic polynomials and their graphs. Zeroes are the x-coordinates where the graph crosses the x-axis.",
           "key_ideas": [
-            "Core principles of relationship between zeroes and coefficients",
-            "Step-by-step problem solving for relationship between zeroes and coefficients",
-            "Real-world applications of relationship between zeroes and coefficients"
+            "Linear polynomial ax+b has exactly 1 zero (straight line graph)",
+            "Quadratic polynomial ax²+bx+c has at most 2 zeroes (parabola)",
+            "Cubic polynomial has at most 3 zeroes (S-curve)",
+            "Zero of polynomial p(x): the value of x for which p(x) = 0",
+            "Geometrically: zeroes = x-coordinates of points where graph meets x-axis"
           ]
         },
         {
-          "concept_id": "math10.polynomials.division_algorithm",
+          "concept_id": "math10.polynomials10.zeroes_relationship",
+          "title": "Relationship Between Zeroes and Coefficients",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math10.polynomials10.types_and_zeroes"
+          ],
+          "description": "For a quadratic polynomial ax²+bx+c with zeroes α and β: sum of zeroes = -b/a, product of zeroes = c/a. Extends to cubics.",
+          "key_ideas": [
+            "For ax²+bx+c: α + β = −b/a (sum of zeroes)",
+            "For ax²+bx+c: αβ = c/a (product of zeroes)",
+            "For cubic ax³+bx²+cx+d: α+β+γ = −b/a, αβ+βγ+γα = c/a, αβγ = −d/a",
+            "Can form polynomial from given zeroes: k[x² − (sum)x + (product)]"
+          ]
+        },
+        {
+          "concept_id": "math10.polynomials10.division_algorithm",
           "title": "Division Algorithm for Polynomials",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math10.polynomials.zeroes_relationship"
+            "math10.polynomials10.zeroes_relationship"
           ],
-          "description": "Division Algorithm for Polynomials — part of the chapter on Polynomials.",
+          "description": "If p(x) and g(x) are polynomials with g(x) ≠ 0, then p(x) = g(x)×q(x) + r(x) where degree(r) < degree(g). Used to find remaining zeroes.",
           "key_ideas": [
-            "Core principles of division algorithm for polynomials",
-            "Step-by-step problem solving for division algorithm for polynomials",
-            "Real-world applications of division algorithm for polynomials"
+            "Long division of polynomials: divide, multiply, subtract, bring down",
+            "p(x) = g(x) × q(x) + r(x) — analogous to Euclid's lemma",
+            "If two zeroes are known, divide to find quotient → remaining zeroes",
+            "Verify: degree(quotient) = degree(p) − degree(g)"
           ]
         }
       ]
@@ -91,45 +146,81 @@
       "concepts": [
         {
           "concept_id": "math10.linear_eq_pair.graphical_method",
-          "title": "Graphical Method of Solution",
-          "bloom_level": "apply",
+          "title": "Graphical Representation and Consistency",
+          "bloom_level": "understand",
           "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Graphical Method of Solution — part of the chapter on Pair of Linear Equations in Two Variables.",
+          "description": "A pair of linear equations can be represented as two lines on a graph. The lines may intersect (unique solution), be parallel (no solution), or coincide (infinite solutions).",
           "key_ideas": [
-            "Core principles of graphical method of solution",
-            "Step-by-step problem solving for graphical method of solution",
-            "Real-world applications of graphical method of solution"
+            "Intersecting lines: a₁/a₂ ≠ b₁/b₂ → unique solution (consistent)",
+            "Parallel lines: a₁/a₂ = b₁/b₂ ≠ c₁/c₂ → no solution (inconsistent)",
+            "Coincident lines: a₁/a₂ = b₁/b₂ = c₁/c₂ → infinite solutions (dependent)",
+            "Solution of pair = coordinates of point of intersection"
           ]
         },
         {
-          "concept_id": "math10.linear_eq_pair.algebraic_methods",
-          "title": "Substitution, Elimination, Cross-Multiplication",
+          "concept_id": "math10.linear_eq_pair.substitution",
+          "title": "Substitution Method",
           "bloom_level": "apply",
-          "difficulty": 0.45,
+          "difficulty": 0.4,
           "prerequisites": [
             "math10.linear_eq_pair.graphical_method"
           ],
-          "description": "Substitution, Elimination, Cross-Multiplication — part of the chapter on Pair of Linear Equations in Two Variables.",
+          "description": "Express one variable in terms of the other from one equation, substitute into the second equation to get a single variable equation, then solve.",
           "key_ideas": [
-            "Core principles of substitution, elimination, cross-multiplication",
-            "Step-by-step problem solving for substitution, elimination, cross-multiplication",
-            "Real-world applications of substitution, elimination, cross-multiplication"
+            "Step 1: From one equation, express y in terms of x (or vice versa)",
+            "Step 2: Substitute this expression into the other equation",
+            "Step 3: Solve the single-variable equation",
+            "Step 4: Substitute back to find the other variable"
           ]
         },
         {
-          "concept_id": "math10.linear_eq_pair.word_problems",
-          "title": "Word Problems on Linear Equation Pairs",
+          "concept_id": "math10.linear_eq_pair.elimination",
+          "title": "Elimination Method",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math10.linear_eq_pair.substitution"
+          ],
+          "description": "Multiply equations by suitable numbers to make coefficients of one variable equal, then add or subtract to eliminate that variable.",
+          "key_ideas": [
+            "Multiply equations to equalize coefficients of one variable",
+            "Add equations if signs are opposite; subtract if signs are same",
+            "Solve resulting single-variable equation",
+            "Back-substitute to find the other variable"
+          ]
+        },
+        {
+          "concept_id": "math10.linear_eq_pair.cross_multiplication",
+          "title": "Cross-Multiplication Method",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math10.linear_eq_pair.algebraic_methods"
+            "math10.linear_eq_pair.elimination"
           ],
-          "description": "Word Problems on Linear Equation Pairs — part of the chapter on Pair of Linear Equations in Two Variables.",
+          "description": "A formula-based method for solving a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 using the cross-multiplication rule.",
           "key_ideas": [
-            "Core principles of word problems on linear equation pairs",
-            "Step-by-step problem solving for word problems on linear equation pairs",
-            "Real-world applications of word problems on linear equation pairs"
+            "x/(b₁c₂ − b₂c₁) = y/(c₁a₂ − c₂a₁) = 1/(a₁b₂ − a₂b₁)",
+            "Write equations in standard form: ax + by + c = 0",
+            "Works when a₁b₂ − a₂b₁ ≠ 0 (unique solution exists)",
+            "Quick way to get both x and y in one step"
+          ]
+        },
+        {
+          "concept_id": "math10.linear_eq_pair.word_problems10",
+          "title": "Word Problems on Linear Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "math10.linear_eq_pair.elimination"
+          ],
+          "description": "Translate real-life situations into pairs of linear equations — age problems, speed-distance-time, fractions, cost problems — and solve using any algebraic method.",
+          "key_ideas": [
+            "Identify unknowns and assign variables (let x = ..., y = ...)",
+            "Form two equations from the given conditions",
+            "Solve using substitution or elimination",
+            "Verify: check both solutions satisfy original word problem",
+            "Common types: age, speed-time, fraction, digit problems"
           ]
         }
       ]
@@ -140,45 +231,82 @@
       "concepts": [
         {
           "concept_id": "math10.quadratic_equations.standard_form",
-          "title": "Standard Form and Factorisation",
+          "title": "Standard Form and Factorization Method",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Standard Form and Factorisation — part of the chapter on Quadratic Equations.",
+          "description": "A quadratic equation has the form ax² + bx + c = 0, a ≠ 0. Solve by splitting the middle term into two parts whose product equals ac.",
           "key_ideas": [
-            "Core principles of standard form and factorisation",
-            "Step-by-step problem solving for standard form and factorisation",
-            "Real-world applications of standard form and factorisation"
+            "Standard form: ax² + bx + c = 0 where a ≠ 0",
+            "Splitting middle term: find two numbers with sum = b and product = ac",
+            "Factor and set each factor = 0 to find roots",
+            "Maximum 2 roots for any quadratic equation"
           ]
         },
         {
-          "concept_id": "math10.quadratic_equations.quadratic_formula",
-          "title": "Quadratic Formula",
+          "concept_id": "math10.quadratic_equations.completing_square",
+          "title": "Completing the Square",
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [
             "math10.quadratic_equations.standard_form"
           ],
-          "description": "Quadratic Formula — part of the chapter on Quadratic Equations.",
+          "description": "Convert ax² + bx + c = 0 into (x + p)² = q form by adding and subtracting the right constant, then take square root to find roots.",
           "key_ideas": [
-            "Core principles of quadratic formula",
-            "Step-by-step problem solving for quadratic formula",
-            "Real-world applications of quadratic formula"
+            "Divide by 'a' to make coefficient of x² equal to 1",
+            "Move constant term to RHS",
+            "Add (half of coefficient of x)² to both sides",
+            "LHS becomes a perfect square; take square root of both sides"
+          ]
+        },
+        {
+          "concept_id": "math10.quadratic_equations.quadratic_formula",
+          "title": "Quadratic Formula (Shreedharacharya's Rule)",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.quadratic_equations.completing_square"
+          ],
+          "description": "The roots of ax² + bx + c = 0 are given by x = (−b ± √(b²−4ac)) / 2a. This universal formula works for all quadratic equations.",
+          "key_ideas": [
+            "Formula: x = (−b ± √(b²−4ac)) / 2a",
+            "Derived from completing the square on the general form",
+            "Works even when factorization is not easy",
+            "The ± gives two roots: one with + and one with −",
+            "Also called Shreedharacharya's formula (ancient Indian mathematician)"
           ]
         },
         {
           "concept_id": "math10.quadratic_equations.nature_of_roots",
-          "title": "Nature of Roots (Discriminant)",
+          "title": "Nature of Roots — Discriminant",
           "bloom_level": "analyze",
           "difficulty": 0.5,
           "prerequisites": [
             "math10.quadratic_equations.quadratic_formula"
           ],
-          "description": "Nature of Roots (Discriminant) — part of the chapter on Quadratic Equations.",
+          "description": "The discriminant D = b² − 4ac determines the nature of roots: D > 0 → two distinct real roots, D = 0 → two equal roots, D < 0 → no real roots.",
           "key_ideas": [
-            "Core principles of nature of roots (discriminant)",
-            "Step-by-step problem solving for nature of roots (discriminant)",
-            "Real-world applications of nature of roots (discriminant)"
+            "Discriminant D = b² − 4ac",
+            "D > 0: two distinct real roots",
+            "D = 0: two equal (repeated) real roots, x = −b/2a",
+            "D < 0: no real roots (roots are complex/imaginary)",
+            "D is a perfect square → roots are rational"
+          ]
+        },
+        {
+          "concept_id": "math10.quadratic_equations.word_problems_quad",
+          "title": "Word Problems Leading to Quadratics",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "math10.quadratic_equations.quadratic_formula"
+          ],
+          "description": "Formulate quadratic equations from real-life problems about area, speed-time, consecutive numbers, age problems, etc. and solve them.",
+          "key_ideas": [
+            "Translate statements into equations: identify the variable",
+            "Common situations: area, product of consecutive numbers, speed-distance",
+            "After solving, reject negative/non-integer roots if context demands",
+            "Always verify: substitute back into the original problem"
           ]
         }
       ]
@@ -189,45 +317,64 @@
       "concepts": [
         {
           "concept_id": "math10.arithmetic_progressions.ap_intro",
-          "title": "Introduction to AP — nth Term",
+          "title": "Introduction to AP and Common Difference",
           "bloom_level": "understand",
-          "difficulty": 0.35,
+          "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Introduction to AP — nth Term — part of the chapter on Arithmetic Progressions.",
+          "description": "An Arithmetic Progression is a sequence where each term is obtained by adding a fixed number (common difference d) to the previous term.",
           "key_ideas": [
-            "Core principles of introduction to ap",
-            "Step-by-step problem solving for introduction to ap",
-            "Real-world applications of introduction to ap"
+            "AP: a, a+d, a+2d, a+3d, ... where d = common difference",
+            "d = any term − previous term (constant throughout)",
+            "d can be positive (increasing AP), negative (decreasing), or zero (constant)",
+            "First term is denoted by 'a', common difference by 'd'"
+          ]
+        },
+        {
+          "concept_id": "math10.arithmetic_progressions.ap_nth_term",
+          "title": "The nth Term of an AP",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math10.arithmetic_progressions.ap_intro"
+          ],
+          "description": "The general (nth) term of an AP is aₙ = a + (n−1)d. This formula lets you find any term directly without listing all previous terms.",
+          "key_ideas": [
+            "General term: aₙ = a + (n−1)d",
+            "To find which term has a given value: solve a + (n−1)d = value for n",
+            "If aₙ is negative, the AP has started decreasing past zero",
+            "Last term often denoted by 'l': l = a + (n−1)d"
           ]
         },
         {
           "concept_id": "math10.arithmetic_progressions.sum_of_ap",
-          "title": "Sum of First n Terms",
+          "title": "Sum of First n Terms of an AP",
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [
-            "math10.arithmetic_progressions.ap_intro"
+            "math10.arithmetic_progressions.ap_nth_term"
           ],
-          "description": "Sum of First n Terms — part of the chapter on Arithmetic Progressions.",
+          "description": "Sₙ = n/2 × [2a + (n−1)d] or equivalently Sₙ = n/2 × (a + l). Gauss's trick: pair first+last, second+second-last, etc.",
           "key_ideas": [
-            "Core principles of sum of first n terms",
-            "Step-by-step problem solving for sum of first n terms",
-            "Real-world applications of sum of first n terms"
+            "Sₙ = n/2 × [2a + (n−1)d] — when last term is unknown",
+            "Sₙ = n/2 × (a + l) — when last term l is known",
+            "aₙ = Sₙ − Sₙ₋₁ — to find nth term from sum formula",
+            "Gauss's insight: S = n/2 × (first + last)"
           ]
         },
         {
           "concept_id": "math10.arithmetic_progressions.ap_applications",
-          "title": "Applications of AP",
+          "title": "Applications and Problem Solving with AP",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
             "math10.arithmetic_progressions.sum_of_ap"
           ],
-          "description": "Applications of AP — part of the chapter on Arithmetic Progressions.",
+          "description": "Use AP formulas to solve problems: finding terms, determining if a number belongs to an AP, sum-based problems, and real-life contexts like savings and patterns.",
           "key_ideas": [
-            "Core principles of applications of ap",
-            "Step-by-step problem solving for applications of ap",
-            "Real-world applications of applications of ap"
+            "Check membership: solve a + (n−1)d = k; if n is a positive integer, k is in the AP",
+            "Finding 'a' or 'd' from given conditions using simultaneous equations",
+            "Real-life APs: monthly savings, depreciation, stacking patterns",
+            "If Sₙ = An² + Bn, then d = 2A and a = A + B"
           ]
         }
       ]
@@ -237,46 +384,65 @@
       "title": "Triangles",
       "concepts": [
         {
-          "concept_id": "math10.triangles.similarity_criteria",
-          "title": "Similarity of Triangles (AA, SSS, SAS)",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
+          "concept_id": "math10.triangles10.similarity_intro",
+          "title": "Similar Figures and Basic Proportionality Theorem",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Similarity of Triangles (AA, SSS, SAS) — part of the chapter on Triangles.",
+          "description": "Two figures are similar if they have the same shape (but not necessarily size). BPT states: if a line is parallel to one side of a triangle and intersects the other two sides, it divides them proportionally.",
           "key_ideas": [
-            "Core principles of similarity of triangles (aa, sss, sas)",
-            "Step-by-step problem solving for similarity of triangles (aa, sss, sas)",
-            "Real-world applications of similarity of triangles (aa, sss, sas)"
+            "Similar figures: same shape, proportional sides, equal angles",
+            "BPT (Thales' theorem): DE ∥ BC in △ABC ⇒ AD/DB = AE/EC",
+            "Converse of BPT: if AD/DB = AE/EC then DE ∥ BC",
+            "Similarity ≠ Congruence (congruent → same shape AND size)"
           ]
         },
         {
-          "concept_id": "math10.triangles.bpt",
-          "title": "Basic Proportionality Theorem",
+          "concept_id": "math10.triangles10.similarity_criteria",
+          "title": "Criteria for Similarity of Triangles",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.triangles10.similarity_intro"
+          ],
+          "description": "AAA (AA), SSS, and SAS similarity criteria. If two triangles are similar, their corresponding sides are proportional and corresponding angles are equal.",
+          "key_ideas": [
+            "AA criterion: two pairs of equal angles ⇒ triangles are similar",
+            "SSS criterion: all three pairs of sides in proportion ⇒ similar",
+            "SAS criterion: one pair of equal angles between proportional sides ⇒ similar",
+            "If △ABC ~ △DEF, then AB/DE = BC/EF = CA/FD and ∠A=∠D, ∠B=∠E, ∠C=∠F"
+          ]
+        },
+        {
+          "concept_id": "math10.triangles10.areas_similar",
+          "title": "Areas of Similar Triangles",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math10.triangles.similarity_criteria"
+            "math10.triangles10.similarity_criteria"
           ],
-          "description": "Basic Proportionality Theorem — part of the chapter on Triangles.",
+          "description": "The ratio of areas of two similar triangles equals the square of the ratio of their corresponding sides (or altitudes, or medians).",
           "key_ideas": [
-            "Core principles of basic proportionality theorem",
-            "Step-by-step problem solving for basic proportionality theorem",
-            "Real-world applications of basic proportionality theorem"
+            "Area(△ABC)/Area(△DEF) = (AB/DE)² = (BC/EF)² = (CA/FD)²",
+            "Also equals (altitude₁/altitude₂)² and (median₁/median₂)²",
+            "If sides are in ratio k:1, areas are in ratio k²:1",
+            "Useful for finding areas without knowing all dimensions"
           ]
         },
         {
-          "concept_id": "math10.triangles.pythagoras_theorem",
+          "concept_id": "math10.triangles10.pythagoras_theorem",
           "title": "Pythagoras Theorem and Converse",
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [
-            "math10.triangles.bpt"
+            "math10.triangles10.similarity_criteria"
           ],
-          "description": "Pythagoras Theorem and Converse — part of the chapter on Triangles.",
+          "description": "In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides. The converse helps identify right triangles.",
           "key_ideas": [
-            "Core principles of pythagoras theorem and converse",
-            "Step-by-step problem solving for pythagoras theorem and converse",
-            "Real-world applications of pythagoras theorem and converse"
+            "Pythagoras: In right △ABC with ∠B = 90°, AC² = AB² + BC²",
+            "Hypotenuse is always the longest side (opposite the right angle)",
+            "Converse: If AC² = AB² + BC², then ∠B = 90°",
+            "Common Pythagorean triplets: (3,4,5), (5,12,13), (8,15,17), (7,24,25)"
           ]
         }
       ]
@@ -286,46 +452,49 @@
       "title": "Coordinate Geometry",
       "concepts": [
         {
-          "concept_id": "math10.coordinate_geometry.distance_formula",
+          "concept_id": "math10.coordinate_geometry10.distance_formula",
           "title": "Distance Formula",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Distance Formula — part of the chapter on Coordinate Geometry.",
+          "description": "The distance between two points (x₁,y₁) and (x₂,y₂) is √[(x₂−x₁)² + (y₂−y₁)²]. Derived from Pythagoras theorem applied to the coordinate plane.",
           "key_ideas": [
-            "Core principles of distance formula",
-            "Step-by-step problem solving for distance formula",
-            "Real-world applications of distance formula"
+            "Distance = √[(x₂−x₁)² + (y₂−y₁)²]",
+            "Distance from origin: √(x² + y²)",
+            "If distance = 0, the points are the same",
+            "Used to check collinearity: three points are collinear if AB + BC = AC"
           ]
         },
         {
-          "concept_id": "math10.coordinate_geometry.section_formula",
+          "concept_id": "math10.coordinate_geometry10.section_formula",
           "title": "Section Formula",
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [
-            "math10.coordinate_geometry.distance_formula"
+            "math10.coordinate_geometry10.distance_formula"
           ],
-          "description": "Section Formula — part of the chapter on Coordinate Geometry.",
+          "description": "The point dividing the line segment joining (x₁,y₁) and (x₂,y₂) in ratio m:n is ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)). The midpoint is the special case m=n.",
           "key_ideas": [
-            "Core principles of section formula",
-            "Step-by-step problem solving for section formula",
-            "Real-world applications of section formula"
+            "Internal division m:n: ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))",
+            "Midpoint formula (m=n=1): ((x₁+x₂)/2, (y₁+y₂)/2)",
+            "Used to find centroids, medians, and points on line segments",
+            "Centroid of triangle: ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3)"
           ]
         },
         {
-          "concept_id": "math10.coordinate_geometry.area_triangle_coord",
-          "title": "Area of Triangle (Coordinates)",
+          "concept_id": "math10.coordinate_geometry10.area_triangle_coord",
+          "title": "Area of Triangle Using Coordinates",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math10.coordinate_geometry.section_formula"
+            "math10.coordinate_geometry10.section_formula"
           ],
-          "description": "Area of Triangle (Coordinates) — part of the chapter on Coordinate Geometry.",
+          "description": "Area of triangle with vertices (x₁,y₁), (x₂,y₂), (x₃,y₃) = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|. If area = 0, points are collinear.",
           "key_ideas": [
-            "Core principles of area of triangle (coordinates)",
-            "Step-by-step problem solving for area of triangle (coordinates)",
-            "Real-world applications of area of triangle (coordinates)"
+            "Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|",
+            "Absolute value ensures area is always positive",
+            "If area = 0, the three points are collinear (lie on same line)",
+            "Can extend to find area of quadrilateral by dividing into triangles"
           ]
         }
       ]
@@ -340,26 +509,44 @@
           "bloom_level": "understand",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Trigonometric Ratios — part of the chapter on Introduction to Trigonometry.",
+          "description": "In a right triangle, the six trigonometric ratios (sin, cos, tan, cosec, sec, cot) relate the angles to the ratios of sides.",
           "key_ideas": [
-            "Core principles of trigonometric ratios",
-            "Step-by-step problem solving for trigonometric ratios",
-            "Real-world applications of trigonometric ratios"
+            "sin θ = Opposite/Hypotenuse, cos θ = Adjacent/Hypotenuse, tan θ = Opposite/Adjacent",
+            "Reciprocals: cosec θ = 1/sin θ, sec θ = 1/cos θ, cot θ = 1/tan θ",
+            "Mnemonic: SOH-CAH-TOA (Some Old Houses Can Always Hide Their Old Age)",
+            "These ratios depend on the angle, not the size of the triangle"
           ]
         },
         {
-          "concept_id": "math10.trigonometry.trig_specific_angles",
-          "title": "Trig Ratios of Specific Angles",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
+          "concept_id": "math10.trigonometry.standard_angles",
+          "title": "Trigonometric Ratios of Standard Angles",
+          "bloom_level": "remember",
+          "difficulty": 0.35,
           "prerequisites": [
             "math10.trigonometry.trig_ratios"
           ],
-          "description": "Trig Ratios of Specific Angles — part of the chapter on Introduction to Trigonometry.",
+          "description": "The exact values of sin, cos, tan for 0°, 30°, 45°, 60°, 90° must be memorized. These form the foundation for all trigonometric calculations.",
           "key_ideas": [
-            "Core principles of trig ratios of specific angles",
-            "Step-by-step problem solving for trig ratios of specific angles",
-            "Real-world applications of trig ratios of specific angles"
+            "sin 0°=0, sin 30°=½, sin 45°=1/√2, sin 60°=√3/2, sin 90°=1",
+            "cos is reverse of sin: cos 0°=1, cos 30°=√3/2, cos 45°=1/√2, cos 60°=½, cos 90°=0",
+            "tan 0°=0, tan 30°=1/√3, tan 45°=1, tan 60°=√3, tan 90°=undefined",
+            "Trick: sin θ values are √0/2, √1/2, √2/2, √3/2, √4/2 for θ = 0°,30°,45°,60°,90°"
+          ]
+        },
+        {
+          "concept_id": "math10.trigonometry.complementary_angles",
+          "title": "Trigonometric Ratios of Complementary Angles",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math10.trigonometry.standard_angles"
+          ],
+          "description": "Two angles are complementary if they add to 90°. Key identities: sin(90°−θ) = cos θ, cos(90°−θ) = sin θ, tan(90°−θ) = cot θ.",
+          "key_ideas": [
+            "sin(90°−θ) = cos θ and cos(90°−θ) = sin θ",
+            "tan(90°−θ) = cot θ and cot(90°−θ) = tan θ",
+            "sec(90°−θ) = cosec θ and cosec(90°−θ) = sec θ",
+            "Useful for simplifying expressions like sin 72° = cos 18°"
           ]
         },
         {
@@ -368,13 +555,14 @@
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math10.trigonometry.trig_specific_angles"
+            "math10.trigonometry.complementary_angles"
           ],
-          "description": "Trigonometric Identities — part of the chapter on Introduction to Trigonometry.",
+          "description": "The three fundamental identities: sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, 1 + cot²θ = cosec²θ. Used to prove other identities and simplify expressions.",
           "key_ideas": [
-            "Core principles of trigonometric identities",
-            "Step-by-step problem solving for trigonometric identities",
-            "Real-world applications of trigonometric identities"
+            "Identity 1: sin²θ + cos²θ = 1 (derived from Pythagoras)",
+            "Identity 2: 1 + tan²θ = sec²θ (divide Identity 1 by cos²θ)",
+            "Identity 3: 1 + cot²θ = cosec²θ (divide Identity 1 by sin²θ)",
+            "Proving identities: work on one side (usually LHS) to reach the other"
           ]
         }
       ]
@@ -384,18 +572,35 @@
       "title": "Some Applications of Trigonometry",
       "concepts": [
         {
-          "concept_id": "math10.trig_applications.heights_distances",
-          "title": "Heights and Distances",
-          "bloom_level": "apply",
-          "difficulty": 0.5,
+          "concept_id": "math10.trig_applications.angle_elevation_depression",
+          "title": "Angle of Elevation and Depression",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
           "prerequisites": [
             "math10.trigonometry.trig_ratios"
           ],
-          "description": "Heights and Distances — part of the chapter on Some Applications of Trigonometry.",
+          "description": "Angle of elevation is measured upward from the horizontal line of sight. Angle of depression is measured downward. Both use the same trigonometric ratios.",
           "key_ideas": [
-            "Core principles of heights and distances",
-            "Step-by-step problem solving for heights and distances",
-            "Real-world applications of heights and distances"
+            "Angle of elevation: looking UP from horizontal → angle above horizontal",
+            "Angle of depression: looking DOWN from horizontal → angle below horizontal",
+            "Angle of elevation from A = Angle of depression from B (alternate interior angles)",
+            "Always draw a right triangle with the height as one side"
+          ]
+        },
+        {
+          "concept_id": "math10.trig_applications.heights_distances",
+          "title": "Heights and Distances Problems",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "math10.trig_applications.angle_elevation_depression"
+          ],
+          "description": "Apply trigonometric ratios to find heights of towers, buildings, widths of rivers, etc. using angles of elevation/depression and known distances.",
+          "key_ideas": [
+            "Draw the figure, identify right triangle, mark known/unknown sides",
+            "Use tan θ = height/distance (most common ratio in these problems)",
+            "Two-triangle problems: set up equations for each triangle, solve simultaneously",
+            "Common setups: tower on cliff, observer moving closer/farther"
           ]
         }
       ]
@@ -405,31 +610,33 @@
       "title": "Circles",
       "concepts": [
         {
-          "concept_id": "math10.circles.tangent_circle",
-          "title": "Tangent to a Circle",
+          "concept_id": "math10.circles10.tangent_properties",
+          "title": "Tangent to a Circle — Properties",
           "bloom_level": "understand",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Tangent to a Circle — part of the chapter on Circles.",
+          "description": "A tangent to a circle touches it at exactly one point. The tangent at any point is perpendicular to the radius at that point of contact.",
           "key_ideas": [
-            "Core principles of tangent to a circle",
-            "Step-by-step problem solving for tangent to a circle",
-            "Real-world applications of tangent to a circle"
+            "Tangent touches the circle at exactly one point (point of contact/tangency)",
+            "Theorem 1: Tangent ⊥ Radius at the point of contact",
+            "A line perpendicular to the radius at its endpoint on the circle is a tangent",
+            "No tangent can be drawn from a point inside the circle"
           ]
         },
         {
-          "concept_id": "math10.circles.tangent_theorems",
-          "title": "Number of Tangents from a Point",
+          "concept_id": "math10.circles10.tangent_theorems",
+          "title": "Tangent Theorems and Problem Solving",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math10.circles.tangent_circle"
+            "math10.circles10.tangent_properties"
           ],
-          "description": "Number of Tangents from a Point — part of the chapter on Circles.",
+          "description": "Two tangents drawn from an external point to a circle are equal in length. This leads to many elegant geometric results and numerical problems.",
           "key_ideas": [
-            "Core principles of number of tangents from a point",
-            "Step-by-step problem solving for number of tangents from a point",
-            "Real-world applications of number of tangents from a point"
+            "Theorem 2: Tangents from an external point are equal (PA = PB)",
+            "The line from external point to centre bisects the angle between tangents",
+            "OP bisects ∠APB and ∠AOB (O = centre, P = external point)",
+            "In △OAP: OA² + AP² = OP² (right angle at A)"
           ]
         }
       ]
@@ -439,31 +646,49 @@
       "title": "Constructions",
       "concepts": [
         {
-          "concept_id": "math10.constructions.divide_segment",
-          "title": "Division of a Line Segment",
+          "concept_id": "math10.constructions10.division_line_segment",
+          "title": "Division of a Line Segment in a Given Ratio",
           "bloom_level": "apply",
-          "difficulty": 0.35,
+          "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Division of a Line Segment — part of the chapter on Constructions.",
+          "description": "Construct a point that divides a line segment internally in a given ratio m:n using the basic proportionality theorem.",
           "key_ideas": [
-            "Core principles of division of a line segment",
-            "Step-by-step problem solving for division of a line segment",
-            "Real-world applications of division of a line segment"
+            "Draw ray at an acute angle, mark (m+n) equal arcs",
+            "Join the last mark to endpoint, draw parallel through mth mark",
+            "Based on Basic Proportionality Theorem (BPT)",
+            "Can also construct similar triangles using this technique"
           ]
         },
         {
-          "concept_id": "math10.constructions.tangent_construction",
-          "title": "Construction of Tangents to a Circle",
+          "concept_id": "math10.constructions10.similar_triangle",
+          "title": "Construction of Similar Triangles",
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [
-            "math10.constructions.divide_segment"
+            "math10.constructions10.division_line_segment"
           ],
-          "description": "Construction of Tangents to a Circle — part of the chapter on Constructions.",
+          "description": "Construct a triangle similar to a given triangle with sides in a given ratio (scale factor). Uses the line segment division technique.",
           "key_ideas": [
-            "Core principles of construction of tangents to a circle",
-            "Step-by-step problem solving for construction of tangents to a circle",
-            "Real-world applications of construction of tangents to a circle"
+            "Scale factor < 1: smaller similar triangle (inside)",
+            "Scale factor > 1: larger similar triangle (outside)",
+            "Steps: draw base, divide using ratio, draw parallel lines",
+            "The constructed triangle has all angles equal to original"
+          ]
+        },
+        {
+          "concept_id": "math10.constructions10.tangent_construction",
+          "title": "Construction of Tangents to a Circle",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.constructions10.similar_triangle"
+          ],
+          "description": "Construct tangents to a circle from a point outside it, and construct a tangent at a point on the circle. Uses the property that tangent ⊥ radius.",
+          "key_ideas": [
+            "Tangent from external point: find midpoint of OP, draw circle with that as centre",
+            "Intersection points give points of tangency",
+            "Tangent at a point on circle: draw radius, construct perpendicular",
+            "Two tangents from external point are always equal"
           ]
         }
       ]
@@ -473,16 +698,17 @@
       "title": "Areas Related to Circles",
       "concepts": [
         {
-          "concept_id": "math10.areas_circles.perimeter_area_circle",
-          "title": "Perimeter and Area of Circle",
+          "concept_id": "math10.areas_circles.perimeter_area",
+          "title": "Circumference and Area of a Circle",
           "bloom_level": "apply",
           "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Perimeter and Area of Circle — part of the chapter on Areas Related to Circles.",
+          "description": "Circumference = 2πr, Area = πr². These fundamental formulas are the building blocks for sector and segment calculations.",
           "key_ideas": [
-            "Core principles of perimeter and area of circle",
-            "Step-by-step problem solving for perimeter and area of circle",
-            "Real-world applications of perimeter and area of circle"
+            "Circumference (perimeter) = 2πr = πd",
+            "Area = πr²",
+            "π ≈ 22/7 or 3.14159...",
+            "Area of ring (annulus) = π(R² − r²) where R > r"
           ]
         },
         {
@@ -491,13 +717,30 @@
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [
-            "math10.areas_circles.perimeter_area_circle"
+            "math10.areas_circles.perimeter_area"
           ],
-          "description": "Area of Sector and Segment — part of the chapter on Areas Related to Circles.",
+          "description": "A sector is a 'slice' of a circle; a segment is the region between a chord and its arc. Area of sector = (θ/360°) × πr², and segment area = sector area − triangle area.",
           "key_ideas": [
-            "Core principles of area of sector and segment",
-            "Step-by-step problem solving for area of sector and segment",
-            "Real-world applications of area of sector and segment"
+            "Arc length = (θ/360°) × 2πr",
+            "Area of sector = (θ/360°) × πr²",
+            "Area of segment = Area of sector − Area of triangle",
+            "Major sector + Minor sector = Full circle"
+          ]
+        },
+        {
+          "concept_id": "math10.areas_circles.combined_figures",
+          "title": "Areas of Combinations of Plane Figures",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math10.areas_circles.sector_segment"
+          ],
+          "description": "Find areas of shaded regions in figures that combine circles, squares, triangles, and other shapes by adding or subtracting individual areas.",
+          "key_ideas": [
+            "Strategy: identify the shapes involved, then add or subtract areas",
+            "Common patterns: circle inscribed in square, semicircles on sides of triangle",
+            "Shaded area = Total area − Unshaded area (often easier to compute)",
+            "Draw auxiliary lines to break complex figures into simple shapes"
           ]
         }
       ]
@@ -507,46 +750,49 @@
       "title": "Surface Areas and Volumes",
       "concepts": [
         {
-          "concept_id": "math10.surface_area_volume.combination_solids",
-          "title": "Surface Area of Combination of Solids",
+          "concept_id": "math10.surface_area_volume10.conversion_solids",
+          "title": "Conversion of One Solid into Another",
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [],
-          "description": "Surface Area of Combination of Solids — part of the chapter on Surface Areas and Volumes.",
+          "description": "When one solid is melted and recast into another shape, the volume remains the same. Set Volume₁ = Volume₂ to find unknown dimensions.",
           "key_ideas": [
-            "Core principles of surface area of combination of solids",
-            "Step-by-step problem solving for surface area of combination of solids",
-            "Real-world applications of surface area of combination of solids"
+            "Volume is conserved when a solid is melted and reshaped",
+            "Equate volumes: V(old shape) = V(new shape) or = n × V(each new)",
+            "Common: sphere → cylinder, cone → spheres, cylinder → cones",
+            "Number of new objects = Volume(original) / Volume(one new object)"
           ]
         },
         {
-          "concept_id": "math10.surface_area_volume.volume_combination",
-          "title": "Volume of Combination of Solids",
+          "concept_id": "math10.surface_area_volume10.combination_solids",
+          "title": "Surface Area and Volume of Combined Solids",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math10.surface_area_volume.combination_solids"
+            "math10.surface_area_volume10.conversion_solids"
           ],
-          "description": "Volume of Combination of Solids — part of the chapter on Surface Areas and Volumes.",
+          "description": "Many real objects (tent, capsule, silo) are combinations of basic solids. Find total surface area and volume by adding/subtracting components.",
           "key_ideas": [
-            "Core principles of volume of combination of solids",
-            "Step-by-step problem solving for volume of combination of solids",
-            "Real-world applications of volume of combination of solids"
+            "Combined volume = sum of individual volumes",
+            "Total Surface Area ≠ sum of all surfaces (subtract joined faces)",
+            "Common combinations: cylinder+cone, hemisphere+cylinder, cone+hemisphere",
+            "CSA of combined = sum of CSAs of visible parts"
           ]
         },
         {
-          "concept_id": "math10.surface_area_volume.frustum",
+          "concept_id": "math10.surface_area_volume10.frustum",
           "title": "Frustum of a Cone",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math10.surface_area_volume.volume_combination"
+            "math10.surface_area_volume10.combination_solids"
           ],
-          "description": "Frustum of a Cone — part of the chapter on Surface Areas and Volumes.",
+          "description": "A frustum is the portion of a cone between two parallel cuts. It has two circular faces of different radii. Volume = πh/3(R² + r² + Rr).",
           "key_ideas": [
-            "Core principles of frustum of a cone",
-            "Step-by-step problem solving for frustum of a cone",
-            "Real-world applications of frustum of a cone"
+            "Frustum: cone with top sliced off by a plane parallel to the base",
+            "Volume = (πh/3)(R² + r² + Rr) where R = base radius, r = top radius",
+            "Slant height l = √[h² + (R−r)²]",
+            "CSA = π(R+r)l, Total SA = π(R+r)l + πR² + πr²"
           ]
         }
       ]
@@ -556,61 +802,65 @@
       "title": "Statistics",
       "concepts": [
         {
-          "concept_id": "math10.statistics.mean_grouped",
+          "concept_id": "math10.statistics10.mean_grouped",
           "title": "Mean of Grouped Data",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Mean of Grouped Data — part of the chapter on Statistics.",
+          "description": "Three methods to find the mean of grouped frequency data: Direct method, Assumed Mean method (shortcut), and Step Deviation method.",
           "key_ideas": [
-            "Core principles of mean of grouped data",
-            "Step-by-step problem solving for mean of grouped data",
-            "Real-world applications of mean of grouped data"
+            "Direct method: Mean = Σfᵢxᵢ / Σfᵢ (where xᵢ = class mark)",
+            "Assumed mean: Mean = a + Σfᵢdᵢ/Σfᵢ (dᵢ = xᵢ − a)",
+            "Step deviation: Mean = a + (Σfᵢuᵢ/Σfᵢ) × h (uᵢ = dᵢ/h)",
+            "Class mark xᵢ = (upper limit + lower limit) / 2"
           ]
         },
         {
-          "concept_id": "math10.statistics.median_grouped",
+          "concept_id": "math10.statistics10.median_grouped",
           "title": "Median of Grouped Data",
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [
-            "math10.statistics.mean_grouped"
+            "math10.statistics10.mean_grouped"
           ],
-          "description": "Median of Grouped Data — part of the chapter on Statistics.",
+          "description": "Median = l + [(n/2 − cf)/f] × h, where l = lower limit of median class, cf = cumulative frequency before median class, f = frequency of median class.",
           "key_ideas": [
-            "Core principles of median of grouped data",
-            "Step-by-step problem solving for median of grouped data",
-            "Real-world applications of median of grouped data"
+            "Find n/2, then locate the median class using cumulative frequency",
+            "Median = l + [(n/2 − cf)/f] × h",
+            "l = lower boundary of median class, h = class width",
+            "cf = cumulative frequency of class BEFORE the median class"
           ]
         },
         {
-          "concept_id": "math10.statistics.mode_grouped",
+          "concept_id": "math10.statistics10.mode_grouped",
           "title": "Mode of Grouped Data",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [
-            "math10.statistics.mean_grouped"
+            "math10.statistics10.mean_grouped"
           ],
-          "description": "Mode of Grouped Data — part of the chapter on Statistics.",
+          "description": "Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h, where the modal class has the highest frequency.",
           "key_ideas": [
-            "Core principles of mode of grouped data",
-            "Step-by-step problem solving for mode of grouped data",
-            "Real-world applications of mode of grouped data"
+            "Modal class = class with the highest frequency",
+            "Mode = l + [(f₁ − f₀)/(2f₁ − f₀ − f₂)] × h",
+            "f₁ = frequency of modal class, f₀ = frequency before, f₂ = frequency after",
+            "Empirical relation: 3 Median = Mode + 2 Mean (approximate)"
           ]
         },
         {
-          "concept_id": "math10.statistics.ogive",
+          "concept_id": "math10.statistics10.ogive",
           "title": "Cumulative Frequency and Ogives",
           "bloom_level": "apply",
           "difficulty": 0.45,
           "prerequisites": [
-            "math10.statistics.median_grouped"
+            "math10.statistics10.median_grouped"
           ],
-          "description": "Cumulative Frequency and Ogives — part of the chapter on Statistics.",
+          "description": "An ogive (cumulative frequency curve) is plotted using cumulative frequencies. 'Less than' and 'more than' ogives can be used to find the median graphically.",
           "key_ideas": [
-            "Core principles of cumulative frequency and ogives",
-            "Step-by-step problem solving for cumulative frequency and ogives",
-            "Real-world applications of cumulative frequency and ogives"
+            "'Less than' ogive: plot upper limits vs cumulative frequency (rising curve)",
+            "'More than' ogive: plot lower limits vs cumulative frequency (falling curve)",
+            "Median = x-coordinate where the two ogives intersect",
+            "Can also find median by drawing n/2 line on a single ogive"
           ]
         }
       ]
@@ -620,31 +870,49 @@
       "title": "Probability",
       "concepts": [
         {
-          "concept_id": "math10.probability.theoretical_prob",
-          "title": "Theoretical Probability",
+          "concept_id": "math10.probability10.classical_definition",
+          "title": "Classical (Theoretical) Probability",
           "bloom_level": "understand",
           "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Theoretical Probability — part of the chapter on Probability.",
+          "description": "P(E) = Number of favourable outcomes / Total number of equally likely outcomes. Probability always lies between 0 and 1.",
           "key_ideas": [
-            "Core principles of theoretical probability",
-            "Step-by-step problem solving for theoretical probability",
-            "Real-world applications of theoretical probability"
+            "P(E) = Favourable outcomes / Total outcomes",
+            "0 ≤ P(E) ≤ 1 always",
+            "P(sure event) = 1, P(impossible event) = 0",
+            "P(E) + P(not E) = 1 ⇒ P(not E) = 1 − P(E)"
           ]
         },
         {
-          "concept_id": "math10.probability.prob_events",
-          "title": "Probability of Events (Complement, Impossible, Sure)",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
+          "concept_id": "math10.probability10.elementary_events",
+          "title": "Elementary Events and Sample Space",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
           "prerequisites": [
-            "math10.probability.theoretical_prob"
+            "math10.probability10.classical_definition"
           ],
-          "description": "Probability of Events (Complement, Impossible, Sure) — part of the chapter on Probability.",
+          "description": "An elementary event has a single outcome. The sample space is the set of all possible outcomes. Sum of probabilities of all elementary events = 1.",
           "key_ideas": [
-            "Core principles of probability of events (complement, impossible, sure)",
-            "Step-by-step problem solving for probability of events (complement, impossible, sure)",
-            "Real-world applications of probability of events (complement, impossible, sure)"
+            "Sample space: set of all possible outcomes of an experiment",
+            "Elementary event: event with exactly one outcome",
+            "Compound event: event with more than one outcome",
+            "Sum of probabilities of all elementary events = 1"
+          ]
+        },
+        {
+          "concept_id": "math10.probability10.problems_applications",
+          "title": "Probability Problems — Coins, Dice, Cards",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math10.probability10.elementary_events"
+          ],
+          "description": "Apply probability to standard experiments: tossing coins, rolling dice, drawing cards from a deck. Systematic counting is key.",
+          "key_ideas": [
+            "Coin: P(Head) = P(Tail) = 1/2; two coins: 4 outcomes (HH,HT,TH,TT)",
+            "Die: 6 outcomes (1-6); two dice: 36 outcomes",
+            "Deck of cards: 52 cards, 4 suits × 13 ranks",
+            "Strategy: list sample space, count favourable outcomes, apply P = favourable/total"
           ]
         }
       ]

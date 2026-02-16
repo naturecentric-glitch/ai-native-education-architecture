@@ -1,0 +1,439 @@
+{
+  "course_id": "english4",
+  "title": "Class 4 English",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Reading and Comprehension",
+      "concepts": [
+        {
+          "concept_id": "english4.reading4.unseen_passage",
+          "title": "Unseen Passage — Factual",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Unseen Passage — Factual — part of the chapter on Reading and Comprehension.",
+          "key_ideas": [
+            "Core principles of unseen passage",
+            "Step-by-step problem solving for unseen passage",
+            "Real-world applications of unseen passage"
+          ]
+        },
+        {
+          "concept_id": "english4.reading4.poetry4",
+          "title": "Poetry Appreciation",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Poetry Appreciation — part of the chapter on Reading and Comprehension.",
+          "key_ideas": [
+            "Core principles of poetry appreciation",
+            "Step-by-step problem solving for poetry appreciation",
+            "Real-world applications of poetry appreciation"
+          ]
+        },
+        {
+          "concept_id": "english4.reading4.story_comprehension",
+          "title": "Story Comprehension",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Reading narrative texts to identify characters, setting, and the sequence of events (plot).",
+          "key_ideas": [
+            "Identifying main and supporting characters",
+            "Understanding the setting (time and place)",
+            "Sequencing events (Beginning, Middle, End)",
+            "Answering 'Who', 'Where', and 'When' questions"
+          ]
+        },
+        {
+          "concept_id": "english4.reading4.visual_text",
+          "title": "Picture and Poster Comprehension",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Extracting specific information from visual texts such as posters, advertisements, or picture compositions.",
+          "key_ideas": [
+            "Observing visual details carefully",
+            "Connecting images with accompanying text",
+            "Understanding the purpose of a poster or notice",
+            "Answering factual questions based on visual data"
+          ]
+        },
+        {
+          "concept_id": "english4.reading4.context_clues",
+          "title": "Vocabulary Context Clues",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english4.reading4.unseen_passage"
+          ],
+          "description": "Deducing the meaning of unfamiliar words by analyzing the surrounding words and sentences.",
+          "key_ideas": [
+            "Using synonyms or antonyms in the text as hints",
+            "Inferring meaning from the general situation",
+            "Replacing the difficult word to test meaning",
+            "Ignoring irrelevant words to focus on the main message"
+          ]
+        },
+        {
+          "concept_id": "english4.reading4.main_idea",
+          "title": "Identifying Main Idea and Title",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english4.reading4.unseen_passage"
+          ],
+          "description": "Distinguishing between the central theme of a passage and specific supporting details to choose appropriate titles.",
+          "key_ideas": [
+            "Identifying the topic sentence",
+            "Differentiating between the 'big picture' and small details",
+            "Selecting a suitable title for a passage",
+            "Summarizing the text in one sentence"
+          ]
+        },
+        {
+          "concept_id": "english4.reading4.inference",
+          "title": "Drawing Inferences",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english4.reading4.story_comprehension"
+          ],
+          "description": "Understanding implied information and drawing conclusions that are not explicitly stated in the text.",
+          "key_ideas": [
+            "Reading between the lines",
+            "Using text evidence to support a guess",
+            "Predicting what might happen next based on clues",
+            "Understanding character feelings not directly described"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Grammar",
+      "concepts": [
+        {
+          "concept_id": "english4.grammar4.tenses4",
+          "title": "Tenses — Past, Present, Future",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Tenses — Past, Present, Future — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of tenses",
+            "Step-by-step problem solving for tenses",
+            "Real-world applications of tenses"
+          ]
+        },
+        {
+          "concept_id": "english4.grammar4.adjectives",
+          "title": "Adjectives — Describing Words",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Adjectives — Describing Words — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of adjectives",
+            "Step-by-step problem solving for adjectives",
+            "Real-world applications of adjectives"
+          ]
+        },
+        {
+          "concept_id": "english4.grammar4.prepositions",
+          "title": "Prepositions — in, on, at, under, between",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Prepositions — in, on, at, under, between — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of prepositions",
+            "Step-by-step problem solving for prepositions",
+            "Real-world applications of prepositions"
+          ]
+        },
+        {
+          "concept_id": "english4.grammar4.collective_nouns",
+          "title": "Collective Nouns",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to specific names given to groups of people, animals, or things.",
+          "key_ideas": [
+            "Definition of collective nouns",
+            "Common animal groups (e.g., flock, herd, pride)",
+            "Common object groups (e.g., bunch, pack, set)"
+          ]
+        },
+        {
+          "concept_id": "english4.grammar4.pronouns",
+          "title": "Pronouns — Personal and Possessive",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Using words to replace nouns to avoid repetition and indicate ownership.",
+          "key_ideas": [
+            "Subject pronouns (I, he, she, they)",
+            "Object pronouns (me, him, her, them)",
+            "Possessive pronouns (mine, yours, ours)"
+          ]
+        },
+        {
+          "concept_id": "english4.grammar4.adverbs",
+          "title": "Adverbs — Modifying Verbs",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english4.grammar4.tenses4",
+            "english4.grammar4.adjectives"
+          ],
+          "description": "Understanding words that describe how, when, or where an action takes place.",
+          "key_ideas": [
+            "Adverbs of manner (mostly ending in -ly)",
+            "Adverbs of time (yesterday, now, soon)",
+            "Difference between adjectives and adverbs"
+          ]
+        },
+        {
+          "concept_id": "english4.grammar4.conjunctions",
+          "title": "Conjunctions — Joining Sentences",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Using connecting words to link words, phrases, or short sentences together.",
+          "key_ideas": [
+            "Using 'and' to add information",
+            "Using 'but' to show contrast",
+            "Using 'or' to show choice",
+            "Using 'because' to show reason"
+          ]
+        },
+        {
+          "concept_id": "english4.grammar4.punctuation",
+          "title": "Punctuation and Capitalization",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english4.grammar4.tenses4"
+          ],
+          "description": "Applying correct marks to structure sentences and capitalizing proper nouns.",
+          "key_ideas": [
+            "Capital letters for sentence starts and proper nouns",
+            "Full stops and commas",
+            "Question marks and exclamation marks"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Writing Skills",
+      "concepts": [
+        {
+          "concept_id": "english4.writing4.story_writing",
+          "title": "Story Writing from Outlines",
+          "bloom_level": "create",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Story Writing from Outlines — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of story writing from outlines",
+            "Step-by-step problem solving for story writing from outlines",
+            "Real-world applications of story writing from outlines"
+          ]
+        },
+        {
+          "concept_id": "english4.writing4.diary_entry",
+          "title": "Diary Entry",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Diary Entry — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of diary entry",
+            "Step-by-step problem solving for diary entry",
+            "Real-world applications of diary entry"
+          ]
+        },
+        {
+          "concept_id": "english4.writing4.paragraph_writing",
+          "title": "Paragraph Writing",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learn the fundamentals of structuring a single paragraph around one central idea, including a topic sentence and supporting details.",
+          "key_ideas": [
+            "Identifying the main topic or central idea",
+            "Writing a clear topic sentence",
+            "Using supporting sentences to add details",
+            "Writing a concluding sentence"
+          ]
+        },
+        {
+          "concept_id": "english4.writing4.picture_composition",
+          "title": "Picture Composition",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english4.writing4.paragraph_writing"
+          ],
+          "description": "Develop the ability to observe a visual image and describe the setting, characters, and actions taking place using appropriate vocabulary.",
+          "key_ideas": [
+            "Observing visual details carefully",
+            "Using present continuous tense to describe actions",
+            "Inferring feelings or context from the image",
+            "Organizing observations into a logical sequence"
+          ]
+        },
+        {
+          "concept_id": "english4.writing4.message_writing",
+          "title": "Short Message Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Learn to write short, functional notes to convey important information when direct communication is not possible, focusing on brevity and clarity.",
+          "key_ideas": [
+            "Including date and time of the message",
+            "Addressing the receiver correctly",
+            "Keeping the body brief and to the point",
+            "Mentioning the writer's name at the end"
+          ]
+        },
+        {
+          "concept_id": "english4.writing4.informal_letter",
+          "title": "Informal Letter Writing",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english4.writing4.paragraph_writing"
+          ],
+          "description": "Understand the format and tone required to write personal letters to friends and family members.",
+          "key_ideas": [
+            "Correct placement of sender's address and date",
+            "Using appropriate salutations (e.g., Dear...)",
+            "Structuring the body into introduction, main message, and conclusion",
+            "Using a complimentary close (e.g., Yours lovingly)"
+          ]
+        },
+        {
+          "concept_id": "english4.writing4.descriptive_writing",
+          "title": "Descriptive Writing: People and Places",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english4.writing4.paragraph_writing"
+          ],
+          "description": "Practice using adjectives and sensory details to create vivid descriptions of familiar people, pets, or places.",
+          "key_ideas": [
+            "Using adjectives to describe physical appearance",
+            "Describing personality traits or atmosphere",
+            "Using sensory details (sight, sound, smell)",
+            "Creating a mental image for the reader"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Vocabulary",
+      "concepts": [
+        {
+          "concept_id": "english4.vocabulary4.prefixes_suffixes",
+          "title": "Prefixes and Suffixes",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Prefixes and Suffixes — part of the chapter on Vocabulary.",
+          "key_ideas": [
+            "Core principles of prefixes and suffixes",
+            "Step-by-step problem solving for prefixes and suffixes",
+            "Real-world applications of prefixes and suffixes"
+          ]
+        },
+        {
+          "concept_id": "english4.vocabulary4.idioms",
+          "title": "Common Idioms and Phrases",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Common Idioms and Phrases — part of the chapter on Vocabulary.",
+          "key_ideas": [
+            "Core principles of common idioms and phrases",
+            "Step-by-step problem solving for common idioms and phrases",
+            "Real-world applications of common idioms and phrases"
+          ]
+        },
+        {
+          "concept_id": "english4.vocabulary4.synonyms_antonyms",
+          "title": "Synonyms and Antonyms",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to words that have similar meanings (synonyms) and words that have opposite meanings (antonyms) to enhance descriptive writing.",
+          "key_ideas": [
+            "Synonyms allow for variety in writing to avoid repetition.",
+            "Antonyms help express contrast and opposition.",
+            "Context determines the best synonym to use."
+          ]
+        },
+        {
+          "concept_id": "english4.vocabulary4.homophones",
+          "title": "Homophones and Homonyms",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "differentiation between words that sound the same but have different spellings and meanings, ensuring correct usage in sentences.",
+          "key_ideas": [
+            "Homophones sound alike but have different spellings (e.g., see/sea, tail/tale).",
+            "Homonyms have the same spelling but different meanings (e.g., bark of a tree vs. dog's bark).",
+            "Using context clues to determine the correct word choice."
+          ]
+        },
+        {
+          "concept_id": "english4.vocabulary4.compound_words",
+          "title": "Compound Words",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english4.vocabulary4.prefixes_suffixes"
+          ],
+          "description": "Understanding how two distinct words can be combined to form a new word with a specific meaning.",
+          "key_ideas": [
+            "Closed compounds are written as one word (e.g., keyboard, sunflower).",
+            "Open compounds are written as separate words but function as one unit (e.g., ice cream).",
+            "Analyzing the meanings of the individual root words to guess the compound meaning."
+          ]
+        },
+        {
+          "concept_id": "english4.vocabulary4.context_clues",
+          "title": "Using Context Clues",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english4.vocabulary4.synonyms_antonyms"
+          ],
+          "description": "Strategies for determining the meaning of unfamiliar words by analyzing the surrounding text rather than using a dictionary.",
+          "key_ideas": [
+            "Looking for definition clues within the sentence.",
+            "Identifying synonym or antonym clues nearby.",
+            "Using inference based on the general situation or mood of the text."
+          ]
+        },
+        {
+          "concept_id": "english4.vocabulary4.one_word_substitution",
+          "title": "One Word Substitution",
+          "bloom_level": "remember",
+          "difficulty": 0.8,
+          "prerequisites": [],
+          "description": "Learning specific vocabulary words that replace complex phrases or descriptions to make communication more concise.",
+          "key_ideas": [
+            "Replacing descriptive phrases about professions (e.g., 'one who flies planes' -> 'pilot').",
+            "Words for groups or collections (collective nouns).",
+            "Improving brevity and clarity in writing."
+          ]
+        }
+      ]
+    }
+  ]
+}

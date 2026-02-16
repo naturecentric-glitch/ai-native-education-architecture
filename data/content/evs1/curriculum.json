@@ -1,0 +1,504 @@
+{
+  "course_id": "evs1",
+  "title": "Class 1 EVS",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "My Family",
+      "concepts": [
+        {
+          "concept_id": "evs1.my_family.family_members",
+          "title": "Family Members and Relationships",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Family Members and Relationships — part of the chapter on My Family.",
+          "key_ideas": [
+            "Core principles of family members and relationships",
+            "Step-by-step problem solving for family members and relationships",
+            "Real-world applications of family members and relationships"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_family.helping_at_home",
+          "title": "Helping at Home",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Helping at Home — part of the chapter on My Family.",
+          "key_ideas": [
+            "Core principles of helping at home",
+            "Step-by-step problem solving for helping at home",
+            "Real-world applications of helping at home"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_family.types_of_families",
+          "title": "Small and Large Families",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs1.my_family.family_members"
+          ],
+          "description": "Differentiating between different family sizes, specifically nuclear (small) families and joint (large) families.",
+          "key_ideas": [
+            "A small family has parents and one or two children",
+            "A large or joint family includes grandparents, uncles, aunts, and cousins",
+            "Living together in one house"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_family.surnames",
+          "title": "Our Family Name",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs1.my_family.family_members"
+          ],
+          "description": "Understanding that family members usually share a common last name, known as a surname.",
+          "key_ideas": [
+            "Difference between first name and last name",
+            "The surname shows which family we belong to",
+            "Writing full names correctly"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_family.family_recreation",
+          "title": "Fun with Family",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Identifying activities that families do together to bond, celebrate, and relax.",
+          "key_ideas": [
+            "Eating meals together",
+            "Celebrating festivals and birthdays",
+            "Going for picnics or outings",
+            "Spending time with grandparents"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_family.respecting_elders",
+          "title": "Respecting Our Elders",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs1.my_family.family_members",
+            "evs1.my_family.helping_at_home"
+          ],
+          "description": "Learning appropriate behaviors and manners to show care and respect for older family members.",
+          "key_ideas": [
+            "Greeting elders politely",
+            "Listening to what parents and grandparents say",
+            "Speaking softly and not shouting",
+            "Caring for elders when they are sick"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "My Body",
+      "concepts": [
+        {
+          "concept_id": "evs1.my_body.body_parts",
+          "title": "Body Parts and Their Functions",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Body Parts and Their Functions — part of the chapter on My Body.",
+          "key_ideas": [
+            "Core principles of body parts and their functions",
+            "Step-by-step problem solving for body parts and their functions",
+            "Real-world applications of body parts and their functions"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_body.good_habits",
+          "title": "Good Habits — Hygiene and Health",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [
+            "evs1.my_body.body_parts"
+          ],
+          "description": "Good Habits — Hygiene and Health — part of the chapter on My Body.",
+          "key_ideas": [
+            "Core principles of good habits",
+            "Step-by-step problem solving for good habits",
+            "Real-world applications of good habits"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_body.sense_organs",
+          "title": "The Five Sense Organs",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs1.my_body.body_parts"
+          ],
+          "description": "Introduction to the five specific organs that help us perceive the world around us: eyes, ears, nose, tongue, and skin.",
+          "key_ideas": [
+            "Eyes help us see colors and shapes",
+            "Ears help us hear sounds",
+            "Nose helps us smell",
+            "Tongue helps us taste food",
+            "Skin helps us feel touch, heat, and cold"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_body.body_movements",
+          "title": "What Can My Body Do?",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs1.my_body.body_parts"
+          ],
+          "description": "Understanding the specific actions and movements associated with different limbs and body parts.",
+          "key_ideas": [
+            "Hands are used for holding, writing, and clapping",
+            "Legs and feet are used for walking, running, and jumping",
+            "The neck helps us turn our head from side to side",
+            "The mouth is used for speaking and eating"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_body.correct_posture",
+          "title": "Correct Posture",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs1.my_body.body_parts",
+            "evs1.my_body.good_habits"
+          ],
+          "description": "Learning the correct way to position the body while sitting, standing, and walking to maintain a healthy spine and bones.",
+          "key_ideas": [
+            "Standing straight with weight balanced",
+            "Sitting with a straight back against the chair",
+            "Walking with head up and shoulders back",
+            "Importance of posture for bone health"
+          ]
+        },
+        {
+          "concept_id": "evs1.my_body.growth_and_change",
+          "title": "Growing Up",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs1.my_body.body_parts"
+          ],
+          "description": "Recognizing that the human body grows and changes over time, transforming from a baby to a child and eventually an adult.",
+          "key_ideas": [
+            "We are born as babies and grow into children",
+            "As we grow, our height and weight increase",
+            "Clothes and shoes become too small as we grow",
+            "We learn to do more things independently as we get older"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Plants Around Us",
+      "concepts": [
+        {
+          "concept_id": "evs1.plants_around.types_plants",
+          "title": "Types of Plants — Big and Small",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Types of Plants — Big and Small — part of the chapter on Plants Around Us.",
+          "key_ideas": [
+            "Core principles of types of plants",
+            "Step-by-step problem solving for types of plants",
+            "Real-world applications of types of plants"
+          ]
+        },
+        {
+          "concept_id": "evs1.plants_around.parts_plant",
+          "title": "Parts of a Plant",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Parts of a Plant — part of the chapter on Plants Around Us.",
+          "key_ideas": [
+            "Core principles of parts of a plant",
+            "Step-by-step problem solving for parts of a plant",
+            "Real-world applications of parts of a plant"
+          ]
+        },
+        {
+          "concept_id": "evs1.plants_around.needs_of_plants",
+          "title": "What Plants Need to Grow",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs1.plants_around.types_plants"
+          ],
+          "description": "Introduction to the basic necessities required for a plant to stay alive and grow, emphasizing that plants are living things.",
+          "key_ideas": [
+            "Plants are living things",
+            "Plants need water and sunlight",
+            "Plants need soil and air"
+          ]
+        },
+        {
+          "concept_id": "evs1.plants_around.leaves_and_flowers",
+          "title": "Diversity in Leaves and Flowers",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs1.plants_around.parts_plant"
+          ],
+          "description": "Observing and comparing the different shapes, sizes, colors, and textures of leaves and flowers found in the surroundings.",
+          "key_ideas": [
+            "Leaves are mostly green but have different shapes",
+            "Flowers come in many colors and smells",
+            "Identifying common leaves (like mango or neem) and flowers (like rose or marigold)"
+          ]
+        },
+        {
+          "concept_id": "evs1.plants_around.food_from_plants",
+          "title": "Food We Get from Plants",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs1.plants_around.parts_plant"
+          ],
+          "description": "Identifying the various types of food items humans consume that originate from plants, linking plant parts to the food on our plate.",
+          "key_ideas": [
+            "Fruits and vegetables come from plants",
+            "We eat roots (carrots), leaves (spinach), and seeds (rice)",
+            "Plants provide healthy food"
+          ]
+        },
+        {
+          "concept_id": "evs1.plants_around.seed_to_plant",
+          "title": "From Seed to Plant",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs1.plants_around.needs_of_plants",
+            "evs1.plants_around.parts_plant"
+          ],
+          "description": "A simple overview of the life cycle of a plant, explaining how a tiny seed grows into a baby plant.",
+          "key_ideas": [
+            "Most plants grow from seeds",
+            "Baby plants are hidden inside seeds",
+            "A seed needs water and soil to open up"
+          ]
+        },
+        {
+          "concept_id": "evs1.plants_around.caring_for_plants",
+          "title": "Taking Care of Plants",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "evs1.plants_around.needs_of_plants"
+          ],
+          "description": "Learning the do's and don'ts of interacting with nature to ensure plants are protected and conserved.",
+          "key_ideas": [
+            "We should water plants regularly",
+            "We should not pluck flowers or leaves unnecessarily",
+            "Trees give us shade and fresh air, so we must protect them"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Animals Around Us",
+      "concepts": [
+        {
+          "concept_id": "evs1.animals_around.pet_wild",
+          "title": "Pet Animals and Wild Animals",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Pet Animals and Wild Animals — part of the chapter on Animals Around Us.",
+          "key_ideas": [
+            "Core principles of pet animals and wild animals",
+            "Step-by-step problem solving for pet animals and wild animals",
+            "Real-world applications of pet animals and wild animals"
+          ]
+        },
+        {
+          "concept_id": "evs1.animals_around.animal_homes",
+          "title": "Homes of Animals",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Homes of Animals — part of the chapter on Animals Around Us.",
+          "key_ideas": [
+            "Core principles of homes of animals",
+            "Step-by-step problem solving for homes of animals",
+            "Real-world applications of homes of animals"
+          ]
+        },
+        {
+          "concept_id": "evs1.animals_around.animal_sounds",
+          "title": "Sounds Animals Make",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Identification of the distinct sounds produced by common animals to communicate.",
+          "key_ideas": [
+            "Different animals make different sounds",
+            "Common sounds: bark, meow, moo, roar, chirp",
+            "Listening to sounds helps identify animals even when we cannot see them"
+          ]
+        },
+        {
+          "concept_id": "evs1.animals_around.young_ones",
+          "title": "Young Ones of Animals",
+          "bloom_level": "remember",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs1.animals_around.pet_wild"
+          ],
+          "description": "Learning the specific names given to the babies or offspring of different animals.",
+          "key_ideas": [
+            "Baby animals often look like small versions of their parents",
+            "Specific names for babies (e.g., Dog-Puppy, Cat-Kitten, Cow-Calf)",
+            "Matching parent animals to their young ones"
+          ]
+        },
+        {
+          "concept_id": "evs1.animals_around.animal_food",
+          "title": "What Animals Eat",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs1.animals_around.pet_wild"
+          ],
+          "description": "Introduction to the eating habits of animals, distinguishing between plant-eaters and those who eat other animals.",
+          "key_ideas": [
+            "All animals need food to live and grow",
+            "Some animals eat grass, leaves, and vegetables",
+            "Some animals eat insects or other smaller animals",
+            "Some animals eat grains and nuts"
+          ]
+        },
+        {
+          "concept_id": "evs1.animals_around.animal_movement",
+          "title": "How Animals Move",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Observing and categorizing animals based on their primary mode of locomotion (land, water, or sky).",
+          "key_ideas": [
+            "Animals use different body parts to move",
+            "Birds use wings to fly",
+            "Fish use fins to swim in water",
+            "Most land animals use legs to walk or run"
+          ]
+        },
+        {
+          "concept_id": "evs1.animals_around.caring_for_animals",
+          "title": "Caring for Animals",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs1.animals_around.pet_wild",
+            "evs1.animals_around.animal_homes"
+          ],
+          "description": "Understanding the importance of kindness towards animals and basic responsibilities regarding pet care.",
+          "key_ideas": [
+            "We should be kind and not tease or hurt animals",
+            "Pets need food, clean water, and a safe place to sleep",
+            "Sick animals need help from a doctor (vet)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Food We Eat",
+      "concepts": [
+        {
+          "concept_id": "evs1.food_we_eat.healthy_food",
+          "title": "Healthy Food and Junk Food",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Healthy Food and Junk Food — part of the chapter on Food We Eat.",
+          "key_ideas": [
+            "Core principles of healthy food and junk food",
+            "Step-by-step problem solving for healthy food and junk food",
+            "Real-world applications of healthy food and junk food"
+          ]
+        },
+        {
+          "concept_id": "evs1.food_we_eat.food_sources",
+          "title": "Where Does Our Food Come From?",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Where Does Our Food Come From? — part of the chapter on Food We Eat.",
+          "key_ideas": [
+            "Core principles of where does our food come from?",
+            "Step-by-step problem solving for where does our food come from?",
+            "Real-world applications of where does our food come from?"
+          ]
+        },
+        {
+          "concept_id": "evs1.food_we_eat.importance_of_food",
+          "title": "Why Do We Need Food?",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Understanding the basic reasons why living things need to eat food to survive and thrive.",
+          "key_ideas": [
+            "Food gives us energy to play and work",
+            "Food helps our body grow big and strong",
+            "Food protects us from falling sick"
+          ]
+        },
+        {
+          "concept_id": "evs1.food_we_eat.meals_of_the_day",
+          "title": "Meals of the Day",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs1.food_we_eat.importance_of_food"
+          ],
+          "description": "Identifying the three main meals eaten at specific times during the day.",
+          "key_ideas": [
+            "Breakfast is the first meal we eat in the morning",
+            "Lunch is eaten in the afternoon",
+            "Dinner is the last meal we eat at night"
+          ]
+        },
+        {
+          "concept_id": "evs1.food_we_eat.raw_and_cooked_food",
+          "title": "Raw and Cooked Food",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs1.food_we_eat.food_sources"
+          ],
+          "description": "Distinguishing between foods that can be eaten raw and foods that must be cooked before eating.",
+          "key_ideas": [
+            "Fruits and some vegetables like cucumber can be eaten raw",
+            "Rice, pulses, eggs, and meat must be cooked",
+            "Cooking makes food soft and tasty"
+          ]
+        },
+        {
+          "concept_id": "evs1.food_we_eat.good_eating_habits",
+          "title": "Good Eating Habits",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs1.food_we_eat.healthy_food"
+          ],
+          "description": "Learning and practicing good manners and hygiene related to eating.",
+          "key_ideas": [
+            "Wash hands before and after every meal",
+            "Chew food properly and do not talk while eating",
+            "Do not waste food on your plate",
+            "Eat at a fixed time every day"
+          ]
+        }
+      ]
+    }
+  ]
+}

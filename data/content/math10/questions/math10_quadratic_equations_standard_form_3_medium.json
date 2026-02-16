@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "State and explain the key concept: Standard form: ax² + bx + c = 0 where a ≠ 0.",
+    "hint": "Think about the definition and main formula related to Standard Form and Factorization Method.",
+    "expected_answer": "This tests understanding of: Standard form: ax² + bx + c = 0 where a ≠ 0. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Standard Form and Factorization Method"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "question": "Solve an NCERT example problem related to 'Standard Form and Factorization Method'. Show all steps clearly.",
+    "hint": "Review the key ideas: Standard form: ax² + bx + c = 0 where a ≠ 0, Splitting middle term: find two numbers with sum = b and product = ac.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Standard Form and Factorization Method. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Standard Form and Factorization Method"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.55,
+    "question": "How would you apply 'Standard Form and Factorization Method' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where standard form and factorization method concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Standard Form and Factorization Method.",
+    "concepts_tested": [
+      "Standard Form and Factorization Method",
+      "Real-world application"
+    ]
+  }
+]

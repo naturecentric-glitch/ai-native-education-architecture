@@ -1,0 +1,12 @@
+{
+  "title": "Areas of Combinations of Plane Figures — Areas Related to Circles",
+  "hook": "Let's explore <strong>Areas of Combinations of Plane Figures</strong> from the chapter on Areas Related to Circles. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Areas of Combinations of Plane Figures</strong>\n\n<em>Find areas of shaded regions in figures that combine circles, squares, triangles, and other shapes by adding or subtracting individual areas.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Strategy: identify the shapes involved, then add or subtract areas</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Common patterns: circle inscribed in square, semicircles on sides of triangle</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Shaded area = Total area − Unshaded area (often easier to compute)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Draw auxiliary lines to break complex figures into simple shapes</div>",
+  "worked_example": "<em>A detailed worked example for Areas of Combinations of Plane Figures will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Areas of Combinations of Plane Figures and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and areas related to circles concepts like areas of combinations of plane figures are used in engineering, data science, and everyday problem solving!"
+}

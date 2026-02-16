@@ -1,0 +1,12 @@
+{
+  "title": "Guessing Game: Rounding Off Like a Pro!",
+  "hook": "Imagine you're at a bustling Diwali mela with your family. Your mom gives you ₹287 to spend. Can you quickly estimate if you have enough to buy a ₹150 toy car and a ₹120 doll without actually adding the exact amounts in your head? That's where estimation comes in handy!",
+  "explanation": "Estimation is like making a smart guess. Rounding off helps us make those guesses easier. Think of rounding off as finding the nearest 'easy' number. Here's how it works:\n\n1.  **Identify the Place:** Decide which place value you want to round to (e.g., nearest ten, nearest hundred).\n2.  **Look Next Door:** Look at the digit to the right of that place.\n3.  **Five or More? Raise the Score!** If the digit to the right is 5 or more, add 1 to the digit in the place you're rounding to.\n4.  **Four or Less? Let it Rest!** If the digit to the right is 4 or less, leave the digit in the place you're rounding to as it is.\n5.  **Zeros to the Right:** Change all the digits to the right of the rounding place to zeros.\n\n**Example:** Rounding 47 to the nearest ten:\n*   We want to round to the nearest ten, so we look at the '4' in the tens place.\n*   The digit to the right of '4' is '7'.\n*   Since 7 is more than 5, we 'raise the score' and add 1 to 4, making it 5.\n*   Change the digit to the right (7) to zero.\n*   So, 47 rounded to the nearest ten is 50.",
+  "worked_example": "Let's round 3,256 to the nearest hundred:\n\n1.  **Identify the Place:** We're rounding to the nearest hundred, so we focus on the '2' in the hundreds place.\n2.  **Look Next Door:** The digit to the right of '2' is '5'.\n3.  **Five or More? Raise the Score!** Since 5 is 5 or more, we add 1 to 2, making it 3.\n4.  **Zeros to the Right:** Change the digits to the right of the hundreds place (5 and 6) to zeros.\n5.  **Result:** 3,256 rounded to the nearest hundred is 3,300.",
+  "try_this": {
+    "question": "A shopkeeper sold 1,885 diyas before Diwali. Round this number to the nearest thousand to estimate how many diyas he sold.",
+    "hint": "Which digit are you looking at when rounding to the nearest thousand?",
+    "answer": "2,000. Since the hundreds digit is 8 (which is greater than 5), we round the thousands digit (1) up to 2 and replace the rest of the digits with zeros."
+  },
+  "fun_fact": "Did you know that ancient mathematicians used estimation to calculate the circumference of the Earth long before modern tools were invented? They were pretty good guessers!"
+}

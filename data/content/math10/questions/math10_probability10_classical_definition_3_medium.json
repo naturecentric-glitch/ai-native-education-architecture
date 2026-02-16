@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.35,
+    "question": "A box contains 5 red, 8 white, and 4 green marbles. One marble is drawn at random. Find: (i) P(red) (ii) P(white) (iii) P(not green)",
+    "hint": "Total marbles = 5+8+4 = 17. P = favourable/total.",
+    "expected_answer": "(i) P(red) = 5/17\n(ii) P(white) = 8/17\n(iii) P(not green) = 1 − P(green) = 1 − 4/17 = 13/17",
+    "concepts_tested": [
+      "Classical probability",
+      "Complement rule"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "question": "A bag contains tickets numbered 1 to 25. One ticket is drawn at random. Find the probability that the number on the ticket is: (a) a multiple of 5 (b) a prime number (c) a perfect square",
+    "hint": "List the favourable outcomes for each: multiples of 5 up to 25, primes up to 25, perfect squares up to 25.",
+    "expected_answer": "(a) Multiples of 5: {5,10,15,20,25} = 5 numbers. P = 5/25 = 1/5\n(b) Primes: {2,3,5,7,11,13,17,19,23} = 9 numbers. P = 9/25\n(c) Perfect squares: {1,4,9,16,25} = 5 numbers. P = 5/25 = 1/5",
+    "concepts_tested": [
+      "Classical probability",
+      "Number theory"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "In a class of 40 students, 8 study both Hindi and English, 20 study Hindi only, and 5 study English only. The remaining study neither. If a student is selected at random, find the probability that the student studies: (a) both subjects (b) at least one subject (c) neither subject.",
+    "hint": "Count: Hindi only = 20, English only = 5, Both = 8, Neither = 40 − 20 − 5 − 8 = 7.",
+    "expected_answer": "(a) P(both) = 8/40 = 1/5\n(b) At least one = 20+5+8 = 33. P = 33/40\n(c) Neither = 40−33 = 7. P = 7/40",
+    "concepts_tested": [
+      "Classical probability",
+      "Set counting"
+    ]
+  }
+]

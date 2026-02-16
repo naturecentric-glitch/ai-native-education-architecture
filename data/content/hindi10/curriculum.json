@@ -1,0 +1,82 @@
+{
+  "course_id": "hindi10",
+  "title": "Class 10 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "क्षितिज — Kshitij",
+      "concepts": [
+        {
+          "concept_id": "hindi10.kshitij10.lessons10",
+          "title": "Prose and Poetry with Questions",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Prose and Poetry with Questions — part of the chapter on क्षितिज — Kshitij.",
+          "key_ideas": [
+            "Core principles of prose and poetry with questions",
+            "Step-by-step problem solving for prose and poetry with questions",
+            "Real-world applications of prose and poetry with questions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "कृतिका — Kritika",
+      "concepts": [
+        {
+          "concept_id": "hindi10.kritika10.stories10",
+          "title": "Stories — Analysis",
+          "bloom_level": "analyze",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Stories — Analysis — part of the chapter on कृतिका — Kritika.",
+          "key_ideas": [
+            "Core principles of stories",
+            "Step-by-step problem solving for stories",
+            "Real-world applications of stories"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "व्याकरण",
+      "concepts": [
+        {
+          "concept_id": "hindi10.vyakaran10.grammar10",
+          "title": "वाच्य, पद परिचय, रचना",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "वाच्य, पद परिचय, रचना — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of वाच्य, पद परिचय, रचना",
+            "Step-by-step problem solving for वाच्य, पद परिचय, रचना",
+            "Real-world applications of वाच्य, पद परिचय, रचना"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "लेखन",
+      "concepts": [
+        {
+          "concept_id": "hindi10.lekhan10.writing10",
+          "title": "Essay, Letter, Advertisement Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Essay, Letter, Advertisement Writing — part of the chapter on लेखन.",
+          "key_ideas": [
+            "Core principles of essay, letter, advertisement writing",
+            "Step-by-step problem solving for essay, letter, advertisement writing",
+            "Real-world applications of essay, letter, advertisement writing"
+          ]
+        }
+      ]
+    }
+  ]
+}

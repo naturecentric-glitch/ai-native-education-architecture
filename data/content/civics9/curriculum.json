@@ -1,0 +1,101 @@
+{
+  "course_id": "civics9",
+  "title": "Class 9 Civics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "What Is Democracy? Why Democracy?",
+      "concepts": [
+        {
+          "concept_id": "civics9.democracy9.features_merits",
+          "title": "Features and Merits of Democracy",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Features and Merits of Democracy — part of the chapter on What Is Democracy? Why Democracy?.",
+          "key_ideas": [
+            "Core principles of features and merits of democracy",
+            "Step-by-step problem solving for features and merits of democracy",
+            "Real-world applications of features and merits of democracy"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Constitutional Design",
+      "concepts": [
+        {
+          "concept_id": "civics9.constitutional_design.making_constitution",
+          "title": "Making of Indian Constitution",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Making of Indian Constitution — part of the chapter on Constitutional Design.",
+          "key_ideas": [
+            "Core principles of making of indian constitution",
+            "Step-by-step problem solving for making of indian constitution",
+            "Real-world applications of making of indian constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Electoral Politics",
+      "concepts": [
+        {
+          "concept_id": "civics9.electoral_politics.elections_india",
+          "title": "Elections in India",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Elections in India — part of the chapter on Electoral Politics.",
+          "key_ideas": [
+            "Core principles of elections in india",
+            "Step-by-step problem solving for elections in india",
+            "Real-world applications of elections in india"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Working of Institutions",
+      "concepts": [
+        {
+          "concept_id": "civics9.institutions.legislature_executive_judiciary",
+          "title": "Legislature, Executive and Judiciary",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Legislature, Executive and Judiciary — part of the chapter on Working of Institutions.",
+          "key_ideas": [
+            "Core principles of legislature, executive and judiciary",
+            "Step-by-step problem solving for legislature, executive and judiciary",
+            "Real-world applications of legislature, executive and judiciary"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Democratic Rights",
+      "concepts": [
+        {
+          "concept_id": "civics9.democratic_rights.fundamental_rights",
+          "title": "Fundamental Rights",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Fundamental Rights — part of the chapter on Democratic Rights.",
+          "key_ideas": [
+            "Core principles of fundamental rights",
+            "Step-by-step problem solving for fundamental rights",
+            "Real-world applications of fundamental rights"
+          ]
+        }
+      ]
+    }
+  ]
+}

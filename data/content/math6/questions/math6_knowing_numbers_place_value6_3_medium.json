@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "word_problem",
+    "question": "A factory produced 23,45,789 toys in 2022. In 2023, it produced 12,87,654 more toys than in 2022. How many toys did the factory produce in 2023? Also, what was the total production of toys in both years combined? Express your answers in words using the Indian Number System (Lakhs and Crores).",
+    "hint": "First, find the production in 2023. Then, add the production of both years to find the total production.",
+    "expected_answer": "Production in 2023: 23,45,789 + 12,87,654 = 36,33,443. In words: Thirty-six Lakhs Thirty-three Thousand Four Hundred and Forty-three.\nTotal production: 23,45,789 + 36,33,443 = 59,79,232. In words: Fifty-nine Lakhs Seventy-nine Thousand Two Hundred and Thirty-two.",
+    "concepts_tested": [
+      "Core principles of place value system",
+      "Step-bystep problem solving for place value system"
+    ],
+    "difficulty": 0.6
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "question": "Write the number 7,23,05,108 in the Indian Place Value Chart. Then, write the number name according to the Indian Number System using Lakhs and Crores.",
+    "hint": "Remember the places: Ones, Tens, Hundreds, Thousands, Ten Thousands, Lakhs, Ten Lakhs, Crores, Ten Crores.",
+    "expected_answer": "Place Value Chart:\n\n| Crores | Ten Lakhs | Lakhs | Ten Thousands | Thousands | Hundreds | Tens | Ones |\n|---|---|---|---|---|---|---|---|\n| 7 | 2 | 3 | 0 | 5 | 1 | 0 | 8 |\n\nNumber Name: Seven Crores Twenty-three Lakhs Five Thousand One Hundred and Eight.",
+    "concepts_tested": [
+      "Core principles of place value system"
+    ],
+    "difficulty": 0.5
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "question": "Imagine you are a data analyst working for a government that is tracking the population of different cities. You have the population data for three cities: City A has a population of 1,567,890, City B has a population of 987,654, and City C has a population of 2,012,345. The government wants to understand the difference in population between the most and least populated cities. \n\n1.  Write down the population of each city in words according to the Indian Number System (Lakhs and Crores). \n2.  Calculate the difference in population between the most populated and the least populated city. Express this difference in numerals and in words.",
+    "hint": "First, identify the most and least populated cities. Then, subtract the smaller number from the larger number. Finally, express the difference in both numerals and words.",
+    "expected_answer": "1. City A: Fifteen Lakhs Sixty-seven Thousand Eight Hundred and Ninety.\nCity B: Nine Lakhs Eighty-seven Thousand Six Hundred and Fifty-four.\nCity C: Twenty Lakhs Twelve Thousand Three Hundred and Forty-five.\n2. Most populated: City C (20,12,345)\nLeast populated: City B (9,87,654)\nDifference: 20,12,345 - 9,87,654 = 10,24,691. In words: Ten Lakhs Twenty-four Thousand Six Hundred and Ninety-one.",
+    "concepts_tested": [
+      "Core principles of place value system",
+      "Real-world applications of place value system",
+      "Step-by-step problem solving for place value system"
+    ],
+    "difficulty": 0.7
+  }
+]

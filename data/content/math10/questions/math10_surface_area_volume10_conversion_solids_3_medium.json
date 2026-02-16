@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.45,
+    "question": "State and explain the key concept: Volume is conserved when a solid is melted and reshaped.",
+    "hint": "Think about the definition and main formula related to Conversion of One Solid into Another.",
+    "expected_answer": "This tests understanding of: Volume is conserved when a solid is melted and reshaped. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Conversion of One Solid into Another"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "question": "Solve an NCERT example problem related to 'Conversion of One Solid into Another'. Show all steps clearly.",
+    "hint": "Review the key ideas: Volume is conserved when a solid is melted and reshaped, Equate volumes: V(old shape) = V(new shape) or = n × V(each new).",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Conversion of One Solid into Another. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Conversion of One Solid into Another"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "How would you apply 'Conversion of One Solid into Another' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where conversion of one solid into another concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Conversion of One Solid into Another.",
+    "concepts_tested": [
+      "Conversion of One Solid into Another",
+      "Real-world application"
+    ]
+  }
+]

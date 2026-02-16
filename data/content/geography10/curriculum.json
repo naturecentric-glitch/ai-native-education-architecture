@@ -1,0 +1,139 @@
+{
+  "course_id": "geography10",
+  "title": "Class 10 Geography",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Resources and Development",
+      "concepts": [
+        {
+          "concept_id": "geography10.resources_dev.types_planning",
+          "title": "Resource Types and Planning",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Resource Types and Planning — part of the chapter on Resources and Development.",
+          "key_ideas": [
+            "Core principles of resource types and planning",
+            "Step-by-step problem solving for resource types and planning",
+            "Real-world applications of resource types and planning"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Forest and Wildlife Resources",
+      "concepts": [
+        {
+          "concept_id": "geography10.forest_wildlife10.conservation10",
+          "title": "Conservation Strategies",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Conservation Strategies — part of the chapter on Forest and Wildlife Resources.",
+          "key_ideas": [
+            "Core principles of conservation strategies",
+            "Step-by-step problem solving for conservation strategies",
+            "Real-world applications of conservation strategies"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Water Resources",
+      "concepts": [
+        {
+          "concept_id": "geography10.water_resources10.dams_harvesting",
+          "title": "Dams and Rainwater Harvesting",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Dams and Rainwater Harvesting — part of the chapter on Water Resources.",
+          "key_ideas": [
+            "Core principles of dams and rainwater harvesting",
+            "Step-by-step problem solving for dams and rainwater harvesting",
+            "Real-world applications of dams and rainwater harvesting"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Agriculture",
+      "concepts": [
+        {
+          "concept_id": "geography10.agriculture10.types_crops10",
+          "title": "Types of Farming and Major Crops",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Types of Farming and Major Crops — part of the chapter on Agriculture.",
+          "key_ideas": [
+            "Core principles of types of farming and major crops",
+            "Step-by-step problem solving for types of farming and major crops",
+            "Real-world applications of types of farming and major crops"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Minerals and Energy Resources",
+      "concepts": [
+        {
+          "concept_id": "geography10.minerals_energy10.distribution_conservation",
+          "title": "Distribution and Conservation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Distribution and Conservation — part of the chapter on Minerals and Energy Resources.",
+          "key_ideas": [
+            "Core principles of distribution and conservation",
+            "Step-by-step problem solving for distribution and conservation",
+            "Real-world applications of distribution and conservation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Manufacturing Industries",
+      "concepts": [
+        {
+          "concept_id": "geography10.manufacturing10.classification_impact",
+          "title": "Classification, Agglomeration and Impact",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Classification, Agglomeration and Impact — part of the chapter on Manufacturing Industries.",
+          "key_ideas": [
+            "Core principles of classification, agglomeration and impact",
+            "Step-by-step problem solving for classification, agglomeration and impact",
+            "Real-world applications of classification, agglomeration and impact"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Lifelines of National Economy",
+      "concepts": [
+        {
+          "concept_id": "geography10.lifelines.transport_communication",
+          "title": "Transport, Communication and Trade",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Transport, Communication and Trade — part of the chapter on Lifelines of National Economy.",
+          "key_ideas": [
+            "Core principles of transport, communication and trade",
+            "Step-by-step problem solving for transport, communication and trade",
+            "Real-world applications of transport, communication and trade"
+          ]
+        }
+      ]
+    }
+  ]
+}

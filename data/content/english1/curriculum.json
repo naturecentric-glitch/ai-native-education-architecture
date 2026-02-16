@@ -1,0 +1,444 @@
+{
+  "course_id": "english1",
+  "title": "Class 1 English",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "The Alphabet",
+      "concepts": [
+        {
+          "concept_id": "english1.alphabet.letters",
+          "title": "Recognising Letters A-Z",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Recognising Letters A-Z — part of the chapter on The Alphabet.",
+          "key_ideas": [
+            "Core principles of recognising letters a-z",
+            "Step-by-step problem solving for recognising letters a-z",
+            "Real-world applications of recognising letters a-z"
+          ]
+        },
+        {
+          "concept_id": "english1.alphabet.sounds",
+          "title": "Letter Sounds — Phonics Basics",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [
+            "english1.alphabet.letters"
+          ],
+          "description": "Letter Sounds — Phonics Basics — part of the chapter on The Alphabet.",
+          "key_ideas": [
+            "Core principles of letter sounds",
+            "Step-by-step problem solving for letter sounds",
+            "Real-world applications of letter sounds"
+          ]
+        },
+        {
+          "concept_id": "english1.alphabet.case_distinction",
+          "title": "Uppercase and Lowercase Letters",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english1.alphabet.letters"
+          ],
+          "description": "Distinguishing between capital (uppercase) and small (lowercase) letters and understanding they represent the same sound.",
+          "key_ideas": [
+            "Matching capital letters to their small counterparts (e.g., A and a)",
+            "Visual differences between big and small letters",
+            "Introduction to using capital letters for names and sentence starts"
+          ]
+        },
+        {
+          "concept_id": "english1.alphabet.writing_strokes",
+          "title": "Tracing and Writing Letters",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english1.alphabet.letters"
+          ],
+          "description": "Learning the correct stroke order and mechanics to write letters legibly on four-line paper.",
+          "key_ideas": [
+            "Top-to-bottom and left-to-right stroke direction",
+            "Tracing patterns (standing lines, sleeping lines, curves)",
+            "Positioning letters correctly within the lines"
+          ]
+        },
+        {
+          "concept_id": "english1.alphabet.vowels_consonants",
+          "title": "Introduction to Vowels and Consonants",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english1.alphabet.letters",
+            "english1.alphabet.sounds"
+          ],
+          "description": "Categorizing the alphabet into vowels (a, e, i, o, u) and consonants, understanding the special role vowels play in making sounds.",
+          "key_ideas": [
+            "Identifying the 5 special vowels",
+            "Recognizing consonants as the remaining letters",
+            "Every word needs a vowel sound"
+          ]
+        },
+        {
+          "concept_id": "english1.alphabet.initial_sounds",
+          "title": "Matching Letters to Objects",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english1.alphabet.sounds"
+          ],
+          "description": "Applying letter knowledge to identify the starting letter of familiar objects and words.",
+          "key_ideas": [
+            "Identifying the first sound in a word",
+            "Associating objects with their starting letter (e.g., B for Ball)",
+            "Building basic picture-word vocabulary"
+          ]
+        },
+        {
+          "concept_id": "english1.alphabet.sequence",
+          "title": "Alphabetical Order",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english1.alphabet.letters"
+          ],
+          "description": "Understanding the fixed sequence of letters from A to Z and arranging simple items in this order.",
+          "key_ideas": [
+            "Knowing which letter comes before or after another",
+            "Filling in missing letters in a sequence",
+            "Arranging simple words based on their first letter"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Simple Words",
+      "concepts": [
+        {
+          "concept_id": "english1.words.three_letter",
+          "title": "Three-Letter Words (CVC)",
+          "bloom_level": "apply",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Three-Letter Words (CVC) — part of the chapter on Simple Words.",
+          "key_ideas": [
+            "Core principles of three-letter words (cvc)",
+            "Step-by-step problem solving for three-letter words (cvc)",
+            "Real-world applications of three-letter words (cvc)"
+          ]
+        },
+        {
+          "concept_id": "english1.words.sight_words",
+          "title": "Common Sight Words",
+          "bloom_level": "remember",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Common Sight Words — part of the chapter on Simple Words.",
+          "key_ideas": [
+            "Core principles of common sight words",
+            "Step-by-step problem solving for common sight words",
+            "Real-world applications of common sight words"
+          ]
+        },
+        {
+          "concept_id": "english1.words.rhyming",
+          "title": "Rhyming Words",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english1.words.three_letter"
+          ],
+          "description": "Identifying and grouping words that share the same ending sound pattern to build phonological awareness.",
+          "key_ideas": [
+            "Matching ending sounds",
+            "Word families (e.g., cat, bat, mat)",
+            "Listening for sound patterns"
+          ]
+        },
+        {
+          "concept_id": "english1.words.vowel_sounds",
+          "title": "Short Vowel Sounds",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english1.words.three_letter"
+          ],
+          "description": "Distinguishing between the specific sounds of the five vowels (a, e, i, o, u) within simple words.",
+          "key_ideas": [
+            "Identifying the middle sound in words",
+            "Differentiating 'a' vs 'e' sounds",
+            "Correct pronunciation of short vowels"
+          ]
+        },
+        {
+          "concept_id": "english1.words.opposites",
+          "title": "Opposites (Antonyms)",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english1.words.sight_words"
+          ],
+          "description": "Learning pairs of simple words that have contrasting meanings to expand descriptive vocabulary.",
+          "key_ideas": [
+            "Big and small",
+            "Hot and cold",
+            "Up and down",
+            "Understanding word relationships"
+          ]
+        },
+        {
+          "concept_id": "english1.words.blends_digraphs",
+          "title": "Consonant Blends and Digraphs",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english1.words.three_letter"
+          ],
+          "description": "Reading words containing two consonants that either blend together (like 'bl' or 'st') or make a new sound (like 'sh' or 'ch').",
+          "key_ideas": [
+            "Beginning blends (e.g., frog, clap)",
+            "Digraph sounds (ch, sh, th)",
+            "Moving beyond single letter sounds"
+          ]
+        },
+        {
+          "concept_id": "english1.words.plurals",
+          "title": "One and Many (Simple Plurals)",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english1.words.three_letter"
+          ],
+          "description": "Understanding the concept of singular and plural nouns and applying the rule of adding 's' to indicate more than one.",
+          "key_ideas": [
+            "Singular vs. Plural",
+            "Adding 's' to naming words",
+            "Counting and naming objects"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Simple Sentences",
+      "concepts": [
+        {
+          "concept_id": "english1.sentences.reading_sentences",
+          "title": "Reading Simple Sentences",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Reading Simple Sentences — part of the chapter on Simple Sentences.",
+          "key_ideas": [
+            "Core principles of reading simple sentences",
+            "Step-by-step problem solving for reading simple sentences",
+            "Real-world applications of reading simple sentences"
+          ]
+        },
+        {
+          "concept_id": "english1.sentences.writing_sentences",
+          "title": "Writing Simple Sentences",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "english1.sentences.reading_sentences"
+          ],
+          "description": "Writing Simple Sentences — part of the chapter on Simple Sentences.",
+          "key_ideas": [
+            "Core principles of writing simple sentences",
+            "Step-by-step problem solving for writing simple sentences",
+            "Real-world applications of writing simple sentences"
+          ]
+        },
+        {
+          "concept_id": "english1.sentences.capital_letters_full_stops",
+          "title": "Capital Letters and Full Stops",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english1.sentences.reading_sentences"
+          ],
+          "description": "Learn the fundamental rules of sentence mechanics: starting with a capital letter and ending with a full stop.",
+          "key_ideas": [
+            "Every sentence begins with a capital letter",
+            "Sentences end with a punctuation mark",
+            "Using full stops for statements"
+          ]
+        },
+        {
+          "concept_id": "english1.sentences.sentence_structure",
+          "title": "Correct Word Order",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english1.sentences.reading_sentences"
+          ],
+          "description": "Understanding that words must be placed in a specific order to make sense and communicate a clear message.",
+          "key_ideas": [
+            "Arranging jumbled words",
+            "Meaningful vs. meaningless groups of words",
+            "Subject-verb sequence basics"
+          ]
+        },
+        {
+          "concept_id": "english1.sentences.naming_and_doing_parts",
+          "title": "Naming and Doing Parts",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english1.sentences.reading_sentences"
+          ],
+          "description": "Breaking down a simple sentence into two main parts: the person or thing being talked about (naming) and the action happening (doing).",
+          "key_ideas": [
+            "Identifying the 'Who' or 'What' (Subject)",
+            "Identifying the action (Verb/Predicate)",
+            "Connecting actors to actions"
+          ]
+        },
+        {
+          "concept_id": "english1.sentences.asking_questions",
+          "title": "Framing Simple Questions",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english1.sentences.writing_sentences",
+            "english1.sentences.capital_letters_full_stops"
+          ],
+          "description": "Learning to distinguish between telling sentences and asking sentences, and using question marks correctly.",
+          "key_ideas": [
+            "Difference between statements and questions",
+            "Using the question mark (?)",
+            "Starting questions with Who, What, or Where"
+          ]
+        },
+        {
+          "concept_id": "english1.sentences.using_and",
+          "title": "Joining Words with 'And'",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english1.sentences.writing_sentences"
+          ],
+          "description": "Using the conjunction 'and' to combine two words or short phrases to make longer, more descriptive sentences.",
+          "key_ideas": [
+            "Connecting two nouns (e.g., bread and butter)",
+            "Connecting two actions",
+            "Extending simple sentences"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Stories and Poems",
+      "concepts": [
+        {
+          "concept_id": "english1.stories.listening",
+          "title": "Listening to Stories",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Listening to Stories — part of the chapter on Stories and Poems.",
+          "key_ideas": [
+            "Core principles of listening to stories",
+            "Step-by-step problem solving for listening to stories",
+            "Real-world applications of listening to stories"
+          ]
+        },
+        {
+          "concept_id": "english1.stories.picture_reading",
+          "title": "Reading with Pictures",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Reading with Pictures — part of the chapter on Stories and Poems.",
+          "key_ideas": [
+            "Core principles of reading with pictures",
+            "Step-by-step problem solving for reading with pictures",
+            "Real-world applications of reading with pictures"
+          ]
+        },
+        {
+          "concept_id": "english1.stories.identifying_characters",
+          "title": "Identifying Characters and Settings",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english1.stories.listening",
+            "english1.stories.picture_reading"
+          ],
+          "description": "Recognizing the main people, animals, or creatures in a story and identifying where the story takes place.",
+          "key_ideas": [
+            "Who is in the story?",
+            "Where is the story happening?",
+            "Distinguishing between main and side characters"
+          ]
+        },
+        {
+          "concept_id": "english1.stories.rhyming_sounds",
+          "title": "Rhyme and Rhythm in Poems",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english1.stories.listening"
+          ],
+          "description": "Listening to poems to identify words that have the same ending sounds and clapping to the beat.",
+          "key_ideas": [
+            "Matching words with similar ending sounds",
+            "Feeling the beat or rhythm of a poem",
+            "Reciting short rhymes"
+          ]
+        },
+        {
+          "concept_id": "english1.stories.sequencing_events",
+          "title": "Sequencing Story Events",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english1.stories.identifying_characters",
+            "english1.stories.picture_reading"
+          ],
+          "description": "Arranging the key events of a story in the correct order: beginning, middle, and end.",
+          "key_ideas": [
+            "What happened first?",
+            "What happened next?",
+            "How did the story end?"
+          ]
+        },
+        {
+          "concept_id": "english1.stories.context_vocabulary",
+          "title": "Learning Words from Context",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english1.stories.picture_reading"
+          ],
+          "description": "Deducing the meaning of new or difficult words by looking at accompanying illustrations and listening to the sentence context.",
+          "key_ideas": [
+            "Using pictures to guess word meanings",
+            "Connecting new words to familiar objects",
+            "Building a sight word bank"
+          ]
+        },
+        {
+          "concept_id": "english1.stories.oral_retelling",
+          "title": "Retelling Stories",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english1.stories.sequencing_events",
+            "english1.stories.context_vocabulary"
+          ],
+          "description": "Expressing the story verbally in one's own words using simple sentences and proper sequence.",
+          "key_ideas": [
+            "Speaking in complete sentences",
+            "Using transition words like 'then' and 'after'",
+            "Expressing personal feelings about the story"
+          ]
+        }
+      ]
+    }
+  ]
+}

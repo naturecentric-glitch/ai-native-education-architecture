@@ -1,0 +1,139 @@
+{
+  "course_id": "business11",
+  "title": "Class 11 Business Studies",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Nature and Purpose of Business",
+      "concepts": [
+        {
+          "concept_id": "business11.nature_purpose.business_concept",
+          "title": "Business, Profession, Employment",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Business, Profession, Employment — part of the chapter on Nature and Purpose of Business.",
+          "key_ideas": [
+            "Core principles of business, profession, employment",
+            "Step-by-step problem solving for business, profession, employment",
+            "Real-world applications of business, profession, employment"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Forms of Business Organisation",
+      "concepts": [
+        {
+          "concept_id": "business11.forms_business.sole_partnership_company",
+          "title": "Sole Proprietorship, Partnership, Company",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Sole Proprietorship, Partnership, Company — part of the chapter on Forms of Business Organisation.",
+          "key_ideas": [
+            "Core principles of sole proprietorship, partnership, company",
+            "Step-by-step problem solving for sole proprietorship, partnership, company",
+            "Real-world applications of sole proprietorship, partnership, company"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Public, Private and Global Enterprises",
+      "concepts": [
+        {
+          "concept_id": "business11.public_private.public_private_mnc",
+          "title": "Public Sector, Private Sector, MNCs",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Public Sector, Private Sector, MNCs — part of the chapter on Public, Private and Global Enterprises.",
+          "key_ideas": [
+            "Core principles of public sector, private sector, mncs",
+            "Step-by-step problem solving for public sector, private sector, mncs",
+            "Real-world applications of public sector, private sector, mncs"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Business Services",
+      "concepts": [
+        {
+          "concept_id": "business11.business_services.banking_insurance",
+          "title": "Banking, Insurance and Communication",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Banking, Insurance and Communication — part of the chapter on Business Services.",
+          "key_ideas": [
+            "Core principles of banking, insurance and communication",
+            "Step-by-step problem solving for banking, insurance and communication",
+            "Real-world applications of banking, insurance and communication"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Emerging Modes of Business",
+      "concepts": [
+        {
+          "concept_id": "business11.emerging_modes.ecommerce_bpo",
+          "title": "E-Commerce, BPO, KPO",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "E-Commerce, BPO, KPO — part of the chapter on Emerging Modes of Business.",
+          "key_ideas": [
+            "Core principles of e-commerce, bpo, kpo",
+            "Step-by-step problem solving for e-commerce, bpo, kpo",
+            "Real-world applications of e-commerce, bpo, kpo"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Social Responsibility of Business",
+      "concepts": [
+        {
+          "concept_id": "business11.social_responsibility.csr_ethics",
+          "title": "CSR and Business Ethics",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "CSR and Business Ethics — part of the chapter on Social Responsibility of Business.",
+          "key_ideas": [
+            "Core principles of csr and business ethics",
+            "Step-by-step problem solving for csr and business ethics",
+            "Real-world applications of csr and business ethics"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Internal and International Trade",
+      "concepts": [
+        {
+          "concept_id": "business11.trade.domestic_international",
+          "title": "Domestic Trade and International Trade",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Domestic Trade and International Trade — part of the chapter on Internal and International Trade.",
+          "key_ideas": [
+            "Core principles of domestic trade and international trade",
+            "Step-by-step problem solving for domestic trade and international trade",
+            "Real-world applications of domestic trade and international trade"
+          ]
+        }
+      ]
+    }
+  ]
+}

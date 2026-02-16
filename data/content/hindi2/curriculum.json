@@ -1,0 +1,331 @@
+{
+  "course_id": "hindi2",
+  "title": "Class 2 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "पढ़ना (Reading)",
+      "concepts": [
+        {
+          "concept_id": "hindi2.padhan.simple_passages",
+          "title": "Simple Hindi Passages",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Simple Hindi Passages — part of the chapter on पढ़ना (Reading).",
+          "key_ideas": [
+            "Core principles of simple hindi passages",
+            "Step-by-step problem solving for simple hindi passages",
+            "Real-world applications of simple hindi passages"
+          ]
+        },
+        {
+          "concept_id": "hindi2.padhan.comprehension",
+          "title": "Comprehension Questions",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "hindi2.padhan.simple_passages"
+          ],
+          "description": "Comprehension Questions — part of the chapter on पढ़ना (Reading).",
+          "key_ideas": [
+            "Core principles of comprehension questions",
+            "Step-by-step problem solving for comprehension questions",
+            "Real-world applications of comprehension questions"
+          ]
+        },
+        {
+          "concept_id": "hindi2.padhan.reading_aloud",
+          "title": "Reading Aloud (Swar Pathan)",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi2.padhan.simple_passages"
+          ],
+          "description": "Practicing the oral reading of sentences and short paragraphs with correct pronunciation and natural flow.",
+          "key_ideas": [
+            "Correct pronunciation (Uchcharan)",
+            "Reading with flow (Pravah)",
+            "Pausing at punctuation marks (Purnaviram/Alpaviram)"
+          ]
+        },
+        {
+          "concept_id": "hindi2.padhan.poetry_rhythm",
+          "title": "Poetry and Rhythm (Kavita Pathan)",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Reading short poems with attention to rhyming sounds and rhythmic patterns distinct from prose.",
+          "key_ideas": [
+            "Identifying rhyming words (Tukbandi)",
+            "Following the rhythm of the poem",
+            "Reciting with expression"
+          ]
+        },
+        {
+          "concept_id": "hindi2.padhan.contextual_vocabulary",
+          "title": "Contextual Vocabulary (Sandarbh mein Shabd)",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi2.padhan.simple_passages"
+          ],
+          "description": "Understanding the meaning of new or difficult words based on the context of the sentence or story.",
+          "key_ideas": [
+            "Using context clues to guess meaning",
+            "Identifying synonyms within the text",
+            "Connecting words to pictures or situations"
+          ]
+        },
+        {
+          "concept_id": "hindi2.padhan.character_identification",
+          "title": "Character Identification (Patra Parichay)",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi2.padhan.comprehension"
+          ],
+          "description": "Identifying the main characters in a story and attributing specific actions or dialogue to them.",
+          "key_ideas": [
+            "Identifying who is speaking",
+            "Linking actions to specific characters",
+            "Recognizing main vs. supporting characters"
+          ]
+        },
+        {
+          "concept_id": "hindi2.padhan.sequencing_events",
+          "title": "Sequencing Events (Ghatna Kram)",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi2.padhan.comprehension"
+          ],
+          "description": "Arranging the events of a story in the correct chronological order to demonstrate understanding of the narrative flow.",
+          "key_ideas": [
+            "Identifying the beginning, middle, and end",
+            "Ordering jumbled sentences from a story",
+            "Understanding cause and effect relationships"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "लेखन (Writing)",
+      "concepts": [
+        {
+          "concept_id": "hindi2.lekhan.shabdh_lekhan",
+          "title": "Word Writing Practice",
+          "bloom_level": "apply",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Word Writing Practice — part of the chapter on लेखन (Writing).",
+          "key_ideas": [
+            "Core principles of word writing practice",
+            "Step-by-step problem solving for word writing practice",
+            "Real-world applications of word writing practice"
+          ]
+        },
+        {
+          "concept_id": "hindi2.lekhan.vakya_rachna",
+          "title": "Sentence Formation",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "hindi2.lekhan.shabdh_lekhan"
+          ],
+          "description": "Sentence Formation — part of the chapter on लेखन (Writing).",
+          "key_ideas": [
+            "Core principles of sentence formation",
+            "Step-by-step problem solving for sentence formation",
+            "Real-world applications of sentence formation"
+          ]
+        },
+        {
+          "concept_id": "hindi2.lekhan.sulekh",
+          "title": "Handwriting Improvement (Sulekh)",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi2.lekhan.shabdh_lekhan"
+          ],
+          "description": "Focusing on the art of beautiful and legible handwriting, emphasizing correct stroke order, spacing, and the alignment of the 'Shirorekha' (top line).",
+          "key_ideas": [
+            "Correct formation of Hindi letters and matras",
+            "Importance of the Shirorekha (top horizontal line)",
+            "Uniform spacing between words"
+          ]
+        },
+        {
+          "concept_id": "hindi2.lekhan.chitra_varnan",
+          "title": "Picture Composition (Chitra Varnan)",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi2.lekhan.vakya_rachna"
+          ],
+          "description": "Developing the ability to observe a picture and describe the scene, objects, or actions taking place using simple, grammatically correct sentences.",
+          "key_ideas": [
+            "Observing details in an image",
+            "Identifying nouns (objects/people) and verbs (actions)",
+            "Constructing 3-5 sentences based on visual cues"
+          ]
+        },
+        {
+          "concept_id": "hindi2.lekhan.kahani_purti",
+          "title": "Story Completion (Kahani Purti)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi2.lekhan.vakya_rachna"
+          ],
+          "description": "Completing a short story by filling in blanks with appropriate words from a help box or finishing the last few sentences of a narrative.",
+          "key_ideas": [
+            "Understanding the flow of a simple narrative",
+            "Selecting contextually appropriate words",
+            "Logical sequencing of events"
+          ]
+        },
+        {
+          "concept_id": "hindi2.lekhan.anuched_lekhan",
+          "title": "Short Paragraph Writing (Anuched Lekhan)",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "hindi2.lekhan.vakya_rachna",
+            "hindi2.lekhan.chitra_varnan"
+          ],
+          "description": "Writing a cohesive short paragraph (5-8 lines) on familiar topics such as 'My School', 'My Best Friend', or 'My Favorite Festival'.",
+          "key_ideas": [
+            "Structuring thoughts around a single topic",
+            "Writing a clear introductory sentence",
+            "Connecting sentences to form a meaningful paragraph"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "बुनियादी व्याकरण",
+      "concepts": [
+        {
+          "concept_id": "hindi2.vyakaran_basics.sangya",
+          "title": "संज्ञा — Nouns",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "संज्ञा — Nouns — part of the chapter on बुनियादी व्याकरण.",
+          "key_ideas": [
+            "Core principles of संज्ञा",
+            "Step-by-step problem solving for संज्ञा",
+            "Real-world applications of संज्ञा"
+          ]
+        },
+        {
+          "concept_id": "hindi2.vyakaran_basics.sarvanam",
+          "title": "सर्वनाम — Pronouns",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "सर्वनाम — Pronouns — part of the chapter on बुनियादी व्याकरण.",
+          "key_ideas": [
+            "Core principles of सर्वनाम",
+            "Step-by-step problem solving for सर्वनाम",
+            "Real-world applications of सर्वनाम"
+          ]
+        },
+        {
+          "concept_id": "hindi2.vyakaran_basics.vachan",
+          "title": "वचन — Singular and Plural",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "hindi2.vyakaran_basics.sangya"
+          ],
+          "description": "वचन — Singular and Plural — part of the chapter on बुनियादी व्याकरण.",
+          "key_ideas": [
+            "Core principles of वचन",
+            "Step-by-step problem solving for वचन",
+            "Real-world applications of वचन"
+          ]
+        },
+        {
+          "concept_id": "hindi2.vyakaran_basics.ling",
+          "title": "लिंग — Gender (Masculine and Feminine)",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi2.vyakaran_basics.sangya"
+          ],
+          "description": "Introduction to the gender of nouns, distinguishing between masculine (Pulling) and feminine (Striling) words.",
+          "key_ideas": [
+            "Identification of 'Pulling' (Male) words like 'Ladka', 'Sher'",
+            "Identification of 'Striling' (Female) words like 'Ladki', 'Sherni'",
+            "Changing the gender of common nouns"
+          ]
+        },
+        {
+          "concept_id": "hindi2.vyakaran_basics.visheshan",
+          "title": "विशेषण — Adjectives",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi2.vyakaran_basics.sangya"
+          ],
+          "description": "Understanding words that describe the quality, color, shape, or number of a noun.",
+          "key_ideas": [
+            "Words describing quality (e.g., Good, Bad, Beautiful)",
+            "Words describing colors and sizes (e.g., Red, Big, Small)",
+            "Identifying adjectives in simple sentences"
+          ]
+        },
+        {
+          "concept_id": "hindi2.vyakaran_basics.kriya",
+          "title": "क्रिया — Verbs (Action Words)",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi2.vyakaran_basics.sangya",
+            "hindi2.vyakaran_basics.sarvanam"
+          ],
+          "description": "Introduction to action words that tell us what someone or something is doing.",
+          "key_ideas": [
+            "Identifying action words (e.g., Khana, Pina, Sona)",
+            "Matching actions to the correct doer",
+            "Understanding that every sentence usually has a verb"
+          ]
+        },
+        {
+          "concept_id": "hindi2.vyakaran_basics.vilom_shabd",
+          "title": "विलोम शब्द — Antonyms",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learning pairs of words that have completely opposite meanings.",
+          "key_ideas": [
+            "Concept of opposites (Ulte Arth Wale Shabd)",
+            "Common pairs: Din-Raat (Day-Night), Upar-Niche (Up-Down)",
+            "Using antonyms to change the meaning of a phrase"
+          ]
+        },
+        {
+          "concept_id": "hindi2.vyakaran_basics.vakya_rachana",
+          "title": "वाक्य रचना — Simple Sentence Formation",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi2.vyakaran_basics.sangya",
+            "hindi2.vyakaran_basics.kriya",
+            "hindi2.vyakaran_basics.vachan"
+          ],
+          "description": "Combining nouns, pronouns, and verbs to form meaningful, grammatically correct simple sentences.",
+          "key_ideas": [
+            "Correct word order: Subject + Object + Verb",
+            "Ensuring the verb agrees with the number (Singular/Plural)",
+            "Constructing simple sentences like 'Ram plays' or 'She eats'"
+          ]
+        }
+      ]
+    }
+  ]
+}

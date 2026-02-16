@@ -1,63 +1,112 @@
 {
-  "subject": "mathematics",
-  "grade": 6,
-  "textbook": "NCERT Mathematics — Class 6",
-  "version": "2024-25",
+  "course_id": "math6",
+  "title": "Class 6 Mathematics",
   "chapters": [
     {
       "chapter_id": "ch01",
       "title": "Knowing Our Numbers",
       "concepts": [
         {
-          "concept_id": "math6.numbers.comparing",
-          "title": "Comparing Numbers",
+          "concept_id": "math6.knowing_numbers.place_value6",
+          "title": "Place Value System — Lakhs and Crores",
           "bloom_level": "understand",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Comparing numbers using place value, ordering numbers from smallest to largest and vice versa.",
+          "description": "Place Value System — Lakhs and Crores — part of the chapter on Knowing Our Numbers.",
           "key_ideas": [
-            "Numbers with more digits are always greater",
-            "Compare leftmost digits first when digit count is same",
-            "Ascending and descending order"
+            "Core principles of place value system",
+            "Step-by-step problem solving for place value system",
+            "Real-world applications of place value system"
           ]
         },
         {
-          "concept_id": "math6.numbers.large_numbers",
-          "title": "Large Numbers and Indian Place Value System",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": ["math6.numbers.comparing"],
-          "description": "Reading and writing large numbers in Indian system (Lakhs, Crores) and International system (Millions, Billions).",
+          "concept_id": "math6.knowing_numbers.comparing6",
+          "title": "Comparing and Ordering Large Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math6.knowing_numbers.place_value6"
+          ],
+          "description": "Comparing and Ordering Large Numbers — part of the chapter on Knowing Our Numbers.",
           "key_ideas": [
-            "Indian system: Ones, Tens, Hundreds, Thousands, Ten Thousands, Lakhs, Ten Lakhs, Crores",
-            "International system: Ones, Tens, Hundreds, Thousands, Ten Thousands, Hundred Thousands, Millions",
-            "Using commas to separate periods"
+            "Core principles of comparing and ordering large numbers",
+            "Step-by-step problem solving for comparing and ordering large numbers",
+            "Real-world applications of comparing and ordering large numbers"
           ]
         },
         {
-          "concept_id": "math6.numbers.estimation",
+          "concept_id": "math6.knowing_numbers.estimation6",
           "title": "Estimation and Rounding Off",
           "bloom_level": "apply",
-          "difficulty": 0.35,
-          "prerequisites": ["math6.numbers.large_numbers"],
-          "description": "Rounding numbers to the nearest tens, hundreds, thousands. Estimating sums, differences, and products.",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.knowing_numbers.comparing6"
+          ],
+          "description": "Estimation and Rounding Off — part of the chapter on Knowing Our Numbers.",
           "key_ideas": [
-            "Rounding rules: 5 or more rounds up, less than 5 rounds down",
-            "Estimating to check reasonableness of answers",
-            "Practical use in daily life calculations"
+            "Core principles of estimation and rounding off",
+            "Step-by-step problem solving for estimation and rounding off",
+            "Real-world applications of estimation and rounding off"
           ]
         },
         {
-          "concept_id": "math6.numbers.roman_numerals",
+          "concept_id": "math6.knowing_numbers.international_system",
+          "title": "International System of Numeration",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math6.knowing_numbers.place_value6"
+          ],
+          "description": "Introduction to the International system of numeration, focusing on the placement of commas and periods (ones, thousands, millions, billions) and comparing it with the Indian system.",
+          "key_ideas": [
+            "Periods: Ones, Thousands, Millions, Billions",
+            "Placement of commas every three digits",
+            "Relationship between International and Indian systems (e.g., 1 Million = 10 Lakhs)"
+          ]
+        },
+        {
+          "concept_id": "math6.knowing_numbers.large_numbers_operations",
+          "title": "Arithmetic Operations with Large Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.knowing_numbers.place_value6",
+            "math6.knowing_numbers.comparing6"
+          ],
+          "description": "Solving real-life word problems that involve addition, subtraction, multiplication, and division of large numbers, including unit conversions.",
+          "key_ideas": [
+            "Identifying correct arithmetic operations from word problems",
+            "Unit conversions (e.g., millimeters to meters, grams to kilograms)",
+            "Solving multi-step problems involving population, distance, or money"
+          ]
+        },
+        {
+          "concept_id": "math6.knowing_numbers.brackets_expansion",
+          "title": "Using Brackets and Expansion",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.knowing_numbers.estimation6"
+          ],
+          "description": "Understanding the use of brackets to group operations to simplify calculations and the expansion of brackets using the distributive property intuition.",
+          "key_ideas": [
+            "Priority of operations within brackets",
+            "Expanding brackets (e.g., 7 x 109 = 7 x (100 + 9))",
+            "Simplifying complex arithmetic expressions"
+          ]
+        },
+        {
+          "concept_id": "math6.knowing_numbers.roman_numerals",
           "title": "Roman Numerals",
           "bloom_level": "remember",
-          "difficulty": 0.25,
-          "prerequisites": ["math6.numbers.comparing"],
-          "description": "Reading and writing Roman numerals (I to C). Rules of Roman numeral system.",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Reading and writing numbers using the ancient Roman system of numeration, understanding the specific rules for forming numbers.",
           "key_ideas": [
-            "Basic symbols: I=1, V=5, X=10, L=50, C=100",
-            "Addition rule: VI=6, Subtraction rule: IV=4",
-            "No symbol repeats more than 3 times"
+            "Seven basic symbols: I, V, X, L, C, D, M",
+            "Rules of repetition and addition",
+            "Rules of subtraction (placing smaller values before larger ones)",
+            "Absence of a symbol for zero"
           ]
         }
       ]
@@ -67,45 +116,93 @@
       "title": "Whole Numbers",
       "concepts": [
         {
-          "concept_id": "math6.whole.basics",
-          "title": "Natural Numbers and Whole Numbers",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": ["math6.numbers.comparing"],
-          "description": "Understanding the number line, natural numbers (1,2,3...) and whole numbers (0,1,2,3...). The predecessor and successor of a number.",
-          "key_ideas": [
-            "Whole numbers include 0 plus all natural numbers",
-            "Every whole number has a successor",
-            "Every whole number except 0 has a predecessor",
-            "Number line representation"
-          ]
-        },
-        {
-          "concept_id": "math6.whole.properties",
+          "concept_id": "math6.whole_numbers.properties_wn",
           "title": "Properties of Whole Numbers",
           "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": ["math6.whole.basics"],
-          "description": "Closure, commutativity, associativity, distributivity, and identity properties for addition and multiplication.",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Properties of Whole Numbers — part of the chapter on Whole Numbers.",
           "key_ideas": [
-            "Closure: whole numbers are closed under addition and multiplication",
-            "Commutativity: a+b=b+a, a×b=b×a",
-            "Associativity: (a+b)+c=a+(b+c)",
-            "Distributivity: a×(b+c)=a×b+a×c",
-            "Additive identity is 0, multiplicative identity is 1"
+            "Core principles of properties of whole numbers",
+            "Step-by-step problem solving for properties of whole numbers",
+            "Real-world applications of properties of whole numbers"
           ]
         },
         {
-          "concept_id": "math6.whole.patterns",
+          "concept_id": "math6.whole_numbers.number_line",
+          "title": "Number Line Operations",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.whole_numbers.properties_wn"
+          ],
+          "description": "Number Line Operations — part of the chapter on Whole Numbers.",
+          "key_ideas": [
+            "Core principles of number line operations",
+            "Step-by-step problem solving for number line operations",
+            "Real-world applications of number line operations"
+          ]
+        },
+        {
+          "concept_id": "math6.whole_numbers.intro_predecessor_successor",
+          "title": "Natural Numbers, Whole Numbers, and Predecessors",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Introduction to the difference between Natural Numbers and Whole Numbers, including the concepts of successor and predecessor.",
+          "key_ideas": [
+            "Natural numbers start from 1 (1, 2, 3...)",
+            "Whole numbers include 0 and Natural numbers (0, 1, 2...)",
+            "Successor is the number + 1",
+            "Predecessor is the number - 1",
+            "The number 0 has no predecessor in whole numbers"
+          ]
+        },
+        {
+          "concept_id": "math6.whole_numbers.identity_elements",
+          "title": "Additive and Multiplicative Identities",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math6.whole_numbers.properties_wn"
+          ],
+          "description": "Understanding the unique roles of zero and one in arithmetic operations and why division by zero is undefined.",
+          "key_ideas": [
+            "Zero (0) is the additive identity (a + 0 = a)",
+            "One (1) is the multiplicative identity (a × 1 = a)",
+            "Multiplication by zero results in zero",
+            "Division by zero is not defined"
+          ]
+        },
+        {
+          "concept_id": "math6.whole_numbers.distributive_property",
+          "title": "Distributivity of Multiplication",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.whole_numbers.properties_wn"
+          ],
+          "description": "Applying the distributive property of multiplication over addition and subtraction to simplify complex calculations.",
+          "key_ideas": [
+            "Formula: a × (b + c) = (a × b) + (a × c)",
+            "Simplifying calculations (e.g., 12 × 35 = 12 × (30 + 5))",
+            "Using distributivity in reverse (factoring out common terms)"
+          ]
+        },
+        {
+          "concept_id": "math6.whole_numbers.patterns",
           "title": "Patterns in Whole Numbers",
           "bloom_level": "analyze",
-          "difficulty": 0.4,
-          "prerequisites": ["math6.whole.properties"],
-          "description": "Number line patterns, dot patterns, and other arrangements. Connecting geometry and numbers.",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.whole_numbers.number_line"
+          ],
+          "description": "Visualizing whole numbers as shapes (lines, rectangles, squares, and triangles) using elementary shapes like dots.",
           "key_ideas": [
-            "Triangular numbers: 1, 3, 6, 10, 15...",
-            "Square numbers: 1, 4, 9, 16, 25...",
-            "Patterns help predict and generalize"
+            "Every number can be arranged as a line",
+            "Square numbers (4, 9, 16) can form squares",
+            "Triangular numbers (3, 6, 10) form triangles",
+            "Using visual patterns to predict arithmetic sequences"
           ]
         }
       ]
@@ -115,60 +212,90 @@
       "title": "Playing with Numbers",
       "concepts": [
         {
-          "concept_id": "math6.playing.factors_multiples",
-          "title": "Factors and Multiples",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": ["math6.whole.properties"],
-          "description": "Finding all factors of a number, listing multiples, understanding the relationship between factors and multiples.",
-          "key_ideas": [
-            "A factor divides a number exactly",
-            "Every number is a factor of itself; 1 is a factor of every number",
-            "Multiples are obtained by multiplying by 1, 2, 3...",
-            "Number of factors is finite; multiples are infinite"
-          ]
-        },
-        {
-          "concept_id": "math6.playing.prime_composite",
-          "title": "Prime and Composite Numbers",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": ["math6.playing.factors_multiples"],
-          "description": "Prime numbers have exactly 2 factors. Composite numbers have more than 2. Sieve of Eratosthenes.",
-          "key_ideas": [
-            "2 is the smallest and only even prime number",
-            "1 is neither prime nor composite",
-            "Sieve of Eratosthenes to find primes",
-            "Every composite number can be written as product of primes"
-          ]
-        },
-        {
-          "concept_id": "math6.playing.divisibility",
+          "concept_id": "math6.playing_numbers.divisibility",
           "title": "Divisibility Rules",
           "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": ["math6.playing.factors_multiples"],
-          "description": "Tests of divisibility for 2, 3, 4, 5, 6, 8, 9, 10, and 11.",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Divisibility Rules — part of the chapter on Playing with Numbers.",
           "key_ideas": [
-            "Divisible by 2: last digit is even",
-            "Divisible by 3: sum of digits divisible by 3",
-            "Divisible by 5: ends in 0 or 5",
-            "Divisible by 9: sum of digits divisible by 9",
-            "Divisible by 11: difference of alternating sums is 0 or divisible by 11"
+            "Core principles of divisibility rules",
+            "Step-by-step problem solving for divisibility rules",
+            "Real-world applications of divisibility rules"
           ]
         },
         {
-          "concept_id": "math6.playing.hcf_lcm",
+          "concept_id": "math6.playing_numbers.hcf_lcm",
           "title": "HCF and LCM",
           "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": ["math6.playing.prime_composite", "math6.playing.divisibility"],
-          "description": "Finding HCF by prime factorization and listing factors. Finding LCM by prime factorization and common multiples. HCF × LCM = Product of two numbers.",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math6.playing_numbers.divisibility"
+          ],
+          "description": "HCF and LCM — part of the chapter on Playing with Numbers.",
           "key_ideas": [
-            "HCF: highest common factor — largest number that divides both",
-            "LCM: least common multiple — smallest number divisible by both",
-            "Prime factorization method",
-            "HCF(a,b) × LCM(a,b) = a × b"
+            "Core principles of hcf and lcm",
+            "Step-by-step problem solving for hcf and lcm",
+            "Real-world applications of hcf and lcm"
+          ]
+        },
+        {
+          "concept_id": "math6.playing_numbers.factors_and_multiples",
+          "title": "Factors and Multiples",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the fundamental building blocks of numbers, defining factors as exact divisors and multiples as products of a number.",
+          "key_ideas": [
+            "A factor of a number is an exact divisor of that number.",
+            "Every number is a multiple of itself and 1.",
+            "The number of factors is finite, while multiples are infinite."
+          ]
+        },
+        {
+          "concept_id": "math6.playing_numbers.prime_and_composite",
+          "title": "Prime and Composite Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.playing_numbers.factors_and_multiples"
+          ],
+          "description": "Classifying numbers based on the count of their factors, distinguishing between numbers with exactly two factors and those with more.",
+          "key_ideas": [
+            "Prime numbers have exactly two factors: 1 and the number itself.",
+            "Composite numbers have more than two factors.",
+            "1 is a unique number; it is neither prime nor composite."
+          ]
+        },
+        {
+          "concept_id": "math6.playing_numbers.common_factors_coprimes",
+          "title": "Common Factors and Co-prime Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math6.playing_numbers.factors_and_multiples"
+          ],
+          "description": "Identifying factors shared by two or more numbers and understanding the special relationship of co-prime numbers.",
+          "key_ideas": [
+            "Common factors are exact divisors shared by two or more numbers.",
+            "Two numbers are co-prime if they have only 1 as a common factor.",
+            "Co-prime numbers do not necessarily have to be prime numbers themselves."
+          ]
+        },
+        {
+          "concept_id": "math6.playing_numbers.prime_factorization",
+          "title": "Prime Factorization",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.playing_numbers.prime_and_composite",
+            "math6.playing_numbers.divisibility"
+          ],
+          "description": "The process of expressing a composite number as a product of its prime factors using factor trees or repeated division.",
+          "key_ideas": [
+            "Every composite number can be expressed as a product of prime factors uniquely.",
+            "Using a Factor Tree to visually break down numbers.",
+            "Using the division method for systematic factorization."
           ]
         }
       ]
@@ -178,45 +305,94 @@
       "title": "Basic Geometrical Ideas",
       "concepts": [
         {
-          "concept_id": "math6.geometry.points_lines",
-          "title": "Points, Lines, Line Segments, and Rays",
-          "bloom_level": "remember",
+          "concept_id": "math6.basic_geometry.point_line_plane",
+          "title": "Points, Lines, Line Segments, Rays",
+          "bloom_level": "understand",
           "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Basic building blocks of geometry. A point has no dimension. A line extends infinitely. A line segment has two endpoints. A ray has one endpoint.",
+          "description": "Points, Lines, Line Segments, Rays — part of the chapter on Basic Geometrical Ideas.",
           "key_ideas": [
-            "A point determines a location",
-            "Infinite lines through a point, exactly one through two points",
-            "Line segment = part of line with two endpoints",
-            "Ray = starts at a point and goes on forever in one direction"
+            "Core principles of points, lines, line segments, rays",
+            "Step-by-step problem solving for points, lines, line segments, rays",
+            "Real-world applications of points, lines, line segments, rays"
           ]
         },
         {
-          "concept_id": "math6.geometry.curves_polygons",
-          "title": "Curves, Polygons, and Angles",
+          "concept_id": "math6.basic_geometry.curves_polygons",
+          "title": "Curves, Polygons and Angles",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math6.basic_geometry.point_line_plane"
+          ],
+          "description": "Curves, Polygons and Angles — part of the chapter on Basic Geometrical Ideas.",
+          "key_ideas": [
+            "Core principles of curves, polygons and angles",
+            "Step-by-step problem solving for curves, polygons and angles",
+            "Real-world applications of curves, polygons and angles"
+          ]
+        },
+        {
+          "concept_id": "math6.basic_geometry.intersecting_parallel_lines",
+          "title": "Intersecting and Parallel Lines",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": ["math6.geometry.points_lines"],
-          "description": "Open and closed curves, simple and non-simple curves. Polygons (triangle, quadrilateral, pentagon etc.). Angles and their classification.",
+          "prerequisites": [
+            "math6.basic_geometry.point_line_plane"
+          ],
+          "description": "Understanding how two lines relate to each other in a plane, specifically whether they cross at a point or never meet.",
           "key_ideas": [
-            "Simple curve: doesn't cross itself",
-            "Polygon: closed simple curve made of line segments",
-            "Angle: formed by two rays with common endpoint (vertex)",
-            "Interior and exterior of an angle"
+            "Intersecting lines meet at a common point called the point of intersection",
+            "Parallel lines never meet, no matter how far they are extended",
+            "The distance between parallel lines remains constant"
           ]
         },
         {
-          "concept_id": "math6.geometry.triangles_circles",
-          "title": "Triangles and Circles",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": ["math6.geometry.curves_polygons"],
-          "description": "Parts of a triangle (vertices, sides, angles, medians, altitudes). Parts of a circle (center, radius, diameter, chord, arc, sector, segment).",
+          "concept_id": "math6.basic_geometry.triangles",
+          "title": "Triangles as Polygons",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math6.basic_geometry.curves_polygons"
+          ],
+          "description": "Exploring the three-sided polygon, identifying its specific parts, and distinguishing between its interior and exterior regions.",
           "key_ideas": [
-            "Triangle has 3 vertices, 3 sides, 3 angles",
-            "Median connects vertex to midpoint of opposite side",
-            "Circle: all points equidistant from center",
-            "Diameter = 2 × Radius, Chord, Arc, Sector"
+            "A triangle is a three-sided polygon with three vertices and three angles",
+            "It is the polygon with the least number of sides",
+            "Points can be located in the interior, exterior, or on the boundary of the triangle"
+          ]
+        },
+        {
+          "concept_id": "math6.basic_geometry.quadrilaterals",
+          "title": "Quadrilaterals and Relations",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.basic_geometry.curves_polygons"
+          ],
+          "description": "Analyzing four-sided polygons to identify relationships between their sides and angles, such as adjacency and opposition.",
+          "key_ideas": [
+            "A quadrilateral has four sides, four angles, and four vertices",
+            "Adjacent sides share a common vertex, while opposite sides do not",
+            "Adjacent angles share a common side, while opposite angles do not",
+            "A diagonal connects two opposite vertices"
+          ]
+        },
+        {
+          "concept_id": "math6.basic_geometry.circles_parts",
+          "title": "Circles and Their Parts",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.basic_geometry.point_line_plane"
+          ],
+          "description": "Defining a circle and identifying its fundamental components, including lines related to the circle and regions within it.",
+          "key_ideas": [
+            "A circle is a simple closed curve where all points are equidistant from a center point",
+            "Key linear parts include the radius, diameter (longest chord), and chord",
+            "An arc is a portion of the circle's boundary",
+            "A sector is the region enclosed by an arc and two radii",
+            "A segment is the region enclosed by an arc and a chord"
           ]
         }
       ]
@@ -226,70 +402,118 @@
       "title": "Understanding Elementary Shapes",
       "concepts": [
         {
-          "concept_id": "math6.shapes.measuring_angles",
-          "title": "Measuring Line Segments and Angles",
+          "concept_id": "math6.understanding_shapes.measuring_angles",
+          "title": "Measuring Angles",
           "bloom_level": "apply",
-          "difficulty": 0.3,
-          "prerequisites": ["math6.geometry.curves_polygons"],
-          "description": "Using ruler to measure line segments. Using protractor to measure angles. Types of angles: acute, right, obtuse, straight, reflex.",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Measuring Angles — part of the chapter on Understanding Elementary Shapes.",
           "key_ideas": [
-            "Acute: < 90°, Right: = 90°, Obtuse: 90°-180°",
-            "Straight: = 180°, Reflex: 180°-360°",
-            "Using protractor correctly"
+            "Core principles of measuring angles",
+            "Step-by-step problem solving for measuring angles",
+            "Real-world applications of measuring angles"
           ]
         },
         {
-          "concept_id": "math6.shapes.perpendicular_parallel",
-          "title": "Perpendicular and Parallel Lines",
+          "concept_id": "math6.understanding_shapes.types_triangles6",
+          "title": "Types of Triangles and Quadrilaterals",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": ["math6.shapes.measuring_angles"],
-          "description": "Perpendicular lines meet at 90°. Parallel lines never meet. Identifying them in everyday objects.",
+          "prerequisites": [
+            "math6.understanding_shapes.measuring_angles"
+          ],
+          "description": "Types of Triangles and Quadrilaterals — part of the chapter on Understanding Elementary Shapes.",
           "key_ideas": [
-            "Perpendicular: two lines at right angles",
-            "Parallel: same direction, never intersect",
-            "Real-world examples: railway tracks (parallel), corner of a room (perpendicular)"
+            "Core principles of types of triangles and quadrilaterals",
+            "Step-by-step problem solving for types of triangles and quadrilaterals",
+            "Real-world applications of types of triangles and quadrilaterals"
           ]
         },
         {
-          "concept_id": "math6.shapes.triangles_classification",
-          "title": "Classification of Triangles",
+          "concept_id": "math6.understanding_shapes.3d_shapes",
+          "title": "3D Shapes — Faces, Edges, Vertices",
           "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": ["math6.geometry.triangles_circles", "math6.shapes.measuring_angles"],
-          "description": "Classifying triangles by sides (scalene, isosceles, equilateral) and by angles (acute, right, obtuse).",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "3D Shapes — Faces, Edges, Vertices — part of the chapter on Understanding Elementary Shapes.",
           "key_ideas": [
-            "By sides: Scalene (all different), Isosceles (two equal), Equilateral (all equal)",
-            "By angles: Acute (all < 90°), Right (one = 90°), Obtuse (one > 90°)",
-            "Equilateral triangle is always acute"
+            "Core principles of 3d shapes",
+            "Step-by-step problem solving for 3d shapes",
+            "Real-world applications of 3d shapes"
           ]
         },
         {
-          "concept_id": "math6.shapes.quadrilaterals",
-          "title": "Quadrilaterals and Polygons",
+          "concept_id": "math6.understanding_shapes.measuring_line_segments",
+          "title": "Measuring and Comparing Line Segments",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Learn methods to compare line segments using observation, tracing, and precise measurement tools like rulers and dividers.",
+          "key_ideas": [
+            "Comparison by observation and tracing",
+            "Using a ruler and divider for precision",
+            "Understanding positioning errors (parallax)"
+          ]
+        },
+        {
+          "concept_id": "math6.understanding_shapes.angles_turns_revolutions",
+          "title": "Angles: Revolutions and Directions",
           "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.understanding_shapes.measuring_line_segments"
+          ],
+          "description": "Understand angles in terms of rotation, using clock hands and cardinal directions (North, South, East, West) to define right, straight, and complete angles.",
+          "key_ideas": [
+            "Clockwise and anti-clockwise rotation",
+            "Right angle as 1/4 of a revolution",
+            "Straight angle as 1/2 of a revolution",
+            "Complete angle as one full turn"
+          ]
+        },
+        {
+          "concept_id": "math6.understanding_shapes.angle_classification",
+          "title": "Classifying Angles: Acute, Obtuse, and Reflex",
+          "bloom_level": "analyze",
           "difficulty": 0.4,
-          "prerequisites": ["math6.shapes.triangles_classification"],
-          "description": "Types of quadrilaterals (rectangle, square, parallelogram, rhombus, trapezium). Regular polygons.",
+          "prerequisites": [
+            "math6.understanding_shapes.angles_turns_revolutions"
+          ],
+          "description": "Classify angles based on their magnitude relative to right and straight angles.",
           "key_ideas": [
-            "Rectangle: opposite sides equal, all angles 90°",
-            "Square: all sides equal, all angles 90°",
-            "Parallelogram: opposite sides parallel and equal",
-            "Rhombus: all sides equal (parallelogram), Trapezium: one pair of parallel sides"
+            "Acute angles are less than 90 degrees",
+            "Obtuse angles are between 90 and 180 degrees",
+            "Reflex angles are greater than 180 degrees"
           ]
         },
         {
-          "concept_id": "math6.shapes.3d_shapes",
-          "title": "Three-Dimensional Shapes",
+          "concept_id": "math6.understanding_shapes.perpendicular_lines",
+          "title": "Perpendicular Lines",
           "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": ["math6.shapes.quadrilaterals"],
-          "description": "Cubes, cuboids, cylinders, cones, spheres, prisms, pyramids. Faces, edges, vertices.",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math6.understanding_shapes.measuring_angles"
+          ],
+          "description": "Identify and define lines that intersect at right angles, including the concept of perpendicular bisectors.",
           "key_ideas": [
-            "3D shapes have faces, edges, and vertices",
-            "Cube: 6 faces, 12 edges, 8 vertices",
-            "Euler's formula: F + V - E = 2",
-            "Nets of 3D shapes"
+            "Intersection at 90 degrees",
+            "Symbol notation for perpendicularity",
+            "Perpendicular bisectors divide segments into equal halves"
+          ]
+        },
+        {
+          "concept_id": "math6.understanding_shapes.polygons_intro",
+          "title": "Introduction to Polygons",
+          "bloom_level": "remember",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.understanding_shapes.measuring_line_segments"
+          ],
+          "description": "Define polygons as closed curves made of line segments and classify them based on the number of sides.",
+          "key_ideas": [
+            "Definition of a polygon (closed figure, straight lines)",
+            "Naming polygons (Pentagon, Hexagon, Octagon)",
+            "Regular vs. Irregular polygons"
           ]
         }
       ]
@@ -299,31 +523,111 @@
       "title": "Integers",
       "concepts": [
         {
-          "concept_id": "math6.integers.intro",
-          "title": "Introduction to Integers",
+          "concept_id": "math6.integers6.intro_integers",
+          "title": "Introduction to Negative Numbers",
           "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": ["math6.whole.basics"],
-          "description": "Negative numbers in real life (temperature, altitude, debt). Number line extending to the left. Integers = {..., -3, -2, -1, 0, 1, 2, 3, ...}.",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Introduction to Negative Numbers — part of the chapter on Integers.",
           "key_ideas": [
-            "Negative numbers represent below zero, debt, below sea level",
-            "Number line: negatives to the left, positives to the right",
-            "0 is neither positive nor negative",
-            "Ordering: -3 < -2 < -1 < 0 < 1 < 2 < 3"
+            "Core principles of introduction to negative numbers",
+            "Step-by-step problem solving for introduction to negative numbers",
+            "Real-world applications of introduction to negative numbers"
           ]
         },
         {
-          "concept_id": "math6.integers.addition_subtraction",
+          "concept_id": "math6.integers6.add_sub_integers",
           "title": "Addition and Subtraction of Integers",
           "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": ["math6.integers.intro"],
-          "description": "Adding and subtracting positive and negative numbers using number line. Rules for addition and subtraction of integers.",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.integers6.intro_integers"
+          ],
+          "description": "Addition and Subtraction of Integers — part of the chapter on Integers.",
           "key_ideas": [
-            "Same sign: add magnitudes, keep the sign",
-            "Different signs: subtract magnitudes, take sign of larger magnitude",
-            "Subtracting an integer = adding its additive inverse",
-            "a - (-b) = a + b"
+            "Core principles of addition and subtraction of integers",
+            "Step-by-step problem solving for addition and subtraction of integers",
+            "Real-world applications of addition and subtraction of integers"
+          ]
+        },
+        {
+          "concept_id": "math6.integers6.number_line_rep",
+          "title": "Representing Integers on a Number Line",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math6.integers6.intro_integers"
+          ],
+          "description": "Visualizing positive and negative integers by placing them to the right and left of zero on a horizontal line.",
+          "key_ideas": [
+            "Positive integers are to the right of zero",
+            "Negative integers are to the left of zero",
+            "Zero is neither positive nor negative",
+            "Equal spacing between integer points"
+          ]
+        },
+        {
+          "concept_id": "math6.integers6.ordering_comparing",
+          "title": "Ordering and Comparing Integers",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.integers6.number_line_rep"
+          ],
+          "description": "Determining which of two integers is larger or smaller based on their position on the number line.",
+          "key_ideas": [
+            "Numbers to the right are always greater than numbers to the left",
+            "Every positive integer is larger than every negative integer",
+            "As negative numbers move further from zero, their value decreases (e.g., -10 < -1)"
+          ]
+        },
+        {
+          "concept_id": "math6.integers6.additive_inverse",
+          "title": "Additive Inverse",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math6.integers6.intro_integers"
+          ],
+          "description": "Understanding that for every integer, there exists an opposite integer that results in zero when added together.",
+          "key_ideas": [
+            "Opposite numbers have the same distance from zero",
+            "The sum of an integer and its additive inverse is zero",
+            "Example: The additive inverse of 5 is -5"
+          ]
+        },
+        {
+          "concept_id": "math6.integers6.add_using_number_line",
+          "title": "Addition Using the Number Line",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math6.integers6.number_line_rep",
+            "math6.integers6.add_sub_integers"
+          ],
+          "description": "Performing addition by moving steps right (for positive) or left (for negative) starting from a given integer on the number line.",
+          "key_ideas": [
+            "Start at the first number",
+            "Move right to add a positive integer",
+            "Move left to add a negative integer",
+            "The final position indicates the sum"
+          ]
+        },
+        {
+          "concept_id": "math6.integers6.subtraction_as_inverse",
+          "title": "Subtraction as Adding the Inverse",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.integers6.add_sub_integers",
+            "math6.integers6.additive_inverse"
+          ],
+          "description": "Converting subtraction problems into addition problems by adding the additive inverse of the second number.",
+          "key_ideas": [
+            "Subtracting an integer is the same as adding its additive inverse",
+            "Change the operation from minus to plus",
+            "Change the sign of the number being subtracted",
+            "Apply standard addition rules"
           ]
         }
       ]
@@ -333,57 +637,90 @@
       "title": "Fractions",
       "concepts": [
         {
-          "concept_id": "math6.fractions.basics",
-          "title": "Understanding Fractions",
+          "concept_id": "math6.fractions6.types6",
+          "title": "Types of Fractions",
           "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Types of Fractions — part of the chapter on Fractions.",
+          "key_ideas": [
+            "Core principles of types of fractions",
+            "Step-by-step problem solving for types of fractions",
+            "Real-world applications of types of fractions"
+          ]
+        },
+        {
+          "concept_id": "math6.fractions6.operations6",
+          "title": "Comparing, Adding, Subtracting Fractions",
+          "bloom_level": "apply",
           "difficulty": 0.3,
-          "prerequisites": ["math6.whole.basics"],
-          "description": "Fraction as part of a whole. Numerator and denominator. Representing fractions on number line.",
+          "prerequisites": [
+            "math6.fractions6.types6"
+          ],
+          "description": "Comparing, Adding, Subtracting Fractions — part of the chapter on Fractions.",
           "key_ideas": [
-            "Fraction = part/whole",
-            "Numerator (top): parts taken, Denominator (bottom): total equal parts",
-            "Proper fractions: numerator < denominator",
-            "Improper fractions and mixed numbers"
+            "Core principles of comparing, adding, subtracting fractions",
+            "Step-by-step problem solving for comparing, adding, subtracting fractions",
+            "Real-world applications of comparing, adding, subtracting fractions"
           ]
         },
         {
-          "concept_id": "math6.fractions.equivalent",
-          "title": "Equivalent Fractions",
+          "concept_id": "math6.fractions6.intro_number_line",
+          "title": "Fraction Concept and Number Line",
           "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": ["math6.fractions.basics"],
-          "description": "Fractions that represent the same value. Simplest form. Finding equivalent fractions by multiplying or dividing numerator and denominator by the same number.",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to fractions as a part of a whole and representing them on a number line.",
           "key_ideas": [
-            "Multiply/divide both parts by same number",
-            "Simplest form: HCF of numerator and denominator is 1",
-            "Cross multiplication to check equivalence"
+            "A fraction represents a part of a whole or a collection",
+            "Numerator represents the parts taken, denominator represents the total parts",
+            "Fractions can be located as specific points on a number line between integers"
           ]
         },
         {
-          "concept_id": "math6.fractions.comparing_ordering",
-          "title": "Comparing and Ordering Fractions",
+          "concept_id": "math6.fractions6.equivalent_fractions",
+          "title": "Equivalent Fractions",
           "bloom_level": "apply",
           "difficulty": 0.4,
-          "prerequisites": ["math6.fractions.equivalent", "math6.playing.hcf_lcm"],
-          "description": "Comparing like fractions, unlike fractions. Converting to like fractions using LCM. Ordering fractions.",
+          "prerequisites": [
+            "math6.fractions6.intro_number_line"
+          ],
+          "description": "Understanding that different fractions can represent the same value and learning how to generate them.",
           "key_ideas": [
-            "Like fractions: same denominator — compare numerators",
-            "Unlike fractions: find LCM of denominators, convert, then compare",
-            "Ascending and descending order of fractions"
+            "Equivalent fractions represent the same part of a whole",
+            "Multiply numerator and denominator by the same non-zero number to find equivalents",
+            "Visualizing equivalence through area models"
           ]
         },
         {
-          "concept_id": "math6.fractions.operations",
-          "title": "Addition and Subtraction of Fractions",
+          "concept_id": "math6.fractions6.simplest_form",
+          "title": "Simplest Form of a Fraction",
           "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": ["math6.fractions.comparing_ordering"],
-          "description": "Adding and subtracting like and unlike fractions. Adding and subtracting mixed numbers.",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math6.fractions6.equivalent_fractions"
+          ],
+          "description": "Reducing fractions to their lowest terms by dividing the numerator and denominator by common factors.",
           "key_ideas": [
-            "Like fractions: add/subtract numerators, keep denominator",
-            "Unlike fractions: convert to like fractions first (LCM)",
-            "Mixed numbers: convert to improper, operate, convert back",
-            "Always simplify the result"
+            "A fraction is in simplest form when the HCF of numerator and denominator is 1",
+            "Dividing top and bottom by common factors reduces the fraction",
+            "The value of the fraction remains unchanged during simplification"
+          ]
+        },
+        {
+          "concept_id": "math6.fractions6.like_unlike",
+          "title": "Like and Unlike Fractions",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.fractions6.types6",
+            "math6.fractions6.equivalent_fractions"
+          ],
+          "description": "Distinguishing between fractions with the same denominators versus different denominators and converting between them.",
+          "key_ideas": [
+            "Like fractions have the same denominator",
+            "Unlike fractions have different denominators",
+            "Converting unlike fractions to like fractions using LCM is necessary for comparison and addition"
           ]
         }
       ]
@@ -393,43 +730,92 @@
       "title": "Decimals",
       "concepts": [
         {
-          "concept_id": "math6.decimals.intro",
-          "title": "Introduction to Decimals",
+          "concept_id": "math6.decimals6.decimal_concepts",
+          "title": "Decimal Concepts and Place Value",
           "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": ["math6.fractions.basics", "math6.numbers.large_numbers"],
-          "description": "Decimals as fractions with denominator 10, 100, 1000. Place value in decimals (tenths, hundredths, thousandths). Reading and writing decimals.",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Decimal Concepts and Place Value — part of the chapter on Decimals.",
           "key_ideas": [
-            "Tenths = 1/10 = 0.1, Hundredths = 1/100 = 0.01",
-            "Place value extends to the right of decimal point",
-            "Decimals on the number line",
-            "Converting fractions to decimals and vice versa"
+            "Core principles of decimal concepts and place value",
+            "Step-by-step problem solving for decimal concepts and place value",
+            "Real-world applications of decimal concepts and place value"
           ]
         },
         {
-          "concept_id": "math6.decimals.comparing",
-          "title": "Comparing Decimals",
+          "concept_id": "math6.decimals6.decimal_operations",
+          "title": "Operations on Decimals",
           "bloom_level": "apply",
           "difficulty": 0.3,
-          "prerequisites": ["math6.decimals.intro"],
-          "description": "Comparing decimal numbers. Arranging in ascending/descending order. Using decimals in money, length, weight.",
+          "prerequisites": [
+            "math6.decimals6.decimal_concepts"
+          ],
+          "description": "Operations on Decimals — part of the chapter on Decimals.",
           "key_ideas": [
-            "Compare whole number part first, then tenths, hundredths...",
-            "Adding trailing zeros doesn't change value: 2.5 = 2.50",
-            "Real-world: ₹45.50, 3.5 km, 1.25 kg"
+            "Core principles of operations on decimals",
+            "Step-by-step problem solving for operations on decimals",
+            "Real-world applications of operations on decimals"
           ]
         },
         {
-          "concept_id": "math6.decimals.operations",
-          "title": "Addition and Subtraction of Decimals",
+          "concept_id": "math6.decimals6.fractions_decimals_conversion",
+          "title": "Converting Fractions and Decimals",
           "bloom_level": "apply",
           "difficulty": 0.4,
-          "prerequisites": ["math6.decimals.comparing"],
-          "description": "Adding and subtracting decimals by aligning decimal points. Word problems involving money, measurements.",
+          "prerequisites": [
+            "math6.decimals6.decimal_concepts"
+          ],
+          "description": "Learn the relationship between fractions and decimals, focusing on converting fractions with denominators 10, 100, and 1000 into decimal notation and vice versa.",
           "key_ideas": [
-            "Align decimal points vertically",
-            "Add trailing zeros to make same number of decimal places",
-            "Real-world problems with money and measurements"
+            "Fractions with denominator 10 represent tenths",
+            "Fractions with denominator 100 represent hundredths",
+            "Converting decimals to fractions in simplest form"
+          ]
+        },
+        {
+          "concept_id": "math6.decimals6.number_line_representation",
+          "title": "Decimals on the Number Line",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math6.decimals6.decimal_concepts"
+          ],
+          "description": "Visualize and locate decimal numbers on a number line to understand their position relative to whole numbers.",
+          "key_ideas": [
+            "Identifying the interval between two whole numbers",
+            "Dividing unit lengths into ten equal parts",
+            "Locating tenths and hundredths on the line"
+          ]
+        },
+        {
+          "concept_id": "math6.decimals6.comparing_decimals",
+          "title": "Comparing and Ordering Decimals",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.decimals6.decimal_concepts"
+          ],
+          "description": "Techniques for determining which of two decimal numbers is greater and arranging sets of decimals in ascending or descending order.",
+          "key_ideas": [
+            "Comparing the whole number part first",
+            "Comparing tenths, then hundredths, then thousandths",
+            "Understanding that adding trailing zeros does not change value (e.g., 0.5 = 0.50)"
+          ]
+        },
+        {
+          "concept_id": "math6.decimals6.decimal_applications",
+          "title": "Using Decimals in Measurement",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.decimals6.decimal_concepts",
+            "math6.decimals6.decimal_operations"
+          ],
+          "description": "Apply decimal concepts to real-world measurements involving money, length, and weight.",
+          "key_ideas": [
+            "Converting Paise to Rupees using decimals",
+            "Expressing length (cm to m, mm to cm)",
+            "Expressing weight (g to kg) using decimal notation"
           ]
         }
       ]
@@ -439,45 +825,90 @@
       "title": "Data Handling",
       "concepts": [
         {
-          "concept_id": "math6.data.collection",
-          "title": "Data Collection and Organization",
-          "bloom_level": "understand",
+          "concept_id": "math6.data_handling6.pictograph6",
+          "title": "Pictographs and Bar Graphs",
+          "bloom_level": "apply",
           "difficulty": 0.25,
-          "prerequisites": ["math6.whole.basics"],
-          "description": "Collecting data, organizing into tables, tally marks, frequency tables.",
+          "prerequisites": [],
+          "description": "Pictographs and Bar Graphs — part of the chapter on Data Handling.",
           "key_ideas": [
-            "Data: information collected for analysis",
-            "Tally marks for counting",
-            "Frequency table organizes data",
-            "Raw data vs organized data"
+            "Core principles of pictographs and bar graphs",
+            "Step-by-step problem solving for pictographs and bar graphs",
+            "Real-world applications of pictographs and bar graphs"
           ]
         },
         {
-          "concept_id": "math6.data.pictograph",
-          "title": "Pictographs",
+          "concept_id": "math6.data_handling6.mean6",
+          "title": "Mean (Average)",
           "bloom_level": "apply",
           "difficulty": 0.3,
-          "prerequisites": ["math6.data.collection"],
-          "description": "Reading and drawing pictographs. Using symbols to represent data. Interpreting pictographs.",
+          "prerequisites": [
+            "math6.data_handling6.pictograph6"
+          ],
+          "description": "Mean (Average) — part of the chapter on Data Handling.",
           "key_ideas": [
-            "Each symbol represents a fixed number",
-            "Key/legend tells what each symbol represents",
-            "Half symbols for half values",
-            "Drawing pictographs from given data"
+            "Core principles of mean (average)",
+            "Step-by-step problem solving for mean (average)",
+            "Real-world applications of mean (average)"
           ]
         },
         {
-          "concept_id": "math6.data.bar_graph",
-          "title": "Bar Graphs",
-          "bloom_level": "apply",
-          "difficulty": 0.35,
-          "prerequisites": ["math6.data.pictograph"],
-          "description": "Reading and drawing bar graphs. Choosing appropriate scale. Interpreting bar graphs to answer questions.",
+          "concept_id": "math6.data_handling6.intro_data",
+          "title": "Introduction to Data",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Understanding the definition of data as a collection of numbers gathered to give some information, and distinguishing between raw data and organized data.",
           "key_ideas": [
-            "Bars represent quantities, height = value",
-            "Equal width bars, equal gaps",
-            "Choosing scale based on data range",
-            "Horizontal and vertical bar graphs"
+            "Definition of data",
+            "Raw data vs. organized data",
+            "Purpose of collecting data"
+          ]
+        },
+        {
+          "concept_id": "math6.data_handling6.organization_tally_marks",
+          "title": "Organizing Data using Tally Marks",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.data_handling6.intro_data"
+          ],
+          "description": "Learning to organize large amounts of raw data into a tabular form using tally marks to calculate frequency.",
+          "key_ideas": [
+            "Using tally marks for counting",
+            "Grouping tallies in sets of five",
+            "Creating frequency distribution tables"
+          ]
+        },
+        {
+          "concept_id": "math6.data_handling6.drawing_graphs_scaling",
+          "title": "Drawing Graphs and Choosing Scales",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.data_handling6.pictograph6",
+            "math6.data_handling6.organization_tally_marks"
+          ],
+          "description": "The process of constructing bar graphs and pictographs, with a specific focus on selecting an appropriate scale to represent large numbers.",
+          "key_ideas": [
+            "Choosing an appropriate scale (e.g., 1 unit = 10 items)",
+            "Drawing horizontal and vertical axes",
+            "Ensuring uniform width and spacing of bars"
+          ]
+        },
+        {
+          "concept_id": "math6.data_handling6.interpreting_data",
+          "title": "Interpreting Data and Drawing Conclusions",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.data_handling6.pictograph6"
+          ],
+          "description": "Analyzing visual representations of data to answer specific questions, compare categories, and draw logical conclusions.",
+          "key_ideas": [
+            "Comparing bar heights to find max/min values",
+            "Calculating total values from graphs",
+            "Inferring trends from data visualization"
           ]
         }
       ]
@@ -487,31 +918,110 @@
       "title": "Mensuration",
       "concepts": [
         {
-          "concept_id": "math6.mensuration.perimeter",
-          "title": "Perimeter",
+          "concept_id": "math6.mensuration6.perimeter6",
+          "title": "Perimeter of Common Shapes",
           "bloom_level": "apply",
-          "difficulty": 0.3,
-          "prerequisites": ["math6.shapes.quadrilaterals", "math6.geometry.triangles_circles"],
-          "description": "Perimeter as the total boundary length. Perimeter of rectangles, squares, triangles, and regular polygons.",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Perimeter of Common Shapes — part of the chapter on Mensuration.",
           "key_ideas": [
-            "Perimeter = sum of all sides",
-            "Rectangle: 2(l+b), Square: 4×side",
-            "Equilateral triangle: 3×side",
-            "Regular polygon: n × side"
+            "Core principles of perimeter of common shapes",
+            "Step-by-step problem solving for perimeter of common shapes",
+            "Real-world applications of perimeter of common shapes"
           ]
         },
         {
-          "concept_id": "math6.mensuration.area",
-          "title": "Area",
+          "concept_id": "math6.mensuration6.area6",
+          "title": "Area of Rectangle, Square, Triangle",
           "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": ["math6.mensuration.perimeter"],
-          "description": "Area as the measure of surface. Area of rectangles and squares using formulas. Area using grid/graph paper.",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.mensuration6.perimeter6"
+          ],
+          "description": "Area of Rectangle, Square, Triangle — part of the chapter on Mensuration.",
           "key_ideas": [
-            "Area = amount of surface enclosed",
-            "Rectangle: l×b, Square: side×side",
-            "Counting squares on grid paper for irregular shapes",
-            "Units: sq cm, sq m, sq km"
+            "Core principles of area of rectangle, square, triangle",
+            "Step-by-step problem solving for area of rectangle, square, triangle",
+            "Real-world applications of area of rectangle, square, triangle"
+          ]
+        },
+        {
+          "concept_id": "math6.mensuration6.area_counting_squares",
+          "title": "Introduction to Area using Unit Squares",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding the concept of area as the amount of surface enclosed by a closed figure, calculated by counting unit squares on a grid or graph paper.",
+          "key_ideas": [
+            "Area is the measure of the region inside a closed boundary",
+            "Using squared paper to estimate area",
+            "Counting fully filled squares as 1 unit and half-filled squares as 0.5 units",
+            "Ignoring squares less than half filled"
+          ]
+        },
+        {
+          "concept_id": "math6.mensuration6.perimeter_regular_polygons",
+          "title": "Perimeter of Regular Polygons",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "math6.mensuration6.perimeter6"
+          ],
+          "description": "Deriving and applying the generalized rule for calculating the perimeter of regular polygons (shapes with equal sides and equal angles).",
+          "key_ideas": [
+            "Definition of a regular polygon (equilateral and equiangular)",
+            "Formula for regular pentagon: 5 × side length",
+            "Formula for regular hexagon: 6 × side length",
+            "General formula: Number of sides × Length of one side"
+          ]
+        },
+        {
+          "concept_id": "math6.mensuration6.perimeter_applications",
+          "title": "Real-world Applications of Perimeter",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.mensuration6.perimeter6"
+          ],
+          "description": "Solving word problems involving the calculation of boundaries for rectangular and square fields, including cost calculations.",
+          "key_ideas": [
+            "Calculating the length of wire required for fencing",
+            "Determining the distance covered by running around a track",
+            "Calculating total cost given the rate per unit length (e.g., cost of fencing per meter)",
+            "Finding the side of a shape when the total perimeter is known"
+          ]
+        },
+        {
+          "concept_id": "math6.mensuration6.area_applications",
+          "title": "Real-world Applications of Area",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.mensuration6.area6"
+          ],
+          "description": "Applying area formulas to solve complex word problems involving flooring, tiling, and land coverage.",
+          "key_ideas": [
+            "Calculating the number of tiles required to cover a floor",
+            "Determining the cost of leveling a playground or painting a wall",
+            "Splitting complex figures into simpler rectangles to find total area",
+            "Converting between units (e.g., meters to centimeters) before calculation"
+          ]
+        },
+        {
+          "concept_id": "math6.mensuration6.area_vs_perimeter",
+          "title": "Distinguishing Area and Perimeter",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math6.mensuration6.perimeter6",
+            "math6.mensuration6.area6"
+          ],
+          "description": "Analyzing the relationship between area and perimeter to understand that shapes with the same perimeter can have different areas and vice versa.",
+          "key_ideas": [
+            "Two shapes can have the same perimeter but different areas",
+            "Two shapes can have the same area but different perimeters",
+            "Identifying which metric (area or perimeter) is needed for a specific real-life scenario",
+            "Impact of changing dimensions on both area and perimeter"
           ]
         }
       ]
@@ -521,31 +1031,104 @@
       "title": "Algebra",
       "concepts": [
         {
-          "concept_id": "math6.algebra.variables",
-          "title": "Introduction to Variables and Expressions",
+          "concept_id": "math6.algebra6.variables6",
+          "title": "Use of Variables and Constants",
           "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": ["math6.whole.properties"],
-          "description": "Using letters to represent unknown numbers. Variables vs constants. Writing simple algebraic expressions.",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Use of Variables and Constants — part of the chapter on Algebra.",
           "key_ideas": [
-            "Variable: a letter that represents an unknown or changing quantity",
-            "Expression: combination of variables, constants, and operations",
-            "Examples: x+3, 2n, 5y-1",
-            "Translating word statements to expressions"
+            "Core principles of use of variables and constants",
+            "Step-by-step problem solving for use of variables and constants",
+            "Real-world applications of use of variables and constants"
           ]
         },
         {
-          "concept_id": "math6.algebra.equations",
+          "concept_id": "math6.algebra6.expressions6",
+          "title": "Algebraic Expressions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.algebra6.variables6"
+          ],
+          "description": "Algebraic Expressions — part of the chapter on Algebra.",
+          "key_ideas": [
+            "Core principles of algebraic expressions",
+            "Step-by-step problem solving for algebraic expressions",
+            "Real-world applications of algebraic expressions"
+          ]
+        },
+        {
+          "concept_id": "math6.algebra6.equations6",
           "title": "Simple Equations",
           "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": ["math6.algebra.variables"],
-          "description": "Equations as statements of equality with a variable. Solving simple equations by trial-and-error and systematic methods.",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math6.algebra6.expressions6"
+          ],
+          "description": "Simple Equations — part of the chapter on Algebra.",
           "key_ideas": [
-            "Equation: expression = value, with a variable",
-            "LHS = RHS when variable has the correct value",
-            "Solution: the value that satisfies the equation",
-            "Trial and error, then systematic approach"
+            "Core principles of simple equations",
+            "Step-by-step problem solving for simple equations",
+            "Real-world applications of simple equations"
+          ]
+        },
+        {
+          "concept_id": "math6.algebra6.matchstick_patterns",
+          "title": "Matchstick Patterns and Generalization",
+          "bloom_level": "analyze",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to algebra through the observation of repeating geometric patterns (like matchstick shapes) to derive a general rule.",
+          "key_ideas": [
+            "Observing pattern growth",
+            "Relating the number of shapes to the number of components",
+            "Deriving a rule for the 'nth' term"
+          ]
+        },
+        {
+          "concept_id": "math6.algebra6.variables_in_rules",
+          "title": "Variables in Common Rules",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math6.algebra6.variables6"
+          ],
+          "description": "Application of variables to express general rules in geometry (perimeter/area formulas) and arithmetic properties.",
+          "key_ideas": [
+            "Perimeter formulas (e.g., 4s for a square)",
+            "Commutative property of addition and multiplication (a + b = b + a)",
+            "Distributive property using variables"
+          ]
+        },
+        {
+          "concept_id": "math6.algebra6.translating_statements",
+          "title": "Translating Language to Algebra",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.algebra6.expressions6"
+          ],
+          "description": "The process of converting verbal statements and real-world situations into algebraic expressions.",
+          "key_ideas": [
+            "Identifying keywords (sum, difference, product, quotient)",
+            "Converting 'x more than', 'y times', and 'less than' into symbols",
+            "Formulating expressions from word problems"
+          ]
+        },
+        {
+          "concept_id": "math6.algebra6.solving_trial_error",
+          "title": "Solving Equations by Trial and Error",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math6.algebra6.equations6"
+          ],
+          "description": "Finding the solution to an equation by systematically substituting different values for the variable until the Left Hand Side (LHS) equals the Right Hand Side (RHS).",
+          "key_ideas": [
+            "Concept of a 'solution' to an equation",
+            "Balancing LHS and RHS",
+            "Systematic substitution method"
           ]
         }
       ]
@@ -555,31 +1138,108 @@
       "title": "Ratio and Proportion",
       "concepts": [
         {
-          "concept_id": "math6.ratio.basics",
-          "title": "Ratio",
+          "concept_id": "math6.ratio_proportion.ratio6",
+          "title": "Concept of Ratio",
           "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": ["math6.fractions.equivalent", "math6.playing.hcf_lcm"],
-          "description": "Ratio as comparison of two quantities. Simplest form of ratio. Equivalent ratios.",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Concept of Ratio — part of the chapter on Ratio and Proportion.",
           "key_ideas": [
-            "Ratio compares two quantities of same kind",
-            "Written as a:b or a/b",
-            "Order matters: a:b ≠ b:a",
-            "Simplest form: divide by HCF"
+            "Core principles of concept of ratio",
+            "Step-by-step problem solving for concept of ratio",
+            "Real-world applications of concept of ratio"
           ]
         },
         {
-          "concept_id": "math6.ratio.proportion",
-          "title": "Proportion",
+          "concept_id": "math6.ratio_proportion.proportion6",
+          "title": "Proportion and Unitary Method",
           "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": ["math6.ratio.basics"],
-          "description": "Proportion as equality of two ratios. Unitary method. Solving word problems using proportion.",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.ratio_proportion.ratio6"
+          ],
+          "description": "Proportion and Unitary Method — part of the chapter on Ratio and Proportion.",
           "key_ideas": [
-            "a:b :: c:d means a/b = c/d",
-            "Cross multiplication: a×d = b×c",
-            "Unitary method: find value of 1 unit first",
-            "Real-world: recipes, maps, scale drawings"
+            "Core principles of proportion and unitary method",
+            "Step-by-step problem solving for proportion and unitary method",
+            "Real-world applications of proportion and unitary method"
+          ]
+        },
+        {
+          "concept_id": "math6.ratio_proportion.equivalent_ratios",
+          "title": "Equivalent Ratios",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.ratio_proportion.ratio6"
+          ],
+          "description": "Understanding that different ratios can represent the same relationship between quantities by multiplying or dividing both terms by the same non-zero number.",
+          "key_ideas": [
+            "Multiplying the numerator and denominator by the same number yields an equivalent ratio",
+            "Two ratios are equivalent if their simplest forms are equal",
+            "Used to compare ratios with different denominators"
+          ]
+        },
+        {
+          "concept_id": "math6.ratio_proportion.simplest_form",
+          "title": "Simplest Form of a Ratio",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math6.ratio_proportion.ratio6",
+            "math6.ratio_proportion.equivalent_ratios"
+          ],
+          "description": "The process of reducing a ratio to its lowest terms where the antecedent and consequent have no common factor other than 1.",
+          "key_ideas": [
+            "Identifying the Highest Common Factor (HCF) of ratio terms",
+            "Dividing both terms by the HCF",
+            "A ratio in simplest form uses co-prime numbers"
+          ]
+        },
+        {
+          "concept_id": "math6.ratio_proportion.comparing_ratios",
+          "title": "Comparison of Ratios",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math6.ratio_proportion.equivalent_ratios"
+          ],
+          "description": "Methods to determine which of two or more ratios is greater or smaller by converting them to like fractions.",
+          "key_ideas": [
+            "Converting ratios to fraction form",
+            "Making denominators equal (LCM method)",
+            "Comparing numerators to determine the larger ratio"
+          ]
+        },
+        {
+          "concept_id": "math6.ratio_proportion.terms_of_proportion",
+          "title": "Terms of Proportion",
+          "bloom_level": "remember",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.ratio_proportion.proportion6"
+          ],
+          "description": "Identifying the specific components of a proportion statement (a:b :: c:d) and the mathematical relationship between them.",
+          "key_ideas": [
+            "Identification of Extreme Terms (first and fourth terms)",
+            "Identification of Middle Terms or Means (second and third terms)",
+            "The rule: Product of Extremes = Product of Means"
+          ]
+        },
+        {
+          "concept_id": "math6.ratio_proportion.dividing_quantities",
+          "title": "Dividing Quantities in a Ratio",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.ratio_proportion.ratio6",
+            "math6.ratio_proportion.simplest_form"
+          ],
+          "description": "Solving problems where a total quantity must be distributed between parties or groups according to a specific ratio.",
+          "key_ideas": [
+            "Calculating the sum of the terms of the ratio",
+            "Determining the value of one 'part' (Total Quantity / Sum of parts)",
+            "Multiplying the value of one part by each term of the ratio"
           ]
         }
       ]
@@ -589,17 +1249,107 @@
       "title": "Symmetry",
       "concepts": [
         {
-          "concept_id": "math6.symmetry.line_symmetry",
-          "title": "Line Symmetry",
+          "concept_id": "math6.symmetry6.line_symmetry",
+          "title": "Line of Symmetry",
           "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": ["math6.geometry.curves_polygons"],
-          "description": "Line of symmetry divides a figure into two identical halves. Finding lines of symmetry in shapes and letters.",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Line of Symmetry — part of the chapter on Symmetry.",
           "key_ideas": [
-            "Line of symmetry: fold line that makes two matching halves",
-            "Some shapes have multiple lines of symmetry",
-            "Circle has infinite lines of symmetry",
-            "Regular polygons: n lines of symmetry"
+            "Core principles of line of symmetry",
+            "Step-by-step problem solving for line of symmetry",
+            "Real-world applications of line of symmetry"
+          ]
+        },
+        {
+          "concept_id": "math6.symmetry6.symmetry_figures",
+          "title": "Symmetry in Common Figures",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math6.symmetry6.line_symmetry"
+          ],
+          "description": "Symmetry in Common Figures — part of the chapter on Symmetry.",
+          "key_ideas": [
+            "Core principles of symmetry in common figures",
+            "Step-by-step problem solving for symmetry in common figures",
+            "Real-world applications of symmetry in common figures"
+          ]
+        },
+        {
+          "concept_id": "math6.symmetry6.multiple_lines",
+          "title": "Figures with Multiple Lines of Symmetry",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math6.symmetry6.line_symmetry",
+            "math6.symmetry6.symmetry_figures"
+          ],
+          "description": "Identification and analysis of geometric shapes that possess two or more lines of symmetry, distinguishing them from shapes with only one.",
+          "key_ideas": [
+            "Rectangles have exactly two lines of symmetry",
+            "Squares have four lines of symmetry",
+            "Distinguishing between vertical, horizontal, and diagonal lines of symmetry in the same figure"
+          ]
+        },
+        {
+          "concept_id": "math6.symmetry6.regular_polygons",
+          "title": "Symmetry in Regular Polygons",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math6.symmetry6.multiple_lines"
+          ],
+          "description": "Understanding the relationship between the number of sides in a regular polygon and its number of lines of symmetry.",
+          "key_ideas": [
+            "A regular polygon is both equilateral and equiangular",
+            "The number of lines of symmetry in a regular polygon equals the number of its sides",
+            "Equilateral triangles have 3 lines of symmetry"
+          ]
+        },
+        {
+          "concept_id": "math6.symmetry6.reflection_symmetry",
+          "title": "Reflection and Mirror Symmetry",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.symmetry6.line_symmetry"
+          ],
+          "description": "Exploring the concept of an object and its image across a mirror line, where the mirror line acts as the line of symmetry.",
+          "key_ideas": [
+            "The object and its image are equidistant from the mirror line",
+            "Lateral inversion: Left becomes right and right becomes left in the image",
+            "If a paper is folded along the mirror line, the object and image coincide"
+          ]
+        },
+        {
+          "concept_id": "math6.symmetry6.completing_figures",
+          "title": "Completing Symmetric Figures",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math6.symmetry6.reflection_symmetry"
+          ],
+          "description": "Applying the principles of symmetry to draw or construct the missing half of a figure given one half and the axis of symmetry.",
+          "key_ideas": [
+            "Using squared paper or grid lines to ensure accuracy",
+            "Plotting corresponding vertices equidistant from the axis of symmetry",
+            "Connecting points to complete the full symmetric shape"
+          ]
+        },
+        {
+          "concept_id": "math6.symmetry6.rangoli_patterns",
+          "title": "Symmetry in Patterns and Designs",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math6.symmetry6.line_symmetry"
+          ],
+          "description": "Observing and identifying symmetry in real-world applications such as Rangoli, architectural designs, and nature.",
+          "key_ideas": [
+            "Identifying repeated patterns that form symmetric wholes",
+            "Recognizing symmetry in leaves, flowers, and insects",
+            "Using symmetry to create aesthetically pleasing designs (Rangoli)"
           ]
         }
       ]
@@ -609,17 +1359,95 @@
       "title": "Practical Geometry",
       "concepts": [
         {
-          "concept_id": "math6.practical.constructions",
-          "title": "Basic Constructions",
+          "concept_id": "math6.practical_geometry6.constructions6",
+          "title": "Constructing Lines, Angles, Perpendiculars",
           "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": ["math6.shapes.measuring_angles", "math6.shapes.perpendicular_parallel"],
-          "description": "Using ruler and compass to construct: a circle, a line segment of given length, copy of a line segment, perpendicular bisector, angle bisector, angles of 60°, 120°, 90°, 30°, 45°.",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Constructing Lines, Angles, Perpendiculars — part of the chapter on Practical Geometry.",
           "key_ideas": [
-            "Tools: ruler, compass, protractor, set squares",
-            "Perpendicular bisector: equidistant from both endpoints",
-            "Angle bisector: divides angle into two equal parts",
-            "Constructing standard angles with compass only"
+            "Core principles of constructing lines, angles, perpendiculars",
+            "Step-by-step problem solving for constructing lines, angles, perpendiculars",
+            "Real-world applications of constructing lines, angles, perpendiculars"
+          ]
+        },
+        {
+          "concept_id": "math6.practical_geometry6.circle_construction",
+          "title": "Constructing Circles",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Constructing Circles — part of the chapter on Practical Geometry.",
+          "key_ideas": [
+            "Core principles of constructing circles",
+            "Step-by-step problem solving for constructing circles",
+            "Real-world applications of constructing circles"
+          ]
+        },
+        {
+          "concept_id": "math6.practical_geometry6.line_segment_copy",
+          "title": "Copying Line Segments",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math6.practical_geometry6.constructions6"
+          ],
+          "description": "Learn to construct a line segment of a specific length and copy an existing line segment using a ruler and compasses to ensure precision.",
+          "key_ideas": [
+            "Using a compass to measure length",
+            "Transferring length without a ruler",
+            "Difference between measuring and constructing"
+          ]
+        },
+        {
+          "concept_id": "math6.practical_geometry6.perpendicular_bisector",
+          "title": "Perpendicular Bisector of a Line Segment",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math6.practical_geometry6.constructions6",
+            "math6.practical_geometry6.circle_construction"
+          ],
+          "description": "Construct the perpendicular bisector of a given line segment using a compass and ruler to find the axis of symmetry.",
+          "key_ideas": [
+            "Definition of a bisector",
+            "Using arcs to find intersection points",
+            "Dividing a segment into two equal halves",
+            "Relationship to symmetry"
+          ]
+        },
+        {
+          "concept_id": "math6.practical_geometry6.angle_bisector",
+          "title": "Bisecting an Angle",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math6.practical_geometry6.constructions6",
+            "math6.practical_geometry6.circle_construction"
+          ],
+          "description": "Learn the step-by-step method to divide a given angle into two equal parts using a compass and ruler.",
+          "key_ideas": [
+            "Concept of an angle bisector",
+            "Drawing arcs from the vertex",
+            "Locating the interior intersection point",
+            "Verifying equality with a protractor"
+          ]
+        },
+        {
+          "concept_id": "math6.practical_geometry6.special_angles_compass",
+          "title": "Constructing Special Angles (60°, 90°, 120°)",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math6.practical_geometry6.constructions6",
+            "math6.practical_geometry6.angle_bisector"
+          ],
+          "description": "Construct specific angles like 60°, 90°, and 120° using only a ruler and compasses, without the aid of a protractor.",
+          "key_ideas": [
+            "Constructing 60° based on equilateral triangle properties",
+            "Constructing 120° as double of 60°",
+            "Constructing 90° by bisecting a straight angle or between 60° and 120°",
+            "Precision in compass width"
           ]
         }
       ]

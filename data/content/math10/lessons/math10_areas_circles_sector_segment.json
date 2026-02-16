@@ -1,0 +1,12 @@
+{
+  "title": "Area of Sector and Segment — Areas Related to Circles",
+  "hook": "Let's explore <strong>Area of Sector and Segment</strong> from the chapter on Areas Related to Circles. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Area of Sector and Segment</strong>\n\n<em>A sector is a 'slice' of a circle; a segment is the region between a chord and its arc. Area of sector = (θ/360°) × πr², and segment area = sector area − triangle area.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Arc length = (θ/360°) × 2πr</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Area of sector = (θ/360°) × πr²</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Area of segment = Area of sector − Area of triangle</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Major sector + Minor sector = Full circle</div>",
+  "worked_example": "<em>A detailed worked example for Area of Sector and Segment will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Area of Sector and Segment and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and areas related to circles concepts like area of sector and segment are used in engineering, data science, and everyday problem solving!"
+}

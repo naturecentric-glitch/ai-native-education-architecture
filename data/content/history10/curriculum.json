@@ -1,0 +1,101 @@
+{
+  "course_id": "history10",
+  "title": "Class 10 History",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "The Rise of Nationalism in Europe",
+      "concepts": [
+        {
+          "concept_id": "history10.nationalism_europe.nation_state",
+          "title": "Nation States and National Movements",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Nation States and National Movements — part of the chapter on The Rise of Nationalism in Europe.",
+          "key_ideas": [
+            "Core principles of nation states and national movements",
+            "Step-by-step problem solving for nation states and national movements",
+            "Real-world applications of nation states and national movements"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Nationalism in India",
+      "concepts": [
+        {
+          "concept_id": "history10.nationalism_india.ncm_cdm_quit",
+          "title": "Non-Cooperation, Civil Disobedience, Quit India",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Non-Cooperation, Civil Disobedience, Quit India — part of the chapter on Nationalism in India.",
+          "key_ideas": [
+            "Core principles of non-cooperation, civil disobedience, quit india",
+            "Step-by-step problem solving for non-cooperation, civil disobedience, quit india",
+            "Real-world applications of non-cooperation, civil disobedience, quit india"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "The Making of a Global World",
+      "concepts": [
+        {
+          "concept_id": "history10.making_global.globalisation_history",
+          "title": "Trade, Migration and Global Connections",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Trade, Migration and Global Connections — part of the chapter on The Making of a Global World.",
+          "key_ideas": [
+            "Core principles of trade, migration and global connections",
+            "Step-by-step problem solving for trade, migration and global connections",
+            "Real-world applications of trade, migration and global connections"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "The Age of Industrialisation",
+      "concepts": [
+        {
+          "concept_id": "history10.industrialisation.industrial_revolution",
+          "title": "Industrialisation in Britain and India",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Industrialisation in Britain and India — part of the chapter on The Age of Industrialisation.",
+          "key_ideas": [
+            "Core principles of industrialisation in britain and india",
+            "Step-by-step problem solving for industrialisation in britain and india",
+            "Real-world applications of industrialisation in britain and india"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Print Culture and the Modern World",
+      "concepts": [
+        {
+          "concept_id": "history10.print_culture.print_revolution",
+          "title": "Print Revolution and Its Impact",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Print Revolution and Its Impact — part of the chapter on Print Culture and the Modern World.",
+          "key_ideas": [
+            "Core principles of print revolution and its impact",
+            "Step-by-step problem solving for print revolution and its impact",
+            "Real-world applications of print revolution and its impact"
+          ]
+        }
+      ]
+    }
+  ]
+}

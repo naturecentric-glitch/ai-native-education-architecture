@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.5,
+    "question": "State and explain the key concept: Area(△ABC)/Area(△DEF) = (AB/DE)² = (BC/EF)² = (CA/FD)².",
+    "hint": "Think about the definition and main formula related to Areas of Similar Triangles.",
+    "expected_answer": "This tests understanding of: Area(△ABC)/Area(△DEF) = (AB/DE)² = (BC/EF)² = (CA/FD)². Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Areas of Similar Triangles"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "question": "Solve an NCERT example problem related to 'Areas of Similar Triangles'. Show all steps clearly.",
+    "hint": "Review the key ideas: Area(△ABC)/Area(△DEF) = (AB/DE)² = (BC/EF)² = (CA/FD)², Also equals (altitude₁/altitude₂)² and (median₁/median₂)².",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Areas of Similar Triangles. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Areas of Similar Triangles"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.65,
+    "question": "How would you apply 'Areas of Similar Triangles' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where areas of similar triangles concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Areas of Similar Triangles.",
+    "concepts_tested": [
+      "Areas of Similar Triangles",
+      "Real-world application"
+    ]
+  }
+]

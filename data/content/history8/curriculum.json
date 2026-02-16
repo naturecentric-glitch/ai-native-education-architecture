@@ -1,6 +1,6 @@
 {
   "course_id": "history8",
-  "title": "Class 8 History — Our Pasts III",
+  "title": "Class 8 History",
   "chapters": [
     {
       "chapter_id": "ch01",
@@ -8,28 +8,15 @@
       "concepts": [
         {
           "concept_id": "history8.modern_period.periodisation",
-          "title": "Periodisation of Indian History",
+          "title": "Periodisation and Sources",
           "bloom_level": "understand",
           "difficulty": 0.25,
           "prerequisites": [],
-          "description": "Periodisation of Indian History — part of the chapter on How, When and Where.",
+          "description": "Periodisation and Sources — part of the chapter on How, When and Where.",
           "key_ideas": [
-            "Core principles of periodisation of indian history",
-            "Step-by-step problem solving for periodisation of indian history",
-            "Real-world applications of periodisation of indian history"
-          ]
-        },
-        {
-          "concept_id": "history8.modern_period.sources",
-          "title": "Sources — Official Records, Surveys, Newspapers",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Sources — Official Records, Surveys, Newspapers — part of the chapter on How, When and Where.",
-          "key_ideas": [
-            "Core principles of sources",
-            "Step-by-step problem solving for sources",
-            "Real-world applications of sources"
+            "Core principles of periodisation and sources",
+            "Step-by-step problem solving for periodisation and sources",
+            "Real-world applications of periodisation and sources"
           ]
         }
       ]
@@ -40,30 +27,15 @@
       "concepts": [
         {
           "concept_id": "history8.trade_to_territory.east_india_company",
-          "title": "East India Company and Trade",
+          "title": "East India Company and Expansion",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "East India Company and Trade — part of the chapter on From Trade to Territory.",
+          "description": "East India Company and Expansion — part of the chapter on From Trade to Territory.",
           "key_ideas": [
-            "Core principles of east india company and trade",
-            "Step-by-step problem solving for east india company and trade",
-            "Real-world applications of east india company and trade"
-          ]
-        },
-        {
-          "concept_id": "history8.trade_to_territory.battles_expansion",
-          "title": "Battles and Territorial Expansion",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "history8.trade_to_territory.east_india_company"
-          ],
-          "description": "Battles and Territorial Expansion — part of the chapter on From Trade to Territory.",
-          "key_ideas": [
-            "Core principles of battles and territorial expansion",
-            "Step-by-step problem solving for battles and territorial expansion",
-            "Real-world applications of battles and territorial expansion"
+            "Core principles of east india company and expansion",
+            "Step-by-step problem solving for east india company and expansion",
+            "Real-world applications of east india company and expansion"
           ]
         }
       ]
@@ -74,243 +46,91 @@
       "concepts": [
         {
           "concept_id": "history8.ruling_countryside.revenue_systems",
-          "title": "Revenue Systems — Permanent Settlement, Mahalwari, Ryotwari",
+          "title": "Revenue Systems and Indigo Rebellion",
           "bloom_level": "understand",
           "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Revenue Systems — Permanent Settlement, Mahalwari, Ryotwari — part of the chapter on Ruling the Countryside.",
+          "description": "Revenue Systems and Indigo Rebellion — part of the chapter on Ruling the Countryside.",
           "key_ideas": [
-            "Core principles of revenue systems",
-            "Step-by-step problem solving for revenue systems",
-            "Real-world applications of revenue systems"
-          ]
-        },
-        {
-          "concept_id": "history8.ruling_countryside.indigo_cultivation",
-          "title": "Indigo Cultivation and Blue Rebellion",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Indigo Cultivation and Blue Rebellion — part of the chapter on Ruling the Countryside.",
-          "key_ideas": [
-            "Core principles of indigo cultivation and blue rebellion",
-            "Step-by-step problem solving for indigo cultivation and blue rebellion",
-            "Real-world applications of indigo cultivation and blue rebellion"
+            "Core principles of revenue systems and indigo rebellion",
+            "Step-by-step problem solving for revenue systems and indigo rebellion",
+            "Real-world applications of revenue systems and indigo rebellion"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch04",
-      "title": "Tribals, Dikus and the Vision of a Golden Age",
+      "title": "When People Rebel — 1857",
       "concepts": [
         {
-          "concept_id": "history8.tribals_dikus.tribal_society",
-          "title": "Tribal Societies in India",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Tribal Societies in India — part of the chapter on Tribals, Dikus and the Vision of a Golden Age.",
-          "key_ideas": [
-            "Core principles of tribal societies in india",
-            "Step-by-step problem solving for tribal societies in india",
-            "Real-world applications of tribal societies in india"
-          ]
-        },
-        {
-          "concept_id": "history8.tribals_dikus.tribal_revolts",
-          "title": "Tribal Revolts — Birsa Munda",
+          "concept_id": "history8.revolt_1857.causes_spread",
+          "title": "Causes, Spread and Aftermath of 1857",
           "bloom_level": "understand",
           "difficulty": 0.35,
-          "prerequisites": [
-            "history8.tribals_dikus.tribal_society"
-          ],
-          "description": "Tribal Revolts — Birsa Munda — part of the chapter on Tribals, Dikus and the Vision of a Golden Age.",
+          "prerequisites": [],
+          "description": "Causes, Spread and Aftermath of 1857 — part of the chapter on When People Rebel — 1857.",
           "key_ideas": [
-            "Core principles of tribal revolts",
-            "Step-by-step problem solving for tribal revolts",
-            "Real-world applications of tribal revolts"
+            "Core principles of causes, spread and aftermath of 1857",
+            "Step-by-step problem solving for causes, spread and aftermath of 1857",
+            "Real-world applications of causes, spread and aftermath of 1857"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch05",
-      "title": "When People Rebel — 1857",
+      "title": "Women, Caste and Reform",
       "concepts": [
         {
-          "concept_id": "history8.revolt_1857.causes_1857",
-          "title": "Causes of the Revolt",
+          "concept_id": "history8.women_reform.social_reformers",
+          "title": "Social Reformers and Movements",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Causes of the Revolt — part of the chapter on When People Rebel — 1857.",
+          "description": "Social Reformers and Movements — part of the chapter on Women, Caste and Reform.",
           "key_ideas": [
-            "Core principles of causes of the revolt",
-            "Step-by-step problem solving for causes of the revolt",
-            "Real-world applications of causes of the revolt"
-          ]
-        },
-        {
-          "concept_id": "history8.revolt_1857.spread_aftermath",
-          "title": "Spread and Aftermath of 1857",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "history8.revolt_1857.causes_1857"
-          ],
-          "description": "Spread and Aftermath of 1857 — part of the chapter on When People Rebel — 1857.",
-          "key_ideas": [
-            "Core principles of spread and aftermath of 1857",
-            "Step-by-step problem solving for spread and aftermath of 1857",
-            "Real-world applications of spread and aftermath of 1857"
+            "Core principles of social reformers and movements",
+            "Step-by-step problem solving for social reformers and movements",
+            "Real-world applications of social reformers and movements"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch06",
-      "title": "Civilising the 'Native', Educating the Nation",
+      "title": "The National Movement: 1870s–1947",
       "concepts": [
         {
-          "concept_id": "history8.civilising_mission.colonial_education",
-          "title": "Colonial Education Policies",
+          "concept_id": "history8.national_movement.gandhian_era",
+          "title": "Congress, Gandhian Era, Independence",
           "bloom_level": "understand",
-          "difficulty": 0.3,
+          "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Colonial Education Policies — part of the chapter on Civilising the 'Native', Educating the Nation.",
+          "description": "Congress, Gandhian Era, Independence — part of the chapter on The National Movement: 1870s–1947.",
           "key_ideas": [
-            "Core principles of colonial education policies",
-            "Step-by-step problem solving for colonial education policies",
-            "Real-world applications of colonial education policies"
-          ]
-        },
-        {
-          "concept_id": "history8.civilising_mission.national_education",
-          "title": "National Education Movement",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "National Education Movement — part of the chapter on Civilising the 'Native', Educating the Nation.",
-          "key_ideas": [
-            "Core principles of national education movement",
-            "Step-by-step problem solving for national education movement",
-            "Real-world applications of national education movement"
+            "Core principles of congress, gandhian era, independence",
+            "Step-by-step problem solving for congress, gandhian era, independence",
+            "Real-world applications of congress, gandhian era, independence"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch07",
-      "title": "Women, Caste and Reform",
-      "concepts": [
-        {
-          "concept_id": "history8.women_reform.social_reformers",
-          "title": "Social Reformers — Raja Ram Mohan Roy, Jyotirao Phule",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Social Reformers — Raja Ram Mohan Roy, Jyotirao Phule — part of the chapter on Women, Caste and Reform.",
-          "key_ideas": [
-            "Core principles of social reformers",
-            "Step-by-step problem solving for social reformers",
-            "Real-world applications of social reformers"
-          ]
-        },
-        {
-          "concept_id": "history8.women_reform.women_movements",
-          "title": "Women's Rights and Reform Movements",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Women's Rights and Reform Movements — part of the chapter on Women, Caste and Reform.",
-          "key_ideas": [
-            "Core principles of women's rights and reform movements",
-            "Step-by-step problem solving for women's rights and reform movements",
-            "Real-world applications of women's rights and reform movements"
-          ]
-        }
-      ]
-    },
-    {
-      "chapter_id": "ch08",
-      "title": "The Making of the National Movement: 1870s–1947",
-      "concepts": [
-        {
-          "concept_id": "history8.national_movement.congress_formation",
-          "title": "Formation of Indian National Congress",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Formation of Indian National Congress — part of the chapter on The Making of the National Movement: 1870s–1947.",
-          "key_ideas": [
-            "Core principles of formation of indian national congress",
-            "Step-by-step problem solving for formation of indian national congress",
-            "Real-world applications of formation of indian national congress"
-          ]
-        },
-        {
-          "concept_id": "history8.national_movement.gandhian_era",
-          "title": "Gandhian Era — NCM, CDM, Quit India",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "history8.national_movement.congress_formation"
-          ],
-          "description": "Gandhian Era — NCM, CDM, Quit India — part of the chapter on The Making of the National Movement: 1870s–1947.",
-          "key_ideas": [
-            "Core principles of gandhian era",
-            "Step-by-step problem solving for gandhian era",
-            "Real-world applications of gandhian era"
-          ]
-        },
-        {
-          "concept_id": "history8.national_movement.independence",
-          "title": "Towards Independence and Partition",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "history8.national_movement.gandhian_era"
-          ],
-          "description": "Towards Independence and Partition — part of the chapter on The Making of the National Movement: 1870s–1947.",
-          "key_ideas": [
-            "Core principles of towards independence and partition",
-            "Step-by-step problem solving for towards independence and partition",
-            "Real-world applications of towards independence and partition"
-          ]
-        }
-      ]
-    },
-    {
-      "chapter_id": "ch09",
       "title": "India After Independence",
       "concepts": [
         {
           "concept_id": "history8.india_after_independence.constitution_making",
-          "title": "Making of the Constitution",
+          "title": "Constitution Making and State Integration",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Making of the Constitution — part of the chapter on India After Independence.",
+          "description": "Constitution Making and State Integration — part of the chapter on India After Independence.",
           "key_ideas": [
-            "Core principles of making of the constitution",
-            "Step-by-step problem solving for making of the constitution",
-            "Real-world applications of making of the constitution"
-          ]
-        },
-        {
-          "concept_id": "history8.india_after_independence.integration_states",
-          "title": "Integration of States and Planning",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [
-            "history8.india_after_independence.constitution_making"
-          ],
-          "description": "Integration of States and Planning — part of the chapter on India After Independence.",
-          "key_ideas": [
-            "Core principles of integration of states and planning",
-            "Step-by-step problem solving for integration of states and planning",
-            "Real-world applications of integration of states and planning"
+            "Core principles of constitution making and state integration",
+            "Step-by-step problem solving for constitution making and state integration",
+            "Real-world applications of constitution making and state integration"
           ]
         }
       ]

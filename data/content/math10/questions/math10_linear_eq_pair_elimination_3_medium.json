@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "State and explain the key concept: Multiply equations to equalize coefficients of one variable.",
+    "hint": "Think about the definition and main formula related to Elimination Method.",
+    "expected_answer": "This tests understanding of: Multiply equations to equalize coefficients of one variable. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Elimination Method"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "question": "Solve an NCERT example problem related to 'Elimination Method'. Show all steps clearly.",
+    "hint": "Review the key ideas: Multiply equations to equalize coefficients of one variable, Add equations if signs are opposite; subtract if signs are same.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Elimination Method. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Elimination Method"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.55,
+    "question": "How would you apply 'Elimination Method' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where elimination method concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Elimination Method.",
+    "concepts_tested": [
+      "Elimination Method",
+      "Real-world application"
+    ]
+  }
+]

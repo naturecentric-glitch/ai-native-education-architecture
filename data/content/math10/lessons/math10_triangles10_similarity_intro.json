@@ -1,0 +1,12 @@
+{
+  "title": "Similar Figures and Basic Proportionality Theorem — Triangles",
+  "hook": "Let's explore <strong>Similar Figures and Basic Proportionality Theorem</strong> from the chapter on Triangles. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Similar Figures and Basic Proportionality Theorem</strong>\n\n<em>Two figures are similar if they have the same shape (but not necessarily size). BPT states: if a line is parallel to one side of a triangle and intersects the other two sides, it divides them proportionally.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Similar figures: same shape, proportional sides, equal angles</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 BPT (Thales' theorem): DE ∥ BC in △ABC ⇒ AD/DB = AE/EC</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Converse of BPT: if AD/DB = AE/EC then DE ∥ BC</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Similarity ≠ Congruence (congruent → same shape AND size)</div>",
+  "worked_example": "<em>A detailed worked example for Similar Figures and Basic Proportionality Theorem will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Similar Figures and Basic Proportionality Theorem and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and triangles concepts like similar figures and basic proportionality theorem are used in engineering, data science, and everyday problem solving!"
+}

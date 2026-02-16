@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "If tan A = 4/3, find sin A and cos A (A is acute).",
+    "hint": "tan A = Opposite/Adjacent = 4/3. Use Pythagoras to find the hypotenuse.",
+    "expected_answer": "Hypotenuse = √(4²+3²) = √25 = 5.\nsin A = 4/5, cos A = 3/5.",
+    "concepts_tested": [
+      "Trigonometric ratios",
+      "Pythagorean triplets"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "question": "A ladder 15 m long leans against a wall. The foot of the ladder is 9 m from the wall. Find the angle the ladder makes with the ground.",
+    "hint": "Adjacent = 9 m, Hypotenuse = 15 m. cos θ = 9/15 = 3/5. What standard angle gives this?",
+    "expected_answer": "cos θ = 9/15 = 3/5.\nThis isn't a standard angle, but we can find sin θ = √(1−9/25) = √(16/25) = 4/5.\ntan θ = 4/3. The angle θ ≈ 53.13° (or you can express as 'the angle whose cos = 3/5').",
+    "concepts_tested": [
+      "Trigonometric ratios",
+      "Real-world application"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "In a video game, a cannon fires at angle θ to the ground. The ball travels a horizontal distance of 12 m and reaches a maximum height of 5 m. If the initial speed determines the hypotenuse of the right triangle formed, what is sin θ?",
+    "hint": "Think of the triangle: opposite (height) = 5 m, adjacent (horizontal) = 12 m. Find hypotenuse first.",
+    "expected_answer": "Hypotenuse = √(12² + 5²) = √(144 + 25) = √169 = 13 m.\nsin θ = Opposite/Hypotenuse = 5/13 ≈ 0.385.\nThe firing angle θ = sin⁻¹(5/13) ≈ 22.6°.",
+    "concepts_tested": [
+      "Trigonometric ratios",
+      "Transfer to new context"
+    ]
+  }
+]

@@ -7,31 +7,16 @@
       "title": "The Living World",
       "concepts": [
         {
-          "concept_id": "biology11.living_world.diversity",
-          "title": "Diversity in the Living World",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": [],
-          "description": "Diversity in the Living World — part of the chapter on The Living World.",
-          "key_ideas": [
-            "Core principles of diversity in the living world",
-            "Step-by-step problem solving for diversity in the living world",
-            "Real-world applications of diversity in the living world"
-          ]
-        },
-        {
           "concept_id": "biology11.living_world.taxonomy",
-          "title": "Taxonomical Hierarchy",
-          "bloom_level": "remember",
+          "title": "Diversity and Taxonomical Hierarchy",
+          "bloom_level": "understand",
           "difficulty": 0.25,
-          "prerequisites": [
-            "biology11.living_world.diversity"
-          ],
-          "description": "Taxonomical Hierarchy — part of the chapter on The Living World.",
+          "prerequisites": [],
+          "description": "Diversity and Taxonomical Hierarchy — part of the chapter on The Living World.",
           "key_ideas": [
-            "Core principles of taxonomical hierarchy",
-            "Step-by-step problem solving for taxonomical hierarchy",
-            "Real-world applications of taxonomical hierarchy"
+            "Core principles of diversity and taxonomical hierarchy",
+            "Step-by-step problem solving for diversity and taxonomical hierarchy",
+            "Real-world applications of diversity and taxonomical hierarchy"
           ]
         }
       ]
@@ -52,21 +37,6 @@
             "Step-by-step problem solving for five kingdom classification",
             "Real-world applications of five kingdom classification"
           ]
-        },
-        {
-          "concept_id": "biology11.biological_classification.kingdom_details",
-          "title": "Monera, Protista, Fungi, Plantae, Animalia",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "biology11.biological_classification.five_kingdoms"
-          ],
-          "description": "Monera, Protista, Fungi, Plantae, Animalia — part of the chapter on Biological Classification.",
-          "key_ideas": [
-            "Core principles of monera, protista, fungi, plantae, animalia",
-            "Step-by-step problem solving for monera, protista, fungi, plantae, animalia",
-            "Real-world applications of monera, protista, fungi, plantae, animalia"
-          ]
         }
       ]
     },
@@ -75,46 +45,16 @@
       "title": "Plant Kingdom",
       "concepts": [
         {
-          "concept_id": "biology11.plant_kingdom.algae_bryophytes",
-          "title": "Algae, Bryophytes, Pteridophytes",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Algae, Bryophytes, Pteridophytes — part of the chapter on Plant Kingdom.",
-          "key_ideas": [
-            "Core principles of algae, bryophytes, pteridophytes",
-            "Step-by-step problem solving for algae, bryophytes, pteridophytes",
-            "Real-world applications of algae, bryophytes, pteridophytes"
-          ]
-        },
-        {
-          "concept_id": "biology11.plant_kingdom.gymnosperms_angiosperms",
-          "title": "Gymnosperms and Angiosperms",
+          "concept_id": "biology11.plant_kingdom.algae_to_angiosperms",
+          "title": "Algae to Angiosperms, Life Cycles",
           "bloom_level": "understand",
           "difficulty": 0.35,
-          "prerequisites": [
-            "biology11.plant_kingdom.algae_bryophytes"
-          ],
-          "description": "Gymnosperms and Angiosperms — part of the chapter on Plant Kingdom.",
+          "prerequisites": [],
+          "description": "Algae to Angiosperms, Life Cycles — part of the chapter on Plant Kingdom.",
           "key_ideas": [
-            "Core principles of gymnosperms and angiosperms",
-            "Step-by-step problem solving for gymnosperms and angiosperms",
-            "Real-world applications of gymnosperms and angiosperms"
-          ]
-        },
-        {
-          "concept_id": "biology11.plant_kingdom.life_cycles",
-          "title": "Life Cycles and Alternation of Generations",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.plant_kingdom.gymnosperms_angiosperms"
-          ],
-          "description": "Life Cycles and Alternation of Generations — part of the chapter on Plant Kingdom.",
-          "key_ideas": [
-            "Core principles of life cycles and alternation of generations",
-            "Step-by-step problem solving for life cycles and alternation of generations",
-            "Real-world applications of life cycles and alternation of generations"
+            "Core principles of algae to angiosperms, life cycles",
+            "Step-by-step problem solving for algae to angiosperms, life cycles",
+            "Real-world applications of algae to angiosperms, life cycles"
           ]
         }
       ]
@@ -124,46 +64,16 @@
       "title": "Animal Kingdom",
       "concepts": [
         {
-          "concept_id": "biology11.animal_kingdom.classification_basis",
-          "title": "Basis of Classification — Symmetry, Germ Layers",
+          "concept_id": "biology11.animal_kingdom.classification_phyla",
+          "title": "Classification — Porifera to Mammals",
           "bloom_level": "understand",
-          "difficulty": 0.3,
+          "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Basis of Classification — Symmetry, Germ Layers — part of the chapter on Animal Kingdom.",
+          "description": "Classification — Porifera to Mammals — part of the chapter on Animal Kingdom.",
           "key_ideas": [
-            "Core principles of basis of classification",
-            "Step-by-step problem solving for basis of classification",
-            "Real-world applications of basis of classification"
-          ]
-        },
-        {
-          "concept_id": "biology11.animal_kingdom.invertebrates",
-          "title": "Phyla — Porifera to Echinodermata",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "biology11.animal_kingdom.classification_basis"
-          ],
-          "description": "Phyla — Porifera to Echinodermata — part of the chapter on Animal Kingdom.",
-          "key_ideas": [
-            "Core principles of phyla",
-            "Step-by-step problem solving for phyla",
-            "Real-world applications of phyla"
-          ]
-        },
-        {
-          "concept_id": "biology11.animal_kingdom.chordates",
-          "title": "Chordata — Fish to Mammals",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "biology11.animal_kingdom.invertebrates"
-          ],
-          "description": "Chordata — Fish to Mammals — part of the chapter on Animal Kingdom.",
-          "key_ideas": [
-            "Core principles of chordata",
-            "Step-by-step problem solving for chordata",
-            "Real-world applications of chordata"
+            "Core principles of classification",
+            "Step-by-step problem solving for classification",
+            "Real-world applications of classification"
           ]
         }
       ]
@@ -173,29 +83,16 @@
       "title": "Morphology of Flowering Plants",
       "concepts": [
         {
-          "concept_id": "biology11.morphology_plants.root_stem_leaf",
-          "title": "Root, Stem and Leaf Modifications",
+          "concept_id": "biology11.morphology_plants.root_stem_leaf_flower",
+          "title": "Root, Stem, Leaf, Flower",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Root, Stem and Leaf Modifications — part of the chapter on Morphology of Flowering Plants.",
+          "description": "Root, Stem, Leaf, Flower — part of the chapter on Morphology of Flowering Plants.",
           "key_ideas": [
-            "Core principles of root, stem and leaf modifications",
-            "Step-by-step problem solving for root, stem and leaf modifications",
-            "Real-world applications of root, stem and leaf modifications"
-          ]
-        },
-        {
-          "concept_id": "biology11.morphology_plants.flower_fruit_seed",
-          "title": "Flower, Fruit and Seed",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Flower, Fruit and Seed — part of the chapter on Morphology of Flowering Plants.",
-          "key_ideas": [
-            "Core principles of flower, fruit and seed",
-            "Step-by-step problem solving for flower, fruit and seed",
-            "Real-world applications of flower, fruit and seed"
+            "Core principles of root, stem, leaf, flower",
+            "Step-by-step problem solving for root, stem, leaf, flower",
+            "Real-world applications of root, stem, leaf, flower"
           ]
         }
       ]
@@ -206,30 +103,15 @@
       "concepts": [
         {
           "concept_id": "biology11.anatomy_plants.tissue_system",
-          "title": "Tissue System — Epidermal, Ground, Vascular",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Tissue System — Epidermal, Ground, Vascular — part of the chapter on Anatomy of Flowering Plants.",
-          "key_ideas": [
-            "Core principles of tissue system",
-            "Step-by-step problem solving for tissue system",
-            "Real-world applications of tissue system"
-          ]
-        },
-        {
-          "concept_id": "biology11.anatomy_plants.internal_structure",
-          "title": "Internal Structure of Dicot and Monocot",
+          "title": "Tissue Systems and Internal Structure",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.anatomy_plants.tissue_system"
-          ],
-          "description": "Internal Structure of Dicot and Monocot — part of the chapter on Anatomy of Flowering Plants.",
+          "prerequisites": [],
+          "description": "Tissue Systems and Internal Structure — part of the chapter on Anatomy of Flowering Plants.",
           "key_ideas": [
-            "Core principles of internal structure of dicot and monocot",
-            "Step-by-step problem solving for internal structure of dicot and monocot",
-            "Real-world applications of internal structure of dicot and monocot"
+            "Core principles of tissue systems and internal structure",
+            "Step-by-step problem solving for tissue systems and internal structure",
+            "Real-world applications of tissue systems and internal structure"
           ]
         }
       ]
@@ -239,31 +121,16 @@
       "title": "Cell: The Unit of Life",
       "concepts": [
         {
-          "concept_id": "biology11.cell_unit.cell_theory",
-          "title": "Cell Theory and Cell Types",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Cell Theory and Cell Types — part of the chapter on Cell: The Unit of Life.",
-          "key_ideas": [
-            "Core principles of cell theory and cell types",
-            "Step-by-step problem solving for cell theory and cell types",
-            "Real-world applications of cell theory and cell types"
-          ]
-        },
-        {
-          "concept_id": "biology11.cell_unit.cell_organelles11",
-          "title": "Cell Organelles — Nucleus, Mitochondria, ER",
+          "concept_id": "biology11.cell_unit.cell_organelles",
+          "title": "Cell Theory and Organelles",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.cell_unit.cell_theory"
-          ],
-          "description": "Cell Organelles — Nucleus, Mitochondria, ER — part of the chapter on Cell: The Unit of Life.",
+          "prerequisites": [],
+          "description": "Cell Theory and Organelles — part of the chapter on Cell: The Unit of Life.",
           "key_ideas": [
-            "Core principles of cell organelles",
-            "Step-by-step problem solving for cell organelles",
-            "Real-world applications of cell organelles"
+            "Core principles of cell theory and organelles",
+            "Step-by-step problem solving for cell theory and organelles",
+            "Real-world applications of cell theory and organelles"
           ]
         }
       ]
@@ -273,65 +140,35 @@
       "title": "Biomolecules",
       "concepts": [
         {
-          "concept_id": "biology11.biomolecules11.carbs_proteins",
-          "title": "Carbohydrates, Proteins, Lipids",
+          "concept_id": "biology11.biomolecules11.carbs_proteins_enzymes",
+          "title": "Carbs, Proteins, Lipids and Enzymes",
           "bloom_level": "understand",
-          "difficulty": 0.35,
+          "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Carbohydrates, Proteins, Lipids — part of the chapter on Biomolecules.",
+          "description": "Carbs, Proteins, Lipids and Enzymes — part of the chapter on Biomolecules.",
           "key_ideas": [
-            "Core principles of carbohydrates, proteins, lipids",
-            "Step-by-step problem solving for carbohydrates, proteins, lipids",
-            "Real-world applications of carbohydrates, proteins, lipids"
-          ]
-        },
-        {
-          "concept_id": "biology11.biomolecules11.enzymes",
-          "title": "Enzymes — Structure and Mechanism",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "biology11.biomolecules11.carbs_proteins"
-          ],
-          "description": "Enzymes — Structure and Mechanism — part of the chapter on Biomolecules.",
-          "key_ideas": [
-            "Core principles of enzymes",
-            "Step-by-step problem solving for enzymes",
-            "Real-world applications of enzymes"
+            "Core principles of carbs, proteins, lipids and enzymes",
+            "Step-by-step problem solving for carbs, proteins, lipids and enzymes",
+            "Real-world applications of carbs, proteins, lipids and enzymes"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch09",
-      "title": "Cell Cycle and Cell Division",
+      "title": "Cell Cycle and Division",
       "concepts": [
         {
-          "concept_id": "biology11.cell_cycle.mitosis",
-          "title": "Mitosis — Stages and Significance",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Mitosis — Stages and Significance — part of the chapter on Cell Cycle and Cell Division.",
-          "key_ideas": [
-            "Core principles of mitosis",
-            "Step-by-step problem solving for mitosis",
-            "Real-world applications of mitosis"
-          ]
-        },
-        {
-          "concept_id": "biology11.cell_cycle.meiosis",
-          "title": "Meiosis — Stages and Significance",
+          "concept_id": "biology11.cell_cycle.mitosis_meiosis",
+          "title": "Mitosis and Meiosis",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.cell_cycle.mitosis"
-          ],
-          "description": "Meiosis — Stages and Significance — part of the chapter on Cell Cycle and Cell Division.",
+          "prerequisites": [],
+          "description": "Mitosis and Meiosis — part of the chapter on Cell Cycle and Division.",
           "key_ideas": [
-            "Core principles of meiosis",
-            "Step-by-step problem solving for meiosis",
-            "Real-world applications of meiosis"
+            "Core principles of mitosis and meiosis",
+            "Step-by-step problem solving for mitosis and meiosis",
+            "Real-world applications of mitosis and meiosis"
           ]
         }
       ]
@@ -341,78 +178,35 @@
       "title": "Transport in Plants",
       "concepts": [
         {
-          "concept_id": "biology11.transport_plants.water_transport",
-          "title": "Water Transport — Root Pressure, Transpiration Pull",
+          "concept_id": "biology11.transport_plants11.water_mineral_transport",
+          "title": "Water and Mineral Transport",
           "bloom_level": "understand",
           "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Water Transport — Root Pressure, Transpiration Pull — part of the chapter on Transport in Plants.",
+          "description": "Water and Mineral Transport — part of the chapter on Transport in Plants.",
           "key_ideas": [
-            "Core principles of water transport",
-            "Step-by-step problem solving for water transport",
-            "Real-world applications of water transport"
-          ]
-        },
-        {
-          "concept_id": "biology11.transport_plants.mineral_transport",
-          "title": "Mineral and Food Transport — Phloem",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Mineral and Food Transport — Phloem — part of the chapter on Transport in Plants.",
-          "key_ideas": [
-            "Core principles of mineral and food transport",
-            "Step-by-step problem solving for mineral and food transport",
-            "Real-world applications of mineral and food transport"
+            "Core principles of water and mineral transport",
+            "Step-by-step problem solving for water and mineral transport",
+            "Real-world applications of water and mineral transport"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch11",
-      "title": "Photosynthesis in Higher Plants",
+      "title": "Photosynthesis",
       "concepts": [
         {
-          "concept_id": "biology11.photosynthesis.light_reactions",
-          "title": "Light Reactions",
+          "concept_id": "biology11.photosynthesis11.light_dark_reactions",
+          "title": "Light Reactions, Calvin Cycle, C3/C4/CAM",
           "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Light Reactions — part of the chapter on Photosynthesis in Higher Plants.",
-          "key_ideas": [
-            "Core principles of light reactions",
-            "Step-by-step problem solving for light reactions",
-            "Real-world applications of light reactions"
-          ]
-        },
-        {
-          "concept_id": "biology11.photosynthesis.calvin_cycle",
-          "title": "Calvin Cycle (Dark Reactions)",
-          "bloom_level": "understand",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "biology11.photosynthesis.light_reactions"
-          ],
-          "description": "Calvin Cycle (Dark Reactions) — part of the chapter on Photosynthesis in Higher Plants.",
-          "key_ideas": [
-            "Core principles of calvin cycle (dark reactions)",
-            "Step-by-step problem solving for calvin cycle (dark reactions)",
-            "Real-world applications of calvin cycle (dark reactions)"
-          ]
-        },
-        {
-          "concept_id": "biology11.photosynthesis.c3_c4_cam",
-          "title": "C3, C4 and CAM Pathways",
-          "bloom_level": "analyze",
           "difficulty": 0.5,
-          "prerequisites": [
-            "biology11.photosynthesis.calvin_cycle"
-          ],
-          "description": "C3, C4 and CAM Pathways — part of the chapter on Photosynthesis in Higher Plants.",
+          "prerequisites": [],
+          "description": "Light Reactions, Calvin Cycle, C3/C4/CAM — part of the chapter on Photosynthesis.",
           "key_ideas": [
-            "Core principles of c3, c4 and cam pathways",
-            "Step-by-step problem solving for c3, c4 and cam pathways",
-            "Real-world applications of c3, c4 and cam pathways"
+            "Core principles of light reactions, calvin cycle, c3/c4/cam",
+            "Step-by-step problem solving for light reactions, calvin cycle, c3/c4/cam",
+            "Real-world applications of light reactions, calvin cycle, c3/c4/cam"
           ]
         }
       ]
@@ -422,31 +216,16 @@
       "title": "Respiration in Plants",
       "concepts": [
         {
-          "concept_id": "biology11.respiration_plants.glycolysis",
-          "title": "Glycolysis",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Glycolysis — part of the chapter on Respiration in Plants.",
-          "key_ideas": [
-            "Core principles of glycolysis",
-            "Step-by-step problem solving for glycolysis",
-            "Real-world applications of glycolysis"
-          ]
-        },
-        {
-          "concept_id": "biology11.respiration_plants.krebs_etc",
-          "title": "Krebs Cycle and Electron Transport Chain",
+          "concept_id": "biology11.respiration_plants.glycolysis_krebs",
+          "title": "Glycolysis, Krebs Cycle, ETC",
           "bloom_level": "understand",
           "difficulty": 0.5,
-          "prerequisites": [
-            "biology11.respiration_plants.glycolysis"
-          ],
-          "description": "Krebs Cycle and Electron Transport Chain — part of the chapter on Respiration in Plants.",
+          "prerequisites": [],
+          "description": "Glycolysis, Krebs Cycle, ETC — part of the chapter on Respiration in Plants.",
           "key_ideas": [
-            "Core principles of krebs cycle and electron transport chain",
-            "Step-by-step problem solving for krebs cycle and electron transport chain",
-            "Real-world applications of krebs cycle and electron transport chain"
+            "Core principles of glycolysis, krebs cycle, etc",
+            "Step-by-step problem solving for glycolysis, krebs cycle, etc",
+            "Real-world applications of glycolysis, krebs cycle, etc"
           ]
         }
       ]
@@ -456,31 +235,16 @@
       "title": "Plant Growth and Development",
       "concepts": [
         {
-          "concept_id": "biology11.plant_growth.growth_phases",
-          "title": "Phases of Growth",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Phases of Growth — part of the chapter on Plant Growth and Development.",
-          "key_ideas": [
-            "Core principles of phases of growth",
-            "Step-by-step problem solving for phases of growth",
-            "Real-world applications of phases of growth"
-          ]
-        },
-        {
-          "concept_id": "biology11.plant_growth.plant_hormones",
-          "title": "Plant Hormones — Auxin, Gibberellin, Cytokinin",
+          "concept_id": "biology11.plant_growth.hormones_growth",
+          "title": "Growth Phases and Plant Hormones",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.plant_growth.growth_phases"
-          ],
-          "description": "Plant Hormones — Auxin, Gibberellin, Cytokinin — part of the chapter on Plant Growth and Development.",
+          "prerequisites": [],
+          "description": "Growth Phases and Plant Hormones — part of the chapter on Plant Growth and Development.",
           "key_ideas": [
-            "Core principles of plant hormones",
-            "Step-by-step problem solving for plant hormones",
-            "Real-world applications of plant hormones"
+            "Core principles of growth phases and plant hormones",
+            "Step-by-step problem solving for growth phases and plant hormones",
+            "Real-world applications of growth phases and plant hormones"
           ]
         }
       ]
@@ -490,31 +254,16 @@
       "title": "Digestion and Absorption",
       "concepts": [
         {
-          "concept_id": "biology11.digestion.digestive_system",
-          "title": "Human Digestive System",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Human Digestive System — part of the chapter on Digestion and Absorption.",
-          "key_ideas": [
-            "Core principles of human digestive system",
-            "Step-by-step problem solving for human digestive system",
-            "Real-world applications of human digestive system"
-          ]
-        },
-        {
-          "concept_id": "biology11.digestion.digestion_absorption",
-          "title": "Digestion and Absorption of Nutrients",
+          "concept_id": "biology11.digestion11.digestive_system",
+          "title": "Human Digestive System and Absorption",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.digestion.digestive_system"
-          ],
-          "description": "Digestion and Absorption of Nutrients — part of the chapter on Digestion and Absorption.",
+          "prerequisites": [],
+          "description": "Human Digestive System and Absorption — part of the chapter on Digestion and Absorption.",
           "key_ideas": [
-            "Core principles of digestion and absorption of nutrients",
-            "Step-by-step problem solving for digestion and absorption of nutrients",
-            "Real-world applications of digestion and absorption of nutrients"
+            "Core principles of human digestive system and absorption",
+            "Step-by-step problem solving for human digestive system and absorption",
+            "Real-world applications of human digestive system and absorption"
           ]
         }
       ]
@@ -524,31 +273,16 @@
       "title": "Breathing and Exchange of Gases",
       "concepts": [
         {
-          "concept_id": "biology11.breathing.respiratory_system",
-          "title": "Human Respiratory System",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Human Respiratory System — part of the chapter on Breathing and Exchange of Gases.",
-          "key_ideas": [
-            "Core principles of human respiratory system",
-            "Step-by-step problem solving for human respiratory system",
-            "Real-world applications of human respiratory system"
-          ]
-        },
-        {
-          "concept_id": "biology11.breathing.gas_exchange",
-          "title": "Exchange and Transport of Gases",
+          "concept_id": "biology11.breathing11.gas_exchange",
+          "title": "Respiratory System and Gas Exchange",
           "bloom_level": "apply",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.breathing.respiratory_system"
-          ],
-          "description": "Exchange and Transport of Gases — part of the chapter on Breathing and Exchange of Gases.",
+          "prerequisites": [],
+          "description": "Respiratory System and Gas Exchange — part of the chapter on Breathing and Exchange of Gases.",
           "key_ideas": [
-            "Core principles of exchange and transport of gases",
-            "Step-by-step problem solving for exchange and transport of gases",
-            "Real-world applications of exchange and transport of gases"
+            "Core principles of respiratory system and gas exchange",
+            "Step-by-step problem solving for respiratory system and gas exchange",
+            "Real-world applications of respiratory system and gas exchange"
           ]
         }
       ]
@@ -558,65 +292,35 @@
       "title": "Body Fluids and Circulation",
       "concepts": [
         {
-          "concept_id": "biology11.circulation.blood_composition",
-          "title": "Blood — Components and Functions",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Blood — Components and Functions — part of the chapter on Body Fluids and Circulation.",
-          "key_ideas": [
-            "Core principles of blood",
-            "Step-by-step problem solving for blood",
-            "Real-world applications of blood"
-          ]
-        },
-        {
-          "concept_id": "biology11.circulation.heart_circulation",
-          "title": "Heart and Circulatory System",
+          "concept_id": "biology11.circulation11.heart_circulation",
+          "title": "Blood, Heart and Circulatory System",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.circulation.blood_composition"
-          ],
-          "description": "Heart and Circulatory System — part of the chapter on Body Fluids and Circulation.",
+          "prerequisites": [],
+          "description": "Blood, Heart and Circulatory System — part of the chapter on Body Fluids and Circulation.",
           "key_ideas": [
-            "Core principles of heart and circulatory system",
-            "Step-by-step problem solving for heart and circulatory system",
-            "Real-world applications of heart and circulatory system"
+            "Core principles of blood, heart and circulatory system",
+            "Step-by-step problem solving for blood, heart and circulatory system",
+            "Real-world applications of blood, heart and circulatory system"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch17",
-      "title": "Excretory Products and Their Elimination",
+      "title": "Excretory Products",
       "concepts": [
         {
-          "concept_id": "biology11.excretion.nephron",
-          "title": "Nephron — Structure and Urine Formation",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Nephron — Structure and Urine Formation — part of the chapter on Excretory Products and Their Elimination.",
-          "key_ideas": [
-            "Core principles of nephron",
-            "Step-by-step problem solving for nephron",
-            "Real-world applications of nephron"
-          ]
-        },
-        {
-          "concept_id": "biology11.excretion.regulation",
-          "title": "Regulation of Kidney Function",
+          "concept_id": "biology11.excretion11.nephron_regulation",
+          "title": "Nephron, Urine Formation, Regulation",
           "bloom_level": "apply",
           "difficulty": 0.45,
-          "prerequisites": [
-            "biology11.excretion.nephron"
-          ],
-          "description": "Regulation of Kidney Function — part of the chapter on Excretory Products and Their Elimination.",
+          "prerequisites": [],
+          "description": "Nephron, Urine Formation, Regulation — part of the chapter on Excretory Products.",
           "key_ideas": [
-            "Core principles of regulation of kidney function",
-            "Step-by-step problem solving for regulation of kidney function",
-            "Real-world applications of regulation of kidney function"
+            "Core principles of nephron, urine formation, regulation",
+            "Step-by-step problem solving for nephron, urine formation, regulation",
+            "Real-world applications of nephron, urine formation, regulation"
           ]
         }
       ]
@@ -626,31 +330,16 @@
       "title": "Locomotion and Movement",
       "concepts": [
         {
-          "concept_id": "biology11.locomotion.skeletal_system",
-          "title": "Skeletal System — Types of Joints",
+          "concept_id": "biology11.locomotion11.skeletal_muscular",
+          "title": "Skeletal and Muscular System",
           "bloom_level": "understand",
-          "difficulty": 0.3,
+          "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Skeletal System — Types of Joints — part of the chapter on Locomotion and Movement.",
+          "description": "Skeletal and Muscular System — part of the chapter on Locomotion and Movement.",
           "key_ideas": [
-            "Core principles of skeletal system",
-            "Step-by-step problem solving for skeletal system",
-            "Real-world applications of skeletal system"
-          ]
-        },
-        {
-          "concept_id": "biology11.locomotion.muscular_system",
-          "title": "Muscular System — Mechanism of Contraction",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.locomotion.skeletal_system"
-          ],
-          "description": "Muscular System — Mechanism of Contraction — part of the chapter on Locomotion and Movement.",
-          "key_ideas": [
-            "Core principles of muscular system",
-            "Step-by-step problem solving for muscular system",
-            "Real-world applications of muscular system"
+            "Core principles of skeletal and muscular system",
+            "Step-by-step problem solving for skeletal and muscular system",
+            "Real-world applications of skeletal and muscular system"
           ]
         }
       ]
@@ -660,65 +349,35 @@
       "title": "Neural Control and Coordination",
       "concepts": [
         {
-          "concept_id": "biology11.neural_control.neuron_impulse",
-          "title": "Neuron and Nerve Impulse",
+          "concept_id": "biology11.neural_control.neuron_brain",
+          "title": "Neuron, Nerve Impulse, Brain, Spinal Cord",
           "bloom_level": "understand",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Neuron and Nerve Impulse — part of the chapter on Neural Control and Coordination.",
+          "description": "Neuron, Nerve Impulse, Brain, Spinal Cord — part of the chapter on Neural Control and Coordination.",
           "key_ideas": [
-            "Core principles of neuron and nerve impulse",
-            "Step-by-step problem solving for neuron and nerve impulse",
-            "Real-world applications of neuron and nerve impulse"
-          ]
-        },
-        {
-          "concept_id": "biology11.neural_control.brain_cns",
-          "title": "Central Nervous System — Brain and Spinal Cord",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.neural_control.neuron_impulse"
-          ],
-          "description": "Central Nervous System — Brain and Spinal Cord — part of the chapter on Neural Control and Coordination.",
-          "key_ideas": [
-            "Core principles of central nervous system",
-            "Step-by-step problem solving for central nervous system",
-            "Real-world applications of central nervous system"
+            "Core principles of neuron, nerve impulse, brain, spinal cord",
+            "Step-by-step problem solving for neuron, nerve impulse, brain, spinal cord",
+            "Real-world applications of neuron, nerve impulse, brain, spinal cord"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch20",
-      "title": "Chemical Coordination and Integration",
+      "title": "Chemical Coordination",
       "concepts": [
         {
-          "concept_id": "biology11.chemical_coordination.endocrine_glands",
-          "title": "Endocrine Glands and Hormones",
+          "concept_id": "biology11.chemical_coordination.endocrine_hormones",
+          "title": "Endocrine Glands and Hormonal Regulation",
           "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Endocrine Glands and Hormones — part of the chapter on Chemical Coordination and Integration.",
-          "key_ideas": [
-            "Core principles of endocrine glands and hormones",
-            "Step-by-step problem solving for endocrine glands and hormones",
-            "Real-world applications of endocrine glands and hormones"
-          ]
-        },
-        {
-          "concept_id": "biology11.chemical_coordination.hormonal_regulation",
-          "title": "Hormonal Regulation and Disorders",
-          "bloom_level": "apply",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology11.chemical_coordination.endocrine_glands"
-          ],
-          "description": "Hormonal Regulation and Disorders — part of the chapter on Chemical Coordination and Integration.",
+          "prerequisites": [],
+          "description": "Endocrine Glands and Hormonal Regulation — part of the chapter on Chemical Coordination.",
           "key_ideas": [
-            "Core principles of hormonal regulation and disorders",
-            "Step-by-step problem solving for hormonal regulation and disorders",
-            "Real-world applications of hormonal regulation and disorders"
+            "Core principles of endocrine glands and hormonal regulation",
+            "Step-by-step problem solving for endocrine glands and hormonal regulation",
+            "Real-world applications of endocrine glands and hormonal regulation"
           ]
         }
       ]

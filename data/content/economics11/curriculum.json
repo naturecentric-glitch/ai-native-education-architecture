@@ -1,0 +1,139 @@
+{
+  "course_id": "economics11",
+  "title": "Class 11 Economics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Indian Economy on the Eve of Independence",
+      "concepts": [
+        {
+          "concept_id": "economics11.indian_economy.colonial_economy",
+          "title": "Colonial Economy and Its Impact",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Colonial Economy and Its Impact — part of the chapter on Indian Economy on the Eve of Independence.",
+          "key_ideas": [
+            "Core principles of colonial economy and its impact",
+            "Step-by-step problem solving for colonial economy and its impact",
+            "Real-world applications of colonial economy and its impact"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Economic Reforms Since 1991",
+      "concepts": [
+        {
+          "concept_id": "economics11.indian_economy_reforms.lp_g",
+          "title": "Liberalisation, Privatisation, Globalisation",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Liberalisation, Privatisation, Globalisation — part of the chapter on Economic Reforms Since 1991.",
+          "key_ideas": [
+            "Core principles of liberalisation, privatisation, globalisation",
+            "Step-by-step problem solving for liberalisation, privatisation, globalisation",
+            "Real-world applications of liberalisation, privatisation, globalisation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Poverty and Human Development",
+      "concepts": [
+        {
+          "concept_id": "economics11.poverty_hd.poverty_trends",
+          "title": "Poverty Trends and Human Development",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Poverty Trends and Human Development — part of the chapter on Poverty and Human Development.",
+          "key_ideas": [
+            "Core principles of poverty trends and human development",
+            "Step-by-step problem solving for poverty trends and human development",
+            "Real-world applications of poverty trends and human development"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Employment: Growth, Informalisation",
+      "concepts": [
+        {
+          "concept_id": "economics11.employment.employment_trends",
+          "title": "Employment Trends and Informal Sector",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Employment Trends and Informal Sector — part of the chapter on Employment: Growth, Informalisation.",
+          "key_ideas": [
+            "Core principles of employment trends and informal sector",
+            "Step-by-step problem solving for employment trends and informal sector",
+            "Real-world applications of employment trends and informal sector"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Infrastructure",
+      "concepts": [
+        {
+          "concept_id": "economics11.infrastructure.energy_health_education",
+          "title": "Energy, Health and Education Infrastructure",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Energy, Health and Education Infrastructure — part of the chapter on Infrastructure.",
+          "key_ideas": [
+            "Core principles of energy, health and education infrastructure",
+            "Step-by-step problem solving for energy, health and education infrastructure",
+            "Real-world applications of energy, health and education infrastructure"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Rural Development",
+      "concepts": [
+        {
+          "concept_id": "economics11.rural_development.rural_credit",
+          "title": "Rural Credit, Marketing and Diversification",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Rural Credit, Marketing and Diversification — part of the chapter on Rural Development.",
+          "key_ideas": [
+            "Core principles of rural credit, marketing and diversification",
+            "Step-by-step problem solving for rural credit, marketing and diversification",
+            "Real-world applications of rural credit, marketing and diversification"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Environment and Sustainable Development",
+      "concepts": [
+        {
+          "concept_id": "economics11.environment_sd.sustainable_dev",
+          "title": "Sustainable Development Strategies",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Sustainable Development Strategies — part of the chapter on Environment and Sustainable Development.",
+          "key_ideas": [
+            "Core principles of sustainable development strategies",
+            "Step-by-step problem solving for sustainable development strategies",
+            "Real-world applications of sustainable development strategies"
+          ]
+        }
+      ]
+    }
+  ]
+}

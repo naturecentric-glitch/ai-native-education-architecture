@@ -1,0 +1,452 @@
+{
+  "course_id": "hindi1",
+  "title": "Class 1 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "वर्णमाला (Hindi Alphabet)",
+      "concepts": [
+        {
+          "concept_id": "hindi1.varnmala.swar",
+          "title": "स्वर — Vowels अ-औ",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "स्वर — Vowels अ-औ — part of the chapter on वर्णमाला (Hindi Alphabet).",
+          "key_ideas": [
+            "Core principles of स्वर",
+            "Step-by-step problem solving for स्वर",
+            "Real-world applications of स्वर"
+          ]
+        },
+        {
+          "concept_id": "hindi1.varnmala.vyanjan",
+          "title": "व्यंजन — Consonants क-ज्ञ",
+          "bloom_level": "remember",
+          "difficulty": 0.15,
+          "prerequisites": [
+            "hindi1.varnmala.swar"
+          ],
+          "description": "व्यंजन — Consonants क-ज्ञ — part of the chapter on वर्णमाला (Hindi Alphabet).",
+          "key_ideas": [
+            "Core principles of व्यंजन",
+            "Step-by-step problem solving for व्यंजन",
+            "Real-world applications of व्यंजन"
+          ]
+        },
+        {
+          "concept_id": "hindi1.varnmala.aayogvah",
+          "title": "अयोगवाह — Ang (अं) and Ah (अ:)",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "hindi1.varnmala.swar"
+          ],
+          "description": "Introduction to the two sounds that follow the vowels but function differently: Anusvara (Ang) and Visarga (Ah).",
+          "key_ideas": [
+            "Identification of Ang (अं) and Ah (अ:)",
+            "Placement at the end of the vowel sequence",
+            "Basic pronunciation of the nasal sound (Ang) and the aspirate sound (Ah)"
+          ]
+        },
+        {
+          "concept_id": "hindi1.varnmala.sanyukt_vyanjan",
+          "title": "संयुक्त व्यंजन — Joint Consonants (क्ष, त्र, ज्ञ, श्र)",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi1.varnmala.vyanjan"
+          ],
+          "description": "Understanding specific consonants formed by the combination of two distinct consonant sounds, specifically Ksh, Tra, Gya, and Shra.",
+          "key_ideas": [
+            "Recognition of Ksh (क्ष), Tra (त्र), Gya (ज्ञ), and Shra (श्र)",
+            "Understanding that these represent combined sounds",
+            "Placement of these letters at the end of the Varnmala"
+          ]
+        },
+        {
+          "concept_id": "hindi1.varnmala.dwigun_vyanjan",
+          "title": "द्विगुण व्यंजन — Additional Consonants (ड़, ढ़)",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi1.varnmala.vyanjan"
+          ],
+          "description": "Distinguishing the additional dotted consonants (Dda and Ddha) from their base forms (Da and Dha).",
+          "key_ideas": [
+            "Difference between ड (Da) and ड़ (Dda)",
+            "Difference between ढ (Dha) and ढ़ (Ddha)",
+            "Correct pronunciation of the flap sounds",
+            "Visual identification of the dot (bindu) below the letter"
+          ]
+        },
+        {
+          "concept_id": "hindi1.varnmala.recognition_pronunciation",
+          "title": "Letter Differentiation and Pronunciation",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi1.varnmala.swar",
+            "hindi1.varnmala.vyanjan"
+          ],
+          "description": "Practicing the distinction between letters that look or sound similar to ensure accurate reading.",
+          "key_ideas": [
+            "Differentiating similar shapes (e.g., Gh-घ vs Dh-ध, Bh-भ vs M-म)",
+            "Differentiating sibilants (Sh-श, Sh-ष, S-स)",
+            "Differentiating between short and long vowel sounds (A-अ vs Aa-आ)"
+          ]
+        },
+        {
+          "concept_id": "hindi1.varnmala.kram",
+          "title": "वर्णमाला क्रम — Alphabetical Order",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi1.varnmala.swar",
+            "hindi1.varnmala.vyanjan",
+            "hindi1.varnmala.aayogvah",
+            "hindi1.varnmala.sanyukt_vyanjan"
+          ],
+          "description": "Arranging the complete set of Hindi letters in their correct standard sequence.",
+          "key_ideas": [
+            "Correct sequence of Varga (Ka-varga, Cha-varga, etc.)",
+            "Ordering Swar before Vyanjan",
+            "Filling in missing letters in a sequence"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "मात्राएँ (Matras)",
+      "concepts": [
+        {
+          "concept_id": "hindi1.matra.basic_matra",
+          "title": "Basic Matras — ा ि ी ु ू",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Basic Matras — ा ि ी ु ू — part of the chapter on मात्राएँ (Matras).",
+          "key_ideas": [
+            "Core principles of basic matras",
+            "Step-by-step problem solving for basic matras",
+            "Real-world applications of basic matras"
+          ]
+        },
+        {
+          "concept_id": "hindi1.matra.matra_words",
+          "title": "Reading Words with Matras",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "hindi1.matra.basic_matra"
+          ],
+          "description": "Reading Words with Matras — part of the chapter on मात्राएँ (Matras).",
+          "key_ideas": [
+            "Core principles of reading words with matras",
+            "Step-by-step problem solving for reading words with matras",
+            "Real-world applications of reading words with matras"
+          ]
+        },
+        {
+          "concept_id": "hindi1.matra.advanced_matra",
+          "title": "Advanced Matras — े ै ो ौ",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi1.matra.basic_matra"
+          ],
+          "description": "Introduction to the symbols and sounds for the vowels 'e' (े), 'ai' (ै), 'o' (ो), and 'au' (ौ), which are placed above or to the right of the consonant.",
+          "key_ideas": [
+            "Recognition of single and double flags above the line (े, ै)",
+            "Recognition of standing lines with flags (ो, ौ)",
+            "Pronunciation differences between 'e' and 'ai'"
+          ]
+        },
+        {
+          "concept_id": "hindi1.matra.writing_mechanics",
+          "title": "Writing Mechanics: Matra Placement",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi1.matra.basic_matra",
+            "hindi1.matra.advanced_matra"
+          ],
+          "description": "Learning the correct physical positioning of matras relative to the consonant: to the left (ि), right (ी, ा), above (े, ै), or below (ु, ू).",
+          "key_ideas": [
+            "Chhoti 'i' (ि) is the only matra placed to the left of the letter",
+            "U and Oo (ु, ू) are placed below the standing line",
+            "Special placement of 'u' and 'oo' matras on the letter 'R' (र)"
+          ]
+        },
+        {
+          "concept_id": "hindi1.matra.special_signs",
+          "title": "Special Signs — ं ँ ः ृ",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi1.matra.advanced_matra"
+          ],
+          "description": "Introduction to nasal sounds (Anusvara and Chandrabindu), the Visarga (Ah), and the 'Ri' matra.",
+          "key_ideas": [
+            "Usage of the dot (Bindu - ं) for nasal sounds",
+            "Usage of the moon-dot (Chandrabindu - ँ)",
+            "The 'h' sound produced by Visarga (ः)",
+            "The 'C' shape of the Ri matra (ृ) placed at the bottom"
+          ]
+        },
+        {
+          "concept_id": "hindi1.matra.short_vs_long",
+          "title": "Distinguishing Short and Long Vowels",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi1.matra.matra_words",
+            "hindi1.matra.writing_mechanics"
+          ],
+          "description": "Analyzing the difference in pronunciation and meaning between short (Hrasva) and long (Deergha) vowel sounds, specifically 'i' vs 'ee' and 'u' vs 'oo'.",
+          "key_ideas": [
+            "Short sound requires less time to pronounce (quick snap)",
+            "Long sound is stretched",
+            "How changing a matra changes word meaning (e.g., दिन vs दीन)"
+          ]
+        },
+        {
+          "concept_id": "hindi1.matra.sentence_formation",
+          "title": "Simple Sentence Formation",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi1.matra.matra_words",
+            "hindi1.matra.special_signs"
+          ],
+          "description": "Combining words containing various matras to construct grammatically correct simple sentences.",
+          "key_ideas": [
+            "Ordering words correctly (Subject-Object-Verb structure)",
+            "Using matras to conjugate simple verbs (e.g., खाया, खायी)",
+            "Reading fluency of full sentences"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "शब्द रचना (Word Formation)",
+      "concepts": [
+        {
+          "concept_id": "hindi1.shabd_rachna.two_letter",
+          "title": "Two-Letter Words",
+          "bloom_level": "apply",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Two-Letter Words — part of the chapter on शब्द रचना (Word Formation).",
+          "key_ideas": [
+            "Core principles of two-letter words",
+            "Step-by-step problem solving for two-letter words",
+            "Real-world applications of two-letter words"
+          ]
+        },
+        {
+          "concept_id": "hindi1.shabd_rachna.three_letter",
+          "title": "Three-Letter Words",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "hindi1.shabd_rachna.two_letter"
+          ],
+          "description": "Three-Letter Words — part of the chapter on शब्द रचना (Word Formation).",
+          "key_ideas": [
+            "Core principles of three-letter words",
+            "Step-by-step problem solving for three-letter words",
+            "Real-world applications of three-letter words"
+          ]
+        },
+        {
+          "concept_id": "hindi1.shabd_rachna.four_letter",
+          "title": "Four-Letter Words (Char Akshar Wale Shabd)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi1.shabd_rachna.three_letter"
+          ],
+          "description": "Formation and pronunciation of words made by combining four distinct letters without vowel signs (Amatrik Shabd).",
+          "key_ideas": [
+            "Combining four letters (e.g., A+ja+ga+ra = Ajagar)",
+            "Breaking down long words into two-part sounds for easier reading",
+            "Common vocabulary: Bargad, Adrak, Sharbat"
+          ]
+        },
+        {
+          "concept_id": "hindi1.shabd_rachna.aa_matra_intro",
+          "title": "Words with 'Aa' Matra (Aa Ki Matra)",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi1.shabd_rachna.two_letter"
+          ],
+          "description": "Introduction to the first vowel sign (Matra) 'Aa' and how it elongates the sound of a consonant.",
+          "key_ideas": [
+            "Identifying the symbol for 'Aa' matra (T-shape)",
+            "Changing sound from short (k) to long (kaa)",
+            "Forming simple words like Aam, Kaam, Naak"
+          ]
+        },
+        {
+          "concept_id": "hindi1.shabd_rachna.i_ee_matra_intro",
+          "title": "Words with 'I' and 'Ee' Matras",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi1.shabd_rachna.aa_matra_intro"
+          ],
+          "description": "Distinguishing between and applying the short 'I' (Chhoti Ee) and long 'Ee' (Badi Ee) vowel signs to consonants.",
+          "key_ideas": [
+            "Placement of Matra: Left side (Chhoti Ee) vs Right side (Badi Ee)",
+            "Pronunciation difference: Quick sound vs Stretched sound",
+            "Common words: Din (Day) vs Deen (Poor), Kila (Fort) vs Keel (Nail)"
+          ]
+        },
+        {
+          "concept_id": "hindi1.shabd_rachna.jumbled_letters",
+          "title": "Rearranging Letters (Shabd Sanyojan)",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi1.shabd_rachna.three_letter",
+            "hindi1.shabd_rachna.four_letter"
+          ],
+          "description": "Developing syntax skills by rearranging jumbled letters to form meaningful words.",
+          "key_ideas": [
+            "Identifying individual letters in a scrambled set",
+            "Sequencing letters to create meaning (e.g., la-ma-ka -> ka-ma-la)",
+            " recognizing valid word structures"
+          ]
+        },
+        {
+          "concept_id": "hindi1.shabd_rachna.picture_association",
+          "title": "Picture-Word Association (Chitra Dekhkar Shabd)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi1.shabd_rachna.two_letter",
+            "hindi1.shabd_rachna.three_letter"
+          ],
+          "description": "Connecting visual imagery with written text to reinforce vocabulary and spelling accuracy.",
+          "key_ideas": [
+            "Identifying objects in images",
+            "Recalling the correct spelling for the image",
+            "Writing the word that corresponds to the picture"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "कविता और कहानी",
+      "concepts": [
+        {
+          "concept_id": "hindi1.kavita_kahani.rhymes",
+          "title": "Hindi Rhymes and Poems",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Hindi Rhymes and Poems — part of the chapter on कविता और कहानी.",
+          "key_ideas": [
+            "Core principles of hindi rhymes and poems",
+            "Step-by-step problem solving for hindi rhymes and poems",
+            "Real-world applications of hindi rhymes and poems"
+          ]
+        },
+        {
+          "concept_id": "hindi1.kavita_kahani.stories",
+          "title": "Simple Hindi Stories",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Simple Hindi Stories — part of the chapter on कविता और कहानी.",
+          "key_ideas": [
+            "Core principles of simple hindi stories",
+            "Step-by-step problem solving for simple hindi stories",
+            "Real-world applications of simple hindi stories"
+          ]
+        },
+        {
+          "concept_id": "hindi1.kavita_kahani.recitation_action",
+          "title": "Recitation with Actions (Abhinay)",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi1.kavita_kahani.rhymes"
+          ],
+          "description": "Learning to recite Hindi poems with correct rhythm, intonation, and hand gestures to express emotion.",
+          "key_ideas": [
+            "Matching hand gestures to words",
+            "Maintaining rhythm (Taal)",
+            "Expressing emotions (Haav-Bhaav) while speaking"
+          ]
+        },
+        {
+          "concept_id": "hindi1.kavita_kahani.vocabulary",
+          "title": "Story Vocabulary (Shabdarth)",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi1.kavita_kahani.stories",
+            "hindi1.kavita_kahani.rhymes"
+          ],
+          "description": "Identifying and understanding new or difficult words encountered within the context of poems and stories.",
+          "key_ideas": [
+            "Inferring meaning from context",
+            "Learning synonyms for common words",
+            "Using new words in simple sentences"
+          ]
+        },
+        {
+          "concept_id": "hindi1.kavita_kahani.characters",
+          "title": "Character Identification (Patra Parichay)",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi1.kavita_kahani.stories"
+          ],
+          "description": "Identifying the main characters in a story, their names, and their basic traits or roles.",
+          "key_ideas": [
+            "Naming the protagonist and supporting characters",
+            "Describing character physical traits",
+            "Understanding relationships between characters"
+          ]
+        },
+        {
+          "concept_id": "hindi1.kavita_kahani.sequencing",
+          "title": "Story Sequencing (Ghatna Kram)",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi1.kavita_kahani.stories"
+          ],
+          "description": "Arranging the events of a story in the correct chronological order to demonstrate comprehension.",
+          "key_ideas": [
+            "Identifying the beginning, middle, and end",
+            "Recalling the order of events",
+            "Using 'first', 'then', and 'last' in Hindi"
+          ]
+        },
+        {
+          "concept_id": "hindi1.kavita_kahani.moral_lessons",
+          "title": "Moral Lessons (Seekh)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi1.kavita_kahani.stories"
+          ],
+          "description": "Deriving the underlying message or moral value presented in the story.",
+          "key_ideas": [
+            "Understanding right vs. wrong actions",
+            "Identifying the consequence of actions",
+            "Summarizing the lesson (Seekh) of the story"
+          ]
+        }
+      ]
+    }
+  ]
+}

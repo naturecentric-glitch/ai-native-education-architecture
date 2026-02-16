@@ -1,0 +1,802 @@
+{
+  "course_id": "math2",
+  "title": "Class 2 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Numbers Up to 100",
+      "concepts": [
+        {
+          "concept_id": "math2.numbers_100.counting_100",
+          "title": "Counting to 100",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Counting to 100 — part of the chapter on Numbers Up to 100.",
+          "key_ideas": [
+            "Core principles of counting to 100",
+            "Step-by-step problem solving for counting to 100",
+            "Real-world applications of counting to 100"
+          ]
+        },
+        {
+          "concept_id": "math2.numbers_100.comparing",
+          "title": "Comparing Numbers — Greater, Smaller",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [
+            "math2.numbers_100.counting_100"
+          ],
+          "description": "Comparing Numbers — Greater, Smaller — part of the chapter on Numbers Up to 100.",
+          "key_ideas": [
+            "Core principles of comparing numbers",
+            "Step-by-step problem solving for comparing numbers",
+            "Real-world applications of comparing numbers"
+          ]
+        },
+        {
+          "concept_id": "math2.numbers_100.ordering",
+          "title": "Ordering Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math2.numbers_100.comparing"
+          ],
+          "description": "Ordering Numbers — part of the chapter on Numbers Up to 100.",
+          "key_ideas": [
+            "Core principles of ordering numbers",
+            "Step-by-step problem solving for ordering numbers",
+            "Real-world applications of ordering numbers"
+          ]
+        },
+        {
+          "concept_id": "math2.numbers_100.place_value",
+          "title": "Place Value: Tens and Ones",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math2.numbers_100.counting_100"
+          ],
+          "description": "Understanding that in a two-digit number, digits represent different values based on their position (tens place and ones place).",
+          "key_ideas": [
+            "Grouping objects into bundles of ten",
+            "Identifying the digit in the tens place versus the ones place",
+            "Visualizing numbers using base-10 blocks or bundles"
+          ]
+        },
+        {
+          "concept_id": "math2.numbers_100.expanded_form",
+          "title": "Expanded Form of Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math2.numbers_100.place_value"
+          ],
+          "description": "Expressing a number as the sum of the values of its digits to understand its composition.",
+          "key_ideas": [
+            "Writing numbers as a sum (e.g., 45 = 40 + 5)",
+            "Connecting expanded form to spoken number names",
+            "Decomposing numbers into tens and ones"
+          ]
+        },
+        {
+          "concept_id": "math2.numbers_100.number_names",
+          "title": "Number Names and Writing",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math2.numbers_100.counting_100"
+          ],
+          "description": "Reading and writing the number names (words) for numerals up to 100.",
+          "key_ideas": [
+            "Spelling number words (e.g., 'Twenty', 'Thirty')",
+            "Matching numerals to their written word form",
+            "Hyphenating compound numbers (e.g., 'Twenty-one')"
+          ]
+        },
+        {
+          "concept_id": "math2.numbers_100.skip_counting",
+          "title": "Skip Counting",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math2.numbers_100.ordering"
+          ],
+          "description": "Counting forward by numbers other than one to identify patterns and prepare for multiplication.",
+          "key_ideas": [
+            "Skip counting by 2s, 5s, and 10s",
+            "Identifying patterns on a 100-chart",
+            "Completing number sequences with gaps"
+          ]
+        },
+        {
+          "concept_id": "math2.numbers_100.ordinal_numbers",
+          "title": "Ordinal Numbers",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math2.numbers_100.ordering"
+          ],
+          "description": "Using numbers to define the position or rank of an object in a sequence.",
+          "key_ideas": [
+            "Distinguishing between cardinal (counting) and ordinal (position) numbers",
+            "Using terms like 1st, 2nd, 3rd, up to 10th or 20th",
+            "Identifying the position of items in a line"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Addition and Subtraction",
+      "concepts": [
+        {
+          "concept_id": "math2.addition_sub.add_two_digit",
+          "title": "Adding Two-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Adding Two-Digit Numbers — part of the chapter on Addition and Subtraction.",
+          "key_ideas": [
+            "Core principles of adding two-digit numbers",
+            "Step-by-step problem solving for adding two-digit numbers",
+            "Real-world applications of adding two-digit numbers"
+          ]
+        },
+        {
+          "concept_id": "math2.addition_sub.sub_two_digit",
+          "title": "Subtracting Two-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Subtracting Two-Digit Numbers — part of the chapter on Addition and Subtraction.",
+          "key_ideas": [
+            "Core principles of subtracting two-digit numbers",
+            "Step-by-step problem solving for subtracting two-digit numbers",
+            "Real-world applications of subtracting two-digit numbers"
+          ]
+        },
+        {
+          "concept_id": "math2.addition_sub.word_problems",
+          "title": "Word Problems on Addition and Subtraction",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math2.addition_sub.add_two_digit",
+            "math2.addition_sub.sub_two_digit"
+          ],
+          "description": "Word Problems on Addition and Subtraction — part of the chapter on Addition and Subtraction.",
+          "key_ideas": [
+            "Core principles of word problems on addition and subtraction",
+            "Step-by-step problem solving for word problems on addition and subtraction",
+            "Real-world applications of word problems on addition and subtraction"
+          ]
+        },
+        {
+          "concept_id": "math2.addition_sub.properties",
+          "title": "Properties of Addition and Subtraction",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding fundamental rules like the order of numbers in addition and the effect of zero.",
+          "key_ideas": [
+            "Changing the order of addends does not change the sum (Commutative Property)",
+            "Adding zero to a number gives the same number",
+            "Subtracting zero from a number leaves the number unchanged"
+          ]
+        },
+        {
+          "concept_id": "math2.addition_sub.adding_three_numbers",
+          "title": "Adding Three One-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learning strategies to add three distinct single-digit numbers together by grouping them efficiently.",
+          "key_ideas": [
+            "Grouping two numbers that make 10 first",
+            "Adding numbers vertically in a column",
+            "Keeping a running total in your head"
+          ]
+        },
+        {
+          "concept_id": "math2.addition_sub.regrouping_addition",
+          "title": "Addition with Regrouping (Carry Over)",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math2.addition_sub.add_two_digit"
+          ],
+          "description": "Solving addition problems where the sum of the digits in the ones place exceeds 9, requiring carrying over to the tens place.",
+          "key_ideas": [
+            "Identifying when a sum is greater than 9",
+            "Carrying the 'tens' digit to the next column",
+            "Adding the carried digit to the tens column numbers"
+          ]
+        },
+        {
+          "concept_id": "math2.addition_sub.regrouping_subtraction",
+          "title": "Subtraction with Borrowing",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math2.addition_sub.sub_two_digit"
+          ],
+          "description": "Solving subtraction problems where the digit in the ones place of the minuend is smaller than the subtrahend.",
+          "key_ideas": [
+            "Recognizing when the top digit is smaller than the bottom digit",
+            "Borrowing 1 ten from the tens place and converting it to 10 ones",
+            "Reducing the tens count by one after borrowing"
+          ]
+        },
+        {
+          "concept_id": "math2.addition_sub.fact_families",
+          "title": "Relationship Between Addition and Subtraction",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math2.addition_sub.add_two_digit",
+            "math2.addition_sub.sub_two_digit"
+          ],
+          "description": "Understanding how addition and subtraction are inverse operations through fact families.",
+          "key_ideas": [
+            "If A + B = C, then C - B = A",
+            "Using addition to check subtraction answers",
+            "Creating fact families (e.g., 3, 5, 8 creates 3+5=8 and 8-5=3)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Shapes and Patterns",
+      "concepts": [
+        {
+          "concept_id": "math2.shapes.2d_shapes",
+          "title": "Circle, Square, Triangle, Rectangle",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Circle, Square, Triangle, Rectangle — part of the chapter on Shapes and Patterns.",
+          "key_ideas": [
+            "Core principles of circle, square, triangle, rectangle",
+            "Step-by-step problem solving for circle, square, triangle, rectangle",
+            "Real-world applications of circle, square, triangle, rectangle"
+          ]
+        },
+        {
+          "concept_id": "math2.shapes.patterns_repeat",
+          "title": "Repeating Patterns",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [
+            "math2.shapes.2d_shapes"
+          ],
+          "description": "Repeating Patterns — part of the chapter on Shapes and Patterns.",
+          "key_ideas": [
+            "Core principles of repeating patterns",
+            "Step-by-step problem solving for repeating patterns",
+            "Real-world applications of repeating patterns"
+          ]
+        },
+        {
+          "concept_id": "math2.shapes.straight_curved_lines",
+          "title": "Straight and Curved Lines",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to different types of lines used to draw shapes, distinguishing between straight lines (standing, sleeping, slanting) and curved lines.",
+          "key_ideas": [
+            "Standing lines (vertical)",
+            "Sleeping lines (horizontal)",
+            "Slanting lines (diagonal)",
+            "Curved lines vs straight lines"
+          ]
+        },
+        {
+          "concept_id": "math2.shapes.sides_and_corners",
+          "title": "Sides and Corners",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math2.shapes.2d_shapes"
+          ],
+          "description": "Analyzing basic 2D shapes by counting their straight edges (sides) and the points where edges meet (corners/vertices).",
+          "key_ideas": [
+            "Counting sides of squares, rectangles, and triangles",
+            "Counting corners of shapes",
+            "Identifying shapes with zero corners (circle)",
+            "Relating the number of sides to the shape name"
+          ]
+        },
+        {
+          "concept_id": "math2.shapes.3d_objects",
+          "title": "Solid Shapes Around Us",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Identifying 3D solid shapes in everyday environment, such as balls (spheres), boxes (cuboids), and pipes (cylinders).",
+          "key_ideas": [
+            "Identifying spheres (ball-like)",
+            "Identifying cuboids/cubes (box-like)",
+            "Identifying cylinders (can-like) and cones",
+            "Matching real-world objects to geometric solids"
+          ]
+        },
+        {
+          "concept_id": "math2.shapes.rolling_sliding",
+          "title": "Rolling and Sliding",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math2.shapes.3d_objects"
+          ],
+          "description": "Determining how different objects move based on their surface properties—whether they roll, slide, or do both.",
+          "key_ideas": [
+            "Curved surfaces allow rolling",
+            "Flat surfaces allow sliding",
+            "Objects with both curved and flat surfaces (like a coin or can) can do both",
+            "Predicting movement of an object"
+          ]
+        },
+        {
+          "concept_id": "math2.shapes.tracing_faces",
+          "title": "Tracing Flat Shapes from Solids",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math2.shapes.2d_shapes",
+            "math2.shapes.3d_objects"
+          ],
+          "description": "Understanding the relationship between 3D objects and 2D shapes by tracing the faces of solid objects to create flat shapes.",
+          "key_ideas": [
+            "Tracing a box creates a square or rectangle",
+            "Tracing a cylinder or cone base creates a circle",
+            "Relationship between a solid's face and a 2D drawing",
+            "Creating 2D art using 3D objects"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Measurement",
+      "concepts": [
+        {
+          "concept_id": "math2.measurement.length",
+          "title": "Measuring Length — Hand Span, Foot",
+          "bloom_level": "apply",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Measuring Length — Hand Span, Foot — part of the chapter on Measurement.",
+          "key_ideas": [
+            "Core principles of measuring length",
+            "Step-by-step problem solving for measuring length",
+            "Real-world applications of measuring length"
+          ]
+        },
+        {
+          "concept_id": "math2.measurement.capacity",
+          "title": "Full, Half-Full, Empty",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Full, Half-Full, Empty — part of the chapter on Measurement.",
+          "key_ideas": [
+            "Core principles of full, half-full, empty",
+            "Step-by-step problem solving for full, half-full, empty",
+            "Real-world applications of full, half-full, empty"
+          ]
+        },
+        {
+          "concept_id": "math2.measurement.weight_comparison",
+          "title": "Heavier and Lighter",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the concept of weight by comparing two objects to determine which is heavier and which is lighter through direct handling.",
+          "key_ideas": [
+            "Understanding weight as a property of objects",
+            "Comparing two objects by lifting",
+            "Identifying heavy vs. light objects",
+            "Ordering objects from lightest to heaviest"
+          ]
+        },
+        {
+          "concept_id": "math2.measurement.length_objects",
+          "title": "Measuring with Objects",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math2.measurement.length"
+          ],
+          "description": "Measuring the length of larger items using smaller, uniform objects like erasers, matchsticks, or pencils to introduce consistency in measurement.",
+          "key_ideas": [
+            "Using objects as non-standard units of measurement",
+            "Placing objects end-to-end without gaps",
+            "Counting objects to determine total length",
+            "Understanding why using the same object gives consistent results"
+          ]
+        },
+        {
+          "concept_id": "math2.measurement.weighing_balance",
+          "title": "Using a Balance Scale",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math2.measurement.weight_comparison"
+          ],
+          "description": "Using a simple beam balance to compare weights visually and measuring weight using non-standard units like marbles or stones.",
+          "key_ideas": [
+            "The heavier side of a balance goes down",
+            "The lighter side of a balance goes up",
+            "Balanced scales mean equal weight",
+            "Counting how many small units (e.g., marbles) balance a larger object"
+          ]
+        },
+        {
+          "concept_id": "math2.measurement.measuring_capacity",
+          "title": "Measuring Liquids with Containers",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math2.measurement.capacity"
+          ],
+          "description": "Quantifying capacity by counting how many smaller containers (like a mug) are needed to fill a larger container (like a bucket).",
+          "key_ideas": [
+            "Using a small vessel to measure a large vessel",
+            "Counting the number of pours required to fill a container",
+            "Comparing capacity: Which bucket holds more mugs of water?",
+            "Conservation of volume (pouring same water into different shapes)"
+          ]
+        },
+        {
+          "concept_id": "math2.measurement.estimation",
+          "title": "Estimating Measurements",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math2.measurement.length",
+            "math2.measurement.weight_comparison"
+          ],
+          "description": "Developing the skill to guess lengths, weights, or capacities before measuring to check for reasonableness.",
+          "key_ideas": [
+            "Guessing distances in steps or spans",
+            "Predicting which object is heavier before lifting",
+            "Estimating how many cups will fill a jug",
+            "Comparing the estimate with the actual measurement"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Time and Calendar",
+      "concepts": [
+        {
+          "concept_id": "math2.time_calendar.days_months",
+          "title": "Days of Week and Months of Year",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Days of Week and Months of Year — part of the chapter on Time and Calendar.",
+          "key_ideas": [
+            "Core principles of days of week and months of year",
+            "Step-by-step problem solving for days of week and months of year",
+            "Real-world applications of days of week and months of year"
+          ]
+        },
+        {
+          "concept_id": "math2.time_calendar.reading_clock2",
+          "title": "Reading Clock — Hours and Half-Hours",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math2.time_calendar.days_months"
+          ],
+          "description": "Reading Clock — Hours and Half-Hours — part of the chapter on Time and Calendar.",
+          "key_ideas": [
+            "Core principles of reading clock",
+            "Step-by-step problem solving for reading clock",
+            "Real-world applications of reading clock"
+          ]
+        },
+        {
+          "concept_id": "math2.time_calendar.daily_routine",
+          "title": "Sequence of Daily Events",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding the chronological order of activities performed throughout the day, distinguishing between morning, afternoon, evening, and night.",
+          "key_ideas": [
+            "Identifying parts of the day (morning, noon, evening, night)",
+            "Ordering activities chronologically",
+            "Associating specific activities (e.g., breakfast, sleeping) with times of day"
+          ]
+        },
+        {
+          "concept_id": "math2.time_calendar.relative_days",
+          "title": "Yesterday, Today, and Tomorrow",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math2.time_calendar.days_months"
+          ],
+          "description": "Applying the concepts of past, present, and future to the days of the week to determine relative timing.",
+          "key_ideas": [
+            "Meaning of 'Today' as the current day",
+            "Identifying the day before (Yesterday)",
+            "Identifying the day after (Tomorrow)",
+            "Sequencing days relative to a specific event"
+          ]
+        },
+        {
+          "concept_id": "math2.time_calendar.seasons_relation",
+          "title": "Seasons and Months",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math2.time_calendar.days_months"
+          ],
+          "description": "Associating specific months of the year with the primary seasons (Summer, Winter, Rainy/Monsoon) observed in the region.",
+          "key_ideas": [
+            "Identifying major seasons",
+            "Grouping months into seasons",
+            "Associating weather and clothing with specific times of year"
+          ]
+        },
+        {
+          "concept_id": "math2.time_calendar.calendar_reading",
+          "title": "Reading a Calendar Grid",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math2.time_calendar.days_months"
+          ],
+          "description": "Using a monthly calendar grid to locate specific dates, identify the day of the week for a given date, and count days.",
+          "key_ideas": [
+            "Locating specific dates on a grid",
+            "Identifying the day of the week for a specific number",
+            "Recognizing holidays and Sundays",
+            "Counting the total number of days in a specific month"
+          ]
+        },
+        {
+          "concept_id": "math2.time_calendar.duration_comparison",
+          "title": "Estimating Time Duration",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math2.time_calendar.reading_clock2"
+          ],
+          "description": "Comparing different activities to determine which takes a longer or shorter amount of time to complete.",
+          "key_ideas": [
+            "Concept of duration (how long something takes)",
+            "Comparing 'fast' vs 'slow' activities",
+            "Estimating if an activity takes minutes, hours, or days"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Money",
+      "concepts": [
+        {
+          "concept_id": "math2.money2.counting_money",
+          "title": "Counting Coins and Notes",
+          "bloom_level": "apply",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Counting Coins and Notes — part of the chapter on Money.",
+          "key_ideas": [
+            "Core principles of counting coins and notes",
+            "Step-by-step problem solving for counting coins and notes",
+            "Real-world applications of counting coins and notes"
+          ]
+        },
+        {
+          "concept_id": "math2.money2.making_amounts",
+          "title": "Making Amounts Using Different Coins",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math2.money2.counting_money"
+          ],
+          "description": "Making Amounts Using Different Coins — part of the chapter on Money.",
+          "key_ideas": [
+            "Core principles of making amounts using different coins",
+            "Step-by-step problem solving for making amounts using different coins",
+            "Real-world applications of making amounts using different coins"
+          ]
+        },
+        {
+          "concept_id": "math2.money2.money_exchange",
+          "title": "Exchanging Coins and Notes",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math2.money2.counting_money"
+          ],
+          "description": "Understanding how smaller denominations can be exchanged for larger denominations of equal value, such as exchanging two 5-rupee coins for one 10-rupee note.",
+          "key_ideas": [
+            "Equivalence of value",
+            "Exchanging coins for notes",
+            "Grouping smaller values to match larger values"
+          ]
+        },
+        {
+          "concept_id": "math2.money2.adding_prices",
+          "title": "Adding Money Amounts",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math2.money2.counting_money",
+            "math2.money2.making_amounts"
+          ],
+          "description": "Learning to add the prices of two or more items to calculate the total cost of a purchase.",
+          "key_ideas": [
+            "Summing item prices",
+            "Finding total cost",
+            "Simple addition with currency"
+          ]
+        },
+        {
+          "concept_id": "math2.money2.calculating_change",
+          "title": "Calculating Change",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math2.money2.adding_prices"
+          ],
+          "description": "Determining the amount of money returned when paying with a note or coin that has a higher value than the item's cost.",
+          "key_ideas": [
+            "Subtraction of money",
+            "Understanding 'change'",
+            "Comparing cost vs. amount paid"
+          ]
+        },
+        {
+          "concept_id": "math2.money2.shopping_scenarios",
+          "title": "Shopping Word Problems",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math2.money2.calculating_change"
+          ],
+          "description": "Solving real-world narrative problems involving buying items, checking affordability, and handling transactions.",
+          "key_ideas": [
+            "Reading price tags",
+            "Determining affordability (do I have enough?)",
+            "Multi-step transaction logic"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Introduction to Multiplication",
+      "concepts": [
+        {
+          "concept_id": "math2.multiplication_intro.groups_of",
+          "title": "Equal Groups — Groups of 2, 3, 5",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Equal Groups — Groups of 2, 3, 5 — part of the chapter on Introduction to Multiplication.",
+          "key_ideas": [
+            "Core principles of equal groups",
+            "Step-by-step problem solving for equal groups",
+            "Real-world applications of equal groups"
+          ]
+        },
+        {
+          "concept_id": "math2.multiplication_intro.skip_counting",
+          "title": "Skip Counting",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math2.multiplication_intro.groups_of"
+          ],
+          "description": "Skip Counting — part of the chapter on Introduction to Multiplication.",
+          "key_ideas": [
+            "Core principles of skip counting",
+            "Step-by-step problem solving for skip counting",
+            "Real-world applications of skip counting"
+          ]
+        },
+        {
+          "concept_id": "math2.multiplication_intro.repeated_addition",
+          "title": "Multiplication as Repeated Addition",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math2.multiplication_intro.groups_of"
+          ],
+          "description": "Understanding that multiplication is a faster way to add the same number multiple times.",
+          "key_ideas": [
+            "Connecting '3 + 3 + 3 + 3' to '4 groups of 3'",
+            "Replacing long addition sums with multiplication concepts",
+            "Identifying the number being added and how many times it is added"
+          ]
+        },
+        {
+          "concept_id": "math2.multiplication_intro.multiplication_sign",
+          "title": "The Multiplication Symbol (x)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math2.multiplication_intro.repeated_addition"
+          ],
+          "description": "Introduction to the multiplication sign 'x' and writing multiplication sentences.",
+          "key_ideas": [
+            "Recognizing the 'x' symbol as 'times'",
+            "Translating '5 groups of 2' into '5 x 2'",
+            "Writing a complete multiplication sentence (Factors and Product)"
+          ]
+        },
+        {
+          "concept_id": "math2.multiplication_intro.arrays",
+          "title": "Using Arrays (Rows and Columns)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math2.multiplication_intro.groups_of"
+          ],
+          "description": "Visualizing multiplication by arranging objects into equal rows and columns.",
+          "key_ideas": [
+            "Distinguishing between rows (horizontal) and columns (vertical)",
+            "Counting total objects using row x column logic",
+            "Visualizing that 2 rows of 3 is the same total as 3 rows of 2"
+          ]
+        },
+        {
+          "concept_id": "math2.multiplication_intro.number_line",
+          "title": "Multiplication on the Number Line",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math2.multiplication_intro.skip_counting"
+          ],
+          "description": "Using a number line to represent multiplication as a series of equal jumps starting from zero.",
+          "key_ideas": [
+            "Starting at zero and making equal jumps forward",
+            "Relating the size of the jump to the number being multiplied",
+            "Relating the number of jumps to the multiplier"
+          ]
+        },
+        {
+          "concept_id": "math2.multiplication_intro.tables_2_5_10",
+          "title": "Constructing Tables of 2, 5, and 10",
+          "bloom_level": "remember",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math2.multiplication_intro.skip_counting",
+            "math2.multiplication_intro.multiplication_sign"
+          ],
+          "description": "Building and memorizing the basic multiplication tables for 2, 5, and 10 using patterns.",
+          "key_ideas": [
+            "Identifying patterns in the 2s (doubling), 5s (ending in 0 or 5), and 10s (ending in 0)",
+            "Systematically listing products up to 10 times the number",
+            "Using the tables to solve quick calculations"
+          ]
+        },
+        {
+          "concept_id": "math2.multiplication_intro.word_problems",
+          "title": "One-Step Word Problems",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math2.multiplication_intro.multiplication_sign",
+            "math2.multiplication_intro.tables_2_5_10"
+          ],
+          "description": "Applying multiplication concepts to solve simple real-life text problems.",
+          "key_ideas": [
+            "Identifying keywords like 'each', 'groups of', and 'total'",
+            "Extracting numbers from text to form an equation",
+            "Solving for the total number of items across multiple groups"
+          ]
+        }
+      ]
+    }
+  ]
+}

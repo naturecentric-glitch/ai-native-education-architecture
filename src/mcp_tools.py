@@ -16,6 +16,10 @@ from src.gemini_engine import (
     generate_questions,
     analyze_misconceptions,
 )
+from src.content_cache import cache as content_cache
+
+import logging
+_log = logging.getLogger(__name__)
 
 
 # ── Course Manager (lazy-loading, multi-course) ─────────────────────────────
@@ -169,7 +173,17 @@ async def tool_teach_concept(student_id: str, course_id: str, concept_id: str) -
     misconceptions = node.misconceptions_detected if node else []
 
     course_info_dict = tree.course_info.model_dump() if tree.course_info else None
-    lesson = await teach_concept(concept, student.name, mastery, misconceptions, course_info=course_info_dict)
+
+    # --- Cache-first: check for a saved lesson ---
+    cached = content_cache.get_lesson(course_id, concept_id, mastery, misconceptions)
+    if cached:
+        _log.info("Cache HIT lesson %s/%s (mastery=%.0f%%)", course_id, concept_id, mastery * 100)
+        lesson = cached
+    else:
+        _log.info("Cache MISS lesson %s/%s — generating via AI", course_id, concept_id)
+        lesson = await teach_concept(concept, student.name, mastery, misconceptions, course_info=course_info_dict)
+        content_cache.save_lesson(course_id, concept_id, lesson, mastery, misconceptions)
+
     return {
         "course_id": course_id,
         "concept_id": concept_id,
@@ -199,12 +213,22 @@ async def tool_generate_questions(
         return {"error": f"Concept {concept_id} not found in course {course_id}"}
 
     course_info_dict = tree.course_info.model_dump() if tree.course_info else None
-    questions = await generate_questions(concept, count, difficulty, course_info=course_info_dict)
+
+    # --- Cache-first: check for saved questions ---
+    cached = content_cache.get_questions(course_id, concept_id, count, difficulty)
+    if cached:
+        _log.info("Cache HIT questions %s/%s (%d×%s)", course_id, concept_id, count, difficulty)
+        qs = cached
+    else:
+        _log.info("Cache MISS questions %s/%s — generating via AI", course_id, concept_id)
+        qs = await generate_questions(concept, count, difficulty, course_info=course_info_dict)
+        content_cache.save_questions(course_id, concept_id, qs, count, difficulty)
+
     return {
         "course_id": course_id,
         "concept_id": concept_id,
         "concept_title": concept.title,
-        "questions": questions,
+        "questions": qs,
     }
 
 

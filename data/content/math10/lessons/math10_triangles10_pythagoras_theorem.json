@@ -1,0 +1,12 @@
+{
+  "title": "Pythagoras Theorem and Converse — Triangles",
+  "hook": "Let's explore <strong>Pythagoras Theorem and Converse</strong> from the chapter on Triangles. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Pythagoras Theorem and Converse</strong>\n\n<em>In a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides. The converse helps identify right triangles.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Pythagoras: In right △ABC with ∠B = 90°, AC² = AB² + BC²</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Hypotenuse is always the longest side (opposite the right angle)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Converse: If AC² = AB² + BC², then ∠B = 90°</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Common Pythagorean triplets: (3,4,5), (5,12,13), (8,15,17), (7,24,25)</div>",
+  "worked_example": "<em>A detailed worked example for Pythagoras Theorem and Converse will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Pythagoras Theorem and Converse and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and triangles concepts like pythagoras theorem and converse are used in engineering, data science, and everyday problem solving!"
+}

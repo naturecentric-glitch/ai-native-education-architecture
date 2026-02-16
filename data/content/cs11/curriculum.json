@@ -1,0 +1,120 @@
+{
+  "course_id": "cs11",
+  "title": "Class 11 Computer Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Computer System Overview",
+      "concepts": [
+        {
+          "concept_id": "cs11.computer_overview.hardware_software",
+          "title": "Hardware, Software and OS",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Hardware, Software and OS — part of the chapter on Computer System Overview.",
+          "key_ideas": [
+            "Core principles of hardware, software and os",
+            "Step-by-step problem solving for hardware, software and os",
+            "Real-world applications of hardware, software and os"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Encoding Schemes and Number Systems",
+      "concepts": [
+        {
+          "concept_id": "cs11.encoding.binary_hex",
+          "title": "Binary, Octal, Hexadecimal, ASCII, Unicode",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Binary, Octal, Hexadecimal, ASCII, Unicode — part of the chapter on Encoding Schemes and Number Systems.",
+          "key_ideas": [
+            "Core principles of binary, octal, hexadecimal, ascii, unicode",
+            "Step-by-step problem solving for binary, octal, hexadecimal, ascii, unicode",
+            "Real-world applications of binary, octal, hexadecimal, ascii, unicode"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Python Basics",
+      "concepts": [
+        {
+          "concept_id": "cs11.python_basics.data_types_operators",
+          "title": "Data Types, Operators, Expressions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Data Types, Operators, Expressions — part of the chapter on Python Basics.",
+          "key_ideas": [
+            "Core principles of data types, operators, expressions",
+            "Step-by-step problem solving for data types, operators, expressions",
+            "Real-world applications of data types, operators, expressions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Flow of Control",
+      "concepts": [
+        {
+          "concept_id": "cs11.flow_control.conditional_loops",
+          "title": "Conditional Statements and Loops",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Conditional Statements and Loops — part of the chapter on Flow of Control.",
+          "key_ideas": [
+            "Core principles of conditional statements and loops",
+            "Step-by-step problem solving for conditional statements and loops",
+            "Real-world applications of conditional statements and loops"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Strings, Lists, Tuples, Dictionaries",
+      "concepts": [
+        {
+          "concept_id": "cs11.strings_lists.data_structures",
+          "title": "Strings, Lists, Tuples, Dictionaries",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Strings, Lists, Tuples, Dictionaries — part of the chapter on Strings, Lists, Tuples, Dictionaries.",
+          "key_ideas": [
+            "Core principles of strings, lists, tuples, dictionaries",
+            "Step-by-step problem solving for strings, lists, tuples, dictionaries",
+            "Real-world applications of strings, lists, tuples, dictionaries"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Societal, Legal and Ethical Aspects",
+      "concepts": [
+        {
+          "concept_id": "cs11.societal_impact.cybercrime_ethics",
+          "title": "Cybercrime, Ethics, IPR",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Cybercrime, Ethics, IPR — part of the chapter on Societal, Legal and Ethical Aspects.",
+          "key_ideas": [
+            "Core principles of cybercrime, ethics, ipr",
+            "Step-by-step problem solving for cybercrime, ethics, ipr",
+            "Real-world applications of cybercrime, ethics, ipr"
+          ]
+        }
+      ]
+    }
+  ]
+}

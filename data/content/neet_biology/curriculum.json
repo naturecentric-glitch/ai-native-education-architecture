@@ -7,46 +7,95 @@
       "title": "Diversity in Living World",
       "concepts": [
         {
-          "concept_id": "neet_biology.diversity_living.taxonomy_neet",
-          "title": "Taxonomy and Systematics",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Taxonomy and Systematics — part of the chapter on Diversity in Living World.",
-          "key_ideas": [
-            "Core principles of taxonomy and systematics",
-            "Step-by-step problem solving for taxonomy and systematics",
-            "Real-world applications of taxonomy and systematics"
-          ]
-        },
-        {
-          "concept_id": "neet_biology.diversity_living.five_kingdoms_neet",
-          "title": "Five Kingdom Classification (NEET Level)",
+          "concept_id": "neet_biology.diversity_living.taxonomy_kingdoms",
+          "title": "Taxonomy and Five Kingdoms",
           "bloom_level": "apply",
           "difficulty": 0.4,
-          "prerequisites": [
-            "neet_biology.diversity_living.taxonomy_neet"
-          ],
-          "description": "Five Kingdom Classification (NEET Level) — part of the chapter on Diversity in Living World.",
+          "prerequisites": [],
+          "description": "Taxonomy and Five Kingdoms — part of the chapter on Diversity in Living World.",
           "key_ideas": [
-            "Core principles of five kingdom classification (neet level)",
-            "Step-by-step problem solving for five kingdom classification (neet level)",
-            "Real-world applications of five kingdom classification (neet level)"
+            "Core principles of taxonomy and five kingdoms",
+            "Step-by-step problem solving for taxonomy and five kingdoms",
+            "Real-world applications of taxonomy and five kingdoms"
           ]
         },
         {
-          "concept_id": "neet_biology.diversity_living.plant_animal_kingdom_neet",
-          "title": "Plant and Animal Kingdom",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "neet_biology.diversity_living.five_kingdoms_neet"
-          ],
-          "description": "Plant and Animal Kingdom — part of the chapter on Diversity in Living World.",
+          "concept_id": "neet_biology.diversity_living.characteristics_life",
+          "title": "Characteristics of Living Organisms",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Exploration of the defining features of life, distinguishing between defining properties and general characteristics of living beings.",
           "key_ideas": [
-            "Core principles of plant and animal kingdom",
-            "Step-by-step problem solving for plant and animal kingdom",
-            "Real-world applications of plant and animal kingdom"
+            "Growth and reproduction as non-defining properties",
+            "Metabolism and cellular organization as defining properties",
+            "Consciousness and response to stimuli",
+            "Self-regulation and homeostasis"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.diversity_living.binomial_nomenclature",
+          "title": "Binomial Nomenclature",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "neet_biology.diversity_living.characteristics_life"
+          ],
+          "description": "The standardized system of naming organisms using two components: Generic name and Specific epithet, as proposed by Carolus Linnaeus.",
+          "key_ideas": [
+            "Rules of ICBN and ICZN",
+            "Formatting rules (Latin origin, italics, capitalization)",
+            "Author citation",
+            "Importance of standardization in global study"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.diversity_living.taxonomic_hierarchy",
+          "title": "Taxonomic Hierarchy and Categories",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "neet_biology.diversity_living.binomial_nomenclature",
+            "neet_biology.diversity_living.taxonomy_kingdoms"
+          ],
+          "description": "Detailed study of the arrangement of various taxonomic categories in a descending order, from Kingdom down to Species.",
+          "key_ideas": [
+            "Seven obligate categories (Kingdom, Phylum/Division, Class, Order, Family, Genus, Species)",
+            "Concept of Taxon vs. Category",
+            "Correlation between hierarchy level and common characteristics",
+            "Specific suffixes for plant families and orders"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.diversity_living.taxonomic_aids",
+          "title": "Taxonomic Aids",
+          "bloom_level": "remember",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "neet_biology.diversity_living.taxonomic_hierarchy"
+          ],
+          "description": "Techniques, procedures, and stored information that are useful in identification and classification of organisms.",
+          "key_ideas": [
+            "Herbarium sheets and labeling techniques",
+            "Botanical Gardens and Zoological Parks (Ex-situ conservation)",
+            "Museums and specimen preservation",
+            "Taxonomic Keys (Couplet and Lead)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.diversity_living.viruses_viroids_lichens",
+          "title": "Viruses, Viroids, Prions, and Lichens",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "neet_biology.diversity_living.taxonomy_kingdoms"
+          ],
+          "description": "Study of acellular organisms and symbiotic associations that are not included in the five-kingdom classification system.",
+          "key_ideas": [
+            "Crystalline nature and genetic material of Viruses (DNA/RNA)",
+            "Viroids (free RNA) and Prions (abnormally folded proteins)",
+            "Bacteriophages and Tobacco Mosaic Virus structure",
+            "Lichens: Phycobiont and Mycobiont association"
           ]
         }
       ]
@@ -56,46 +105,110 @@
       "title": "Cell Biology",
       "concepts": [
         {
-          "concept_id": "neet_biology.cell_biology.cell_structure_neet",
-          "title": "Cell Structure and Functions (NEET Level)",
+          "concept_id": "neet_biology.cell_biology.cell_division_biomolecules",
+          "title": "Cell Structure, Division, Biomolecules",
           "bloom_level": "apply",
-          "difficulty": 0.4,
+          "difficulty": 0.45,
           "prerequisites": [],
-          "description": "Cell Structure and Functions (NEET Level) — part of the chapter on Cell Biology.",
+          "description": "Cell Structure, Division, Biomolecules — part of the chapter on Cell Biology.",
           "key_ideas": [
-            "Core principles of cell structure and functions (neet level)",
-            "Step-by-step problem solving for cell structure and functions (neet level)",
-            "Real-world applications of cell structure and functions (neet level)"
+            "Core principles of cell structure, division, biomolecules",
+            "Step-by-step problem solving for cell structure, division, biomolecules",
+            "Real-world applications of cell structure, division, biomolecules"
           ]
         },
         {
-          "concept_id": "neet_biology.cell_biology.cell_division_neet",
-          "title": "Cell Division — Mitosis and Meiosis",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "neet_biology.cell_biology.cell_structure_neet"
-          ],
-          "description": "Cell Division — Mitosis and Meiosis — part of the chapter on Cell Biology.",
+          "concept_id": "neet_biology.cell_biology.prokaryotic_eukaryotic_organization",
+          "title": "Prokaryotic vs. Eukaryotic Organization",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "differentiation between prokaryotic and eukaryotic cell structures, focusing on the cell envelope, genetic material organization, and presence of membrane-bound organelles.",
           "key_ideas": [
-            "Core principles of cell division",
-            "Step-by-step problem solving for cell division",
-            "Real-world applications of cell division"
+            "Distinction between 70S and 80S ribosomes",
+            "Structure of the prokaryotic cell envelope (glycocalyx, cell wall, plasma membrane)",
+            "Organization of genetic material (Nucleoid vs. Nucleus)",
+            "Mesosomes and chromatophores in prokaryotes"
           ]
         },
         {
-          "concept_id": "neet_biology.cell_biology.biomolecules_neet",
-          "title": "Biomolecules and Enzymes",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
+          "concept_id": "neet_biology.cell_biology.fluid_mosaic_model_transport",
+          "title": "Cell Membrane: Model and Transport",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
           "prerequisites": [
-            "neet_biology.cell_biology.cell_structure_neet"
+            "neet_biology.cell_biology.prokaryotic_eukaryotic_organization"
           ],
-          "description": "Biomolecules and Enzymes — part of the chapter on Cell Biology.",
+          "description": "Detailed study of the Singer and Nicolson Fluid Mosaic Model and the mechanisms of transmembrane transport.",
           "key_ideas": [
-            "Core principles of biomolecules and enzymes",
-            "Step-by-step problem solving for biomolecules and enzymes",
-            "Real-world applications of biomolecules and enzymes"
+            "Lipid bilayer fluidity and protein arrangement (integral vs. peripheral)",
+            "Passive transport: Diffusion and Osmosis",
+            "Active transport mechanisms (Sodium-potassium pump)",
+            "Functions of membrane carbohydrates (cell recognition)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.cell_biology.endomembrane_system",
+          "title": "The Endomembrane System",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "neet_biology.cell_biology.prokaryotic_eukaryotic_organization"
+          ],
+          "description": "Examination of the coordinated system of organelles involved in synthesis, packaging, and transport of materials.",
+          "key_ideas": [
+            "Rough vs. Smooth Endoplasmic Reticulum functions",
+            "Golgi apparatus: Cisternae structure and packaging role",
+            "Lysosomal enzymes and formation",
+            "Vacuoles in plant vs. animal cells"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.cell_biology.semiautonomous_organelles",
+          "title": "Mitochondria and Plastids",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "neet_biology.cell_biology.prokaryotic_eukaryotic_organization"
+          ],
+          "description": "Structure and function of double-membrane organelles responsible for energy transduction, including their unique genetic machinery.",
+          "key_ideas": [
+            "Mitochondrial matrix and cristae structure (sites of aerobic respiration)",
+            "Types of plastids: Chloroplasts, Chromoplasts, Leucoplasts",
+            "Structure of the thylakoid system and stroma",
+            "Presence of circular DNA and ribosomes (Endosymbiotic theory)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.cell_biology.enzyme_mechanism_regulation",
+          "title": "Enzymes: Mechanism and Regulation",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "neet_biology.cell_biology.cell_division_biomolecules"
+          ],
+          "description": "Analysis of biological catalysts, factors affecting their activity, and modes of inhibition.",
+          "key_ideas": [
+            "Activation energy and the transition state",
+            "Factors affecting activity: pH, Temperature, Substrate concentration",
+            "Competitive vs. Non-competitive inhibition (Vmax and Km changes)",
+            "Cofactors, coenzymes, and prosthetic groups"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.cell_biology.meiosis_prophase_i_significance",
+          "title": "Meiosis: Prophase I and Significance",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "neet_biology.cell_biology.cell_division_biomolecules"
+          ],
+          "description": "In-depth look at the reductional division, specifically the complex stages of Prophase I and the generation of genetic variation.",
+          "key_ideas": [
+            "Sequential stages: Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis",
+            "Synaptonemal complex formation and dissolution",
+            "Mechanism of crossing over and recombination nodules",
+            "Segregation of homologous chromosomes vs. sister chromatids"
           ]
         }
       ]
@@ -105,44 +218,95 @@
       "title": "Plant Physiology",
       "concepts": [
         {
-          "concept_id": "neet_biology.plant_physiology.photosynthesis_neet",
-          "title": "Photosynthesis (NEET Level)",
+          "concept_id": "neet_biology.plant_physiology.photosynthesis_respiration",
+          "title": "Photosynthesis and Respiration",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [],
-          "description": "Photosynthesis (NEET Level) — part of the chapter on Plant Physiology.",
+          "description": "Photosynthesis and Respiration — part of the chapter on Plant Physiology.",
           "key_ideas": [
-            "Core principles of photosynthesis (neet level)",
-            "Step-by-step problem solving for photosynthesis (neet level)",
-            "Real-world applications of photosynthesis (neet level)"
+            "Core principles of photosynthesis and respiration",
+            "Step-by-step problem solving for photosynthesis and respiration",
+            "Real-world applications of photosynthesis and respiration"
           ]
         },
         {
-          "concept_id": "neet_biology.plant_physiology.respiration_neet",
-          "title": "Plant Respiration",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "neet_biology.plant_physiology.photosynthesis_neet"
-          ],
-          "description": "Plant Respiration — part of the chapter on Plant Physiology.",
-          "key_ideas": [
-            "Core principles of plant respiration",
-            "Step-by-step problem solving for plant respiration",
-            "Real-world applications of plant respiration"
-          ]
-        },
-        {
-          "concept_id": "neet_biology.plant_physiology.plant_growth_neet",
-          "title": "Plant Growth and Hormones",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
+          "concept_id": "neet_biology.plant_physiology.transport_mechanisms",
+          "title": "Transport in Plants",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Plant Growth and Hormones — part of the chapter on Plant Physiology.",
+          "description": "Mechanisms governing the movement of water, gases, and nutrients within plants, covering short-distance diffusion and long-distance translocation.",
           "key_ideas": [
-            "Core principles of plant growth and hormones",
-            "Step-by-step problem solving for plant growth and hormones",
-            "Real-world applications of plant growth and hormones"
+            "Water potential and its components (solute and pressure potential)",
+            "Mechanisms of osmosis, plasmolysis, and imbibition",
+            "Transpiration pull and the cohesion-tension theory",
+            "Mass flow hypothesis for phloem transport"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.plant_physiology.mineral_nutrition",
+          "title": "Mineral Nutrition",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "neet_biology.plant_physiology.transport_mechanisms"
+          ],
+          "description": "Study of essential mineral elements required for plant growth, criteria for essentiality, and the symptoms associated with their deficiency or toxicity.",
+          "key_ideas": [
+            "Classification of Macro and Micronutrients",
+            "Role of elements in metabolic processes",
+            "Deficiency symptoms (Chlorosis, Necrosis)",
+            "Hydroponics as a technique for studying nutrition"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.plant_physiology.nitrogen_cycle_fixation",
+          "title": "Nitrogen Metabolism",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "neet_biology.plant_physiology.mineral_nutrition"
+          ],
+          "description": "The physiological process of converting atmospheric nitrogen into usable forms, focusing on biological nitrogen fixation and amino acid synthesis.",
+          "key_ideas": [
+            "Biological Nitrogen Fixation (Symbiotic and Asymbiotic)",
+            "Role of Nitrogenase and Leghaemoglobin",
+            "Nodule formation in legumes",
+            "Reductive amination and Transamination"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.plant_physiology.plant_growth_regulators",
+          "title": "Plant Growth Regulators",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "neet_biology.plant_physiology.transport_mechanisms"
+          ],
+          "description": "Examination of phytohormones, their chemical nature, physiological effects, and agricultural applications in regulating plant growth.",
+          "key_ideas": [
+            "Promoters: Auxins, Gibberellins, Cytokinins",
+            "Inhibitors: Abscisic Acid (ABA) and Ethylene",
+            "Apical dominance and respiratory climactic",
+            "Commercial applications (e.g., fruit ripening, weedicides)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.plant_physiology.photoperiodism_vernalization",
+          "title": "Photoperiodism and Vernalization",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "neet_biology.plant_physiology.photosynthesis_respiration",
+            "neet_biology.plant_physiology.plant_growth_regulators"
+          ],
+          "description": "The response of plants to periods of light/darkness and low temperatures, influencing flowering and developmental phases.",
+          "key_ideas": [
+            "Long-day, Short-day, and Day-neutral plants",
+            "Role of Phytochrome pigment",
+            "Vernalization (low-temperature treatment for flowering)",
+            "Seed dormancy and germination factors"
           ]
         }
       ]
@@ -152,59 +316,79 @@
       "title": "Human Physiology",
       "concepts": [
         {
-          "concept_id": "neet_biology.human_physiology.digestion_neet",
-          "title": "Digestion and Absorption (NEET Level)",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Digestion and Absorption (NEET Level) — part of the chapter on Human Physiology.",
-          "key_ideas": [
-            "Core principles of digestion and absorption (neet level)",
-            "Step-by-step problem solving for digestion and absorption (neet level)",
-            "Real-world applications of digestion and absorption (neet level)"
-          ]
-        },
-        {
-          "concept_id": "neet_biology.human_physiology.circulation_neet",
-          "title": "Circulation — Heart and Blood",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "neet_biology.human_physiology.digestion_neet"
-          ],
-          "description": "Circulation — Heart and Blood — part of the chapter on Human Physiology.",
-          "key_ideas": [
-            "Core principles of circulation",
-            "Step-by-step problem solving for circulation",
-            "Real-world applications of circulation"
-          ]
-        },
-        {
-          "concept_id": "neet_biology.human_physiology.excretion_neet",
-          "title": "Excretion and Kidney Function",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [],
-          "description": "Excretion and Kidney Function — part of the chapter on Human Physiology.",
-          "key_ideas": [
-            "Core principles of excretion and kidney function",
-            "Step-by-step problem solving for excretion and kidney function",
-            "Real-world applications of excretion and kidney function"
-          ]
-        },
-        {
-          "concept_id": "neet_biology.human_physiology.neural_neet",
-          "title": "Neural Control and Coordination",
+          "concept_id": "neet_biology.human_physiology.digestion_circulation_excretion",
+          "title": "Digestion, Circulation, Excretion, Neural",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "neet_biology.human_physiology.circulation_neet"
-          ],
-          "description": "Neural Control and Coordination — part of the chapter on Human Physiology.",
+          "prerequisites": [],
+          "description": "Digestion, Circulation, Excretion, Neural — part of the chapter on Human Physiology.",
           "key_ideas": [
-            "Core principles of neural control and coordination",
-            "Step-by-step problem solving for neural control and coordination",
-            "Real-world applications of neural control and coordination"
+            "Core principles of digestion, circulation, excretion, neural",
+            "Step-by-step problem solving for digestion, circulation, excretion, neural",
+            "Real-world applications of digestion, circulation, excretion, neural"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.human_physiology.breathing_exchange_gases",
+          "title": "Breathing and Exchange of Gases",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Exploration of the human respiratory system, focusing on the mechanics of breathing, pulmonary volumes, and the physiological process of gas exchange at the alveolar level.",
+          "key_ideas": [
+            "Mechanism of breathing (Inspiration and Expiration)",
+            "Respiratory volumes and capacities (TV, IRV, ERV, VC)",
+            "Exchange of gases and transport of oxygen and carbon dioxide",
+            "Regulation of respiration"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.human_physiology.locomotion_movement",
+          "title": "Locomotion and Movement",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Study of the musculoskeletal system, detailing the types of movement, the structure of contractile proteins, and the mechanism of muscle contraction.",
+          "key_ideas": [
+            "Types of movement (ciliary, amoeboid, muscular)",
+            "Structure of myofibril and contractile proteins (Actin and Myosin)",
+            "Sliding Filament Theory of muscle contraction",
+            "Skeletal system and types of joints"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.human_physiology.chemical_coordination_integration",
+          "title": "Chemical Coordination and Integration",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "neet_biology.human_physiology.digestion_circulation_excretion"
+          ],
+          "description": "Analysis of the endocrine system, focusing on the synthesis, secretion, and function of hormones, and their role in maintaining homeostasis alongside the neural system.",
+          "key_ideas": [
+            "Human endocrine system (Pituitary, Thyroid, Adrenal, Pancreas, Gonads)",
+            "Mechanism of hormone action (Membrane-bound vs. Intracellular receptors)",
+            "Hypothalamic control of the pituitary",
+            "Feedback mechanisms in hormonal regulation"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.human_physiology.disorders_human_physiology",
+          "title": "Disorders of Human Physiology",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "neet_biology.human_physiology.digestion_circulation_excretion",
+            "neet_biology.human_physiology.breathing_exchange_gases",
+            "neet_biology.human_physiology.locomotion_movement",
+            "neet_biology.human_physiology.chemical_coordination_integration"
+          ],
+          "description": "Comprehensive review of common pathophysiological conditions and disorders affecting the major human body systems, essential for diagnostic reasoning in NEET.",
+          "key_ideas": [
+            "Respiratory disorders (Asthma, Emphysema, Occupational Respiratory Disorders)",
+            "Circulatory and Excretory disorders (Hypertension, CAD, Uremia, Renal Failure)",
+            "Musculoskeletal disorders (Myasthenia gravis, Tetany, Osteoporosis, Gout)",
+            "Endocrine disorders (Diabetes mellitus, Goitre, Acromegaly)"
           ]
         }
       ]
@@ -214,29 +398,94 @@
       "title": "Reproduction",
       "concepts": [
         {
-          "concept_id": "neet_biology.reproduction_neet.plant_reproduction_neet",
-          "title": "Plant Reproduction (NEET Level)",
+          "concept_id": "neet_biology.reproduction_neet.plant_human_reproduction",
+          "title": "Plant and Human Reproduction",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Plant Reproduction (NEET Level) — part of the chapter on Reproduction.",
+          "description": "Plant and Human Reproduction — part of the chapter on Reproduction.",
           "key_ideas": [
-            "Core principles of plant reproduction (neet level)",
-            "Step-by-step problem solving for plant reproduction (neet level)",
-            "Real-world applications of plant reproduction (neet level)"
+            "Core principles of plant and human reproduction",
+            "Step-by-step problem solving for plant and human reproduction",
+            "Real-world applications of plant and human reproduction"
           ]
         },
         {
-          "concept_id": "neet_biology.reproduction_neet.human_reproduction_neet",
-          "title": "Human Reproduction and RH",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
+          "concept_id": "neet_biology.reproduction_neet.asexual_vegetative_propagation",
+          "title": "Asexual Reproduction and Vegetative Propagation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Human Reproduction and RH — part of the chapter on Reproduction.",
+          "description": "Exploration of reproduction modes involving a single parent without gamete fusion, focusing on cellular mechanisms and vegetative structures in plants.",
           "key_ideas": [
-            "Core principles of human reproduction and rh",
-            "Step-by-step problem solving for human reproduction and rh",
-            "Real-world applications of human reproduction and rh"
+            "Modes of asexual reproduction: Binary fission, budding, sporulation, and fragmentation",
+            "Vegetative propagules in plants: Rhizomes, tubers, offsets, and bulbs",
+            "Distinction between clones and sexually produced offspring",
+            "Survival advantages of asexual reproduction in specific environments"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.reproduction_neet.angiosperm_fertilization_events",
+          "title": "Sexual Reproduction in Flowering Plants",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "neet_biology.reproduction_neet.asexual_vegetative_propagation"
+          ],
+          "description": "Detailed analysis of pre-fertilization, fertilization, and post-fertilization events in angiosperms, including gametophyte development and seed formation.",
+          "key_ideas": [
+            "Microsporogenesis and Megasporogenesis: Formation of male and female gametophytes",
+            "Pollination mechanisms: Autogamy, Geitonogamy, and Xenogamy (biotic and abiotic agents)",
+            "Double Fertilization: Syngamy and Triple Fusion unique to angiosperms",
+            "Post-fertilization: Endosperm development, embryo formation, and fruit maturation"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.reproduction_neet.human_gametogenesis_menstrual_cycle",
+          "title": "Human Gametogenesis and Hormonal Control",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "neet_biology.reproduction_neet.plant_human_reproduction"
+          ],
+          "description": "Examination of the physiological processes of sperm and egg formation in humans, regulated by the endocrine system, and the cyclical changes in the female reproductive tract.",
+          "key_ideas": [
+            "Spermatogenesis vs. Oogenesis: Meiotic phases and structural differentiation",
+            "Hormonal regulation: Roles of GnRH, FSH, LH, Estrogen, and Progesterone",
+            "Phases of the Menstrual Cycle: Menstrual, Follicular, Ovulatory, and Luteal phases",
+            "Structure of the mature Graafian follicle and sperm"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.reproduction_neet.human_pregnancy_parturition",
+          "title": "Fertilization, Pregnancy, and Embryonic Development",
+          "bloom_level": "understand",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "neet_biology.reproduction_neet.human_gametogenesis_menstrual_cycle"
+          ],
+          "description": "Study of the events following gamete fusion, including implantation, placental physiology, fetal development stages, and the mechanism of birth.",
+          "key_ideas": [
+            "Acrosomal reaction and cortical reaction during fertilization",
+            "Blastocyst formation and implantation in the endometrium",
+            "Function of the placenta as an endocrine tissue",
+            "Parturition reflexes and the neuro-endocrine mechanism of lactation"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.reproduction_neet.reproductive_health_strategies",
+          "title": "Reproductive Health and Assisted Technologies",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "neet_biology.reproduction_neet.human_pregnancy_parturition"
+          ],
+          "description": "Overview of reproductive health problems and strategies, including population control, contraception, and medical interventions for infertility.",
+          "key_ideas": [
+            "Contraceptive methods: Barrier, IUDs, Oral, and Surgical (Vasectomy/Tubectomy)",
+            "Medical Termination of Pregnancy (MTP) and Amniocentesis (significance and misuse)",
+            "Sexually Transmitted Infections (STIs): Prevention and detection",
+            "Assisted Reproductive Technologies (ART): IVF, ZIFT, GIFT, and ICSI"
           ]
         }
       ]
@@ -246,46 +495,96 @@
       "title": "Genetics and Evolution",
       "concepts": [
         {
-          "concept_id": "neet_biology.genetics_neet.mendelian_genetics_neet",
-          "title": "Mendelian Genetics (NEET Level)",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [],
-          "description": "Mendelian Genetics (NEET Level) — part of the chapter on Genetics and Evolution.",
-          "key_ideas": [
-            "Core principles of mendelian genetics (neet level)",
-            "Step-by-step problem solving for mendelian genetics (neet level)",
-            "Real-world applications of mendelian genetics (neet level)"
-          ]
-        },
-        {
-          "concept_id": "neet_biology.genetics_neet.molecular_genetics_neet",
-          "title": "Molecular Genetics — DNA, RNA, Protein Synthesis",
+          "concept_id": "neet_biology.genetics_neet.mendelian_molecular_evolution",
+          "title": "Mendelian, Molecular Genetics, Evolution",
           "bloom_level": "apply",
           "difficulty": 0.55,
-          "prerequisites": [
-            "neet_biology.genetics_neet.mendelian_genetics_neet"
-          ],
-          "description": "Molecular Genetics — DNA, RNA, Protein Synthesis — part of the chapter on Genetics and Evolution.",
+          "prerequisites": [],
+          "description": "Mendelian, Molecular Genetics, Evolution — part of the chapter on Genetics and Evolution.",
           "key_ideas": [
-            "Core principles of molecular genetics",
-            "Step-by-step problem solving for molecular genetics",
-            "Real-world applications of molecular genetics"
+            "Core principles of mendelian, molecular genetics, evolution",
+            "Step-by-step problem solving for mendelian, molecular genetics, evolution",
+            "Real-world applications of mendelian, molecular genetics, evolution"
           ]
         },
         {
-          "concept_id": "neet_biology.genetics_neet.evolution_neet",
-          "title": "Evolution — Evidence and Mechanisms",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
+          "concept_id": "neet_biology.genetics_neet.chromosomal_theory_linkage",
+          "title": "Chromosomal Theory and Linkage",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
           "prerequisites": [
-            "neet_biology.genetics_neet.molecular_genetics_neet"
+            "neet_biology.genetics_neet.mendelian_molecular_evolution"
           ],
-          "description": "Evolution — Evidence and Mechanisms — part of the chapter on Genetics and Evolution.",
+          "description": "Exploration of the chromosomal basis of inheritance, focusing on the parallelism between genes and chromosomes, and the deviation from Mendelian ratios due to linkage.",
           "key_ideas": [
-            "Core principles of evolution",
-            "Step-by-step problem solving for evolution",
-            "Real-world applications of evolution"
+            "Sutton and Boveri's Chromosomal Theory of Inheritance",
+            "T.H. Morgan's experiments on Drosophila melanogaster",
+            "Differentiation between Linkage and Independent Assortment",
+            "Calculation of recombination frequency and genetic mapping"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.genetics_neet.molecular_central_dogma",
+          "title": "Molecular Central Dogma: Replication to Translation",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "neet_biology.genetics_neet.mendelian_molecular_evolution"
+          ],
+          "description": "Detailed study of the molecular processes that transfer genetic information from DNA to RNA to Protein, including the machinery and enzymes involved.",
+          "key_ideas": [
+            "Semi-conservative mode of DNA replication (Meselson and Stahl)",
+            "Process of Transcription and the structural unit of the gene",
+            "Properties of the Genetic Code (Degeneracy, Universality)",
+            "Mechanism of Translation and tRNA structure"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.genetics_neet.gene_expression_regulation",
+          "title": "Regulation of Gene Expression",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "neet_biology.genetics_neet.molecular_central_dogma"
+          ],
+          "description": "Analysis of how genes are turned on and off in prokaryotes and eukaryotes, with specific focus on operon models.",
+          "key_ideas": [
+            "The Lac Operon model in E. coli (Polycistronic structural genes)",
+            "Role of Inducer, Promoter, Operator, and Repressor proteins",
+            "Negative vs. Positive regulation",
+            "Goals and methodologies of the Human Genome Project (HGP)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.genetics_neet.genetic_disorders_pedigree",
+          "title": "Genetic Disorders and Pedigree Analysis",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "neet_biology.genetics_neet.mendelian_molecular_evolution"
+          ],
+          "description": "Application of genetic principles to diagnose inheritance patterns in humans and identify specific chromosomal and Mendelian disorders.",
+          "key_ideas": [
+            "Interpretation of Pedigree charts (Autosomal vs. Sex-linked)",
+            "Mendelian Disorders: Haemophilia, Sickle-cell anaemia, Phenylketonuria",
+            "Chromosomal Disorders: Down's, Klinefelter's, and Turner's syndromes",
+            "Point mutations vs. Frameshift mutations"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.genetics_neet.hardy_weinberg_evolution_mechanism",
+          "title": "Mechanisms of Evolution and Hardy-Weinberg",
+          "bloom_level": "apply",
+          "difficulty": 0.75,
+          "prerequisites": [
+            "neet_biology.genetics_neet.mendelian_molecular_evolution"
+          ],
+          "description": "Study of population genetics and the mathematical principles governing allele frequencies and evolutionary changes.",
+          "key_ideas": [
+            "Hardy-Weinberg Principle and algebraic equation (p^2 + 2pq + q^2 = 1)",
+            "Factors affecting equilibrium: Gene migration, Genetic drift, Mutation, Recombination",
+            "Types of Natural Selection: Stabilizing, Directional, and Disruptive",
+            "Adaptive Radiation and Convergent vs. Divergent evolution"
           ]
         }
       ]
@@ -295,76 +594,202 @@
       "title": "Biotechnology",
       "concepts": [
         {
-          "concept_id": "neet_biology.biotechnology_neet.rdna_neet",
-          "title": "rDNA Technology (NEET Level)",
+          "concept_id": "neet_biology.biotechnology_neet.rdna_applications",
+          "title": "rDNA, GM Crops, Gene Therapy",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [],
-          "description": "rDNA Technology (NEET Level) — part of the chapter on Biotechnology.",
+          "description": "rDNA, GM Crops, Gene Therapy — part of the chapter on Biotechnology.",
           "key_ideas": [
-            "Core principles of rdna technology (neet level)",
-            "Step-by-step problem solving for rdna technology (neet level)",
-            "Real-world applications of rdna technology (neet level)"
+            "Core principles of rdna, gm crops, gene therapy",
+            "Step-by-step problem solving for rdna, gm crops, gene therapy",
+            "Real-world applications of rdna, gm crops, gene therapy"
           ]
         },
         {
-          "concept_id": "neet_biology.biotechnology_neet.applications_neet",
-          "title": "Biotechnology Applications — GM Crops, Gene Therapy",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "neet_biology.biotechnology_neet.rdna_neet"
-          ],
-          "description": "Biotechnology Applications — GM Crops, Gene Therapy — part of the chapter on Biotechnology.",
+          "concept_id": "neet_biology.biotechnology_neet.restriction_enzymes",
+          "title": "Restriction Enzymes and DNA Tools",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to the tools of recombinant DNA technology, specifically focusing on nucleases, restriction endonucleases, and the formation of sticky and blunt ends.",
           "key_ideas": [
-            "Core principles of biotechnology applications",
-            "Step-by-step problem solving for biotechnology applications",
-            "Real-world applications of biotechnology applications"
+            "Action of Restriction Endonucleases (Molecular Scissors)",
+            "Palindromic Nucleotide Sequences",
+            "Nomenclature of Restriction Enzymes (e.g., EcoRI)",
+            "Formation of Phosphodiester bonds by DNA Ligase"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.biotechnology_neet.gel_electrophoresis",
+          "title": "Separation of DNA Fragments (Gel Electrophoresis)",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "neet_biology.biotechnology_neet.restriction_enzymes"
+          ],
+          "description": "The technique used to separate DNA fragments based on size under an electric field, a critical step in visualizing restriction digestion results.",
+          "key_ideas": [
+            "Principle of DNA separation (Negative charge moving to Anode)",
+            "Role of Agarose gel as a sieving matrix",
+            "Staining with Ethidium Bromide and UV visualization",
+            "Elution of DNA bands"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.biotechnology_neet.cloning_vectors",
+          "title": "Cloning Vectors and Host Competence",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "neet_biology.biotechnology_neet.restriction_enzymes"
+          ],
+          "description": "Detailed study of plasmids and bacteriophages used to transfer genetic material, including the mechanisms to select transformants from non-transformants.",
+          "key_ideas": [
+            "Features of a vector: Origin of replication (ori), Selectable markers, Cloning sites",
+            "Insertional Inactivation (Blue-White Screening)",
+            "Ti Plasmid of Agrobacterium tumefaciens",
+            "Methods to make host cells competent (Heat shock, Microinjection, Biolistics)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.biotechnology_neet.pcr_technique",
+          "title": "Polymerase Chain Reaction (PCR)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "The process of in vitro gene amplification to create billions of copies of a specific DNA sequence.",
+          "key_ideas": [
+            "Three steps of PCR: Denaturation, Annealing, Extension",
+            "Role of Thermostable DNA Polymerase (Taq polymerase)",
+            "Applications in molecular diagnosis and gene cloning"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.biotechnology_neet.bioreactors_downstream",
+          "title": "Bioreactors and Downstream Processing",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "neet_biology.biotechnology_neet.cloning_vectors"
+          ],
+          "description": "Industrial-scale production of recombinant proteins and the subsequent purification processes required before marketing.",
+          "key_ideas": [
+            "Types of Bioreactors: Simple stirred-tank and Sparged stirred-tank",
+            "Control systems (Temperature, pH, Foam, Oxygen)",
+            "Downstream Processing: Separation and Purification",
+            "Quality control testing"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.biotechnology_neet.bioethics_regulation",
+          "title": "Bioethics, Patents, and Biopiracy",
+          "bloom_level": "evaluate",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "neet_biology.biotechnology_neet.rdna_applications"
+          ],
+          "description": "The regulatory and ethical frameworks governing biotechnology, including the exploitation of bio-resources without authorization.",
+          "key_ideas": [
+            "Role of GEAC (Genetic Engineering Appraisal Committee)",
+            "Biopiracy definitions and examples (Basmati rice, Turmeric, Neem)",
+            "Ethical arguments regarding transgenic animals",
+            "Patent laws regarding biological modifications"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch08",
-      "title": "Ecology and Environment",
+      "title": "Ecology",
       "concepts": [
         {
-          "concept_id": "neet_biology.ecology_neet.ecosystem_neet",
-          "title": "Ecosystems — Energy Flow, Nutrient Cycling",
+          "concept_id": "neet_biology.ecology_neet.ecosystem_biodiversity_env",
+          "title": "Ecosystems, Biodiversity, Environmental Issues",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Ecosystems — Energy Flow, Nutrient Cycling — part of the chapter on Ecology and Environment.",
+          "description": "Ecosystems, Biodiversity, Environmental Issues — part of the chapter on Ecology.",
           "key_ideas": [
-            "Core principles of ecosystems",
-            "Step-by-step problem solving for ecosystems",
-            "Real-world applications of ecosystems"
+            "Core principles of ecosystems, biodiversity, environmental issues",
+            "Step-by-step problem solving for ecosystems, biodiversity, environmental issues",
+            "Real-world applications of ecosystems, biodiversity, environmental issues"
           ]
         },
         {
-          "concept_id": "neet_biology.ecology_neet.biodiversity_neet",
-          "title": "Biodiversity and Conservation",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Biodiversity and Conservation — part of the chapter on Ecology and Environment.",
-          "key_ideas": [
-            "Core principles of biodiversity and conservation",
-            "Step-by-step problem solving for biodiversity and conservation",
-            "Real-world applications of biodiversity and conservation"
-          ]
-        },
-        {
-          "concept_id": "neet_biology.ecology_neet.environmental_issues_neet",
-          "title": "Environmental Issues",
+          "concept_id": "neet_biology.ecology_neet.organism_abiotic_adaptations",
+          "title": "Organisms and Abiotic Factors",
           "bloom_level": "understand",
-          "difficulty": 0.35,
+          "difficulty": 0.2,
           "prerequisites": [],
-          "description": "Environmental Issues — part of the chapter on Ecology and Environment.",
+          "description": "Exploration of how organisms interact with their physical environment, including major abiotic factors and physiological or behavioral adaptations for survival.",
           "key_ideas": [
-            "Core principles of environmental issues",
-            "Step-by-step problem solving for environmental issues",
-            "Real-world applications of environmental issues"
+            "Major abiotic factors: Temperature, Water, Light, and Soil",
+            "Responses to abiotic factors: Regulate, Conform, Migrate, Suspend",
+            "Adaptations in plants (xerophytes) and animals (Allen's Rule)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.ecology_neet.population_attributes_growth",
+          "title": "Population Attributes and Growth Models",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "neet_biology.ecology_neet.organism_abiotic_adaptations"
+          ],
+          "description": "Study of population characteristics, including age pyramids, and mathematical models representing population growth dynamics under limited and unlimited resources.",
+          "key_ideas": [
+            "Natality, Mortality, Immigration, and Emigration",
+            "Age Pyramids: Expanding, Stable, and Declining populations",
+            "Exponential Growth (J-shaped) vs. Logistic Growth (S-shaped)",
+            "Carrying Capacity (K) and the Verhulst-Pearl equation"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.ecology_neet.population_interactions",
+          "title": "Population Interactions",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "neet_biology.ecology_neet.population_attributes_growth"
+          ],
+          "description": "Analysis of interspecific interactions within a biological community, categorizing relationships based on benefit or harm to the species involved.",
+          "key_ideas": [
+            "Mutualism (+/+) and Protocooperation",
+            "Competition (-/-) and Gause's Competitive Exclusion Principle",
+            "Predation (+/-), Parasitism (+/-), Commensalism (+/0), and Amensalism (-/0)"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.ecology_neet.ecosystem_energy_flow_productivity",
+          "title": "Ecosystem Structure, Productivity, and Energy Flow",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "neet_biology.ecology_neet.organism_abiotic_adaptations"
+          ],
+          "description": "Detailed examination of ecosystem functional components, focusing on how energy enters, flows through trophic levels, and is lost, alongside measures of biomass production.",
+          "key_ideas": [
+            "Primary Productivity: GPP vs. NPP",
+            "Decomposition: Fragmentation, Leaching, Catabolism, Humification, Mineralization",
+            "Energy Flow: The 10% Law and Food Webs",
+            "Ecological Pyramids: Number, Biomass, and Energy"
+          ]
+        },
+        {
+          "concept_id": "neet_biology.ecology_neet.nutrient_cycling_succession",
+          "title": "Nutrient Cycling and Ecological Succession",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "neet_biology.ecology_neet.ecosystem_energy_flow_productivity"
+          ],
+          "description": "Study of the movement of nutrients through the biosphere and the gradual process of change in species structure of an ecological community over time.",
+          "key_ideas": [
+            "Gaseous Cycles (Carbon) vs. Sedimentary Cycles (Phosphorus)",
+            "Primary vs. Secondary Succession",
+            "Succession stages: Pioneer species to Climax community",
+            "Hydrarch and Xerarch succession patterns"
           ]
         }
       ]

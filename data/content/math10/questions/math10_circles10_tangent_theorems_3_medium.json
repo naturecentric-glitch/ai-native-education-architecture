@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.5,
+    "question": "State and explain the key concept: Theorem 2: Tangents from an external point are equal (PA = PB).",
+    "hint": "Think about the definition and main formula related to Tangent Theorems and Problem Solving.",
+    "expected_answer": "This tests understanding of: Theorem 2: Tangents from an external point are equal (PA = PB). Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Tangent Theorems and Problem Solving"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "question": "Solve an NCERT example problem related to 'Tangent Theorems and Problem Solving'. Show all steps clearly.",
+    "hint": "Review the key ideas: Theorem 2: Tangents from an external point are equal (PA = PB), The line from external point to centre bisects the angle between tangents.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Tangent Theorems and Problem Solving. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Tangent Theorems and Problem Solving"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.65,
+    "question": "How would you apply 'Tangent Theorems and Problem Solving' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where tangent theorems and problem solving concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Tangent Theorems and Problem Solving.",
+    "concepts_tested": [
+      "Tangent Theorems and Problem Solving",
+      "Real-world application"
+    ]
+  }
+]

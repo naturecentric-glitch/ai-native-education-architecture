@@ -1,0 +1,448 @@
+{
+  "course_id": "hindi5",
+  "title": "Class 5 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "गद्य — Prose",
+      "concepts": [
+        {
+          "concept_id": "hindi5.gadya5.stories5",
+          "title": "Hindi Stories with Deep Comprehension",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Hindi Stories with Deep Comprehension — part of the chapter on गद्य — Prose.",
+          "key_ideas": [
+            "Core principles of hindi stories with deep comprehension",
+            "Step-by-step problem solving for hindi stories with deep comprehension",
+            "Real-world applications of hindi stories with deep comprehension"
+          ]
+        },
+        {
+          "concept_id": "hindi5.gadya5.passage_answer",
+          "title": "Passage-Based Questions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi5.gadya5.stories5"
+          ],
+          "description": "Passage-Based Questions — part of the chapter on गद्य — Prose.",
+          "key_ideas": [
+            "Core principles of passage-based questions",
+            "Step-by-step problem solving for passage-based questions",
+            "Real-world applications of passage-based questions"
+          ]
+        },
+        {
+          "concept_id": "hindi5.gadya5.prose_vocab",
+          "title": "Contextual Vocabulary and Idioms",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi5.gadya5.stories5"
+          ],
+          "description": "Understanding difficult words (shabdarth) and idioms (muhavare) based on their usage within the prose context, rather than in isolation.",
+          "key_ideas": [
+            "Inferring meaning from context clues",
+            "Usage of specific Hindi idioms found in stories",
+            "Synonyms and antonyms of key story words",
+            "Constructing sentences using new vocabulary"
+          ]
+        },
+        {
+          "concept_id": "hindi5.gadya5.character_sketch",
+          "title": "Character Analysis (Charitra Chitran)",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi5.gadya5.stories5",
+            "hindi5.gadya5.passage_answer"
+          ],
+          "description": "Analyzing the personality traits, motivations, and actions of main characters within the stories.",
+          "key_ideas": [
+            "Identifying physical and behavioral traits",
+            "Understanding character motivations",
+            "Comparing different characters",
+            "Describing characters using adjectives (Visheshan)"
+          ]
+        },
+        {
+          "concept_id": "hindi5.gadya5.story_structure",
+          "title": "Sequencing and Summarization",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi5.gadya5.stories5"
+          ],
+          "description": "Breaking down the narrative into chronological events and condensing the story into a brief summary (Saaraansh).",
+          "key_ideas": [
+            "Arranging jumbled events in correct order",
+            "Identifying the beginning, middle, and end",
+            "Writing a concise summary of the prose",
+            "Differentiating between main points and details"
+          ]
+        },
+        {
+          "concept_id": "hindi5.gadya5.themes_values",
+          "title": "Identifying Themes and Moral Values",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi5.gadya5.story_structure"
+          ],
+          "description": "Evaluating the underlying message, moral lesson (Seekh), or social value presented in the prose.",
+          "key_ideas": [
+            "Extracting the moral of the story",
+            "Discussing social values (e.g., honesty, bravery)",
+            "Justifying the appropriateness of the title",
+            "Connecting story themes to real-life situations"
+          ]
+        },
+        {
+          "concept_id": "hindi5.gadya5.creative_writing",
+          "title": "Creative Story Extension",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "hindi5.gadya5.themes_values"
+          ],
+          "description": "Using the characters and setting of the prose to create new scenarios, alternative endings, or diary entries from a character's perspective.",
+          "key_ideas": [
+            "Writing an alternative ending",
+            "Creating a 'what if' scenario",
+            "Writing a diary entry as a character",
+            "Dialogue writing based on story situations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "पद्य — Poetry",
+      "concepts": [
+        {
+          "concept_id": "hindi5.padya5.poems5",
+          "title": "Hindi Poems with Explanation",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Hindi Poems with Explanation — part of the chapter on पद्य — Poetry.",
+          "key_ideas": [
+            "Core principles of hindi poems with explanation",
+            "Step-by-step problem solving for hindi poems with explanation",
+            "Real-world applications of hindi poems with explanation"
+          ]
+        },
+        {
+          "concept_id": "hindi5.padya5.bhavarth",
+          "title": "भावार्थ — Meaning and Interpretation",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi5.padya5.poems5"
+          ],
+          "description": "भावार्थ — Meaning and Interpretation — part of the chapter on पद्य — Poetry.",
+          "key_ideas": [
+            "Core principles of भावार्थ",
+            "Step-by-step problem solving for भावार्थ",
+            "Real-world applications of भावार्थ"
+          ]
+        },
+        {
+          "concept_id": "hindi5.padya5.shabd_bhandar",
+          "title": "शब्द भंडार — Vocabulary in Poetry",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi5.padya5.poems5"
+          ],
+          "description": "Learning the meanings of difficult words, synonyms (paryayvachi), and antonyms (vilom) specifically found within the poetic verses.",
+          "key_ideas": [
+            "Understanding poetic vocabulary (Shabdarth)",
+            "Identifying synonyms for common words used in poems",
+            "Recognizing antonyms within the context of the poem"
+          ]
+        },
+        {
+          "concept_id": "hindi5.padya5.tukbandi",
+          "title": "तुकांत शब्द — Rhyming Words",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi5.padya5.poems5"
+          ],
+          "description": "Identifying and matching words that end with similar sounds (rhymes) to understand the rhythm and flow of the poem.",
+          "key_ideas": [
+            "Identification of rhyming words at the end of lines",
+            "Creating new rhyming pairs based on the poem",
+            "Understanding how rhyme contributes to rhythm (Lay)"
+          ]
+        },
+        {
+          "concept_id": "hindi5.padya5.kavita_path",
+          "title": "कविता पाठ — Recitation and Intonation",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi5.padya5.poems5"
+          ],
+          "description": "Practicing the oral recitation of poetry with correct pronunciation, rhythm, pauses, and emotional expression.",
+          "key_ideas": [
+            "Correct pronunciation (Ucharan) of poetic Hindi",
+            "Voice modulation based on the poem's mood",
+            "Respecting punctuation and pauses during recitation"
+          ]
+        },
+        {
+          "concept_id": "hindi5.padya5.prashn_abhyas",
+          "title": "प्रश्न अभ्यास — Comprehension Questions",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi5.padya5.bhavarth"
+          ],
+          "description": "Answering textual and inferential questions to demonstrate a deep understanding of the poem's events, characters, and message.",
+          "key_ideas": [
+            "Answering direct questions from the text",
+            "Drawing inferences about the poet's intent",
+            "Relating poem content to real-life situations"
+          ]
+        },
+        {
+          "concept_id": "hindi5.padya5.rachnatmak_gatividhi",
+          "title": "रचनात्मक गतिविधि — Creative Activity",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "hindi5.padya5.tukbandi",
+            "hindi5.padya5.bhavarth"
+          ],
+          "description": "Engaging in creative tasks such as completing incomplete stanzas, writing short 4-line verses, or illustrating the poem's imagery.",
+          "key_ideas": [
+            "Completing a poem using established rhyme schemes",
+            "Writing original short verses on similar themes",
+            "Visualizing and drawing scenes described in the poem"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "व्याकरण — Grammar",
+      "concepts": [
+        {
+          "concept_id": "hindi5.vyakaran5.sandhi",
+          "title": "संधि — Basic Word Joining",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "संधि — Basic Word Joining — part of the chapter on व्याकरण — Grammar.",
+          "key_ideas": [
+            "Core principles of संधि",
+            "Step-by-step problem solving for संधि",
+            "Real-world applications of संधि"
+          ]
+        },
+        {
+          "concept_id": "hindi5.vyakaran5.upsarg_pratyay",
+          "title": "उपसर्ग और प्रत्यय — Prefixes and Suffixes",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "उपसर्ग और प्रत्यय — Prefixes and Suffixes — part of the chapter on व्याकरण — Grammar.",
+          "key_ideas": [
+            "Core principles of उपसर्ग और प्रत्यय",
+            "Step-by-step problem solving for उपसर्ग और प्रत्यय",
+            "Real-world applications of उपसर्ग और प्रत्यय"
+          ]
+        },
+        {
+          "concept_id": "hindi5.vyakaran5.muhavare",
+          "title": "मुहावरे — Idioms",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "मुहावरे — Idioms — part of the chapter on व्याकरण — Grammar.",
+          "key_ideas": [
+            "Core principles of मुहावरे",
+            "Step-by-step problem solving for मुहावरे",
+            "Real-world applications of मुहावरे"
+          ]
+        },
+        {
+          "concept_id": "hindi5.vyakaran5.paryayvachi_vilom",
+          "title": "पर्यायवाची और विलोम शब्द — Synonyms and Antonyms",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to words with similar meanings (synonyms) and words with opposite meanings (antonyms) to expand vocabulary.",
+          "key_ideas": [
+            "Understanding Paryayvachi (Synonyms) as words sharing the same meaning",
+            "Understanding Vilom (Antonyms) as words with opposite meanings",
+            "Contextual usage of vocabulary in sentences"
+          ]
+        },
+        {
+          "concept_id": "hindi5.vyakaran5.ling_vachan",
+          "title": "लिंग और वचन — Gender and Number",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Learning how to identify and transform nouns based on gender (Masculine/Feminine) and quantity (Singular/Plural).",
+          "key_ideas": [
+            "Distinguishing between Pulling (Masculine) and Striling (Feminine)",
+            "Changing Ek-vachan (Singular) to Bahu-vachan (Plural)",
+            "Impact of gender and number on sentence structure"
+          ]
+        },
+        {
+          "concept_id": "hindi5.vyakaran5.visheshan",
+          "title": "विशेषण — Adjectives",
+          "bloom_level": "understand",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "hindi5.vyakaran5.upsarg_pratyay"
+          ],
+          "description": "Study of words that describe the quality, quantity, or state of nouns and pronouns, including basic classification.",
+          "key_ideas": [
+            "Definition of Visheshan (Adjective) and Visheshya (Noun described)",
+            "Types of adjectives: Guna (Quality), Sankhya (Number), Pariman (Quantity)",
+            "Formation of adjectives using suffixes"
+          ]
+        },
+        {
+          "concept_id": "hindi5.vyakaran5.kriya_kaal",
+          "title": "क्रिया और काल — Verbs and Tenses",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi5.vyakaran5.ling_vachan"
+          ],
+          "description": "Understanding action words and how they change form to indicate when an action takes place (Time/Tense).",
+          "key_ideas": [
+            "Identification of Kriya (Verbs) in a sentence",
+            "Three main tenses: Vartaman (Present), Bhoot (Past), Bhavishya (Future)",
+            "Verb agreement with subject gender and number"
+          ]
+        },
+        {
+          "concept_id": "hindi5.vyakaran5.anek_shabdon_ke_liye_ek_shabd",
+          "title": "अनेक शब्दों के लिए एक शब्द — One Word Substitution",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi5.vyakaran5.upsarg_pratyay"
+          ],
+          "description": "Learning to substitute a phrase or a group of words with a single, precise word to make writing concise.",
+          "key_ideas": [
+            "Importance of brevity in language",
+            "Common substitutions for professions and qualities",
+            "Enhancing writing style through precise vocabulary"
+          ]
+        },
+        {
+          "concept_id": "hindi5.vyakaran5.viram_chinh",
+          "title": "विराम चिह्न — Punctuation",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi5.vyakaran5.kriya_kaal"
+          ],
+          "description": "Rules for using punctuation marks to clarify meaning, pauses, and expressions in written Hindi.",
+          "key_ideas": [
+            "Usage of Purna Viram (Full Stop) and Alp Viram (Comma)",
+            "Usage of Prashna Chinh (Question Mark) and Vismayadi Bodhak (Exclamation Mark)",
+            "Correcting sentences with missing or incorrect punctuation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "लेखन — Writing",
+      "concepts": [
+        {
+          "concept_id": "hindi5.lekhan5.nibandh5",
+          "title": "निबंध लेखन — Essay Writing",
+          "bloom_level": "create",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "निबंध लेखन — Essay Writing — part of the chapter on लेखन — Writing.",
+          "key_ideas": [
+            "Core principles of निबंध लेखन",
+            "Step-by-step problem solving for निबंध लेखन",
+            "Real-world applications of निबंध लेखन"
+          ]
+        },
+        {
+          "concept_id": "hindi5.lekhan5.patra5",
+          "title": "पत्र लेखन — Letter Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "पत्र लेखन — Letter Writing — part of the chapter on लेखन — Writing.",
+          "key_ideas": [
+            "Core principles of पत्र लेखन",
+            "Step-by-step problem solving for पत्र लेखन",
+            "Real-world applications of पत्र लेखन"
+          ]
+        },
+        {
+          "concept_id": "hindi5.lekhan5.chitra_varnan",
+          "title": "चित्र वर्णन — Picture Composition",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Developing the skill to observe a picture and describe the scene, characters, and actions using correct Hindi sentences.",
+          "key_ideas": [
+            "Observation of details in a visual image",
+            "Constructing sentences in the present tense",
+            "Connecting objects and actions logically"
+          ]
+        },
+        {
+          "concept_id": "hindi5.lekhan5.anuched",
+          "title": "अनुच्छेद लेखन — Paragraph Writing",
+          "bloom_level": "create",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Writing a concise, cohesive paragraph on a specific topic, focusing on unity of thought rather than the structured format of an essay.",
+          "key_ideas": [
+            "Focusing on a single central idea",
+            "Using simple and clear language",
+            "Maintaining flow and continuity between sentences"
+          ]
+        },
+        {
+          "concept_id": "hindi5.lekhan5.samvad",
+          "title": "संवाद लेखन — Dialogue Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Writing a conversation between two or more characters on a given situation, focusing on natural speech patterns and appropriate punctuation.",
+          "key_ideas": [
+            "Format of dialogue writing (Speaker Name: Dialogue)",
+            "Using appropriate punctuation (question marks, exclamations)",
+            "Distinguishing between formal and informal tone"
+          ]
+        },
+        {
+          "concept_id": "hindi5.lekhan5.kahani",
+          "title": "कहानी लेखन — Story Writing",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi5.lekhan5.anuched"
+          ],
+          "description": "Constructing a short story based on given hints, outlines, or a moral, emphasizing narrative structure.",
+          "key_ideas": [
+            "Structure: Beginning, Middle, and End",
+            "Using the past tense for storytelling",
+            "Concluding with a moral (Shiksha)"
+          ]
+        }
+      ]
+    }
+  ]
+}

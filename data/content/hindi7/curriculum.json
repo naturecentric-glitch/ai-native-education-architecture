@@ -1,0 +1,383 @@
+{
+  "course_id": "hindi7",
+  "title": "Class 7 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "गद्य — Prose",
+      "concepts": [
+        {
+          "concept_id": "hindi7.gadya7.lessons7",
+          "title": "Hindi Lessons with Comprehension",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Hindi Lessons with Comprehension — part of the chapter on गद्य — Prose.",
+          "key_ideas": [
+            "Core principles of hindi lessons with comprehension",
+            "Step-by-step problem solving for hindi lessons with comprehension",
+            "Real-world applications of hindi lessons with comprehension"
+          ]
+        },
+        {
+          "concept_id": "hindi7.gadya7.vocabulary_context",
+          "title": "Vocabulary and Idioms in Context",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi7.gadya7.lessons7"
+          ],
+          "description": "Understanding difficult words (Shabdarth), synonyms, antonyms, and idioms (Muhavare) as used within the prose chapters.",
+          "key_ideas": [
+            "Inferring meaning from context clues",
+            "Usage of Muhavare (idioms) and Lokoktiyan (proverbs)",
+            "Tatsam and Tadbhav words found in lessons"
+          ]
+        },
+        {
+          "concept_id": "hindi7.gadya7.prose_genres",
+          "title": "Identification of Prose Genres (Vidha)",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi7.gadya7.lessons7"
+          ],
+          "description": "Distinguishing between different forms of prose writing such as stories (Kahani), essays (Nibandh), memoirs (Sansmaran), and travelogues (Yatra Vrittant).",
+          "key_ideas": [
+            "Characteristics of a Story vs. an Essay",
+            "Understanding Autobiographical elements",
+            "Recognizing Descriptive vs. Narrative writing styles"
+          ]
+        },
+        {
+          "concept_id": "hindi7.gadya7.character_analysis",
+          "title": "Character Sketch (Charitra Chitran)",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi7.gadya7.lessons7"
+          ],
+          "description": "Analyzing the personality traits, motivations, and development of major and minor characters within the stories.",
+          "key_ideas": [
+            "Identifying physical and behavioral traits",
+            "Understanding character motivations and conflicts",
+            "Writing a structured character sketch"
+          ]
+        },
+        {
+          "concept_id": "hindi7.gadya7.answer_writing_skills",
+          "title": "Structured Answer Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi7.gadya7.lessons7",
+            "hindi7.gadya7.vocabulary_context"
+          ],
+          "description": "Techniques for formulating concise and comprehensive answers to textual questions, including reference to context (Sandarbh Sahit Vyakhya).",
+          "key_ideas": [
+            "Structuring short vs. long answer questions",
+            "Writing 'Reference to Context' (Vyakhya)",
+            "Using textual evidence to support answers"
+          ]
+        },
+        {
+          "concept_id": "hindi7.gadya7.thematic_evaluation",
+          "title": "Themes and Moral Values",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi7.gadya7.lessons7",
+            "hindi7.gadya7.character_analysis"
+          ],
+          "description": "Evaluating the central theme, social message, or moral lesson conveyed by the author in the prose chapters.",
+          "key_ideas": [
+            "Identifying the central idea (Mool Bhaav)",
+            "Connecting stories to real-world social issues",
+            "Critiquing the author's message or conclusion"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "पद्य — Poetry",
+      "concepts": [
+        {
+          "concept_id": "hindi7.padya7.kavita7",
+          "title": "Hindi Poems and Bhavarth",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Hindi Poems and Bhavarth — part of the chapter on पद्य — Poetry.",
+          "key_ideas": [
+            "Core principles of hindi poems and bhavarth",
+            "Step-by-step problem solving for hindi poems and bhavarth",
+            "Real-world applications of hindi poems and bhavarth"
+          ]
+        },
+        {
+          "concept_id": "hindi7.padya7.shabd_sampada",
+          "title": "Poetic Vocabulary and Dialects",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding the specific vocabulary, word origins (Tatsam/Tadbhav), and regional dialects (like Braj or Avadhi) used in Hindi poetry to enhance comprehension.",
+          "key_ideas": [
+            "Identifying difficult words (Kathin Shabd)",
+            "Understanding dialect-specific terms (e.g., Braj Bhasha words in Surdas)",
+            "Synonyms and antonyms in poetic context"
+          ]
+        },
+        {
+          "concept_id": "hindi7.padya7.sashwar_vachan",
+          "title": "Recitation and Intonation (Sashwar Vachan)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi7.padya7.kavita7"
+          ],
+          "description": "Learning the art of reciting poems with correct rhythm, pause, pronunciation, and emotional expression appropriate to the poem's mood (Ras).",
+          "key_ideas": [
+            "Correct pronunciation (Ucharan)",
+            "Rhythm and flow (Laya and Gati)",
+            "Expressing emotion through voice modulation"
+          ]
+        },
+        {
+          "concept_id": "hindi7.padya7.sandarbh_vyakhya",
+          "title": "Reference to Context (Sandarbh Sahit Vyakhya)",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi7.padya7.kavita7",
+            "hindi7.padya7.shabd_sampada"
+          ],
+          "description": "Structuring the explanation of poem verses by identifying the poet, the source text, the context (Prasang), and expanding on the meaning (Vyakhya).",
+          "key_ideas": [
+            "Writing the Reference (Sandarbh - Poet and Book)",
+            "Setting the Context (Prasang)",
+            "Detailed elaboration of the verse (Vyakhya)"
+          ]
+        },
+        {
+          "concept_id": "hindi7.padya7.alankar_parichay",
+          "title": "Introduction to Poetic Devices",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi7.padya7.sashwar_vachan"
+          ],
+          "description": "Identifying basic literary devices and structural elements that add beauty to the poem, such as rhyming words and simple figures of speech suitable for Class 7.",
+          "key_ideas": [
+            "Rhyming words (Tukant Shabd)",
+            "Introduction to basic Alankar (e.g., Anupras/Alliteration)",
+            "Visual imagery in poetry"
+          ]
+        },
+        {
+          "concept_id": "hindi7.padya7.kendriya_bhav",
+          "title": "Thematic Analysis and Moral Values",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi7.padya7.sandarbh_vyakhya"
+          ],
+          "description": "Extracting the central theme (Kendriya Bhav) and evaluating the moral or social message conveyed by the poet.",
+          "key_ideas": [
+            "Identifying the Central Idea (Kendriya Bhav)",
+            "Connecting the poem to real-life values (Mulya)",
+            "Critical appreciation of the poet's intent"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "व्याकरण",
+      "concepts": [
+        {
+          "concept_id": "hindi7.vyakaran7.kriya_kaal",
+          "title": "क्रिया और काल",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "क्रिया और काल — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of क्रिया और काल",
+            "Step-by-step problem solving for क्रिया और काल",
+            "Real-world applications of क्रिया और काल"
+          ]
+        },
+        {
+          "concept_id": "hindi7.vyakaran7.samas_intro",
+          "title": "समास परिचय",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "समास परिचय — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of समास परिचय",
+            "Step-by-step problem solving for समास परिचय",
+            "Real-world applications of समास परिचय"
+          ]
+        },
+        {
+          "concept_id": "hindi7.vyakaran7.visheshan_bhed",
+          "title": "विशेषण के भेद",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "संज्ञा या सर्वनाम की विशेषता बताने वाले शब्दों (विशेषण) और उनके चार मुख्य भेदों का अध्ययन।",
+          "key_ideas": [
+            "विशेषण और विशेष्य की परिभाषा",
+            "गुणवाचक और संख्यावाचक विशेषण",
+            "परिमाणवाचक और सार्वनामिक विशेषण"
+          ]
+        },
+        {
+          "concept_id": "hindi7.vyakaran7.upsarg_pratyay",
+          "title": "उपसर्ग और प्रत्यय",
+          "bloom_level": "create",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "मूल शब्दों के आरंभ या अंत में शब्दांश जोड़कर नए शब्दों का निर्माण करने की प्रक्रिया।",
+          "key_ideas": [
+            "उपसर्ग: शब्द के आरंभ में जुड़ने वाले शब्दांश",
+            "प्रत्यय: शब्द के अंत में जुड़ने वाले शब्दांश",
+            "नए शब्दों का निर्माण और अर्थ परिवर्तन"
+          ]
+        },
+        {
+          "concept_id": "hindi7.vyakaran7.sandhi_vichchhed",
+          "title": "संधि और संधि-विच्छेद",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "दो वर्णों के मेल से होने वाले विकार (परिवर्तन) को संधि कहते हैं। इस अवधारणा में स्वर संधि पर विशेष ध्यान दिया जाएगा।",
+          "key_ideas": [
+            "संधि (वर्णों का मेल) बनाम समास (शब्दों का मेल)",
+            "स्वर संधि के प्रमुख नियम",
+            "संधि-विच्छेद (शब्दों को अलग करना)"
+          ]
+        },
+        {
+          "concept_id": "hindi7.vyakaran7.karak_bhed",
+          "title": "कारक और विभक्तियाँ",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi7.vyakaran7.kriya_kaal"
+          ],
+          "description": "संज्ञा या सर्वनाम का वाक्य के अन्य पदों (विशेषकर क्रिया) से संबंध जोड़ने वाले रूपों का ज्ञान।",
+          "key_ideas": [
+            "कारक के आठ भेद",
+            "परसर्ग (विभक्ति चिह्न) की पहचान (ने, को, से, आदि)",
+            "कर्ता, कर्म और करण कारक में अंतर"
+          ]
+        },
+        {
+          "concept_id": "hindi7.vyakaran7.muhavare_lokoktiyan",
+          "title": "मुहावरे और लोकोक्तियाँ",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "भाषा को प्रभावशाली बनाने के लिए विशेष अर्थ प्रकट करने वाले वाक्यांशों का प्रयोग।",
+          "key_ideas": [
+            "सामान्य अर्थ बनाम लाक्षणिक (विशेष) अर्थ",
+            "वाक्य प्रयोग द्वारा अर्थ स्पष्ट करना",
+            "मुहावरों और लोकोक्तियों का अंतर"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "लेखन",
+      "concepts": [
+        {
+          "concept_id": "hindi7.lekhan7.essay_letter7",
+          "title": "Essay and Letter Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Essay and Letter Writing — part of the chapter on लेखन.",
+          "key_ideas": [
+            "Core principles of essay and letter writing",
+            "Step-by-step problem solving for essay and letter writing",
+            "Real-world applications of essay and letter writing"
+          ]
+        },
+        {
+          "concept_id": "hindi7.lekhan7.anuched_lekhan",
+          "title": "Anuched Lekhan (Paragraph Writing)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Developing the skill to express views on a specific topic concisely in a single paragraph, focusing on unity of thought and coherence.",
+          "key_ideas": [
+            "Focusing on a single central idea without digressing",
+            "Maintaining a logical flow of sentences",
+            "Using concise language within a limited word count (80-100 words)",
+            "Writing a strong opening and concluding sentence"
+          ]
+        },
+        {
+          "concept_id": "hindi7.lekhan7.samvad_lekhan",
+          "title": "Samvad Lekhan (Dialogue Writing)",
+          "bloom_level": "create",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Learning to write conversations between two or more characters, ensuring natural flow and appropriate language based on the context and relationship.",
+          "key_ideas": [
+            "Using appropriate punctuation marks for speech",
+            "Adapting tone (formal vs. informal) based on the characters",
+            "Keeping dialogues short, natural, and engaging",
+            "Advancing a situation or topic through conversation"
+          ]
+        },
+        {
+          "concept_id": "hindi7.lekhan7.chitra_varnan",
+          "title": "Chitra Varnan (Picture Description)",
+          "bloom_level": "analyze",
+          "difficulty": 0.55,
+          "prerequisites": [],
+          "description": "Enhancing observation and expression skills by analyzing a visual image and describing the scene, actions, and mood in written Hindi.",
+          "key_ideas": [
+            "Observing minute details in the background and foreground",
+            "Using present tense to describe ongoing actions in the picture",
+            "Connecting visual elements to form a coherent narrative",
+            "Expressing the mood or atmosphere of the image"
+          ]
+        },
+        {
+          "concept_id": "hindi7.lekhan7.diary_lekhan",
+          "title": "Diary Lekhan (Diary Entry)",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Practicing personal writing by recording daily events, thoughts, and feelings in a diary format using the first-person perspective.",
+          "key_ideas": [
+            "Correct formatting including date, day, and time",
+            "Using 'Main' (I) perspective for personal expression",
+            "Writing honestly about feelings and reactions to events",
+            "Using an informal and emotive style of language"
+          ]
+        },
+        {
+          "concept_id": "hindi7.lekhan7.suchna_lekhan",
+          "title": "Suchna Lekhan (Notice Writing)",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [],
+          "description": "Understanding the format and purpose of formal notices to convey information to a specific group clearly and briefly.",
+          "key_ideas": [
+            "Adhering to the standard box format",
+            "Including essential details: Heading, Date, Target Audience, and Issuer",
+            "Using formal, objective, and precise language",
+            "Conveying the message completely within a strict word limit"
+          ]
+        }
+      ]
+    }
+  ]
+}

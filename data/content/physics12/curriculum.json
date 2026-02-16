@@ -7,46 +7,16 @@
       "title": "Electric Charges and Fields",
       "concepts": [
         {
-          "concept_id": "physics12.electric_charges.coulombs_law",
-          "title": "Coulomb's Law",
+          "concept_id": "physics12.electric_charges.coulombs_gauss",
+          "title": "Coulomb's Law and Gauss's Law",
           "bloom_level": "apply",
-          "difficulty": 0.4,
+          "difficulty": 0.5,
           "prerequisites": [],
-          "description": "Coulomb's Law — part of the chapter on Electric Charges and Fields.",
+          "description": "Coulomb's Law and Gauss's Law — part of the chapter on Electric Charges and Fields.",
           "key_ideas": [
-            "Core principles of coulomb's law",
-            "Step-by-step problem solving for coulomb's law",
-            "Real-world applications of coulomb's law"
-          ]
-        },
-        {
-          "concept_id": "physics12.electric_charges.electric_field",
-          "title": "Electric Field and Field Lines",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "physics12.electric_charges.coulombs_law"
-          ],
-          "description": "Electric Field and Field Lines — part of the chapter on Electric Charges and Fields.",
-          "key_ideas": [
-            "Core principles of electric field and field lines",
-            "Step-by-step problem solving for electric field and field lines",
-            "Real-world applications of electric field and field lines"
-          ]
-        },
-        {
-          "concept_id": "physics12.electric_charges.gauss_law",
-          "title": "Gauss's Law and Applications",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
-          "prerequisites": [
-            "physics12.electric_charges.electric_field"
-          ],
-          "description": "Gauss's Law and Applications — part of the chapter on Electric Charges and Fields.",
-          "key_ideas": [
-            "Core principles of gauss's law and applications",
-            "Step-by-step problem solving for gauss's law and applications",
-            "Real-world applications of gauss's law and applications"
+            "Core principles of coulomb's law and gauss's law",
+            "Step-by-step problem solving for coulomb's law and gauss's law",
+            "Real-world applications of coulomb's law and gauss's law"
           ]
         }
       ]
@@ -56,46 +26,16 @@
       "title": "Electrostatic Potential and Capacitance",
       "concepts": [
         {
-          "concept_id": "physics12.electrostatic_potential.potential",
-          "title": "Electric Potential and Potential Difference",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Electric Potential and Potential Difference — part of the chapter on Electrostatic Potential and Capacitance.",
-          "key_ideas": [
-            "Core principles of electric potential and potential difference",
-            "Step-by-step problem solving for electric potential and potential difference",
-            "Real-world applications of electric potential and potential difference"
-          ]
-        },
-        {
-          "concept_id": "physics12.electrostatic_potential.capacitance",
-          "title": "Capacitors and Capacitance",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "physics12.electrostatic_potential.potential"
-          ],
-          "description": "Capacitors and Capacitance — part of the chapter on Electrostatic Potential and Capacitance.",
-          "key_ideas": [
-            "Core principles of capacitors and capacitance",
-            "Step-by-step problem solving for capacitors and capacitance",
-            "Real-world applications of capacitors and capacitance"
-          ]
-        },
-        {
-          "concept_id": "physics12.electrostatic_potential.energy_stored",
-          "title": "Energy Stored in Capacitor",
+          "concept_id": "physics12.electrostatic_potential.potential_capacitance",
+          "title": "Potential, Capacitors and Energy Stored",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.electrostatic_potential.capacitance"
-          ],
-          "description": "Energy Stored in Capacitor — part of the chapter on Electrostatic Potential and Capacitance.",
+          "prerequisites": [],
+          "description": "Potential, Capacitors and Energy Stored — part of the chapter on Electrostatic Potential and Capacitance.",
           "key_ideas": [
-            "Core principles of energy stored in capacitor",
-            "Step-by-step problem solving for energy stored in capacitor",
-            "Real-world applications of energy stored in capacitor"
+            "Core principles of potential, capacitors and energy stored",
+            "Step-by-step problem solving for potential, capacitors and energy stored",
+            "Real-world applications of potential, capacitors and energy stored"
           ]
         }
       ]
@@ -105,46 +45,16 @@
       "title": "Current Electricity",
       "concepts": [
         {
-          "concept_id": "physics12.current_electricity.ohms_law12",
-          "title": "Ohm's Law and Resistivity",
-          "bloom_level": "apply",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Ohm's Law and Resistivity — part of the chapter on Current Electricity.",
-          "key_ideas": [
-            "Core principles of ohm's law and resistivity",
-            "Step-by-step problem solving for ohm's law and resistivity",
-            "Real-world applications of ohm's law and resistivity"
-          ]
-        },
-        {
           "concept_id": "physics12.current_electricity.kirchhoffs",
-          "title": "Kirchhoff's Laws",
+          "title": "Ohm's Law, Kirchhoff's Laws, Wheatstone Bridge",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.current_electricity.ohms_law12"
-          ],
-          "description": "Kirchhoff's Laws — part of the chapter on Current Electricity.",
+          "prerequisites": [],
+          "description": "Ohm's Law, Kirchhoff's Laws, Wheatstone Bridge — part of the chapter on Current Electricity.",
           "key_ideas": [
-            "Core principles of kirchhoff's laws",
-            "Step-by-step problem solving for kirchhoff's laws",
-            "Real-world applications of kirchhoff's laws"
-          ]
-        },
-        {
-          "concept_id": "physics12.current_electricity.wheatstone",
-          "title": "Wheatstone Bridge and Potentiometer",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
-          "prerequisites": [
-            "physics12.current_electricity.kirchhoffs"
-          ],
-          "description": "Wheatstone Bridge and Potentiometer — part of the chapter on Current Electricity.",
-          "key_ideas": [
-            "Core principles of wheatstone bridge and potentiometer",
-            "Step-by-step problem solving for wheatstone bridge and potentiometer",
-            "Real-world applications of wheatstone bridge and potentiometer"
+            "Core principles of ohm's law, kirchhoff's laws, wheatstone bridge",
+            "Step-by-step problem solving for ohm's law, kirchhoff's laws, wheatstone bridge",
+            "Real-world applications of ohm's law, kirchhoff's laws, wheatstone bridge"
           ]
         }
       ]
@@ -154,46 +64,16 @@
       "title": "Moving Charges and Magnetism",
       "concepts": [
         {
-          "concept_id": "physics12.magnetism_current.lorentz_force",
-          "title": "Lorentz Force and Motion in Magnetic Field",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [],
-          "description": "Lorentz Force and Motion in Magnetic Field — part of the chapter on Moving Charges and Magnetism.",
-          "key_ideas": [
-            "Core principles of lorentz force and motion in magnetic field",
-            "Step-by-step problem solving for lorentz force and motion in magnetic field",
-            "Real-world applications of lorentz force and motion in magnetic field"
-          ]
-        },
-        {
-          "concept_id": "physics12.magnetism_current.biot_savart",
-          "title": "Biot-Savart Law",
-          "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.magnetism_current.lorentz_force"
-          ],
-          "description": "Biot-Savart Law — part of the chapter on Moving Charges and Magnetism.",
-          "key_ideas": [
-            "Core principles of biot-savart law",
-            "Step-by-step problem solving for biot-savart law",
-            "Real-world applications of biot-savart law"
-          ]
-        },
-        {
-          "concept_id": "physics12.magnetism_current.amperes_law",
-          "title": "Ampere's Circuital Law and Solenoid",
+          "concept_id": "physics12.magnetism_current.biot_ampere",
+          "title": "Lorentz Force, Biot-Savart, Ampere's Law",
           "bloom_level": "apply",
           "difficulty": 0.55,
-          "prerequisites": [
-            "physics12.magnetism_current.biot_savart"
-          ],
-          "description": "Ampere's Circuital Law and Solenoid — part of the chapter on Moving Charges and Magnetism.",
+          "prerequisites": [],
+          "description": "Lorentz Force, Biot-Savart, Ampere's Law — part of the chapter on Moving Charges and Magnetism.",
           "key_ideas": [
-            "Core principles of ampere's circuital law and solenoid",
-            "Step-by-step problem solving for ampere's circuital law and solenoid",
-            "Real-world applications of ampere's circuital law and solenoid"
+            "Core principles of lorentz force, biot-savart, ampere's law",
+            "Step-by-step problem solving for lorentz force, biot-savart, ampere's law",
+            "Real-world applications of lorentz force, biot-savart, ampere's law"
           ]
         }
       ]
@@ -203,31 +83,16 @@
       "title": "Magnetism and Matter",
       "concepts": [
         {
-          "concept_id": "physics12.magnetism_matter.bar_magnet",
-          "title": "Bar Magnet as Equivalent Solenoid",
+          "concept_id": "physics12.magnetism_matter.magnetic_materials",
+          "title": "Dia-, Para-, Ferromagnetic Materials",
           "bloom_level": "understand",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Bar Magnet as Equivalent Solenoid — part of the chapter on Magnetism and Matter.",
+          "description": "Dia-, Para-, Ferromagnetic Materials — part of the chapter on Magnetism and Matter.",
           "key_ideas": [
-            "Core principles of bar magnet as equivalent solenoid",
-            "Step-by-step problem solving for bar magnet as equivalent solenoid",
-            "Real-world applications of bar magnet as equivalent solenoid"
-          ]
-        },
-        {
-          "concept_id": "physics12.magnetism_matter.magnetic_materials",
-          "title": "Dia-, Para- and Ferromagnetic Materials",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "physics12.magnetism_matter.bar_magnet"
-          ],
-          "description": "Dia-, Para- and Ferromagnetic Materials — part of the chapter on Magnetism and Matter.",
-          "key_ideas": [
-            "Core principles of dia-, para- and ferromagnetic materials",
-            "Step-by-step problem solving for dia-, para- and ferromagnetic materials",
-            "Real-world applications of dia-, para- and ferromagnetic materials"
+            "Core principles of dia-, para-, ferromagnetic materials",
+            "Step-by-step problem solving for dia-, para-, ferromagnetic materials",
+            "Real-world applications of dia-, para-, ferromagnetic materials"
           ]
         }
       ]
@@ -237,46 +102,16 @@
       "title": "Electromagnetic Induction",
       "concepts": [
         {
-          "concept_id": "physics12.em_induction.faradays_law",
-          "title": "Faraday's Law of Electromagnetic Induction",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [],
-          "description": "Faraday's Law of Electromagnetic Induction — part of the chapter on Electromagnetic Induction.",
-          "key_ideas": [
-            "Core principles of faraday's law of electromagnetic induction",
-            "Step-by-step problem solving for faraday's law of electromagnetic induction",
-            "Real-world applications of faraday's law of electromagnetic induction"
-          ]
-        },
-        {
-          "concept_id": "physics12.em_induction.lenz_law",
-          "title": "Lenz's Law and Eddy Currents",
+          "concept_id": "physics12.em_induction.faradays_lenz",
+          "title": "Faraday's Law, Lenz's Law, Inductance",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.em_induction.faradays_law"
-          ],
-          "description": "Lenz's Law and Eddy Currents — part of the chapter on Electromagnetic Induction.",
+          "prerequisites": [],
+          "description": "Faraday's Law, Lenz's Law, Inductance — part of the chapter on Electromagnetic Induction.",
           "key_ideas": [
-            "Core principles of lenz's law and eddy currents",
-            "Step-by-step problem solving for lenz's law and eddy currents",
-            "Real-world applications of lenz's law and eddy currents"
-          ]
-        },
-        {
-          "concept_id": "physics12.em_induction.self_mutual",
-          "title": "Self and Mutual Inductance",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
-          "prerequisites": [
-            "physics12.em_induction.lenz_law"
-          ],
-          "description": "Self and Mutual Inductance — part of the chapter on Electromagnetic Induction.",
-          "key_ideas": [
-            "Core principles of self and mutual inductance",
-            "Step-by-step problem solving for self and mutual inductance",
-            "Real-world applications of self and mutual inductance"
+            "Core principles of faraday's law, lenz's law, inductance",
+            "Step-by-step problem solving for faraday's law, lenz's law, inductance",
+            "Real-world applications of faraday's law, lenz's law, inductance"
           ]
         }
       ]
@@ -286,46 +121,16 @@
       "title": "Alternating Current",
       "concepts": [
         {
-          "concept_id": "physics12.ac.ac_circuits",
-          "title": "AC Voltage and LCR Circuits",
-          "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": [],
-          "description": "AC Voltage and LCR Circuits — part of the chapter on Alternating Current.",
-          "key_ideas": [
-            "Core principles of ac voltage and lcr circuits",
-            "Step-by-step problem solving for ac voltage and lcr circuits",
-            "Real-world applications of ac voltage and lcr circuits"
-          ]
-        },
-        {
-          "concept_id": "physics12.ac.resonance",
-          "title": "Resonance and Power in AC Circuits",
+          "concept_id": "physics12.ac.lcr_transformers",
+          "title": "LCR Circuits, Resonance, Transformers",
           "bloom_level": "apply",
           "difficulty": 0.55,
-          "prerequisites": [
-            "physics12.ac.ac_circuits"
-          ],
-          "description": "Resonance and Power in AC Circuits — part of the chapter on Alternating Current.",
+          "prerequisites": [],
+          "description": "LCR Circuits, Resonance, Transformers — part of the chapter on Alternating Current.",
           "key_ideas": [
-            "Core principles of resonance and power in ac circuits",
-            "Step-by-step problem solving for resonance and power in ac circuits",
-            "Real-world applications of resonance and power in ac circuits"
-          ]
-        },
-        {
-          "concept_id": "physics12.ac.transformers",
-          "title": "Transformers",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "physics12.ac.ac_circuits"
-          ],
-          "description": "Transformers — part of the chapter on Alternating Current.",
-          "key_ideas": [
-            "Core principles of transformers",
-            "Step-by-step problem solving for transformers",
-            "Real-world applications of transformers"
+            "Core principles of lcr circuits, resonance, transformers",
+            "Step-by-step problem solving for lcr circuits, resonance, transformers",
+            "Real-world applications of lcr circuits, resonance, transformers"
           ]
         }
       ]
@@ -336,79 +141,34 @@
       "concepts": [
         {
           "concept_id": "physics12.em_waves.em_spectrum",
-          "title": "Electromagnetic Spectrum",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Electromagnetic Spectrum — part of the chapter on Electromagnetic Waves.",
-          "key_ideas": [
-            "Core principles of electromagnetic spectrum",
-            "Step-by-step problem solving for electromagnetic spectrum",
-            "Real-world applications of electromagnetic spectrum"
-          ]
-        },
-        {
-          "concept_id": "physics12.em_waves.properties_em",
-          "title": "Properties of EM Waves",
+          "title": "EM Spectrum and Properties",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "physics12.em_waves.em_spectrum"
-          ],
-          "description": "Properties of EM Waves — part of the chapter on Electromagnetic Waves.",
+          "prerequisites": [],
+          "description": "EM Spectrum and Properties — part of the chapter on Electromagnetic Waves.",
           "key_ideas": [
-            "Core principles of properties of em waves",
-            "Step-by-step problem solving for properties of em waves",
-            "Real-world applications of properties of em waves"
+            "Core principles of em spectrum and properties",
+            "Step-by-step problem solving for em spectrum and properties",
+            "Real-world applications of em spectrum and properties"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch09",
-      "title": "Ray Optics and Optical Instruments",
+      "title": "Ray Optics",
       "concepts": [
         {
-          "concept_id": "physics12.ray_optics.reflection_refraction",
-          "title": "Reflection and Refraction at Surfaces",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Reflection and Refraction at Surfaces — part of the chapter on Ray Optics and Optical Instruments.",
-          "key_ideas": [
-            "Core principles of reflection and refraction at surfaces",
-            "Step-by-step problem solving for reflection and refraction at surfaces",
-            "Real-world applications of reflection and refraction at surfaces"
-          ]
-        },
-        {
-          "concept_id": "physics12.ray_optics.prism_tir",
-          "title": "Prism and Total Internal Reflection",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "physics12.ray_optics.reflection_refraction"
-          ],
-          "description": "Prism and Total Internal Reflection — part of the chapter on Ray Optics and Optical Instruments.",
-          "key_ideas": [
-            "Core principles of prism and total internal reflection",
-            "Step-by-step problem solving for prism and total internal reflection",
-            "Real-world applications of prism and total internal reflection"
-          ]
-        },
-        {
-          "concept_id": "physics12.ray_optics.optical_instruments",
-          "title": "Microscope and Telescope",
+          "concept_id": "physics12.ray_optics.reflection_refraction_instruments",
+          "title": "Reflection, Refraction, Prism, TIR, Instruments",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.ray_optics.prism_tir"
-          ],
-          "description": "Microscope and Telescope — part of the chapter on Ray Optics and Optical Instruments.",
+          "prerequisites": [],
+          "description": "Reflection, Refraction, Prism, TIR, Instruments — part of the chapter on Ray Optics.",
           "key_ideas": [
-            "Core principles of microscope and telescope",
-            "Step-by-step problem solving for microscope and telescope",
-            "Real-world applications of microscope and telescope"
+            "Core principles of reflection, refraction, prism, tir, instruments",
+            "Step-by-step problem solving for reflection, refraction, prism, tir, instruments",
+            "Real-world applications of reflection, refraction, prism, tir, instruments"
           ]
         }
       ]
@@ -418,46 +178,16 @@
       "title": "Wave Optics",
       "concepts": [
         {
-          "concept_id": "physics12.wave_optics.interference",
-          "title": "Young's Double Slit — Interference",
+          "concept_id": "physics12.wave_optics.interference_diffraction",
+          "title": "Young's Slit, Diffraction, Polarisation",
           "bloom_level": "apply",
-          "difficulty": 0.5,
+          "difficulty": 0.55,
           "prerequisites": [],
-          "description": "Young's Double Slit — Interference — part of the chapter on Wave Optics.",
+          "description": "Young's Slit, Diffraction, Polarisation — part of the chapter on Wave Optics.",
           "key_ideas": [
-            "Core principles of young's double slit",
-            "Step-by-step problem solving for young's double slit",
-            "Real-world applications of young's double slit"
-          ]
-        },
-        {
-          "concept_id": "physics12.wave_optics.diffraction",
-          "title": "Diffraction of Light",
-          "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.wave_optics.interference"
-          ],
-          "description": "Diffraction of Light — part of the chapter on Wave Optics.",
-          "key_ideas": [
-            "Core principles of diffraction of light",
-            "Step-by-step problem solving for diffraction of light",
-            "Real-world applications of diffraction of light"
-          ]
-        },
-        {
-          "concept_id": "physics12.wave_optics.polarisation",
-          "title": "Polarisation",
-          "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.wave_optics.diffraction"
-          ],
-          "description": "Polarisation — part of the chapter on Wave Optics.",
-          "key_ideas": [
-            "Core principles of polarisation",
-            "Step-by-step problem solving for polarisation",
-            "Real-world applications of polarisation"
+            "Core principles of young's slit, diffraction, polarisation",
+            "Step-by-step problem solving for young's slit, diffraction, polarisation",
+            "Real-world applications of young's slit, diffraction, polarisation"
           ]
         }
       ]
@@ -467,31 +197,16 @@
       "title": "Dual Nature of Radiation and Matter",
       "concepts": [
         {
-          "concept_id": "physics12.dual_nature.photoelectric",
-          "title": "Photoelectric Effect",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [],
-          "description": "Photoelectric Effect — part of the chapter on Dual Nature of Radiation and Matter.",
-          "key_ideas": [
-            "Core principles of photoelectric effect",
-            "Step-by-step problem solving for photoelectric effect",
-            "Real-world applications of photoelectric effect"
-          ]
-        },
-        {
-          "concept_id": "physics12.dual_nature.de_broglie",
-          "title": "de Broglie Wavelength",
+          "concept_id": "physics12.dual_nature.photoelectric_debroglie",
+          "title": "Photoelectric Effect and de Broglie",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.dual_nature.photoelectric"
-          ],
-          "description": "de Broglie Wavelength — part of the chapter on Dual Nature of Radiation and Matter.",
+          "prerequisites": [],
+          "description": "Photoelectric Effect and de Broglie — part of the chapter on Dual Nature of Radiation and Matter.",
           "key_ideas": [
-            "Core principles of de broglie wavelength",
-            "Step-by-step problem solving for de broglie wavelength",
-            "Real-world applications of de broglie wavelength"
+            "Core principles of photoelectric effect and de broglie",
+            "Step-by-step problem solving for photoelectric effect and de broglie",
+            "Real-world applications of photoelectric effect and de broglie"
           ]
         }
       ]
@@ -501,31 +216,16 @@
       "title": "Atoms",
       "concepts": [
         {
-          "concept_id": "physics12.atoms.atomic_models12",
-          "title": "Rutherford and Bohr Models",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Rutherford and Bohr Models — part of the chapter on Atoms.",
-          "key_ideas": [
-            "Core principles of rutherford and bohr models",
-            "Step-by-step problem solving for rutherford and bohr models",
-            "Real-world applications of rutherford and bohr models"
-          ]
-        },
-        {
-          "concept_id": "physics12.atoms.hydrogen_spectrum",
-          "title": "Hydrogen Spectrum and Energy Levels",
+          "concept_id": "physics12.atoms12.bohr_spectrum",
+          "title": "Bohr Model and Hydrogen Spectrum",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.atoms.atomic_models12"
-          ],
-          "description": "Hydrogen Spectrum and Energy Levels — part of the chapter on Atoms.",
+          "prerequisites": [],
+          "description": "Bohr Model and Hydrogen Spectrum — part of the chapter on Atoms.",
           "key_ideas": [
-            "Core principles of hydrogen spectrum and energy levels",
-            "Step-by-step problem solving for hydrogen spectrum and energy levels",
-            "Real-world applications of hydrogen spectrum and energy levels"
+            "Core principles of bohr model and hydrogen spectrum",
+            "Step-by-step problem solving for bohr model and hydrogen spectrum",
+            "Real-world applications of bohr model and hydrogen spectrum"
           ]
         }
       ]
@@ -535,46 +235,16 @@
       "title": "Nuclei",
       "concepts": [
         {
-          "concept_id": "physics12.nuclei.nuclear_properties",
-          "title": "Nuclear Size, Mass, Binding Energy",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Nuclear Size, Mass, Binding Energy — part of the chapter on Nuclei.",
-          "key_ideas": [
-            "Core principles of nuclear size, mass, binding energy",
-            "Step-by-step problem solving for nuclear size, mass, binding energy",
-            "Real-world applications of nuclear size, mass, binding energy"
-          ]
-        },
-        {
-          "concept_id": "physics12.nuclei.radioactivity",
-          "title": "Radioactivity — Alpha, Beta, Gamma Decay",
-          "bloom_level": "understand",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "physics12.nuclei.nuclear_properties"
-          ],
-          "description": "Radioactivity — Alpha, Beta, Gamma Decay — part of the chapter on Nuclei.",
-          "key_ideas": [
-            "Core principles of radioactivity",
-            "Step-by-step problem solving for radioactivity",
-            "Real-world applications of radioactivity"
-          ]
-        },
-        {
-          "concept_id": "physics12.nuclei.fission_fusion",
-          "title": "Nuclear Fission and Fusion",
+          "concept_id": "physics12.nuclei.binding_radioactivity",
+          "title": "Binding Energy, Radioactivity, Fission, Fusion",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.nuclei.radioactivity"
-          ],
-          "description": "Nuclear Fission and Fusion — part of the chapter on Nuclei.",
+          "prerequisites": [],
+          "description": "Binding Energy, Radioactivity, Fission, Fusion — part of the chapter on Nuclei.",
           "key_ideas": [
-            "Core principles of nuclear fission and fusion",
-            "Step-by-step problem solving for nuclear fission and fusion",
-            "Real-world applications of nuclear fission and fusion"
+            "Core principles of binding energy, radioactivity, fission, fusion",
+            "Step-by-step problem solving for binding energy, radioactivity, fission, fusion",
+            "Real-world applications of binding energy, radioactivity, fission, fusion"
           ]
         }
       ]
@@ -584,46 +254,16 @@
       "title": "Semiconductor Electronics",
       "concepts": [
         {
-          "concept_id": "physics12.semiconductors.pn_junction",
-          "title": "p-n Junction Diode",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "p-n Junction Diode — part of the chapter on Semiconductor Electronics.",
-          "key_ideas": [
-            "Core principles of p-n junction diode",
-            "Step-by-step problem solving for p-n junction diode",
-            "Real-world applications of p-n junction diode"
-          ]
-        },
-        {
-          "concept_id": "physics12.semiconductors.transistor",
-          "title": "Transistor as Switch and Amplifier",
+          "concept_id": "physics12.semiconductors.pn_junction_transistor",
+          "title": "p-n Junction, Transistor, Logic Gates",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "physics12.semiconductors.pn_junction"
-          ],
-          "description": "Transistor as Switch and Amplifier — part of the chapter on Semiconductor Electronics.",
+          "prerequisites": [],
+          "description": "p-n Junction, Transistor, Logic Gates — part of the chapter on Semiconductor Electronics.",
           "key_ideas": [
-            "Core principles of transistor as switch and amplifier",
-            "Step-by-step problem solving for transistor as switch and amplifier",
-            "Real-world applications of transistor as switch and amplifier"
-          ]
-        },
-        {
-          "concept_id": "physics12.semiconductors.logic_gates",
-          "title": "Logic Gates — AND, OR, NOT, NAND, NOR",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "physics12.semiconductors.transistor"
-          ],
-          "description": "Logic Gates — AND, OR, NOT, NAND, NOR — part of the chapter on Semiconductor Electronics.",
-          "key_ideas": [
-            "Core principles of logic gates",
-            "Step-by-step problem solving for logic gates",
-            "Real-world applications of logic gates"
+            "Core principles of p-n junction, transistor, logic gates",
+            "Step-by-step problem solving for p-n junction, transistor, logic gates",
+            "Real-world applications of p-n junction, transistor, logic gates"
           ]
         }
       ]

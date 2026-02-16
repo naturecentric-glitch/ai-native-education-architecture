@@ -1,0 +1,561 @@
+{
+  "course_id": "civics7",
+  "title": "Class 7 Civics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "On Equality",
+      "concepts": [
+        {
+          "concept_id": "civics7.equality.equality_india",
+          "title": "Equality in Indian Democracy",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Equality in Indian Democracy — part of the chapter on On Equality.",
+          "key_ideas": [
+            "Core principles of equality in indian democracy",
+            "Step-by-step problem solving for equality in indian democracy",
+            "Real-world applications of equality in indian democracy"
+          ]
+        },
+        {
+          "concept_id": "civics7.equality.universal_adult_franchise",
+          "title": "Equal Right to Vote",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the concept of political equality through the voting process, establishing that every adult citizen has equal power in a democracy regardless of their background.",
+          "key_ideas": [
+            "Definition of Universal Adult Franchise",
+            "Voting rights for all citizens aged 18 and above",
+            "The idea of 'one person, one vote'",
+            "Contrast between political equality and economic inequality"
+          ]
+        },
+        {
+          "concept_id": "civics7.equality.dignity_and_respect",
+          "title": "Recognizing Dignity",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics7.equality.universal_adult_franchise"
+          ],
+          "description": "Exploration of social inequalities based on caste, religion, and gender, and how unequal treatment violates a person's self-respect and dignity.",
+          "key_ideas": [
+            "Understanding the term 'dignity' as self-respect",
+            "Impact of caste-based discrimination (Case study: Omprakash Valmiki)",
+            "Impact of religious discrimination (Case study: The Ansaris)",
+            "The relationship between equality and self-worth"
+          ]
+        },
+        {
+          "concept_id": "civics7.equality.govt_implementation",
+          "title": "Implementing Equality: Laws and Schemes",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics7.equality.equality_india"
+          ],
+          "description": "Examination of the two main ways the government tries to achieve equality: through constitutional laws and through specific welfare programs.",
+          "key_ideas": [
+            "Enforcing equality through the Constitution",
+            "Government schemes to help disadvantaged communities",
+            "Case Study: The Mid-day Meal Scheme",
+            "Benefits of schemes: Increased attendance and social socialization"
+          ]
+        },
+        {
+          "concept_id": "civics7.equality.global_perspective",
+          "title": "Issues of Equality in Other Democracies",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "civics7.equality.equality_india",
+            "civics7.equality.dignity_and_respect"
+          ],
+          "description": "A comparative look at struggles for equality outside India, specifically focusing on the Civil Rights Movement in the United States.",
+          "key_ideas": [
+            "Inequality is a global phenomenon in democracies",
+            "The African-American struggle for equal rights",
+            "The story of Rosa Parks",
+            "The Civil Rights Act of 1964"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Role of the Government in Health",
+      "concepts": [
+        {
+          "concept_id": "civics7.role_government.health_services",
+          "title": "Public Health Services",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Public Health Services — part of the chapter on Role of the Government in Health.",
+          "key_ideas": [
+            "Core principles of public health services",
+            "Step-by-step problem solving for public health services",
+            "Real-world applications of public health services"
+          ]
+        },
+        {
+          "concept_id": "civics7.role_government.meaning_of_health",
+          "title": "Meaning of Health",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Explores the definition of health beyond just the absence of disease, including factors like clean drinking water, sanitation, nutrition, and stress-free living.",
+          "key_ideas": [
+            "Health is more than just being free from illness",
+            "Impact of clean water and pollution-free environment",
+            "Relationship between mental strain and physical health"
+          ]
+        },
+        {
+          "concept_id": "civics7.role_government.private_health_facilities",
+          "title": "Private Health Facilities",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "civics7.role_government.health_services"
+          ],
+          "description": "Examines healthcare services owned by individuals or companies for profit, contrasting them with public services in terms of cost, availability, and urban concentration.",
+          "key_ideas": [
+            "Private facilities are not owned or controlled by the government",
+            "Patients pay high costs for services and medicines",
+            "Concentration of private doctors and hospitals in urban areas"
+          ]
+        },
+        {
+          "concept_id": "civics7.role_government.healthcare_equality",
+          "title": "Healthcare and Equality",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics7.role_government.health_services",
+            "civics7.role_government.private_health_facilities"
+          ],
+          "description": "Investigates whether adequate healthcare is available to all citizens, focusing on the disparity between the high cost of private care and the overcrowding of public centers.",
+          "key_ideas": [
+            "The rising cost of private treatments creates financial hardship",
+            "Barriers to access for the poor, women, and tribal communities",
+            "The government's constitutional duty to ensure welfare and right to life"
+          ]
+        },
+        {
+          "concept_id": "civics7.role_government.kerala_experience",
+          "title": "The Kerala Experience",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics7.role_government.meaning_of_health"
+          ],
+          "description": "A case study on how the state of Kerala improved health standards by decentralizing the budget and empowering local Panchayats to manage water, food, and education.",
+          "key_ideas": [
+            "Decentralization of funds (40% given to Panchayats)",
+            "Focus on basic needs: water, food, and women's development",
+            "Success of village-level planning in improving health outcomes"
+          ]
+        },
+        {
+          "concept_id": "civics7.role_government.costa_rican_approach",
+          "title": "The Costa Rican Approach",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics7.role_government.meaning_of_health"
+          ],
+          "description": "Analyzes the policy decision of Costa Rica to not have an army and instead divert those funds toward public health, sanitation, and education.",
+          "key_ideas": [
+            "Decision to disband the army to save funds",
+            "Prioritizing health education at all levels",
+            "Government provision of safe drinking water and housing"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "How the State Government Works",
+      "concepts": [
+        {
+          "concept_id": "civics7.state_government.legislature_executive",
+          "title": "Legislature and Executive",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Legislature and Executive — part of the chapter on How the State Government Works.",
+          "key_ideas": [
+            "Core principles of legislature and executive",
+            "Step-by-step problem solving for legislature and executive",
+            "Real-world applications of legislature and executive"
+          ]
+        },
+        {
+          "concept_id": "civics7.state_government.mla_constituencies",
+          "title": "MLAs and Constituencies",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to how states are divided into electoral areas and how representatives are elected by the people.",
+          "key_ideas": [
+            "Definition of a Constituency",
+            "Election of Members of Legislative Assembly (MLAs)",
+            "Direct election by the people",
+            "One representative per constituency"
+          ]
+        },
+        {
+          "concept_id": "civics7.state_government.political_majority",
+          "title": "Ruling Party and Opposition",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics7.state_government.mla_constituencies"
+          ],
+          "description": "Explains how a government is formed based on election results, the concept of a majority, and the role of those not in power.",
+          "key_ideas": [
+            "Criteria for a majority (more than half the seats)",
+            "Formation of the Ruling Party",
+            "Role and function of the Opposition",
+            "Coalition governments when no single party wins"
+          ]
+        },
+        {
+          "concept_id": "civics7.state_government.role_of_governor",
+          "title": "The Role of the Governor",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics7.state_government.political_majority",
+            "civics7.state_government.legislature_executive"
+          ],
+          "description": "Distinguishes between the Head of the State and the Head of the Government, focusing on the Governor's constitutional duties.",
+          "key_ideas": [
+            "Governor as the Head of the State",
+            "Appointment by the Central Government",
+            "Duty to ensure the state runs by the Constitution",
+            "Appointing the Chief Minister and other ministers"
+          ]
+        },
+        {
+          "concept_id": "civics7.state_government.assembly_debates",
+          "title": "Debates in the Legislative Assembly",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "civics7.state_government.legislature_executive"
+          ],
+          "description": "Examines how the Legislative Assembly (Vidhan Sabha) functions as a place for debate, questioning, and discussing current issues.",
+          "key_ideas": [
+            "MLAs asking questions to ministers",
+            "Debating problems and suggesting solutions",
+            "Ministers responding and assuring action",
+            "The common responsibility of all MLAs"
+          ]
+        },
+        {
+          "concept_id": "civics7.state_government.media_accountability",
+          "title": "Media and Government Accountability",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "civics7.state_government.assembly_debates"
+          ],
+          "description": "Explores how the government communicates its work to the public outside the assembly and how it is held accountable.",
+          "key_ideas": [
+            "Role of press conferences",
+            "Newspapers and media as watchdogs",
+            "Government response to public protests",
+            "Transparency in government functioning"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Growing Up as Boys and Girls",
+      "concepts": [
+        {
+          "concept_id": "civics7.gender.gender_roles",
+          "title": "Gender Roles and Stereotypes",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Gender Roles and Stereotypes — part of the chapter on Growing Up as Boys and Girls.",
+          "key_ideas": [
+            "Core principles of gender roles and stereotypes",
+            "Step-by-step problem solving for gender roles and stereotypes",
+            "Real-world applications of gender roles and stereotypes"
+          ]
+        },
+        {
+          "concept_id": "civics7.gender.socialization",
+          "title": "Gender Socialization",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "civics7.gender.gender_roles"
+          ],
+          "description": "Explores how society teaches children specific behaviors, values, and responsibilities based on their biological sex, often using toys, games, and school environments as tools.",
+          "key_ideas": [
+            "Distinction between growing up in different cultural contexts (e.g., Samoa vs. Madhya Pradesh)",
+            "Toys and games as tools for teaching future gender roles",
+            "Different behavioral expectations for boys and girls in public spaces"
+          ]
+        },
+        {
+          "concept_id": "civics7.gender.valuing_housework",
+          "title": "Valuing Housework",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics7.gender.gender_roles"
+          ],
+          "description": "Examines the societal tendency to devalue domestic labor because it is usually unpaid and associated with women, challenging the notion that housework is 'natural' rather than learned work.",
+          "key_ideas": [
+            "Housework is often not recognized as 'real work' because it is unpaid",
+            "The assumption that caregiving is a natural duty of women",
+            "The impact of devaluing housework on women's status in society"
+          ]
+        },
+        {
+          "concept_id": "civics7.gender.invisible_labor",
+          "title": "Invisible and Physically Demanding Labor",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics7.gender.valuing_housework"
+          ],
+          "description": "Breaks down domestic chores into specific tasks to highlight that they are physically strenuous, time-consuming, and often invisible to other family members.",
+          "key_ideas": [
+            "Domestic work involves heavy physical tasks (fetching water, carrying firewood, washing)",
+            "Housework is time-consuming, leaving little time for leisure",
+            "The concept of 'invisible' work that is only noticed when it is not done"
+          ]
+        },
+        {
+          "concept_id": "civics7.gender.double_burden",
+          "title": "The Double Burden",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "civics7.gender.valuing_housework"
+          ],
+          "description": "Discusses the situation where women participate in the paid workforce outside the home while still retaining the primary responsibility for unpaid domestic chores.",
+          "key_ideas": [
+            "Definition of double burden (working inside and outside the home)",
+            "Impact on women's health and time",
+            "Comparison of total work hours between men and women"
+          ]
+        },
+        {
+          "concept_id": "civics7.gender.state_responsibility",
+          "title": "Government Role and Support Systems",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "civics7.gender.double_burden"
+          ],
+          "description": "Identifies constitutional provisions for equality and specific government initiatives designed to support working women and reduce the burden of childcare.",
+          "key_ideas": [
+            "Constitutional mandate against gender discrimination",
+            "Role of Anganwadis (child care centers) in villages",
+            "Laws requiring creche facilities in organizations with female employees"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Understanding Media",
+      "concepts": [
+        {
+          "concept_id": "civics7.media.media_democracy",
+          "title": "Media and Its Role in Democracy",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Media and Its Role in Democracy — part of the chapter on Understanding Media.",
+          "key_ideas": [
+            "Core principles of media and its role in democracy",
+            "Step-by-step problem solving for media and its role in democracy",
+            "Real-world applications of media and its role in democracy"
+          ]
+        },
+        {
+          "concept_id": "civics7.media.forms_and_technology",
+          "title": "Forms of Media and Changing Technology",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Explores the definition of media, the distinction between print and electronic media, and how evolving technology improves the quality and reach of mass media.",
+          "key_ideas": [
+            "Definition of 'Media' as the plural of 'Medium'",
+            "Difference between Print Media (newspapers) and Electronic Media (TV, radio)",
+            "How technology affects sound, image quality, and public reach"
+          ]
+        },
+        {
+          "concept_id": "civics7.media.media_economics",
+          "title": "Media and Money",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics7.media.forms_and_technology"
+          ],
+          "description": "Examines the financial structure of mass media, focusing on the high costs of technology and the reliance on advertising revenue.",
+          "key_ideas": [
+            "High cost of equipment (cameras, satellites, sound recorders)",
+            "Role of big business houses in owning media outlets",
+            "Advertisements as the primary source of revenue"
+          ]
+        },
+        {
+          "concept_id": "civics7.media.balanced_reporting",
+          "title": "Balanced Reporting and Independence",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "civics7.media.media_democracy",
+            "civics7.media.media_economics"
+          ],
+          "description": "Discusses the importance of independent journalism and the factors that prevent media from providing a balanced view, such as business interests.",
+          "key_ideas": [
+            "Definition of a balanced report (discussing all points of view)",
+            "The concept of Independent Media",
+            "Influence of corporate control on news bias"
+          ]
+        },
+        {
+          "concept_id": "civics7.media.setting_agenda",
+          "title": "Setting the Agenda",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "civics7.media.media_democracy"
+          ],
+          "description": "Analyzes how the media decides which stories to focus on, thereby shaping public perception and deciding what is considered 'newsworthy'.",
+          "key_ideas": [
+            "Media's power to shape public thoughts and feelings",
+            "Examples of agenda setting (e.g., highlighting environmental issues vs. fashion weeks)",
+            "The responsibility of media to focus on significant social issues"
+          ]
+        },
+        {
+          "concept_id": "civics7.media.censorship",
+          "title": "Censorship and Regulations",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics7.media.media_democracy"
+          ],
+          "description": "Explains the government's power to disallow certain media content from being published or shown to the public.",
+          "key_ideas": [
+            "Definition of Censorship",
+            "Government certification of films (Censor Board)",
+            "Historical context of censorship (e.g., The Emergency of 1975-1977)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Markets Around Us",
+      "concepts": [
+        {
+          "concept_id": "civics7.markets.weekly_market",
+          "title": "Weekly Markets and Shopping Complexes",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Weekly Markets and Shopping Complexes — part of the chapter on Markets Around Us.",
+          "key_ideas": [
+            "Core principles of weekly markets and shopping complexes",
+            "Step-by-step problem solving for weekly markets and shopping complexes",
+            "Real-world applications of weekly markets and shopping complexes"
+          ]
+        },
+        {
+          "concept_id": "civics7.markets.neighborhood_shops",
+          "title": "Shops in the Neighborhood",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "civics7.markets.weekly_market"
+          ],
+          "description": "Exploration of permanent shops located near residential areas that provide essential goods and services, often operating on trust and credit.",
+          "key_ideas": [
+            "Proximity and convenience for consumers",
+            "Difference between permanent shops and roadside hawkers",
+            "The system of purchasing on credit (udhaar) based on trust"
+          ]
+        },
+        {
+          "concept_id": "civics7.markets.chain_of_markets",
+          "title": "The Chain of Markets",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "civics7.markets.neighborhood_shops"
+          ],
+          "description": "Analysis of the series of exchanges that goods pass through, connecting the initial producer to the final consumer.",
+          "key_ideas": [
+            "Linkage between producers and consumers",
+            "Goods traveling through multiple hands before reaching the shelf",
+            "Understanding that consumers rarely buy directly from factories or farms"
+          ]
+        },
+        {
+          "concept_id": "civics7.markets.wholesale_trading",
+          "title": "Wholesale Markets and Traders",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "civics7.markets.chain_of_markets"
+          ],
+          "description": "Detailed look at the role of the wholesaler who buys in large quantities directly from producers to sell to other traders.",
+          "key_ideas": [
+            "Definition of wholesale vs. retail",
+            "Bulk purchasing and storage",
+            "The role of large wholesale markets (mandis) in cities"
+          ]
+        },
+        {
+          "concept_id": "civics7.markets.digital_and_invisible_markets",
+          "title": "Markets Everywhere: Digital and Invisible",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "civics7.markets.neighborhood_shops"
+          ],
+          "description": "Examination of modern trading methods where buying and selling occur without visiting a physical shop, including online commerce and business-to-business transactions.",
+          "key_ideas": [
+            "Ordering goods via phone or internet",
+            "Use of credit cards and digital payments",
+            "Invisible markets (e.g., medical representatives selling to doctors, farmers buying fertilizers)"
+          ]
+        },
+        {
+          "concept_id": "civics7.markets.market_equality",
+          "title": "Markets and Equality",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "civics7.markets.weekly_market",
+            "civics7.markets.chain_of_markets"
+          ],
+          "description": "Critical evaluation of the economic disparities between small traders (like hawkers) and large shop owners in shopping complexes.",
+          "key_ideas": [
+            "Comparison of profit margins between small and big traders",
+            "Disparities in bargaining power",
+            "Impact of economic status on who can be a buyer or a seller"
+          ]
+        }
+      ]
+    }
+  ]
+}

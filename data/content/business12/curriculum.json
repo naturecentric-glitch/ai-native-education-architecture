@@ -1,0 +1,196 @@
+{
+  "course_id": "business12",
+  "title": "Class 12 Business Studies",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Nature and Significance of Management",
+      "concepts": [
+        {
+          "concept_id": "business12.management.management_functions",
+          "title": "Management Functions and Levels",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Management Functions and Levels — part of the chapter on Nature and Significance of Management.",
+          "key_ideas": [
+            "Core principles of management functions and levels",
+            "Step-by-step problem solving for management functions and levels",
+            "Real-world applications of management functions and levels"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Principles of Management",
+      "concepts": [
+        {
+          "concept_id": "business12.principles_management.fayol_taylor",
+          "title": "Fayol's and Taylor's Principles",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Fayol's and Taylor's Principles — part of the chapter on Principles of Management.",
+          "key_ideas": [
+            "Core principles of fayol's and taylor's principles",
+            "Step-by-step problem solving for fayol's and taylor's principles",
+            "Real-world applications of fayol's and taylor's principles"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Business Environment",
+      "concepts": [
+        {
+          "concept_id": "business12.business_environment.economic_legal_political",
+          "title": "Economic, Legal and Political Environment",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Economic, Legal and Political Environment — part of the chapter on Business Environment.",
+          "key_ideas": [
+            "Core principles of economic, legal and political environment",
+            "Step-by-step problem solving for economic, legal and political environment",
+            "Real-world applications of economic, legal and political environment"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Planning",
+      "concepts": [
+        {
+          "concept_id": "business12.planning.planning_process",
+          "title": "Planning Process and Types of Plans",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Planning Process and Types of Plans — part of the chapter on Planning.",
+          "key_ideas": [
+            "Core principles of planning process and types of plans",
+            "Step-by-step problem solving for planning process and types of plans",
+            "Real-world applications of planning process and types of plans"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Organising",
+      "concepts": [
+        {
+          "concept_id": "business12.organising.structure_delegation",
+          "title": "Structure, Delegation and Decentralisation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Structure, Delegation and Decentralisation — part of the chapter on Organising.",
+          "key_ideas": [
+            "Core principles of structure, delegation and decentralisation",
+            "Step-by-step problem solving for structure, delegation and decentralisation",
+            "Real-world applications of structure, delegation and decentralisation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Staffing",
+      "concepts": [
+        {
+          "concept_id": "business12.staffing.recruitment_training",
+          "title": "Recruitment, Selection and Training",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Recruitment, Selection and Training — part of the chapter on Staffing.",
+          "key_ideas": [
+            "Core principles of recruitment, selection and training",
+            "Step-by-step problem solving for recruitment, selection and training",
+            "Real-world applications of recruitment, selection and training"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Directing",
+      "concepts": [
+        {
+          "concept_id": "business12.directing.leadership_motivation",
+          "title": "Leadership, Motivation and Communication",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Leadership, Motivation and Communication — part of the chapter on Directing.",
+          "key_ideas": [
+            "Core principles of leadership, motivation and communication",
+            "Step-by-step problem solving for leadership, motivation and communication",
+            "Real-world applications of leadership, motivation and communication"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Controlling",
+      "concepts": [
+        {
+          "concept_id": "business12.controlling.control_process",
+          "title": "Controlling Process and Techniques",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Controlling Process and Techniques — part of the chapter on Controlling.",
+          "key_ideas": [
+            "Core principles of controlling process and techniques",
+            "Step-by-step problem solving for controlling process and techniques",
+            "Real-world applications of controlling process and techniques"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Financial Management",
+      "concepts": [
+        {
+          "concept_id": "business12.financial_management.capital_structure",
+          "title": "Capital Structure and Financial Planning",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Capital Structure and Financial Planning — part of the chapter on Financial Management.",
+          "key_ideas": [
+            "Core principles of capital structure and financial planning",
+            "Step-by-step problem solving for capital structure and financial planning",
+            "Real-world applications of capital structure and financial planning"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Marketing Management",
+      "concepts": [
+        {
+          "concept_id": "business12.marketing.marketing_mix",
+          "title": "Marketing Mix — 4Ps",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Marketing Mix — 4Ps — part of the chapter on Marketing Management.",
+          "key_ideas": [
+            "Core principles of marketing mix",
+            "Step-by-step problem solving for marketing mix",
+            "Real-world applications of marketing mix"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "course_id": "evs3",
+  "title": "Class 3 EVS",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Family and Friends",
+      "concepts": [
+        {
+          "concept_id": "evs3.family_friends.relationships",
+          "title": "Relationships and Responsibilities",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Relationships and Responsibilities — part of the chapter on Family and Friends.",
+          "key_ideas": [
+            "Core principles of relationships and responsibilities",
+            "Step-by-step problem solving for relationships and responsibilities",
+            "Real-world applications of relationships and responsibilities"
+          ]
+        },
+        {
+          "concept_id": "evs3.family_friends.festivals",
+          "title": "Festivals We Celebrate",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Festivals We Celebrate — part of the chapter on Family and Friends.",
+          "key_ideas": [
+            "Core principles of festivals we celebrate",
+            "Step-by-step problem solving for festivals we celebrate",
+            "Real-world applications of festivals we celebrate"
+          ]
+        },
+        {
+          "concept_id": "evs3.family_friends.family_types",
+          "title": "Types of Families",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs3.family_friends.relationships"
+          ],
+          "description": "Differentiating between various family structures such as nuclear families and joint families.",
+          "key_ideas": [
+            "Definition of a nuclear (small) family",
+            "Definition of a joint (big) family",
+            "Advantages of living together",
+            "Changes in family structure over time"
+          ]
+        },
+        {
+          "concept_id": "evs3.family_friends.family_tree",
+          "title": "My Family Tree",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs3.family_friends.relationships"
+          ],
+          "description": "Understanding lineage and mapping family members across different generations.",
+          "key_ideas": [
+            "Concept of generations (grandparents, parents, children)",
+            "Maternal relatives (mother's side)",
+            "Paternal relatives (father's side)",
+            "Drawing a simple family tree"
+          ]
+        },
+        {
+          "concept_id": "evs3.family_friends.resemblance",
+          "title": "Whom Do I Look Like?",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs3.family_friends.family_tree"
+          ],
+          "description": "Observing and identifying physical similarities and habits shared between family members.",
+          "key_ideas": [
+            "Hereditary physical features (eyes, nose, hair)",
+            "Similarities in habits or talents",
+            "Identical and non-identical twins",
+            "Uniqueness of each individual"
+          ]
+        },
+        {
+          "concept_id": "evs3.family_friends.work_and_helping",
+          "title": "Work We Do Together",
+          "bloom_level": "evaluate",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs3.family_friends.relationships"
+          ],
+          "description": "Recognizing the importance of sharing household chores and understanding different occupations.",
+          "key_ideas": [
+            "Sharing responsibility at home",
+            "Breaking gender stereotypes in household work",
+            "Family members' professions and occupations",
+            "Dignity of labor"
+          ]
+        },
+        {
+          "concept_id": "evs3.family_friends.caring_special_needs",
+          "title": "Caring for Special People",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [],
+          "description": "Developing empathy and understanding how to support the elderly and people with different abilities.",
+          "key_ideas": [
+            "Needs of elderly family members",
+            "Understanding differently-abled people",
+            "Introduction to Braille and sign language",
+            "Being sensitive and helpful to others"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Food",
+      "concepts": [
+        {
+          "concept_id": "evs3.food3.food_variety",
+          "title": "Food Variety in India",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Food Variety in India — part of the chapter on Food.",
+          "key_ideas": [
+            "Core principles of food variety in india",
+            "Step-by-step problem solving for food variety in india",
+            "Real-world applications of food variety in india"
+          ]
+        },
+        {
+          "concept_id": "evs3.food3.cooking_methods",
+          "title": "Different Ways of Cooking",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Different Ways of Cooking — part of the chapter on Food.",
+          "key_ideas": [
+            "Core principles of different ways of cooking",
+            "Step-by-step problem solving for different ways of cooking",
+            "Real-world applications of different ways of cooking"
+          ]
+        },
+        {
+          "concept_id": "evs3.food3.cooking_utensils",
+          "title": "Utensils Used in Cooking",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs3.food3.cooking_methods"
+          ],
+          "description": "Identification of common vessels and tools used in the kitchen to prepare and cook food.",
+          "key_ideas": [
+            "Identification of common kitchen tools (tava, pressure cooker, ladle)",
+            "Materials used for utensils (steel, aluminum, clay, iron)",
+            "Matching specific utensils to cooking methods"
+          ]
+        },
+        {
+          "concept_id": "evs3.food3.cooking_fuels",
+          "title": "Fuels Used for Cooking",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs3.food3.cooking_methods"
+          ],
+          "description": "Exploration of the different types of energy sources and stoves used to cook food in different households.",
+          "key_ideas": [
+            "Common fuels (LPG gas, wood, coal, kerosene, electricity)",
+            "Types of stoves (Gas stove, chulha, solar cooker)",
+            "Safety awareness regarding fire and heat"
+          ]
+        },
+        {
+          "concept_id": "evs3.food3.food_sources",
+          "title": "Sources of Food: Plants and Animals",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs3.food3.food_variety"
+          ],
+          "description": "Categorizing food items based on their origin, distinguishing between plant products and animal products.",
+          "key_ideas": [
+            "Plant sources (grains, pulses, vegetables, fruits)",
+            "Animal sources (milk, eggs, meat, honey)",
+            "Edible parts of plants (roots, stems, leaves, flowers)"
+          ]
+        },
+        {
+          "concept_id": "evs3.food3.diet_and_age",
+          "title": "Food for Different Ages",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs3.food3.food_variety"
+          ],
+          "description": "Understanding how dietary needs and the ability to eat certain foods change from infancy to old age.",
+          "key_ideas": [
+            "Liquid and soft diets for infants and the elderly",
+            "Hard foods (corn, nuts) for young and healthy people",
+            "Relationship between teeth/digestion and food choices"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Shelter",
+      "concepts": [
+        {
+          "concept_id": "evs3.shelter.types_houses",
+          "title": "Different Types of Houses",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Different Types of Houses — part of the chapter on Shelter.",
+          "key_ideas": [
+            "Core principles of different types of houses",
+            "Step-by-step problem solving for different types of houses",
+            "Real-world applications of different types of houses"
+          ]
+        },
+        {
+          "concept_id": "evs3.shelter.materials_used",
+          "title": "Materials Used in Building Houses",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Materials Used in Building Houses — part of the chapter on Shelter.",
+          "key_ideas": [
+            "Core principles of materials used in building houses",
+            "Step-by-step problem solving for materials used in building houses",
+            "Real-world applications of materials used in building houses"
+          ]
+        },
+        {
+          "concept_id": "evs3.shelter.importance_protection",
+          "title": "Why We Need Shelter",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Understanding the fundamental reasons humans and animals seek shelter, focusing on protection from environmental elements and safety.",
+          "key_ideas": [
+            "Protection from harsh weather like rain, heat, and cold",
+            "Safety from wild animals and thieves",
+            "Providing a place to rest and sleep securely"
+          ]
+        },
+        {
+          "concept_id": "evs3.shelter.climate_adaptation",
+          "title": "Houses and Climate",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs3.shelter.types_houses",
+            "evs3.shelter.materials_used"
+          ],
+          "description": "Analyzing how different weather conditions in various regions influence the structure and design of houses.",
+          "key_ideas": [
+            "Stilt houses in areas with heavy rainfall (e.g., Assam)",
+            "Sloping roofs in snowy or rainy areas (e.g., Manali, Kashmir)",
+            "Thick mud walls in hot deserts to keep cool (e.g., Rajasthan)",
+            "Igloos made of ice in polar regions"
+          ]
+        },
+        {
+          "concept_id": "evs3.shelter.animal_habitats",
+          "title": "Animal Shelters",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs3.shelter.importance_protection"
+          ],
+          "description": "Identifying the different types of homes animals live in, distinguishing between natural habitats and man-made shelters for domestic animals.",
+          "key_ideas": [
+            "Natural homes: Nests (birds), Dens (lions), Burrows (rabbits)",
+            "Man-made homes: Sheds (cows), Stables (horses), Kennels (dogs)",
+            "Animals that carry their homes (Snails, Tortoises)"
+          ]
+        },
+        {
+          "concept_id": "evs3.shelter.cleanliness_sanitation",
+          "title": "A Clean and Healthy House",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs3.shelter.types_houses"
+          ],
+          "description": "Learning the essential features that make a house healthy to live in, focusing on hygiene, ventilation, and waste management.",
+          "key_ideas": [
+            "Importance of sunlight and fresh air (ventilation)",
+            "Proper disposal of garbage and waste",
+            "Keeping the house free from pests and insects (wire netting)",
+            "Regular cleaning and dusting"
+          ]
+        },
+        {
+          "concept_id": "evs3.shelter.home_decoration",
+          "title": "Decorating Our Homes",
+          "bloom_level": "create",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Exploring how people beautify their homes using local materials and traditional art forms during festivals and daily life.",
+          "key_ideas": [
+            "Using Rangoli or Kolam on floors",
+            "Decorating walls with paintings or pictures",
+            "Using flowers, leaves, and lights for festivals",
+            "Cultural significance of home decoration"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Travel",
+      "concepts": [
+        {
+          "concept_id": "evs3.travel.means_transport",
+          "title": "Means of Transport — Land, Water, Air",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Means of Transport — Land, Water, Air — part of the chapter on Travel.",
+          "key_ideas": [
+            "Core principles of means of transport",
+            "Step-by-step problem solving for means of transport",
+            "Real-world applications of means of transport"
+          ]
+        },
+        {
+          "concept_id": "evs3.travel.maps_directions",
+          "title": "Maps and Directions",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "evs3.travel.means_transport"
+          ],
+          "description": "Maps and Directions — part of the chapter on Travel.",
+          "key_ideas": [
+            "Core principles of maps and directions",
+            "Step-by-step problem solving for maps and directions",
+            "Real-world applications of maps and directions"
+          ]
+        },
+        {
+          "concept_id": "evs3.travel.animals_transport",
+          "title": "Animals Used for Transport",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs3.travel.means_transport"
+          ],
+          "description": "Exploration of how different animals are used to carry people and goods in various terrains, such as camels in deserts and ponies in hilly areas.",
+          "key_ideas": [
+            "Camels are used in deserts.",
+            "Bullock carts are common in villages.",
+            "Ponies and mules help in hilly regions.",
+            "Elephants were used for travel in the past."
+          ]
+        },
+        {
+          "concept_id": "evs3.travel.special_vehicles",
+          "title": "Special Purpose Vehicles",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs3.travel.means_transport"
+          ],
+          "description": "Identification of vehicles designed for specific tasks rather than just passenger travel, including emergency services and utility vehicles.",
+          "key_ideas": [
+            "Ambulances carry sick people to hospitals.",
+            "Fire engines are used to put out fires.",
+            "Tractors are used for farming.",
+            "Postal vans carry letters and parcels."
+          ]
+        },
+        {
+          "concept_id": "evs3.travel.road_safety",
+          "title": "Road Safety and Traffic Rules",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs3.travel.maps_directions"
+          ],
+          "description": "Understanding basic safety rules to follow while walking or driving on the road to prevent accidents.",
+          "key_ideas": [
+            "Traffic light colors: Red (Stop), Yellow (Wait), Green (Go).",
+            "Always use the Zebra crossing to cross the road.",
+            "Look right, then left, then right again before crossing.",
+            "Do not play on or near the road."
+          ]
+        },
+        {
+          "concept_id": "evs3.travel.railways_stations",
+          "title": "Railways and Stations",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs3.travel.means_transport"
+          ],
+          "description": "An introduction to train travel, the environment of a railway station, and the people who work there.",
+          "key_ideas": [
+            "Trains run on tracks (rails).",
+            "Porters (coolies) help carry luggage at stations.",
+            "Trains are good for long-distance travel.",
+            "Stations have ticket counters and waiting rooms."
+          ]
+        },
+        {
+          "concept_id": "evs3.travel.tickets_currency",
+          "title": "Tickets and Travel Documents",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs3.travel.railways_stations"
+          ],
+          "description": "Understanding the requirement of purchasing tickets for public transport and the role of ticket checkers.",
+          "key_ideas": [
+            "We must buy tickets for buses and trains.",
+            "A Ticket Collector (TC/TTE) checks tickets on the train.",
+            "Tickets show the destination and the price (fare).",
+            "Traveling without a ticket is against the rules."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Things We Make and Do",
+      "concepts": [
+        {
+          "concept_id": "evs3.things_we_make.materials",
+          "title": "Natural and Man-Made Materials",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Natural and Man-Made Materials — part of the chapter on Things We Make and Do.",
+          "key_ideas": [
+            "Core principles of natural and man-made materials",
+            "Step-by-step problem solving for natural and man-made materials",
+            "Real-world applications of natural and man-made materials"
+          ]
+        },
+        {
+          "concept_id": "evs3.things_we_make.crafts",
+          "title": "Indian Crafts and Artisans",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Indian Crafts and Artisans — part of the chapter on Things We Make and Do.",
+          "key_ideas": [
+            "Core principles of indian crafts and artisans",
+            "Step-by-step problem solving for indian crafts and artisans",
+            "Real-world applications of indian crafts and artisans"
+          ]
+        },
+        {
+          "concept_id": "evs3.things_we_make.pottery_process",
+          "title": "Making Pots from Clay",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs3.things_we_make.materials"
+          ],
+          "description": "Exploration of how clay is collected, prepared, and shaped into pots using hands or a wheel, followed by the drying and baking process.",
+          "key_ideas": [
+            "Clay is a natural material used to make pots and toys.",
+            "Kneading clay makes it soft and ready for shaping.",
+            "Pots are baked in a fire (kiln) to make them strong and durable."
+          ]
+        },
+        {
+          "concept_id": "evs3.things_we_make.textile_process",
+          "title": "Weaving and Stitching",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs3.things_we_make.materials"
+          ],
+          "description": "An introduction to how clothes are made, focusing on the transformation of thread into fabric through weaving and fabric into clothes through stitching.",
+          "key_ideas": [
+            "Weaving involves crossing two sets of threads to make cloth.",
+            "Looms are machines used for weaving fabric.",
+            "Tailors use needles, thread, and sewing machines to stitch clothes."
+          ]
+        },
+        {
+          "concept_id": "evs3.things_we_make.tools_equipment",
+          "title": "Tools of the Trade",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs3.things_we_make.crafts"
+          ],
+          "description": "Identification and analysis of specific tools used by different artisans and workers to create various objects.",
+          "key_ideas": [
+            "Different professions require specific tools (e.g., potter's wheel, trowel, saw).",
+            "Tools help humans do work faster and more precisely.",
+            "Safety is important when using sharp or heavy tools."
+          ]
+        },
+        {
+          "concept_id": "evs3.things_we_make.waste_to_art",
+          "title": "Best Out of Waste",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs3.things_we_make.materials"
+          ],
+          "description": "Learning how to reuse old or discarded materials to create useful new items or decorative art.",
+          "key_ideas": [
+            "Recycling helps keep our environment clean.",
+            "Old newspapers, bottles, and boxes can be turned into crafts.",
+            "Creativity allows us to see value in things we usually throw away."
+          ]
+        }
+      ]
+    }
+  ]
+}

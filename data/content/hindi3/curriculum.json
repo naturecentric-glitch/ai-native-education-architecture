@@ -1,0 +1,338 @@
+{
+  "course_id": "hindi3",
+  "title": "Class 3 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "पढ़ना — Reading",
+      "concepts": [
+        {
+          "concept_id": "hindi3.padhan3.stories",
+          "title": "Hindi Stories with Comprehension",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Hindi Stories with Comprehension — part of the chapter on पढ़ना — Reading.",
+          "key_ideas": [
+            "Core principles of hindi stories with comprehension",
+            "Step-by-step problem solving for hindi stories with comprehension",
+            "Real-world applications of hindi stories with comprehension"
+          ]
+        },
+        {
+          "concept_id": "hindi3.padhan3.poetry",
+          "title": "Hindi Poetry",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Hindi Poetry — part of the chapter on पढ़ना — Reading.",
+          "key_ideas": [
+            "Core principles of hindi poetry",
+            "Step-by-step problem solving for hindi poetry",
+            "Real-world applications of hindi poetry"
+          ]
+        },
+        {
+          "concept_id": "hindi3.padhan3.reading_aloud",
+          "title": "Reading Aloud and Intonation",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Developing fluency by reading text aloud with correct pronunciation of conjunct consonants (Sanyuktakshar) and observing punctuation marks.",
+          "key_ideas": [
+            "Correct pronunciation of conjunct consonants",
+            "Pausing at Purnaviram (full stop) and Alpaviram (comma)",
+            "Using voice modulation for questions and exclamations"
+          ]
+        },
+        {
+          "concept_id": "hindi3.padhan3.chitra_katha",
+          "title": "Picture Stories (Chitra Katha)",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi3.padhan3.stories"
+          ],
+          "description": "Interpreting stories presented through a sequence of images and dialogue bubbles, a common format in Hindi literature for young learners.",
+          "key_ideas": [
+            "Connecting images to text descriptions",
+            "Understanding sequence of events through visual cues",
+            "Reading dialogue within speech bubbles"
+          ]
+        },
+        {
+          "concept_id": "hindi3.padhan3.informational_text",
+          "title": "Informational Essays",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi3.padhan3.reading_aloud"
+          ],
+          "description": "Reading and understanding non-fiction texts regarding festivals, seasons, or famous personalities, distinguishing them from fictional stories.",
+          "key_ideas": [
+            "Identifying factual information vs. imagination",
+            "Reading essays on Indian festivals (e.g., Diwali, Holi)",
+            "Extracting key details (Who, What, When)"
+          ]
+        },
+        {
+          "concept_id": "hindi3.padhan3.context_clues",
+          "title": "Contextual Vocabulary",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi3.padhan3.stories"
+          ],
+          "description": "Deducing the meaning of difficult or new Hindi words by analyzing the surrounding sentences without using a dictionary.",
+          "key_ideas": [
+            "Using sentence context to guess word meaning",
+            "Identifying synonyms (Paryayvachi) within the text",
+            "Understanding antonyms (Vilom) through context"
+          ]
+        },
+        {
+          "concept_id": "hindi3.padhan3.moral_analysis",
+          "title": "Identifying Moral and Theme",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi3.padhan3.stories"
+          ],
+          "description": "Going beyond the plot to understand the underlying lesson (Seekh) or message of a story.",
+          "key_ideas": [
+            "Summarizing the main message of the story",
+            "Identifying the moral (Seekh) at the end of fables",
+            "Connecting the story's lesson to real-life situations"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "व्याकरण — Grammar",
+      "concepts": [
+        {
+          "concept_id": "hindi3.vyakaran3.ling",
+          "title": "लिंग — Gender",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "लिंग — Gender — part of the chapter on व्याकरण — Grammar.",
+          "key_ideas": [
+            "Core principles of लिंग",
+            "Step-by-step problem solving for लिंग",
+            "Real-world applications of लिंग"
+          ]
+        },
+        {
+          "concept_id": "hindi3.vyakaran3.vachan3",
+          "title": "वचन — Number",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "वचन — Number — part of the chapter on व्याकरण — Grammar.",
+          "key_ideas": [
+            "Core principles of वचन",
+            "Step-by-step problem solving for वचन",
+            "Real-world applications of वचन"
+          ]
+        },
+        {
+          "concept_id": "hindi3.vyakaran3.kaal_intro",
+          "title": "काल — Tense Introduction",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "hindi3.vyakaran3.ling"
+          ],
+          "description": "काल — Tense Introduction — part of the chapter on व्याकरण — Grammar.",
+          "key_ideas": [
+            "Core principles of काल",
+            "Step-by-step problem solving for काल",
+            "Real-world applications of काल"
+          ]
+        },
+        {
+          "concept_id": "hindi3.vyakaran3.sangya",
+          "title": "संज्ञा — Nouns",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Introduction to naming words used for people, places, animals, things, and feelings.",
+          "key_ideas": [
+            "Definition of Sangya (Noun) as a naming word.",
+            "Identification of nouns in simple sentences.",
+            "Basic distinction between common names and specific names."
+          ]
+        },
+        {
+          "concept_id": "hindi3.vyakaran3.sarvanam",
+          "title": "सर्वनाम — Pronouns",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi3.vyakaran3.sangya"
+          ],
+          "description": "Learning words that replace nouns to avoid repetition in sentences.",
+          "key_ideas": [
+            "Definition of Sarvanam (Pronoun).",
+            "Common pronouns: Main (I), Tum (You), Veh (He/She/It), Hum (We).",
+            "Replacing nouns with appropriate pronouns in a paragraph."
+          ]
+        },
+        {
+          "concept_id": "hindi3.vyakaran3.visheshan",
+          "title": "विशेषण — Adjectives",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi3.vyakaran3.sangya",
+            "hindi3.vyakaran3.ling"
+          ],
+          "description": "Understanding words that describe the quality, color, size, or number of nouns.",
+          "key_ideas": [
+            "Definition of Visheshan (Adjective).",
+            "Identifying describing words in sentences.",
+            "Matching adjectives to appropriate nouns (e.g., Red Apple, Tall Boy)."
+          ]
+        },
+        {
+          "concept_id": "hindi3.vyakaran3.kriya",
+          "title": "क्रिया — Verbs",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Identification of action words that tell us what someone is doing.",
+          "key_ideas": [
+            "Definition of Kriya (Verb) as an action word.",
+            "Common actions: Khana (eating), Padhna (reading), Khelna (playing).",
+            "Every sentence must have a verb."
+          ]
+        },
+        {
+          "concept_id": "hindi3.vyakaran3.vilom_shabd",
+          "title": "विलोम शब्द — Antonyms",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Building vocabulary by learning pairs of words with opposite meanings.",
+          "key_ideas": [
+            "Concept of opposites (Ulte Arth).",
+            "Common pairs: Din-Raat (Day-Night), Upar-Niche (Up-Down).",
+            "Using antonyms to change the meaning of a sentence."
+          ]
+        },
+        {
+          "concept_id": "hindi3.vyakaran3.vakya_shuddhi",
+          "title": "वाक्य शुद्धि — Sentence Correction",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi3.vyakaran3.ling",
+            "hindi3.vyakaran3.vachan3",
+            "hindi3.vyakaran3.kaal_intro"
+          ],
+          "description": "Applying grammar rules to identify and correct errors in simple sentences.",
+          "key_ideas": [
+            "Correcting gender-verb agreement (e.g., Boy is eating vs Boy is eating[female form]).",
+            "Correcting number agreement.",
+            "Structuring words in the correct order."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "लेखन — Writing",
+      "concepts": [
+        {
+          "concept_id": "hindi3.lekhan3.nibandh",
+          "title": "Short Essay Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Short Essay Writing — part of the chapter on लेखन — Writing.",
+          "key_ideas": [
+            "Core principles of short essay writing",
+            "Step-by-step problem solving for short essay writing",
+            "Real-world applications of short essay writing"
+          ]
+        },
+        {
+          "concept_id": "hindi3.lekhan3.patra_lekhan",
+          "title": "Letter Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi3.lekhan3.nibandh"
+          ],
+          "description": "Letter Writing — part of the chapter on लेखन — Writing.",
+          "key_ideas": [
+            "Core principles of letter writing",
+            "Step-by-step problem solving for letter writing",
+            "Real-world applications of letter writing"
+          ]
+        },
+        {
+          "concept_id": "hindi3.lekhan3.vakya_rachana",
+          "title": "Sentence Construction (Vakya Rachana)",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Learning how to arrange jumbled words to form meaningful and grammatically correct sentences in Hindi.",
+          "key_ideas": [
+            "Correct word order (Subject-Object-Verb)",
+            "Using punctuation marks like the full stop (Purnaviram)",
+            "Making sentences meaningful and clear"
+          ]
+        },
+        {
+          "concept_id": "hindi3.lekhan3.chitra_varnan",
+          "title": "Picture Composition (Chitra Varnan)",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi3.lekhan3.vakya_rachana"
+          ],
+          "description": "Developing observation skills by looking at a picture and writing 4-5 sentences describing the scene, characters, and actions.",
+          "key_ideas": [
+            "Observing details in a picture",
+            "Describing actions happening in the scene",
+            "Connecting sentences to tell a mini-story about the image"
+          ]
+        },
+        {
+          "concept_id": "hindi3.lekhan3.anuchched_lekhan",
+          "title": "Paragraph Writing (Anuchched Lekhan)",
+          "bloom_level": "create",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi3.lekhan3.vakya_rachana"
+          ],
+          "description": "Writing a cohesive paragraph on a simple topic (e.g., My School, My Pet) focusing on a single central idea without using headings.",
+          "key_ideas": [
+            "Sticking to one main topic",
+            "Writing simple, connected sentences",
+            "Using linking words to ensure flow"
+          ]
+        },
+        {
+          "concept_id": "hindi3.lekhan3.kahani_lekhan",
+          "title": "Story Writing (Kahani Lekhan)",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi3.lekhan3.vakya_rachana",
+            "hindi3.lekhan3.chitra_varnan"
+          ],
+          "description": "Completing a story based on given outlines, clues, or a series of pictures to foster imagination and narrative skills.",
+          "key_ideas": [
+            "Understanding the sequence of events",
+            "Filling in the blanks to complete a narrative",
+            "Writing a simple moral (seekh) for the story"
+          ]
+        }
+      ]
+    }
+  ]
+}

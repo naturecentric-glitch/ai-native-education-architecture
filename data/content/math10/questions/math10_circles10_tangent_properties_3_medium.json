@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "State and explain the key concept: Tangent touches the circle at exactly one point (point of contact/tangency).",
+    "hint": "Think about the definition and main formula related to Tangent to a Circle — Properties.",
+    "expected_answer": "This tests understanding of: Tangent touches the circle at exactly one point (point of contact/tangency). Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Tangent to a Circle — Properties"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "question": "Solve an NCERT example problem related to 'Tangent to a Circle — Properties'. Show all steps clearly.",
+    "hint": "Review the key ideas: Tangent touches the circle at exactly one point (point of contact/tangency), Theorem 1: Tangent ⊥ Radius at the point of contact.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Tangent to a Circle — Properties. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Tangent to a Circle — Properties"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.55,
+    "question": "How would you apply 'Tangent to a Circle — Properties' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where tangent to a circle — properties concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Tangent to a Circle — Properties.",
+    "concepts_tested": [
+      "Tangent to a Circle — Properties",
+      "Real-world application"
+    ]
+  }
+]

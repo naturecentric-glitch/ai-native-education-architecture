@@ -1,0 +1,926 @@
+{
+  "course_id": "history6",
+  "title": "Class 6 History",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "What, Where, How and When?",
+      "concepts": [
+        {
+          "concept_id": "history6.what_where.studying_past",
+          "title": "How We Study the Past",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "How We Study the Past — part of the chapter on What, Where, How and When?.",
+          "key_ideas": [
+            "Core principles of how we study the past",
+            "Step-by-step problem solving for how we study the past",
+            "Real-world applications of how we study the past"
+          ]
+        },
+        {
+          "concept_id": "history6.what_where.early_settlements",
+          "title": "Where Did Early People Live?",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "history6.what_where.studying_past"
+          ],
+          "description": "Explores the geographical locations where early human civilizations settled, focusing on river banks and hills.",
+          "key_ideas": [
+            "Gatherers lived along the Narmada river for thousands of years",
+            "Early agriculture (wheat and barley) began in the Sulaiman and Kirthar hills",
+            "First cities developed on the banks of the Indus river",
+            "Later kingdoms, like Magadha, developed along the Ganga"
+          ]
+        },
+        {
+          "concept_id": "history6.what_where.names_of_land",
+          "title": "Names of the Land: India and Bharat",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Investigates the etymology and historical origins of the names used to describe the subcontinent.",
+          "key_ideas": [
+            "The word 'India' comes from the Indus river (Sindhu in Sanskrit)",
+            "Iranians and Greeks referred to the land east of the river as India",
+            "The name 'Bharat' was used for a group of people mentioned in the Rigveda",
+            "Understanding historical geography through language"
+          ]
+        },
+        {
+          "concept_id": "history6.what_where.manuscripts_inscriptions",
+          "title": "Written Sources: Manuscripts and Inscriptions",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history6.what_where.studying_past"
+          ],
+          "description": "Differentiates between the two primary forms of written historical records and the materials used for them.",
+          "key_ideas": [
+            "Manuscripts are hand-written, usually on palm leaf or birch bark",
+            "Inscriptions are writings on hard surfaces like stone or metal",
+            "Manuscripts are fragile and often destroyed by insects, while inscriptions are durable",
+            "These sources record the lives of kings, religious beliefs, and practices"
+          ]
+        },
+        {
+          "concept_id": "history6.what_where.archaeological_sources",
+          "title": "Archaeology: Digging Up the Past",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.what_where.studying_past"
+          ],
+          "description": "Explains how historians use physical objects found under the earth to reconstruct the lives of ordinary people.",
+          "key_ideas": [
+            "Archaeologists excavate sites to find tools, pots, pans, and ornaments",
+            "Study of animal bones helps determine what people ate",
+            "Physical remains help understand the lives of people who did not leave written records",
+            "Carbon dating and material analysis"
+          ]
+        },
+        {
+          "concept_id": "history6.what_where.understanding_dates",
+          "title": "Understanding Dates: BC, AD, and CE",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history6.what_where.studying_past"
+          ],
+          "description": "Teaches how to interpret historical timelines and the conventions used to measure time in history.",
+          "key_ideas": [
+            "Dates are generally counted from the birth of Jesus Christ",
+            "BC stands for 'Before Christ' (counting backwards)",
+            "AD stands for 'Anno Domini' (in the year of the Lord)",
+            "Modern usage often replaces BC with BCE (Before Common Era) and AD with CE (Common Era)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "On the Trail of the Earliest People",
+      "concepts": [
+        {
+          "concept_id": "history6.earliest_societies.hunters_gatherers",
+          "title": "Hunters and Gatherers",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Hunters and Gatherers — part of the chapter on On the Trail of the Earliest People.",
+          "key_ideas": [
+            "Core principles of hunters and gatherers",
+            "Step-by-step problem solving for hunters and gatherers",
+            "Real-world applications of hunters and gatherers"
+          ]
+        },
+        {
+          "concept_id": "history6.earliest_societies.stone_tools_evolution",
+          "title": "Evolution of Stone Tools",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history6.earliest_societies.hunters_gatherers"
+          ],
+          "description": "Exploration of how early humans crafted and improved tools made of stone, bone, and wood, distinguishing between the Paleolithic and Mesolithic periods.",
+          "key_ideas": [
+            "Classification of the Stone Age (Paleolithic, Mesolithic, Neolithic)",
+            "Development of Microliths (tiny stone tools stuck on handles)",
+            "Uses of tools for cutting meat, scraping bark, and digging roots"
+          ]
+        },
+        {
+          "concept_id": "history6.earliest_societies.habitation_and_factory_sites",
+          "title": "Habitation and Factory Sites",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "history6.earliest_societies.stone_tools_evolution"
+          ],
+          "description": "Understanding the geography of where early people lived, focusing on places with abundant stone resources and natural shelter.",
+          "key_ideas": [
+            "Definition of Factory Sites (places where tools were made)",
+            "Habitation-cum-factory sites (places where people lived and worked)",
+            "Importance of caves and rock shelters (e.g., Bhimbetka) for protection"
+          ]
+        },
+        {
+          "concept_id": "history6.earliest_societies.discovery_of_fire",
+          "title": "Discovery and Uses of Fire",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history6.earliest_societies.hunters_gatherers"
+          ],
+          "description": "Examining the evidence of ash found in caves and understanding how fire transformed the lives of early humans.",
+          "key_ideas": [
+            "Evidence of ash in Kurnool caves",
+            "Use of fire as a source of light and heat",
+            "Using fire to cook meat and scare away dangerous animals"
+          ]
+        },
+        {
+          "concept_id": "history6.earliest_societies.rock_paintings",
+          "title": "Rock Paintings and Art",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.earliest_societies.habitation_and_factory_sites"
+          ],
+          "description": "Interpreting the artistic expression of early humans found on cave walls and what these paintings reveal about their daily lives.",
+          "key_ideas": [
+            "Locations of major rock art (Madhya Pradesh and Southern Uttar Pradesh)",
+            "Depiction of wild animals with great accuracy and skill",
+            "Use of natural minerals and colors for painting"
+          ]
+        },
+        {
+          "concept_id": "history6.earliest_societies.changing_environment",
+          "title": "A Changing Environment",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history6.earliest_societies.hunters_gatherers"
+          ],
+          "description": "Analyzing the major climate shift around 12,000 years ago that led to warmer conditions and the development of grasslands.",
+          "key_ideas": [
+            "Shift to relatively warmer conditions leading to grasslands",
+            "Increase in population of deer, antelope, goat, and sheep",
+            "Beginning of observing food cycles and the path toward herding and farming"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "From Gathering to Growing Food",
+      "concepts": [
+        {
+          "concept_id": "history6.first_farmers.farming_herding",
+          "title": "Farming and Herding",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Farming and Herding — part of the chapter on From Gathering to Growing Food.",
+          "key_ideas": [
+            "Core principles of farming and herding",
+            "Step-by-step problem solving for farming and herding",
+            "Real-world applications of farming and herding"
+          ]
+        },
+        {
+          "concept_id": "history6.first_farmers.domestication_process",
+          "title": "The Process of Domestication",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history6.first_farmers.farming_herding"
+          ],
+          "description": "Explains how early humans began selecting specific plants and animals to grow and breed, leading to a gradual shift from wild species to domesticated ones.",
+          "key_ideas": [
+            "Selection of plants with large grain and strong stalks",
+            "Taming of relatively gentle animals for breeding",
+            "Difference between wild and domesticated species"
+          ]
+        },
+        {
+          "concept_id": "history6.first_farmers.neolithic_tools_pottery",
+          "title": "Neolithic Tools and Pottery",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history6.first_farmers.domestication_process"
+          ],
+          "description": "Examines the technological advancements of the New Stone Age, specifically the refinement of tools for agriculture and the invention of vessels for storage and cooking.",
+          "key_ideas": [
+            "Transition to polished stone tools with fine cutting edges",
+            "Use of mortars and pestles for grinding grain",
+            "Creation of earthen pots for storing food and cooking"
+          ]
+        },
+        {
+          "concept_id": "history6.first_farmers.settled_life",
+          "title": "Towards a Settled Life",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.first_farmers.neolithic_tools_pottery"
+          ],
+          "description": "Describes the shift in habitation patterns as people began living in permanent structures to tend to crops, including archaeological findings like pit-houses.",
+          "key_ideas": [
+            "Construction of pit-houses (dug into the ground) for cold weather shelter",
+            "Evidence of cooking hearths both inside and outside huts",
+            "The necessity of staying in one place to weed and water crops"
+          ]
+        },
+        {
+          "concept_id": "history6.first_farmers.life_at_mehrgarh",
+          "title": "Case Study: Life at Mehrgarh",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history6.first_farmers.settled_life"
+          ],
+          "description": "Investigates one of the earliest known village sites in the subcontinent, analyzing its unique architectural features and social beliefs regarding death.",
+          "key_ideas": [
+            "Location near the Bolan Pass as a key route to Iran",
+            "Distinctive square or rectangular houses with compartments",
+            "Burial practices indicating a belief in life after death (e.g., burying goats with the dead)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "In the Earliest Cities",
+      "concepts": [
+        {
+          "concept_id": "history6.first_cities.harappan",
+          "title": "Harappan Civilisation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Harappan Civilisation — part of the chapter on In the Earliest Cities.",
+          "key_ideas": [
+            "Core principles of harappan civilisation",
+            "Step-by-step problem solving for harappan civilisation",
+            "Real-world applications of harappan civilisation"
+          ]
+        },
+        {
+          "concept_id": "history6.first_cities.town_planning",
+          "title": "Architectural Features and Layout",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history6.first_cities.harappan"
+          ],
+          "description": "Explores the unique layout of Harappan cities, specifically the division into the Citadel and the Lower Town, and the materials used for construction.",
+          "key_ideas": [
+            "Division of cities into the smaller, higher Citadel (west) and larger Lower Town (east)",
+            "Use of high-quality baked bricks laid in an interlocking pattern",
+            "Special structures in the Citadel like the Great Bath"
+          ]
+        },
+        {
+          "concept_id": "history6.first_cities.drainage_system",
+          "title": "Drainage and Sanitation Systems",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "history6.first_cities.town_planning"
+          ],
+          "description": "Examines the advanced engineering behind the covered drainage systems found in Harappan cities and their importance for hygiene.",
+          "key_ideas": [
+            "Drains were covered and laid out in straight lines",
+            "Gentle slopes were engineered to ensure water flow",
+            "Inspection holes were provided at intervals for cleaning"
+          ]
+        },
+        {
+          "concept_id": "history6.first_cities.crafts_and_trade",
+          "title": "Crafts, Weights, and Seals",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.first_cities.harappan"
+          ],
+          "description": "Details the objects made and used by the Harappans, including tools, ornaments, weights, and the mysterious seals used for trade.",
+          "key_ideas": [
+            "Use of materials like stone, shell, copper, bronze, gold, and silver",
+            "Creation of precise chert weights and beads",
+            "Significance of rectangular stone seals, often depicting animals"
+          ]
+        },
+        {
+          "concept_id": "history6.first_cities.raw_materials_food",
+          "title": "Sourcing Materials and Food",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history6.first_cities.harappan"
+          ],
+          "description": "Investigates how people living in the cities obtained food from the countryside and raw materials from distant lands.",
+          "key_ideas": [
+            "Use of the plough for turning soil and planting seeds",
+            "Importing copper from Rajasthan/Oman and tin from Afghanistan",
+            "Domestication of cattle, sheep, goat, and buffalo"
+          ]
+        },
+        {
+          "concept_id": "history6.first_cities.decline",
+          "title": "The Mystery of the Decline",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history6.first_cities.town_planning",
+            "history6.first_cities.raw_materials_food"
+          ],
+          "description": "Discusses the sudden changes that occurred around 3900 years ago and the various theories explaining why these cities were abandoned.",
+          "key_ideas": [
+            "Evidence of decline: garbage piling up, drainage breaking down",
+            "Theories include deforestation, drying up of rivers, and flooding",
+            "Movement of people to newer settlements in the east and south"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Kingdoms, Kings and Early Republic",
+      "concepts": [
+        {
+          "concept_id": "history6.kingdoms.mahajanapadas",
+          "title": "Mahajanapadas and Republics",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Mahajanapadas and Republics — part of the chapter on Kingdoms, Kings and Early Republic.",
+          "key_ideas": [
+            "Core principles of mahajanapadas and republics",
+            "Step-by-step problem solving for mahajanapadas and republics",
+            "Real-world applications of mahajanapadas and republics"
+          ]
+        },
+        {
+          "concept_id": "history6.kingdoms.ashvamedha_yajna",
+          "title": "The Ashvamedha Ritual",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Explains how men became recognized as 'rajas' through specific rituals, specifically the horse sacrifice, marking a shift from earlier forms of leadership.",
+          "key_ideas": [
+            "The Ashvamedha or horse sacrifice ritual",
+            "The horse wandering freely guarded by the Raja's men",
+            "Acceptance of the Raja's supremacy by other kings"
+          ]
+        },
+        {
+          "concept_id": "history6.kingdoms.taxation_and_administration",
+          "title": "Taxation and Army Maintenance",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history6.kingdoms.mahajanapadas"
+          ],
+          "description": "Details how Mahajanapada rulers collected resources to build huge forts and maintain large armies through a regular system of taxation.",
+          "key_ideas": [
+            "Bhaga: The tax on crops (1/6th of produce)",
+            "Taxes on craftspersons in the form of labor",
+            "Taxes on herders, traders, and hunters-gatherers"
+          ]
+        },
+        {
+          "concept_id": "history6.kingdoms.agricultural_changes",
+          "title": "Changes in Agriculture",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.kingdoms.mahajanapadas"
+          ],
+          "description": "Examines the two major technological and methodological shifts in agriculture that increased production during this period.",
+          "key_ideas": [
+            "Use of iron ploughshares to turn heavy clay soil",
+            "Introduction of paddy transplantation",
+            "Increased food production leading to surplus"
+          ]
+        },
+        {
+          "concept_id": "history6.kingdoms.case_study_magadha",
+          "title": "Case Study: The Rise of Magadha",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history6.kingdoms.mahajanapadas",
+            "history6.kingdoms.agricultural_changes"
+          ],
+          "description": "Investigates the geographical and strategic factors that allowed Magadha to become the most powerful Mahajanapada.",
+          "key_ideas": [
+            "River Ganga and Son providing transport and water",
+            "Iron ore mines in the region for making tools and weapons",
+            "Forests providing elephants for the army"
+          ]
+        },
+        {
+          "concept_id": "history6.kingdoms.case_study_vajji",
+          "title": "Case Study: Vajji and the Gana-Sangha",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history6.kingdoms.mahajanapadas"
+          ],
+          "description": "Contrasts the monarchical system of Magadha with the republican form of government found in Vajji.",
+          "key_ideas": [
+            "The concept of Gana or Sangha (many rulers)",
+            "Decision making through assemblies and debate",
+            "Exclusion of women, dasas, and kammakaras from assemblies"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "New Questions and Ideas",
+      "concepts": [
+        {
+          "concept_id": "history6.new_ideas.buddha_mahavira",
+          "title": "Buddha and Mahavira",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Buddha and Mahavira — part of the chapter on New Questions and Ideas.",
+          "key_ideas": [
+            "Core principles of buddha and mahavira",
+            "Step-by-step problem solving for buddha and mahavira",
+            "Real-world applications of buddha and mahavira"
+          ]
+        },
+        {
+          "concept_id": "history6.new_ideas.upanishads",
+          "title": "The Upanishads and Thinkers",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Exploration of the philosophical texts recorded by thinkers who sought answers about life after death and the meaning of sacrifices.",
+          "key_ideas": [
+            "Concept of Atman (individual soul) and Brahman (universal soul)",
+            "Use of dialogues between teachers and students",
+            "Thinkers included men like Gargi and Satyakama Jabala"
+          ]
+        },
+        {
+          "concept_id": "history6.new_ideas.teachings_ahimsa",
+          "title": "Core Teachings: Ahimsa and Karma",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history6.new_ideas.buddha_mahavira"
+          ],
+          "description": "A deeper look into the specific rules of conduct and beliefs taught by Buddha and Mahavira, focusing on non-violence and the consequences of actions.",
+          "key_ideas": [
+            "Ahimsa means not hurting or killing any living being",
+            "Karma refers to the result of our actions affecting current and future lives",
+            "Teachings were delivered in Prakrit so ordinary people could understand"
+          ]
+        },
+        {
+          "concept_id": "history6.new_ideas.sangha",
+          "title": "The Sangha",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.new_ideas.buddha_mahavira"
+          ],
+          "description": "Understanding the organization of the association formed by those who left their homes to gain true knowledge.",
+          "key_ideas": [
+            "Only those who left their homes could gain true knowledge",
+            "Rules for the Buddhist Sangha were written in the Vinaya Pitaka",
+            "People from all castes joined, including brahmins, kshatriyas, and shudras"
+          ]
+        },
+        {
+          "concept_id": "history6.new_ideas.viharas",
+          "title": "Monasteries and Viharas",
+          "bloom_level": "remember",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history6.new_ideas.sangha"
+          ],
+          "description": "The evolution of shelter for monks and nuns from temporary rainy-season wanderings to permanent dwelling places.",
+          "key_ideas": [
+            "Viharas were permanent shelters built for monks and nuns",
+            "Construction materials ranged from wood to brick and rock-cut caves",
+            "Land for Viharas was often donated by rich merchants or kings"
+          ]
+        },
+        {
+          "concept_id": "history6.new_ideas.ashramas",
+          "title": "The System of Ashramas",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history6.new_ideas.upanishads"
+          ],
+          "description": "Examination of the four stages of life developed by Brahmins around the time new religious ideas were emerging.",
+          "key_ideas": [
+            "Ashrama refers to a stage of life, not a place of meditation",
+            "Four stages: Brahmacharya, Grihastha, Vanaprastha, and Samnyasa",
+            "Comparison of the strict Ashrama system vs. the freedom of the Sangha"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Ashoka, the Emperor Who Gave Up War",
+      "concepts": [
+        {
+          "concept_id": "history6.ashoka.mauryan_empire",
+          "title": "Mauryan Empire and Ashoka",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Mauryan Empire and Ashoka — part of the chapter on Ashoka, the Emperor Who Gave Up War.",
+          "key_ideas": [
+            "Core principles of mauryan empire and ashoka",
+            "Step-by-step problem solving for mauryan empire and ashoka",
+            "Real-world applications of mauryan empire and ashoka"
+          ]
+        },
+        {
+          "concept_id": "history6.ashoka.empire_administration",
+          "title": "Ruling the Empire",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history6.ashoka.mauryan_empire"
+          ],
+          "description": "Explains how the vast Mauryan empire was governed, distinguishing between direct control from the capital and the administration of provinces.",
+          "key_ideas": [
+            "Control from Pataliputra versus provincial capitals like Taxila and Ujjain",
+            "The difference between regular taxes and tribute",
+            "The role of officials, messengers, and spies in administration"
+          ]
+        },
+        {
+          "concept_id": "history6.ashoka.kalinga_war",
+          "title": "The Kalinga War and Transformation",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history6.ashoka.mauryan_empire"
+          ],
+          "description": "Details the pivotal war against Kalinga and how the resulting bloodshed caused a profound change in Ashoka's worldview.",
+          "key_ideas": [
+            "The scale of violence and loss of life in Kalinga",
+            "Ashoka's deep remorse and decision to abandon warfare",
+            "The shift from conquest by force to conquest by Dhamma"
+          ]
+        },
+        {
+          "concept_id": "history6.ashoka.dhamma",
+          "title": "Ashoka's Dhamma",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.ashoka.kalinga_war"
+          ],
+          "description": "Defines the specific ethical teachings introduced by Ashoka, clarifying that Dhamma was a code of conduct rather than a new religion.",
+          "key_ideas": [
+            "Dhamma as a set of social and ethical duties",
+            "Core teachings: non-violence (ahimsa), respect for elders, and kindness to servants",
+            "Solving social problems like religious conflict and animal sacrifice"
+          ]
+        },
+        {
+          "concept_id": "history6.ashoka.spreading_dhamma",
+          "title": "Spreading the Message",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history6.ashoka.dhamma"
+          ],
+          "description": "Describes the methods and infrastructure Ashoka used to communicate his ideas to the common people across his vast empire.",
+          "key_ideas": [
+            "Appointment of 'Dhamma Mahamatta' (officials) to teach people",
+            "Use of Prakrit language to ensure common people understood the message",
+            "Inscribing messages on rocks and pillars for public reading"
+          ]
+        },
+        {
+          "concept_id": "history6.ashoka.inscriptions_and_legacy",
+          "title": "Inscriptions, Scripts, and Legacy",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history6.ashoka.spreading_dhamma"
+          ],
+          "description": "Explores the physical evidence of Ashoka's reign, including the scripts used and the artistic legacy that influences modern India.",
+          "key_ideas": [
+            "The Brahmi script as the ancestor of most modern Indian scripts",
+            "The Lion Capital at Sarnath as the National Emblem of India",
+            "How inscriptions serve as primary historical sources"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Vital Villages, Thriving Towns",
+      "concepts": [
+        {
+          "concept_id": "history6.villages.iron_tools",
+          "title": "Iron Tools and Agriculture",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Iron Tools and Agriculture — part of the chapter on Vital Villages, Thriving Towns.",
+          "key_ideas": [
+            "Core principles of iron tools and agriculture",
+            "Step-by-step problem solving for iron tools and agriculture",
+            "Real-world applications of iron tools and agriculture"
+          ]
+        },
+        {
+          "concept_id": "history6.villages.irrigation_systems",
+          "title": "Irrigation and Agricultural Expansion",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history6.villages.iron_tools"
+          ],
+          "description": "Exploration of how kings and communities built irrigation works like canals, wells, tanks, and artificial lakes to support the increased production made possible by iron tools.",
+          "key_ideas": [
+            "Irrigation was necessary to support intensive agriculture",
+            "Kings provided money and planning for irrigation works",
+            "Villagers provided labor to maintain canals and tanks"
+          ]
+        },
+        {
+          "concept_id": "history6.villages.village_inhabitants",
+          "title": "Social Structure: Who Lived in the Villages?",
+          "bloom_level": "remember",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "An overview of the different categories of people living in villages in the northern and southern parts of the subcontinent, including their roles and social status.",
+          "key_ideas": [
+            "The Grama Bhojaka was the village headman and often the largest landowner in the north",
+            "Tamil region terms: Vellalar (large landowners), Uzhavar (ploughmen), and Adimai (landless labourers)",
+            "Dasa Karmakara were landless men and women who worked on others' fields"
+          ]
+        },
+        {
+          "concept_id": "history6.villages.punch_marked_coins",
+          "title": "Early Coinage and Trade",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.villages.village_inhabitants"
+          ],
+          "description": "Introduction to the earliest coins used in the subcontinent, how they were made, and their role in replacing the barter system for trade.",
+          "key_ideas": [
+            "Punch-marked coins were the earliest form of coinage used for about 500 years",
+            "Coins were made of silver or copper with designs punched on to them",
+            "The introduction of coins facilitated easier trade across towns and villages"
+          ]
+        },
+        {
+          "concept_id": "history6.villages.crafts_and_shrenis",
+          "title": "Crafts, Pottery, and Guilds (Shrenis)",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history6.villages.village_inhabitants"
+          ],
+          "description": "Study of the archaeological evidence of crafts, specifically Northern Black Polished Ware (NBPW), and the organization of craftspersons and merchants into associations called Shrenis.",
+          "key_ideas": [
+            "Northern Black Polished Ware is a distinct, glossy, black pottery found in the northern subcontinent",
+            "Shrenis were associations that provided training, procured raw materials, and distributed finished products",
+            "Shrenis also functioned as banks where rich people deposited money"
+          ]
+        },
+        {
+          "concept_id": "history6.villages.arikamedu_trade",
+          "title": "Case Study: Arikamedu",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history6.villages.punch_marked_coins",
+            "history6.villages.crafts_and_shrenis"
+          ],
+          "description": "A detailed look at the coastal settlement of Arikamedu (Puducherry) as a center for trade with distant lands like Rome, analyzing archaeological finds like amphorae and Arretine ware.",
+          "key_ideas": [
+            "Arikamedu was a coastal settlement where ships unloaded goods from distant lands",
+            "Roman artifacts like amphorae (jars) and stamped Arretine ware indicate international trade",
+            "Local craftspersons made pottery inspired by Roman designs"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Traders, Kings and Pilgrims",
+      "concepts": [
+        {
+          "concept_id": "history6.traders.silk_road",
+          "title": "Silk Road and Trade Routes",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Silk Road and Trade Routes — part of the chapter on Traders, Kings and Pilgrims.",
+          "key_ideas": [
+            "Core principles of silk road and trade routes",
+            "Step-by-step problem solving for silk road and trade routes",
+            "Real-world applications of silk road and trade routes"
+          ]
+        },
+        {
+          "concept_id": "history6.traders.south_indian_trade",
+          "title": "Trade in South India and the Muvendar",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Exploration of the flourishing sea trade in South India, focusing on valuable goods like pepper and the ruling dynasties mentioned in Sangam literature.",
+          "key_ideas": [
+            "Pepper was valued so highly in the Roman Empire it was known as 'black gold'.",
+            "The 'Muvendar' refers to the heads of three ruling families: the Cholas, Cheras, and Pandyas.",
+            "Puhar and Madurai emerged as important coastal and inland centers of power and trade."
+          ]
+        },
+        {
+          "concept_id": "history6.traders.kushanas_silk_route",
+          "title": "The Kushanas and Control of Trade",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "history6.traders.silk_road"
+          ],
+          "description": "Understanding how the Kushana dynasty controlled the Silk Route to accumulate wealth and how they influenced culture and currency.",
+          "key_ideas": [
+            "The Kushanas were the best-known rulers who controlled the Silk Route to collect taxes and tribute from traders.",
+            "They ruled over a major center of power including Peshawar, Mathura, and Taxila.",
+            "The Kushanas were among the earliest rulers in the subcontinent to issue gold coins used by traders."
+          ]
+        },
+        {
+          "concept_id": "history6.traders.spread_of_buddhism",
+          "title": "The Spread of Buddhism: Mahayana and Theravada",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history6.traders.kushanas_silk_route"
+          ],
+          "description": "An examination of the changes in Buddhist practices, specifically the emergence of Mahayana Buddhism and the worship of Bodhisattvas.",
+          "key_ideas": [
+            "Mahayana Buddhism introduced the worship of statues of the Buddha, replacing earlier symbolic representation.",
+            "The concept of Bodhisattvas emerged: persons who attained enlightenment but remained to help others.",
+            "Buddhism spread distinctively to Central Asia, China, Korea, Japan, and Sri Lanka."
+          ]
+        },
+        {
+          "concept_id": "history6.traders.buddhist_pilgrims",
+          "title": "The Chinese Buddhist Pilgrims",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history6.traders.spread_of_buddhism"
+          ],
+          "description": "The stories of famous Chinese travelers who came to the subcontinent to visit places associated with the life of the Buddha.",
+          "key_ideas": [
+            "Fa Xian, Xuan Zang, and I-Qing are famous pilgrims who traveled difficult routes to reach India.",
+            "They spent time studying in monasteries, including the famous university at Nalanda.",
+            "They carried back statues of the Buddha and manuscripts to China."
+          ]
+        },
+        {
+          "concept_id": "history6.traders.bhakti_tradition",
+          "title": "The Beginning of Bhakti",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [],
+          "description": "Introduction to the shift in religious practice towards Bhakti, emphasizing personal devotion to a chosen deity over elaborate sacrifices.",
+          "key_ideas": [
+            "Bhakti emphasizes a person's devotion to a chosen deity, such as Shiva, Vishnu, or Durga.",
+            "The idea of Bhakti is presented in the Bhagavad Gita.",
+            "This tradition believed that if a devotee worships with a pure heart, the deity will appear in the form desired."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "New Empires and Kingdoms",
+      "concepts": [
+        {
+          "concept_id": "history6.buildings.gupta_dynasty",
+          "title": "Gupta Dynasty and Other Kingdoms",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Gupta Dynasty and Other Kingdoms — part of the chapter on New Empires and Kingdoms.",
+          "key_ideas": [
+            "Core principles of gupta dynasty and other kingdoms",
+            "Step-by-step problem solving for gupta dynasty and other kingdoms",
+            "Real-world applications of gupta dynasty and other kingdoms"
+          ]
+        },
+        {
+          "concept_id": "history6.buildings.prashastis_inscriptions",
+          "title": "Prashastis and Inscriptions",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history6.buildings.gupta_dynasty"
+          ],
+          "description": "Exploration of 'prashastis' as special inscriptions composed by poets to praise kings, serving as vital historical sources.",
+          "key_ideas": [
+            "Definition of Prashasti (meaning 'in praise of')",
+            "The Allahabad Pillar inscription composed by Harishena",
+            "Samudragupta portrayed as a warrior and a poet"
+          ]
+        },
+        {
+          "concept_id": "history6.buildings.harshavardhana",
+          "title": "Harshavardhana and His Times",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "history6.buildings.gupta_dynasty"
+          ],
+          "description": "A study of King Harshavardhana's reign through biographies and travelogues, distinct from the Gupta lineage.",
+          "key_ideas": [
+            "The biography 'Harshacharita' written by court poet Banabhatta",
+            "Accounts of the Chinese pilgrim Xuan Zang",
+            "Harsha's rule over Kanauj and his halt at the Narmada river"
+          ]
+        },
+        {
+          "concept_id": "history6.buildings.pallavas_chalukyas",
+          "title": "Kingdoms of the South: Pallavas and Chalukyas",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Introduction to the most important ruling dynasties in South India during this period, focusing on their capitals and conflicts.",
+          "key_ideas": [
+            "Pallavas centered around Kanchipuram",
+            "Chalukyas centered around Raichur Doab and Aihole",
+            "Pulakeshin II and the prashasti by Ravikirti"
+          ]
+        },
+        {
+          "concept_id": "history6.buildings.administration_armies",
+          "title": "Administration and Military Organization",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history6.buildings.gupta_dynasty",
+            "history6.buildings.pallavas_chalukyas"
+          ],
+          "description": "Analysis of how new kings managed their vast empires through administrative changes and military delegation.",
+          "key_ideas": [
+            "Hereditary administrative posts (e.g., Maha-danda-nayaka)",
+            "The role of Samantas (military leaders) who provided troops",
+            "Importance of land revenue for state maintenance"
+          ]
+        },
+        {
+          "concept_id": "history6.buildings.assemblies_people",
+          "title": "Local Assemblies and Ordinary People",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history6.buildings.administration_armies"
+          ],
+          "description": "Examination of local self-government structures in southern kingdoms and the lives of common people as depicted in literature.",
+          "key_ideas": [
+            "Types of assemblies: Sabha (brahmin landowners), Ur (non-brahmins), and Nagaram (merchants)",
+            "Kalidasa's plays depicting court life (e.g., Abhijnana Shakuntalam)",
+            "The plight of untouchables described by pilgrim Fa Xian"
+          ]
+        }
+      ]
+    }
+  ]
+}

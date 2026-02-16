@@ -1,0 +1,539 @@
+{
+  "course_id": "evs4",
+  "title": "Class 4 EVS",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Food and Agriculture",
+      "concepts": [
+        {
+          "concept_id": "evs4.food_agriculture.crops",
+          "title": "Crops — Kharif and Rabi",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Crops — Kharif and Rabi — part of the chapter on Food and Agriculture.",
+          "key_ideas": [
+            "Core principles of crops",
+            "Step-by-step problem solving for crops",
+            "Real-world applications of crops"
+          ]
+        },
+        {
+          "concept_id": "evs4.food_agriculture.farmer_life",
+          "title": "Life of a Farmer",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Life of a Farmer — part of the chapter on Food and Agriculture.",
+          "key_ideas": [
+            "Core principles of life of a farmer",
+            "Step-by-step problem solving for life of a farmer",
+            "Real-world applications of life of a farmer"
+          ]
+        },
+        {
+          "concept_id": "evs4.food_agriculture.farming_tools",
+          "title": "Tools Used in Agriculture",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs4.food_agriculture.farmer_life"
+          ],
+          "description": "Identification and usage of traditional and modern implements used by farmers to cultivate soil and harvest crops.",
+          "key_ideas": [
+            "Traditional tools like the plough (hal) and sickle",
+            "Modern machinery like tractors and harvesters",
+            "Specific tools for digging and loosening soil (Khunti)"
+          ]
+        },
+        {
+          "concept_id": "evs4.food_agriculture.farming_process",
+          "title": "Steps of Farming",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs4.food_agriculture.crops",
+            "evs4.food_agriculture.farming_tools"
+          ],
+          "description": "The chronological sequence of activities a farmer performs to grow a crop from a seed to a harvest ready for the market.",
+          "key_ideas": [
+            "Preparing the soil (ploughing)",
+            "Sowing seeds at the right distance",
+            "Irrigation (watering) and Weeding (removing unwanted plants)",
+            "Harvesting the ripe crop"
+          ]
+        },
+        {
+          "concept_id": "evs4.food_agriculture.market_journey",
+          "title": "From Field to Market (Mandi)",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs4.food_agriculture.farming_process"
+          ],
+          "description": "Understanding the supply chain of how harvested crops are transported, sold at wholesale markets, and eventually reach our homes.",
+          "key_ideas": [
+            "Transportation of crops via trucks or bullock carts",
+            "The role of the Mandi (Wholesale Market)",
+            "Vegetable sellers and retailers"
+          ]
+        },
+        {
+          "concept_id": "evs4.food_agriculture.food_spoilage",
+          "title": "Food Spoilage and Wastage",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [],
+          "description": "Recognizing signs that food has gone bad and understanding the difference between spoiling food and wasting food.",
+          "key_ideas": [
+            "Signs of spoilage (smell, color change, fungus)",
+            "Conditions that speed up spoilage (heat, moisture)",
+            "The ethical importance of not wasting food"
+          ]
+        },
+        {
+          "concept_id": "evs4.food_agriculture.preservation",
+          "title": "Methods of Food Preservation",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs4.food_agriculture.food_spoilage"
+          ],
+          "description": "Techniques used to store food for longer periods to prevent it from rotting.",
+          "key_ideas": [
+            "Drying (making papads or chips)",
+            "Pickling (using salt and oil)",
+            "Freezing and canning",
+            "Boiling milk to keep it fresh"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Water",
+      "concepts": [
+        {
+          "concept_id": "evs4.water4.water_sources",
+          "title": "Sources of Water",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Sources of Water — part of the chapter on Water.",
+          "key_ideas": [
+            "Core principles of sources of water",
+            "Step-by-step problem solving for sources of water",
+            "Real-world applications of sources of water"
+          ]
+        },
+        {
+          "concept_id": "evs4.water4.water_conservation",
+          "title": "Water Conservation",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "evs4.water4.water_sources"
+          ],
+          "description": "Water Conservation — part of the chapter on Water.",
+          "key_ideas": [
+            "Core principles of water conservation",
+            "Step-by-step problem solving for water conservation",
+            "Real-world applications of water conservation"
+          ]
+        },
+        {
+          "concept_id": "evs4.water4.states_of_water",
+          "title": "Forms of Water",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to the three states of water: solid (ice), liquid (water), and gas (vapour), and how they change from one to another.",
+          "key_ideas": [
+            "Water can exist as ice, liquid water, or steam",
+            "Heat turns water into vapour (evaporation)",
+            "Cooling turns vapour into water (condensation)"
+          ]
+        },
+        {
+          "concept_id": "evs4.water4.solubility",
+          "title": "Solubility in Water",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Exploration of how different substances interact with water, distinguishing between things that dissolve and things that do not.",
+          "key_ideas": [
+            "Some solids like sugar and salt dissolve in water",
+            "Some substances like sand and chalk powder do not dissolve",
+            "Oil does not mix with water and floats on top"
+          ]
+        },
+        {
+          "concept_id": "evs4.water4.floating_sinking",
+          "title": "Floating and Sinking",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Observational study of objects that float on water versus objects that sink, introducing basic concepts of buoyancy.",
+          "key_ideas": [
+            "Lighter or hollow objects often float",
+            "Heavy, solid objects often sink",
+            "Shape can change whether an object sinks or floats (e.g., a ball of dough vs. a boat)"
+          ]
+        },
+        {
+          "concept_id": "evs4.water4.potable_water",
+          "title": "Safe Drinking Water",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs4.water4.water_sources"
+          ],
+          "description": "Understanding the difference between clean and dirty water, and methods to make water safe for consumption.",
+          "key_ideas": [
+            "Not all clear water is safe to drink",
+            "Boiling kills germs in water",
+            "Filtration removes visible dirt and impurities"
+          ]
+        },
+        {
+          "concept_id": "evs4.water4.water_pollution",
+          "title": "Water Pollution",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs4.water4.water_sources"
+          ],
+          "description": "Identifying human activities that make water bodies dirty and the impact of polluted water on life.",
+          "key_ideas": [
+            "Washing clothes or bathing animals in rivers causes pollution",
+            "Factory waste makes water harmful",
+            "Polluted water harms fish and plants"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Our Environment",
+      "concepts": [
+        {
+          "concept_id": "evs4.our_environment.living_nonliving",
+          "title": "Living and Non-Living Things",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Living and Non-Living Things — part of the chapter on Our Environment.",
+          "key_ideas": [
+            "Core principles of living and non-living things",
+            "Step-by-step problem solving for living and non-living things",
+            "Real-world applications of living and non-living things"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_environment.deforestation",
+          "title": "Effects of Deforestation",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Effects of Deforestation — part of the chapter on Our Environment.",
+          "key_ideas": [
+            "Core principles of effects of deforestation",
+            "Step-by-step problem solving for effects of deforestation",
+            "Real-world applications of effects of deforestation"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_environment.interdependence",
+          "title": "Interdependence in Nature",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs4.our_environment.living_nonliving"
+          ],
+          "description": "Explains how living things depend on non-living things (like air, water, and soil) and on other living things for survival.",
+          "key_ideas": [
+            "Plants need sunlight, water, and soil to grow",
+            "Animals depend on plants for food and oxygen",
+            "The relationship between biotic and abiotic components"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_environment.pollution_types",
+          "title": "Types of Pollution",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs4.our_environment.interdependence"
+          ],
+          "description": "Identifies the different ways the environment gets dirty or harmful, focusing on air, water, land, and noise pollution.",
+          "key_ideas": [
+            "Causes of air pollution (smoke from vehicles and factories)",
+            "Causes of water pollution (dumping waste in rivers)",
+            "Impact of noise pollution on health"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_environment.waste_classification",
+          "title": "Biodegradable vs Non-biodegradable Waste",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs4.our_environment.living_nonliving"
+          ],
+          "description": "Differentiates between waste materials that rot and mix with the soil and those that remain in the environment for a long time.",
+          "key_ideas": [
+            "Biodegradable items (fruit peels, paper)",
+            "Non-biodegradable items (plastic, glass)",
+            "Why plastic is harmful to the soil and animals"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_environment.waste_management_3rs",
+          "title": "The 3Rs: Reduce, Reuse, Recycle",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs4.our_environment.waste_classification"
+          ],
+          "description": "Teaches actionable methods to minimize waste and protect the environment through the three R principle.",
+          "key_ideas": [
+            "Reducing usage of single-use items",
+            "Reusing old jars, bags, and clothes",
+            "Recycling paper and plastic to make new products"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_environment.conservation_measures",
+          "title": "Conservation of Natural Resources",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs4.our_environment.deforestation",
+            "evs4.our_environment.pollution_types"
+          ],
+          "description": "Discusses the importance of saving natural resources like water, forests, and fuel for future generations.",
+          "key_ideas": [
+            "Methods to save water at home",
+            "Importance of planting more trees (Afforestation)",
+            "Using electricity wisely"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Our Body",
+      "concepts": [
+        {
+          "concept_id": "evs4.our_body.organ_systems",
+          "title": "Organ Systems — Digestive, Respiratory",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Organ Systems — Digestive, Respiratory — part of the chapter on Our Body.",
+          "key_ideas": [
+            "Core principles of organ systems",
+            "Step-by-step problem solving for organ systems",
+            "Real-world applications of organ systems"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_body.diseases",
+          "title": "Common Diseases and Prevention",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Common Diseases and Prevention — part of the chapter on Our Body.",
+          "key_ideas": [
+            "Core principles of common diseases and prevention",
+            "Step-by-step problem solving for common diseases and prevention",
+            "Real-world applications of common diseases and prevention"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_body.sense_organs",
+          "title": "Sense Organs and Their Care",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the five sense organs, their specific functions in helping us perceive the world, and how to keep them clean and healthy.",
+          "key_ideas": [
+            "The five sense organs: Eyes, Ears, Nose, Tongue, Skin",
+            "Functions: Seeing, Hearing, Smelling, Tasting, Touching",
+            "Hygiene and protection of sense organs"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_body.teeth_and_microbes",
+          "title": "Teeth: Types, Structure, and Care",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Understanding the difference between temporary and permanent teeth, the four types of teeth based on function, and the basics of oral hygiene to prevent cavities.",
+          "key_ideas": [
+            "Milk teeth vs. Permanent teeth",
+            "Types of teeth: Incisors, Canines, Premolars, Molars",
+            "Tooth decay and proper brushing techniques",
+            "Introduction to microbes (bacteria, viruses, fungi, protozoa)"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_body.bones_and_muscles",
+          "title": "The Framework: Bones and Muscles",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Exploration of the skeletal system that gives shape to the body and the muscular system that enables movement.",
+          "key_ideas": [
+            "The Skeleton: Skull, Ribcage, Backbone, and Limbs",
+            "Joints: Where two bones meet to allow movement",
+            "How muscles contract and relax to move bones",
+            "Importance of calcium and protein"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_body.circulatory_excretory",
+          "title": "Circulatory and Excretory Systems",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs4.our_body.organ_systems"
+          ],
+          "description": "A basic overview of how blood transports materials through the body and how the body removes waste products.",
+          "key_ideas": [
+            "The Heart: Pumping blood to all body parts",
+            "Blood vessels: Arteries and Veins",
+            "The Kidneys: Filtering waste to form urine",
+            "The Skin: Removing waste through sweat"
+          ]
+        },
+        {
+          "concept_id": "evs4.our_body.health_and_posture",
+          "title": "Posture, Exercise, and Rest",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs4.our_body.bones_and_muscles"
+          ],
+          "description": "Learning the importance of correct body posture while sitting or standing, the role of regular exercise, and the necessity of adequate sleep.",
+          "key_ideas": [
+            "Correct posture for a healthy backbone",
+            "Benefits of exercise for muscle strength",
+            "Why the body needs sleep and rest",
+            "Recreation and mental health"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Maps and Globe",
+      "concepts": [
+        {
+          "concept_id": "evs4.maps_globe.directions",
+          "title": "Directions — North, South, East, West",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Directions — North, South, East, West — part of the chapter on Maps and Globe.",
+          "key_ideas": [
+            "Core principles of directions",
+            "Step-by-step problem solving for directions",
+            "Real-world applications of directions"
+          ]
+        },
+        {
+          "concept_id": "evs4.maps_globe.reading_maps",
+          "title": "Reading Simple Maps",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "evs4.maps_globe.directions"
+          ],
+          "description": "Reading Simple Maps — part of the chapter on Maps and Globe.",
+          "key_ideas": [
+            "Core principles of reading simple maps",
+            "Step-by-step problem solving for reading simple maps",
+            "Real-world applications of reading simple maps"
+          ]
+        },
+        {
+          "concept_id": "evs4.maps_globe.introduction_to_globe",
+          "title": "The Globe: A Model of the Earth",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding that a globe is a miniature, spherical model representing the Earth, showing how the Earth looks from space.",
+          "key_ideas": [
+            "A globe is round like a ball",
+            "It rotates on an axis just like the Earth",
+            "It shows the correct shape of continents and oceans"
+          ]
+        },
+        {
+          "concept_id": "evs4.maps_globe.landmarks",
+          "title": "Using Landmarks",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs4.maps_globe.directions"
+          ],
+          "description": "Identifying important buildings, trees, or natural features that help us remember a path or find a location.",
+          "key_ideas": [
+            "Landmarks are reference points used for navigation",
+            "They help describe where a place is located",
+            "Examples include schools, hospitals, parks, or statues"
+          ]
+        },
+        {
+          "concept_id": "evs4.maps_globe.symbols_and_keys",
+          "title": "Map Symbols and Keys",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs4.maps_globe.reading_maps"
+          ],
+          "description": "Learning to interpret the small pictures (symbols) and colors used on maps to represent real-world objects, using a legend or key.",
+          "key_ideas": [
+            "Maps use symbols because real objects are too big to draw",
+            "A 'Key' or 'Legend' explains what each symbol means",
+            "Standard colors represent features (e.g., blue for water, green for forests)"
+          ]
+        },
+        {
+          "concept_id": "evs4.maps_globe.continents_and_oceans",
+          "title": "Continents and Oceans",
+          "bloom_level": "remember",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs4.maps_globe.introduction_to_globe"
+          ],
+          "description": "Identifying and naming the large landmasses (continents) and vast water bodies (oceans) located on a globe or world map.",
+          "key_ideas": [
+            "The Earth is made up of land and water",
+            "Large land masses are called Continents",
+            "Large water bodies are called Oceans",
+            "Water covers more of the Earth than land"
+          ]
+        },
+        {
+          "concept_id": "evs4.maps_globe.map_vs_globe",
+          "title": "Difference Between Maps and Globes",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs4.maps_globe.introduction_to_globe",
+            "evs4.maps_globe.reading_maps"
+          ],
+          "description": "Comparing the advantages and limitations of using a flat map versus a spherical globe.",
+          "key_ideas": [
+            "A map is a flat drawing; a globe is a round model",
+            "Maps are easy to carry; globes are bulky",
+            "Maps can show small details (like a city); globes show the whole world"
+          ]
+        }
+      ]
+    }
+  ]
+}

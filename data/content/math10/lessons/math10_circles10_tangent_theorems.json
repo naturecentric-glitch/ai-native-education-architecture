@@ -1,0 +1,12 @@
+{
+  "title": "Tangent Theorems and Problem Solving — Circles",
+  "hook": "Let's explore <strong>Tangent Theorems and Problem Solving</strong> from the chapter on Circles. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Tangent Theorems and Problem Solving</strong>\n\n<em>Two tangents drawn from an external point to a circle are equal in length. This leads to many elegant geometric results and numerical problems.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Theorem 2: Tangents from an external point are equal (PA = PB)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 The line from external point to centre bisects the angle between tangents</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 OP bisects ∠APB and ∠AOB (O = centre, P = external point)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 In △OAP: OA² + AP² = OP² (right angle at A)</div>",
+  "worked_example": "<em>A detailed worked example for Tangent Theorems and Problem Solving will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Tangent Theorems and Problem Solving and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and circles concepts like tangent theorems and problem solving are used in engineering, data science, and everyday problem solving!"
+}

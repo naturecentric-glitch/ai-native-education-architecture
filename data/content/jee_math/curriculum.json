@@ -7,57 +7,93 @@
       "title": "Algebra",
       "concepts": [
         {
-          "concept_id": "jee_math.algebra.quadratic_theory",
-          "title": "Quadratic Equations — Theory of Equations",
+          "concept_id": "jee_math.algebra.quadratic_matrices_pnc",
+          "title": "Quadratics, Matrices, P&C, Binomial",
           "bloom_level": "apply",
-          "difficulty": 0.5,
+          "difficulty": 0.55,
           "prerequisites": [],
-          "description": "Quadratic Equations — Theory of Equations — part of the chapter on Algebra.",
+          "description": "Quadratics, Matrices, P&C, Binomial — part of the chapter on Algebra.",
           "key_ideas": [
-            "Core principles of quadratic equations",
-            "Step-by-step problem solving for quadratic equations",
-            "Real-world applications of quadratic equations"
+            "Core principles of quadratics, matrices, p&c, binomial",
+            "Step-by-step problem solving for quadratics, matrices, p&c, binomial",
+            "Real-world applications of quadratics, matrices, p&c, binomial"
+          ]
+        },
+        {
+          "concept_id": "jee_math.algebra.sets_relations_functions",
+          "title": "Sets, Relations, and Functions",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Foundational concepts involving set theory, mapping logic, and the definitions of relations and functions essential for calculus and higher algebra.",
+          "key_ideas": [
+            "Set operations and Venn diagrams",
+            "Types of relations: Reflexive, Symmetric, Transitive, Equivalence",
+            "Function definitions: Domain, Codomain, Range",
+            "Classification of functions: One-to-one, Onto, Inverse functions"
           ]
         },
         {
           "concept_id": "jee_math.algebra.sequences_series",
-          "title": "Sequences, Series and Summation",
+          "title": "Sequences and Series",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [],
-          "description": "Sequences, Series and Summation — part of the chapter on Algebra.",
-          "key_ideas": [
-            "Core principles of sequences, series and summation",
-            "Step-by-step problem solving for sequences, series and summation",
-            "Real-world applications of sequences, series and summation"
-          ]
-        },
-        {
-          "concept_id": "jee_math.algebra.matrices_determinants",
-          "title": "Matrices and Determinants (JEE Level)",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
           "prerequisites": [
-            "jee_math.algebra.quadratic_theory"
+            "jee_math.algebra.sets_relations_functions"
           ],
-          "description": "Matrices and Determinants (JEE Level) — part of the chapter on Algebra.",
+          "description": "Study of numerical progressions, summation techniques, and inequalities relating to means, forming the basis for discrete analysis.",
           "key_ideas": [
-            "Core principles of matrices and determinants (jee level)",
-            "Step-by-step problem solving for matrices and determinants (jee level)",
-            "Real-world applications of matrices and determinants (jee level)"
+            "Arithmetic (AP), Geometric (GP), and Harmonic (HP) Progressions",
+            "Arithmetico-Geometric Series (AGP)",
+            "AM-GM-HM Inequalities",
+            "Telescoping series and Sigma notation"
           ]
         },
         {
-          "concept_id": "jee_math.algebra.pnc_binomial",
-          "title": "Permutations, Combinations, Binomial Theorem",
-          "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": [],
-          "description": "Permutations, Combinations, Binomial Theorem — part of the chapter on Algebra.",
+          "concept_id": "jee_math.algebra.complex_numbers",
+          "title": "Complex Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.75,
+          "prerequisites": [
+            "jee_math.algebra.quadratic_matrices_pnc"
+          ],
+          "description": "Analysis of the complex number system, including algebraic properties and their geometric interpretations in the Argand plane.",
           "key_ideas": [
-            "Core principles of permutations, combinations, binomial theorem",
-            "Step-by-step problem solving for permutations, combinations, binomial theorem",
-            "Real-world applications of permutations, combinations, binomial theorem"
+            "Algebra of complex numbers and conjugate properties",
+            "Modulus, Argument, and Polar/Euler forms",
+            "Cube roots of unity and De Moivre's Theorem",
+            "Geometry of complex numbers (Rotation, Locus)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.algebra.probability",
+          "title": "Probability",
+          "bloom_level": "evaluate",
+          "difficulty": 0.85,
+          "prerequisites": [
+            "jee_math.algebra.quadratic_matrices_pnc",
+            "jee_math.algebra.sets_relations_functions"
+          ],
+          "description": "Mathematical framework for quantifying uncertainty, leveraging counting principles to solve problems involving random events.",
+          "key_ideas": [
+            "Axiomatic probability and addition theorems",
+            "Conditional probability and Independent events",
+            "Total Probability Theorem and Bayes' Theorem",
+            "Bernoulli trials and Binomial distribution"
+          ]
+        },
+        {
+          "concept_id": "jee_math.algebra.mathematical_reasoning",
+          "title": "Mathematical Reasoning",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to logic, statement validity, and logical connectives used to construct mathematical arguments.",
+          "key_ideas": [
+            "Statements and logical connectives (AND, OR, NOT)",
+            "Implications: Converse, Inverse, Contrapositive",
+            "Tautology and Fallacy",
+            "Algebra of statements"
           ]
         }
       ]
@@ -67,76 +103,114 @@
       "title": "Calculus",
       "concepts": [
         {
-          "concept_id": "jee_math.calculus.limits_continuity",
-          "title": "Limits and Continuity (JEE Level)",
+          "concept_id": "jee_math.calculus.limits_diff_int_de",
+          "title": "Limits, Differentiation, Integration, DEs",
           "bloom_level": "apply",
-          "difficulty": 0.55,
+          "difficulty": 0.6,
           "prerequisites": [],
-          "description": "Limits and Continuity (JEE Level) — part of the chapter on Calculus.",
+          "description": "Limits, Differentiation, Integration, DEs — part of the chapter on Calculus.",
           "key_ideas": [
-            "Core principles of limits and continuity (jee level)",
-            "Step-by-step problem solving for limits and continuity (jee level)",
-            "Real-world applications of limits and continuity (jee level)"
+            "Core principles of limits, differentiation, integration, des",
+            "Step-by-step problem solving for limits, differentiation, integration, des",
+            "Real-world applications of limits, differentiation, integration, des"
           ]
         },
         {
-          "concept_id": "jee_math.calculus.differentiation_jee",
-          "title": "Differentiation Techniques",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
+          "concept_id": "jee_math.calculus.functions_and_graphs",
+          "title": "Functions and Graphical Transformations",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Foundational study of function types, their domains, ranges, and graphical behaviors including composite and inverse functions.",
+          "key_ideas": [
+            "Domain and Range calculation",
+            "One-one (Injective) and Onto (Surjective) mapping",
+            "Composite and Inverse functions",
+            "Graphical transformations (shifting, scaling, reflection)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.calculus.continuity_differentiability",
+          "title": "Continuity and Differentiability",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
           "prerequisites": [
-            "jee_math.calculus.limits_continuity"
+            "jee_math.calculus.functions_and_graphs",
+            "jee_math.calculus.limits_diff_int_de"
           ],
-          "description": "Differentiation Techniques — part of the chapter on Calculus.",
+          "description": "Analysis of function behavior at specific points to determine if a graph is unbroken or smooth, focusing on critical points and piecewise functions.",
           "key_ideas": [
-            "Core principles of differentiation techniques",
-            "Step-by-step problem solving for differentiation techniques",
-            "Real-world applications of differentiation techniques"
+            "Types of Discontinuity (Removable, Jump, Infinite)",
+            "Intermediate Value Theorem",
+            "Relationship between Continuity and Differentiability",
+            "Differentiability of modulus and piecewise functions"
           ]
         },
         {
-          "concept_id": "jee_math.calculus.application_derivatives_jee",
-          "title": "Application of Derivatives — Maxima, Minima, Tangents",
-          "bloom_level": "apply",
+          "concept_id": "jee_math.calculus.application_of_derivatives",
+          "title": "Applications of Derivatives (AOD)",
+          "bloom_level": "evaluate",
           "difficulty": 0.6,
           "prerequisites": [
-            "jee_math.calculus.differentiation_jee"
+            "jee_math.calculus.continuity_differentiability",
+            "jee_math.calculus.limits_diff_int_de"
           ],
-          "description": "Application of Derivatives — Maxima, Minima, Tangents — part of the chapter on Calculus.",
+          "description": "Utilizing derivatives to analyze the shape of curves, rates of change, and optimization problems.",
           "key_ideas": [
-            "Core principles of application of derivatives",
-            "Step-by-step problem solving for application of derivatives",
-            "Real-world applications of application of derivatives"
+            "Tangents and Normals",
+            "Monotonicity (Increasing and Decreasing functions)",
+            "Maxima and Minima (First and Second Derivative Tests)",
+            "Mean Value Theorems (Rolle's and Lagrange's)"
           ]
         },
         {
-          "concept_id": "jee_math.calculus.integration_jee",
-          "title": "Definite and Indefinite Integration",
+          "concept_id": "jee_math.calculus.definite_integral_properties",
+          "title": "Properties of Definite Integrals",
           "bloom_level": "apply",
-          "difficulty": 0.6,
+          "difficulty": 0.7,
           "prerequisites": [
-            "jee_math.calculus.differentiation_jee"
+            "jee_math.calculus.limits_diff_int_de"
           ],
-          "description": "Definite and Indefinite Integration — part of the chapter on Calculus.",
+          "description": "Advanced techniques for evaluating definite integrals using symmetry, periodicity, and specific integral properties rather than finding antiderivatives.",
           "key_ideas": [
-            "Core principles of definite and indefinite integration",
-            "Step-by-step problem solving for definite and indefinite integration",
-            "Real-world applications of definite and indefinite integration"
+            "King's and Queen's Properties",
+            "Leibniz Rule (Differentiation under the integral sign)",
+            "Integrals of periodic and odd/even functions",
+            "Estimation of Definite Integrals (Inequalities)"
           ]
         },
         {
-          "concept_id": "jee_math.calculus.differential_equations_jee",
-          "title": "Differential Equations",
-          "bloom_level": "apply",
-          "difficulty": 0.6,
+          "concept_id": "jee_math.calculus.area_under_curves",
+          "title": "Area Under Curves (Quadrature)",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
           "prerequisites": [
-            "jee_math.calculus.integration_jee"
+            "jee_math.calculus.definite_integral_properties",
+            "jee_math.calculus.functions_and_graphs"
           ],
-          "description": "Differential Equations — part of the chapter on Calculus.",
+          "description": "Geometric application of definite integration to calculate the area bounded by curves, lines, and axes.",
           "key_ideas": [
-            "Core principles of differential equations",
-            "Step-by-step problem solving for differential equations",
-            "Real-world applications of differential equations"
+            "Area between two curves",
+            "Area involving modulus functions",
+            "Curve tracing for area determination",
+            "Variable integration limits"
+          ]
+        },
+        {
+          "concept_id": "jee_math.calculus.solving_differential_equations",
+          "title": "Methods for Solving Differential Equations",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "jee_math.calculus.limits_diff_int_de",
+            "jee_math.calculus.definite_integral_properties"
+          ],
+          "description": "Systematic approaches to finding general and particular solutions for first-order differential equations.",
+          "key_ideas": [
+            "Variable Separation method",
+            "Homogeneous Differential Equations",
+            "Linear Differential Equations (Integrating Factor)",
+            "Exact Differential Equations"
           ]
         }
       ]
@@ -146,46 +220,94 @@
       "title": "Coordinate Geometry",
       "concepts": [
         {
-          "concept_id": "jee_math.coordinate_geometry_jee.straight_lines_jee",
-          "title": "Straight Lines (JEE Level)",
-          "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": [],
-          "description": "Straight Lines (JEE Level) — part of the chapter on Coordinate Geometry.",
-          "key_ideas": [
-            "Core principles of straight lines (jee level)",
-            "Step-by-step problem solving for straight lines (jee level)",
-            "Real-world applications of straight lines (jee level)"
-          ]
-        },
-        {
-          "concept_id": "jee_math.coordinate_geometry_jee.circles_jee",
-          "title": "Circles",
+          "concept_id": "jee_math.coordinate_jee.lines_circles_conics",
+          "title": "Lines, Circles, Conics",
           "bloom_level": "apply",
           "difficulty": 0.55,
-          "prerequisites": [
-            "jee_math.coordinate_geometry_jee.straight_lines_jee"
-          ],
-          "description": "Circles — part of the chapter on Coordinate Geometry.",
+          "prerequisites": [],
+          "description": "Lines, Circles, Conics — part of the chapter on Coordinate Geometry.",
           "key_ideas": [
-            "Core principles of circles",
-            "Step-by-step problem solving for circles",
-            "Real-world applications of circles"
+            "Core principles of lines, circles, conics",
+            "Step-by-step problem solving for lines, circles, conics",
+            "Real-world applications of lines, circles, conics"
           ]
         },
         {
-          "concept_id": "jee_math.coordinate_geometry_jee.conics_jee",
-          "title": "Parabola, Ellipse, Hyperbola (JEE Level)",
+          "concept_id": "jee_math.coordinate_jee.fundamentals_and_locus",
+          "title": "Cartesian System and Locus",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Foundational principles of the 2D Cartesian plane, including distance and section formulas, area of polygons, and the mathematical definition of a locus based on geometric conditions.",
+          "key_ideas": [
+            "Distance and Section formulas (internal and external division)",
+            "Coordinates of special centers: Centroid, Incenter, Orthocenter, Circumcenter",
+            "Step-by-step procedure for finding the equation of a Locus"
+          ]
+        },
+        {
+          "concept_id": "jee_math.coordinate_jee.transformation_of_axes",
+          "title": "Transformation of Axes",
           "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "jee_math.coordinate_jee.fundamentals_and_locus"
+          ],
+          "description": "Techniques to simplify algebraic equations of curves by shifting the origin or rotating the coordinate axes without changing the relative position of points.",
+          "key_ideas": [
+            "Translation of axes (Shifting origin)",
+            "Rotation of axes (Removing the xy term)",
+            "Invariants under transformation"
+          ]
+        },
+        {
+          "concept_id": "jee_math.coordinate_jee.pair_of_straight_lines",
+          "title": "Pair of Straight Lines",
+          "bloom_level": "analyze",
           "difficulty": 0.6,
           "prerequisites": [
-            "jee_math.coordinate_geometry_jee.circles_jee"
+            "jee_math.coordinate_jee.fundamentals_and_locus",
+            "jee_math.coordinate_jee.lines_circles_conics"
           ],
-          "description": "Parabola, Ellipse, Hyperbola (JEE Level) — part of the chapter on Coordinate Geometry.",
+          "description": "Study of the joint equation of two lines passing through the origin (homogeneous) and general equations representing two lines, including conditions for parallelism and perpendicularity.",
           "key_ideas": [
-            "Core principles of parabola, ellipse, hyperbola (jee level)",
-            "Step-by-step problem solving for parabola, ellipse, hyperbola (jee level)",
-            "Real-world applications of parabola, ellipse, hyperbola (jee level)"
+            "Homogeneous equation of second degree: ax² + 2hxy + by² = 0",
+            "Angle between pair of lines and condition for perpendicularity (a+b=0)",
+            "Equation of angle bisectors",
+            "General equation of second degree representing a pair of lines (Δ = 0)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.coordinate_jee.tangents_and_normals_general",
+          "title": "Tangents and Normals (General Theory)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "jee_math.coordinate_jee.lines_circles_conics"
+          ],
+          "description": "Unified approach to finding equations of tangents and normals for circles, parabolas, ellipses, and hyperbolas using slope forms, point forms, and parametric forms.",
+          "key_ideas": [
+            "Condition of tangency for line y = mx + c against various conics",
+            "Equation of tangent at a point (T = 0)",
+            "Parametric coordinates and parametric equations of tangents",
+            "Properties of normals for specific conics"
+          ]
+        },
+        {
+          "concept_id": "jee_math.coordinate_jee.advanced_interaction_properties",
+          "title": "Interaction of Points and Conics",
+          "bloom_level": "create",
+          "difficulty": 0.85,
+          "prerequisites": [
+            "jee_math.coordinate_jee.tangents_and_normals_general"
+          ],
+          "description": "Advanced geometric properties arising from the interaction of external points with conic sections, including chords of contact, director circles, and the concept of families of curves.",
+          "key_ideas": [
+            "Position of a point relative to a conic (S1 notation)",
+            "Equation of Chord of Contact (T = 0)",
+            "Equation of Chord with a given midpoint (T = S1)",
+            "Director Circle properties (Locus of intersection of perpendicular tangents)",
+            "Family of lines and circles (S + λL = 0)"
           ]
         }
       ]
@@ -195,31 +317,82 @@
       "title": "Vectors and 3D Geometry",
       "concepts": [
         {
-          "concept_id": "jee_math.vectors_3d_jee.vectors_jee",
-          "title": "Vectors — Dot, Cross Product (JEE Level)",
+          "concept_id": "jee_math.vectors_3d.vectors_planes",
+          "title": "Vectors, Lines and Planes in 3D",
           "bloom_level": "apply",
-          "difficulty": 0.5,
+          "difficulty": 0.55,
           "prerequisites": [],
-          "description": "Vectors — Dot, Cross Product (JEE Level) — part of the chapter on Vectors and 3D Geometry.",
+          "description": "Vectors, Lines and Planes in 3D — part of the chapter on Vectors and 3D Geometry.",
           "key_ideas": [
-            "Core principles of vectors",
-            "Step-by-step problem solving for vectors",
-            "Real-world applications of vectors"
+            "Core principles of vectors, lines and planes in 3d",
+            "Step-by-step problem solving for vectors, lines and planes in 3d",
+            "Real-world applications of vectors, lines and planes in 3d"
           ]
         },
         {
-          "concept_id": "jee_math.vectors_3d_jee.3d_geometry_jee",
-          "title": "3D Geometry — Lines, Planes",
+          "concept_id": "jee_math.vectors_3d.scalar_vector_products",
+          "title": "Scalar and Vector Products",
           "bloom_level": "apply",
-          "difficulty": 0.55,
+          "difficulty": 0.3,
           "prerequisites": [
-            "jee_math.vectors_3d_jee.vectors_jee"
+            "jee_math.vectors_3d.vectors_planes"
           ],
-          "description": "3D Geometry — Lines, Planes — part of the chapter on Vectors and 3D Geometry.",
+          "description": "Exploration of the Dot (Scalar) and Cross (Vector) products, including their geometric interpretations, properties, and applications in physics and geometry.",
           "key_ideas": [
-            "Core principles of 3d geometry",
-            "Step-by-step problem solving for 3d geometry",
-            "Real-world applications of 3d geometry"
+            "Scalar product for finding angles and projection of one vector onto another",
+            "Vector product for finding perpendicular vectors and area of triangles/parallelograms",
+            "Conditions for orthogonality and collinearity",
+            "Lagrange's Identity relating dot and cross products"
+          ]
+        },
+        {
+          "concept_id": "jee_math.vectors_3d.triple_products",
+          "title": "Scalar and Vector Triple Products",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "jee_math.vectors_3d.scalar_vector_products"
+          ],
+          "description": "Detailed study of Scalar Triple Product (STP) and Vector Triple Product (VTP), focusing on expansion formulas and geometric significance involving volumes and coplanarity.",
+          "key_ideas": [
+            "Scalar Triple Product (Box Product) representing the volume of a parallelepiped",
+            "Condition for coplanarity of three vectors (STP = 0)",
+            "Vector Triple Product expansion formula: a x (b x c) = (a.c)b - (a.b)c",
+            "Reciprocal system of vectors"
+          ]
+        },
+        {
+          "concept_id": "jee_math.vectors_3d.skew_lines_shortest_distance",
+          "title": "Skew Lines and Shortest Distance",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "jee_math.vectors_3d.vectors_planes",
+            "jee_math.vectors_3d.scalar_vector_products"
+          ],
+          "description": "Analysis of lines in 3D space that are neither parallel nor intersecting (skew lines), and the calculation of the shortest distance between them.",
+          "key_ideas": [
+            "Definition and identification of skew lines versus intersecting lines",
+            "Formula for shortest distance between two skew lines using vector methods",
+            "Distance between two parallel lines",
+            "Finding the equation of the line of shortest distance"
+          ]
+        },
+        {
+          "concept_id": "jee_math.vectors_3d.plane_intersections_family",
+          "title": "Intersection of Planes and Family of Planes",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "jee_math.vectors_3d.vectors_planes",
+            "jee_math.vectors_3d.scalar_vector_products"
+          ],
+          "description": "Advanced study of the relationship between multiple planes, including angles between planes, lines of intersection, and the equation of a plane passing through the intersection of two others.",
+          "key_ideas": [
+            "Angle between two planes and angle between a line and a plane",
+            "Equation of a plane passing through the intersection of two planes (Family of Planes)",
+            "Equation of angle bisectors of two planes",
+            "Image and foot of perpendicular of a point with respect to a plane"
           ]
         }
       ]
@@ -229,31 +402,105 @@
       "title": "Trigonometry",
       "concepts": [
         {
-          "concept_id": "jee_math.trigonometry_jee.trig_equations_jee",
-          "title": "Trigonometric Equations",
+          "concept_id": "jee_math.trigonometry_jee.trig_equations_inverse",
+          "title": "Trigonometric Equations and Inverse Trig",
           "bloom_level": "apply",
-          "difficulty": 0.5,
+          "difficulty": 0.55,
           "prerequisites": [],
-          "description": "Trigonometric Equations — part of the chapter on Trigonometry.",
+          "description": "Trigonometric Equations and Inverse Trig — part of the chapter on Trigonometry.",
           "key_ideas": [
-            "Core principles of trigonometric equations",
-            "Step-by-step problem solving for trigonometric equations",
-            "Real-world applications of trigonometric equations"
+            "Core principles of trigonometric equations and inverse trig",
+            "Step-by-step problem solving for trigonometric equations and inverse trig",
+            "Real-world applications of trigonometric equations and inverse trig"
           ]
         },
         {
-          "concept_id": "jee_math.trigonometry_jee.inverse_trig_jee",
-          "title": "Inverse Trigonometric Functions (JEE Level)",
+          "concept_id": "jee_math.trigonometry_jee.compound_transformation_identities",
+          "title": "Compound Angles and Transformation Formulas",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Fundamental trigonometric operations involving the sum and difference of angles, and techniques to transform products of trigonometric functions into sums and vice versa.",
+          "key_ideas": [
+            "Addition and subtraction formulas for sine, cosine, and tangent",
+            "Transformation of product to sum and sum to product",
+            "Trigonometric ratios of allied angles"
+          ]
+        },
+        {
+          "concept_id": "jee_math.trigonometry_jee.multiple_submultiple_angles",
+          "title": "Multiple and Sub-multiple Angles",
           "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [
+            "jee_math.trigonometry_jee.compound_transformation_identities"
+          ],
+          "description": "Analysis of trigonometric ratios for angles that are multiples (2A, 3A) or sub-multiples (A/2) of a given angle, including derivation of key identities used in calculus.",
+          "key_ideas": [
+            "Double angle and triple angle formulas",
+            "Half-angle formulas in terms of semi-perimeter",
+            "Expressing sin, cos, and tan in terms of tan(A/2)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.trigonometry_jee.extremum_values_periodicity",
+          "title": "Periodicity and Extremum Values",
+          "bloom_level": "analyze",
           "difficulty": 0.55,
           "prerequisites": [
-            "jee_math.trigonometry_jee.trig_equations_jee"
+            "jee_math.trigonometry_jee.compound_transformation_identities"
           ],
-          "description": "Inverse Trigonometric Functions (JEE Level) — part of the chapter on Trigonometry.",
+          "description": "Study of the periodic nature of trigonometric functions and methods to determine the maximum and minimum values of trigonometric expressions.",
           "key_ideas": [
-            "Core principles of inverse trigonometric functions (jee level)",
-            "Step-by-step problem solving for inverse trigonometric functions (jee level)",
-            "Real-world applications of inverse trigonometric functions (jee level)"
+            "Finding the period of composite trigonometric functions",
+            "Range of the expression a*sin(x) + b*cos(x)",
+            "Using AM-GM inequality for trigonometric extrema"
+          ]
+        },
+        {
+          "concept_id": "jee_math.trigonometry_jee.properties_of_triangles",
+          "title": "Properties of Triangles (Sine and Cosine Rules)",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "jee_math.trigonometry_jee.multiple_submultiple_angles",
+            "jee_math.trigonometry_jee.trig_equations_inverse"
+          ],
+          "description": "Application of trigonometry to relate the sides and angles of a triangle, forming the basis for solving general triangles.",
+          "key_ideas": [
+            "Sine Rule and Cosine Rule",
+            "Projection Formula",
+            "Napier's Analogy (Tangent Rule)"
+          ]
+        },
+        {
+          "concept_id": "jee_math.trigonometry_jee.circles_connected_to_triangles",
+          "title": "Solution of Triangles: Circles and Radii",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "jee_math.trigonometry_jee.properties_of_triangles"
+          ],
+          "description": "Advanced study of the geometric centers of triangles and their associated circles (incircle, circumcircle, excircles) using trigonometric formulas.",
+          "key_ideas": [
+            "Formulas for Inradius (r) and Circumradius (R)",
+            "Properties of Ex-radii and Ex-centers",
+            "Relations between Orthocenter, Centroid, and Circumcenter"
+          ]
+        },
+        {
+          "concept_id": "jee_math.trigonometry_jee.heights_and_distances",
+          "title": "Heights and Distances",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "jee_math.trigonometry_jee.compound_transformation_identities"
+          ],
+          "description": "Practical application of trigonometry to determine vertical heights and horizontal distances in real-world scenarios involving angles of elevation and depression.",
+          "key_ideas": [
+            "Angle of Elevation and Depression",
+            "Solving problems in two and three dimensions",
+            "North-East-South-West bearing problems"
           ]
         }
       ]
@@ -263,31 +510,93 @@
       "title": "Probability and Statistics",
       "concepts": [
         {
-          "concept_id": "jee_math.probability_jee.probability_jee",
-          "title": "Probability (JEE Level)",
+          "concept_id": "jee_math.probability_jee.prob_distributions",
+          "title": "Probability and Distributions",
           "bloom_level": "apply",
-          "difficulty": 0.5,
+          "difficulty": 0.55,
           "prerequisites": [],
-          "description": "Probability (JEE Level) — part of the chapter on Probability and Statistics.",
+          "description": "Probability and Distributions — part of the chapter on Probability and Statistics.",
           "key_ideas": [
-            "Core principles of probability (jee level)",
-            "Step-by-step problem solving for probability (jee level)",
-            "Real-world applications of probability (jee level)"
+            "Core principles of probability and distributions",
+            "Step-by-step problem solving for probability and distributions",
+            "Real-world applications of probability and distributions"
           ]
         },
         {
-          "concept_id": "jee_math.probability_jee.distributions_jee",
-          "title": "Probability Distributions — Binomial",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
-          "prerequisites": [
-            "jee_math.probability_jee.probability_jee"
-          ],
-          "description": "Probability Distributions — Binomial — part of the chapter on Probability and Statistics.",
+          "concept_id": "jee_math.probability_jee.axiomatic_prob_events",
+          "title": "Axiomatic Probability and Algebra of Events",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the set-theoretic approach to probability, including sample spaces, event types, and the addition theorems.",
           "key_ideas": [
-            "Core principles of probability distributions",
-            "Step-by-step problem solving for probability distributions",
-            "Real-world applications of probability distributions"
+            "Sample space and event definitions (mutually exclusive, exhaustive)",
+            "Axiomatic definition of probability",
+            "Addition theorem for two and three events",
+            "Probability of 'at least one' or 'exactly one' event"
+          ]
+        },
+        {
+          "concept_id": "jee_math.probability_jee.conditional_independence",
+          "title": "Conditional Probability and Independence",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "jee_math.probability_jee.axiomatic_prob_events"
+          ],
+          "description": "Analysis of events occurring under specific conditions and the mathematical definition of independent events.",
+          "key_ideas": [
+            "Definition and formula of conditional probability",
+            "Multiplication theorem of probability",
+            "Pairwise vs. mutual independence of events",
+            "Solving problems involving replacement vs. non-replacement"
+          ]
+        },
+        {
+          "concept_id": "jee_math.probability_jee.bayes_theorem",
+          "title": "Total Probability and Bayes' Theorem",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "jee_math.probability_jee.conditional_independence"
+          ],
+          "description": "Advanced probabilistic reasoning involving the Law of Total Probability and calculating inverse probabilities using Bayes' Theorem.",
+          "key_ideas": [
+            "Partition of a sample space",
+            "Theorem of Total Probability",
+            "Bayes' Theorem for inverse probability",
+            "Applications in diagnostic tests and cause-effect analysis"
+          ]
+        },
+        {
+          "concept_id": "jee_math.probability_jee.bernoulli_binomial",
+          "title": "Bernoulli Trials and Binomial Distribution",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "jee_math.probability_jee.conditional_independence",
+            "jee_math.probability_jee.prob_distributions"
+          ],
+          "description": "Study of repeated independent trials with binary outcomes and the resulting probability distribution.",
+          "key_ideas": [
+            "Conditions for Bernoulli trials",
+            "Probability mass function of Binomial Distribution",
+            "Calculation of mean and variance for Binomial Distribution",
+            "Recurrence relation for binomial probabilities"
+          ]
+        },
+        {
+          "concept_id": "jee_math.probability_jee.measures_dispersion",
+          "title": "Statistics: Measures of Dispersion",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Statistical analysis of data spread, focusing on variance and standard deviation for grouped and ungrouped data.",
+          "key_ideas": [
+            "Mean deviation about mean and median",
+            "Variance and Standard Deviation formulas",
+            "Shortcut methods for calculation (Step-Deviation)",
+            "Coefficient of variation and analysis of frequency distributions"
           ]
         }
       ]

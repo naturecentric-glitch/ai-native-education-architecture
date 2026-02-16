@@ -1,0 +1,548 @@
+{
+  "course_id": "evs2",
+  "title": "Class 2 EVS",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "My Neighbourhood",
+      "concepts": [
+        {
+          "concept_id": "evs2.my_neighbourhood.places",
+          "title": "Places in My Neighbourhood",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Places in My Neighbourhood — part of the chapter on My Neighbourhood.",
+          "key_ideas": [
+            "Core principles of places in my neighbourhood",
+            "Step-by-step problem solving for places in my neighbourhood",
+            "Real-world applications of places in my neighbourhood"
+          ]
+        },
+        {
+          "concept_id": "evs2.my_neighbourhood.helpers",
+          "title": "Community Helpers",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Community Helpers — part of the chapter on My Neighbourhood.",
+          "key_ideas": [
+            "Core principles of community helpers",
+            "Step-by-step problem solving for community helpers",
+            "Real-world applications of community helpers"
+          ]
+        },
+        {
+          "concept_id": "evs2.my_neighbourhood.cleanliness",
+          "title": "Keeping the Neighbourhood Clean",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs2.my_neighbourhood.places"
+          ],
+          "description": "Understanding the importance of hygiene, waste disposal, and maintaining greenery in the surrounding area.",
+          "key_ideas": [
+            "Throwing garbage in dustbins",
+            "Keeping parks and streets clean",
+            "Planting trees and caring for plants",
+            "Avoiding the use of plastic bags"
+          ]
+        },
+        {
+          "concept_id": "evs2.my_neighbourhood.emergency_services",
+          "title": "Emergency Services",
+          "bloom_level": "remember",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs2.my_neighbourhood.helpers",
+            "evs2.my_neighbourhood.places"
+          ],
+          "description": "Identifying critical services required during accidents, fires, or theft and knowing how to contact them.",
+          "key_ideas": [
+            "Role of the Police Station and Police Officers",
+            "Role of the Fire Station and Firefighters",
+            "Role of Hospitals and Ambulances",
+            "Important emergency telephone numbers"
+          ]
+        },
+        {
+          "concept_id": "evs2.my_neighbourhood.values",
+          "title": "Being a Good Neighbour",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs2.my_neighbourhood.places"
+          ],
+          "description": "Learning the social values and etiquette required to live peacefully and happily within a community.",
+          "key_ideas": [
+            "Helping neighbours in need",
+            "Celebrating festivals together",
+            "Not making loud noise or disturbing others",
+            "Greeting and respecting elders in the neighbourhood"
+          ]
+        },
+        {
+          "concept_id": "evs2.my_neighbourhood.safety_rules",
+          "title": "Safety in the Neighbourhood",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs2.my_neighbourhood.places",
+            "evs2.my_neighbourhood.helpers"
+          ],
+          "description": "Basic safety rules to follow when walking, playing, or interacting with others in the neighbourhood.",
+          "key_ideas": [
+            "Walking on the footpath",
+            "Using zebra crossings",
+            "Playing in parks, not on the road",
+            "Stranger safety awareness"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Plants and Trees",
+      "concepts": [
+        {
+          "concept_id": "evs2.plants2.importance",
+          "title": "Importance of Plants",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Importance of Plants — part of the chapter on Plants and Trees.",
+          "key_ideas": [
+            "Core principles of importance of plants",
+            "Step-by-step problem solving for importance of plants",
+            "Real-world applications of importance of plants"
+          ]
+        },
+        {
+          "concept_id": "evs2.plants2.growth",
+          "title": "How Plants Grow — Seed to Plant",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "How Plants Grow — Seed to Plant — part of the chapter on Plants and Trees.",
+          "key_ideas": [
+            "Core principles of how plants grow",
+            "Step-by-step problem solving for how plants grow",
+            "Real-world applications of how plants grow"
+          ]
+        },
+        {
+          "concept_id": "evs2.plants2.parts_of_plant",
+          "title": "Parts of a Plant",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Identification and functions of different parts of a plant including roots, stem, leaves, flowers, and fruits.",
+          "key_ideas": [
+            "Roots hold the plant in the soil",
+            "Stems carry water and food",
+            "Leaves make food for the plant",
+            "Flowers grow into fruits"
+          ]
+        },
+        {
+          "concept_id": "evs2.plants2.types_classification",
+          "title": "Types of Plants: Trees, Shrubs, and Herbs",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs2.plants2.growth"
+          ],
+          "description": "Classifying plants based on their size and stem structure, distinguishing between big trees, bushy shrubs, and small herbs.",
+          "key_ideas": [
+            "Trees have hard, thick woody stems called trunks",
+            "Shrubs are smaller than trees and have woody stems",
+            "Herbs are very small plants with soft, green stems"
+          ]
+        },
+        {
+          "concept_id": "evs2.plants2.climbers_creepers",
+          "title": "Climbers and Creepers",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs2.plants2.types_classification"
+          ],
+          "description": "Understanding plants with weak stems that need support to grow upright or grow along the ground.",
+          "key_ideas": [
+            "Climbers need support like a stick or wall to grow up",
+            "Creepers grow along the ground because their fruit is heavy",
+            "Both have weak stems compared to trees"
+          ]
+        },
+        {
+          "concept_id": "evs2.plants2.edible_parts",
+          "title": "Parts of Plants We Eat",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "evs2.plants2.parts_of_plant"
+          ],
+          "description": "Identifying which specific parts of different plants are used as food, such as eating the root of a carrot or the leaf of spinach.",
+          "key_ideas": [
+            "We eat roots like carrots and radishes",
+            "We eat stems like sugarcane and potato",
+            "We eat leaves like spinach and cabbage",
+            "We eat seeds like rice and wheat"
+          ]
+        },
+        {
+          "concept_id": "evs2.plants2.useful_products",
+          "title": "Things We Get From Plants",
+          "bloom_level": "remember",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs2.plants2.importance"
+          ],
+          "description": "Exploring non-food items provided by plants that are useful in daily life, such as materials and medicines.",
+          "key_ideas": [
+            "Plants give us wood for furniture",
+            "We get cotton and jute for clothes",
+            "Some plants provide medicines (like Tulsi and Neem)",
+            "Flowers are used to make perfumes"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Animals and Birds",
+      "concepts": [
+        {
+          "concept_id": "evs2.animals2.habitats",
+          "title": "Habitats — Land, Water, Air",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Habitats — Land, Water, Air — part of the chapter on Animals and Birds.",
+          "key_ideas": [
+            "Core principles of habitats",
+            "Step-by-step problem solving for habitats",
+            "Real-world applications of habitats"
+          ]
+        },
+        {
+          "concept_id": "evs2.animals2.food_animals",
+          "title": "What Animals Eat",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "What Animals Eat — part of the chapter on Animals and Birds.",
+          "key_ideas": [
+            "Core principles of what animals eat",
+            "Step-by-step problem solving for what animals eat",
+            "Real-world applications of what animals eat"
+          ]
+        },
+        {
+          "concept_id": "evs2.animals2.wild_domestic",
+          "title": "Wild and Domestic Animals",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "evs2.animals2.habitats"
+          ],
+          "description": "Distinguishing between animals that live in the forest and animals that live with humans or on farms.",
+          "key_ideas": [
+            "Wild animals live freely in nature without human help",
+            "Domestic animals are kept by humans for work or food",
+            "Pets are animals kept inside homes for companionship"
+          ]
+        },
+        {
+          "concept_id": "evs2.animals2.movement",
+          "title": "How Animals Move",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs2.animals2.habitats"
+          ],
+          "description": "Exploring the different ways animals travel from one place to another using specific body parts.",
+          "key_ideas": [
+            "Birds and insects use wings to fly",
+            "Fish use fins and tails to swim in water",
+            "Land animals use legs to walk, run, or hop",
+            "Snakes and worms crawl or slide on the ground"
+          ]
+        },
+        {
+          "concept_id": "evs2.animals2.animal_homes",
+          "title": "Animal Shelters and Homes",
+          "bloom_level": "remember",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs2.animals2.habitats",
+            "evs2.animals2.wild_domestic"
+          ],
+          "description": "Identifying specific names of natural and man-made homes where different animals live and sleep.",
+          "key_ideas": [
+            "Natural homes include dens, burrows, and nests",
+            "Man-made homes include sheds, stables, and coops",
+            "Animals need homes to protect themselves from heat, cold, and rain"
+          ]
+        },
+        {
+          "concept_id": "evs2.animals2.young_ones",
+          "title": "Animals and their Young Ones",
+          "bloom_level": "remember",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Learning the specific names given to the babies of different animals.",
+          "key_ideas": [
+            "Different animals have specific names for their babies (e.g., cow and calf)",
+            "Some babies look like their parents, while others look different",
+            "Birds lay eggs which hatch into young ones"
+          ]
+        },
+        {
+          "concept_id": "evs2.animals2.animal_products",
+          "title": "Things We Get From Animals",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs2.animals2.food_animals",
+            "evs2.animals2.wild_domestic"
+          ],
+          "description": "Understanding the utility of domestic animals and the products humans derive from them.",
+          "key_ideas": [
+            "Farm animals provide food like milk, eggs, and honey",
+            "Animals provide materials like wool, silk, and leather",
+            "Some animals like donkeys and oxen help humans carry loads"
+          ]
+        },
+        {
+          "concept_id": "evs2.animals2.care_kindness",
+          "title": "Caring for Animals",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs2.animals2.wild_domestic"
+          ],
+          "description": "Developing empathy and learning how to treat animals with kindness and respect.",
+          "key_ideas": [
+            "Animals need food, water, and love just like humans",
+            "We should not tease or hurt animals",
+            "Sick or injured animals need medical help from a vet"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Water and Air",
+      "concepts": [
+        {
+          "concept_id": "evs2.water_air.uses_water",
+          "title": "Uses of Water",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Uses of Water — part of the chapter on Water and Air.",
+          "key_ideas": [
+            "Core principles of uses of water",
+            "Step-by-step problem solving for uses of water",
+            "Real-world applications of uses of water"
+          ]
+        },
+        {
+          "concept_id": "evs2.water_air.air_importance",
+          "title": "Importance of Clean Air",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Importance of Clean Air — part of the chapter on Water and Air.",
+          "key_ideas": [
+            "Core principles of importance of clean air",
+            "Step-by-step problem solving for importance of clean air",
+            "Real-world applications of importance of clean air"
+          ]
+        },
+        {
+          "concept_id": "evs2.water_air.sources_of_water",
+          "title": "Sources of Water",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Identifying where water comes from, distinguishing between natural sources like rain and rivers, and man-made sources like taps and wells.",
+          "key_ideas": [
+            "Rain is the main source of water.",
+            "Water is found in lakes, ponds, rivers, and seas.",
+            "We get water at home through taps, wells, and handpumps."
+          ]
+        },
+        {
+          "concept_id": "evs2.water_air.properties_of_air",
+          "title": "Properties of Air",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding the basic characteristics of air through simple observation and feeling, even though it cannot be seen.",
+          "key_ideas": [
+            "Air is all around us, but we cannot see it.",
+            "We can feel air when it moves.",
+            "Air takes up space (like inside a balloon)."
+          ]
+        },
+        {
+          "concept_id": "evs2.water_air.clean_drinking_water",
+          "title": "Clean Drinking Water",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs2.water_air.sources_of_water",
+            "evs2.water_air.uses_water"
+          ],
+          "description": "Learning why we must drink clean water to stay healthy and simple methods to make water safe for drinking.",
+          "key_ideas": [
+            "Dirty water contains germs that can make us sick.",
+            "We should boil or filter water before drinking.",
+            "Drinking water should be stored in covered containers."
+          ]
+        },
+        {
+          "concept_id": "evs2.water_air.moving_air_wind",
+          "title": "Moving Air: Wind",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs2.water_air.properties_of_air"
+          ],
+          "description": "Defining wind as moving air and recognizing how it helps us in daily life and nature.",
+          "key_ideas": [
+            "Moving air is called wind.",
+            "A gentle wind is called a breeze; strong wind is a storm.",
+            "Wind helps dry clothes, move sailboats, and fly kites."
+          ]
+        },
+        {
+          "concept_id": "evs2.water_air.saving_water",
+          "title": "Saving Water",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "evs2.water_air.uses_water"
+          ],
+          "description": "Understanding the value of water and identifying good habits to avoid wastage in daily activities.",
+          "key_ideas": [
+            "Water is precious and should not be wasted.",
+            "Close the tap while brushing teeth.",
+            "Reuse water used for washing vegetables to water plants."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Safety",
+      "concepts": [
+        {
+          "concept_id": "evs2.safety.road_safety",
+          "title": "Road Safety Rules",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Road Safety Rules — part of the chapter on Safety.",
+          "key_ideas": [
+            "Core principles of road safety rules",
+            "Step-by-step problem solving for road safety rules",
+            "Real-world applications of road safety rules"
+          ]
+        },
+        {
+          "concept_id": "evs2.safety.safety_at_home",
+          "title": "Safety at Home",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Safety at Home — part of the chapter on Safety.",
+          "key_ideas": [
+            "Core principles of safety at home",
+            "Step-by-step problem solving for safety at home",
+            "Real-world applications of safety at home"
+          ]
+        },
+        {
+          "concept_id": "evs2.safety.safety_at_school",
+          "title": "Safety at School",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learn about safe behavior within the school premises, including classrooms, corridors, and staircases.",
+          "key_ideas": [
+            "Do not run in the corridors or on stairs",
+            "Do not push or pull others",
+            "Do not jump on desks or chairs",
+            "Use a sharpener instead of a blade to sharpen pencils"
+          ]
+        },
+        {
+          "concept_id": "evs2.safety.safety_at_playground",
+          "title": "Safety in the Playground",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "evs2.safety.safety_at_school"
+          ],
+          "description": "Understanding how to play safely with friends and use playground equipment without getting hurt.",
+          "key_ideas": [
+            "Wait for your turn at swings and slides",
+            "Do not stand in front of a moving swing",
+            "Follow the rules of the game",
+            "Do not fight while playing"
+          ]
+        },
+        {
+          "concept_id": "evs2.safety.bus_safety",
+          "title": "Safety in the Bus",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "evs2.safety.road_safety"
+          ],
+          "description": "Rules to follow while waiting for, boarding, and travelling in a school bus or public vehicle.",
+          "key_ideas": [
+            "Stand in a queue while boarding the bus",
+            "Do not put your head or hands out of the window",
+            "Do not disturb the driver",
+            "Get down only when the bus stops completely"
+          ]
+        },
+        {
+          "concept_id": "evs2.safety.water_safety",
+          "title": "Safety while Swimming",
+          "bloom_level": "remember",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Essential precautions to take when going for a swim or playing near water bodies.",
+          "key_ideas": [
+            "Never go swimming alone; always go with an adult",
+            "Use a swimming tube or floaters if you are learning",
+            "Do not run near the pool edge",
+            "Do not push others into the water"
+          ]
+        },
+        {
+          "concept_id": "evs2.safety.first_aid_basics",
+          "title": "First Aid Basics",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "evs2.safety.safety_at_home",
+            "evs2.safety.safety_at_school"
+          ],
+          "description": "Introduction to the immediate help given to an injured person before proper medical help arrives.",
+          "key_ideas": [
+            "Inform an adult or teacher immediately if someone gets hurt",
+            "Do not crowd around the injured person",
+            "Wash small cuts or wounds with clean water",
+            "Understanding the First Aid box"
+          ]
+        }
+      ]
+    }
+  ]
+}

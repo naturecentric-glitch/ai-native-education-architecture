@@ -1,0 +1,528 @@
+{
+  "course_id": "geography6",
+  "title": "Class 6 Geography",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "The Earth in the Solar System",
+      "concepts": [
+        {
+          "concept_id": "geography6.earth_solar.solar_system",
+          "title": "Solar System and the Earth",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Solar System and the Earth — part of the chapter on The Earth in the Solar System.",
+          "key_ideas": [
+            "Core principles of solar system and the earth",
+            "Step-by-step problem solving for solar system and the earth",
+            "Real-world applications of solar system and the earth"
+          ]
+        },
+        {
+          "concept_id": "geography6.earth_solar.celestial_bodies",
+          "title": "Celestial Bodies and Constellations",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to objects found in the night sky, distinguishing between stars that emit their own light and the patterns they form.",
+          "key_ideas": [
+            "Definition of celestial bodies (sun, moon, stars)",
+            "Stars are made of hot gases and emit heat and light",
+            "Identification of Constellations like Ursa Major (Big Bear) and Saptarishi",
+            "Significance of the Pole Star (North Star) in finding direction"
+          ]
+        },
+        {
+          "concept_id": "geography6.earth_solar.planets_orbits",
+          "title": "Planets and their Orbits",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography6.earth_solar.solar_system",
+            "geography6.earth_solar.celestial_bodies"
+          ],
+          "description": "A detailed look at the eight planets, their specific order from the Sun, and the nature of their movement.",
+          "key_ideas": [
+            "Order of planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+            "Concept of orbits: Elongated paths around the Sun",
+            "Distinction between Inner Planets (rocks) and Outer Planets (gases/liquids)",
+            "Venus is considered 'Earth's-Twin' due to similar size and shape"
+          ]
+        },
+        {
+          "concept_id": "geography6.earth_solar.unique_earth",
+          "title": "The Earth: A Unique Planet",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography6.earth_solar.solar_system"
+          ],
+          "description": "Exploration of the specific characteristics that make Earth habitable and distinct from other planets.",
+          "key_ideas": [
+            "The 'Geoid' shape: Sphere flattened at the poles",
+            "Conditions for life: Presence of water, air (oxygen), and moderate temperature",
+            "Why Earth is called the 'Blue Planet'",
+            "Earth's position as the third planet from the Sun"
+          ]
+        },
+        {
+          "concept_id": "geography6.earth_solar.moon_phases",
+          "title": "The Moon: Earth's Companion",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "geography6.earth_solar.unique_earth"
+          ],
+          "description": "Study of Earth's only natural satellite, its movement, and its changing appearance from Earth.",
+          "key_ideas": [
+            "The Moon as a natural satellite revolving around Earth",
+            "Time taken to spin and orbit (approx 27 days)",
+            "Phases of the Moon: Full Moon (Poornima) and New Moon (Amavasya)",
+            "Absence of life-supporting conditions on the Moon"
+          ]
+        },
+        {
+          "concept_id": "geography6.earth_solar.small_bodies_galaxy",
+          "title": "Asteroids, Meteoroids, and the Universe",
+          "bloom_level": "remember",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "geography6.earth_solar.planets_orbits"
+          ],
+          "description": "Overview of smaller celestial debris and the larger hierarchical structure of the cosmos.",
+          "key_ideas": [
+            "Asteroids: Tiny bodies moving around the Sun, found between Mars and Jupiter",
+            "Meteoroids: Small pieces of rocks that burn up upon entering Earth's atmosphere (shooting stars)",
+            "The Milky Way Galaxy as a cluster of millions of stars",
+            "Hierarchy: Earth > Solar System > Milky Way > Universe"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Globe: Latitudes and Longitudes",
+      "concepts": [
+        {
+          "concept_id": "geography6.globe.lat_long",
+          "title": "Latitudes, Longitudes and Time Zones",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Latitudes, Longitudes and Time Zones — part of the chapter on Globe: Latitudes and Longitudes.",
+          "key_ideas": [
+            "Core principles of latitudes, longitudes and time zones",
+            "Step-by-step problem solving for latitudes, longitudes and time zones",
+            "Real-world applications of latitudes, longitudes and time zones"
+          ]
+        },
+        {
+          "concept_id": "geography6.globe.earth_model",
+          "title": "The Globe: A Model of the Earth",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the globe as a true miniature representation of the earth, understanding the concept of the axis, and identifying the North and South Poles.",
+          "key_ideas": [
+            "Globes vary in size and type (pocket globes, balloons).",
+            "The axis is an imaginary line on which the earth rotates.",
+            "The globe is tilted in the same manner as the earth."
+          ]
+        },
+        {
+          "concept_id": "geography6.globe.important_latitudes",
+          "title": "Important Parallels of Latitude",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "geography6.globe.earth_model"
+          ],
+          "description": "Identification and location of significant parallel lines beyond the Equator that divide the earth, including the Tropics and Polar Circles.",
+          "key_ideas": [
+            "Tropic of Cancer (23½° N) and Tropic of Capricorn (23½° S).",
+            "Arctic Circle (66½° N) and Antarctic Circle (66½° S).",
+            "The Equator represents the zero degree latitude."
+          ]
+        },
+        {
+          "concept_id": "geography6.globe.heat_zones",
+          "title": "Heat Zones of the Earth",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography6.globe.important_latitudes"
+          ],
+          "description": "Analysis of how the angle of the sun's rays creates distinct climate zones (Torrid, Temperate, and Frigid) bounded by the important latitudes.",
+          "key_ideas": [
+            "The Torrid Zone receives the maximum heat due to direct sunlight.",
+            "The Temperate Zones have moderate temperatures due to slanting sun rays.",
+            "The Frigid Zones are very cold because the sun does not rise much above the horizon."
+          ]
+        },
+        {
+          "concept_id": "geography6.globe.prime_meridian",
+          "title": "Prime Meridian and Longitudes",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography6.globe.earth_model"
+          ],
+          "description": "Understanding the semi-circles running from pole to pole used for reference, specifically focusing on the Prime Meridian passing through Greenwich.",
+          "key_ideas": [
+            "Meridians of longitude are equal in length.",
+            "The Prime Meridian is 0° longitude.",
+            "Longitude divides the earth into Eastern and Western Hemispheres."
+          ]
+        },
+        {
+          "concept_id": "geography6.globe.grid_system",
+          "title": "Locating Places via Grid",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "geography6.globe.lat_long"
+          ],
+          "description": "Using the network of intersecting latitudes and longitudes (the grid) to pinpoint the exact location of a place on the globe.",
+          "key_ideas": [
+            "A grid is formed where parallels and meridians intersect.",
+            "To locate a place, you need both its North/South and East/West coordinates.",
+            "Example: Dhubri in Assam is located at 26° N and 90° E."
+          ]
+        },
+        {
+          "concept_id": "geography6.globe.standard_time_ist",
+          "title": "Standard Time and IST",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "geography6.globe.lat_long"
+          ],
+          "description": "Understanding why countries adopt a standard time to avoid confusion and the specific calculation of Indian Standard Time (IST).",
+          "key_ideas": [
+            "Local time differs by 4 minutes for every degree of longitude.",
+            "India uses the longitude of 82°30' E as the Standard Meridian.",
+            "IST is 5 hours and 30 minutes ahead of Greenwich Mean Time (GMT)."
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Motions of the Earth",
+      "concepts": [
+        {
+          "concept_id": "geography6.motions_earth.rotation_revolution",
+          "title": "Rotation and Revolution",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Rotation and Revolution — part of the chapter on Motions of the Earth.",
+          "key_ideas": [
+            "Core principles of rotation and revolution",
+            "Step-by-step problem solving for rotation and revolution",
+            "Real-world applications of rotation and revolution"
+          ]
+        },
+        {
+          "concept_id": "geography6.motions_earth.circle_of_illumination",
+          "title": "Orbital Plane and Circle of Illumination",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "geography6.motions_earth.rotation_revolution"
+          ],
+          "description": "Explores the inclination of the Earth's axis and the imaginary line that divides day from night across the globe.",
+          "key_ideas": [
+            "The Earth's axis is tilted at an angle of 66½° to its orbital plane",
+            "The Circle of Illumination does not coincide with the axis",
+            "One half of the Earth experiences day while the other experiences night due to spherical shape"
+          ]
+        },
+        {
+          "concept_id": "geography6.motions_earth.leap_year_calculation",
+          "title": "Revolution and the Leap Year",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography6.motions_earth.rotation_revolution"
+          ],
+          "description": "Explains the mathematical adjustment of the calendar year to align with the Earth's actual revolution time of 365 ¼ days.",
+          "key_ideas": [
+            "Earth takes 365 days and 6 hours to complete one revolution",
+            "We ignore the 6 hours annually for convenience",
+            "Every fourth year, the saved 24 hours (6x4) are added to February as a Leap Day"
+          ]
+        },
+        {
+          "concept_id": "geography6.motions_earth.summer_winter_solstices",
+          "title": "Summer and Winter Solstices",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "geography6.motions_earth.circle_of_illumination"
+          ],
+          "description": "Details the positions of the Earth when the poles are tilted most toward or away from the Sun, creating the longest and shortest days.",
+          "key_ideas": [
+            "Summer Solstice (June 21): Sun rays fall directly on Tropic of Cancer",
+            "Winter Solstice (December 22): Sun rays fall directly on Tropic of Capricorn",
+            "Reverse seasons occur simultaneously in the Northern and Southern Hemispheres"
+          ]
+        },
+        {
+          "concept_id": "geography6.motions_earth.equinox_phenomenon",
+          "title": "The Equinoxes",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "geography6.motions_earth.summer_winter_solstices"
+          ],
+          "description": "Describes the two days of the year when neither pole is tilted toward the Sun, resulting in equal lengths of day and night worldwide.",
+          "key_ideas": [
+            "Occurs on March 21st and September 23rd",
+            "Direct rays of the sun fall on the Equator",
+            "The whole earth experiences equal days and equal nights"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Maps",
+      "concepts": [
+        {
+          "concept_id": "geography6.maps.types_components",
+          "title": "Types and Components of Maps",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Types and Components of Maps — part of the chapter on Maps.",
+          "key_ideas": [
+            "Core principles of types and components of maps",
+            "Step-by-step problem solving for types and components of maps",
+            "Real-world applications of types and components of maps"
+          ]
+        },
+        {
+          "concept_id": "geography6.maps.scale_types",
+          "title": "Understanding Map Scale: Small vs. Large",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography6.maps.types_components"
+          ],
+          "description": "Explores the relationship between map distance and ground distance, distinguishing between small scale maps (for continents/countries) and large scale maps (for villages/towns).",
+          "key_ideas": [
+            "Scale is the ratio between map distance and actual ground distance",
+            "Small scale maps show large areas with less detail",
+            "Large scale maps show small areas with greater detail"
+          ]
+        },
+        {
+          "concept_id": "geography6.maps.directions_compass",
+          "title": "Cardinal Directions and the Compass",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "geography6.maps.types_components"
+          ],
+          "description": "Teaches how to orient a map using the four major cardinal points and intermediate directions, and explains the function of a magnetic compass.",
+          "key_ideas": [
+            "The four cardinal points are North, South, East, and West",
+            "Intermediate directions (e.g., North-East) help locate places more precisely",
+            "A compass is an instrument used to find the main directions via a magnetic needle"
+          ]
+        },
+        {
+          "concept_id": "geography6.maps.conventional_symbols",
+          "title": "Conventional Symbols and Colors",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "geography6.maps.types_components"
+          ],
+          "description": "Identifies the universal language of maps, explaining standardized symbols and color schemes used to depict physical and cultural features without writing names.",
+          "key_ideas": [
+            "Maps use a universal language known as conventional symbols",
+            "Standard colors represent specific features (Blue for water, Brown for mountains, Green for plains)",
+            "Symbols allow people to read maps from any country regardless of language"
+          ]
+        },
+        {
+          "concept_id": "geography6.maps.sketch_and_plan",
+          "title": "Sketch and Plan",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "geography6.maps.types_components",
+            "geography6.maps.scale_types"
+          ],
+          "description": "Differentiates between a sketch, which is a rough drawing based on memory, and a plan, which is a detailed drawing of a small area drawn to scale.",
+          "key_ideas": [
+            "A sketch is drawn without scale and is based on memory or observation",
+            "A plan is a drawing of a small area on a large scale",
+            "Plans provide specific details (like room dimensions) that standard maps cannot show"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Major Domains of the Earth",
+      "concepts": [
+        {
+          "concept_id": "geography6.domains_earth.lithosphere_hydrosphere",
+          "title": "Lithosphere, Hydrosphere, Atmosphere, Biosphere",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Lithosphere, Hydrosphere, Atmosphere, Biosphere — part of the chapter on Major Domains of the Earth.",
+          "key_ideas": [
+            "Core principles of lithosphere, hydrosphere, atmosphere, biosphere",
+            "Step-by-step problem solving for lithosphere, hydrosphere, atmosphere, biosphere",
+            "Real-world applications of lithosphere, hydrosphere, atmosphere, biosphere"
+          ]
+        },
+        {
+          "concept_id": "geography6.domains_earth.continents_landmasses",
+          "title": "The Seven Continents",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "geography6.domains_earth.lithosphere_hydrosphere"
+          ],
+          "description": "Exploration of the seven major landmasses of the earth, their relative sizes, and geographical locations.",
+          "key_ideas": [
+            "Identification of Asia, Europe, Africa, North America, South America, Australia, and Antarctica",
+            "Understanding the separation of landmasses by water bodies and mountains (e.g., Ural Mountains)",
+            "Distinction between an Isthmus and a Strait"
+          ]
+        },
+        {
+          "concept_id": "geography6.domains_earth.oceans_water_bodies",
+          "title": "The Five Major Oceans",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "geography6.domains_earth.lithosphere_hydrosphere"
+          ],
+          "description": "Detailed study of the hydrosphere with a focus on the five major oceans and the distribution of fresh versus salt water.",
+          "key_ideas": [
+            "Characteristics of the Pacific, Atlantic, Indian, Southern, and Arctic oceans",
+            "The distinction between the vast volume of salt water (97%) and limited fresh water",
+            "Unique features like the Mariana Trench and the coastline shapes of the Atlantic"
+          ]
+        },
+        {
+          "concept_id": "geography6.domains_earth.atmosphere_composition_layers",
+          "title": "Composition and Layers of the Atmosphere",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "geography6.domains_earth.lithosphere_hydrosphere"
+          ],
+          "description": "Analysis of the gaseous envelope surrounding the earth, including gas percentages and the structure of atmospheric layers.",
+          "key_ideas": [
+            "Composition of air: Nitrogen (78%), Oxygen (21%), and other gases",
+            "The five layers: Troposphere, Stratosphere, Mesosphere, Thermosphere, and Exosphere",
+            "Relationship between altitude, air density, and temperature"
+          ]
+        },
+        {
+          "concept_id": "geography6.domains_earth.biosphere_ecosystem_balance",
+          "title": "The Biosphere and Ecological Balance",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "geography6.domains_earth.continents_landmasses",
+            "geography6.domains_earth.oceans_water_bodies",
+            "geography6.domains_earth.atmosphere_composition_layers"
+          ],
+          "description": "Examination of the narrow zone of contact between land, water, and air that supports life, and the impact of human activity on this balance.",
+          "key_ideas": [
+            "The Biosphere as the unique life-supporting zone of Earth",
+            "Interdependence of organisms within the Plant and Animal kingdoms",
+            "Impact of emissions, pollution, and deforestation on the balance of the three domains"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Our Country — India",
+      "concepts": [
+        {
+          "concept_id": "geography6.india_diversity.physical_features",
+          "title": "Physical Features of India",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Physical Features of India — part of the chapter on Our Country — India.",
+          "key_ideas": [
+            "Core principles of physical features of india",
+            "Step-by-step problem solving for physical features of india",
+            "Real-world applications of physical features of india"
+          ]
+        },
+        {
+          "concept_id": "geography6.india_diversity.locational_setting",
+          "title": "Locational Setting and Extent",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding India's position on the globe, including its hemisphere location and latitudinal and longitudinal extent.",
+          "key_ideas": [
+            "India is located in the Northern Hemisphere",
+            "The Tropic of Cancer passes almost halfway through the country",
+            "Extent from Kashmir (North) to Kanyakumari (South)",
+            "Extent from Arunachal Pradesh (East) to Gujarat (West)"
+          ]
+        },
+        {
+          "concept_id": "geography6.india_diversity.standard_time",
+          "title": "Indian Standard Time (IST)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "geography6.india_diversity.locational_setting"
+          ],
+          "description": "Explaining why India has a standard time and how the Standard Meridian is used to calculate it.",
+          "key_ideas": [
+            "Two-hour time lag between Gujarat and Arunachal Pradesh",
+            "Selection of 82°30'E as the Standard Meridian of India",
+            "Importance of having a single standard time for the whole country"
+          ]
+        },
+        {
+          "concept_id": "geography6.india_diversity.neighbors",
+          "title": "India's Neighbors",
+          "bloom_level": "remember",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "geography6.india_diversity.locational_setting"
+          ],
+          "description": "Identifying the countries that share land boundaries with India and neighboring island nations.",
+          "key_ideas": [
+            "Seven countries share land boundaries with India",
+            "Island neighbors across the sea: Sri Lanka and Maldives",
+            "The Palk Strait separates India from Sri Lanka"
+          ]
+        },
+        {
+          "concept_id": "geography6.india_diversity.political_divisions",
+          "title": "Political and Administrative Divisions",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Overview of how India is divided into States and Union Territories for administrative purposes.",
+          "key_ideas": [
+            "Division into States and Union Territories",
+            "New Delhi is the national capital",
+            "States are formed mainly on the basis of languages",
+            "Rajasthan is the largest state and Goa is the smallest by area"
+          ]
+        }
+      ]
+    }
+  ]
+}

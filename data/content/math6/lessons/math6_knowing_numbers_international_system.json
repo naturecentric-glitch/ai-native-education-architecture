@@ -1,0 +1,12 @@
+{
+  "title": "Becoming a Number Superstar: Exploring the International Number System!",
+  "hook": "Imagine you're helping your family plan a trip to America! You see a cool car online for $250,000. Now, how do you quickly understand that number? The International System of Numeration helps us read and understand big numbers like that easily!",
+  "explanation": "Okay, so just like we have families, numbers also have families called 'Periods'. In the International System, we group numbers into periods of three digits each, separated by commas. These periods are:\n\n1.  **Ones:** This is the first group on the right (like 1, 23, 456). It includes ones, tens, and hundreds.\n2.  **Thousands:** The next group to the left (like 12,345, 678). It includes thousands, ten thousands, and hundred thousands.\n3.  **Millions:** After thousands comes millions! (like 123,456,789). It includes millions, ten millions, and hundred millions.\n4.  **Billions:** And after millions, we have billions! (like 12,345,678,901). It includes billions, ten billions, and hundred billions.\n\nSo, we place a comma after every three digits, starting from the right. This makes it super easy to read big numbers. For example, 123456789 becomes 123,456,789 (One hundred twenty-three million, four hundred fifty-six thousand, seven hundred eighty-nine).\n\n**International vs. Indian System:**\n\nThe Indian system uses periods like Ones, Thousands, Lakhs, and Crores. Here's how they relate:\n\n*   1 Million = 10 Lakhs\n*   10 Million = 1 Crore\n*   1 Billion = 100 Crores",
+  "worked_example": "Let's take the number 34567890.\n\n1.  **Write the number:** 34567890\n2.  **Place commas:** Starting from the right, count three digits and put a comma: 34,567,890\n3.  **Name the periods:** Ones, Thousands, Millions.\n4.  **Read the number:** Thirty-four million, five hundred sixty-seven thousand, eight hundred ninety.",
+  "try_this": {
+    "question": "Write the number 56789123 in the International System of Numeration with commas and then read it out loud.",
+    "hint": "Remember to start placing commas from the right, after every three digits.",
+    "answer": "56,789,123 (Fifty-six million, seven hundred eighty-nine thousand, one hundred twenty-three)"
+  },
+  "fun_fact": "Did you know that the word 'million' comes from the Italian word 'millione,' which means 'a great thousand'?"
+}

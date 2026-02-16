@@ -7,31 +7,16 @@
       "title": "Reproduction in Organisms",
       "concepts": [
         {
-          "concept_id": "biology12.reproduction_organisms.asexual_types",
-          "title": "Asexual Reproduction — Types",
+          "concept_id": "biology12.reproduction_organisms.asexual_sexual",
+          "title": "Asexual and Sexual Reproduction",
           "bloom_level": "understand",
-          "difficulty": 0.25,
+          "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Asexual Reproduction — Types — part of the chapter on Reproduction in Organisms.",
+          "description": "Asexual and Sexual Reproduction — part of the chapter on Reproduction in Organisms.",
           "key_ideas": [
-            "Core principles of asexual reproduction",
-            "Step-by-step problem solving for asexual reproduction",
-            "Real-world applications of asexual reproduction"
-          ]
-        },
-        {
-          "concept_id": "biology12.reproduction_organisms.sexual_events",
-          "title": "Sexual Reproduction — Events",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "biology12.reproduction_organisms.asexual_types"
-          ],
-          "description": "Sexual Reproduction — Events — part of the chapter on Reproduction in Organisms.",
-          "key_ideas": [
-            "Core principles of sexual reproduction",
-            "Step-by-step problem solving for sexual reproduction",
-            "Real-world applications of sexual reproduction"
+            "Core principles of asexual and sexual reproduction",
+            "Step-by-step problem solving for asexual and sexual reproduction",
+            "Real-world applications of asexual and sexual reproduction"
           ]
         }
       ]
@@ -41,46 +26,16 @@
       "title": "Sexual Reproduction in Flowering Plants",
       "concepts": [
         {
-          "concept_id": "biology12.sexual_reproduction_plants.flower_structure",
-          "title": "Flower Structure and Microsporogenesis",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Flower Structure and Microsporogenesis — part of the chapter on Sexual Reproduction in Flowering Plants.",
-          "key_ideas": [
-            "Core principles of flower structure and microsporogenesis",
-            "Step-by-step problem solving for flower structure and microsporogenesis",
-            "Real-world applications of flower structure and microsporogenesis"
-          ]
-        },
-        {
           "concept_id": "biology12.sexual_reproduction_plants.pollination_fertilisation",
-          "title": "Pollination and Fertilisation",
+          "title": "Pollination, Fertilisation, Embryo Development",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology12.sexual_reproduction_plants.flower_structure"
-          ],
-          "description": "Pollination and Fertilisation — part of the chapter on Sexual Reproduction in Flowering Plants.",
+          "prerequisites": [],
+          "description": "Pollination, Fertilisation, Embryo Development — part of the chapter on Sexual Reproduction in Flowering Plants.",
           "key_ideas": [
-            "Core principles of pollination and fertilisation",
-            "Step-by-step problem solving for pollination and fertilisation",
-            "Real-world applications of pollination and fertilisation"
-          ]
-        },
-        {
-          "concept_id": "biology12.sexual_reproduction_plants.endosperm_embryo",
-          "title": "Endosperm and Embryo Development",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "biology12.sexual_reproduction_plants.pollination_fertilisation"
-          ],
-          "description": "Endosperm and Embryo Development — part of the chapter on Sexual Reproduction in Flowering Plants.",
-          "key_ideas": [
-            "Core principles of endosperm and embryo development",
-            "Step-by-step problem solving for endosperm and embryo development",
-            "Real-world applications of endosperm and embryo development"
+            "Core principles of pollination, fertilisation, embryo development",
+            "Step-by-step problem solving for pollination, fertilisation, embryo development",
+            "Real-world applications of pollination, fertilisation, embryo development"
           ]
         }
       ]
@@ -90,46 +45,16 @@
       "title": "Human Reproduction",
       "concepts": [
         {
-          "concept_id": "biology12.human_reproduction.reproductive_system",
-          "title": "Male and Female Reproductive System",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Male and Female Reproductive System — part of the chapter on Human Reproduction.",
-          "key_ideas": [
-            "Core principles of male and female reproductive system",
-            "Step-by-step problem solving for male and female reproductive system",
-            "Real-world applications of male and female reproductive system"
-          ]
-        },
-        {
-          "concept_id": "biology12.human_reproduction.gametogenesis",
-          "title": "Gametogenesis and Menstrual Cycle",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "biology12.human_reproduction.reproductive_system"
-          ],
-          "description": "Gametogenesis and Menstrual Cycle — part of the chapter on Human Reproduction.",
-          "key_ideas": [
-            "Core principles of gametogenesis and menstrual cycle",
-            "Step-by-step problem solving for gametogenesis and menstrual cycle",
-            "Real-world applications of gametogenesis and menstrual cycle"
-          ]
-        },
-        {
-          "concept_id": "biology12.human_reproduction.fertilisation_dev",
-          "title": "Fertilisation, Implantation and Embryonic Development",
+          "concept_id": "biology12.human_reproduction.gametogenesis_dev",
+          "title": "Reproductive System, Gametogenesis, Development",
           "bloom_level": "understand",
           "difficulty": 0.45,
-          "prerequisites": [
-            "biology12.human_reproduction.gametogenesis"
-          ],
-          "description": "Fertilisation, Implantation and Embryonic Development — part of the chapter on Human Reproduction.",
+          "prerequisites": [],
+          "description": "Reproductive System, Gametogenesis, Development — part of the chapter on Human Reproduction.",
           "key_ideas": [
-            "Core principles of fertilisation, implantation and embryonic development",
-            "Step-by-step problem solving for fertilisation, implantation and embryonic development",
-            "Real-world applications of fertilisation, implantation and embryonic development"
+            "Core principles of reproductive system, gametogenesis, development",
+            "Step-by-step problem solving for reproductive system, gametogenesis, development",
+            "Real-world applications of reproductive system, gametogenesis, development"
           ]
         }
       ]
@@ -139,80 +64,35 @@
       "title": "Reproductive Health",
       "concepts": [
         {
-          "concept_id": "biology12.reproductive_health.rh_problems",
-          "title": "Reproductive Health Problems",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Reproductive Health Problems — part of the chapter on Reproductive Health.",
-          "key_ideas": [
-            "Core principles of reproductive health problems",
-            "Step-by-step problem solving for reproductive health problems",
-            "Real-world applications of reproductive health problems"
-          ]
-        },
-        {
-          "concept_id": "biology12.reproductive_health.contraception",
-          "title": "Contraception and ART",
+          "concept_id": "biology12.reproductive_health.contraception_art",
+          "title": "Reproductive Health, Contraception, ART",
           "bloom_level": "understand",
           "difficulty": 0.35,
-          "prerequisites": [
-            "biology12.reproductive_health.rh_problems"
-          ],
-          "description": "Contraception and ART — part of the chapter on Reproductive Health.",
+          "prerequisites": [],
+          "description": "Reproductive Health, Contraception, ART — part of the chapter on Reproductive Health.",
           "key_ideas": [
-            "Core principles of contraception and art",
-            "Step-by-step problem solving for contraception and art",
-            "Real-world applications of contraception and art"
+            "Core principles of reproductive health, contraception, art",
+            "Step-by-step problem solving for reproductive health, contraception, art",
+            "Real-world applications of reproductive health, contraception, art"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch05",
-      "title": "Principles of Inheritance and Variation",
+      "title": "Principles of Inheritance",
       "concepts": [
         {
-          "concept_id": "biology12.inheritance.mendels_laws12",
-          "title": "Mendel's Laws of Inheritance",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
+          "concept_id": "biology12.inheritance.mendels_linkage",
+          "title": "Mendel's Laws, Linkage, Sex-Linked Inheritance",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
           "prerequisites": [],
-          "description": "Mendel's Laws of Inheritance — part of the chapter on Principles of Inheritance and Variation.",
+          "description": "Mendel's Laws, Linkage, Sex-Linked Inheritance — part of the chapter on Principles of Inheritance.",
           "key_ideas": [
-            "Core principles of mendel's laws of inheritance",
-            "Step-by-step problem solving for mendel's laws of inheritance",
-            "Real-world applications of mendel's laws of inheritance"
-          ]
-        },
-        {
-          "concept_id": "biology12.inheritance.linkage_crossing",
-          "title": "Linkage and Crossing Over",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "biology12.inheritance.mendels_laws12"
-          ],
-          "description": "Linkage and Crossing Over — part of the chapter on Principles of Inheritance and Variation.",
-          "key_ideas": [
-            "Core principles of linkage and crossing over",
-            "Step-by-step problem solving for linkage and crossing over",
-            "Real-world applications of linkage and crossing over"
-          ]
-        },
-        {
-          "concept_id": "biology12.inheritance.sex_linked",
-          "title": "Sex-Linked Inheritance and Genetic Disorders",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "biology12.inheritance.linkage_crossing"
-          ],
-          "description": "Sex-Linked Inheritance and Genetic Disorders — part of the chapter on Principles of Inheritance and Variation.",
-          "key_ideas": [
-            "Core principles of sex-linked inheritance and genetic disorders",
-            "Step-by-step problem solving for sex-linked inheritance and genetic disorders",
-            "Real-world applications of sex-linked inheritance and genetic disorders"
+            "Core principles of mendel's laws, linkage, sex-linked inheritance",
+            "Step-by-step problem solving for mendel's laws, linkage, sex-linked inheritance",
+            "Real-world applications of mendel's laws, linkage, sex-linked inheritance"
           ]
         }
       ]
@@ -222,46 +102,16 @@
       "title": "Molecular Basis of Inheritance",
       "concepts": [
         {
-          "concept_id": "biology12.molecular_inheritance.dna_structure",
-          "title": "DNA Structure and Replication",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "DNA Structure and Replication — part of the chapter on Molecular Basis of Inheritance.",
-          "key_ideas": [
-            "Core principles of dna structure and replication",
-            "Step-by-step problem solving for dna structure and replication",
-            "Real-world applications of dna structure and replication"
-          ]
-        },
-        {
-          "concept_id": "biology12.molecular_inheritance.transcription_translation",
-          "title": "Transcription and Translation",
+          "concept_id": "biology12.molecular_inheritance.dna_transcription",
+          "title": "DNA Structure, Replication, Transcription, Translation",
           "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": [
-            "biology12.molecular_inheritance.dna_structure"
-          ],
-          "description": "Transcription and Translation — part of the chapter on Molecular Basis of Inheritance.",
-          "key_ideas": [
-            "Core principles of transcription and translation",
-            "Step-by-step problem solving for transcription and translation",
-            "Real-world applications of transcription and translation"
-          ]
-        },
-        {
-          "concept_id": "biology12.molecular_inheritance.regulation_expression",
-          "title": "Regulation of Gene Expression",
-          "bloom_level": "analyze",
           "difficulty": 0.55,
-          "prerequisites": [
-            "biology12.molecular_inheritance.transcription_translation"
-          ],
-          "description": "Regulation of Gene Expression — part of the chapter on Molecular Basis of Inheritance.",
+          "prerequisites": [],
+          "description": "DNA Structure, Replication, Transcription, Translation — part of the chapter on Molecular Basis of Inheritance.",
           "key_ideas": [
-            "Core principles of regulation of gene expression",
-            "Step-by-step problem solving for regulation of gene expression",
-            "Real-world applications of regulation of gene expression"
+            "Core principles of dna structure, replication, transcription, translation",
+            "Step-by-step problem solving for dna structure, replication, transcription, translation",
+            "Real-world applications of dna structure, replication, transcription, translation"
           ]
         }
       ]
@@ -271,46 +121,16 @@
       "title": "Evolution",
       "concepts": [
         {
-          "concept_id": "biology12.evolution.origin_life",
-          "title": "Origin of Life — Theories",
+          "concept_id": "biology12.evolution12.mechanisms_human",
+          "title": "Origin of Life, Natural Selection, Human Evolution",
           "bloom_level": "understand",
-          "difficulty": 0.3,
+          "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Origin of Life — Theories — part of the chapter on Evolution.",
+          "description": "Origin of Life, Natural Selection, Human Evolution — part of the chapter on Evolution.",
           "key_ideas": [
-            "Core principles of origin of life",
-            "Step-by-step problem solving for origin of life",
-            "Real-world applications of origin of life"
-          ]
-        },
-        {
-          "concept_id": "biology12.evolution.mechanisms_evolution",
-          "title": "Mechanisms of Evolution — Natural Selection, Drift",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "biology12.evolution.origin_life"
-          ],
-          "description": "Mechanisms of Evolution — Natural Selection, Drift — part of the chapter on Evolution.",
-          "key_ideas": [
-            "Core principles of mechanisms of evolution",
-            "Step-by-step problem solving for mechanisms of evolution",
-            "Real-world applications of mechanisms of evolution"
-          ]
-        },
-        {
-          "concept_id": "biology12.evolution.human_evolution",
-          "title": "Human Evolution",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "biology12.evolution.mechanisms_evolution"
-          ],
-          "description": "Human Evolution — part of the chapter on Evolution.",
-          "key_ideas": [
-            "Core principles of human evolution",
-            "Step-by-step problem solving for human evolution",
-            "Real-world applications of human evolution"
+            "Core principles of origin of life, natural selection, human evolution",
+            "Step-by-step problem solving for origin of life, natural selection, human evolution",
+            "Real-world applications of origin of life, natural selection, human evolution"
           ]
         }
       ]
@@ -320,63 +140,35 @@
       "title": "Human Health and Disease",
       "concepts": [
         {
-          "concept_id": "biology12.human_health.common_diseases",
-          "title": "Common Diseases — Typhoid, Malaria, Cancer",
+          "concept_id": "biology12.human_health12.diseases_immunity",
+          "title": "Common Diseases and Immunity",
           "bloom_level": "understand",
-          "difficulty": 0.3,
+          "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Common Diseases — Typhoid, Malaria, Cancer — part of the chapter on Human Health and Disease.",
+          "description": "Common Diseases and Immunity — part of the chapter on Human Health and Disease.",
           "key_ideas": [
-            "Core principles of common diseases",
-            "Step-by-step problem solving for common diseases",
-            "Real-world applications of common diseases"
-          ]
-        },
-        {
-          "concept_id": "biology12.human_health.immunity",
-          "title": "Immunity — Innate and Acquired",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "biology12.human_health.common_diseases"
-          ],
-          "description": "Immunity — Innate and Acquired — part of the chapter on Human Health and Disease.",
-          "key_ideas": [
-            "Core principles of immunity",
-            "Step-by-step problem solving for immunity",
-            "Real-world applications of immunity"
+            "Core principles of common diseases and immunity",
+            "Step-by-step problem solving for common diseases and immunity",
+            "Real-world applications of common diseases and immunity"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch09",
-      "title": "Strategies for Enhancement in Food Production",
+      "title": "Enhancement in Food Production",
       "concepts": [
         {
-          "concept_id": "biology12.food_production.plant_breeding",
-          "title": "Plant Breeding and Tissue Culture",
+          "concept_id": "biology12.food_production.breeding_husbandry",
+          "title": "Plant Breeding, Tissue Culture, Animal Husbandry",
           "bloom_level": "understand",
           "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Plant Breeding and Tissue Culture — part of the chapter on Strategies for Enhancement in Food Production.",
+          "description": "Plant Breeding, Tissue Culture, Animal Husbandry — part of the chapter on Enhancement in Food Production.",
           "key_ideas": [
-            "Core principles of plant breeding and tissue culture",
-            "Step-by-step problem solving for plant breeding and tissue culture",
-            "Real-world applications of plant breeding and tissue culture"
-          ]
-        },
-        {
-          "concept_id": "biology12.food_production.animal_husbandry12",
-          "title": "Animal Husbandry and Fisheries",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Animal Husbandry and Fisheries — part of the chapter on Strategies for Enhancement in Food Production.",
-          "key_ideas": [
-            "Core principles of animal husbandry and fisheries",
-            "Step-by-step problem solving for animal husbandry and fisheries",
-            "Real-world applications of animal husbandry and fisheries"
+            "Core principles of plant breeding, tissue culture, animal husbandry",
+            "Step-by-step problem solving for plant breeding, tissue culture, animal husbandry",
+            "Real-world applications of plant breeding, tissue culture, animal husbandry"
           ]
         }
       ]
@@ -386,97 +178,54 @@
       "title": "Microbes in Human Welfare",
       "concepts": [
         {
-          "concept_id": "biology12.microbes_welfare.industrial_microbes",
-          "title": "Microbes in Industrial Production",
+          "concept_id": "biology12.microbes_welfare.industrial_biogas",
+          "title": "Industrial Production, Biogas, Sewage Treatment",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Microbes in Industrial Production — part of the chapter on Microbes in Human Welfare.",
+          "description": "Industrial Production, Biogas, Sewage Treatment — part of the chapter on Microbes in Human Welfare.",
           "key_ideas": [
-            "Core principles of microbes in industrial production",
-            "Step-by-step problem solving for microbes in industrial production",
-            "Real-world applications of microbes in industrial production"
-          ]
-        },
-        {
-          "concept_id": "biology12.microbes_welfare.biogas_sewage",
-          "title": "Biogas Production and Sewage Treatment",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Biogas Production and Sewage Treatment — part of the chapter on Microbes in Human Welfare.",
-          "key_ideas": [
-            "Core principles of biogas production and sewage treatment",
-            "Step-by-step problem solving for biogas production and sewage treatment",
-            "Real-world applications of biogas production and sewage treatment"
+            "Core principles of industrial production, biogas, sewage treatment",
+            "Step-by-step problem solving for industrial production, biogas, sewage treatment",
+            "Real-world applications of industrial production, biogas, sewage treatment"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch11",
-      "title": "Biotechnology: Principles and Processes",
+      "title": "Biotechnology: Principles",
       "concepts": [
         {
-          "concept_id": "biology12.biotech_principles.rdna_technology",
-          "title": "Recombinant DNA Technology",
-          "bloom_level": "understand",
-          "difficulty": 0.45,
-          "prerequisites": [],
-          "description": "Recombinant DNA Technology — part of the chapter on Biotechnology: Principles and Processes.",
-          "key_ideas": [
-            "Core principles of recombinant dna technology",
-            "Step-by-step problem solving for recombinant dna technology",
-            "Real-world applications of recombinant dna technology"
-          ]
-        },
-        {
-          "concept_id": "biology12.biotech_principles.pcr_gel",
-          "title": "PCR and Gel Electrophoresis",
+          "concept_id": "biology12.biotech_principles.rdna_pcr",
+          "title": "rDNA Technology and PCR",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "biology12.biotech_principles.rdna_technology"
-          ],
-          "description": "PCR and Gel Electrophoresis — part of the chapter on Biotechnology: Principles and Processes.",
+          "prerequisites": [],
+          "description": "rDNA Technology and PCR — part of the chapter on Biotechnology: Principles.",
           "key_ideas": [
-            "Core principles of pcr and gel electrophoresis",
-            "Step-by-step problem solving for pcr and gel electrophoresis",
-            "Real-world applications of pcr and gel electrophoresis"
+            "Core principles of rdna technology and pcr",
+            "Step-by-step problem solving for rdna technology and pcr",
+            "Real-world applications of rdna technology and pcr"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch12",
-      "title": "Biotechnology and its Applications",
+      "title": "Biotechnology Applications",
       "concepts": [
         {
-          "concept_id": "biology12.biotech_applications.bt_crops",
-          "title": "Bt Crops and GM Organisms",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Bt Crops and GM Organisms — part of the chapter on Biotechnology and its Applications.",
-          "key_ideas": [
-            "Core principles of bt crops and gm organisms",
-            "Step-by-step problem solving for bt crops and gm organisms",
-            "Real-world applications of bt crops and gm organisms"
-          ]
-        },
-        {
-          "concept_id": "biology12.biotech_applications.gene_therapy",
-          "title": "Gene Therapy and Molecular Diagnostics",
+          "concept_id": "biology12.biotech_applications.gm_gene_therapy",
+          "title": "GM Organisms and Gene Therapy",
           "bloom_level": "understand",
           "difficulty": 0.45,
-          "prerequisites": [
-            "biology12.biotech_applications.bt_crops"
-          ],
-          "description": "Gene Therapy and Molecular Diagnostics — part of the chapter on Biotechnology and its Applications.",
+          "prerequisites": [],
+          "description": "GM Organisms and Gene Therapy — part of the chapter on Biotechnology Applications.",
           "key_ideas": [
-            "Core principles of gene therapy and molecular diagnostics",
-            "Step-by-step problem solving for gene therapy and molecular diagnostics",
-            "Real-world applications of gene therapy and molecular diagnostics"
+            "Core principles of gm organisms and gene therapy",
+            "Step-by-step problem solving for gm organisms and gene therapy",
+            "Real-world applications of gm organisms and gene therapy"
           ]
         }
       ]
@@ -486,31 +235,16 @@
       "title": "Organisms and Populations",
       "concepts": [
         {
-          "concept_id": "biology12.ecology_organisms.habitat_niche",
-          "title": "Habitat, Niche and Adaptations",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Habitat, Niche and Adaptations — part of the chapter on Organisms and Populations.",
-          "key_ideas": [
-            "Core principles of habitat, niche and adaptations",
-            "Step-by-step problem solving for habitat, niche and adaptations",
-            "Real-world applications of habitat, niche and adaptations"
-          ]
-        },
-        {
           "concept_id": "biology12.ecology_organisms.population_dynamics",
-          "title": "Population Growth and Interactions",
+          "title": "Habitat, Niche, Population Growth",
           "bloom_level": "apply",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology12.ecology_organisms.habitat_niche"
-          ],
-          "description": "Population Growth and Interactions — part of the chapter on Organisms and Populations.",
+          "prerequisites": [],
+          "description": "Habitat, Niche, Population Growth — part of the chapter on Organisms and Populations.",
           "key_ideas": [
-            "Core principles of population growth and interactions",
-            "Step-by-step problem solving for population growth and interactions",
-            "Real-world applications of population growth and interactions"
+            "Core principles of habitat, niche, population growth",
+            "Step-by-step problem solving for habitat, niche, population growth",
+            "Real-world applications of habitat, niche, population growth"
           ]
         }
       ]
@@ -520,31 +254,16 @@
       "title": "Ecosystem",
       "concepts": [
         {
-          "concept_id": "biology12.ecosystem.energy_flow",
-          "title": "Energy Flow and Productivity",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
-          "prerequisites": [],
-          "description": "Energy Flow and Productivity — part of the chapter on Ecosystem.",
-          "key_ideas": [
-            "Core principles of energy flow and productivity",
-            "Step-by-step problem solving for energy flow and productivity",
-            "Real-world applications of energy flow and productivity"
-          ]
-        },
-        {
-          "concept_id": "biology12.ecosystem.nutrient_cycling",
-          "title": "Nutrient Cycling — Carbon and Phosphorus",
+          "concept_id": "biology12.ecosystem12.energy_nutrient",
+          "title": "Energy Flow and Nutrient Cycling",
           "bloom_level": "understand",
           "difficulty": 0.4,
-          "prerequisites": [
-            "biology12.ecosystem.energy_flow"
-          ],
-          "description": "Nutrient Cycling — Carbon and Phosphorus — part of the chapter on Ecosystem.",
+          "prerequisites": [],
+          "description": "Energy Flow and Nutrient Cycling — part of the chapter on Ecosystem.",
           "key_ideas": [
-            "Core principles of nutrient cycling",
-            "Step-by-step problem solving for nutrient cycling",
-            "Real-world applications of nutrient cycling"
+            "Core principles of energy flow and nutrient cycling",
+            "Step-by-step problem solving for energy flow and nutrient cycling",
+            "Real-world applications of energy flow and nutrient cycling"
           ]
         }
       ]
@@ -554,31 +273,16 @@
       "title": "Biodiversity and Conservation",
       "concepts": [
         {
-          "concept_id": "biology12.biodiversity.biodiversity_levels",
-          "title": "Levels of Biodiversity",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Levels of Biodiversity — part of the chapter on Biodiversity and Conservation.",
-          "key_ideas": [
-            "Core principles of levels of biodiversity",
-            "Step-by-step problem solving for levels of biodiversity",
-            "Real-world applications of levels of biodiversity"
-          ]
-        },
-        {
-          "concept_id": "biology12.biodiversity.conservation_strategies",
-          "title": "Conservation Strategies — In Situ and Ex Situ",
+          "concept_id": "biology12.biodiversity12.conservation_strategies",
+          "title": "Levels and Conservation Strategies",
           "bloom_level": "apply",
           "difficulty": 0.35,
-          "prerequisites": [
-            "biology12.biodiversity.biodiversity_levels"
-          ],
-          "description": "Conservation Strategies — In Situ and Ex Situ — part of the chapter on Biodiversity and Conservation.",
+          "prerequisites": [],
+          "description": "Levels and Conservation Strategies — part of the chapter on Biodiversity and Conservation.",
           "key_ideas": [
-            "Core principles of conservation strategies",
-            "Step-by-step problem solving for conservation strategies",
-            "Real-world applications of conservation strategies"
+            "Core principles of levels and conservation strategies",
+            "Step-by-step problem solving for levels and conservation strategies",
+            "Real-world applications of levels and conservation strategies"
           ]
         }
       ]
@@ -588,29 +292,16 @@
       "title": "Environmental Issues",
       "concepts": [
         {
-          "concept_id": "biology12.environmental_issues.pollution_env",
-          "title": "Air and Water Pollution",
+          "concept_id": "biology12.environmental_issues.pollution_deforestation",
+          "title": "Pollution, Deforestation, Waste Management",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Air and Water Pollution — part of the chapter on Environmental Issues.",
+          "description": "Pollution, Deforestation, Waste Management — part of the chapter on Environmental Issues.",
           "key_ideas": [
-            "Core principles of air and water pollution",
-            "Step-by-step problem solving for air and water pollution",
-            "Real-world applications of air and water pollution"
-          ]
-        },
-        {
-          "concept_id": "biology12.environmental_issues.deforestation_waste",
-          "title": "Deforestation and Solid Waste Management",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Deforestation and Solid Waste Management — part of the chapter on Environmental Issues.",
-          "key_ideas": [
-            "Core principles of deforestation and solid waste management",
-            "Step-by-step problem solving for deforestation and solid waste management",
-            "Real-world applications of deforestation and solid waste management"
+            "Core principles of pollution, deforestation, waste management",
+            "Step-by-step problem solving for pollution, deforestation, waste management",
+            "Real-world applications of pollution, deforestation, waste management"
           ]
         }
       ]

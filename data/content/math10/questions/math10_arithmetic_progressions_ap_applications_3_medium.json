@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.5,
+    "question": "State and explain the key concept: Check membership: solve a + (n−1)d = k; if n is a positive integer, k is in the AP.",
+    "hint": "Think about the definition and main formula related to Applications and Problem Solving with AP.",
+    "expected_answer": "This tests understanding of: Check membership: solve a + (n−1)d = k; if n is a positive integer, k is in the AP. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Applications and Problem Solving with AP"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "question": "Solve an NCERT example problem related to 'Applications and Problem Solving with AP'. Show all steps clearly.",
+    "hint": "Review the key ideas: Check membership: solve a + (n−1)d = k; if n is a positive integer, k is in the AP, Finding 'a' or 'd' from given conditions using simultaneous equations.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Applications and Problem Solving with AP. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Applications and Problem Solving with AP"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.65,
+    "question": "How would you apply 'Applications and Problem Solving with AP' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where applications and problem solving with ap concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Applications and Problem Solving with AP.",
+    "concepts_tested": [
+      "Applications and Problem Solving with AP",
+      "Real-world application"
+    ]
+  }
+]

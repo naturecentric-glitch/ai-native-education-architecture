@@ -1,0 +1,969 @@
+{
+  "course_id": "math1",
+  "title": "Class 1 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Shapes and Space",
+      "concepts": [
+        {
+          "concept_id": "math1.shapes_space.flat_solid",
+          "title": "Flat and Solid Shapes Around Us",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Flat and Solid Shapes Around Us — part of the chapter on Shapes and Space.",
+          "key_ideas": [
+            "Core principles of flat and solid shapes around us",
+            "Step-by-step problem solving for flat and solid shapes around us",
+            "Real-world applications of flat and solid shapes around us"
+          ]
+        },
+        {
+          "concept_id": "math1.shapes_space.patterns",
+          "title": "Patterns with Shapes",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [
+            "math1.shapes_space.flat_solid"
+          ],
+          "description": "Patterns with Shapes — part of the chapter on Shapes and Space.",
+          "key_ideas": [
+            "Core principles of patterns with shapes",
+            "Step-by-step problem solving for patterns with shapes",
+            "Real-world applications of patterns with shapes"
+          ]
+        },
+        {
+          "concept_id": "math1.shapes_space.spatial_positions",
+          "title": "Inside, Outside, Top, and Bottom",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding spatial vocabulary to describe the position of objects relative to containers or vertical space.",
+          "key_ideas": [
+            "Distinguishing between inside and outside",
+            "Identifying objects at the top or bottom",
+            "Using position words to locate objects"
+          ]
+        },
+        {
+          "concept_id": "math1.shapes_space.size_comparison",
+          "title": "Bigger and Smaller",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Comparing objects to determine differences in size and identifying the extremes in a group.",
+          "key_ideas": [
+            "Comparing two objects to find the bigger one",
+            "Identifying the smallest shape in a group",
+            "Ordering objects by size"
+          ]
+        },
+        {
+          "concept_id": "math1.shapes_space.near_far",
+          "title": "Nearer and Farther",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math1.shapes_space.spatial_positions"
+          ],
+          "description": "Developing spatial awareness regarding distance relative to a specific reference point.",
+          "key_ideas": [
+            "Identifying objects close to a reference point",
+            "Identifying objects far away",
+            "Comparing distances between three or more objects"
+          ]
+        },
+        {
+          "concept_id": "math1.shapes_space.rolling_sliding",
+          "title": "Rolling and Sliding",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.shapes_space.flat_solid"
+          ],
+          "description": "Exploring the physical movement properties of solid shapes based on their surfaces (curved vs. flat).",
+          "key_ideas": [
+            "Round objects roll",
+            "Flat-sided objects slide",
+            "Objects with both curved and flat surfaces can do both"
+          ]
+        },
+        {
+          "concept_id": "math1.shapes_space.sorting_grouping",
+          "title": "Sorting by Shape and Size",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math1.shapes_space.flat_solid",
+            "math1.shapes_space.size_comparison"
+          ],
+          "description": "Categorizing a mixed collection of objects based on common attributes like shape type or size.",
+          "key_ideas": [
+            "Matching shapes of the same type",
+            "Grouping objects by size",
+            "Identifying the odd one out in a group"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Numbers from One to Nine",
+      "concepts": [
+        {
+          "concept_id": "math1.numbers_1_9.counting",
+          "title": "Counting Objects 1-9",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Counting Objects 1-9 — part of the chapter on Numbers from One to Nine.",
+          "key_ideas": [
+            "Core principles of counting objects 1-9",
+            "Step-by-step problem solving for counting objects 1-9",
+            "Real-world applications of counting objects 1-9"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_1_9.number_names",
+          "title": "Writing Number Names",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [
+            "math1.numbers_1_9.counting"
+          ],
+          "description": "Writing Number Names — part of the chapter on Numbers from One to Nine.",
+          "key_ideas": [
+            "Core principles of writing number names",
+            "Step-by-step problem solving for writing number names",
+            "Real-world applications of writing number names"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_1_9.matching_quantities",
+          "title": "Matching Numbers to Quantities",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math1.numbers_1_9.counting"
+          ],
+          "description": "Associating the correct numeral (symbol) with a specific quantity of objects using one-to-one correspondence.",
+          "key_ideas": [
+            "One-to-one correspondence",
+            "Recognizing numeral symbols",
+            "Linking count to written number"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_1_9.more_or_less",
+          "title": "Comparing: More or Less",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.numbers_1_9.counting"
+          ],
+          "description": "Comparing two groups of objects to identify which group contains a greater or smaller number of items.",
+          "key_ideas": [
+            "Concept of 'More' (greater quantity)",
+            "Concept of 'Less' (smaller quantity)",
+            "Comparing counts of two sets",
+            "identifying equal sets"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_1_9.missing_numbers",
+          "title": "Finding Missing Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math1.numbers_1_9.counting",
+            "math1.numbers_1_9.number_names"
+          ],
+          "description": "Identifying and filling in gaps within a sequential series of numbers from 1 to 9.",
+          "key_ideas": [
+            "Forward counting sequence",
+            "Pattern recognition",
+            "Completing the number line"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_1_9.before_after_between",
+          "title": "Before, After, and Between",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math1.numbers_1_9.counting"
+          ],
+          "description": "Determining the position of a number relative to others in the sequence 1 through 9.",
+          "key_ideas": [
+            "Predecessor (number before)",
+            "Successor (number after)",
+            "Middle position (number between)"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_1_9.concept_zero",
+          "title": "The Concept of Zero",
+          "bloom_level": "understand",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math1.numbers_1_9.counting",
+            "math1.numbers_1_9.more_or_less"
+          ],
+          "description": "Understanding zero as a number representing the absence of objects or an empty set.",
+          "key_ideas": [
+            "Zero represents 'nothing'",
+            "Writing the symbol '0'",
+            "Zero comes before one"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Addition",
+      "concepts": [
+        {
+          "concept_id": "math1.addition.add_story",
+          "title": "Addition Through Stories",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Addition Through Stories — part of the chapter on Addition.",
+          "key_ideas": [
+            "Core principles of addition through stories",
+            "Step-by-step problem solving for addition through stories",
+            "Real-world applications of addition through stories"
+          ]
+        },
+        {
+          "concept_id": "math1.addition.add_single",
+          "title": "Adding Single-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.addition.add_story"
+          ],
+          "description": "Adding Single-Digit Numbers — part of the chapter on Addition.",
+          "key_ideas": [
+            "Core principles of adding single-digit numbers",
+            "Step-by-step problem solving for adding single-digit numbers",
+            "Real-world applications of adding single-digit numbers"
+          ]
+        },
+        {
+          "concept_id": "math1.addition.add_zero",
+          "title": "Adding Zero",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.addition.add_story"
+          ],
+          "description": "Understanding the concept of zero in addition, specifically that adding zero to a number does not change the value of that number.",
+          "key_ideas": [
+            "Zero represents 'nothing' or an empty set",
+            "Adding zero leaves the number unchanged",
+            "Recognizing patterns like 3 + 0 = 3"
+          ]
+        },
+        {
+          "concept_id": "math1.addition.number_line",
+          "title": "Addition on a Number Line",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.addition.add_single"
+          ],
+          "description": "Using a number line to perform addition by starting at a number and counting forward (jumping) to find the sum.",
+          "key_ideas": [
+            "Visualizing numbers in order on a line",
+            "Starting at the first addend",
+            "Jumping forward by the value of the second addend"
+          ]
+        },
+        {
+          "concept_id": "math1.addition.vertical_format",
+          "title": "Vertical Addition",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math1.addition.add_single"
+          ],
+          "description": "Learning to recognize and solve addition problems arranged vertically (one number on top of the other) rather than horizontally.",
+          "key_ideas": [
+            "Stacking numbers directly on top of each other",
+            "Understanding the horizontal line means 'equals'",
+            "Writing the sum directly below the line"
+          ]
+        },
+        {
+          "concept_id": "math1.addition.make_ten",
+          "title": "Making Ten",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math1.addition.add_single"
+          ],
+          "description": "Identifying pairs of single-digit numbers that add up exactly to 10, a foundational skill for mental math.",
+          "key_ideas": [
+            "Recognizing 'friends of 10' (e.g., 7 and 3, 6 and 4)",
+            "Using fingers to visualize completing a set of 10",
+            "Building speed in recalling pairs that sum to 10"
+          ]
+        },
+        {
+          "concept_id": "math1.addition.missing_numbers",
+          "title": "Finding Missing Numbers",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math1.addition.add_single",
+            "math1.addition.number_line"
+          ],
+          "description": "Solving for an unknown addend when the sum and one addend are known (e.g., 4 + ? = 7).",
+          "key_ideas": [
+            "Understanding 'how many more' are needed",
+            "Counting up from the known number to the sum",
+            "Introduction to basic algebraic thinking"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Subtraction",
+      "concepts": [
+        {
+          "concept_id": "math1.subtraction.sub_story",
+          "title": "Subtraction Through Stories",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Subtraction Through Stories — part of the chapter on Subtraction.",
+          "key_ideas": [
+            "Core principles of subtraction through stories",
+            "Step-by-step problem solving for subtraction through stories",
+            "Real-world applications of subtraction through stories"
+          ]
+        },
+        {
+          "concept_id": "math1.subtraction.sub_single",
+          "title": "Subtracting Single-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.subtraction.sub_story"
+          ],
+          "description": "Subtracting Single-Digit Numbers — part of the chapter on Subtraction.",
+          "key_ideas": [
+            "Core principles of subtracting single-digit numbers",
+            "Step-by-step problem solving for subtracting single-digit numbers",
+            "Real-world applications of subtracting single-digit numbers"
+          ]
+        },
+        {
+          "concept_id": "math1.subtraction.sub_symbols",
+          "title": "The Minus Sign and Equality",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.subtraction.sub_story"
+          ],
+          "description": "Introduction to the mathematical symbols used in subtraction equations, specifically the minus sign (-) and the equals sign (=).",
+          "key_ideas": [
+            "Recognizing the minus sign (-) as 'taking away'",
+            "Using the equals sign (=) to show the result",
+            "Reading a subtraction sentence from left to right"
+          ]
+        },
+        {
+          "concept_id": "math1.subtraction.sub_crossing",
+          "title": "Subtraction by Crossing Out",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math1.subtraction.sub_single"
+          ],
+          "description": "Using visual aids where students draw the total number of objects and cross out specific items to find the remainder.",
+          "key_ideas": [
+            "Drawing objects to represent the larger number",
+            "Crossing out objects to represent the number being subtracted",
+            "Counting remaining objects to find the answer"
+          ]
+        },
+        {
+          "concept_id": "math1.subtraction.sub_zero",
+          "title": "Subtracting Zero and Same Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math1.subtraction.sub_single"
+          ],
+          "description": "Understanding the special properties of subtracting zero from a number and subtracting a number from itself.",
+          "key_ideas": [
+            "When we subtract 0, the number remains the same",
+            "When we subtract a number from itself, the answer is 0",
+            "Concept of 'nothing' being taken away"
+          ]
+        },
+        {
+          "concept_id": "math1.subtraction.sub_vertical",
+          "title": "Vertical Subtraction",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.subtraction.sub_single",
+            "math1.subtraction.sub_symbols"
+          ],
+          "description": "Learning to arrange numbers in a column format to perform subtraction, laying the groundwork for multi-digit arithmetic.",
+          "key_ideas": [
+            "Writing the bigger number on top",
+            "Writing the smaller number below",
+            "Writing the answer under the line"
+          ]
+        },
+        {
+          "concept_id": "math1.subtraction.sub_missing",
+          "title": "Finding the Missing Number",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math1.subtraction.sub_single",
+            "math1.subtraction.sub_crossing"
+          ],
+          "description": "Solving problems where a part of the subtraction equation is missing (e.g., 8 - ? = 5).",
+          "key_ideas": [
+            "Identifying the missing part (minuend or subtrahend)",
+            "Using counting backward to find the gap",
+            "Completing the subtraction sentence"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Numbers from Ten to Twenty",
+      "concepts": [
+        {
+          "concept_id": "math1.numbers_10_20.teen_numbers",
+          "title": "Understanding Teen Numbers",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Understanding Teen Numbers — part of the chapter on Numbers from Ten to Twenty.",
+          "key_ideas": [
+            "Core principles of understanding teen numbers",
+            "Step-by-step problem solving for understanding teen numbers",
+            "Real-world applications of understanding teen numbers"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_10_20.place_value_intro",
+          "title": "Tens and Ones (Introduction)",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.numbers_10_20.teen_numbers"
+          ],
+          "description": "Tens and Ones (Introduction) — part of the chapter on Numbers from Ten to Twenty.",
+          "key_ideas": [
+            "Core principles of tens and ones (introduction)",
+            "Step-by-step problem solving for tens and ones (introduction)",
+            "Real-world applications of tens and ones (introduction)"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_10_20.counting_objects_20",
+          "title": "Counting Objects up to 20",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math1.numbers_10_20.teen_numbers"
+          ],
+          "description": "Learning to count a collection of objects between 10 and 20 by creating a group of ten and counting the remaining ones.",
+          "key_ideas": [
+            "Grouping objects into a bundle of ten",
+            "Counting the loose items remaining",
+            "Associating the total count with the written numeral"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_10_20.comparing_numbers_20",
+          "title": "Comparing Numbers up to 20",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.numbers_10_20.place_value_intro"
+          ],
+          "description": "Identifying which of two numbers is larger or smaller by looking at the ones place while the tens place remains constant.",
+          "key_ideas": [
+            "Identifying the greater number",
+            "Identifying the smaller number",
+            "Using the concept of 'more' and 'less' with teen numbers"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_10_20.ordering_sequence_20",
+          "title": "Ordering: Before, After, and Between",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math1.numbers_10_20.teen_numbers",
+            "math1.numbers_10_20.comparing_numbers_20"
+          ],
+          "description": "Arranging numbers from 10 to 20 in sequential order and identifying missing numbers in a sequence.",
+          "key_ideas": [
+            "Determining the number that comes 'after'",
+            "Determining the number that comes 'before'",
+            "Finding the number 'between' two given numbers",
+            "Arranging numbers from smallest to biggest"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_10_20.addition_within_20",
+          "title": "Addition up to 20",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math1.numbers_10_20.place_value_intro"
+          ],
+          "description": "Adding single-digit numbers where the sum falls between 10 and 20, often using the 'make a ten' strategy.",
+          "key_ideas": [
+            "Adding a single digit to 10 (e.g., 10 + 5)",
+            "Adding two single digits resulting in a teen number",
+            "Counting forward to add"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_10_20.subtraction_within_20",
+          "title": "Subtraction within 20",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math1.numbers_10_20.place_value_intro"
+          ],
+          "description": "Subtracting single-digit numbers from numbers up to 20 using crossing out or counting backward methods.",
+          "key_ideas": [
+            "Subtracting from a group of 10 and loose ones",
+            "Counting backward to subtract",
+            "Understanding subtraction as 'taking away'"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Time",
+      "concepts": [
+        {
+          "concept_id": "math1.time.daily_routine",
+          "title": "Time in Daily Routine — Morning, Afternoon, Night",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Time in Daily Routine — Morning, Afternoon, Night — part of the chapter on Time.",
+          "key_ideas": [
+            "Core principles of time in daily routine",
+            "Step-by-step problem solving for time in daily routine",
+            "Real-world applications of time in daily routine"
+          ]
+        },
+        {
+          "concept_id": "math1.time.reading_clock",
+          "title": "Reading a Clock — Hour Hand",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.time.daily_routine"
+          ],
+          "description": "Reading a Clock — Hour Hand — part of the chapter on Time.",
+          "key_ideas": [
+            "Core principles of reading a clock",
+            "Step-by-step problem solving for reading a clock",
+            "Real-world applications of reading a clock"
+          ]
+        },
+        {
+          "concept_id": "math1.time.sequencing_events",
+          "title": "Sequencing Events — Earlier and Later",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math1.time.daily_routine"
+          ],
+          "description": "Understanding the chronological order of activities by identifying which events happen earlier and which happen later in a sequence.",
+          "key_ideas": [
+            "Identifying the order of two or more events",
+            "Using terms like 'before', 'after', 'earlier', and 'later'",
+            "Relating sequence to the daily routine flow"
+          ]
+        },
+        {
+          "concept_id": "math1.time.duration_comparison",
+          "title": "Duration — Long Time vs. Short Time",
+          "bloom_level": "evaluate",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Comparing two activities to determine which one takes a longer duration to complete and which takes a shorter duration.",
+          "key_ideas": [
+            "Estimating time taken for common activities",
+            "Comparing 'fast' actions vs. 'slow' actions",
+            "Understanding that different tasks require different amounts of time"
+          ]
+        },
+        {
+          "concept_id": "math1.time.days_of_week",
+          "title": "Days of the Week",
+          "bloom_level": "remember",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.time.daily_routine"
+          ],
+          "description": "Learning the names and correct sequence of the seven days of the week.",
+          "key_ideas": [
+            "Memorizing the names of the 7 days",
+            "Understanding the cyclic order (Sunday to Saturday)",
+            "Concepts of 'Today', 'Yesterday', and 'Tomorrow'"
+          ]
+        },
+        {
+          "concept_id": "math1.time.reading_oclock",
+          "title": "Reading Full Hours — O'clock",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math1.time.reading_clock"
+          ],
+          "description": "Reading the time on an analog clock when the minute hand is at 12, denoting a full hour.",
+          "key_ideas": [
+            "Identifying the minute hand (long hand) position at 12",
+            "Correlating the hour hand pointing to a number with 'O'clock'",
+            "Writing time in the format 'X o'clock'"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Measurement",
+      "concepts": [
+        {
+          "concept_id": "math1.measurement.long_short",
+          "title": "Long and Short — Comparing Lengths",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Long and Short — Comparing Lengths — part of the chapter on Measurement.",
+          "key_ideas": [
+            "Core principles of long and short",
+            "Step-by-step problem solving for long and short",
+            "Real-world applications of long and short"
+          ]
+        },
+        {
+          "concept_id": "math1.measurement.heavy_light",
+          "title": "Heavy and Light — Comparing Weights",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Heavy and Light — Comparing Weights — part of the chapter on Measurement.",
+          "key_ideas": [
+            "Core principles of heavy and light",
+            "Step-by-step problem solving for heavy and light",
+            "Real-world applications of heavy and light"
+          ]
+        },
+        {
+          "concept_id": "math1.measurement.tall_short",
+          "title": "Tall and Short — Comparing Height",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.measurement.long_short"
+          ],
+          "description": "Introduction to comparing objects based on their vertical height. Students learn to distinguish between 'tall' and 'short' when objects are standing upright.",
+          "key_ideas": [
+            "Understanding vertical height versus horizontal length",
+            "Identifying the taller object in a pair",
+            "Identifying the shorter object in a pair",
+            "Comparing heights of people, trees, and buildings"
+          ]
+        },
+        {
+          "concept_id": "math1.measurement.thick_thin",
+          "title": "Thick and Thin — Comparing Width",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math1.measurement.long_short"
+          ],
+          "description": "Learning to compare objects based on their girth or width. Students distinguish between thick objects (like a log) and thin objects (like a twig).",
+          "key_ideas": [
+            "Differentiating between thickness and length",
+            "Visual comparison of width",
+            "Identifying thick vs. thin objects in daily life (e.g., ropes, books, candles)",
+            "Sorting objects based on thickness"
+          ]
+        },
+        {
+          "concept_id": "math1.measurement.superlative_comparison",
+          "title": "The Biggest and Smallest — Ordering Three or More",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.measurement.long_short",
+            "math1.measurement.tall_short",
+            "math1.measurement.heavy_light"
+          ],
+          "description": "Moving beyond comparing just two objects to ordering three or more objects using superlatives like longest, shortest, tallest, heaviest, and lightest.",
+          "key_ideas": [
+            "Comparing more than two objects simultaneously",
+            "Using terms like 'Longest' and 'Shortest'",
+            "Using terms like 'Tallest' and 'Shortest'",
+            "Using terms like 'Heaviest' and 'Lightest'",
+            "Arranging objects in increasing or decreasing order of size"
+          ]
+        },
+        {
+          "concept_id": "math1.measurement.capacity_intro",
+          "title": "More and Less — Introduction to Capacity",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math1.measurement.heavy_light"
+          ],
+          "description": "Understanding how much liquid different containers can hold. Students compare containers to determine which holds more or less.",
+          "key_ideas": [
+            "Concept of capacity (how much a vessel holds)",
+            "Visual estimation of volume",
+            "Identifying which container holds more liquid",
+            "Transferring liquid to check capacity (pouring from one to another)"
+          ]
+        },
+        {
+          "concept_id": "math1.measurement.non_standard_units",
+          "title": "Measuring with Body Parts",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math1.measurement.long_short"
+          ],
+          "description": "Introduction to measuring length using non-standard units derived from the human body, such as handspans, feet, and fingers.",
+          "key_ideas": [
+            "Using 'Handspan' to measure short lengths",
+            "Using 'Feet' or 'Paces' to measure floor distances",
+            "Using 'Fingers' for very small objects",
+            "Understanding that measurement involves counting units",
+            "Realizing measurements vary based on hand/foot size"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Numbers Twenty-One to Ninety-Nine",
+      "concepts": [
+        {
+          "concept_id": "math1.numbers_21_99.counting_tens",
+          "title": "Counting by Tens",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Counting by Tens — part of the chapter on Numbers Twenty-One to Ninety-Nine.",
+          "key_ideas": [
+            "Core principles of counting by tens",
+            "Step-by-step problem solving for counting by tens",
+            "Real-world applications of counting by tens"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_21_99.two_digit_numbers",
+          "title": "Reading and Writing Two-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.numbers_21_99.counting_tens"
+          ],
+          "description": "Reading and Writing Two-Digit Numbers — part of the chapter on Numbers Twenty-One to Ninety-Nine.",
+          "key_ideas": [
+            "Core principles of reading and writing two-digit numbers",
+            "Step-by-step problem solving for reading and writing two-digit numbers",
+            "Real-world applications of reading and writing two-digit numbers"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_21_99.place_value_tens_ones",
+          "title": "Place Value: Tens and Ones",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math1.numbers_21_99.counting_tens",
+            "math1.numbers_21_99.two_digit_numbers"
+          ],
+          "description": "Understanding that a two-digit number is made up of bundles of ten and remaining ones.",
+          "key_ideas": [
+            "Identifying the tens place and the ones place",
+            "Decomposing numbers (e.g., 45 is 4 tens and 5 ones)",
+            "Representing numbers using bundles of sticks or blocks"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_21_99.before_after_between",
+          "title": "Before, After, and Between",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.numbers_21_99.two_digit_numbers"
+          ],
+          "description": "Identifying the position of numbers relative to each other in the sequence from 21 to 99.",
+          "key_ideas": [
+            "Finding the predecessor (number before)",
+            "Finding the successor (number after)",
+            "Identifying the number situated between two given numbers"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_21_99.comparing_numbers",
+          "title": "Comparing Two-Digit Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math1.numbers_21_99.place_value_tens_ones"
+          ],
+          "description": "Determining which of two numbers is larger, smaller, or if they are equal.",
+          "key_ideas": [
+            "Comparing the tens digit first to determine size",
+            "Comparing the ones digit if the tens are the same",
+            "Using symbols for greater than (>), less than (<), and equal to (=)"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_21_99.ordering_numbers",
+          "title": "Ascending and Descending Order",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math1.numbers_21_99.comparing_numbers"
+          ],
+          "description": "Arranging a set of numbers from smallest to largest and largest to smallest.",
+          "key_ideas": [
+            "Identifying the smallest and largest numbers in a group",
+            "Arranging numbers in increasing (ascending) order",
+            "Arranging numbers in decreasing (descending) order"
+          ]
+        },
+        {
+          "concept_id": "math1.numbers_21_99.missing_numbers_sequence",
+          "title": "Completing Number Patterns",
+          "bloom_level": "apply",
+          "difficulty": 0.55,
+          "prerequisites": [
+            "math1.numbers_21_99.two_digit_numbers"
+          ],
+          "description": "Filling in missing numbers in a sequential grid or line up to 99.",
+          "key_ideas": [
+            "Recognizing the forward counting sequence",
+            "Filling gaps in a 1-100 chart",
+            "Identifying patterns in rows and columns of a number grid"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Money",
+      "concepts": [
+        {
+          "concept_id": "math1.money.coins",
+          "title": "Identifying Coins and Notes",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Identifying Coins and Notes — part of the chapter on Money.",
+          "key_ideas": [
+            "Core principles of identifying coins and notes",
+            "Step-by-step problem solving for identifying coins and notes",
+            "Real-world applications of identifying coins and notes"
+          ]
+        },
+        {
+          "concept_id": "math1.money.simple_transactions",
+          "title": "Simple Buying and Selling",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math1.money.coins"
+          ],
+          "description": "Simple Buying and Selling — part of the chapter on Money.",
+          "key_ideas": [
+            "Core principles of simple buying and selling",
+            "Step-by-step problem solving for simple buying and selling",
+            "Real-world applications of simple buying and selling"
+          ]
+        },
+        {
+          "concept_id": "math1.money.counting_value",
+          "title": "Counting Total Money",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math1.money.coins"
+          ],
+          "description": "Learning to add the values of different coins and notes to find the total amount held.",
+          "key_ideas": [
+            "Adding values of multiple coins",
+            "Combining notes and coins",
+            "Understanding that different coins can sum to the same value"
+          ]
+        },
+        {
+          "concept_id": "math1.money.combinations",
+          "title": "Making Amounts",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math1.money.counting_value"
+          ],
+          "description": "Selecting specific combinations of coins and notes to form a target monetary value.",
+          "key_ideas": [
+            "Forming a specific amount (e.g., 7 rupees) using available coins",
+            "Using different combinations to make the same amount",
+            "Decomposing a larger value into smaller denominations"
+          ]
+        },
+        {
+          "concept_id": "math1.money.comparing_amounts",
+          "title": "Comparing Money",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math1.money.counting_value"
+          ],
+          "description": "Determining which of two collections of money represents a greater or lesser value, or if they are equal.",
+          "key_ideas": [
+            "Identifying the larger amount between two groups of coins",
+            "Understanding value versus quantity (more coins does not always mean more money)",
+            "Matching equal amounts represented by different coins"
+          ]
+        },
+        {
+          "concept_id": "math1.money.word_problems",
+          "title": "Money Stories",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math1.money.simple_transactions",
+            "math1.money.counting_value"
+          ],
+          "description": "Solving simple addition and subtraction word problems involving money in real-life contexts.",
+          "key_ideas": [
+            "Calculating total cost of multiple items",
+            "Determining money left after a purchase",
+            "Understanding terms like 'spend', 'save', and 'cost'"
+          ]
+        }
+      ]
+    }
+  ]
+}

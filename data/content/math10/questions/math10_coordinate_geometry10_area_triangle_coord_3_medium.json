@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.5,
+    "question": "State and explain the key concept: Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|.",
+    "hint": "Think about the definition and main formula related to Area of Triangle Using Coordinates.",
+    "expected_answer": "This tests understanding of: Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Area of Triangle Using Coordinates"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "question": "Solve an NCERT example problem related to 'Area of Triangle Using Coordinates'. Show all steps clearly.",
+    "hint": "Review the key ideas: Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|, Absolute value ensures area is always positive.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Area of Triangle Using Coordinates. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Area of Triangle Using Coordinates"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.65,
+    "question": "How would you apply 'Area of Triangle Using Coordinates' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where area of triangle using coordinates concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Area of Triangle Using Coordinates.",
+    "concepts_tested": [
+      "Area of Triangle Using Coordinates",
+      "Real-world application"
+    ]
+  }
+]

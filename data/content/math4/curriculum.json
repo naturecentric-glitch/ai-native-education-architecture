@@ -1,0 +1,1191 @@
+{
+  "course_id": "math4",
+  "title": "Class 4 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Large Numbers",
+      "concepts": [
+        {
+          "concept_id": "math4.large_numbers.place_value4",
+          "title": "Place Value — Up to Ten Thousand",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Place Value — Up to Ten Thousand — part of the chapter on Large Numbers.",
+          "key_ideas": [
+            "Core principles of place value",
+            "Step-by-step problem solving for place value",
+            "Real-world applications of place value"
+          ]
+        },
+        {
+          "concept_id": "math4.large_numbers.indian_system",
+          "title": "Indian Number System",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math4.large_numbers.place_value4"
+          ],
+          "description": "Indian Number System — part of the chapter on Large Numbers.",
+          "key_ideas": [
+            "Core principles of indian number system",
+            "Step-by-step problem solving for indian number system",
+            "Real-world applications of indian number system"
+          ]
+        },
+        {
+          "concept_id": "math4.large_numbers.expanded_form",
+          "title": "Expanded and Short Forms",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math4.large_numbers.place_value4"
+          ],
+          "description": "Learn to express numbers as the sum of the place values of their digits and convert them back to standard short form.",
+          "key_ideas": [
+            "Writing numbers as a sum of place values",
+            "Understanding the value of zero in expanded form",
+            "Converting expanded notation back to standard numerals"
+          ]
+        },
+        {
+          "concept_id": "math4.large_numbers.intro_lakhs",
+          "title": "Introduction to Lakhs",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math4.large_numbers.indian_system",
+            "math4.large_numbers.place_value4"
+          ],
+          "description": "Extend number sense beyond ten thousand to understand 5-digit and 6-digit numbers, introducing the concept of 'Lakh'.",
+          "key_ideas": [
+            "The smallest 6-digit number is 1 Lakh",
+            "99,999 + 1 equals 1,00,000",
+            "Reading and writing 6-digit numbers in the Indian System"
+          ]
+        },
+        {
+          "concept_id": "math4.large_numbers.successor_predecessor",
+          "title": "Successor and Predecessor",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math4.large_numbers.place_value4"
+          ],
+          "description": "Identify numbers that come immediately before and immediately after a given large number.",
+          "key_ideas": [
+            "Successor is the number + 1 (Just After)",
+            "Predecessor is the number - 1 (Just Before)",
+            "Handling rollover (e.g., successor of 19,999)"
+          ]
+        },
+        {
+          "concept_id": "math4.large_numbers.comparing_ordering",
+          "title": "Comparing and Ordering Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math4.large_numbers.place_value4"
+          ],
+          "description": "Apply rules of place value to compare two large numbers and arrange sets of numbers in ascending or descending order.",
+          "key_ideas": [
+            "Comparing the number of digits first",
+            "Comparing digits from left to right (highest place value first)",
+            "Arranging numbers in Ascending (increasing) order",
+            "Arranging numbers in Descending (decreasing) order"
+          ]
+        },
+        {
+          "concept_id": "math4.large_numbers.forming_numbers",
+          "title": "Forming Greatest and Smallest Numbers",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.large_numbers.comparing_ordering"
+          ],
+          "description": "Use a given set of digits to construct the largest and smallest possible numbers, with special attention to the placement of zero.",
+          "key_ideas": [
+            "Arranging digits in descending order for the greatest number",
+            "Arranging digits in ascending order for the smallest number",
+            "Rules for placing '0' (cannot be the first digit)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Addition and Subtraction (Large Numbers)",
+      "concepts": [
+        {
+          "concept_id": "math4.addition_sub4.add_4digit",
+          "title": "Adding 4-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Adding 4-Digit Numbers — part of the chapter on Addition and Subtraction (Large Numbers).",
+          "key_ideas": [
+            "Core principles of adding 4-digit numbers",
+            "Step-by-step problem solving for adding 4-digit numbers",
+            "Real-world applications of adding 4-digit numbers"
+          ]
+        },
+        {
+          "concept_id": "math4.addition_sub4.sub_4digit",
+          "title": "Subtracting 4-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Subtracting 4-Digit Numbers — part of the chapter on Addition and Subtraction (Large Numbers).",
+          "key_ideas": [
+            "Core principles of subtracting 4-digit numbers",
+            "Step-by-step problem solving for subtracting 4-digit numbers",
+            "Real-world applications of subtracting 4-digit numbers"
+          ]
+        },
+        {
+          "concept_id": "math4.addition_sub4.properties",
+          "title": "Properties of Addition and Subtraction",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding the fundamental rules that govern addition and subtraction, such as the order of numbers and the role of zero.",
+          "key_ideas": [
+            "Order Property: Changing the order of addends does not change the sum (A + B = B + A)",
+            "Zero Property: Adding or subtracting zero leaves the number unchanged",
+            "Subtraction of a number from itself results in zero"
+          ]
+        },
+        {
+          "concept_id": "math4.addition_sub4.estimation",
+          "title": "Estimating Sums and Differences",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math4.addition_sub4.add_4digit",
+            "math4.addition_sub4.sub_4digit"
+          ],
+          "description": "Using rounding strategies to find approximate answers for addition and subtraction problems involving large numbers.",
+          "key_ideas": [
+            "Rounding numbers to the nearest 100 or 1000 before calculating",
+            "Comparing estimated results with actual results to check reasonableness",
+            "Using estimation for quick mental calculations in daily life"
+          ]
+        },
+        {
+          "concept_id": "math4.addition_sub4.check_answer",
+          "title": "Checking Subtraction with Addition",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math4.addition_sub4.sub_4digit"
+          ],
+          "description": "Learning how to verify the correctness of a subtraction problem using the inverse operation of addition.",
+          "key_ideas": [
+            "Understanding the relationship: Difference + Subtrahend = Minuend",
+            "Performing addition to validate a subtraction result",
+            "Identifying calculation errors through verification"
+          ]
+        },
+        {
+          "concept_id": "math4.addition_sub4.word_problems",
+          "title": "Real-Life Word Problems",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.addition_sub4.add_4digit",
+            "math4.addition_sub4.sub_4digit"
+          ],
+          "description": "Analyzing text-based scenarios to determine whether to add or subtract and solving them using 4-digit numbers.",
+          "key_ideas": [
+            "Identifying keywords (e.g., 'total', 'sum', 'difference', 'how much more')",
+            "Translating word stories into mathematical statements",
+            "Solving multi-step problems involving both operations"
+          ]
+        },
+        {
+          "concept_id": "math4.addition_sub4.missing_digits",
+          "title": "Finding Missing Digits",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math4.addition_sub4.add_4digit",
+            "math4.addition_sub4.sub_4digit"
+          ],
+          "description": "Applying logic and understanding of regrouping (carry over and borrowing) to find missing numbers in column addition or subtraction puzzles.",
+          "key_ideas": [
+            "Using place value logic to identify hidden digits",
+            "Reverse calculating to find missing operands",
+            "Understanding the impact of carry-over and borrowing on missing values"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Multiplication",
+      "concepts": [
+        {
+          "concept_id": "math4.multiplication4.multiply_2by2",
+          "title": "Multiplying 2-Digit by 2-Digit",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Multiplying 2-Digit by 2-Digit — part of the chapter on Multiplication.",
+          "key_ideas": [
+            "Core principles of multiplying 2-digit by 2-digit",
+            "Step-by-step problem solving for multiplying 2-digit by 2-digit",
+            "Real-world applications of multiplying 2-digit by 2-digit"
+          ]
+        },
+        {
+          "concept_id": "math4.multiplication4.multiply_word",
+          "title": "Word Problems on Multiplication",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math4.multiplication4.multiply_2by2"
+          ],
+          "description": "Word Problems on Multiplication — part of the chapter on Multiplication.",
+          "key_ideas": [
+            "Core principles of word problems on multiplication",
+            "Step-by-step problem solving for word problems on multiplication",
+            "Real-world applications of word problems on multiplication"
+          ]
+        },
+        {
+          "concept_id": "math4.multiplication4.properties",
+          "title": "Properties of Multiplication",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding the fundamental rules of multiplication, including how order affects the product and the special roles of zero and one.",
+          "key_ideas": [
+            "Order Property: Changing the order of numbers does not change the product (e.g., 4 × 5 = 5 × 4)",
+            "Multiplicative Identity: Any number multiplied by 1 remains the same",
+            "Zero Property: Any number multiplied by 0 results in 0"
+          ]
+        },
+        {
+          "concept_id": "math4.multiplication4.multiply_10_100",
+          "title": "Multiplying by 10, 100, and 1000",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math4.multiplication4.properties"
+          ],
+          "description": "Learning the patterns involved in multiplying whole numbers by multiples of 10, 100, and 1000 to solve problems quickly.",
+          "key_ideas": [
+            "To multiply by 10, add one zero to the right of the number",
+            "To multiply by 100, add two zeros to the right of the number",
+            "Using place value shifts to understand multiplication by multiples of ten"
+          ]
+        },
+        {
+          "concept_id": "math4.multiplication4.box_method",
+          "title": "Multiplication using Box Method",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math4.multiplication4.multiply_10_100"
+          ],
+          "description": "Using the decomposition (expansion) of numbers to multiply by breaking them into simpler parts (tens and ones), also known as the Area Model.",
+          "key_ideas": [
+            "Expanding numbers into tens and ones (e.g., 23 becomes 20 + 3)",
+            "Calculating partial products for each part separately",
+            "Adding partial products together to find the final answer"
+          ]
+        },
+        {
+          "concept_id": "math4.multiplication4.multiply_3by1",
+          "title": "Multiplying 3-Digit by 1-Digit",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math4.multiplication4.properties"
+          ],
+          "description": "Applying the standard column algorithm to multiply three-digit numbers by single-digit numbers involving regrouping (carrying).",
+          "key_ideas": [
+            "Aligning numbers correctly by place value",
+            "Multiplying the ones, then tens, then hundreds",
+            "Handling carry-overs (regrouping) to the next place value"
+          ]
+        },
+        {
+          "concept_id": "math4.multiplication4.estimate_product",
+          "title": "Estimating Products",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math4.multiplication4.multiply_2by2"
+          ],
+          "description": "Using rounding strategies to guess the approximate answer of a multiplication problem to verify if a calculated result is reasonable.",
+          "key_ideas": [
+            "Rounding factors to the nearest 10 or 100 before multiplying",
+            "Using mental math to find an approximate product",
+            "Comparing estimated results with actual calculations to check for errors"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Division",
+      "concepts": [
+        {
+          "concept_id": "math4.division4.long_division",
+          "title": "Long Division — 2-Digit by 1-Digit",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Long Division — 2-Digit by 1-Digit — part of the chapter on Division.",
+          "key_ideas": [
+            "Core principles of long division",
+            "Step-by-step problem solving for long division",
+            "Real-world applications of long division"
+          ]
+        },
+        {
+          "concept_id": "math4.division4.division_word",
+          "title": "Word Problems on Division",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math4.division4.long_division"
+          ],
+          "description": "Word Problems on Division — part of the chapter on Division.",
+          "key_ideas": [
+            "Core principles of word problems on division",
+            "Step-by-step problem solving for word problems on division",
+            "Real-world applications of word problems on division"
+          ]
+        },
+        {
+          "concept_id": "math4.division4.properties",
+          "title": "Properties of Division",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding the fundamental rules of division, including dividing by one, dividing a number by itself, and the rule regarding division by zero.",
+          "key_ideas": [
+            "Any number divided by 1 gives the number itself",
+            "Any number (except 0) divided by itself gives 1",
+            "Division by zero is not defined",
+            "Zero divided by any number (except 0) is 0"
+          ]
+        },
+        {
+          "concept_id": "math4.division4.patterns_10",
+          "title": "Division by 10 and 100",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Using mental math shortcuts and patterns to divide numbers by 10 and 100 without performing long division.",
+          "key_ideas": [
+            "When dividing by 10, the digit in the ones place becomes the remainder",
+            "When dividing by 100, the last two digits become the remainder",
+            "Removing zeros from the end when dividend and divisor both end in zero"
+          ]
+        },
+        {
+          "concept_id": "math4.division4.long_division_3digit",
+          "title": "Long Division — 3-Digit by 1-Digit",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math4.division4.long_division"
+          ],
+          "description": "Extending the long division algorithm to process three-digit dividends, reinforcing the step-by-step process of divide, multiply, subtract, and bring down.",
+          "key_ideas": [
+            "Starting division from the hundreds place",
+            "Handling cases where the first digit is smaller than the divisor",
+            "Repeating the division cycle for three place values"
+          ]
+        },
+        {
+          "concept_id": "math4.division4.verification",
+          "title": "Verifying Division using Multiplication",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.division4.long_division"
+          ],
+          "description": "Learning the inverse relationship between multiplication and division to check if a quotient and remainder are correct.",
+          "key_ideas": [
+            "Dividend = (Divisor × Quotient) + Remainder",
+            "The remainder must always be smaller than the divisor",
+            "Using multiplication to self-correct division errors"
+          ]
+        },
+        {
+          "concept_id": "math4.division4.interpreting_remainders",
+          "title": "Interpreting Remainders in Real Life",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math4.division4.division_word"
+          ],
+          "description": "Analyzing word problems to determine how to handle the remainder (e.g., rounding up, ignoring it, or reporting it as a fraction/leftover).",
+          "key_ideas": [
+            "Deciding when to round up the quotient (e.g., needing another bus for leftover students)",
+            "Deciding when to ignore the remainder (e.g., full items created)",
+            "Identifying the remainder as the 'leftover' amount"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Factors and Multiples",
+      "concepts": [
+        {
+          "concept_id": "math4.factors_multiples.factors",
+          "title": "Factors of a Number",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Factors of a Number — part of the chapter on Factors and Multiples.",
+          "key_ideas": [
+            "Core principles of factors of a number",
+            "Step-by-step problem solving for factors of a number",
+            "Real-world applications of factors of a number"
+          ]
+        },
+        {
+          "concept_id": "math4.factors_multiples.multiples",
+          "title": "Multiples of a Number",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Multiples of a Number — part of the chapter on Factors and Multiples.",
+          "key_ideas": [
+            "Core principles of multiples of a number",
+            "Step-by-step problem solving for multiples of a number",
+            "Real-world applications of multiples of a number"
+          ]
+        },
+        {
+          "concept_id": "math4.factors_multiples.common_factors",
+          "title": "Common Factors",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math4.factors_multiples.factors"
+          ],
+          "description": "Identifying factors that are shared between two different numbers.",
+          "key_ideas": [
+            "Listing factors for two separate numbers",
+            "Comparing lists to find matching numbers",
+            "Understanding that 1 is a common factor for all numbers"
+          ]
+        },
+        {
+          "concept_id": "math4.factors_multiples.common_multiples",
+          "title": "Common Multiples",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math4.factors_multiples.multiples"
+          ],
+          "description": "Finding numbers that appear in the multiplication tables of two different numbers.",
+          "key_ideas": [
+            "Listing the first few multiples of two numbers",
+            "Identifying multiples shared by both lists",
+            "Introduction to the idea that common multiples are infinite"
+          ]
+        },
+        {
+          "concept_id": "math4.factors_multiples.prime_composite",
+          "title": "Prime and Composite Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math4.factors_multiples.factors"
+          ],
+          "description": "Classifying numbers based on the count of their factors.",
+          "key_ideas": [
+            "Prime numbers have exactly two factors: 1 and themselves",
+            "Composite numbers have more than two factors",
+            "The number 1 is neither prime nor composite"
+          ]
+        },
+        {
+          "concept_id": "math4.factors_multiples.divisibility_rules",
+          "title": "Tests of Divisibility (2, 5, 10)",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.factors_multiples.factors",
+            "math4.factors_multiples.multiples"
+          ],
+          "description": "Using patterns in digits to determine if a number is a multiple of 2, 5, or 10 without performing long division.",
+          "key_ideas": [
+            "Numbers ending in 0, 2, 4, 6, 8 are divisible by 2",
+            "Numbers ending in 0 or 5 are divisible by 5",
+            "Numbers ending in 0 are divisible by 10"
+          ]
+        },
+        {
+          "concept_id": "math4.factors_multiples.factor_trees",
+          "title": "Factor Trees",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math4.factors_multiples.prime_composite",
+            "math4.factors_multiples.factors"
+          ],
+          "description": "A visual method to break down composite numbers into their prime factors.",
+          "key_ideas": [
+            "Splitting a number into two factors repeatedly",
+            "Stopping when branches end in prime numbers",
+            "Visualizing that different trees for the same number result in the same bottom factors"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Fractions",
+      "concepts": [
+        {
+          "concept_id": "math4.fractions4.types_fractions",
+          "title": "Like, Unlike, Proper, Improper Fractions",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Like, Unlike, Proper, Improper Fractions — part of the chapter on Fractions.",
+          "key_ideas": [
+            "Core principles of like, unlike, proper, improper fractions",
+            "Step-by-step problem solving for like, unlike, proper, improper fractions",
+            "Real-world applications of like, unlike, proper, improper fractions"
+          ]
+        },
+        {
+          "concept_id": "math4.fractions4.equivalent",
+          "title": "Equivalent Fractions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math4.fractions4.types_fractions"
+          ],
+          "description": "Equivalent Fractions — part of the chapter on Fractions.",
+          "key_ideas": [
+            "Core principles of equivalent fractions",
+            "Step-by-step problem solving for equivalent fractions",
+            "Real-world applications of equivalent fractions"
+          ]
+        },
+        {
+          "concept_id": "math4.fractions4.compare_fractions",
+          "title": "Comparing Fractions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math4.fractions4.equivalent"
+          ],
+          "description": "Comparing Fractions — part of the chapter on Fractions.",
+          "key_ideas": [
+            "Core principles of comparing fractions",
+            "Step-by-step problem solving for comparing fractions",
+            "Real-world applications of comparing fractions"
+          ]
+        },
+        {
+          "concept_id": "math4.fractions4.fraction_of_collection",
+          "title": "Fraction of a Collection",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding how to find a fractional part of a group or set of objects, rather than just a single whole.",
+          "key_ideas": [
+            "Fractions can represent parts of a set (e.g., 1/2 of 10 apples)",
+            "Divide the total number of objects by the denominator",
+            "Multiply the result by the numerator to find the value"
+          ]
+        },
+        {
+          "concept_id": "math4.fractions4.mixed_numbers",
+          "title": "Introduction to Mixed Numbers",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math4.fractions4.types_fractions"
+          ],
+          "description": "Learning about numbers that consist of a whole number and a proper fraction combined.",
+          "key_ideas": [
+            "A mixed number represents more than one whole",
+            "It is written as a whole number next to a fraction (e.g., 1 1/2)",
+            "Relationship between mixed numbers and improper fractions"
+          ]
+        },
+        {
+          "concept_id": "math4.fractions4.add_like_fractions",
+          "title": "Adding Like Fractions",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math4.fractions4.types_fractions"
+          ],
+          "description": "Learning the method to add two or more fractions that have the same denominator.",
+          "key_ideas": [
+            "Identify that denominators are the same",
+            "Add the numerators together",
+            "Keep the common denominator unchanged in the answer"
+          ]
+        },
+        {
+          "concept_id": "math4.fractions4.sub_like_fractions",
+          "title": "Subtracting Like Fractions",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.fractions4.types_fractions",
+            "math4.fractions4.compare_fractions"
+          ],
+          "description": "Learning the method to subtract one fraction from another when they share the same denominator.",
+          "key_ideas": [
+            "Ensure the first fraction is larger than the second",
+            "Subtract the smaller numerator from the larger numerator",
+            "Retain the common denominator in the difference"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Decimals (Introduction)",
+      "concepts": [
+        {
+          "concept_id": "math4.decimals_intro.tenths",
+          "title": "Tenths — Place Value of Decimals",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Tenths — Place Value of Decimals — part of the chapter on Decimals (Introduction).",
+          "key_ideas": [
+            "Core principles of tenths",
+            "Step-by-step problem solving for tenths",
+            "Real-world applications of tenths"
+          ]
+        },
+        {
+          "concept_id": "math4.decimals_intro.decimal_money",
+          "title": "Decimals in Money",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math4.decimals_intro.tenths"
+          ],
+          "description": "Decimals in Money — part of the chapter on Decimals (Introduction).",
+          "key_ideas": [
+            "Core principles of decimals in money",
+            "Step-by-step problem solving for decimals in money",
+            "Real-world applications of decimals in money"
+          ]
+        },
+        {
+          "concept_id": "math4.decimals_intro.hundredths",
+          "title": "Hundredths — The Second Decimal Place",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math4.decimals_intro.tenths"
+          ],
+          "description": "Introduction to the concept of hundredths, representing one part out of one hundred equal parts, and its notation in the decimal system.",
+          "key_ideas": [
+            "Understanding that 1/100 is equal to 0.01",
+            "Using a 10x10 grid to visualize hundredths",
+            "Identifying the second digit to the right of the decimal point as the hundredths place"
+          ]
+        },
+        {
+          "concept_id": "math4.decimals_intro.fractions_to_decimals",
+          "title": "Converting Fractions to Decimals",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math4.decimals_intro.tenths",
+            "math4.decimals_intro.hundredths"
+          ],
+          "description": "Learning how to convert fractions with denominators of 10 and 100 into decimal notation.",
+          "key_ideas": [
+            "Writing fractions like 5/10 as 0.5",
+            "Writing fractions like 23/100 as 0.23",
+            "Understanding the relationship between the number of zeros in the denominator and decimal places"
+          ]
+        },
+        {
+          "concept_id": "math4.decimals_intro.number_line",
+          "title": "Decimals on the Number Line",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math4.decimals_intro.tenths"
+          ],
+          "description": "Visualizing and locating decimal numbers on a number line to understand their value relative to whole numbers.",
+          "key_ideas": [
+            "Locating decimals between whole numbers (e.g., 0.4 is between 0 and 1)",
+            "Dividing the space between whole numbers into 10 equal parts",
+            "Understanding that moving right on the number line increases value"
+          ]
+        },
+        {
+          "concept_id": "math4.decimals_intro.decimal_length",
+          "title": "Decimals in Length and Measurement",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.decimals_intro.tenths",
+            "math4.decimals_intro.hundredths"
+          ],
+          "description": "Applying decimal concepts to measure length, specifically converting between millimeters, centimeters, and meters.",
+          "key_ideas": [
+            "Expressing millimeters as centimeters (e.g., 5mm = 0.5cm)",
+            "Writing measurements like '4 cm and 3 mm' as '4.3 cm'",
+            "Using decimals to represent parts of a meter"
+          ]
+        },
+        {
+          "concept_id": "math4.decimals_intro.mixed_numerals",
+          "title": "Mixed Numerals as Decimals",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math4.decimals_intro.tenths"
+          ],
+          "description": "Understanding numbers that combine whole numbers and decimal fractions.",
+          "key_ideas": [
+            "Reading numbers with both whole and decimal parts (e.g., 2.5)",
+            "Understanding the role of the decimal point as a separator",
+            "Representing mixed fractions (e.g., 2 and 3/10) as decimals (2.3)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Geometry",
+      "concepts": [
+        {
+          "concept_id": "math4.geometry4.angles_intro",
+          "title": "Introduction to Angles",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to Angles — part of the chapter on Geometry.",
+          "key_ideas": [
+            "Core principles of introduction to angles",
+            "Step-by-step problem solving for introduction to angles",
+            "Real-world applications of introduction to angles"
+          ]
+        },
+        {
+          "concept_id": "math4.geometry4.symmetry",
+          "title": "Lines of Symmetry",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Lines of Symmetry — part of the chapter on Geometry.",
+          "key_ideas": [
+            "Core principles of lines of symmetry",
+            "Step-by-step problem solving for lines of symmetry",
+            "Real-world applications of lines of symmetry"
+          ]
+        },
+        {
+          "concept_id": "math4.geometry4.perimeter",
+          "title": "Perimeter of Simple Shapes",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math4.geometry4.angles_intro"
+          ],
+          "description": "Perimeter of Simple Shapes — part of the chapter on Geometry.",
+          "key_ideas": [
+            "Core principles of perimeter of simple shapes",
+            "Step-by-step problem solving for perimeter of simple shapes",
+            "Real-world applications of perimeter of simple shapes"
+          ]
+        },
+        {
+          "concept_id": "math4.geometry4.circle_basics",
+          "title": "Parts of a Circle",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to circles and their fundamental components, focusing on the relationship between the center, radius, and diameter.",
+          "key_ideas": [
+            "Identifying the center of a circle",
+            "Defining radius as the distance from center to edge",
+            "Understanding diameter as the longest chord passing through the center",
+            "Diameter equals two times the radius"
+          ]
+        },
+        {
+          "concept_id": "math4.geometry4.polygon_properties",
+          "title": "Sides and Vertices of Polygons",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math4.geometry4.angles_intro"
+          ],
+          "description": "Analyzing 2D shapes (triangles, quadrilaterals) by counting and identifying their sides (edges) and vertices (corners).",
+          "key_ideas": [
+            "Identifying vertices where two sides meet",
+            "Counting sides of closed figures",
+            "Classifying shapes based on the number of sides",
+            "Relationship between the number of angles and vertices"
+          ]
+        },
+        {
+          "concept_id": "math4.geometry4.spatial_views",
+          "title": "Top, Side, and Front Views",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Developing spatial reasoning by visualizing and identifying how everyday objects look from different perspectives.",
+          "key_ideas": [
+            "Visualizing objects from the top view (plan)",
+            "Identifying side and front views (elevations)",
+            "Understanding that objects look different from different angles",
+            "Matching 2D representations to 3D objects"
+          ]
+        },
+        {
+          "concept_id": "math4.geometry4.solids_faces",
+          "title": "Faces, Edges, and Vertices of 3D Shapes",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math4.geometry4.polygon_properties"
+          ],
+          "description": "Introduction to 3D solid shapes like cubes, cuboids, and spheres, focusing on their physical attributes.",
+          "key_ideas": [
+            "Distinguishing between flat and curved faces",
+            "Counting edges where faces meet",
+            "Identifying vertices on 3D solids",
+            "Comparing cubes and cuboids"
+          ]
+        },
+        {
+          "concept_id": "math4.geometry4.area_counting",
+          "title": "Area by Counting Squares",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.geometry4.perimeter"
+          ],
+          "description": "Introduction to the concept of area as the space occupied by a shape, measured using a grid system.",
+          "key_ideas": [
+            "Area is the surface covered by a closed shape",
+            "Using square units (grid paper) to measure area",
+            "Counting full squares and combining half squares",
+            "Distinguishing between area (space inside) and perimeter (boundary length)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Measurement",
+      "concepts": [
+        {
+          "concept_id": "math4.measurement4.conversion",
+          "title": "Converting Units — mm, cm, m, km",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Converting Units — mm, cm, m, km — part of the chapter on Measurement.",
+          "key_ideas": [
+            "Core principles of converting units",
+            "Step-by-step problem solving for converting units",
+            "Real-world applications of converting units"
+          ]
+        },
+        {
+          "concept_id": "math4.measurement4.area_intro",
+          "title": "Introduction to Area — Counting Squares",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Introduction to Area — Counting Squares — part of the chapter on Measurement.",
+          "key_ideas": [
+            "Core principles of introduction to area",
+            "Step-by-step problem solving for introduction to area",
+            "Real-world applications of introduction to area"
+          ]
+        },
+        {
+          "concept_id": "math4.measurement4.perimeter_intro",
+          "title": "Understanding Perimeter — Measuring Boundaries",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math4.measurement4.conversion"
+          ],
+          "description": "Introduction to the concept of perimeter as the total distance around a closed 2D shape. Students learn to calculate perimeter by adding the lengths of all sides.",
+          "key_ideas": [
+            "Perimeter is the length of the boundary of a shape",
+            "Calculated by adding the lengths of all sides",
+            "Real-world examples: fencing a field, framing a picture"
+          ]
+        },
+        {
+          "concept_id": "math4.measurement4.weight_units",
+          "title": "Measurement of Weight — Grams and Kilograms",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Understanding units of mass/weight. Students learn to distinguish between light objects (grams) and heavy objects (kilograms) and perform basic conversions (1 kg = 1000 g).",
+          "key_ideas": [
+            "Using grams (g) for light objects and kilograms (kg) for heavy objects",
+            "Relationship: 1000 grams make 1 kilogram",
+            "Reading weighing scales and balances"
+          ]
+        },
+        {
+          "concept_id": "math4.measurement4.capacity_units",
+          "title": "Measurement of Capacity — Liters and Milliliters",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Exploration of liquid volume. Students identify containers that hold liters vs. milliliters and learn the standard conversion relationship (1 L = 1000 mL).",
+          "key_ideas": [
+            "Capacity measures the amount of liquid a container can hold",
+            "Using milliliters (mL) for small amounts and liters (L) for large amounts",
+            "Relationship: 1000 milliliters make 1 liter"
+          ]
+        },
+        {
+          "concept_id": "math4.measurement4.measurement_operations",
+          "title": "Operations with Measurements — Addition and Subtraction",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math4.measurement4.conversion",
+            "math4.measurement4.weight_units",
+            "math4.measurement4.capacity_units"
+          ],
+          "description": "Solving arithmetic problems involving metric units. Focuses on adding and subtracting lengths, weights, and capacities, often requiring unit alignment or simple conversion.",
+          "key_ideas": [
+            "Aligning units before adding or subtracting (e.g., m with m, cm with cm)",
+            "Handling carry-over when smaller units exceed the conversion threshold (e.g., 1200g becomes 1kg 200g)",
+            "Solving word problems involving total length or remaining weight"
+          ]
+        },
+        {
+          "concept_id": "math4.measurement4.estimation",
+          "title": "Estimation and Unit Selection",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math4.measurement4.conversion",
+            "math4.measurement4.weight_units"
+          ],
+          "description": "Developing the intuition to guess measurements and select the appropriate unit for a given object or distance without using tools.",
+          "key_ideas": [
+            "Choosing the right unit (e.g., measuring a room in meters, a pencil in cm)",
+            "Estimating quantities before measuring to check reasonableness",
+            "Visualizing standard units in real-life contexts"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Data Handling",
+      "concepts": [
+        {
+          "concept_id": "math4.data_handling4.bar_graphs",
+          "title": "Reading and Drawing Bar Graphs",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Reading and Drawing Bar Graphs — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of reading and drawing bar graphs",
+            "Step-by-step problem solving for reading and drawing bar graphs",
+            "Real-world applications of reading and drawing bar graphs"
+          ]
+        },
+        {
+          "concept_id": "math4.data_handling4.tables",
+          "title": "Frequency Tables",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Frequency Tables — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of frequency tables",
+            "Step-by-step problem solving for frequency tables",
+            "Real-world applications of frequency tables"
+          ]
+        },
+        {
+          "concept_id": "math4.data_handling4.tally_marks",
+          "title": "Recording Data with Tally Marks",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learn the standard method of recording counts using tally marks, specifically grouping them into sets of five for easier counting.",
+          "key_ideas": [
+            "Using vertical lines for counts 1 to 4",
+            "Crossing diagonally to represent the 5th count",
+            "Skip-counting by 5s to find totals quickly"
+          ]
+        },
+        {
+          "concept_id": "math4.data_handling4.pictographs",
+          "title": "Interpreting and Drawing Pictographs",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math4.data_handling4.tally_marks"
+          ],
+          "description": "Represent data using symbols or images, where a single symbol may represent one or multiple units (scaling).",
+          "key_ideas": [
+            "Using a key to define what one symbol represents (e.g., 1 smiley = 10 students)",
+            "Drawing symbols to match frequency data",
+            "Interpreting partial symbols (half a picture)"
+          ]
+        },
+        {
+          "concept_id": "math4.data_handling4.chapati_charts",
+          "title": "Introduction to Chapati Charts (Pie Charts)",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.data_handling4.tables"
+          ],
+          "description": "Visualize data as parts of a whole circle, understanding the relationship between the size of a 'slice' and the data value.",
+          "key_ideas": [
+            "The full circle represents the total amount",
+            "Visualizing simple fractions (half, quarter, three-quarters) in data",
+            "Comparing the size of different sectors without numbers"
+          ]
+        },
+        {
+          "concept_id": "math4.data_handling4.data_interpretation",
+          "title": "Drawing Conclusions from Data",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math4.data_handling4.bar_graphs",
+            "math4.data_handling4.pictographs"
+          ],
+          "description": "Analyze various charts to solve problems, compare categories, and derive insights beyond simple reading of values.",
+          "key_ideas": [
+            "Identifying the maximum and minimum values",
+            "Calculating the difference between two categories",
+            "Summing data points to find the grand total"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch11",
+      "title": "Patterns",
+      "concepts": [
+        {
+          "concept_id": "math4.patterns4.number_patterns",
+          "title": "Number Patterns and Sequences",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Number Patterns and Sequences — part of the chapter on Patterns.",
+          "key_ideas": [
+            "Core principles of number patterns and sequences",
+            "Step-by-step problem solving for number patterns and sequences",
+            "Real-world applications of number patterns and sequences"
+          ]
+        },
+        {
+          "concept_id": "math4.patterns4.magic_squares",
+          "title": "Magic Squares and Puzzles",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math4.patterns4.number_patterns"
+          ],
+          "description": "Magic Squares and Puzzles — part of the chapter on Patterns.",
+          "key_ideas": [
+            "Core principles of magic squares and puzzles",
+            "Step-by-step problem solving for magic squares and puzzles",
+            "Real-world applications of magic squares and puzzles"
+          ]
+        },
+        {
+          "concept_id": "math4.patterns4.shape_rotations",
+          "title": "Block Patterns and Rotations",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding how shapes and designs repeat through rotation (quarter turns and half turns) to create continuous patterns.",
+          "key_ideas": [
+            "Identifying the rule of rotation (clockwise vs. anti-clockwise)",
+            "Predicting the next shape in a turning sequence",
+            "Creating designs using 1/4 and 1/2 turns"
+          ]
+        },
+        {
+          "concept_id": "math4.patterns4.tiling_tessellations",
+          "title": "Floor Patterns and Tiling",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math4.patterns4.shape_rotations"
+          ],
+          "description": "Exploring how specific geometric shapes fit together to cover a surface without leaving gaps or overlapping.",
+          "key_ideas": [
+            "Distinguishing between shapes that tile (squares, hexagons) and those that do not (circles)",
+            "Identifying the repeating unit in a floor design",
+            "Covering a plane surface without gaps"
+          ]
+        },
+        {
+          "concept_id": "math4.patterns4.symmetry_mirror_halves",
+          "title": "Symmetry and Mirror Images",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Identifying symmetrical patterns where one half is a mirror reflection of the other, often found in nature and art.",
+          "key_ideas": [
+            "Drawing the line of symmetry",
+            "Completing a pattern based on its mirror half",
+            "Recognizing symmetry in alphabets and geometric shapes"
+          ]
+        },
+        {
+          "concept_id": "math4.patterns4.secret_codes",
+          "title": "Alphabet Patterns and Secret Codes",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math4.patterns4.number_patterns"
+          ],
+          "description": "Applying logic to encode and decode messages using alphanumeric patterns (e.g., A=1, B=2 or shifting letters).",
+          "key_ideas": [
+            "Substituting letters with numbers to create codes",
+            "Shifting alphabets (e.g., writing B for A) to hide messages",
+            "Decoding secret messages by identifying the underlying pattern rule"
+          ]
+        },
+        {
+          "concept_id": "math4.patterns4.growing_patterns",
+          "title": "Growing Visual Patterns",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math4.patterns4.number_patterns"
+          ],
+          "description": "Analyzing patterns that increase in size or quantity step-by-step, linking visual growth to arithmetic rules.",
+          "key_ideas": [
+            "Differentiating between repeating patterns and growing patterns",
+            "Connecting visual growth (e.g., building towers) to number sequences",
+            "Generalizing the rule for the growth of the pattern"
+          ]
+        }
+      ]
+    }
+  ]
+}

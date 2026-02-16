@@ -1,0 +1,158 @@
+{
+  "course_id": "economics12",
+  "title": "Class 12 Economics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Introduction to Microeconomics",
+      "concepts": [
+        {
+          "concept_id": "economics12.micro_intro.economy_types",
+          "title": "Central Problems and Types of Economies",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Central Problems and Types of Economies — part of the chapter on Introduction to Microeconomics.",
+          "key_ideas": [
+            "Core principles of central problems and types of economies",
+            "Step-by-step problem solving for central problems and types of economies",
+            "Real-world applications of central problems and types of economies"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Theory of Consumer Behaviour / Demand and Supply",
+      "concepts": [
+        {
+          "concept_id": "economics12.demand_supply.demand_supply_curves",
+          "title": "Demand, Supply Curves and Equilibrium",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Demand, Supply Curves and Equilibrium — part of the chapter on Theory of Consumer Behaviour / Demand and Supply.",
+          "key_ideas": [
+            "Core principles of demand, supply curves and equilibrium",
+            "Step-by-step problem solving for demand, supply curves and equilibrium",
+            "Real-world applications of demand, supply curves and equilibrium"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Production and Costs",
+      "concepts": [
+        {
+          "concept_id": "economics12.production_costs.production_function",
+          "title": "Production Function and Cost Curves",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Production Function and Cost Curves — part of the chapter on Production and Costs.",
+          "key_ideas": [
+            "Core principles of production function and cost curves",
+            "Step-by-step problem solving for production function and cost curves",
+            "Real-world applications of production function and cost curves"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Market Forms — Perfect Competition, Monopoly",
+      "concepts": [
+        {
+          "concept_id": "economics12.market_forms.price_output",
+          "title": "Price and Output Determination",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Price and Output Determination — part of the chapter on Market Forms — Perfect Competition, Monopoly.",
+          "key_ideas": [
+            "Core principles of price and output determination",
+            "Step-by-step problem solving for price and output determination",
+            "Real-world applications of price and output determination"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "National Income Accounting",
+      "concepts": [
+        {
+          "concept_id": "economics12.national_income.gdp_methods",
+          "title": "GDP and Methods of Calculation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "GDP and Methods of Calculation — part of the chapter on National Income Accounting.",
+          "key_ideas": [
+            "Core principles of gdp and methods of calculation",
+            "Step-by-step problem solving for gdp and methods of calculation",
+            "Real-world applications of gdp and methods of calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Money and Banking",
+      "concepts": [
+        {
+          "concept_id": "economics12.money_banking12.money_supply_rbi",
+          "title": "Money Supply, RBI and Credit Creation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Money Supply, RBI and Credit Creation — part of the chapter on Money and Banking.",
+          "key_ideas": [
+            "Core principles of money supply, rbi and credit creation",
+            "Step-by-step problem solving for money supply, rbi and credit creation",
+            "Real-world applications of money supply, rbi and credit creation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Government Budget and the Economy",
+      "concepts": [
+        {
+          "concept_id": "economics12.govt_budget.fiscal_policy",
+          "title": "Fiscal Policy, Revenue, Expenditure",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Fiscal Policy, Revenue, Expenditure — part of the chapter on Government Budget and the Economy.",
+          "key_ideas": [
+            "Core principles of fiscal policy, revenue, expenditure",
+            "Step-by-step problem solving for fiscal policy, revenue, expenditure",
+            "Real-world applications of fiscal policy, revenue, expenditure"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Balance of Payments",
+      "concepts": [
+        {
+          "concept_id": "economics12.balance_of_payments.bop_forex",
+          "title": "BOP, Foreign Exchange and Exchange Rate",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "BOP, Foreign Exchange and Exchange Rate — part of the chapter on Balance of Payments.",
+          "key_ideas": [
+            "Core principles of bop, foreign exchange and exchange rate",
+            "Step-by-step problem solving for bop, foreign exchange and exchange rate",
+            "Real-world applications of bop, foreign exchange and exchange rate"
+          ]
+        }
+      ]
+    }
+  ]
+}

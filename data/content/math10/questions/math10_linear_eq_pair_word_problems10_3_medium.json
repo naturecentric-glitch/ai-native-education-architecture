@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.55,
+    "question": "State and explain the key concept: Identify unknowns and assign variables (let x = ..., y = ...).",
+    "hint": "Think about the definition and main formula related to Word Problems on Linear Equations.",
+    "expected_answer": "This tests understanding of: Identify unknowns and assign variables (let x = ..., y = ...). Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Word Problems on Linear Equations"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "question": "Solve an NCERT example problem related to 'Word Problems on Linear Equations'. Show all steps clearly.",
+    "hint": "Review the key ideas: Identify unknowns and assign variables (let x = ..., y = ...), Form two equations from the given conditions.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Word Problems on Linear Equations. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Word Problems on Linear Equations"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.7000000000000001,
+    "question": "How would you apply 'Word Problems on Linear Equations' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where word problems on linear equations concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Word Problems on Linear Equations.",
+    "concepts_tested": [
+      "Word Problems on Linear Equations",
+      "Real-world application"
+    ]
+  }
+]

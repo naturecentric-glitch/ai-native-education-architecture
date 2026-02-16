@@ -7,40 +7,25 @@
       "title": "Relations and Functions",
       "concepts": [
         {
-          "concept_id": "math12.relations_functions.types_relations",
-          "title": "Types of Relations (Reflexive, Symmetric, Transitive)",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Types of Relations (Reflexive, Symmetric, Transitive) — part of the chapter on Relations and Functions.",
-          "key_ideas": [
-            "Core principles of types of relations (reflexive, symmetric, transitive)",
-            "Step-by-step problem solving for types of relations (reflexive, symmetric, transitive)",
-            "Real-world applications of types of relations (reflexive, symmetric, transitive)"
-          ]
-        },
-        {
-          "concept_id": "math12.relations_functions.types_functions",
-          "title": "One-one, Onto and Bijective Functions",
+          "concept_id": "math12.relations_functions12.types_functions",
+          "title": "Types of Relations and Functions",
           "bloom_level": "apply",
           "difficulty": 0.45,
-          "prerequisites": [
-            "math12.relations_functions.types_relations"
-          ],
-          "description": "One-one, Onto and Bijective Functions — part of the chapter on Relations and Functions.",
+          "prerequisites": [],
+          "description": "Types of Relations and Functions — part of the chapter on Relations and Functions.",
           "key_ideas": [
-            "Core principles of one-one, onto and bijective functions",
-            "Step-by-step problem solving for one-one, onto and bijective functions",
-            "Real-world applications of one-one, onto and bijective functions"
+            "Core principles of types of relations and functions",
+            "Step-by-step problem solving for types of relations and functions",
+            "Real-world applications of types of relations and functions"
           ]
         },
         {
-          "concept_id": "math12.relations_functions.composition",
+          "concept_id": "math12.relations_functions12.composition",
           "title": "Composition of Functions and Inverse",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math12.relations_functions.types_functions"
+            "math12.relations_functions12.types_functions"
           ],
           "description": "Composition of Functions and Inverse — part of the chapter on Relations and Functions.",
           "key_ideas": [
@@ -56,31 +41,16 @@
       "title": "Inverse Trigonometric Functions",
       "concepts": [
         {
-          "concept_id": "math12.inverse_trig.basic_concepts",
-          "title": "Inverse Trig Functions — Domain and Range",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Inverse Trig Functions — Domain and Range — part of the chapter on Inverse Trigonometric Functions.",
-          "key_ideas": [
-            "Core principles of inverse trig functions",
-            "Step-by-step problem solving for inverse trig functions",
-            "Real-world applications of inverse trig functions"
-          ]
-        },
-        {
           "concept_id": "math12.inverse_trig.properties",
-          "title": "Properties of Inverse Trig Functions",
+          "title": "Domain, Range and Properties",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "math12.inverse_trig.basic_concepts"
-          ],
-          "description": "Properties of Inverse Trig Functions — part of the chapter on Inverse Trigonometric Functions.",
+          "prerequisites": [],
+          "description": "Domain, Range and Properties — part of the chapter on Inverse Trigonometric Functions.",
           "key_ideas": [
-            "Core principles of properties of inverse trig functions",
-            "Step-by-step problem solving for properties of inverse trig functions",
-            "Real-world applications of properties of inverse trig functions"
+            "Core principles of domain, range and properties",
+            "Step-by-step problem solving for domain, range and properties",
+            "Real-world applications of domain, range and properties"
           ]
         }
       ]
@@ -90,10 +60,10 @@
       "title": "Matrices",
       "concepts": [
         {
-          "concept_id": "math12.matrices.types_operations",
+          "concept_id": "math12.matrices.operations",
           "title": "Types and Operations on Matrices",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
+          "bloom_level": "apply",
+          "difficulty": 0.4,
           "prerequisites": [],
           "description": "Types and Operations on Matrices — part of the chapter on Matrices.",
           "key_ideas": [
@@ -103,33 +73,18 @@
           ]
         },
         {
-          "concept_id": "math12.matrices.transpose_symmetric",
-          "title": "Transpose, Symmetric and Skew-Symmetric",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "math12.matrices.types_operations"
-          ],
-          "description": "Transpose, Symmetric and Skew-Symmetric — part of the chapter on Matrices.",
-          "key_ideas": [
-            "Core principles of transpose, symmetric and skew-symmetric",
-            "Step-by-step problem solving for transpose, symmetric and skew-symmetric",
-            "Real-world applications of transpose, symmetric and skew-symmetric"
-          ]
-        },
-        {
-          "concept_id": "math12.matrices.elementary_operations",
-          "title": "Elementary Operations and Invertible Matrices",
+          "concept_id": "math12.matrices.inverse_matrix",
+          "title": "Transpose, Symmetric and Invertible Matrices",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [
-            "math12.matrices.transpose_symmetric"
+            "math12.matrices.operations"
           ],
-          "description": "Elementary Operations and Invertible Matrices — part of the chapter on Matrices.",
+          "description": "Transpose, Symmetric and Invertible Matrices — part of the chapter on Matrices.",
           "key_ideas": [
-            "Core principles of elementary operations and invertible matrices",
-            "Step-by-step problem solving for elementary operations and invertible matrices",
-            "Real-world applications of elementary operations and invertible matrices"
+            "Core principles of transpose, symmetric and invertible matrices",
+            "Step-by-step problem solving for transpose, symmetric and invertible matrices",
+            "Real-world applications of transpose, symmetric and invertible matrices"
           ]
         }
       ]
@@ -140,45 +95,30 @@
       "concepts": [
         {
           "concept_id": "math12.determinants.determinant_calc",
-          "title": "Determinant Calculation (2x2, 3x3)",
+          "title": "Calculation and Properties of Determinants",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [],
-          "description": "Determinant Calculation (2x2, 3x3) — part of the chapter on Determinants.",
+          "description": "Calculation and Properties of Determinants — part of the chapter on Determinants.",
           "key_ideas": [
-            "Core principles of determinant calculation (2x2, 3x3)",
-            "Step-by-step problem solving for determinant calculation (2x2, 3x3)",
-            "Real-world applications of determinant calculation (2x2, 3x3)"
-          ]
-        },
-        {
-          "concept_id": "math12.determinants.properties_det",
-          "title": "Properties of Determinants",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "math12.determinants.determinant_calc"
-          ],
-          "description": "Properties of Determinants — part of the chapter on Determinants.",
-          "key_ideas": [
-            "Core principles of properties of determinants",
-            "Step-by-step problem solving for properties of determinants",
-            "Real-world applications of properties of determinants"
+            "Core principles of calculation and properties of determinants",
+            "Step-by-step problem solving for calculation and properties of determinants",
+            "Real-world applications of calculation and properties of determinants"
           ]
         },
         {
           "concept_id": "math12.determinants.cramers_rule",
-          "title": "Cramer's Rule and Inverse Using Determinants",
+          "title": "Cramer's Rule and Inverse",
           "bloom_level": "apply",
           "difficulty": 0.55,
           "prerequisites": [
-            "math12.determinants.properties_det"
+            "math12.determinants.determinant_calc"
           ],
-          "description": "Cramer's Rule and Inverse Using Determinants — part of the chapter on Determinants.",
+          "description": "Cramer's Rule and Inverse — part of the chapter on Determinants.",
           "key_ideas": [
-            "Core principles of cramer's rule and inverse using determinants",
-            "Step-by-step problem solving for cramer's rule and inverse using determinants",
-            "Real-world applications of cramer's rule and inverse using determinants"
+            "Core principles of cramer's rule and inverse",
+            "Step-by-step problem solving for cramer's rule and inverse",
+            "Real-world applications of cramer's rule and inverse"
           ]
         }
       ]
@@ -188,46 +128,31 @@
       "title": "Continuity and Differentiability",
       "concepts": [
         {
-          "concept_id": "math12.continuity.continuity",
-          "title": "Continuity of Functions",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Continuity of Functions — part of the chapter on Continuity and Differentiability.",
-          "key_ideas": [
-            "Core principles of continuity of functions",
-            "Step-by-step problem solving for continuity of functions",
-            "Real-world applications of continuity of functions"
-          ]
-        },
-        {
-          "concept_id": "math12.continuity.differentiability",
-          "title": "Differentiability",
+          "concept_id": "math12.continuity.continuity_diff",
+          "title": "Continuity and Differentiability",
           "bloom_level": "apply",
           "difficulty": 0.45,
-          "prerequisites": [
-            "math12.continuity.continuity"
-          ],
-          "description": "Differentiability — part of the chapter on Continuity and Differentiability.",
+          "prerequisites": [],
+          "description": "Continuity and Differentiability — part of the chapter on Continuity and Differentiability.",
           "key_ideas": [
-            "Core principles of differentiability",
-            "Step-by-step problem solving for differentiability",
-            "Real-world applications of differentiability"
+            "Core principles of continuity and differentiability",
+            "Step-by-step problem solving for continuity and differentiability",
+            "Real-world applications of continuity and differentiability"
           ]
         },
         {
           "concept_id": "math12.continuity.chain_rule",
-          "title": "Chain Rule, Implicit and Logarithmic Differentiation",
+          "title": "Chain Rule, Implicit and Log Differentiation",
           "bloom_level": "apply",
           "difficulty": 0.55,
           "prerequisites": [
-            "math12.continuity.differentiability"
+            "math12.continuity.continuity_diff"
           ],
-          "description": "Chain Rule, Implicit and Logarithmic Differentiation — part of the chapter on Continuity and Differentiability.",
+          "description": "Chain Rule, Implicit and Log Differentiation — part of the chapter on Continuity and Differentiability.",
           "key_ideas": [
-            "Core principles of chain rule, implicit and logarithmic differentiation",
-            "Step-by-step problem solving for chain rule, implicit and logarithmic differentiation",
-            "Real-world applications of chain rule, implicit and logarithmic differentiation"
+            "Core principles of chain rule, implicit and log differentiation",
+            "Step-by-step problem solving for chain rule, implicit and log differentiation",
+            "Real-world applications of chain rule, implicit and log differentiation"
           ]
         }
       ]
@@ -237,46 +162,16 @@
       "title": "Application of Derivatives",
       "concepts": [
         {
-          "concept_id": "math12.derivatives_app.rate_of_change",
-          "title": "Rate of Change of Quantities",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Rate of Change of Quantities — part of the chapter on Application of Derivatives.",
-          "key_ideas": [
-            "Core principles of rate of change of quantities",
-            "Step-by-step problem solving for rate of change of quantities",
-            "Real-world applications of rate of change of quantities"
-          ]
-        },
-        {
-          "concept_id": "math12.derivatives_app.tangents_normals",
-          "title": "Tangents and Normals",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "math12.derivatives_app.rate_of_change"
-          ],
-          "description": "Tangents and Normals — part of the chapter on Application of Derivatives.",
-          "key_ideas": [
-            "Core principles of tangents and normals",
-            "Step-by-step problem solving for tangents and normals",
-            "Real-world applications of tangents and normals"
-          ]
-        },
-        {
           "concept_id": "math12.derivatives_app.maxima_minima",
-          "title": "Maxima and Minima",
+          "title": "Rate of Change, Tangents, Maxima and Minima",
           "bloom_level": "apply",
-          "difficulty": 0.55,
-          "prerequisites": [
-            "math12.derivatives_app.tangents_normals"
-          ],
-          "description": "Maxima and Minima — part of the chapter on Application of Derivatives.",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Rate of Change, Tangents, Maxima and Minima — part of the chapter on Application of Derivatives.",
           "key_ideas": [
-            "Core principles of maxima and minima",
-            "Step-by-step problem solving for maxima and minima",
-            "Real-world applications of maxima and minima"
+            "Core principles of rate of change, tangents, maxima and minima",
+            "Step-by-step problem solving for rate of change, tangents, maxima and minima",
+            "Real-world applications of rate of change, tangents, maxima and minima"
           ]
         }
       ]
@@ -312,21 +207,6 @@
             "Step-by-step problem solving for definite integrals",
             "Real-world applications of definite integrals"
           ]
-        },
-        {
-          "concept_id": "math12.integrals.integration_methods",
-          "title": "Integration by Substitution, Parts, Partial Fractions",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
-          "prerequisites": [
-            "math12.integrals.definite"
-          ],
-          "description": "Integration by Substitution, Parts, Partial Fractions — part of the chapter on Integrals.",
-          "key_ideas": [
-            "Core principles of integration by substitution, parts, partial fractions",
-            "Step-by-step problem solving for integration by substitution, parts, partial fractions",
-            "Real-world applications of integration by substitution, parts, partial fractions"
-          ]
         }
       ]
     },
@@ -336,30 +216,15 @@
       "concepts": [
         {
           "concept_id": "math12.integrals_app.area_curves",
-          "title": "Area Under Curves",
+          "title": "Area Under and Between Curves",
           "bloom_level": "apply",
           "difficulty": 0.5,
           "prerequisites": [],
-          "description": "Area Under Curves — part of the chapter on Application of Integrals.",
+          "description": "Area Under and Between Curves — part of the chapter on Application of Integrals.",
           "key_ideas": [
-            "Core principles of area under curves",
-            "Step-by-step problem solving for area under curves",
-            "Real-world applications of area under curves"
-          ]
-        },
-        {
-          "concept_id": "math12.integrals_app.area_between",
-          "title": "Area Between Two Curves",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
-          "prerequisites": [
-            "math12.integrals_app.area_curves"
-          ],
-          "description": "Area Between Two Curves — part of the chapter on Application of Integrals.",
-          "key_ideas": [
-            "Core principles of area between two curves",
-            "Step-by-step problem solving for area between two curves",
-            "Real-world applications of area between two curves"
+            "Core principles of area under and between curves",
+            "Step-by-step problem solving for area under and between curves",
+            "Real-world applications of area under and between curves"
           ]
         }
       ]
@@ -369,46 +234,16 @@
       "title": "Differential Equations",
       "concepts": [
         {
-          "concept_id": "math12.diff_equations.order_degree",
-          "title": "Order and Degree of Differential Equations",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Order and Degree of Differential Equations — part of the chapter on Differential Equations.",
-          "key_ideas": [
-            "Core principles of order and degree of differential equations",
-            "Step-by-step problem solving for order and degree of differential equations",
-            "Real-world applications of order and degree of differential equations"
-          ]
-        },
-        {
           "concept_id": "math12.diff_equations.variable_separable",
-          "title": "Variable Separable Method",
+          "title": "Order, Degree and Variable Separable",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "math12.diff_equations.order_degree"
-          ],
-          "description": "Variable Separable Method — part of the chapter on Differential Equations.",
+          "prerequisites": [],
+          "description": "Order, Degree and Variable Separable — part of the chapter on Differential Equations.",
           "key_ideas": [
-            "Core principles of variable separable method",
-            "Step-by-step problem solving for variable separable method",
-            "Real-world applications of variable separable method"
-          ]
-        },
-        {
-          "concept_id": "math12.diff_equations.homogeneous_linear",
-          "title": "Homogeneous and Linear Differential Equations",
-          "bloom_level": "apply",
-          "difficulty": 0.55,
-          "prerequisites": [
-            "math12.diff_equations.variable_separable"
-          ],
-          "description": "Homogeneous and Linear Differential Equations — part of the chapter on Differential Equations.",
-          "key_ideas": [
-            "Core principles of homogeneous and linear differential equations",
-            "Step-by-step problem solving for homogeneous and linear differential equations",
-            "Real-world applications of homogeneous and linear differential equations"
+            "Core principles of order, degree and variable separable",
+            "Step-by-step problem solving for order, degree and variable separable",
+            "Real-world applications of order, degree and variable separable"
           ]
         }
       ]
@@ -418,46 +253,16 @@
       "title": "Vector Algebra",
       "concepts": [
         {
-          "concept_id": "math12.vectors.vectors_intro",
-          "title": "Vectors — Types and Operations",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
+          "concept_id": "math12.vectors.vectors_ops",
+          "title": "Vectors — Dot and Cross Product",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
           "prerequisites": [],
-          "description": "Vectors — Types and Operations — part of the chapter on Vector Algebra.",
+          "description": "Vectors — Dot and Cross Product — part of the chapter on Vector Algebra.",
           "key_ideas": [
             "Core principles of vectors",
             "Step-by-step problem solving for vectors",
             "Real-world applications of vectors"
-          ]
-        },
-        {
-          "concept_id": "math12.vectors.scalar_product",
-          "title": "Scalar (Dot) Product",
-          "bloom_level": "apply",
-          "difficulty": 0.4,
-          "prerequisites": [
-            "math12.vectors.vectors_intro"
-          ],
-          "description": "Scalar (Dot) Product — part of the chapter on Vector Algebra.",
-          "key_ideas": [
-            "Core principles of scalar (dot) product",
-            "Step-by-step problem solving for scalar (dot) product",
-            "Real-world applications of scalar (dot) product"
-          ]
-        },
-        {
-          "concept_id": "math12.vectors.cross_product",
-          "title": "Vector (Cross) Product",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "math12.vectors.scalar_product"
-          ],
-          "description": "Vector (Cross) Product — part of the chapter on Vector Algebra.",
-          "key_ideas": [
-            "Core principles of vector (cross) product",
-            "Step-by-step problem solving for vector (cross) product",
-            "Real-world applications of vector (cross) product"
           ]
         }
       ]
@@ -467,46 +272,16 @@
       "title": "Three Dimensional Geometry",
       "concepts": [
         {
-          "concept_id": "math12.three_d.direction_cosines",
-          "title": "Direction Cosines and Ratios",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Direction Cosines and Ratios — part of the chapter on Three Dimensional Geometry.",
-          "key_ideas": [
-            "Core principles of direction cosines and ratios",
-            "Step-by-step problem solving for direction cosines and ratios",
-            "Real-world applications of direction cosines and ratios"
-          ]
-        },
-        {
-          "concept_id": "math12.three_d.line_3d",
-          "title": "Equation of a Line in Space",
-          "bloom_level": "apply",
-          "difficulty": 0.45,
-          "prerequisites": [
-            "math12.three_d.direction_cosines"
-          ],
-          "description": "Equation of a Line in Space — part of the chapter on Three Dimensional Geometry.",
-          "key_ideas": [
-            "Core principles of equation of a line in space",
-            "Step-by-step problem solving for equation of a line in space",
-            "Real-world applications of equation of a line in space"
-          ]
-        },
-        {
-          "concept_id": "math12.three_d.plane_3d",
-          "title": "Equation of a Plane",
+          "concept_id": "math12.three_d.line_plane",
+          "title": "Lines and Planes in 3D",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "math12.three_d.line_3d"
-          ],
-          "description": "Equation of a Plane — part of the chapter on Three Dimensional Geometry.",
+          "prerequisites": [],
+          "description": "Lines and Planes in 3D — part of the chapter on Three Dimensional Geometry.",
           "key_ideas": [
-            "Core principles of equation of a plane",
-            "Step-by-step problem solving for equation of a plane",
-            "Real-world applications of equation of a plane"
+            "Core principles of lines and planes in 3d",
+            "Step-by-step problem solving for lines and planes in 3d",
+            "Real-world applications of lines and planes in 3d"
           ]
         }
       ]
@@ -516,31 +291,16 @@
       "title": "Linear Programming",
       "concepts": [
         {
-          "concept_id": "math12.linear_programming.formulation",
-          "title": "Formulation of LPP",
+          "concept_id": "math12.linear_programming.lpp",
+          "title": "Formulation and Graphical Solution of LPP",
           "bloom_level": "apply",
-          "difficulty": 0.4,
+          "difficulty": 0.45,
           "prerequisites": [],
-          "description": "Formulation of LPP — part of the chapter on Linear Programming.",
+          "description": "Formulation and Graphical Solution of LPP — part of the chapter on Linear Programming.",
           "key_ideas": [
-            "Core principles of formulation of lpp",
-            "Step-by-step problem solving for formulation of lpp",
-            "Real-world applications of formulation of lpp"
-          ]
-        },
-        {
-          "concept_id": "math12.linear_programming.graphical_method",
-          "title": "Graphical Method of Solving LPP",
-          "bloom_level": "apply",
-          "difficulty": 0.5,
-          "prerequisites": [
-            "math12.linear_programming.formulation"
-          ],
-          "description": "Graphical Method of Solving LPP — part of the chapter on Linear Programming.",
-          "key_ideas": [
-            "Core principles of graphical method of solving lpp",
-            "Step-by-step problem solving for graphical method of solving lpp",
-            "Real-world applications of graphical method of solving lpp"
+            "Core principles of formulation and graphical solution of lpp",
+            "Step-by-step problem solving for formulation and graphical solution of lpp",
+            "Real-world applications of formulation and graphical solution of lpp"
           ]
         }
       ]
@@ -550,40 +310,25 @@
       "title": "Probability",
       "concepts": [
         {
-          "concept_id": "math12.probability.conditional",
-          "title": "Conditional Probability",
-          "bloom_level": "understand",
-          "difficulty": 0.4,
-          "prerequisites": [],
-          "description": "Conditional Probability — part of the chapter on Probability.",
-          "key_ideas": [
-            "Core principles of conditional probability",
-            "Step-by-step problem solving for conditional probability",
-            "Real-world applications of conditional probability"
-          ]
-        },
-        {
-          "concept_id": "math12.probability.bayes_theorem",
-          "title": "Bayes' Theorem",
+          "concept_id": "math12.probability12.bayes_theorem",
+          "title": "Conditional Probability and Bayes' Theorem",
           "bloom_level": "apply",
           "difficulty": 0.5,
-          "prerequisites": [
-            "math12.probability.conditional"
-          ],
-          "description": "Bayes' Theorem — part of the chapter on Probability.",
+          "prerequisites": [],
+          "description": "Conditional Probability and Bayes' Theorem — part of the chapter on Probability.",
           "key_ideas": [
-            "Core principles of bayes' theorem",
-            "Step-by-step problem solving for bayes' theorem",
-            "Real-world applications of bayes' theorem"
+            "Core principles of conditional probability and bayes' theorem",
+            "Step-by-step problem solving for conditional probability and bayes' theorem",
+            "Real-world applications of conditional probability and bayes' theorem"
           ]
         },
         {
-          "concept_id": "math12.probability.random_variable",
+          "concept_id": "math12.probability12.random_variable",
           "title": "Random Variable and Distributions",
           "bloom_level": "apply",
           "difficulty": 0.55,
           "prerequisites": [
-            "math12.probability.bayes_theorem"
+            "math12.probability12.bayes_theorem"
           ],
           "description": "Random Variable and Distributions — part of the chapter on Probability.",
           "key_ideas": [

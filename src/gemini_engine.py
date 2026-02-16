@@ -17,11 +17,51 @@ from typing import Optional
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
-from src.config import GOOGLE_API_KEY, AI_MODEL, AI_EXPANSION_MODEL
+from src.config import GOOGLE_API_KEY, AI_MODEL, AI_EXPANSION_MODEL, AI_FALLBACK_MODEL
 from src.mastery_tree import Concept, MasteryNode, MasteryTree, StudentStore
 
+import logging
+_log = logging.getLogger(__name__)
 
 # ── Gemini Client ────────────────────────────────────────────────────────────
+
+def _extract_text(response) -> str:
+    """Extract text from a Gemini response, handling both string and list content."""
+    content = response.content
+    if isinstance(content, str):
+        return content.strip()
+    if isinstance(content, list):
+        # gemini-3-pro-preview returns list of content blocks
+        parts = []
+        for block in content:
+            if isinstance(block, str):
+                parts.append(block)
+            elif isinstance(block, dict) and "text" in block:
+                parts.append(block["text"])
+        return "\n".join(parts).strip()
+    return str(content).strip()
+
+
+def _parse_json(text: str) -> dict | list:
+    """Robustly parse JSON from Gemini output, stripping markdown fences."""
+    import re
+    # Strip markdown code fences
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1].rsplit("```", 1)[0]
+    text = text.strip()
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # Try to extract the outermost JSON object or array
+        for pattern in [r'\{.*\}', r'\[.*\]']:
+            m = re.search(pattern, text, re.DOTALL)
+            if m:
+                try:
+                    return json.loads(m.group())
+                except json.JSONDecodeError:
+                    continue
+        raise  # re-raise original error
+
 
 def get_llm(temperature: float = 0.3, model: str | None = None):
     return ChatGoogleGenerativeAI(
@@ -29,6 +69,59 @@ def get_llm(temperature: float = 0.3, model: str | None = None):
         google_api_key=GOOGLE_API_KEY,
         temperature=temperature,
     )
+
+
+# ── Circuit Breaker ──────────────────────────────────────────────────────────
+# Once a model's daily quota is exhausted, skip straight to fallback for the
+# rest of the process.  Resets on next process start.
+
+import time as _time
+
+_quota_exhausted: dict[str, float] = {}   # model → timestamp when it was flagged
+_CIRCUIT_BREAKER_TTL = 3600  # re-try primary after 1 hour
+
+
+def _is_quota_exhausted(model: str) -> bool:
+    ts = _quota_exhausted.get(model)
+    if ts is None:
+        return False
+    if _time.time() - ts > _CIRCUIT_BREAKER_TTL:
+        del _quota_exhausted[model]
+        _log.info("Circuit breaker reset for %s — will try again", model)
+        return False
+    return True
+
+
+def _mark_quota_exhausted(model: str):
+    _quota_exhausted[model] = _time.time()
+    _log.warning("Circuit breaker OPEN for %s (will use fallback for ~%ds)", model, _CIRCUIT_BREAKER_TTL)
+
+
+async def _invoke_with_fallback(messages, temperature: float = 0.3, model: str | None = None):
+    """Invoke Gemini with automatic fallback to a cheaper model on quota errors.
+    
+    Uses a circuit-breaker pattern: once a model's quota is exhausted, all
+    subsequent calls skip straight to the fallback without hitting the API.
+    """
+    primary = model or AI_MODEL
+    fallback = AI_FALLBACK_MODEL
+    has_fallback = fallback and fallback != primary
+
+    # Circuit breaker: if primary is known-exhausted, go straight to fallback
+    if has_fallback and _is_quota_exhausted(primary):
+        llm = get_llm(temperature=temperature, model=fallback)
+        return await llm.ainvoke(messages)
+
+    try:
+        llm = get_llm(temperature=temperature, model=primary)
+        return await llm.ainvoke(messages)
+    except Exception as e:
+        err_str = str(e)
+        if has_fallback and ("429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "quota" in err_str.lower()):
+            _mark_quota_exhausted(primary)
+            llm = get_llm(temperature=temperature, model=fallback)
+            return await llm.ainvoke(messages)
+        raise
 
 
 def _subject_context(course_info: dict | None) -> str:
@@ -82,7 +175,6 @@ async def evaluate_answer(
     course_info: dict | None = None,
 ) -> dict:
     """Evaluate a student's answer using Gemini."""
-    llm = get_llm(temperature=0.2)
     ctx = _subject_context(course_info)
 
     prompt = f"""Evaluate this student's answer for {ctx}.
@@ -106,15 +198,13 @@ Respond with this exact JSON structure:
     "next_step": "<what the student should focus on next>"
 }}"""
 
-    response = await llm.ainvoke([
+    response = await _invoke_with_fallback([
         SystemMessage(content=_evaluation_prompt(course_info)),
         HumanMessage(content=prompt),
-    ])
+    ], temperature=0.3)
 
-    text = response.content.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1].rsplit("```", 1)[0]
-    return json.loads(text)
+    text = _extract_text(response)
+    return _parse_json(text)
 
 
 # ── Teaching Engine ──────────────────────────────────────────────────────────
@@ -143,7 +233,6 @@ async def teach_concept(
     course_info: dict | None = None,
 ) -> dict:
     """Generate a personalized lesson for a concept."""
-    llm = get_llm(temperature=0.5)
     ctx = _subject_context(course_info)
 
     context = f"The student's current mastery is {mastery_level:.0%}."
@@ -175,15 +264,24 @@ Structure your response as JSON:
     "fun_fact": "<an interesting fact related to this topic>"
 }}"""
 
-    response = await llm.ainvoke([
+    response = await _invoke_with_fallback([
         SystemMessage(content=_teaching_prompt(course_info)),
         HumanMessage(content=prompt),
-    ])
+    ], temperature=0.5)
 
-    text = response.content.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1].rsplit("```", 1)[0]
-    return json.loads(text)
+    text = _extract_text(response)
+    try:
+        return _parse_json(text)
+    except json.JSONDecodeError:
+        # Fallback: return a best-effort lesson dict
+        return {
+            "title": concept.title,
+            "hook": "",
+            "explanation": text,
+            "worked_example": "",
+            "try_this": {"question": "", "hint": "", "answer": ""},
+            "fun_fact": "",
+        }
 
 
 # ── Question Generator ───────────────────────────────────────────────────────
@@ -205,7 +303,6 @@ async def generate_questions(
     course_info: dict | None = None,
 ) -> list[dict]:
     """Generate practice questions for a concept."""
-    llm = get_llm(temperature=0.6)
 
     prompt = f"""Generate {count} questions for this topic:
 
@@ -232,15 +329,13 @@ Respond with JSON:
     ]
 }}"""
 
-    response = await llm.ainvoke([
+    response = await _invoke_with_fallback([
         SystemMessage(content=_question_prompt(course_info)),
         HumanMessage(content=prompt),
-    ])
+    ], temperature=0.6)
 
-    text = response.content.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1].rsplit("```", 1)[0]
-    result = json.loads(text)
+    text = _extract_text(response)
+    result = _parse_json(text)
     return result.get("questions", [])
 
 
@@ -253,7 +348,6 @@ async def analyze_misconceptions(
     course_info: dict | None = None,
 ) -> list[dict]:
     """Deep analysis of what specific misconception led to the wrong answer."""
-    llm = get_llm(temperature=0.2)
     ctx = _subject_context(course_info)
 
     prompt = f"""A student studying {ctx} gave a wrong answer. Analyze the specific misconception.
@@ -275,15 +369,13 @@ Respond with JSON:
     ]
 }}"""
 
-    response = await llm.ainvoke([
+    response = await _invoke_with_fallback([
         SystemMessage(content=_evaluation_prompt(course_info)),
         HumanMessage(content=prompt),
-    ])
+    ], temperature=0.2)
 
-    text = response.content.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1].rsplit("```", 1)[0]
-    result = json.loads(text)
+    text = _extract_text(response)
+    result = _parse_json(text)
     return result.get("misconceptions", [])
 
 
@@ -351,10 +443,8 @@ Respond with JSON:
         HumanMessage(content=prompt),
     ])
 
-    text = response.content.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1].rsplit("```", 1)[0]
-    result = json.loads(text)
+    text = _extract_text(response)
+    result = _parse_json(text)
     return result.get("new_concepts", [])
 
 

@@ -1,0 +1,12 @@
+{
+  "title": "Substitution Method — Pair of Linear Equations in Two Variables",
+  "hook": "Let's explore <strong>Substitution Method</strong> from the chapter on Pair of Linear Equations in Two Variables. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Substitution Method</strong>\n\n<em>Express one variable in terms of the other from one equation, substitute into the second equation to get a single variable equation, then solve.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Step 1: From one equation, express y in terms of x (or vice versa)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Step 2: Substitute this expression into the other equation</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Step 3: Solve the single-variable equation</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Step 4: Substitute back to find the other variable</div>",
+  "worked_example": "<em>A detailed worked example for Substitution Method will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Substitution Method and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and pair of linear equations in two variables concepts like substitution method are used in engineering, data science, and everyday problem solving!"
+}

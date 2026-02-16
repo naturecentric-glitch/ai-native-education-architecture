@@ -1,0 +1,12 @@
+{
+  "title": "Conversion of One Solid into Another — Surface Areas and Volumes",
+  "hook": "Let's explore <strong>Conversion of One Solid into Another</strong> from the chapter on Surface Areas and Volumes. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Conversion of One Solid into Another</strong>\n\n<em>When one solid is melted and recast into another shape, the volume remains the same. Set Volume₁ = Volume₂ to find unknown dimensions.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Volume is conserved when a solid is melted and reshaped</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Equate volumes: V(old shape) = V(new shape) or = n × V(each new)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Common: sphere → cylinder, cone → spheres, cylinder → cones</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Number of new objects = Volume(original) / Volume(one new object)</div>",
+  "worked_example": "<em>A detailed worked example for Conversion of One Solid into Another will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Conversion of One Solid into Another and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and surface areas and volumes concepts like conversion of one solid into another are used in engineering, data science, and everyday problem solving!"
+}

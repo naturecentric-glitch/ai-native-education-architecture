@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.55,
+    "question": "State and explain the key concept: Proof by contradiction: assume √2 = p/q in lowest terms.",
+    "hint": "Think about the definition and main formula related to Proving Irrationality.",
+    "expected_answer": "This tests understanding of: Proof by contradiction: assume √2 = p/q in lowest terms. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Proving Irrationality"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "question": "Solve an NCERT example problem related to 'Proving Irrationality'. Show all steps clearly.",
+    "hint": "Review the key ideas: Proof by contradiction: assume √2 = p/q in lowest terms, Show that p and q must both be even — contradicts 'lowest terms'.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Proving Irrationality. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Proving Irrationality"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.7000000000000001,
+    "question": "How would you apply 'Proving Irrationality' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where proving irrationality concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Proving Irrationality.",
+    "concepts_tested": [
+      "Proving Irrationality",
+      "Real-world application"
+    ]
+  }
+]

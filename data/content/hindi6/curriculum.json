@@ -1,0 +1,372 @@
+{
+  "course_id": "hindi6",
+  "title": "Class 6 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "गद्य — Prose",
+      "concepts": [
+        {
+          "concept_id": "hindi6.gadya6.stories_lessons",
+          "title": "Stories and Lessons with Comprehension",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Stories and Lessons with Comprehension — part of the chapter on गद्य — Prose.",
+          "key_ideas": [
+            "Core principles of stories and lessons with comprehension",
+            "Step-by-step problem solving for stories and lessons with comprehension",
+            "Real-world applications of stories and lessons with comprehension"
+          ]
+        },
+        {
+          "concept_id": "hindi6.gadya6.vocabulary_context",
+          "title": "Vocabulary and Contextual Meaning (Shabdarth)",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Building a robust vocabulary by understanding difficult words (kathin shabd) and their meanings within the context of prose lessons.",
+          "key_ideas": [
+            "Identifying new words in the text",
+            "Using context clues to find meaning",
+            "Synonyms (Paryayvacchi) and Antonyms (Vilom) relevant to the lesson"
+          ]
+        },
+        {
+          "concept_id": "hindi6.gadya6.prose_genres",
+          "title": "Forms of Prose: Memoir, Essay, and Folk Tale",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi6.gadya6.stories_lessons"
+          ],
+          "description": "Distinguishing between different types of prose writing found in the curriculum, such as Sansmaran (Memoir), Nibandh (Essay), and Lok Katha (Folk Tale).",
+          "key_ideas": [
+            "Characteristics of a Memoir (e.g., 'Bachpan')",
+            "Features of Informative Essays (e.g., 'Aksharon ka Mahatva')",
+            "Understanding Folk Tales and regional culture"
+          ]
+        },
+        {
+          "concept_id": "hindi6.gadya6.character_analysis",
+          "title": "Character Analysis (Charitra Chitran)",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi6.gadya6.stories_lessons"
+          ],
+          "description": "Analyzing the protagonists and supporting characters in stories to understand their traits, motivations, and relationships.",
+          "key_ideas": [
+            "identifying physical and behavioral traits",
+            "Understanding character motivations",
+            "Describing relationships between characters"
+          ]
+        },
+        {
+          "concept_id": "hindi6.gadya6.language_style",
+          "title": "Idioms and Linguistic Style (Bhasha Ki Baat)",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi6.gadya6.vocabulary_context"
+          ],
+          "description": "Exploring the stylistic elements of Hindi prose, specifically the use of idioms (muhavare) and specific sentence structures introduced in the lessons.",
+          "key_ideas": [
+            "Identifying idioms within the story",
+            "Using idioms in original sentences",
+            "Understanding grammatical structures specific to the text"
+          ]
+        },
+        {
+          "concept_id": "hindi6.gadya6.themes_values",
+          "title": "Themes and Moral Values (Mool Bhaav)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi6.gadya6.stories_lessons",
+            "hindi6.gadya6.character_analysis"
+          ],
+          "description": "Evaluating the central message, social issues, or moral values presented by the author in the prose selection.",
+          "key_ideas": [
+            "Identifying the central theme (Mool Bhaav)",
+            "Connecting story events to real-life values",
+            "Understanding the author's purpose"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "पद्य — Poetry",
+      "concepts": [
+        {
+          "concept_id": "hindi6.padya6.poems_bhav",
+          "title": "Poems and Their Meaning",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Poems and Their Meaning — part of the chapter on पद्य — Poetry.",
+          "key_ideas": [
+            "Core principles of poems and their meaning",
+            "Step-by-step problem solving for poems and their meaning",
+            "Real-world applications of poems and their meaning"
+          ]
+        },
+        {
+          "concept_id": "hindi6.padya6.svar_vachan",
+          "title": "Recitation and Intonation (Svar Vachan)",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "The art of reading poetry aloud with correct pronunciation, voice modulation, rhythm (laya), and pauses (yati-gati).",
+          "key_ideas": [
+            "Importance of rhythm and flow in poetry",
+            "Correct pronunciation of poetic Hindi words",
+            "Using voice modulation to express emotion"
+          ]
+        },
+        {
+          "concept_id": "hindi6.padya6.shabdarth",
+          "title": "Poetic Vocabulary (Shabdarth)",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi6.padya6.svar_vachan"
+          ],
+          "description": "Understanding the meanings of difficult, archaic, or dialect-specific words (tadbhav/deshaj) often found in Hindi poetry.",
+          "key_ideas": [
+            "Identifying difficult words in context",
+            "Understanding synonyms for poetic terms",
+            "Differentiating between literal and poetic meanings"
+          ]
+        },
+        {
+          "concept_id": "hindi6.padya6.tukbandi",
+          "title": "Rhyme and Rhythm (Tukbandi)",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "hindi6.padya6.svar_vachan"
+          ],
+          "description": "Identifying rhyming words at the end of verses and understanding the basic structure of the poem.",
+          "key_ideas": [
+            "Identification of rhyming pairs (Tuk)",
+            "Understanding the musical quality of verse",
+            "Recognizing repeating sound patterns"
+          ]
+        },
+        {
+          "concept_id": "hindi6.padya6.comprehension",
+          "title": "Poetic Comprehension (Kavita Vishleshan)",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi6.padya6.poems_bhav",
+            "hindi6.padya6.shabdarth"
+          ],
+          "description": "Answering specific questions regarding the events, characters, and imagery depicted within the poem.",
+          "key_ideas": [
+            "Extracting specific details from verses",
+            "Interpreting metaphors used by the poet",
+            "Connecting poetic lines to real-life situations"
+          ]
+        },
+        {
+          "concept_id": "hindi6.padya6.moral_message",
+          "title": "Central Theme and Moral (Seekh)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "hindi6.padya6.poems_bhav"
+          ],
+          "description": "Evaluating the core message, social value, or life lesson the poet intends to convey through the poem.",
+          "key_ideas": [
+            "Identifying the central idea (Mool Bhaav)",
+            "Deriving moral lessons (Seekh) from the poem",
+            "Understanding the poet's intent and perspective"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "व्याकरण",
+      "concepts": [
+        {
+          "concept_id": "hindi6.vyakaran6.sangya_sarvanam",
+          "title": "संज्ञा, सर्वनाम, विशेषण",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "संज्ञा, सर्वनाम, विशेषण — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of संज्ञा, सर्वनाम, विशेषण",
+            "Step-by-step problem solving for संज्ञा, सर्वनाम, विशेषण",
+            "Real-world applications of संज्ञा, सर्वनाम, विशेषण"
+          ]
+        },
+        {
+          "concept_id": "hindi6.vyakaran6.kaal_vakya",
+          "title": "काल और वाक्य भेद",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi6.vyakaran6.sangya_sarvanam"
+          ],
+          "description": "काल और वाक्य भेद — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of काल और वाक्य भेद",
+            "Step-by-step problem solving for काल और वाक्य भेद",
+            "Real-world applications of काल और वाक्य भेद"
+          ]
+        },
+        {
+          "concept_id": "hindi6.vyakaran6.kriya_bhed",
+          "title": "क्रिया और उसके भेद",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "hindi6.vyakaran6.sangya_sarvanam"
+          ],
+          "description": "Introduction to verbs (Kriya) as action words and the distinction between Transitive (Sakarmak) and Intransitive (Akarmak) verbs.",
+          "key_ideas": [
+            "Definition of Kriya (Verb)",
+            "Difference between Sakarmak and Akarmak Kriya",
+            "Identifying the object (Karma) in a sentence"
+          ]
+        },
+        {
+          "concept_id": "hindi6.vyakaran6.ling_vachan",
+          "title": "लिंग और वचन",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "hindi6.vyakaran6.sangya_sarvanam"
+          ],
+          "description": "Understanding grammatical gender (Ling) and number (Vachan) and how they affect noun forms and sentence structure.",
+          "key_ideas": [
+            "Identification of Pulling (Masculine) and Striling (Feminine)",
+            "Rules for changing Ekvachan (Singular) to Bahuvachan (Plural)",
+            "Impact of gender and number on adjectives and verbs"
+          ]
+        },
+        {
+          "concept_id": "hindi6.vyakaran6.shabd_bhandar",
+          "title": "शब्द भंडार (पर्यायवाची, विलोम)",
+          "bloom_level": "remember",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Expansion of vocabulary through Synonyms (Paryayvachi), Antonyms (Vilom), and One-word substitutions.",
+          "key_ideas": [
+            "Common Paryayvachi Shabd (Synonyms)",
+            "Common Vilom Shabd (Antonyms)",
+            "Anek shabdon ke liye ek shabd (One word substitution)"
+          ]
+        },
+        {
+          "concept_id": "hindi6.vyakaran6.muhavare",
+          "title": "मुहावरे",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Understanding idioms (Muhavare), their figurative meanings, and how to use them effectively in sentences to enrich language.",
+          "key_ideas": [
+            "Difference between literal and figurative meaning",
+            "Common Hindi idioms and their meanings",
+            "Usage of idioms in sentence construction"
+          ]
+        },
+        {
+          "concept_id": "hindi6.vyakaran6.viram_chinh",
+          "title": "विराम चिह्न",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi6.vyakaran6.kaal_vakya"
+          ],
+          "description": "The correct usage of punctuation marks to clarify meaning and pauses in written Hindi.",
+          "key_ideas": [
+            "Usage of Purn-viram (Full Stop) and Alp-viram (Comma)",
+            "Usage of Prashn-vachak (Question mark) and Vismayadi-bodhak (Exclamation mark)",
+            "Importance of punctuation in reading and writing flow"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "लेखन",
+      "concepts": [
+        {
+          "concept_id": "hindi6.lekhan6.nibandh_patra",
+          "title": "निबंध और पत्र लेखन",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "निबंध और पत्र लेखन — part of the chapter on लेखन.",
+          "key_ideas": [
+            "Core principles of निबंध और पत्र लेखन",
+            "Step-by-step problem solving for निबंध और पत्र लेखन",
+            "Real-world applications of निबंध और पत्र लेखन"
+          ]
+        },
+        {
+          "concept_id": "hindi6.lekhan6.anuched_lekhan",
+          "title": "अनुच्छेद लेखन (Paragraph Writing)",
+          "bloom_level": "create",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Learning to express thoughts on a specific topic concisely in a single paragraph, focusing on unity and coherence.",
+          "key_ideas": [
+            "Focusing on a single central idea",
+            "Maintaining flow and continuity between sentences",
+            "Adhering to word limits (usually 80-100 words)"
+          ]
+        },
+        {
+          "concept_id": "hindi6.lekhan6.chitra_varnan",
+          "title": "चित्र वर्णन (Picture Description)",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Developing observation skills by looking at a picture and describing the scene, characters, and actions in Hindi sentences.",
+          "key_ideas": [
+            "Observing minute details in a visual image",
+            "Using present tense to describe ongoing actions",
+            "Connecting visual elements to descriptive vocabulary"
+          ]
+        },
+        {
+          "concept_id": "hindi6.lekhan6.samvad_lekhan",
+          "title": "संवाद लेखन (Dialogue Writing)",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "hindi6.lekhan6.anuched_lekhan"
+          ],
+          "description": "Writing a conversation between two or more people on a specific situation or topic, using appropriate conversational language.",
+          "key_ideas": [
+            "Using natural and spoken language style",
+            "Correct use of punctuation marks for dialogue",
+            "Maintaining logical flow in the conversation"
+          ]
+        },
+        {
+          "concept_id": "hindi6.lekhan6.kahani_lekhan",
+          "title": "कहानी लेखन (Story Writing)",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "hindi6.lekhan6.anuched_lekhan"
+          ],
+          "description": "Constructing a short story based on given hints, outlines, or pictures, concluding with a moral.",
+          "key_ideas": [
+            "Developing a plot with a beginning, middle, and end",
+            "Using past tense for narration",
+            "Providing a suitable title (Sheershak) and moral (Seekh)"
+          ]
+        }
+      ]
+    }
+  ]
+}

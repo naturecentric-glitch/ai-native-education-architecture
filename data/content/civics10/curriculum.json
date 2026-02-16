@@ -1,0 +1,120 @@
+{
+  "course_id": "civics10",
+  "title": "Class 10 Civics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Power Sharing",
+      "concepts": [
+        {
+          "concept_id": "civics10.power_sharing.forms_power_sharing",
+          "title": "Forms of Power Sharing",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Forms of Power Sharing — part of the chapter on Power Sharing.",
+          "key_ideas": [
+            "Core principles of forms of power sharing",
+            "Step-by-step problem solving for forms of power sharing",
+            "Real-world applications of forms of power sharing"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Federalism",
+      "concepts": [
+        {
+          "concept_id": "civics10.federalism.indian_federalism",
+          "title": "Indian Federalism and Decentralisation",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Indian Federalism and Decentralisation — part of the chapter on Federalism.",
+          "key_ideas": [
+            "Core principles of indian federalism and decentralisation",
+            "Step-by-step problem solving for indian federalism and decentralisation",
+            "Real-world applications of indian federalism and decentralisation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Democracy and Diversity",
+      "concepts": [
+        {
+          "concept_id": "civics10.democracy_diversity.social_differences",
+          "title": "Social Differences and Democracy",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Social Differences and Democracy — part of the chapter on Democracy and Diversity.",
+          "key_ideas": [
+            "Core principles of social differences and democracy",
+            "Step-by-step problem solving for social differences and democracy",
+            "Real-world applications of social differences and democracy"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Gender, Religion and Caste",
+      "concepts": [
+        {
+          "concept_id": "civics10.gender_religion_caste.politics_diversity",
+          "title": "Gender, Religion, Caste in Politics",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Gender, Religion, Caste in Politics — part of the chapter on Gender, Religion and Caste.",
+          "key_ideas": [
+            "Core principles of gender, religion, caste in politics",
+            "Step-by-step problem solving for gender, religion, caste in politics",
+            "Real-world applications of gender, religion, caste in politics"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Political Parties",
+      "concepts": [
+        {
+          "concept_id": "civics10.political_parties.party_system",
+          "title": "Party System in India",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Party System in India — part of the chapter on Political Parties.",
+          "key_ideas": [
+            "Core principles of party system in india",
+            "Step-by-step problem solving for party system in india",
+            "Real-world applications of party system in india"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Outcomes of Democracy",
+      "concepts": [
+        {
+          "concept_id": "civics10.outcomes_democracy.evaluating_democracy",
+          "title": "Evaluating Democracy",
+          "bloom_level": "analyze",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Evaluating Democracy — part of the chapter on Outcomes of Democracy.",
+          "key_ideas": [
+            "Core principles of evaluating democracy",
+            "Step-by-step problem solving for evaluating democracy",
+            "Real-world applications of evaluating democracy"
+          ]
+        }
+      ]
+    }
+  ]
+}

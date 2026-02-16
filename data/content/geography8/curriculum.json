@@ -1,69 +1,41 @@
 {
   "course_id": "geography8",
-  "title": "Class 8 Geography — Resources and Development",
+  "title": "Class 8 Geography",
   "chapters": [
     {
       "chapter_id": "ch01",
       "title": "Resources",
       "concepts": [
         {
-          "concept_id": "geography8.resources.types_resources",
-          "title": "Types of Resources — Natural, Human-Made, Human",
+          "concept_id": "geography8.resources.types_conservation",
+          "title": "Types of Resources and Conservation",
           "bloom_level": "understand",
           "difficulty": 0.25,
           "prerequisites": [],
-          "description": "Types of Resources — Natural, Human-Made, Human — part of the chapter on Resources.",
+          "description": "Types of Resources and Conservation — part of the chapter on Resources.",
           "key_ideas": [
-            "Core principles of types of resources",
-            "Step-by-step problem solving for types of resources",
-            "Real-world applications of types of resources"
-          ]
-        },
-        {
-          "concept_id": "geography8.resources.conservation_resources",
-          "title": "Conservation and Sustainable Development",
-          "bloom_level": "apply",
-          "difficulty": 0.3,
-          "prerequisites": [
-            "geography8.resources.types_resources"
-          ],
-          "description": "Conservation and Sustainable Development — part of the chapter on Resources.",
-          "key_ideas": [
-            "Core principles of conservation and sustainable development",
-            "Step-by-step problem solving for conservation and sustainable development",
-            "Real-world applications of conservation and sustainable development"
+            "Core principles of types of resources and conservation",
+            "Step-by-step problem solving for types of resources and conservation",
+            "Real-world applications of types of resources and conservation"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch02",
-      "title": "Land, Soil, Water, Natural Vegetation and Wildlife",
+      "title": "Land, Soil, Water and Wildlife",
       "concepts": [
         {
-          "concept_id": "geography8.land_resources.land_use",
-          "title": "Land Use Patterns",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Land Use Patterns — part of the chapter on Land, Soil, Water, Natural Vegetation and Wildlife.",
-          "key_ideas": [
-            "Core principles of land use patterns",
-            "Step-by-step problem solving for land use patterns",
-            "Real-world applications of land use patterns"
-          ]
-        },
-        {
-          "concept_id": "geography8.land_resources.soil_conservation",
-          "title": "Soil Types and Conservation",
+          "concept_id": "geography8.land_soil_water.land_use_soil",
+          "title": "Land Use, Soil Types and Conservation",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Soil Types and Conservation — part of the chapter on Land, Soil, Water, Natural Vegetation and Wildlife.",
+          "description": "Land Use, Soil Types and Conservation — part of the chapter on Land, Soil, Water and Wildlife.",
           "key_ideas": [
-            "Core principles of soil types and conservation",
-            "Step-by-step problem solving for soil types and conservation",
-            "Real-world applications of soil types and conservation"
+            "Core principles of land use, soil types and conservation",
+            "Step-by-step problem solving for land use, soil types and conservation",
+            "Real-world applications of land use, soil types and conservation"
           ]
         }
       ]
@@ -73,29 +45,16 @@
       "title": "Mineral and Power Resources",
       "concepts": [
         {
-          "concept_id": "geography8.mineral_power.minerals",
-          "title": "Types and Distribution of Minerals",
+          "concept_id": "geography8.mineral_power.minerals_energy",
+          "title": "Minerals and Energy Resources",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Types and Distribution of Minerals — part of the chapter on Mineral and Power Resources.",
+          "description": "Minerals and Energy Resources — part of the chapter on Mineral and Power Resources.",
           "key_ideas": [
-            "Core principles of types and distribution of minerals",
-            "Step-by-step problem solving for types and distribution of minerals",
-            "Real-world applications of types and distribution of minerals"
-          ]
-        },
-        {
-          "concept_id": "geography8.mineral_power.power_resources",
-          "title": "Conventional and Non-Conventional Energy",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Conventional and Non-Conventional Energy — part of the chapter on Mineral and Power Resources.",
-          "key_ideas": [
-            "Core principles of conventional and non-conventional energy",
-            "Step-by-step problem solving for conventional and non-conventional energy",
-            "Real-world applications of conventional and non-conventional energy"
+            "Core principles of minerals and energy resources",
+            "Step-by-step problem solving for minerals and energy resources",
+            "Real-world applications of minerals and energy resources"
           ]
         }
       ]
@@ -105,31 +64,16 @@
       "title": "Agriculture",
       "concepts": [
         {
-          "concept_id": "geography8.agriculture.farming_types",
-          "title": "Types of Farming",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Types of Farming — part of the chapter on Agriculture.",
-          "key_ideas": [
-            "Core principles of types of farming",
-            "Step-by-step problem solving for types of farming",
-            "Real-world applications of types of farming"
-          ]
-        },
-        {
-          "concept_id": "geography8.agriculture.major_crops",
-          "title": "Major Crops — Food Grains, Fibre Crops",
+          "concept_id": "geography8.agriculture8.farming_types_crops",
+          "title": "Types of Farming and Major Crops",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "geography8.agriculture.farming_types"
-          ],
-          "description": "Major Crops — Food Grains, Fibre Crops — part of the chapter on Agriculture.",
+          "prerequisites": [],
+          "description": "Types of Farming and Major Crops — part of the chapter on Agriculture.",
           "key_ideas": [
-            "Core principles of major crops",
-            "Step-by-step problem solving for major crops",
-            "Real-world applications of major crops"
+            "Core principles of types of farming and major crops",
+            "Step-by-step problem solving for types of farming and major crops",
+            "Real-world applications of types of farming and major crops"
           ]
         }
       ]
@@ -139,31 +83,16 @@
       "title": "Industries",
       "concepts": [
         {
-          "concept_id": "geography8.industries.classification_industries",
-          "title": "Classification of Industries",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Classification of Industries — part of the chapter on Industries.",
-          "key_ideas": [
-            "Core principles of classification of industries",
-            "Step-by-step problem solving for classification of industries",
-            "Real-world applications of classification of industries"
-          ]
-        },
-        {
-          "concept_id": "geography8.industries.industrial_regions",
-          "title": "Major Industrial Regions",
+          "concept_id": "geography8.industries8.classification_regions",
+          "title": "Classification and Industrial Regions",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "geography8.industries.classification_industries"
-          ],
-          "description": "Major Industrial Regions — part of the chapter on Industries.",
+          "prerequisites": [],
+          "description": "Classification and Industrial Regions — part of the chapter on Industries.",
           "key_ideas": [
-            "Core principles of major industrial regions",
-            "Step-by-step problem solving for major industrial regions",
-            "Real-world applications of major industrial regions"
+            "Core principles of classification and industrial regions",
+            "Step-by-step problem solving for classification and industrial regions",
+            "Real-world applications of classification and industrial regions"
           ]
         }
       ]
@@ -173,31 +102,16 @@
       "title": "Human Resources",
       "concepts": [
         {
-          "concept_id": "geography8.human_resources.population_distribution",
-          "title": "Population Distribution and Density",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Population Distribution and Density — part of the chapter on Human Resources.",
-          "key_ideas": [
-            "Core principles of population distribution and density",
-            "Step-by-step problem solving for population distribution and density",
-            "Real-world applications of population distribution and density"
-          ]
-        },
-        {
-          "concept_id": "geography8.human_resources.population_change",
-          "title": "Population Change and Composition",
+          "concept_id": "geography8.human_resources8.population_density",
+          "title": "Population Distribution and Change",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "geography8.human_resources.population_distribution"
-          ],
-          "description": "Population Change and Composition — part of the chapter on Human Resources.",
+          "prerequisites": [],
+          "description": "Population Distribution and Change — part of the chapter on Human Resources.",
           "key_ideas": [
-            "Core principles of population change and composition",
-            "Step-by-step problem solving for population change and composition",
-            "Real-world applications of population change and composition"
+            "Core principles of population distribution and change",
+            "Step-by-step problem solving for population distribution and change",
+            "Real-world applications of population distribution and change"
           ]
         }
       ]

@@ -1,0 +1,120 @@
+{
+  "course_id": "cs12",
+  "title": "Class 12 Computer Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Functions in Python",
+      "concepts": [
+        {
+          "concept_id": "cs12.functions12.functions_scope",
+          "title": "Functions, Scope, Recursion",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Functions, Scope, Recursion — part of the chapter on Functions in Python.",
+          "key_ideas": [
+            "Core principles of functions, scope, recursion",
+            "Step-by-step problem solving for functions, scope, recursion",
+            "Real-world applications of functions, scope, recursion"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "File Handling",
+      "concepts": [
+        {
+          "concept_id": "cs12.file_handling12.text_binary_csv",
+          "title": "Text, Binary and CSV Files",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Text, Binary and CSV Files — part of the chapter on File Handling.",
+          "key_ideas": [
+            "Core principles of text, binary and csv files",
+            "Step-by-step problem solving for text, binary and csv files",
+            "Real-world applications of text, binary and csv files"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Data Structures — Stacks and Queues",
+      "concepts": [
+        {
+          "concept_id": "cs12.data_structures12.stack_queue",
+          "title": "Stack and Queue Implementation",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Stack and Queue Implementation — part of the chapter on Data Structures — Stacks and Queues.",
+          "key_ideas": [
+            "Core principles of stack and queue implementation",
+            "Step-by-step problem solving for stack and queue implementation",
+            "Real-world applications of stack and queue implementation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Database Concepts and SQL",
+      "concepts": [
+        {
+          "concept_id": "cs12.databases.sql_queries",
+          "title": "SQL — DDL, DML, Queries, Joins",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "SQL — DDL, DML, Queries, Joins — part of the chapter on Database Concepts and SQL.",
+          "key_ideas": [
+            "Core principles of sql",
+            "Step-by-step problem solving for sql",
+            "Real-world applications of sql"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Python-Database Interface",
+      "concepts": [
+        {
+          "concept_id": "cs12.python_sql.mysql_connector",
+          "title": "Python-MySQL Connectivity",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Python-MySQL Connectivity — part of the chapter on Python-Database Interface.",
+          "key_ideas": [
+            "Core principles of python-mysql connectivity",
+            "Step-by-step problem solving for python-mysql connectivity",
+            "Real-world applications of python-mysql connectivity"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Computer Networks",
+      "concepts": [
+        {
+          "concept_id": "cs12.networking.network_concepts",
+          "title": "Network Types, Protocols, Topologies",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Network Types, Protocols, Topologies — part of the chapter on Computer Networks.",
+          "key_ideas": [
+            "Core principles of network types, protocols, topologies",
+            "Step-by-step problem solving for network types, protocols, topologies",
+            "Real-world applications of network types, protocols, topologies"
+          ]
+        }
+      ]
+    }
+  ]
+}

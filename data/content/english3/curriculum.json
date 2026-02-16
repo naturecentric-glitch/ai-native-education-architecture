@@ -1,0 +1,432 @@
+{
+  "course_id": "english3",
+  "title": "Class 3 English",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Reading Comprehension",
+      "concepts": [
+        {
+          "concept_id": "english3.reading3.stories_poems",
+          "title": "Reading Stories and Poems",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Reading Stories and Poems — part of the chapter on Reading Comprehension.",
+          "key_ideas": [
+            "Core principles of reading stories and poems",
+            "Step-by-step problem solving for reading stories and poems",
+            "Real-world applications of reading stories and poems"
+          ]
+        },
+        {
+          "concept_id": "english3.reading3.answering_questions",
+          "title": "Answering Questions — Who, What, Where, When",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "english3.reading3.stories_poems"
+          ],
+          "description": "Answering Questions — Who, What, Where, When — part of the chapter on Reading Comprehension.",
+          "key_ideas": [
+            "Core principles of answering questions",
+            "Step-by-step problem solving for answering questions",
+            "Real-world applications of answering questions"
+          ]
+        },
+        {
+          "concept_id": "english3.reading3.sequencing_events",
+          "title": "Sequencing Events in a Story",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english3.reading3.stories_poems"
+          ],
+          "description": "Learning to identify and arrange the order of events in a story using transition words like first, next, then, and finally.",
+          "key_ideas": [
+            "Identifying the beginning, middle, and end of a story",
+            "Using sequence words (First, Next, Last)",
+            "Retelling a story in the correct order"
+          ]
+        },
+        {
+          "concept_id": "english3.reading3.context_clues",
+          "title": "Understanding New Words from Context",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english3.reading3.stories_poems"
+          ],
+          "description": "Using surrounding words, sentences, and illustrations to guess the meaning of unfamiliar vocabulary without using a dictionary.",
+          "key_ideas": [
+            "Looking at the whole sentence for clues",
+            "Using pictures to understand difficult words",
+            "Identifying synonyms or antonyms within the text"
+          ]
+        },
+        {
+          "concept_id": "english3.reading3.character_feelings",
+          "title": "Identifying Character Feelings and Traits",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english3.reading3.answering_questions"
+          ],
+          "description": "Analyzing what characters say and do to understand their emotions and personality traits.",
+          "key_ideas": [
+            "Connecting actions to feelings (e.g., crying means sad)",
+            "Describing characters using adjectives (brave, kind, naughty)",
+            "Understanding how feelings change throughout a story"
+          ]
+        },
+        {
+          "concept_id": "english3.reading3.main_idea",
+          "title": "Finding the Main Idea",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english3.reading3.answering_questions",
+            "english3.reading3.sequencing_events"
+          ],
+          "description": "Determining the central topic or the most important point of a short paragraph or story.",
+          "key_ideas": [
+            "Identifying what the story is mostly about",
+            "Using the title as a clue",
+            "Distinguishing the main idea from small details"
+          ]
+        },
+        {
+          "concept_id": "english3.reading3.making_predictions",
+          "title": "Making Predictions",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english3.reading3.stories_poems",
+            "english3.reading3.character_feelings"
+          ],
+          "description": "Using clues from the text and illustrations to guess what might happen next in a story.",
+          "key_ideas": [
+            "Using current events to guess future outcomes",
+            "Looking at pictures to predict the story",
+            "Verifying predictions after reading"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Grammar",
+      "concepts": [
+        {
+          "concept_id": "english3.grammar3.articles",
+          "title": "Articles — A, An, The",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Articles — A, An, The — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of articles",
+            "Step-by-step problem solving for articles",
+            "Real-world applications of articles"
+          ]
+        },
+        {
+          "concept_id": "english3.grammar3.pronouns",
+          "title": "Pronouns — He, She, It, They",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Pronouns — He, She, It, They — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of pronouns",
+            "Step-by-step problem solving for pronouns",
+            "Real-world applications of pronouns"
+          ]
+        },
+        {
+          "concept_id": "english3.grammar3.tenses_intro",
+          "title": "Present and Past Tense (Introduction)",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "english3.grammar3.pronouns"
+          ],
+          "description": "Present and Past Tense (Introduction) — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of present and past tense (introduction)",
+            "Step-by-step problem solving for present and past tense (introduction)",
+            "Real-world applications of present and past tense (introduction)"
+          ]
+        },
+        {
+          "concept_id": "english3.grammar3.singular_plural",
+          "title": "Nouns: Singular and Plural",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Learn how to change words from one to many by adding 's' or 'es' to nouns.",
+          "key_ideas": [
+            "Difference between one (singular) and many (plural)",
+            "Adding 's' to standard nouns",
+            "Adding 'es' to words ending in ch, sh, s, x, or z"
+          ]
+        },
+        {
+          "concept_id": "english3.grammar3.punctuation",
+          "title": "Punctuation Marks",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding the basic marks used to start and end sentences correctly.",
+          "key_ideas": [
+            "Using capital letters for the start of sentences and names",
+            "Using full stops (.) to end statements",
+            "Using question marks (?) for asking questions"
+          ]
+        },
+        {
+          "concept_id": "english3.grammar3.adjectives",
+          "title": "Adjectives (Describing Words)",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english3.grammar3.articles"
+          ],
+          "description": "Identifying words that describe the quality, color, size, or number of nouns.",
+          "key_ideas": [
+            "Adjectives tell us more about a noun",
+            "Describing looks, feelings, and numbers",
+            "Placement of adjectives before nouns"
+          ]
+        },
+        {
+          "concept_id": "english3.grammar3.prepositions",
+          "title": "Prepositions (Position Words)",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english3.grammar3.articles",
+            "english3.grammar3.pronouns"
+          ],
+          "description": "Using words that tell us where a person, animal, or thing is located.",
+          "key_ideas": [
+            "Common position words: in, on, under, behind, near",
+            "Connecting nouns to the rest of the sentence",
+            "Visualizing spatial relationships"
+          ]
+        },
+        {
+          "concept_id": "english3.grammar3.conjunctions",
+          "title": "Conjunctions (Joining Words)",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english3.grammar3.tenses_intro"
+          ],
+          "description": "Learning how to join two words or short sentences together to make longer sentences.",
+          "key_ideas": [
+            "Using 'and' to join similar ideas",
+            "Using 'but' to show a difference or opposite idea",
+            "Using 'or' to show a choice"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Writing Skills",
+      "concepts": [
+        {
+          "concept_id": "english3.writing3.paragraph",
+          "title": "Paragraph Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Paragraph Writing — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of paragraph writing",
+            "Step-by-step problem solving for paragraph writing",
+            "Real-world applications of paragraph writing"
+          ]
+        },
+        {
+          "concept_id": "english3.writing3.informal_letter",
+          "title": "Informal Letter Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english3.writing3.paragraph"
+          ],
+          "description": "Informal Letter Writing — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of informal letter writing",
+            "Step-by-step problem solving for informal letter writing",
+            "Real-world applications of informal letter writing"
+          ]
+        },
+        {
+          "concept_id": "english3.writing3.picture_comp",
+          "title": "Picture Composition",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learn to observe a picture and write meaningful sentences describing the actions, objects, and setting shown in the image.",
+          "key_ideas": [
+            "Observing visual details carefully",
+            "Using Present Continuous Tense (e.g., is playing, are sitting)",
+            "Connecting sentences to form a scene description"
+          ]
+        },
+        {
+          "concept_id": "english3.writing3.story_completion",
+          "title": "Story Completion",
+          "bloom_level": "create",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english3.writing3.paragraph"
+          ],
+          "description": "Develop the skill of writing short stories by using given outlines, clues, or filling in the blanks to complete a narrative.",
+          "key_ideas": [
+            "Understanding the sequence of events (Beginning, Middle, End)",
+            "Using connecting words (First, Then, Finally)",
+            "Identifying the moral of the story"
+          ]
+        },
+        {
+          "concept_id": "english3.writing3.descriptive_writing",
+          "title": "Describing People and Objects",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english3.writing3.paragraph"
+          ],
+          "description": "Learn how to write a descriptive paragraph about a specific person, pet, or object using appropriate adjectives and sensory details.",
+          "key_ideas": [
+            "Describing physical appearance (looks)",
+            "Describing qualities or personality (traits)",
+            "Using adjectives to make writing interesting"
+          ]
+        },
+        {
+          "concept_id": "english3.writing3.formal_application",
+          "title": "Writing a Leave Application",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english3.writing3.informal_letter"
+          ],
+          "description": "Understand the format and tone required to write a formal application to the Principal requesting sick leave or urgent leave.",
+          "key_ideas": [
+            "Format of a formal application (Receiver's address, Date, Subject)",
+            "Formal salutations and polite language",
+            "Stating the reason for absence clearly"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Vocabulary",
+      "concepts": [
+        {
+          "concept_id": "english3.vocabulary3.synonyms",
+          "title": "Synonyms",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Synonyms — part of the chapter on Vocabulary.",
+          "key_ideas": [
+            "Core principles of synonyms",
+            "Step-by-step problem solving for synonyms",
+            "Real-world applications of synonyms"
+          ]
+        },
+        {
+          "concept_id": "english3.vocabulary3.homophones",
+          "title": "Homophones — Words that Sound Alike",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Homophones — Words that Sound Alike — part of the chapter on Vocabulary.",
+          "key_ideas": [
+            "Core principles of homophones",
+            "Step-by-step problem solving for homophones",
+            "Real-world applications of homophones"
+          ]
+        },
+        {
+          "concept_id": "english3.vocabulary3.antonyms",
+          "title": "Antonyms — Words with Opposite Meanings",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english3.vocabulary3.synonyms"
+          ],
+          "description": "Introduction to words that have opposite meanings to one another, helping to expand descriptive capabilities and understanding of contrast.",
+          "key_ideas": [
+            "Identifying opposites (e.g., hot/cold, happy/sad)",
+            "Using antonyms to change the meaning of a sentence",
+            "Common prefixes used to create antonyms (e.g., happy/unhappy)"
+          ]
+        },
+        {
+          "concept_id": "english3.vocabulary3.compound_words",
+          "title": "Compound Words",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Learning how to combine two smaller, distinct words to create a new word with a specific meaning.",
+          "key_ideas": [
+            "Combining two nouns to form a new noun (e.g., sun + flower = sunflower)",
+            "Understanding that the new word's meaning relates to its parts",
+            "Identifying compound words in sentences"
+          ]
+        },
+        {
+          "concept_id": "english3.vocabulary3.collective_nouns",
+          "title": "Collective Nouns",
+          "bloom_level": "remember",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Vocabulary specific to naming groups of people, animals, or things as a single unit.",
+          "key_ideas": [
+            "Specific terms for animal groups (e.g., a pride of lions, a flock of sheep)",
+            "Terms for groups of objects (e.g., a bunch of keys)",
+            "Using singular verbs with collective nouns"
+          ]
+        },
+        {
+          "concept_id": "english3.vocabulary3.prefixes_suffixes",
+          "title": "Introduction to Prefixes and Suffixes",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english3.vocabulary3.antonyms"
+          ],
+          "description": "Understanding how adding letters to the beginning (prefix) or end (suffix) of a root word changes its meaning or grammatical function.",
+          "key_ideas": [
+            "Common prefixes (un-, dis-, re-) and their meanings",
+            "Common suffixes (-ful, -less, -ly) and their functions",
+            "Identifying root words within modified words"
+          ]
+        },
+        {
+          "concept_id": "english3.vocabulary3.context_clues",
+          "title": "Using Context Clues",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english3.vocabulary3.synonyms",
+            "english3.vocabulary3.antonyms"
+          ],
+          "description": "Developing the skill to guess the meaning of unfamiliar words by looking at the surrounding words and sentences.",
+          "key_ideas": [
+            "Looking for synonyms or definitions in the sentence",
+            "Using antonyms as clues for meaning",
+            "Inferring meaning based on the general situation or story"
+          ]
+        }
+      ]
+    }
+  ]
+}

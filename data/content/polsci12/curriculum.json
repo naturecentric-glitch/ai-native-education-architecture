@@ -1,0 +1,120 @@
+{
+  "course_id": "polsci12",
+  "title": "Class 12 Political Science",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "The Cold War Era",
+      "concepts": [
+        {
+          "concept_id": "polsci12.cold_war.bipolar_world",
+          "title": "Bipolar World and Cold War",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Bipolar World and Cold War — part of the chapter on The Cold War Era.",
+          "key_ideas": [
+            "Core principles of bipolar world and cold war",
+            "Step-by-step problem solving for bipolar world and cold war",
+            "Real-world applications of bipolar world and cold war"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "The End of Bipolarity",
+      "concepts": [
+        {
+          "concept_id": "polsci12.end_bipolarity.soviet_collapse",
+          "title": "Collapse of Soviet Union",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Collapse of Soviet Union — part of the chapter on The End of Bipolarity.",
+          "key_ideas": [
+            "Core principles of collapse of soviet union",
+            "Step-by-step problem solving for collapse of soviet union",
+            "Real-world applications of collapse of soviet union"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "US Hegemony in World Politics",
+      "concepts": [
+        {
+          "concept_id": "polsci12.us_hegemony.us_power",
+          "title": "US Dominance and Resistance",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "US Dominance and Resistance — part of the chapter on US Hegemony in World Politics.",
+          "key_ideas": [
+            "Core principles of us dominance and resistance",
+            "Step-by-step problem solving for us dominance and resistance",
+            "Real-world applications of us dominance and resistance"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "International Organisations",
+      "concepts": [
+        {
+          "concept_id": "polsci12.international_orgs.un_reforms",
+          "title": "UN and Reforms",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "UN and Reforms — part of the chapter on International Organisations.",
+          "key_ideas": [
+            "Core principles of un and reforms",
+            "Step-by-step problem solving for un and reforms",
+            "Real-world applications of un and reforms"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Security in the Contemporary World",
+      "concepts": [
+        {
+          "concept_id": "polsci12.security.traditional_nontraditional",
+          "title": "Traditional and Non-Traditional Security",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Traditional and Non-Traditional Security — part of the chapter on Security in the Contemporary World.",
+          "key_ideas": [
+            "Core principles of traditional and non-traditional security",
+            "Step-by-step problem solving for traditional and non-traditional security",
+            "Real-world applications of traditional and non-traditional security"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Globalisation",
+      "concepts": [
+        {
+          "concept_id": "polsci12.globalisation12.political_economic",
+          "title": "Political and Economic Globalisation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Political and Economic Globalisation — part of the chapter on Globalisation.",
+          "key_ideas": [
+            "Core principles of political and economic globalisation",
+            "Step-by-step problem solving for political and economic globalisation",
+            "Real-world applications of political and economic globalisation"
+          ]
+        }
+      ]
+    }
+  ]
+}

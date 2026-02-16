@@ -1,0 +1,12 @@
+{
+  "title": "Criteria for Similarity of Triangles — Triangles",
+  "hook": "Let's explore <strong>Criteria for Similarity of Triangles</strong> from the chapter on Triangles. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Criteria for Similarity of Triangles</strong>\n\n<em>AAA (AA), SSS, and SAS similarity criteria. If two triangles are similar, their corresponding sides are proportional and corresponding angles are equal.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 AA criterion: two pairs of equal angles ⇒ triangles are similar</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 SSS criterion: all three pairs of sides in proportion ⇒ similar</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 SAS criterion: one pair of equal angles between proportional sides ⇒ similar</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 If △ABC ~ △DEF, then AB/DE = BC/EF = CA/FD and ∠A=∠D, ∠B=∠E, ∠C=∠F</div>",
+  "worked_example": "<em>A detailed worked example for Criteria for Similarity of Triangles will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Criteria for Similarity of Triangles and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and triangles concepts like criteria for similarity of triangles are used in engineering, data science, and everyday problem solving!"
+}

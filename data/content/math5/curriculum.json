@@ -1,0 +1,947 @@
+{
+  "course_id": "math5",
+  "title": "Class 5 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Large Numbers (Lakhs and Beyond)",
+      "concepts": [
+        {
+          "concept_id": "math5.large_numbers5.lakhs",
+          "title": "Place Value Up to Lakhs",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Place Value Up to Lakhs — part of the chapter on Large Numbers (Lakhs and Beyond).",
+          "key_ideas": [
+            "Core principles of place value up to lakhs",
+            "Step-by-step problem solving for place value up to lakhs",
+            "Real-world applications of place value up to lakhs"
+          ]
+        },
+        {
+          "concept_id": "math5.large_numbers5.roman_numerals",
+          "title": "Roman Numerals",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Roman Numerals — part of the chapter on Large Numbers (Lakhs and Beyond).",
+          "key_ideas": [
+            "Core principles of roman numerals",
+            "Step-by-step problem solving for roman numerals",
+            "Real-world applications of roman numerals"
+          ]
+        },
+        {
+          "concept_id": "math5.large_numbers5.estimation",
+          "title": "Estimation and Rounding",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.large_numbers5.lakhs"
+          ],
+          "description": "Estimation and Rounding — part of the chapter on Large Numbers (Lakhs and Beyond).",
+          "key_ideas": [
+            "Core principles of estimation and rounding",
+            "Step-by-step problem solving for estimation and rounding",
+            "Real-world applications of estimation and rounding"
+          ]
+        },
+        {
+          "concept_id": "math5.large_numbers5.expanded_form",
+          "title": "Expanded and Standard Forms",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.large_numbers5.lakhs"
+          ],
+          "description": "Learn to express large numbers as the sum of the place values of their digits and convert expanded notation back to standard numerical form.",
+          "key_ideas": [
+            "Writing numbers as the sum of place values (e.g., 40,000 + 5,000 + 200)",
+            "Converting number names into standard numerals",
+            "Understanding the role of zero as a placeholder in standard forms"
+          ]
+        },
+        {
+          "concept_id": "math5.large_numbers5.crores",
+          "title": "Introduction to Crores",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math5.large_numbers5.lakhs"
+          ],
+          "description": "Extend the Indian Place Value system beyond Lakhs to introduce the Crores period, dealing with 8 and 9-digit numbers.",
+          "key_ideas": [
+            "Understanding the relationship between Lakhs and Crores (100 Lakhs = 1 Crore)",
+            "Reading and writing 8-digit and 9-digit numbers",
+            "Placement of commas in the Indian System for Crores"
+          ]
+        },
+        {
+          "concept_id": "math5.large_numbers5.international_system",
+          "title": "International System of Numeration",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math5.large_numbers5.lakhs",
+            "math5.large_numbers5.crores"
+          ],
+          "description": "Understand the International Place Value system (Millions and Billions) and compare it with the Indian System.",
+          "key_ideas": [
+            "The Millions period (Millions, Ten Millions, Hundred Millions)",
+            "Placement of commas in the International System (groups of 3)",
+            "Converting between Indian and International systems (e.g., 1 Million = 10 Lakhs)"
+          ]
+        },
+        {
+          "concept_id": "math5.large_numbers5.comparing_ordering",
+          "title": "Comparing and Ordering Large Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math5.large_numbers5.lakhs",
+            "math5.large_numbers5.crores"
+          ],
+          "description": "Learn techniques to compare two or more large numbers to determine which is greater or smaller, and arrange them in ascending or descending order.",
+          "key_ideas": [
+            "Comparing numbers by counting the total number of digits",
+            "Comparing digits from left to right when digit counts are equal",
+            "Arranging large numbers in Ascending and Descending order",
+            "Identifying the successor and predecessor of large numbers"
+          ]
+        },
+        {
+          "concept_id": "math5.large_numbers5.word_problems",
+          "title": "Real-World Applications of Large Numbers",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math5.large_numbers5.lakhs",
+            "math5.large_numbers5.estimation"
+          ],
+          "description": "Apply knowledge of large numbers to solve contextual problems involving population, distance, money, and capacity.",
+          "key_ideas": [
+            "Interpreting large numbers in news, census data, or budgets",
+            "Solving word problems involving addition or subtraction of large numbers",
+            "Using estimation to check the reasonableness of answers in real-life scenarios"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Operations on Large Numbers",
+      "concepts": [
+        {
+          "concept_id": "math5.operations5.add_sub_large",
+          "title": "Addition and Subtraction of Large Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Addition and Subtraction of Large Numbers — part of the chapter on Operations on Large Numbers.",
+          "key_ideas": [
+            "Core principles of addition and subtraction of large numbers",
+            "Step-by-step problem solving for addition and subtraction of large numbers",
+            "Real-world applications of addition and subtraction of large numbers"
+          ]
+        },
+        {
+          "concept_id": "math5.operations5.multiply_large",
+          "title": "Multiplication of 3-Digit by 2-Digit",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Multiplication of 3-Digit by 2-Digit — part of the chapter on Operations on Large Numbers.",
+          "key_ideas": [
+            "Core principles of multiplication of 3-digit by 2-digit",
+            "Step-by-step problem solving for multiplication of 3-digit by 2-digit",
+            "Real-world applications of multiplication of 3-digit by 2-digit"
+          ]
+        },
+        {
+          "concept_id": "math5.operations5.divide_large",
+          "title": "Division of 4-Digit by 2-Digit",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "math5.operations5.multiply_large"
+          ],
+          "description": "Division of 4-Digit by 2-Digit — part of the chapter on Operations on Large Numbers.",
+          "key_ideas": [
+            "Core principles of division of 4-digit by 2-digit",
+            "Step-by-step problem solving for division of 4-digit by 2-digit",
+            "Real-world applications of division of 4-digit by 2-digit"
+          ]
+        },
+        {
+          "concept_id": "math5.operations5.properties_ops",
+          "title": "Properties of Multiplication and Division",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.operations5.multiply_large",
+            "math5.operations5.divide_large"
+          ],
+          "description": "Understanding the fundamental rules governing multiplication and division, including the role of 0 and 1.",
+          "key_ideas": [
+            "Multiplicative identity (multiplying by 1)",
+            "Zero property of multiplication",
+            "Division by 1 and division by a number itself",
+            "Impossibility of division by zero"
+          ]
+        },
+        {
+          "concept_id": "math5.operations5.estimation_rounding",
+          "title": "Estimation in Operations",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math5.operations5.add_sub_large",
+            "math5.operations5.multiply_large"
+          ],
+          "description": "Using rounding techniques to estimate sums, differences, products, and quotients to verify the reasonableness of answers.",
+          "key_ideas": [
+            "Rounding numbers to nearest 10, 100, or 1000",
+            "Estimating sums and differences",
+            "Estimating products for quick checking",
+            "Comparing estimated values with actual results"
+          ]
+        },
+        {
+          "concept_id": "math5.operations5.unitary_method",
+          "title": "The Unitary Method",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math5.operations5.multiply_large",
+            "math5.operations5.divide_large"
+          ],
+          "description": "Solving problems by first finding the value of a single unit, and then finding the value of the required number of units.",
+          "key_ideas": [
+            "Finding the value of one (Division)",
+            "Finding the value of many (Multiplication)",
+            "Solving real-life cost and quantity problems"
+          ]
+        },
+        {
+          "concept_id": "math5.operations5.order_of_ops",
+          "title": "Simplification using DMAS",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math5.operations5.add_sub_large",
+            "math5.operations5.divide_large"
+          ],
+          "description": "Introduction to the order of operations rule (DMAS: Division, Multiplication, Addition, Subtraction) to solve numerical expressions.",
+          "key_ideas": [
+            "Hierarchy of operations",
+            "Performing Division before Multiplication",
+            "Performing Addition and Subtraction last",
+            "Solving expressions from left to right within priority levels"
+          ]
+        },
+        {
+          "concept_id": "math5.operations5.multi_step_problems",
+          "title": "Multi-Step Word Problems",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math5.operations5.add_sub_large",
+            "math5.operations5.multiply_large",
+            "math5.operations5.divide_large"
+          ],
+          "description": "Analyzing and solving complex real-world scenarios that require using more than one mathematical operation in sequence.",
+          "key_ideas": [
+            "Identifying keywords for specific operations",
+            "Breaking down a problem into sequential steps",
+            "Selecting the correct combination of operations",
+            "Interpreting remainders in division contexts"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Fractions",
+      "concepts": [
+        {
+          "concept_id": "math5.fractions5.add_sub_fractions",
+          "title": "Addition and Subtraction of Fractions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Addition and Subtraction of Fractions — part of the chapter on Fractions.",
+          "key_ideas": [
+            "Core principles of addition and subtraction of fractions",
+            "Step-by-step problem solving for addition and subtraction of fractions",
+            "Real-world applications of addition and subtraction of fractions"
+          ]
+        },
+        {
+          "concept_id": "math5.fractions5.mixed_numbers",
+          "title": "Mixed Numbers and Improper Fractions",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Mixed Numbers and Improper Fractions — part of the chapter on Fractions.",
+          "key_ideas": [
+            "Core principles of mixed numbers and improper fractions",
+            "Step-by-step problem solving for mixed numbers and improper fractions",
+            "Real-world applications of mixed numbers and improper fractions"
+          ]
+        },
+        {
+          "concept_id": "math5.fractions5.equivalent_fractions",
+          "title": "Equivalent Fractions",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding how different fractions can represent the same value or part of a whole by multiplying or dividing the numerator and denominator by the same number.",
+          "key_ideas": [
+            "Multiplying numerator and denominator by the same non-zero number",
+            "Checking equivalence using cross-multiplication",
+            "Visualizing equal parts with different partitions"
+          ]
+        },
+        {
+          "concept_id": "math5.fractions5.simplest_form",
+          "title": "Reducing Fractions to Lowest Terms",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math5.fractions5.equivalent_fractions"
+          ],
+          "description": "Learning to simplify fractions by dividing the numerator and denominator by their highest common factor (HCF) until no common factors remain.",
+          "key_ideas": [
+            "Identifying common factors",
+            "Using HCF to simplify in one step",
+            "Recognizing when a fraction is in its simplest form"
+          ]
+        },
+        {
+          "concept_id": "math5.fractions5.compare_order",
+          "title": "Comparing and Ordering Fractions",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math5.fractions5.equivalent_fractions"
+          ],
+          "description": "Techniques for determining which fraction is larger or smaller, and arranging sets of fractions in ascending or descending order.",
+          "key_ideas": [
+            "Comparing like fractions (same denominator)",
+            "Comparing unlike fractions by finding a common denominator (LCM)",
+            "Using the cross-multiplication method for two fractions",
+            "Arranging fractions in ascending and descending order"
+          ]
+        },
+        {
+          "concept_id": "math5.fractions5.fraction_of_collection",
+          "title": "Fraction of a Collection",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Applying fractional concepts to find a part of a whole number or a group of objects (e.g., finding 2/3 of 12 pencils).",
+          "key_ideas": [
+            "Understanding 'of' as an operator",
+            "Dividing the total by the denominator",
+            "Multiplying the result by the numerator",
+            "Solving real-world word problems involving collections"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Decimals",
+      "concepts": [
+        {
+          "concept_id": "math5.decimals5.decimal_place_value",
+          "title": "Decimal Place Value — Tenths, Hundredths",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Decimal Place Value — Tenths, Hundredths — part of the chapter on Decimals.",
+          "key_ideas": [
+            "Core principles of decimal place value",
+            "Step-by-step problem solving for decimal place value",
+            "Real-world applications of decimal place value"
+          ]
+        },
+        {
+          "concept_id": "math5.decimals5.add_sub_decimals",
+          "title": "Addition and Subtraction of Decimals",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.decimals5.decimal_place_value"
+          ],
+          "description": "Addition and Subtraction of Decimals — part of the chapter on Decimals.",
+          "key_ideas": [
+            "Core principles of addition and subtraction of decimals",
+            "Step-by-step problem solving for addition and subtraction of decimals",
+            "Real-world applications of addition and subtraction of decimals"
+          ]
+        },
+        {
+          "concept_id": "math5.decimals5.frac_to_dec",
+          "title": "Converting Fractions to Decimals",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.decimals5.decimal_place_value"
+          ],
+          "description": "Understanding the relationship between fractions with denominators of 10 or 100 and their decimal equivalents.",
+          "key_ideas": [
+            "Fractions with denominator 10 represent tenths (e.g., 3/10 = 0.3)",
+            "Fractions with denominator 100 represent hundredths (e.g., 45/100 = 0.45)",
+            "Mixed numbers can be written as decimals by keeping the whole number separate"
+          ]
+        },
+        {
+          "concept_id": "math5.decimals5.comparing_decimals",
+          "title": "Comparing and Ordering Decimals",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math5.decimals5.decimal_place_value"
+          ],
+          "description": "Learning how to determine which of two decimal numbers is greater and arranging a series of decimals in ascending or descending order.",
+          "key_ideas": [
+            "Compare the whole number part first",
+            "If whole numbers are equal, compare the tenths digit, then the hundredths",
+            "Adding zeros to the right of the last decimal digit does not change the value"
+          ]
+        },
+        {
+          "concept_id": "math5.decimals5.money_decimals",
+          "title": "Using Decimals for Money",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math5.decimals5.decimal_place_value"
+          ],
+          "description": "Applying decimal concepts to represent currency, specifically converting paise to rupees.",
+          "key_ideas": [
+            "1 Rupee equals 100 Paise",
+            "1 Paise is one-hundredth of a Rupee (₹0.01)",
+            "Writing money amounts in decimal notation (e.g., 5 rupees and 75 paise is ₹5.75)"
+          ]
+        },
+        {
+          "concept_id": "math5.decimals5.measurement_decimals",
+          "title": "Using Decimals for Length and Weight",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math5.decimals5.decimal_place_value",
+            "math5.decimals5.frac_to_dec"
+          ],
+          "description": "Using decimals to express measurements of length (meters/centimeters) and weight (kilograms/grams).",
+          "key_ideas": [
+            "1 cm is one-hundredth of a meter (0.01 m)",
+            "Converting smaller units to larger units using decimals (e.g., 125 cm = 1.25 m)",
+            "Real-life application of decimals in measuring height and weight"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Geometry",
+      "concepts": [
+        {
+          "concept_id": "math5.geometry5.angles5",
+          "title": "Measuring Angles with Protractor",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Measuring Angles with Protractor — part of the chapter on Geometry.",
+          "key_ideas": [
+            "Core principles of measuring angles with protractor",
+            "Step-by-step problem solving for measuring angles with protractor",
+            "Real-world applications of measuring angles with protractor"
+          ]
+        },
+        {
+          "concept_id": "math5.geometry5.triangles_quad",
+          "title": "Triangles and Quadrilaterals — Properties",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.geometry5.angles5"
+          ],
+          "description": "Triangles and Quadrilaterals — Properties — part of the chapter on Geometry.",
+          "key_ideas": [
+            "Core principles of triangles and quadrilaterals",
+            "Step-by-step problem solving for triangles and quadrilaterals",
+            "Real-world applications of triangles and quadrilaterals"
+          ]
+        },
+        {
+          "concept_id": "math5.geometry5.circles",
+          "title": "Circle — Radius, Diameter, Circumference",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Circle — Radius, Diameter, Circumference — part of the chapter on Geometry.",
+          "key_ideas": [
+            "Core principles of circle",
+            "Step-by-step problem solving for circle",
+            "Real-world applications of circle"
+          ]
+        },
+        {
+          "concept_id": "math5.geometry5.types_of_angles",
+          "title": "Classifying Angles: Acute, Obtuse, and Right",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Identification and classification of angles based on their size relative to a right angle (90 degrees).",
+          "key_ideas": [
+            "Right angle forms an 'L' shape",
+            "Acute angles are smaller than a right angle",
+            "Obtuse angles are larger than a right angle",
+            "Straight angles form a straight line"
+          ]
+        },
+        {
+          "concept_id": "math5.geometry5.reflection_symmetry",
+          "title": "Reflection Symmetry and Mirror Halves",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math5.geometry5.triangles_quad"
+          ],
+          "description": "Understanding symmetrical shapes where one half is the mirror image of the other across a line of symmetry.",
+          "key_ideas": [
+            "Identifying lines of symmetry in geometric shapes",
+            "Completing a shape given one half and a mirror line",
+            "Symmetry in alphabets and nature"
+          ]
+        },
+        {
+          "concept_id": "math5.geometry5.shape_rotation",
+          "title": "Rotational Symmetry: Turns and Patterns",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math5.geometry5.types_of_angles"
+          ],
+          "description": "Predicting how shapes look after undergoing specific rotations, such as quarter turns and half turns.",
+          "key_ideas": [
+            "1/4 turn corresponds to 90 degrees",
+            "1/2 turn corresponds to 180 degrees",
+            "Clockwise vs. anti-clockwise direction",
+            "Identifying shapes that look the same after rotation"
+          ]
+        },
+        {
+          "concept_id": "math5.geometry5.3d_nets",
+          "title": "3D Shapes and Nets",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math5.geometry5.triangles_quad"
+          ],
+          "description": "Visualizing the relationship between 3D solids (cubes, cuboids, cones) and their 2D flat patterns (nets).",
+          "key_ideas": [
+            "Identifying faces, edges, and vertices",
+            "Unfolding a cube into a 2D net",
+            "Visualizing which nets can fold into a closed box"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Area and Perimeter",
+      "concepts": [
+        {
+          "concept_id": "math5.area_perimeter5.perimeter5",
+          "title": "Perimeter of Rectangles and Irregular Shapes",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Perimeter of Rectangles and Irregular Shapes — part of the chapter on Area and Perimeter.",
+          "key_ideas": [
+            "Core principles of perimeter of rectangles and irregular shapes",
+            "Step-by-step problem solving for perimeter of rectangles and irregular shapes",
+            "Real-world applications of perimeter of rectangles and irregular shapes"
+          ]
+        },
+        {
+          "concept_id": "math5.area_perimeter5.area5",
+          "title": "Area of Rectangle and Square",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.area_perimeter5.perimeter5"
+          ],
+          "description": "Area of Rectangle and Square — part of the chapter on Area and Perimeter.",
+          "key_ideas": [
+            "Core principles of area of rectangle and square",
+            "Step-by-step problem solving for area of rectangle and square",
+            "Real-world applications of area of rectangle and square"
+          ]
+        },
+        {
+          "concept_id": "math5.area_perimeter5.unit_squares",
+          "title": "Measuring Area using Unit Squares",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the concept of area by counting square units on a grid paper, rather than using formulas.",
+          "key_ideas": [
+            "Area is the amount of surface a shape covers",
+            "Counting full squares to determine area",
+            "Combining half-filled squares to make whole units",
+            "Standard units like square cm"
+          ]
+        },
+        {
+          "concept_id": "math5.area_perimeter5.irregular_estimation",
+          "title": "Estimating Area of Irregular Shapes",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math5.area_perimeter5.unit_squares"
+          ],
+          "description": "Learning how to estimate the area of non-geometric shapes (like a leaf or a footprint) using a square grid.",
+          "key_ideas": [
+            "Counting fully covered squares as 1",
+            "Counting more-than-half covered squares as 1",
+            "Ignoring less-than-half covered squares",
+            "Treating exactly half-filled squares as 0.5"
+          ]
+        },
+        {
+          "concept_id": "math5.area_perimeter5.area_triangles",
+          "title": "Area of Triangles Derived from Rectangles",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math5.area_perimeter5.area5"
+          ],
+          "description": "Understanding that the area of a right-angled triangle is exactly half the area of the rectangle that surrounds it.",
+          "key_ideas": [
+            "A diagonal divides a rectangle into two equal triangles",
+            "Area of triangle = 1/2 × Area of corresponding rectangle",
+            "Visualizing triangles on grid paper",
+            "Conservation of area"
+          ]
+        },
+        {
+          "concept_id": "math5.area_perimeter5.area_perimeter_relation",
+          "title": "Relationship between Area and Perimeter",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math5.area_perimeter5.perimeter5",
+            "math5.area_perimeter5.area5"
+          ],
+          "description": "Investigating how shapes can have the same perimeter but different areas, or the same area but different perimeters.",
+          "key_ideas": [
+            "Shapes with the same perimeter can enclose different areas",
+            "A square encloses more area than a long rectangle of the same perimeter",
+            "Rearranging unit squares changes perimeter but keeps area constant"
+          ]
+        },
+        {
+          "concept_id": "math5.area_perimeter5.word_problems",
+          "title": "Real-world Applications of Area and Perimeter",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math5.area_perimeter5.perimeter5",
+            "math5.area_perimeter5.area5"
+          ],
+          "description": "Solving contextual word problems involving fencing, tiling, and land measurement to distinguish when to calculate boundary vs. region.",
+          "key_ideas": [
+            "Identifying keywords (fencing = perimeter, tiling/painting = area)",
+            "Calculating cost based on per unit length or per square unit",
+            "Multi-step problems involving both concepts"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Patterns and Sequences",
+      "concepts": [
+        {
+          "concept_id": "math5.patterns5.growing_patterns",
+          "title": "Growing Number Patterns",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Growing Number Patterns — part of the chapter on Patterns and Sequences.",
+          "key_ideas": [
+            "Core principles of growing number patterns",
+            "Step-by-step problem solving for growing number patterns",
+            "Real-world applications of growing number patterns"
+          ]
+        },
+        {
+          "concept_id": "math5.patterns5.rules",
+          "title": "Finding Rules in Patterns",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.patterns5.growing_patterns"
+          ],
+          "description": "Finding Rules in Patterns — part of the chapter on Patterns and Sequences.",
+          "key_ideas": [
+            "Core principles of finding rules in patterns",
+            "Step-by-step problem solving for finding rules in patterns",
+            "Real-world applications of finding rules in patterns"
+          ]
+        },
+        {
+          "concept_id": "math5.patterns5.rotational_turns",
+          "title": "Patterns with Turns and Rotation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding how shapes and figures change when rotated by specific fractions of a circle, such as quarter turns and half turns.",
+          "key_ideas": [
+            "Identifying 1/4 (90 degree) turns",
+            "Identifying 1/2 (180 degree) turns",
+            "Clockwise and anticlockwise direction",
+            "Predicting the next shape in a rotating sequence"
+          ]
+        },
+        {
+          "concept_id": "math5.patterns5.palindromes",
+          "title": "Palindromes and Special Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math5.patterns5.rules"
+          ],
+          "description": "Exploring numbers and words that read the same forwards and backwards, and using addition rules to generate them.",
+          "key_ideas": [
+            "Definition of a palindrome",
+            "Reversing digits and adding to find palindromes",
+            "Recognizing symmetric number patterns"
+          ]
+        },
+        {
+          "concept_id": "math5.patterns5.magic_shapes",
+          "title": "Magic Squares and Hexagons",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math5.patterns5.rules"
+          ],
+          "description": "Solving number puzzles where numbers are arranged in squares or hexagons so that rows, columns, or connecting circles add up to a specific sum.",
+          "key_ideas": [
+            "Row and column summation rules",
+            "Finding the 'magic sum'",
+            "Logic and deduction to fill missing numbers",
+            "Multiplication patterns in hexagons"
+          ]
+        },
+        {
+          "concept_id": "math5.patterns5.secret_codes",
+          "title": "Coding and Decoding Messages",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math5.patterns5.rules"
+          ],
+          "description": "Applying pattern rules to encrypt and decrypt secret messages by shifting letters or substituting numbers.",
+          "key_ideas": [
+            "Substitution ciphers (e.g., A=1, B=2)",
+            "Letter shifting rules (e.g., A becomes B)",
+            "Writing rules for a secret code",
+            "Decoding messages using the inverse rule"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Data Handling",
+      "concepts": [
+        {
+          "concept_id": "math5.data_handling5.bar_graph5",
+          "title": "Bar Graphs — Drawing and Interpreting",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Bar Graphs — Drawing and Interpreting — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of bar graphs",
+            "Step-by-step problem solving for bar graphs",
+            "Real-world applications of bar graphs"
+          ]
+        },
+        {
+          "concept_id": "math5.data_handling5.line_graph_intro",
+          "title": "Introduction to Line Graphs",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Introduction to Line Graphs — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of introduction to line graphs",
+            "Step-by-step problem solving for introduction to line graphs",
+            "Real-world applications of introduction to line graphs"
+          ]
+        },
+        {
+          "concept_id": "math5.data_handling5.tally_marks",
+          "title": "Recording Data with Tally Marks",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Learn to organize raw data efficiently using tally marks, grouping counts into sets of five to make counting easier and faster.",
+          "key_ideas": [
+            "Using vertical lines for counts 1 to 4",
+            "Crossing four lines diagonally to represent 5",
+            "Converting raw lists into frequency tables"
+          ]
+        },
+        {
+          "concept_id": "math5.data_handling5.pictographs",
+          "title": "Smart Charts: Pictographs",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.data_handling5.tally_marks"
+          ],
+          "description": "Understand how to represent data using symbols or pictures, where a single symbol can represent multiple units (scale).",
+          "key_ideas": [
+            "Interpreting keys (e.g., 1 icon = 10 items)",
+            "Drawing half-symbols to represent half-values",
+            "Comparing quantities visually using symbols"
+          ]
+        },
+        {
+          "concept_id": "math5.data_handling5.circle_charts",
+          "title": "Circle Charts (Chapati Charts)",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Introduction to Circle Charts (also known as Chapati Charts or Pie Charts) to visualize how a whole is divided into different parts.",
+          "key_ideas": [
+            "Visualizing data as parts of a whole circle",
+            "Relating chart sectors to fractions (half, quarter)",
+            "Comparing the size of different sectors"
+          ]
+        },
+        {
+          "concept_id": "math5.data_handling5.interpreting_data",
+          "title": "Drawing Conclusions from Data",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math5.data_handling5.bar_graph5",
+            "math5.data_handling5.circle_charts"
+          ],
+          "description": "Analyze various types of charts to answer specific questions, solve problems, and make simple predictions based on the presented data.",
+          "key_ideas": [
+            "Finding the maximum and minimum values",
+            "Calculating the difference between data points",
+            "Identifying trends (increasing or decreasing)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Volume",
+      "concepts": [
+        {
+          "concept_id": "math5.volume5.volume_intro",
+          "title": "Volume — Counting Unit Cubes",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Volume — Counting Unit Cubes — part of the chapter on Volume.",
+          "key_ideas": [
+            "Core principles of volume",
+            "Step-by-step problem solving for volume",
+            "Real-world applications of volume"
+          ]
+        },
+        {
+          "concept_id": "math5.volume5.volume_cuboid",
+          "title": "Volume of Cuboid",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.volume5.volume_intro"
+          ],
+          "description": "Volume of Cuboid — part of the chapter on Volume.",
+          "key_ideas": [
+            "Core principles of volume of cuboid",
+            "Step-by-step problem solving for volume of cuboid",
+            "Real-world applications of volume of cuboid"
+          ]
+        },
+        {
+          "concept_id": "math5.volume5.standard_units",
+          "title": "Standard Units of Volume",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math5.volume5.volume_intro"
+          ],
+          "description": "Introduction to standard units for measuring volume, specifically cubic centimeters (cm³) and cubic meters (m³), moving beyond arbitrary unit cubes.",
+          "key_ideas": [
+            "Volume is measured in cubic units",
+            "Writing units as cm³ or cu cm",
+            "Difference between linear units (cm), area units (cm²), and volume units (cm³)"
+          ]
+        },
+        {
+          "concept_id": "math5.volume5.volume_cube",
+          "title": "Volume of Cube",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math5.volume5.volume_intro"
+          ],
+          "description": "Deriving and applying the specific formula for calculating the volume of a cube given its edge length.",
+          "key_ideas": [
+            "A cube is a special cuboid where Length = Breadth = Height",
+            "Formula: Volume = Side × Side × Side",
+            "Calculating volume given the length of an edge"
+          ]
+        },
+        {
+          "concept_id": "math5.volume5.capacity_relation",
+          "title": "Volume vs. Capacity",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math5.volume5.volume_cuboid"
+          ],
+          "description": "Understanding the relationship between the space an object occupies (volume) and the amount of liquid a container can hold (capacity).",
+          "key_ideas": [
+            "Capacity is the internal volume of a container",
+            "Relationship between Milliliters (ml) and Cubic Centimeters (cm³)",
+            "1000 cm³ equals 1 Liter"
+          ]
+        },
+        {
+          "concept_id": "math5.volume5.packing_problems",
+          "title": "Real-World Packing Problems",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math5.volume5.volume_cuboid",
+            "math5.volume5.volume_cube"
+          ],
+          "description": "Solving complex word problems involving fitting smaller objects into larger containers by comparing their volumes.",
+          "key_ideas": [
+            "Calculating volume of the large container and the small object",
+            "Using division to find how many small objects fit inside",
+            "Understanding that total volume is the sum of individual volumes"
+          ]
+        }
+      ]
+    }
+  ]
+}

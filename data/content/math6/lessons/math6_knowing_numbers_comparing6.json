@@ -1,0 +1,12 @@
+{
+  "title": "Number Ninjas: Comparing and Ordering Big Numbers!",
+  "hook": "Imagine you're watching a cricket match between India and Australia. The scoreboard shows India scored 325 runs and Australia scored 342 runs. How do you quickly know who won? That's what we'll learn today – comparing numbers!",
+  "explanation": "Comparing and ordering large numbers is like figuring out who has more candies! Here's how we do it:\n\n1.  **Count the Digits:** The number with more digits is always bigger. For example, 1000 (four digits) is bigger than 99 (two digits).\n\n2.  **Compare from the Left:** If the numbers have the same number of digits, start comparing from the leftmost digit (the one in the highest place value like thousands, hundreds, etc.).\n\n3.  **Find the Difference:** Keep comparing the digits in each place value from left to right until you find a difference. The number with the larger digit at that place is the bigger number.\n\n4.  **Ordering:** Once you know how to compare, you can arrange numbers from smallest to largest (ascending order) or largest to smallest (descending order).",
+  "worked_example": "Let's compare 45,678 and 45,768:\n\n*   **Step 1:** Both numbers have five digits.\n*   **Step 2:** The first two digits are the same (45).\n*   **Step 3:** Look at the hundreds place. 45,**6**78 has 6 and 45,**7**68 has 7. Since 7 is greater than 6, 45,768 is bigger than 45,678.\n\nSo, 45,678 < 45,768 (less than symbol)",
+  "try_this": {
+    "question": "Which is smaller: 1,234,567 or 1,234,657?",
+    "hint": "Look at the hundreds place!",
+    "answer": "1,234,567 is smaller. Both numbers are the same up to the thousands place. In the hundreds place, 5 is less than 6."
+  },
+  "fun_fact": "Did you know that the largest number you can write with just three digits is 999? But if you use exponents, you can write 9^(9^9), which is a HUGE number!"
+}

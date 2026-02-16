@@ -1,0 +1,12 @@
+{
+  "title": "Trigonometric Identities — Introduction to Trigonometry",
+  "hook": "Let's explore <strong>Trigonometric Identities</strong> from the chapter on Introduction to Trigonometry. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Trigonometric Identities</strong>\n\n<em>The three fundamental identities: sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, 1 + cot²θ = cosec²θ. Used to prove other identities and simplify expressions.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Identity 1: sin²θ + cos²θ = 1 (derived from Pythagoras)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Identity 2: 1 + tan²θ = sec²θ (divide Identity 1 by cos²θ)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Identity 3: 1 + cot²θ = cosec²θ (divide Identity 1 by sin²θ)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Proving identities: work on one side (usually LHS) to reach the other</div>",
+  "worked_example": "<em>A detailed worked example for Trigonometric Identities will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Trigonometric Identities and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and introduction to trigonometry concepts like trigonometric identities are used in engineering, data science, and everyday problem solving!"
+}

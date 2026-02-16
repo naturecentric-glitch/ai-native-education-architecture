@@ -7,46 +7,94 @@
       "title": "Getting Started with Python",
       "concepts": [
         {
-          "concept_id": "python_intro.getting_started.install_run",
-          "title": "Installing Python and Running Programs",
-          "bloom_level": "remember",
-          "difficulty": 0.1,
-          "prerequisites": [],
-          "description": "Installing Python and Running Programs — part of the chapter on Getting Started with Python.",
-          "key_ideas": [
-            "Core principles of installing python and running programs",
-            "Step-by-step problem solving for installing python and running programs",
-            "Real-world applications of installing python and running programs"
-          ]
-        },
-        {
-          "concept_id": "python_intro.getting_started.variables_types",
-          "title": "Variables and Data Types",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": [
-            "python_intro.getting_started.install_run"
-          ],
-          "description": "Variables and Data Types — part of the chapter on Getting Started with Python.",
-          "key_ideas": [
-            "Core principles of variables and data types",
-            "Step-by-step problem solving for variables and data types",
-            "Real-world applications of variables and data types"
-          ]
-        },
-        {
-          "concept_id": "python_intro.getting_started.input_output",
-          "title": "Input/Output — print() and input()",
+          "concept_id": "python_intro.getting_started.variables_io",
+          "title": "Variables, Data Types, Input/Output",
           "bloom_level": "apply",
           "difficulty": 0.2,
-          "prerequisites": [
-            "python_intro.getting_started.variables_types"
-          ],
-          "description": "Input/Output — print() and input() — part of the chapter on Getting Started with Python.",
+          "prerequisites": [],
+          "description": "Variables, Data Types, Input/Output — part of the chapter on Getting Started with Python.",
           "key_ideas": [
-            "Core principles of input/output",
-            "Step-by-step problem solving for input/output",
-            "Real-world applications of input/output"
+            "Core principles of variables, data types, input/output",
+            "Step-by-step problem solving for variables, data types, input/output",
+            "Real-world applications of variables, data types, input/output"
+          ]
+        },
+        {
+          "concept_id": "python_intro.getting_started.environment_execution",
+          "title": "Python Environment and Execution",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "An overview of how Python code is interpreted and executed, distinguishing between the interactive shell (REPL) and script execution.",
+          "key_ideas": [
+            "The Python Interpreter",
+            "Interactive Mode (REPL) vs. Script Mode",
+            "The .py file extension",
+            "Sequential execution flow"
+          ]
+        },
+        {
+          "concept_id": "python_intro.getting_started.syntax_structure",
+          "title": "Basic Syntax and Comments",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "python_intro.getting_started.environment_execution"
+          ],
+          "description": "Introduction to the fundamental rules of writing Python code, focusing on indentation requirements and code documentation.",
+          "key_ideas": [
+            "Significance of indentation in Python",
+            "Case sensitivity",
+            "Single-line comments (#)",
+            "Multi-line comments and docstrings"
+          ]
+        },
+        {
+          "concept_id": "python_intro.getting_started.arithmetic_operators",
+          "title": "Arithmetic Operators and Expressions",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "python_intro.getting_started.variables_io"
+          ],
+          "description": "Exploration of mathematical operations in Python, including standard arithmetic and Python-specific operators.",
+          "key_ideas": [
+            "Basic operators (+, -, *, /)",
+            "Integer division (//) and Modulus (%)",
+            "Exponentiation (**)",
+            "Order of operations (PEMDAS)"
+          ]
+        },
+        {
+          "concept_id": "python_intro.getting_started.type_conversion",
+          "title": "Type Conversion (Casting)",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "python_intro.getting_started.variables_io"
+          ],
+          "description": "Techniques for explicitly converting data from one type to another, essential for processing user input and mathematical operations.",
+          "key_ideas": [
+            "Implicit vs. Explicit conversion",
+            "Using int(), float(), and str() functions",
+            "Handling conversion errors (ValueError)",
+            "Converting input strings to numbers"
+          ]
+        },
+        {
+          "concept_id": "python_intro.getting_started.string_formatting",
+          "title": "Basic String Formatting",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "python_intro.getting_started.variables_io"
+          ],
+          "description": "Methods for constructing dynamic strings by embedding variables and expressions directly into text.",
+          "key_ideas": [
+            "String concatenation with +",
+            "Introduction to f-strings (Formatted String Literals)",
+            "Embedding variables inside strings",
+            "Escaping special characters"
           ]
         }
       ]
@@ -56,31 +104,78 @@
       "title": "Operators and Expressions",
       "concepts": [
         {
-          "concept_id": "python_intro.operators.arithmetic_operators",
-          "title": "Arithmetic and Assignment Operators",
+          "concept_id": "python_intro.operators.arithmetic_logical",
+          "title": "Arithmetic, Comparison and Logical Operators",
           "bloom_level": "apply",
-          "difficulty": 0.2,
+          "difficulty": 0.25,
           "prerequisites": [],
-          "description": "Arithmetic and Assignment Operators — part of the chapter on Operators and Expressions.",
+          "description": "Arithmetic, Comparison and Logical Operators — part of the chapter on Operators and Expressions.",
           "key_ideas": [
-            "Core principles of arithmetic and assignment operators",
-            "Step-by-step problem solving for arithmetic and assignment operators",
-            "Real-world applications of arithmetic and assignment operators"
+            "Core principles of arithmetic, comparison and logical operators",
+            "Step-by-step problem solving for arithmetic, comparison and logical operators",
+            "Real-world applications of arithmetic, comparison and logical operators"
           ]
         },
         {
-          "concept_id": "python_intro.operators.comparison_logical",
-          "title": "Comparison and Logical Operators",
+          "concept_id": "python_intro.operators.assignment",
+          "title": "Assignment and Augmented Assignment",
           "bloom_level": "apply",
-          "difficulty": 0.25,
+          "difficulty": 0.3,
           "prerequisites": [
-            "python_intro.operators.arithmetic_operators"
+            "python_intro.operators.arithmetic_logical"
           ],
-          "description": "Comparison and Logical Operators — part of the chapter on Operators and Expressions.",
+          "description": "Explains how to assign values to variables using the standard assignment operator and how to use augmented assignment operators to perform an operation and assignment in a single step.",
           "key_ideas": [
-            "Core principles of comparison and logical operators",
-            "Step-by-step problem solving for comparison and logical operators",
-            "Real-world applications of comparison and logical operators"
+            "Standard assignment using the '=' symbol",
+            "Augmented assignment operators (+=, -=, *=, /=)",
+            "Updating variable state efficiently"
+          ]
+        },
+        {
+          "concept_id": "python_intro.operators.membership_identity",
+          "title": "Membership and Identity Operators",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "python_intro.operators.arithmetic_logical"
+          ],
+          "description": "Introduces operators used to test if a sequence is presented in an object and operators used to compare the memory locations of two objects.",
+          "key_ideas": [
+            "Membership operators ('in', 'not in') for sequences",
+            "Identity operators ('is', 'is not') for object comparison",
+            "Difference between equality (==) and identity (is)"
+          ]
+        },
+        {
+          "concept_id": "python_intro.operators.bitwise",
+          "title": "Bitwise Operators",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "python_intro.operators.arithmetic_logical"
+          ],
+          "description": "Covers operators that treat integers as strings of binary digits (bits) and perform operations on them bit by bit.",
+          "key_ideas": [
+            "Binary representation of integers",
+            "AND (&), OR (|), XOR (^), and NOT (~)",
+            "Left shift (<<) and Right shift (>>) operations"
+          ]
+        },
+        {
+          "concept_id": "python_intro.operators.precedence",
+          "title": "Operator Precedence and Associativity",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "python_intro.operators.arithmetic_logical",
+            "python_intro.operators.assignment",
+            "python_intro.operators.membership_identity"
+          ],
+          "description": "Details the rules that determine the order in which different operators are evaluated in a complex expression.",
+          "key_ideas": [
+            "Hierarchy of operator precedence (PEMDAS rules)",
+            "Associativity rules (left-to-right vs right-to-left)",
+            "Using parentheses to override default precedence"
           ]
         }
       ]
@@ -90,61 +185,98 @@
       "title": "Control Flow",
       "concepts": [
         {
-          "concept_id": "python_intro.control_flow.if_elif_else",
-          "title": "if, elif, else Statements",
+          "concept_id": "python_intro.control_flow.if_for_while",
+          "title": "if-elif-else, for, while Loops",
           "bloom_level": "apply",
-          "difficulty": 0.25,
+          "difficulty": 0.3,
           "prerequisites": [],
-          "description": "if, elif, else Statements — part of the chapter on Control Flow.",
+          "description": "if-elif-else, for, while Loops — part of the chapter on Control Flow.",
           "key_ideas": [
-            "Core principles of if, elif, else statements",
-            "Step-by-step problem solving for if, elif, else statements",
-            "Real-world applications of if, elif, else statements"
+            "Core principles of if-elif-else, for, while loops",
+            "Step-by-step problem solving for if-elif-else, for, while loops",
+            "Real-world applications of if-elif-else, for, while loops"
           ]
         },
         {
-          "concept_id": "python_intro.control_flow.for_loop",
-          "title": "for Loop and range()",
-          "bloom_level": "apply",
+          "concept_id": "python_intro.control_flow.match_case",
+          "title": "Structural Pattern Matching (match-case)",
+          "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [
-            "python_intro.control_flow.if_elif_else"
+            "python_intro.control_flow.if_for_while"
           ],
-          "description": "for Loop and range() — part of the chapter on Control Flow.",
+          "description": "Introduction to the match-case statement (Python 3.10+) for comparing a value against multiple patterns, serving as a powerful alternative to complex if-elif-else chains.",
           "key_ideas": [
-            "Core principles of for loop and range()",
-            "Step-by-step problem solving for for loop and range()",
-            "Real-world applications of for loop and range()"
+            "Syntax of match and case keywords",
+            "Matching literal values",
+            "Using the wildcard (_) case as a default",
+            "Combining patterns with the OR (|) operator"
           ]
         },
         {
-          "concept_id": "python_intro.control_flow.while_loop",
-          "title": "while Loop",
+          "concept_id": "python_intro.control_flow.loop_control_statements",
+          "title": "Loop Control: break, continue, and pass",
           "bloom_level": "apply",
-          "difficulty": 0.3,
+          "difficulty": 0.4,
           "prerequisites": [
-            "python_intro.control_flow.for_loop"
+            "python_intro.control_flow.if_for_while"
           ],
-          "description": "while Loop — part of the chapter on Control Flow.",
+          "description": "Mechanisms to alter the standard execution of loops, allowing for premature termination, skipping iterations, or defining empty code blocks.",
           "key_ideas": [
-            "Core principles of while loop",
-            "Step-by-step problem solving for while loop",
-            "Real-world applications of while loop"
+            "Using 'break' to exit a loop immediately",
+            "Using 'continue' to skip the current iteration",
+            "Using 'pass' as a null operation placeholder",
+            "Avoiding infinite loops using control statements"
           ]
         },
         {
-          "concept_id": "python_intro.control_flow.nested_loops",
-          "title": "Nested Loops and Loop Control",
+          "concept_id": "python_intro.control_flow.iterables_and_range",
+          "title": "Iterables, Range, and Enumerate",
           "bloom_level": "apply",
-          "difficulty": 0.35,
+          "difficulty": 0.5,
           "prerequisites": [
-            "python_intro.control_flow.while_loop"
+            "python_intro.control_flow.if_for_while"
           ],
-          "description": "Nested Loops and Loop Control — part of the chapter on Control Flow.",
+          "description": "Deepening the understanding of the 'for' loop by utilizing the range() function for numeric sequences and enumerate() for tracking index positions during iteration.",
           "key_ideas": [
-            "Core principles of nested loops and loop control",
-            "Step-by-step problem solving for nested loops and loop control",
-            "Real-world applications of nested loops and loop control"
+            "range(start, stop, step) mechanics",
+            "Unpacking tuples in for-loops (enumerate)",
+            "Iterating over strings and lists",
+            "Difference between iterating by value vs index"
+          ]
+        },
+        {
+          "concept_id": "python_intro.control_flow.nested_structures",
+          "title": "Nested Loops and Conditionals",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "python_intro.control_flow.if_for_while",
+            "python_intro.control_flow.iterables_and_range"
+          ],
+          "description": "Implementing control structures inside other control structures to handle multi-dimensional data or complex logic flows.",
+          "key_ideas": [
+            "Syntax and indentation rules for nesting",
+            "Inner vs. Outer loop execution flow",
+            "Basic time complexity implications (O(n^2))",
+            "Using nested loops for grid/matrix traversal"
+          ]
+        },
+        {
+          "concept_id": "python_intro.control_flow.list_comprehensions",
+          "title": "List Comprehensions",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "python_intro.control_flow.if_for_while",
+            "python_intro.control_flow.iterables_and_range"
+          ],
+          "description": "A concise, Pythonic way to create lists based on existing iterables, combining loop and conditional logic into a single line of code.",
+          "key_ideas": [
+            "Basic syntax: [expression for item in iterable]",
+            "Adding conditional filtering (if clauses)",
+            "Nested comprehensions",
+            "Readability vs. complexity trade-offs"
           ]
         }
       ]
@@ -154,46 +286,78 @@
       "title": "Strings",
       "concepts": [
         {
-          "concept_id": "python_intro.strings.string_basics",
-          "title": "String Creation and Indexing",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": [],
-          "description": "String Creation and Indexing — part of the chapter on Strings.",
-          "key_ideas": [
-            "Core principles of string creation and indexing",
-            "Step-by-step problem solving for string creation and indexing",
-            "Real-world applications of string creation and indexing"
-          ]
-        },
-        {
           "concept_id": "python_intro.strings.string_methods",
-          "title": "String Methods — split, join, replace, find",
+          "title": "String Operations and Methods",
           "bloom_level": "apply",
           "difficulty": 0.3,
-          "prerequisites": [
-            "python_intro.strings.string_basics"
-          ],
-          "description": "String Methods — split, join, replace, find — part of the chapter on Strings.",
+          "prerequisites": [],
+          "description": "String Operations and Methods — part of the chapter on Strings.",
           "key_ideas": [
-            "Core principles of string methods",
-            "Step-by-step problem solving for string methods",
-            "Real-world applications of string methods"
+            "Core principles of string operations and methods",
+            "Step-by-step problem solving for string operations and methods",
+            "Real-world applications of string operations and methods"
           ]
         },
         {
-          "concept_id": "python_intro.strings.string_formatting",
-          "title": "String Formatting — f-strings",
+          "concept_id": "python_intro.strings.literals_and_creation",
+          "title": "String Literals and Syntax",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Introduction to defining string literals using single, double, and triple quotes, including handling special characters with escape sequences.",
+          "key_ideas": [
+            "Using single (' ') and double (\" \") quotes for string creation",
+            "Utilizing triple quotes for multiline strings",
+            "Implementing escape characters like \\n (newline) and \\t (tab)",
+            "Handling quotes within strings"
+          ]
+        },
+        {
+          "concept_id": "python_intro.strings.indexing_slicing",
+          "title": "String Indexing and Slicing",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [
-            "python_intro.strings.string_methods"
+            "python_intro.strings.literals_and_creation"
           ],
-          "description": "String Formatting — f-strings — part of the chapter on Strings.",
+          "description": "Techniques for accessing specific characters and extracting substrings using position-based indexing.",
           "key_ideas": [
-            "Core principles of string formatting",
-            "Step-by-step problem solving for string formatting",
-            "Real-world applications of string formatting"
+            "Zero-based positive indexing",
+            "Negative indexing to access characters from the end",
+            "Slicing syntax [start:stop:step] for extracting substrings",
+            "Handling IndexError exceptions"
+          ]
+        },
+        {
+          "concept_id": "python_intro.strings.immutability",
+          "title": "String Immutability",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "python_intro.strings.indexing_slicing"
+          ],
+          "description": "Understanding the unchangeable nature of string objects in Python and how modifications require creating new string instances.",
+          "key_ideas": [
+            "Strings cannot be modified in-place (e.g., assignment to an index fails)",
+            "Variable reassignment vs. object modification",
+            "Memory implications of string operations",
+            "Constructing new strings to simulate modification"
+          ]
+        },
+        {
+          "concept_id": "python_intro.strings.formatting",
+          "title": "String Formatting and F-Strings",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "python_intro.strings.literals_and_creation"
+          ],
+          "description": "Methods for embedding expressions and variables directly into string literals for dynamic text generation.",
+          "key_ideas": [
+            "Syntax and usage of f-strings (Formatted String Literals)",
+            "Embedding variables and expressions inside curly braces {}",
+            "Formatting numbers (precision, percentages) within strings",
+            "Legacy formatting using the .format() method"
           ]
         }
       ]
@@ -203,59 +367,94 @@
       "title": "Lists and Tuples",
       "concepts": [
         {
-          "concept_id": "python_intro.lists_tuples.list_basics",
-          "title": "Creating and Accessing Lists",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
+          "concept_id": "python_intro.lists_tuples.list_operations",
+          "title": "List Operations and Comprehension",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Creating and Accessing Lists — part of the chapter on Lists and Tuples.",
+          "description": "List Operations and Comprehension — part of the chapter on Lists and Tuples.",
           "key_ideas": [
-            "Core principles of creating and accessing lists",
-            "Step-by-step problem solving for creating and accessing lists",
-            "Real-world applications of creating and accessing lists"
+            "Core principles of list operations and comprehension",
+            "Step-by-step problem solving for list operations and comprehension",
+            "Real-world applications of list operations and comprehension"
           ]
         },
         {
-          "concept_id": "python_intro.lists_tuples.list_operations",
-          "title": "List Operations — append, insert, remove, sort",
-          "bloom_level": "apply",
+          "concept_id": "python_intro.lists_tuples.list_fundamentals",
+          "title": "List Creation and Access",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the list data structure, focusing on syntax for creation, zero-based indexing, and the concept of ordered collections.",
+          "key_ideas": [
+            "Defining lists using square brackets []",
+            "Accessing elements via positive and negative indices",
+            "Understanding lists as ordered, mutable sequences",
+            "Handling IndexError exceptions"
+          ]
+        },
+        {
+          "concept_id": "python_intro.lists_tuples.tuple_fundamentals",
+          "title": "Tuples and Immutability",
+          "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [
-            "python_intro.lists_tuples.list_basics"
+            "python_intro.lists_tuples.list_fundamentals"
           ],
-          "description": "List Operations — append, insert, remove, sort — part of the chapter on Lists and Tuples.",
+          "description": "Exploration of tuples as immutable sequences, contrasting them with lists to understand when to use fixed data structures.",
           "key_ideas": [
-            "Core principles of list operations",
-            "Step-by-step problem solving for list operations",
-            "Real-world applications of list operations"
+            "Defining tuples using parentheses ()",
+            "The concept of immutability (cannot change elements)",
+            "Tuples vs. Lists: Performance and use cases",
+            "Single-element tuple syntax quirks"
           ]
         },
         {
-          "concept_id": "python_intro.lists_tuples.list_comprehension",
-          "title": "List Comprehension",
+          "concept_id": "python_intro.lists_tuples.slicing_mechanics",
+          "title": "Advanced Slicing Techniques",
           "bloom_level": "apply",
-          "difficulty": 0.4,
+          "difficulty": 0.5,
+          "prerequisites": [
+            "python_intro.lists_tuples.list_fundamentals"
+          ],
+          "description": "Mastering the slice operator to extract subsequences, reverse sequences, and modify lists in place using extended slice syntax.",
+          "key_ideas": [
+            "Standard slicing syntax [start:stop]",
+            "Using the step argument [start:stop:step]",
+            "Reversing lists with negative steps",
+            "Shallow copying lists via slicing"
+          ]
+        },
+        {
+          "concept_id": "python_intro.lists_tuples.sequence_unpacking",
+          "title": "Sequence Unpacking",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "python_intro.lists_tuples.tuple_fundamentals"
+          ],
+          "description": "Techniques for assigning elements of a sequence to multiple variables in a single statement, a common Python idiom.",
+          "key_ideas": [
+            "Parallel assignment to variables",
+            "Swapping variables without a temporary variable",
+            "Using the asterisk (*) operator for extended unpacking",
+            "Unpacking in loop iterations"
+          ]
+        },
+        {
+          "concept_id": "python_intro.lists_tuples.nested_structures",
+          "title": "Nested Lists and Matrices",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
           "prerequisites": [
             "python_intro.lists_tuples.list_operations"
           ],
-          "description": "List Comprehension — part of the chapter on Lists and Tuples.",
+          "description": "Working with multi-dimensional data structures by nesting lists within lists to represent grids or matrices.",
           "key_ideas": [
-            "Core principles of list comprehension",
-            "Step-by-step problem solving for list comprehension",
-            "Real-world applications of list comprehension"
-          ]
-        },
-        {
-          "concept_id": "python_intro.lists_tuples.tuples",
-          "title": "Tuples — Immutable Sequences",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Tuples — Immutable Sequences — part of the chapter on Lists and Tuples.",
-          "key_ideas": [
-            "Core principles of tuples",
-            "Step-by-step problem solving for tuples",
-            "Real-world applications of tuples"
+            "Creating 2D lists (lists of lists)",
+            "Accessing elements using double indexing [row][col]",
+            "Iterating through nested structures",
+            "Common pitfalls with shallow copies of nested lists"
           ]
         }
       ]
@@ -265,44 +464,90 @@
       "title": "Dictionaries and Sets",
       "concepts": [
         {
-          "concept_id": "python_intro.dictionaries_sets.dict_basics",
-          "title": "Creating and Accessing Dictionaries",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Creating and Accessing Dictionaries — part of the chapter on Dictionaries and Sets.",
-          "key_ideas": [
-            "Core principles of creating and accessing dictionaries",
-            "Step-by-step problem solving for creating and accessing dictionaries",
-            "Real-world applications of creating and accessing dictionaries"
-          ]
-        },
-        {
           "concept_id": "python_intro.dictionaries_sets.dict_methods",
-          "title": "Dictionary Methods and Iteration",
-          "bloom_level": "apply",
-          "difficulty": 0.3,
-          "prerequisites": [
-            "python_intro.dictionaries_sets.dict_basics"
-          ],
-          "description": "Dictionary Methods and Iteration — part of the chapter on Dictionaries and Sets.",
-          "key_ideas": [
-            "Core principles of dictionary methods and iteration",
-            "Step-by-step problem solving for dictionary methods and iteration",
-            "Real-world applications of dictionary methods and iteration"
-          ]
-        },
-        {
-          "concept_id": "python_intro.dictionaries_sets.sets",
-          "title": "Sets — Operations and Methods",
+          "title": "Dictionary and Set Operations",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Sets — Operations and Methods — part of the chapter on Dictionaries and Sets.",
+          "description": "Dictionary and Set Operations — part of the chapter on Dictionaries and Sets.",
           "key_ideas": [
-            "Core principles of sets",
-            "Step-by-step problem solving for sets",
-            "Real-world applications of sets"
+            "Core principles of dictionary and set operations",
+            "Step-by-step problem solving for dictionary and set operations",
+            "Real-world applications of dictionary and set operations"
+          ]
+        },
+        {
+          "concept_id": "python_intro.dictionaries_sets.fundamentals",
+          "title": "Dictionary and Set Fundamentals",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the structure of dictionaries (key-value pairs) and sets (unique collections), including syntax for creation and the concept of hashable keys.",
+          "key_ideas": [
+            "Dictionaries store data mappings using keys and values",
+            "Sets are unordered collections of unique elements",
+            "Dictionary keys and set elements must be immutable (hashable)"
+          ]
+        },
+        {
+          "concept_id": "python_intro.dictionaries_sets.access_strategies",
+          "title": "Retrieval and Membership",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [
+            "python_intro.dictionaries_sets.fundamentals"
+          ],
+          "description": "Techniques for accessing data safely, differentiating between direct bracket indexing and the .get() method, and checking for existence.",
+          "key_ideas": [
+            "Using the 'in' keyword to check for key or element existence",
+            "Direct access via brackets [] raises KeyError if missing",
+            "The .get() method allows fallback to default values"
+          ]
+        },
+        {
+          "concept_id": "python_intro.dictionaries_sets.iteration_patterns",
+          "title": "Iterating Dictionaries and Sets",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "python_intro.dictionaries_sets.fundamentals",
+            "python_intro.dictionaries_sets.dict_methods"
+          ],
+          "description": "Methods for traversing these data structures using loops, specifically unpacking dictionary items into keys and values.",
+          "key_ideas": [
+            "Iterating over keys, values, or items()",
+            "Tuple unpacking in for-loops (for k, v in d.items())",
+            "Sets have no guaranteed iteration order"
+          ]
+        },
+        {
+          "concept_id": "python_intro.dictionaries_sets.nested_structures",
+          "title": "Nested Data Structures",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "python_intro.dictionaries_sets.access_strategies"
+          ],
+          "description": "Working with complex data models, such as lists of dictionaries or dictionaries containing other dictionaries, often used in JSON data processing.",
+          "key_ideas": [
+            "Modeling complex real-world data",
+            "Chained access syntax (e.g., data['users'][0]['name'])",
+            "Managing mutability in deep structures"
+          ]
+        },
+        {
+          "concept_id": "python_intro.dictionaries_sets.comprehensions",
+          "title": "Dictionary and Set Comprehensions",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "python_intro.dictionaries_sets.iteration_patterns"
+          ],
+          "description": "Using concise comprehension syntax to construct dictionaries and sets dynamically from iterables.",
+          "key_ideas": [
+            "Syntax for dict comprehensions: {k:v for item in iterable}",
+            "Syntax for set comprehensions: {x for x in iterable}",
+            "Conditional logic within comprehensions"
           ]
         }
       ]
@@ -312,61 +557,96 @@
       "title": "Functions",
       "concepts": [
         {
-          "concept_id": "python_intro.functions.defining_functions",
-          "title": "Defining and Calling Functions",
+          "concept_id": "python_intro.functions.defining_scope",
+          "title": "Functions, Parameters, Scope, Lambda",
           "bloom_level": "apply",
-          "difficulty": 0.3,
+          "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Defining and Calling Functions — part of the chapter on Functions.",
+          "description": "Functions, Parameters, Scope, Lambda — part of the chapter on Functions.",
           "key_ideas": [
-            "Core principles of defining and calling functions",
-            "Step-by-step problem solving for defining and calling functions",
-            "Real-world applications of defining and calling functions"
+            "Core principles of functions, parameters, scope, lambda",
+            "Step-by-step problem solving for functions, parameters, scope, lambda",
+            "Real-world applications of functions, parameters, scope, lambda"
           ]
         },
         {
-          "concept_id": "python_intro.functions.parameters_return",
-          "title": "Parameters, Arguments and Return Values",
-          "bloom_level": "apply",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "python_intro.functions.defining_functions"
-          ],
-          "description": "Parameters, Arguments and Return Values — part of the chapter on Functions.",
-          "key_ideas": [
-            "Core principles of parameters, arguments and return values",
-            "Step-by-step problem solving for parameters, arguments and return values",
-            "Real-world applications of parameters, arguments and return values"
-          ]
-        },
-        {
-          "concept_id": "python_intro.functions.scope",
-          "title": "Scope — Local and Global Variables",
+          "concept_id": "python_intro.functions.return_values",
+          "title": "Return Statements and NoneType",
           "bloom_level": "understand",
-          "difficulty": 0.35,
+          "difficulty": 0.3,
           "prerequisites": [
-            "python_intro.functions.parameters_return"
+            "python_intro.functions.defining_scope"
           ],
-          "description": "Scope — Local and Global Variables — part of the chapter on Functions.",
+          "description": "Understanding how functions send data back to the caller using the return statement, versus printing to the console, and handling functions that return None.",
           "key_ideas": [
-            "Core principles of scope",
-            "Step-by-step problem solving for scope",
-            "Real-world applications of scope"
+            "The difference between returning a value and printing output",
+            "Implicit return of None when no return statement is present",
+            "Returning multiple values as tuples",
+            "Using function calls within expressions"
           ]
         },
         {
-          "concept_id": "python_intro.functions.lambda",
-          "title": "Lambda Functions",
+          "concept_id": "python_intro.functions.docstrings",
+          "title": "Function Documentation (Docstrings)",
           "bloom_level": "apply",
-          "difficulty": 0.4,
+          "difficulty": 0.35,
           "prerequisites": [
-            "python_intro.functions.scope"
+            "python_intro.functions.defining_scope"
           ],
-          "description": "Lambda Functions — part of the chapter on Functions.",
+          "description": "Best practices for documenting functions using triple-quoted strings to describe purpose, parameters, and return values.",
           "key_ideas": [
-            "Core principles of lambda functions",
-            "Step-by-step problem solving for lambda functions",
-            "Real-world applications of lambda functions"
+            "Writing single-line and multi-line docstrings",
+            "Accessing documentation via the __doc__ attribute or help() function",
+            "Adhering to PEP 257 conventions",
+            "Documenting parameters and return types"
+          ]
+        },
+        {
+          "concept_id": "python_intro.functions.args_kwargs",
+          "title": "Default Parameters and Arbitrary Arguments",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "python_intro.functions.return_values"
+          ],
+          "description": "Mastering flexibility in function calls through default parameter values, keyword arguments, and variable-length argument lists (*args and **kwargs).",
+          "key_ideas": [
+            "Setting default values for parameters",
+            "Positional arguments vs. Keyword arguments",
+            "Using *args to accept variable positional arguments",
+            "Using **kwargs to accept variable keyword arguments"
+          ]
+        },
+        {
+          "concept_id": "python_intro.functions.type_hinting",
+          "title": "Type Hinting and Annotations",
+          "bloom_level": "understand",
+          "difficulty": 0.65,
+          "prerequisites": [
+            "python_intro.functions.return_values"
+          ],
+          "description": "Introduction to Python's syntax for declaring expected types for function arguments and return values to improve code readability and tooling support.",
+          "key_ideas": [
+            "Syntax for parameter type annotations (e.g., name: str)",
+            "Syntax for return type annotations (e.g., -> int)",
+            "Using the typing module for complex types (List, Dict, Optional)",
+            "Static analysis vs. runtime behavior"
+          ]
+        },
+        {
+          "concept_id": "python_intro.functions.recursion",
+          "title": "Recursive Functions",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "python_intro.functions.return_values"
+          ],
+          "description": "The concept of a function calling itself to solve problems by breaking them down into smaller instances, including the importance of base cases.",
+          "key_ideas": [
+            "Defining a base case to stop recursion",
+            "The recursive step and state reduction",
+            "Understanding the call stack and recursion depth limits",
+            "Common use cases (factorials, traversal)"
           ]
         }
       ]
@@ -376,46 +656,89 @@
       "title": "File Handling",
       "concepts": [
         {
-          "concept_id": "python_intro.file_handling.reading_files",
-          "title": "Reading Files — open, read, readlines",
+          "concept_id": "python_intro.file_handling.read_write_csv",
+          "title": "File Read/Write, CSV, JSON",
           "bloom_level": "apply",
-          "difficulty": 0.3,
+          "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Reading Files — open, read, readlines — part of the chapter on File Handling.",
+          "description": "File Read/Write, CSV, JSON — part of the chapter on File Handling.",
           "key_ideas": [
-            "Core principles of reading files",
-            "Step-by-step problem solving for reading files",
-            "Real-world applications of reading files"
+            "Core principles of file read/write, csv, json",
+            "Step-by-step problem solving for file read/write, csv, json",
+            "Real-world applications of file read/write, csv, json"
           ]
         },
         {
-          "concept_id": "python_intro.file_handling.writing_files",
-          "title": "Writing Files — write, writelines",
+          "concept_id": "python_intro.file_handling.file_modes_and_open",
+          "title": "Opening Files and Modes",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "The fundamental mechanics of creating file objects using the built-in open() function and understanding different access modes.",
+          "key_ideas": [
+            "Using the open() function to create file objects",
+            "Understanding file modes: 'r' (read), 'w' (write), 'a' (append)",
+            "The difference between text mode ('t') and binary mode ('b')"
+          ]
+        },
+        {
+          "concept_id": "python_intro.file_handling.context_managers",
+          "title": "Context Managers (The 'with' Statement)",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [
-            "python_intro.file_handling.reading_files"
+            "python_intro.file_handling.file_modes_and_open"
           ],
-          "description": "Writing Files — write, writelines — part of the chapter on File Handling.",
+          "description": "Best practices for resource management using the 'with' statement to ensure files are properly closed after operations, even if errors occur.",
           "key_ideas": [
-            "Core principles of writing files",
-            "Step-by-step problem solving for writing files",
-            "Real-world applications of writing files"
+            "Syntax of the 'with' statement for file handling",
+            "Automatic resource cleanup and file closing",
+            "Preventing memory leaks and file corruption"
           ]
         },
         {
-          "concept_id": "python_intro.file_handling.csv_json",
-          "title": "Working with CSV and JSON",
+          "concept_id": "python_intro.file_handling.reading_writing_text",
+          "title": "Reading and Writing Text Methods",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [
-            "python_intro.file_handling.writing_files"
+            "python_intro.file_handling.context_managers"
           ],
-          "description": "Working with CSV and JSON — part of the chapter on File Handling.",
+          "description": "Techniques for manipulating string data within files, including reading entire contents, iterating line-by-line, and writing strings.",
           "key_ideas": [
-            "Core principles of working with csv and json",
-            "Step-by-step problem solving for working with csv and json",
-            "Real-world applications of working with csv and json"
+            "Reading methods: read(), readline(), and readlines()",
+            "Writing methods: write() and writelines()",
+            "Handling newline characters (\\n) and stripping whitespace"
+          ]
+        },
+        {
+          "concept_id": "python_intro.file_handling.file_paths_and_directories",
+          "title": "File Paths and Directories",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "python_intro.file_handling.reading_writing_text"
+          ],
+          "description": "Navigating the file system programmatically using standard libraries to handle paths, check for file existence, and manage directories.",
+          "key_ideas": [
+            "Absolute vs. Relative file paths",
+            "Using the 'os' and 'os.path' modules",
+            "Modern path handling with the 'pathlib' module"
+          ]
+        },
+        {
+          "concept_id": "python_intro.file_handling.io_exceptions",
+          "title": "Handling File Exceptions",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "python_intro.file_handling.file_paths_and_directories"
+          ],
+          "description": "Implementing robust error handling specifically for Input/Output operations to prevent program crashes when files are missing or inaccessible.",
+          "key_ideas": [
+            "Catching FileNotFoundError",
+            "Handling PermissionError",
+            "Writing robust code that anticipates I/O failures"
           ]
         }
       ]
@@ -438,18 +761,77 @@
           ]
         },
         {
-          "concept_id": "python_intro.error_handling.custom_exceptions",
-          "title": "Custom Exceptions",
+          "concept_id": "python_intro.error_handling.syntax_vs_exceptions",
+          "title": "Syntax Errors vs. Exceptions",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Differentiation between parsing errors that occur before execution and exceptions that occur during runtime.",
+          "key_ideas": [
+            "SyntaxError indicates invalid Python grammar",
+            "Exceptions occur during execution of syntactically correct code",
+            "Reading traceback messages to identify error types"
+          ]
+        },
+        {
+          "concept_id": "python_intro.error_handling.catching_specific_exceptions",
+          "title": "Catching Specific Exceptions",
           "bloom_level": "apply",
-          "difficulty": 0.4,
+          "difficulty": 0.5,
           "prerequisites": [
             "python_intro.error_handling.try_except"
           ],
-          "description": "Custom Exceptions — part of the chapter on Error Handling.",
+          "description": "Best practices for handling specific error types rather than using bare except clauses to ensure robust debugging and logic.",
           "key_ideas": [
-            "Core principles of custom exceptions",
-            "Step-by-step problem solving for custom exceptions",
-            "Real-world applications of custom exceptions"
+            "Using multiple except blocks for different error types",
+            "Handling ValueError, TypeError, and ZeroDivisionError specifically",
+            "Accessing exception details using the 'as' keyword",
+            "Avoiding 'except:' without an exception class"
+          ]
+        },
+        {
+          "concept_id": "python_intro.error_handling.else_clause",
+          "title": "The else Clause",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "python_intro.error_handling.try_except"
+          ],
+          "description": "Utilizing the optional else block in try-except structures to define code that runs only when no exceptions are raised.",
+          "key_ideas": [
+            "Separating dangerous code (try) from dependent code (else)",
+            "Improving code readability and logic flow",
+            "Difference between code in 'else' vs. code following the try-except block"
+          ]
+        },
+        {
+          "concept_id": "python_intro.error_handling.raising_exceptions",
+          "title": "Raising Exceptions",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "python_intro.error_handling.try_except"
+          ],
+          "description": "Manually triggering exceptions using the raise keyword to enforce constraints or signal errors to the caller.",
+          "key_ideas": [
+            "Using the 'raise' keyword",
+            "Re-raising exceptions inside an except block",
+            "Enforcing function preconditions manually"
+          ]
+        },
+        {
+          "concept_id": "python_intro.error_handling.user_defined_exceptions",
+          "title": "User-Defined Exceptions",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "python_intro.error_handling.raising_exceptions"
+          ],
+          "description": "Creating custom exception classes by inheriting from Python's built-in Exception class to handle domain-specific errors.",
+          "key_ideas": [
+            "Inheriting from the Exception base class",
+            "Defining custom error messages",
+            "Structuring application-specific error hierarchies"
           ]
         }
       ]
@@ -459,46 +841,96 @@
       "title": "Object-Oriented Programming",
       "concepts": [
         {
-          "concept_id": "python_intro.oop.classes_objects",
-          "title": "Classes and Objects",
-          "bloom_level": "understand",
-          "difficulty": 0.35,
+          "concept_id": "python_intro.oop.classes_inheritance",
+          "title": "Classes, Objects, Inheritance",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
           "prerequisites": [],
-          "description": "Classes and Objects — part of the chapter on Object-Oriented Programming.",
+          "description": "Classes, Objects, Inheritance — part of the chapter on Object-Oriented Programming.",
           "key_ideas": [
-            "Core principles of classes and objects",
-            "Step-by-step problem solving for classes and objects",
-            "Real-world applications of classes and objects"
+            "Core principles of classes, objects, inheritance",
+            "Step-by-step problem solving for classes, objects, inheritance",
+            "Real-world applications of classes, objects, inheritance"
           ]
         },
         {
-          "concept_id": "python_intro.oop.init_methods",
-          "title": "__init__ and Instance Methods",
+          "concept_id": "python_intro.oop.encapsulation_properties",
+          "title": "Encapsulation and Properties",
           "bloom_level": "apply",
           "difficulty": 0.4,
           "prerequisites": [
-            "python_intro.oop.classes_objects"
+            "python_intro.oop.classes_inheritance"
           ],
-          "description": "__init__ and Instance Methods — part of the chapter on Object-Oriented Programming.",
+          "description": "Mechanisms to restrict access to methods and variables to prevent direct data modification, utilizing Python's naming conventions and the property decorator.",
           "key_ideas": [
-            "Core principles of __init__ and instance methods",
-            "Step-by-step problem solving for __init__ and instance methods",
-            "Real-world applications of __init__ and instance methods"
+            "Public, protected (_), and private (__) access modifiers",
+            "Name mangling in Python",
+            "Getters and setters using the @property decorator",
+            "Data validation within setters"
           ]
         },
         {
-          "concept_id": "python_intro.oop.inheritance_poly",
-          "title": "Inheritance and Polymorphism",
-          "bloom_level": "apply",
+          "concept_id": "python_intro.oop.polymorphism_overriding",
+          "title": "Polymorphism and Method Overriding",
+          "bloom_level": "analyze",
           "difficulty": 0.5,
           "prerequisites": [
-            "python_intro.oop.init_methods"
+            "python_intro.oop.classes_inheritance"
           ],
-          "description": "Inheritance and Polymorphism — part of the chapter on Object-Oriented Programming.",
+          "description": "The ability of different objects to respond to the same method call in ways specific to their class, including modifying inherited behavior.",
           "key_ideas": [
-            "Core principles of inheritance and polymorphism",
-            "Step-by-step problem solving for inheritance and polymorphism",
-            "Real-world applications of inheritance and polymorphism"
+            "Method overriding in child classes",
+            "Using super() to extend parent functionality",
+            "Duck typing philosophy ('If it walks like a duck...')",
+            "Handling objects of different types via a common interface"
+          ]
+        },
+        {
+          "concept_id": "python_intro.oop.magic_methods",
+          "title": "Magic Methods (Dunder Methods)",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "python_intro.oop.classes_inheritance"
+          ],
+          "description": "Special methods surrounded by double underscores that allow instances to interact with built-in Python operators and functions.",
+          "key_ideas": [
+            "Object initialization with __init__",
+            "String representation with __str__ and __repr__",
+            "Operator overloading (e.g., __add__, __eq__)",
+            "Making objects iterable or callable"
+          ]
+        },
+        {
+          "concept_id": "python_intro.oop.class_static_methods",
+          "title": "Class and Static Methods",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "python_intro.oop.classes_inheritance"
+          ],
+          "description": "Distinguishing between methods that operate on an instance, methods that operate on the class itself, and utility methods independent of state.",
+          "key_ideas": [
+            "Instance methods (self) vs Class methods (cls)",
+            "The @classmethod decorator and factory patterns",
+            "The @staticmethod decorator for utility functions",
+            "Accessing class variables vs instance variables"
+          ]
+        },
+        {
+          "concept_id": "python_intro.oop.composition_aggregation",
+          "title": "Composition and Aggregation",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "python_intro.oop.classes_inheritance"
+          ],
+          "description": "Design principles focusing on building complex objects by combining simpler ones, often serving as a flexible alternative to inheritance.",
+          "key_ideas": [
+            "The 'Has-A' relationship vs the 'Is-A' relationship",
+            "Delegating responsibilities to component objects",
+            "Decoupling code to improve maintainability",
+            "Choosing between inheritance and composition"
           ]
         }
       ]

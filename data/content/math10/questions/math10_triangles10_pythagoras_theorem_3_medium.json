@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.45,
+    "question": "State and explain the key concept: Pythagoras: In right △ABC with ∠B = 90°, AC² = AB² + BC².",
+    "hint": "Think about the definition and main formula related to Pythagoras Theorem and Converse.",
+    "expected_answer": "This tests understanding of: Pythagoras: In right △ABC with ∠B = 90°, AC² = AB² + BC². Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Pythagoras Theorem and Converse"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "question": "Solve an NCERT example problem related to 'Pythagoras Theorem and Converse'. Show all steps clearly.",
+    "hint": "Review the key ideas: Pythagoras: In right △ABC with ∠B = 90°, AC² = AB² + BC², Hypotenuse is always the longest side (opposite the right angle).",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Pythagoras Theorem and Converse. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Pythagoras Theorem and Converse"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "How would you apply 'Pythagoras Theorem and Converse' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where pythagoras theorem and converse concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Pythagoras Theorem and Converse.",
+    "concepts_tested": [
+      "Pythagoras Theorem and Converse",
+      "Real-world application"
+    ]
+  }
+]

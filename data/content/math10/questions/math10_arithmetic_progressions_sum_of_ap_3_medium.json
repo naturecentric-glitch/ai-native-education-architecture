@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.45,
+    "question": "State and explain the key concept: Sₙ = n/2 × [2a + (n−1)d] — when last term is unknown.",
+    "hint": "Think about the definition and main formula related to Sum of First n Terms of an AP.",
+    "expected_answer": "This tests understanding of: Sₙ = n/2 × [2a + (n−1)d] — when last term is unknown. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Sum of First n Terms of an AP"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "question": "Solve an NCERT example problem related to 'Sum of First n Terms of an AP'. Show all steps clearly.",
+    "hint": "Review the key ideas: Sₙ = n/2 × [2a + (n−1)d] — when last term is unknown, Sₙ = n/2 × (a + l) — when last term l is known.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Sum of First n Terms of an AP. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Sum of First n Terms of an AP"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "How would you apply 'Sum of First n Terms of an AP' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where sum of first n terms of an ap concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Sum of First n Terms of an AP.",
+    "concepts_tested": [
+      "Sum of First n Terms of an AP",
+      "Real-world application"
+    ]
+  }
+]

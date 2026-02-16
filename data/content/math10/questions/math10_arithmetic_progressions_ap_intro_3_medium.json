@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "question": "State and explain the key concept: AP: a, a+d, a+2d, a+3d, ... where d = common difference.",
+    "hint": "Think about the definition and main formula related to Introduction to AP and Common Difference.",
+    "expected_answer": "This tests understanding of: AP: a, a+d, a+2d, a+3d, ... where d = common difference. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Introduction to AP and Common Difference"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.4,
+    "question": "Solve an NCERT example problem related to 'Introduction to AP and Common Difference'. Show all steps clearly.",
+    "hint": "Review the key ideas: AP: a, a+d, a+2d, a+3d, ... where d = common difference, d = any term − previous term (constant throughout).",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Introduction to AP and Common Difference. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Introduction to AP and Common Difference"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.44999999999999996,
+    "question": "How would you apply 'Introduction to AP and Common Difference' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where introduction to ap and common difference concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Introduction to AP and Common Difference.",
+    "concepts_tested": [
+      "Introduction to AP and Common Difference",
+      "Real-world application"
+    ]
+  }
+]

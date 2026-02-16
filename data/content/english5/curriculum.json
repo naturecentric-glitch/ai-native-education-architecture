@@ -1,0 +1,458 @@
+{
+  "course_id": "english5",
+  "title": "Class 5 English",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Reading and Comprehension",
+      "concepts": [
+        {
+          "concept_id": "english5.reading5.factual",
+          "title": "Factual and Descriptive Passages",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Factual and Descriptive Passages — part of the chapter on Reading and Comprehension.",
+          "key_ideas": [
+            "Core principles of factual and descriptive passages",
+            "Step-by-step problem solving for factual and descriptive passages",
+            "Real-world applications of factual and descriptive passages"
+          ]
+        },
+        {
+          "concept_id": "english5.reading5.literary",
+          "title": "Literary — Stories and Poems",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Literary — Stories and Poems — part of the chapter on Reading and Comprehension.",
+          "key_ideas": [
+            "Core principles of literary",
+            "Step-by-step problem solving for literary",
+            "Real-world applications of literary"
+          ]
+        },
+        {
+          "concept_id": "english5.reading5.central_theme",
+          "title": "Identifying Main Idea and Themes",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english5.reading5.factual",
+            "english5.reading5.literary"
+          ],
+          "description": "Strategies to identify the primary topic or central message of a paragraph or story, distinguishing it from minor details.",
+          "key_ideas": [
+            "Distinguishing topic vs. main idea",
+            "Identifying supporting details",
+            "Selecting appropriate titles for passages"
+          ]
+        },
+        {
+          "concept_id": "english5.reading5.context_clues",
+          "title": "Vocabulary in Context",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english5.reading5.factual"
+          ],
+          "description": "Techniques for deducing the meaning of unfamiliar words and phrases by analyzing surrounding sentences rather than using a dictionary.",
+          "key_ideas": [
+            "Using synonyms and antonyms as clues",
+            "Inference through examples in text",
+            "Understanding idiomatic expressions within stories"
+          ]
+        },
+        {
+          "concept_id": "english5.reading5.sequencing",
+          "title": "Sequencing and Cause-Effect",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english5.reading5.literary"
+          ],
+          "description": "Understanding the chronological order of events in a narrative and analyzing the relationship between actions and their consequences.",
+          "key_ideas": [
+            "Identifying transition words (first, then, finally)",
+            "Ordering plot events correctly",
+            "Linking causes to specific effects"
+          ]
+        },
+        {
+          "concept_id": "english5.reading5.visual_text",
+          "title": "Reading Posters and Visual Texts",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Interpreting information presented in non-linear formats common in daily life, such as posters, notices, advertisements, and timetables.",
+          "key_ideas": [
+            "Scanning for specific details (dates, times, venues)",
+            "Understanding the purpose of a notice or poster",
+            "Interpreting visual cues and slogans"
+          ]
+        },
+        {
+          "concept_id": "english5.reading5.inference",
+          "title": "Making Inferences",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english5.reading5.literary",
+            "english5.reading5.context_clues"
+          ],
+          "description": "The ability to 'read between the lines' to understand character feelings, motives, or events that are not explicitly stated by the author.",
+          "key_ideas": [
+            "Combining text evidence with background knowledge",
+            "Drawing conclusions about character traits",
+            "Predicting future outcomes based on current events"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Grammar",
+      "concepts": [
+        {
+          "concept_id": "english5.grammar5.tenses5",
+          "title": "Tenses — Simple, Continuous, Perfect",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Tenses — Simple, Continuous, Perfect — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of tenses",
+            "Step-by-step problem solving for tenses",
+            "Real-world applications of tenses"
+          ]
+        },
+        {
+          "concept_id": "english5.grammar5.modals",
+          "title": "Modals — can, could, may, should",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Modals — can, could, may, should — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of modals",
+            "Step-by-step problem solving for modals",
+            "Real-world applications of modals"
+          ]
+        },
+        {
+          "concept_id": "english5.grammar5.punctuation",
+          "title": "Punctuation — Full Stop, Comma, Question Mark, Apostrophe",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Punctuation — Full Stop, Comma, Question Mark, Apostrophe — part of the chapter on Grammar.",
+          "key_ideas": [
+            "Core principles of punctuation",
+            "Step-by-step problem solving for punctuation",
+            "Real-world applications of punctuation"
+          ]
+        },
+        {
+          "concept_id": "english5.grammar5.articles",
+          "title": "Articles — A, An, The",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Understanding the difference between definite and indefinite articles and how to use them correctly before nouns based on vowel and consonant sounds.",
+          "key_ideas": [
+            "Use of 'A' before consonant sounds",
+            "Use of 'An' before vowel sounds",
+            "Use of 'The' for specific or unique nouns"
+          ]
+        },
+        {
+          "concept_id": "english5.grammar5.adjectives_comparison",
+          "title": "Adjectives and Degrees of Comparison",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Learning how to use adjectives to describe nouns and using positive, comparative, and superlative forms to compare objects or people.",
+          "key_ideas": [
+            "Describing qualities of nouns",
+            "Comparative degree (adding -er or 'more')",
+            "Superlative degree (adding -est or 'most')",
+            "Irregular adjectives (good, better, best)"
+          ]
+        },
+        {
+          "concept_id": "english5.grammar5.prepositions",
+          "title": "Prepositions of Place and Time",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Using words that indicate the relationship between a noun and other parts of the sentence, specifically focusing on location, direction, and time.",
+          "key_ideas": [
+            "Position words (in, on, under, behind)",
+            "Direction words (to, from, towards)",
+            "Time words (at, on, in)"
+          ]
+        },
+        {
+          "concept_id": "english5.grammar5.conjunctions",
+          "title": "Conjunctions — Joining Sentences",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english5.grammar5.punctuation"
+          ],
+          "description": "Using connecting words to join words, phrases, or short sentences together to form compound sentences.",
+          "key_ideas": [
+            "Using 'and' to add information",
+            "Using 'but' to show contrast",
+            "Using 'or' to show choice",
+            "Using 'because' to give reasons"
+          ]
+        },
+        {
+          "concept_id": "english5.grammar5.subject_verb_agreement",
+          "title": "Subject-Verb Agreement",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english5.grammar5.tenses5"
+          ],
+          "description": "Ensuring that the verb in a sentence matches the subject in number (singular or plural).",
+          "key_ideas": [
+            "Singular subjects take singular verbs",
+            "Plural subjects take plural verbs",
+            "Rules for pronouns (I, You, He, She, It, They)",
+            "Identifying the subject in a sentence"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Writing Skills",
+      "concepts": [
+        {
+          "concept_id": "english5.writing5.essay5",
+          "title": "Essay Writing — Descriptive",
+          "bloom_level": "create",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Essay Writing — Descriptive — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of essay writing",
+            "Step-by-step problem solving for essay writing",
+            "Real-world applications of essay writing"
+          ]
+        },
+        {
+          "concept_id": "english5.writing5.letter5",
+          "title": "Formal and Informal Letters",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Formal and Informal Letters — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of formal and informal letters",
+            "Step-by-step problem solving for formal and informal letters",
+            "Real-world applications of formal and informal letters"
+          ]
+        },
+        {
+          "concept_id": "english5.writing5.notice",
+          "title": "Notice Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Notice Writing — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of notice writing",
+            "Step-by-step problem solving for notice writing",
+            "Real-world applications of notice writing"
+          ]
+        },
+        {
+          "concept_id": "english5.writing5.paragraph_writing",
+          "title": "Paragraph Writing",
+          "bloom_level": "create",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learn to structure a single, cohesive paragraph focusing on one central idea, using a topic sentence, supporting details, and a concluding sentence.",
+          "key_ideas": [
+            "Identifying the main topic",
+            "Drafting a strong topic sentence",
+            "Using transition words for flow",
+            "Writing a summarizing concluding sentence"
+          ]
+        },
+        {
+          "concept_id": "english5.writing5.picture_composition",
+          "title": "Picture Composition",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english5.writing5.essay5"
+          ],
+          "description": "Develop skills to observe a visual image and translate those observations into a descriptive text, focusing on details, actions, and setting.",
+          "key_ideas": [
+            "Observation and interpretation of visual cues",
+            "Using present continuous tense for ongoing actions",
+            "Describing foreground and background details",
+            "Connecting visual elements to create a narrative"
+          ]
+        },
+        {
+          "concept_id": "english5.writing5.message_writing",
+          "title": "Message Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english5.writing5.notice"
+          ],
+          "description": "Learn the format and technique for writing short, informal messages to convey information to someone who is not present (e.g., taking a phone message).",
+          "key_ideas": [
+            "Standard format (Date, Time, Salutation, Sender)",
+            "Conveying essential information only (Brevity)",
+            "Converting direct speech to reported summary",
+            "Using an informal but polite tone"
+          ]
+        },
+        {
+          "concept_id": "english5.writing5.diary_entry",
+          "title": "Diary Entry",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Practice writing personal reflections on daily events, feelings, and experiences in a specific diary format.",
+          "key_ideas": [
+            "Format: Date, Day, Time, and Salutation",
+            "Using first-person perspective (I, Me, My)",
+            "Expressing emotions and personal thoughts",
+            "Maintaining an informal and reflective tone"
+          ]
+        },
+        {
+          "concept_id": "english5.writing5.story_writing",
+          "title": "Story Writing from Outlines",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english5.writing5.essay5"
+          ],
+          "description": "Construct a complete story based on provided hints or outlines, focusing on plot development, character, and moral.",
+          "key_ideas": [
+            "Interpreting outline cues",
+            "Developing a plot with a beginning, middle, and end",
+            "Creating a suitable title",
+            "Deriving a moral or conclusion"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Vocabulary and Word Power",
+      "concepts": [
+        {
+          "concept_id": "english5.vocabulary5.word_meanings",
+          "title": "Contextual Word Meanings",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Contextual Word Meanings — part of the chapter on Vocabulary and Word Power.",
+          "key_ideas": [
+            "Core principles of contextual word meanings",
+            "Step-by-step problem solving for contextual word meanings",
+            "Real-world applications of contextual word meanings"
+          ]
+        },
+        {
+          "concept_id": "english5.vocabulary5.one_word",
+          "title": "One Word Substitution",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "One Word Substitution — part of the chapter on Vocabulary and Word Power.",
+          "key_ideas": [
+            "Core principles of one word substitution",
+            "Step-by-step problem solving for one word substitution",
+            "Real-world applications of one word substitution"
+          ]
+        },
+        {
+          "concept_id": "english5.vocabulary5.synonyms_antonyms",
+          "title": "Synonyms and Antonyms",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english5.vocabulary5.word_meanings"
+          ],
+          "description": "Identifying words with similar meanings (synonyms) and opposite meanings (antonyms) to enhance descriptive writing.",
+          "key_ideas": [
+            "Synonyms are words that mean the same thing (e.g., happy/joyful).",
+            "Antonyms are words that mean the opposite (e.g., hot/cold).",
+            "Using varied vocabulary to avoid repetition."
+          ]
+        },
+        {
+          "concept_id": "english5.vocabulary5.compound_words",
+          "title": "Compound Words",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english5.vocabulary5.word_meanings"
+          ],
+          "description": "Learning how to combine two distinct words to create a new word with a specific meaning.",
+          "key_ideas": [
+            "Combining nouns to form new objects (e.g., Sun + Flower = Sunflower).",
+            "Understanding that the meaning of the compound word relates to its parts.",
+            "Identifying closed, open, and hyphenated compound words."
+          ]
+        },
+        {
+          "concept_id": "english5.vocabulary5.homophones",
+          "title": "Homophones and Homonyms",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english5.vocabulary5.word_meanings"
+          ],
+          "description": "Distinguishing between words that sound the same but have different spellings and meanings.",
+          "key_ideas": [
+            "Differentiating common homophones (e.g., their/there/they're).",
+            "Using context clues to select the correct spelling.",
+            "Understanding homonyms (same spelling, different meaning like 'bark')."
+          ]
+        },
+        {
+          "concept_id": "english5.vocabulary5.prefixes_suffixes",
+          "title": "Prefixes and Suffixes",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english5.vocabulary5.word_meanings"
+          ],
+          "description": "Modifying root words by adding affixes to change their meaning or grammatical function.",
+          "key_ideas": [
+            "Using prefixes like un-, dis-, re- to negate or change action.",
+            "Using suffixes like -ly, -ness, -ful to change word class (e.g., noun to adjective).",
+            "Identifying root words within complex terms."
+          ]
+        },
+        {
+          "concept_id": "english5.vocabulary5.idioms_proverbs",
+          "title": "Introduction to Idioms",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english5.vocabulary5.word_meanings"
+          ],
+          "description": "Understanding figurative language where the phrase means something different from the literal definition of its words.",
+          "key_ideas": [
+            "Recognizing common idioms (e.g., 'piece of cake').",
+            "Distinguishing between literal and figurative meaning.",
+            "Using idioms to add color and expression to speech and writing."
+          ]
+        }
+      ]
+    }
+  ]
+}

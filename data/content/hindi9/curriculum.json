@@ -1,0 +1,82 @@
+{
+  "course_id": "hindi9",
+  "title": "Class 9 Hindi",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "क्षितिज — Kshitij (Prose and Poetry)",
+      "concepts": [
+        {
+          "concept_id": "hindi9.kshitij.lessons9",
+          "title": "Prose and Poetry with Questions",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Prose and Poetry with Questions — part of the chapter on क्षितिज — Kshitij (Prose and Poetry).",
+          "key_ideas": [
+            "Core principles of prose and poetry with questions",
+            "Step-by-step problem solving for prose and poetry with questions",
+            "Real-world applications of prose and poetry with questions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "कृतिका — Kritika",
+      "concepts": [
+        {
+          "concept_id": "hindi9.kritika.stories9",
+          "title": "Stories — Comprehension and Analysis",
+          "bloom_level": "analyze",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Stories — Comprehension and Analysis — part of the chapter on कृतिका — Kritika.",
+          "key_ideas": [
+            "Core principles of stories",
+            "Step-by-step problem solving for stories",
+            "Real-world applications of stories"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "व्याकरण",
+      "concepts": [
+        {
+          "concept_id": "hindi9.vyakaran9.grammar_topics",
+          "title": "पद परिचय, रचना, वाक्य परिवर्तन",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "पद परिचय, रचना, वाक्य परिवर्तन — part of the chapter on व्याकरण.",
+          "key_ideas": [
+            "Core principles of पद परिचय, रचना, वाक्य परिवर्तन",
+            "Step-by-step problem solving for पद परिचय, रचना, वाक्य परिवर्तन",
+            "Real-world applications of पद परिचय, रचना, वाक्य परिवर्तन"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "लेखन",
+      "concepts": [
+        {
+          "concept_id": "hindi9.lekhan9.writing9",
+          "title": "Essay, Letter, Dialogue Writing",
+          "bloom_level": "apply",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Essay, Letter, Dialogue Writing — part of the chapter on लेखन.",
+          "key_ideas": [
+            "Core principles of essay, letter, dialogue writing",
+            "Step-by-step problem solving for essay, letter, dialogue writing",
+            "Real-world applications of essay, letter, dialogue writing"
+          ]
+        }
+      ]
+    }
+  ]
+}

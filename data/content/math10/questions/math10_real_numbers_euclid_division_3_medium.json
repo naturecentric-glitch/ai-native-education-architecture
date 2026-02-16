@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "Express 455 in terms of 42 using Euclid's Division Lemma (i.e., find q and r such that 455 = 42q + r).",
+    "hint": "Divide 455 by 42 to find the quotient and remainder.",
+    "expected_answer": "455 ÷ 42 = 10 remainder 35. So 455 = 42 × 10 + 35, where q = 10 and r = 35. Verify: 0 ≤ 35 < 42 ✓",
+    "concepts_tested": [
+      "Euclid's Division Lemma",
+      "Division with remainder"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "question": "A number when divided by 17 gives quotient 23 and remainder 4. What is the number? Verify using Euclid's Division Lemma.",
+    "hint": "Use a = bq + r where b = 17, q = 23, r = 4.",
+    "expected_answer": "a = 17 × 23 + 4 = 391 + 4 = 395. Verify: 395 ÷ 17 = 23 remainder 4 ✓, and 0 ≤ 4 < 17 ✓",
+    "concepts_tested": [
+      "Euclid's Division Lemma"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "A teacher has 93 notebooks to distribute equally among students. After distribution, 3 notebooks are left. If each student got at least 5 notebooks, what are the possible number of students?",
+    "hint": "93 = n × q + 3, where q ≥ 5 and n = number of students. Find values of n that work.",
+    "expected_answer": "93 − 3 = 90 notebooks distributed equally. n × q = 90 with q ≥ 5.\nPossible: n=18(q=5), n=15(q=6), n=10(q=9), n=9(q=10), n=6(q=15), n=5(q=18), n=3(q=30), n=2(q=45), n=1(q=90).\nSo possible number of students: 1, 2, 3, 5, 6, 9, 10, 15, 18.",
+    "concepts_tested": [
+      "Euclid's Division Lemma",
+      "Real-world application"
+    ]
+  }
+]

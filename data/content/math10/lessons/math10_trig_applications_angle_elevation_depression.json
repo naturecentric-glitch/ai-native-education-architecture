@@ -1,0 +1,12 @@
+{
+  "title": "Angle of Elevation and Depression — Some Applications of Trigonometry",
+  "hook": "Let's explore <strong>Angle of Elevation and Depression</strong> from the chapter on Some Applications of Trigonometry. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Angle of Elevation and Depression</strong>\n\n<em>Angle of elevation is measured upward from the horizontal line of sight. Angle of depression is measured downward. Both use the same trigonometric ratios.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Angle of elevation: looking UP from horizontal → angle above horizontal</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Angle of depression: looking DOWN from horizontal → angle below horizontal</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Angle of elevation from A = Angle of depression from B (alternate interior angles)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Always draw a right triangle with the height as one side</div>",
+  "worked_example": "<em>A detailed worked example for Angle of Elevation and Depression will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Angle of Elevation and Depression and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and some applications of trigonometry concepts like angle of elevation and depression are used in engineering, data science, and everyday problem solving!"
+}

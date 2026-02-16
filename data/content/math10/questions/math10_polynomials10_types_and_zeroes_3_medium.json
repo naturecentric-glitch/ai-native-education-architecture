@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "question": "State and explain the key concept: Linear polynomial ax+b has exactly 1 zero (straight line graph).",
+    "hint": "Think about the definition and main formula related to Types of Polynomials and Geometrical Meaning of Zeroes.",
+    "expected_answer": "This tests understanding of: Linear polynomial ax+b has exactly 1 zero (straight line graph). Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Types of Polynomials and Geometrical Meaning of Zeroes"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.4,
+    "question": "Solve an NCERT example problem related to 'Types of Polynomials and Geometrical Meaning of Zeroes'. Show all steps clearly.",
+    "hint": "Review the key ideas: Linear polynomial ax+b has exactly 1 zero (straight line graph), Quadratic polynomial ax²+bx+c has at most 2 zeroes (parabola).",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Types of Polynomials and Geometrical Meaning of Zeroes. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Types of Polynomials and Geometrical Meaning of Zeroes"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.44999999999999996,
+    "question": "How would you apply 'Types of Polynomials and Geometrical Meaning of Zeroes' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where types of polynomials and geometrical meaning of zeroes concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Types of Polynomials and Geometrical Meaning of Zeroes.",
+    "concepts_tested": [
+      "Types of Polynomials and Geometrical Meaning of Zeroes",
+      "Real-world application"
+    ]
+  }
+]

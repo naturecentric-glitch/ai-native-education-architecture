@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "Find the HCF of 196 and 38220 using Euclid's algorithm.",
+    "hint": "Start: 38220 = 196 × q + r. Keep going until remainder is 0.",
+    "expected_answer": "38220 = 196 × 195 + 0. Since the remainder is 0 in the very first step, HCF(38220, 196) = 196.",
+    "concepts_tested": [
+      "Euclid's Algorithm for HCF"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.5,
+    "question": "Use Euclid's algorithm to find HCF of 4052 and 12576.",
+    "hint": "Divide the larger by the smaller, then continue with the divisor and remainder.",
+    "expected_answer": "12576 = 4052 × 3 + 420\n4052 = 420 × 9 + 272\n420 = 272 × 1 + 148\n272 = 148 × 1 + 124\n148 = 124 × 1 + 24\n124 = 24 × 5 + 4\n24 = 4 × 6 + 0\nHCF = 4",
+    "concepts_tested": [
+      "Euclid's Algorithm for HCF"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "question": "A rectangular courtyard is 18m 72cm long and 13m 20cm wide. It is to be paved with square tiles of the same size. Find the largest possible size of the tile.",
+    "hint": "Convert to cm: 1872 cm × 1320 cm. The tile side = HCF(1872, 1320).",
+    "expected_answer": "1872 = 1320 × 1 + 552\n1320 = 552 × 2 + 216\n552 = 216 × 2 + 120\n216 = 120 × 1 + 96\n120 = 96 × 1 + 24\n96 = 24 × 4 + 0\nHCF = 24 cm. Largest tile size = 24 cm × 24 cm.",
+    "concepts_tested": [
+      "Euclid's Algorithm",
+      "HCF application"
+    ]
+  }
+]

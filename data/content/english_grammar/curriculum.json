@@ -37,31 +37,84 @@
         {
           "concept_id": "english_grammar.parts_of_speech.adjectives_adverbs",
           "title": "Adjectives and Adverbs",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [
-            "english_grammar.parts_of_speech.nouns_pronouns"
-          ],
-          "description": "Adjectives and Adverbs — part of the chapter on Parts of Speech.",
-          "key_ideas": [
-            "Core principles of adjectives and adverbs",
-            "Step-by-step problem solving for adjectives and adverbs",
-            "Real-world applications of adjectives and adverbs"
-          ]
-        },
-        {
-          "concept_id": "english_grammar.parts_of_speech.prepositions_conjunctions",
-          "title": "Prepositions and Conjunctions",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [
-            "english_grammar.parts_of_speech.adjectives_adverbs"
+            "english_grammar.parts_of_speech.nouns_pronouns",
+            "english_grammar.parts_of_speech.verbs_tenses"
           ],
-          "description": "Prepositions and Conjunctions — part of the chapter on Parts of Speech.",
+          "description": "Explores modifiers that describe, qualify, or limit nouns and verbs, including the rules for comparative and superlative forms.",
           "key_ideas": [
-            "Core principles of prepositions and conjunctions",
-            "Step-by-step problem solving for prepositions and conjunctions",
-            "Real-world applications of prepositions and conjunctions"
+            "Adjectives modify nouns and pronouns by answering 'what kind', 'which one', or 'how many'",
+            "Adverbs modify verbs, adjectives, or other adverbs, often ending in -ly",
+            "Distinguishing between adjectives and adverbs in sentence construction",
+            "Formation and usage of comparative and superlative degrees"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.parts_of_speech.determiners_articles",
+          "title": "Articles and Determiners",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english_grammar.parts_of_speech.nouns_pronouns"
+          ],
+          "description": "Focuses on the specific class of words used to introduce nouns and specify their reference, quantity, or possession.",
+          "key_ideas": [
+            "Definite (the) vs. Indefinite (a/an) articles",
+            "Demonstratives (this, that, these, those)",
+            "Quantifiers (some, many, few) and their agreement with countable/uncountable nouns",
+            "Possessive determiners (my, your, his, her)"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.parts_of_speech.prepositions",
+          "title": "Prepositions and Spatial Relationships",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english_grammar.parts_of_speech.nouns_pronouns"
+          ],
+          "description": "Examines words that show the relationship between a noun or pronoun and other words in a sentence, focusing on location, direction, and time.",
+          "key_ideas": [
+            "Common prepositions of place, time, and movement",
+            "Identifying the object of the preposition",
+            "Constructing and placing prepositional phrases within sentences",
+            "Distinguishing prepositions from particles in phrasal verbs"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.parts_of_speech.conjunctions_interjections",
+          "title": "Conjunctions and Interjections",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english_grammar.parts_of_speech.verbs_tenses"
+          ],
+          "description": "Covers the words used to connect clauses or sentences and words used to express independent emotion.",
+          "key_ideas": [
+            "Coordinating conjunctions (FANBOYS) for joining equal parts",
+            "Subordinating conjunctions for dependent clauses",
+            "Correlative conjunctions (either/or, neither/nor)",
+            "Usage and punctuation of interjections for emotional emphasis"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.parts_of_speech.functional_analysis",
+          "title": "Functional Analysis of Parts of Speech",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english_grammar.parts_of_speech.adjectives_adverbs",
+            "english_grammar.parts_of_speech.prepositions",
+            "english_grammar.parts_of_speech.conjunctions_interjections"
+          ],
+          "description": "Advanced identification of word classes based on their syntactic function within specific contexts rather than memorized definitions.",
+          "key_ideas": [
+            "Words functioning as multiple parts of speech (e.g., 'run' as noun vs. verb)",
+            "Contextual clues for identifying word class",
+            "The impact of shifting parts of speech on sentence meaning",
+            "Analyzing complex sentences for grammatical agreement"
           ]
         }
       ]
@@ -71,46 +124,90 @@
       "title": "Sentence Structure",
       "concepts": [
         {
-          "concept_id": "english_grammar.sentence_structure.subject_predicate",
-          "title": "Subject and Predicate",
-          "bloom_level": "understand",
-          "difficulty": 0.2,
-          "prerequisites": [],
-          "description": "Subject and Predicate — part of the chapter on Sentence Structure.",
-          "key_ideas": [
-            "Core principles of subject and predicate",
-            "Step-by-step problem solving for subject and predicate",
-            "Real-world applications of subject and predicate"
-          ]
-        },
-        {
-          "concept_id": "english_grammar.sentence_structure.types_sentences",
-          "title": "Types of Sentences — Assertive, Interrogative, Imperative, Exclamatory",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [
-            "english_grammar.sentence_structure.subject_predicate"
-          ],
-          "description": "Types of Sentences — Assertive, Interrogative, Imperative, Exclamatory — part of the chapter on Sentence Structure.",
-          "key_ideas": [
-            "Core principles of types of sentences",
-            "Step-by-step problem solving for types of sentences",
-            "Real-world applications of types of sentences"
-          ]
-        },
-        {
           "concept_id": "english_grammar.sentence_structure.simple_compound_complex",
           "title": "Simple, Compound and Complex Sentences",
           "bloom_level": "apply",
           "difficulty": 0.35,
-          "prerequisites": [
-            "english_grammar.sentence_structure.types_sentences"
-          ],
+          "prerequisites": [],
           "description": "Simple, Compound and Complex Sentences — part of the chapter on Sentence Structure.",
           "key_ideas": [
             "Core principles of simple, compound and complex sentences",
             "Step-by-step problem solving for simple, compound and complex sentences",
             "Real-world applications of simple, compound and complex sentences"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.sentence_structure.subject_and_predicate",
+          "title": "Subject and Predicate Basics",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Explores the two fundamental parts of every complete sentence: the subject (who or what the sentence is about) and the predicate (what is said about the subject).",
+          "key_ideas": [
+            "Distinguishing between simple subjects and complete subjects",
+            "Identifying simple and compound predicates",
+            "Recognizing the implied 'you' in imperative sentences"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.sentence_structure.clauses_vs_phrases",
+          "title": "Clauses vs. Phrases",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english_grammar.sentence_structure.subject_and_predicate"
+          ],
+          "description": "Differentiates between phrases (groups of words without a subject-verb pair) and clauses (groups of words containing both), and distinguishes independent from dependent clauses.",
+          "key_ideas": [
+            "Identifying independent clauses as complete thoughts",
+            "Recognizing dependent (subordinate) clauses and their markers",
+            "The role of prepositional and appositive phrases in structure"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.sentence_structure.common_errors_fragments_run_ons",
+          "title": "Sentence Fragments and Run-ons",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english_grammar.sentence_structure.clauses_vs_phrases",
+            "english_grammar.sentence_structure.simple_compound_complex"
+          ],
+          "description": "Focuses on identifying and correcting common structural errors, specifically incomplete sentences (fragments) and improperly joined sentences (run-ons and comma splices).",
+          "key_ideas": [
+            "Fixing fragments by attaching them to main clauses or adding missing components",
+            "Identifying comma splices where two independent clauses are joined only by a comma",
+            "Correcting fused sentences using periods, semicolons, or conjunctions"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.sentence_structure.compound_complex_sentences",
+          "title": "The Compound-Complex Sentence",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english_grammar.sentence_structure.simple_compound_complex"
+          ],
+          "description": "An advanced structural form that combines the characteristics of both compound and complex sentences to express nuanced relationships between multiple ideas.",
+          "key_ideas": [
+            "Structure: At least two independent clauses and one or more dependent clauses",
+            "Using coordinating and subordinating conjunctions simultaneously",
+            "Managing punctuation in long, multi-clause sentences"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.sentence_structure.parallel_structure",
+          "title": "Parallel Structure",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english_grammar.sentence_structure.simple_compound_complex"
+          ],
+          "description": "Teaches the importance of using the same grammatical form for items in a list or comparison to create balance, rhythm, and clarity in writing.",
+          "key_ideas": [
+            "Balancing verb tenses and forms (e.g., gerunds vs. infinitives) in lists",
+            "Using parallel structure with correlative conjunctions (either/or, neither/nor)",
+            "Enhancing readability and style through grammatical symmetry"
           ]
         }
       ]
@@ -120,42 +217,97 @@
       "title": "Tenses",
       "concepts": [
         {
-          "concept_id": "english_grammar.tenses.present_tenses",
-          "title": "Present Tense — Simple, Continuous, Perfect",
+          "concept_id": "english_grammar.tenses.all_tenses",
+          "title": "Present, Past and Future — Simple, Continuous, Perfect",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Present Tense — Simple, Continuous, Perfect — part of the chapter on Tenses.",
+          "description": "Present, Past and Future — Simple, Continuous, Perfect — part of the chapter on Tenses.",
           "key_ideas": [
-            "Core principles of present tense",
-            "Step-by-step problem solving for present tense",
-            "Real-world applications of present tense"
+            "Core principles of present, past and future",
+            "Step-by-step problem solving for present, past and future",
+            "Real-world applications of present, past and future"
           ]
         },
         {
-          "concept_id": "english_grammar.tenses.past_tenses",
-          "title": "Past Tense — Simple, Continuous, Perfect",
-          "bloom_level": "apply",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Past Tense — Simple, Continuous, Perfect — part of the chapter on Tenses.",
+          "concept_id": "english_grammar.tenses.stative_vs_dynamic",
+          "title": "Stative vs. Dynamic Verbs",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english_grammar.tenses.all_tenses"
+          ],
+          "description": "Differentiation between action verbs (dynamic) and state verbs (stative) to prevent misuse in continuous tenses.",
           "key_ideas": [
-            "Core principles of past tense",
-            "Step-by-step problem solving for past tense",
-            "Real-world applications of past tense"
+            "Definition of stative verbs (thoughts, emotions, senses, possession)",
+            "The rule: Stative verbs generally cannot be used in continuous forms",
+            "Verbs with dual meanings (e.g., 'to have' as possession vs. action)",
+            "Common errors like 'I am liking this'"
           ]
         },
         {
-          "concept_id": "english_grammar.tenses.future_tenses",
-          "title": "Future Tense — Simple, Continuous, Perfect",
-          "bloom_level": "apply",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Future Tense — Simple, Continuous, Perfect — part of the chapter on Tenses.",
+          "concept_id": "english_grammar.tenses.future_forms_nuance",
+          "title": "Future Forms: Will, Going To, and Present Continuous",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english_grammar.tenses.all_tenses"
+          ],
+          "description": "A deep dive into the specific contexts required for different future forms beyond the simple usage of 'will'.",
           "key_ideas": [
-            "Core principles of future tense",
-            "Step-by-step problem solving for future tense",
-            "Real-world applications of future tense"
+            "Using 'Will' for spontaneous decisions and predictions",
+            "Using 'Going to' for prior intentions and evidence-based predictions",
+            "Using Present Continuous for fixed arrangements and scheduled plans",
+            "Using Present Simple for timetables (e.g., trains, flights)"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.tenses.perfect_continuous_aspect",
+          "title": "The Perfect Continuous Aspect",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english_grammar.tenses.all_tenses"
+          ],
+          "description": "Mastering the Present, Past, and Future Perfect Continuous tenses to express duration and ongoing actions relative to a time reference.",
+          "key_ideas": [
+            "Emphasis on the duration of an activity rather than the result",
+            "Using 'for' and 'since' with continuous forms",
+            "Distinguishing Present Perfect Simple (completion) vs. Present Perfect Continuous (ongoing/recent activity)",
+            "Past Perfect Continuous for causes of past states"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.tenses.past_habits",
+          "title": "Expressing Past Habits: Used to vs. Would",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english_grammar.tenses.all_tenses"
+          ],
+          "description": "Techniques for describing discontinued habits and states in the past without using the Past Simple tense.",
+          "key_ideas": [
+            "Structure and usage of 'used to' for past states and actions",
+            "Usage of 'would' specifically for repeated past actions (nostalgia)",
+            "The constraint: 'Would' cannot be used for past states",
+            "Difference between 'used to do' and 'be/get used to doing'"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.tenses.narrative_sequencing",
+          "title": "Narrative Tenses and Sequencing",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "english_grammar.tenses.all_tenses",
+            "english_grammar.tenses.perfect_continuous_aspect"
+          ],
+          "description": "Synthesizing multiple past tenses to construct coherent stories with clear timelines and background context.",
+          "key_ideas": [
+            "Using Past Simple for the main events/timeline",
+            "Using Past Continuous for setting the scene or interrupted actions",
+            "Using Past Perfect to sequence events that happened before the main narrative time",
+            "Managing time shifts in complex storytelling"
           ]
         }
       ]
@@ -191,6 +343,86 @@
             "Step-by-step problem solving for direct and indirect speech",
             "Real-world applications of direct and indirect speech"
           ]
+        },
+        {
+          "concept_id": "english_grammar.voice_speech.passive_tense_rules",
+          "title": "Tense Transformation Rules in Passive Voice",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english_grammar.voice_speech.active_passive"
+          ],
+          "description": "A detailed breakdown of how auxiliary verbs change across different tenses (Simple, Continuous, Perfect) when converting from active to passive voice.",
+          "key_ideas": [
+            "Insertion of 'being' for continuous tenses",
+            "Insertion of 'been' for perfect tenses",
+            "Handling modal verbs (can, should, must) in passive constructions",
+            "Tenses that do not have a standard passive form (e.g., Future Continuous)"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.voice_speech.passive_interrogatives",
+          "title": "Interrogative Sentences in Passive Voice",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english_grammar.voice_speech.passive_tense_rules"
+          ],
+          "description": "Techniques for converting questions from active to passive voice, focusing on the placement of auxiliary verbs and the transformation of question words.",
+          "key_ideas": [
+            "Converting 'Who' to 'By whom'",
+            "Maintaining question structure (auxiliary before subject) in passive voice",
+            "Handling Yes/No questions in passive transformations",
+            "Positioning of prepositions in interrogative passive sentences"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.voice_speech.indirect_backshifting",
+          "title": "Tense Backshifting in Indirect Speech",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english_grammar.voice_speech.direct_indirect"
+          ],
+          "description": "The rules governing the shift of tenses from present to past, or past to past perfect, when the reporting verb is in the past tense.",
+          "key_ideas": [
+            "Simple Present becomes Simple Past",
+            "Present Perfect becomes Past Perfect",
+            "Exceptions to backshifting (universal truths and habitual facts)",
+            "Changes in time and place expressions (e.g., 'now' becomes 'then', 'here' becomes 'there')"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.voice_speech.indirect_questions",
+          "title": "Reporting Questions in Indirect Speech",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english_grammar.voice_speech.indirect_backshifting"
+          ],
+          "description": "Methods for converting direct questions into indirect speech, distinguishing between Wh- questions and Yes/No questions.",
+          "key_ideas": [
+            "Using 'if' or 'whether' for Yes/No questions",
+            "Retaining the question word for Wh- questions",
+            "Changing interrogative word order to statement word order (removing inversion)",
+            "Removing the question mark in reported speech"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.voice_speech.indirect_imperatives_exclamations",
+          "title": "Reporting Imperatives and Exclamations",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english_grammar.voice_speech.indirect_backshifting"
+          ],
+          "description": "Strategies for converting commands, requests, advice, and exclamations into indirect speech by altering the reporting verb and sentence structure.",
+          "key_ideas": [
+            "Changing the reporting verb to reflect tone (ordered, requested, exclaimed)",
+            "Converting imperatives into infinitive phrases (to + verb)",
+            "Handling negative commands (not to + verb)",
+            "Transforming exclamatory sentences into assertive statements"
+          ]
         }
       ]
     },
@@ -200,30 +432,93 @@
       "concepts": [
         {
           "concept_id": "english_grammar.comprehension.unseen_passages",
-          "title": "Unseen Passages — Factual and Discursive",
+          "title": "Unseen Passages and Note Making",
           "bloom_level": "apply",
           "difficulty": 0.35,
           "prerequisites": [],
-          "description": "Unseen Passages — Factual and Discursive — part of the chapter on Reading Comprehension.",
+          "description": "Unseen Passages and Note Making — part of the chapter on Reading Comprehension.",
           "key_ideas": [
-            "Core principles of unseen passages",
-            "Step-by-step problem solving for unseen passages",
-            "Real-world applications of unseen passages"
+            "Core principles of unseen passages and note making",
+            "Step-by-step problem solving for unseen passages and note making",
+            "Real-world applications of unseen passages and note making"
           ]
         },
         {
-          "concept_id": "english_grammar.comprehension.note_making",
-          "title": "Note Making and Summarising",
+          "concept_id": "english_grammar.comprehension.skimming_scanning",
+          "title": "Skimming and Scanning Strategies",
           "bloom_level": "apply",
-          "difficulty": 0.4,
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Techniques for rapid reading to grasp the general gist of a text or locate specific information quickly without reading every word.",
+          "key_ideas": [
+            "Skimming for the main idea or gist",
+            "Scanning for specific keywords, dates, or names",
+            "Reading headings, subheadings, and topic sentences",
+            "Time management during reading assessments"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.comprehension.main_idea_details",
+          "title": "Identifying Main Ideas and Supporting Details",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english_grammar.comprehension.skimming_scanning"
+          ],
+          "description": "The ability to distinguish the primary argument or central theme of a paragraph from the examples, evidence, and elaboration that support it.",
+          "key_ideas": [
+            "Locating topic sentences",
+            "Distinguishing between core themes and minor details",
+            "Understanding paragraph structure",
+            "Summarizing the central message"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.comprehension.context_clues",
+          "title": "Vocabulary in Context",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
           "prerequisites": [
             "english_grammar.comprehension.unseen_passages"
           ],
-          "description": "Note Making and Summarising — part of the chapter on Reading Comprehension.",
+          "description": "Strategies for determining the meaning of unfamiliar words or phrases by analyzing the surrounding text rather than relying on a dictionary.",
           "key_ideas": [
-            "Core principles of note making and summarising",
-            "Step-by-step problem solving for note making and summarising",
-            "Real-world applications of note making and summarising"
+            "Using synonyms and antonyms provided in the text",
+            "Analyzing semantic logic and sentence structure",
+            "Identifying roots and affixes for clues",
+            "Understanding idiomatic expressions within context"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.comprehension.inference_tone",
+          "title": "Inference, Tone, and Mood",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english_grammar.comprehension.main_idea_details"
+          ],
+          "description": "Reading between the lines to understand implied meanings, the author's attitude, and the emotional atmosphere of the text.",
+          "key_ideas": [
+            "Deducing implicit information not stated directly",
+            "Identifying the author's tone (e.g., sarcastic, objective, critical)",
+            "Recognizing the mood or atmosphere of a narrative",
+            "Drawing logical conclusions based on evidence"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.comprehension.critical_evaluation",
+          "title": "Critical Evaluation: Fact, Opinion, and Bias",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english_grammar.comprehension.inference_tone"
+          ],
+          "description": "Advanced comprehension skills focused on assessing the validity of arguments, distinguishing objective facts from subjective opinions, and detecting authorial bias.",
+          "key_ideas": [
+            "Differentiating between verifiable facts and personal opinions",
+            "Identifying author bias or underlying agenda",
+            "Evaluating the strength and relevance of arguments",
+            "Recognizing logical fallacies in persuasive texts"
           ]
         }
       ]
@@ -233,46 +528,94 @@
       "title": "Writing Skills",
       "concepts": [
         {
-          "concept_id": "english_grammar.writing.paragraph_writing",
-          "title": "Paragraph Writing",
+          "concept_id": "english_grammar.writing_skills.letter_essay",
+          "title": "Letter, Essay and Article Writing",
+          "bloom_level": "create",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Letter, Essay and Article Writing — part of the chapter on Writing Skills.",
+          "key_ideas": [
+            "Core principles of letter, essay and article writing",
+            "Step-by-step problem solving for letter, essay and article writing",
+            "Real-world applications of letter, essay and article writing"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.writing_skills.paragraph_structure",
+          "title": "Paragraph Structure and Development",
           "bloom_level": "apply",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Paragraph Writing — part of the chapter on Writing Skills.",
+          "description": "The fundamental building blocks of writing, focusing on creating unified and coherent paragraphs with a clear focus.",
           "key_ideas": [
-            "Core principles of paragraph writing",
-            "Step-by-step problem solving for paragraph writing",
-            "Real-world applications of paragraph writing"
+            "Crafting effective topic sentences",
+            "Using supporting details and evidence",
+            "Writing concluding sentences",
+            "Maintaining unity within a paragraph"
           ]
         },
         {
-          "concept_id": "english_grammar.writing.letter_writing",
-          "title": "Letter Writing — Formal and Informal",
+          "concept_id": "english_grammar.writing_skills.cohesion_coherence",
+          "title": "Cohesion and Coherence",
           "bloom_level": "apply",
-          "difficulty": 0.35,
-          "prerequisites": [
-            "english_grammar.writing.paragraph_writing"
-          ],
-          "description": "Letter Writing — Formal and Informal — part of the chapter on Writing Skills.",
-          "key_ideas": [
-            "Core principles of letter writing",
-            "Step-by-step problem solving for letter writing",
-            "Real-world applications of letter writing"
-          ]
-        },
-        {
-          "concept_id": "english_grammar.writing.essay_writing",
-          "title": "Essay and Article Writing",
-          "bloom_level": "create",
           "difficulty": 0.4,
           "prerequisites": [
-            "english_grammar.writing.letter_writing"
+            "english_grammar.writing_skills.paragraph_structure"
           ],
-          "description": "Essay and Article Writing — part of the chapter on Writing Skills.",
+          "description": "Techniques to ensure logical flow and connection between ideas, sentences, and paragraphs.",
           "key_ideas": [
-            "Core principles of essay and article writing",
-            "Step-by-step problem solving for essay and article writing",
-            "Real-world applications of essay and article writing"
+            "Using transitional words and phrases",
+            "Reference and substitution",
+            "Logical sequencing of ideas",
+            "Avoiding disjointed writing"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.writing_skills.precis_writing",
+          "title": "Precis and Summary Writing",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english_grammar.writing_skills.paragraph_structure"
+          ],
+          "description": "The skill of condensing a larger text into a concise summary while retaining the essential core meaning and tone.",
+          "key_ideas": [
+            "Identifying main vs. subordinate ideas",
+            "Paraphrasing techniques",
+            "Maintaining the original author's perspective",
+            "Brevity and conciseness rules"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.writing_skills.story_writing",
+          "title": "Story and Narrative Writing",
+          "bloom_level": "create",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english_grammar.writing_skills.paragraph_structure"
+          ],
+          "description": "Developing creative narratives that engage readers through structured storytelling elements.",
+          "key_ideas": [
+            "Developing plot structure (exposition, climax, resolution)",
+            "Character development and dialogue",
+            "Setting the scene and atmosphere",
+            "Using descriptive imagery"
+          ]
+        },
+        {
+          "concept_id": "english_grammar.writing_skills.report_writing",
+          "title": "Report Writing",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english_grammar.writing_skills.letter_essay"
+          ],
+          "description": "Drafting formal, objective accounts of events, investigations, or newspaper reports following specific structural conventions.",
+          "key_ideas": [
+            "Structure of a report (headline, byline, lead paragraph)",
+            "Using objective and formal language",
+            "Presenting facts and data clearly",
+            "Difference between newspaper and business reports"
           ]
         }
       ]

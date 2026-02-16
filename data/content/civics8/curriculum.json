@@ -1,37 +1,22 @@
 {
   "course_id": "civics8",
-  "title": "Class 8 Civics — Social and Political Life III",
+  "title": "Class 8 Civics",
   "chapters": [
     {
       "chapter_id": "ch01",
       "title": "The Indian Constitution",
       "concepts": [
         {
-          "concept_id": "civics8.constitution.need_constitution",
-          "title": "Why Do We Need a Constitution?",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Why Do We Need a Constitution? — part of the chapter on The Indian Constitution.",
-          "key_ideas": [
-            "Core principles of why do we need a constitution?",
-            "Step-by-step problem solving for why do we need a constitution?",
-            "Real-world applications of why do we need a constitution?"
-          ]
-        },
-        {
           "concept_id": "civics8.constitution.key_features",
-          "title": "Key Features of the Indian Constitution",
+          "title": "Key Features of the Constitution",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "civics8.constitution.need_constitution"
-          ],
-          "description": "Key Features of the Indian Constitution — part of the chapter on The Indian Constitution.",
+          "prerequisites": [],
+          "description": "Key Features of the Constitution — part of the chapter on The Indian Constitution.",
           "key_ideas": [
-            "Core principles of key features of the indian constitution",
-            "Step-by-step problem solving for key features of the indian constitution",
-            "Real-world applications of key features of the indian constitution"
+            "Core principles of key features of the constitution",
+            "Step-by-step problem solving for key features of the constitution",
+            "Real-world applications of key features of the constitution"
           ]
         }
       ]
@@ -42,94 +27,53 @@
       "concepts": [
         {
           "concept_id": "civics8.secularism.secularism_india",
-          "title": "Secularism in India",
+          "title": "Secularism and State-Religion Separation",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Secularism in India — part of the chapter on Understanding Secularism.",
+          "description": "Secularism and State-Religion Separation — part of the chapter on Understanding Secularism.",
           "key_ideas": [
-            "Core principles of secularism in india",
-            "Step-by-step problem solving for secularism in india",
-            "Real-world applications of secularism in india"
-          ]
-        },
-        {
-          "concept_id": "civics8.secularism.state_religion",
-          "title": "Separation of State and Religion",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Separation of State and Religion — part of the chapter on Understanding Secularism.",
-          "key_ideas": [
-            "Core principles of separation of state and religion",
-            "Step-by-step problem solving for separation of state and religion",
-            "Real-world applications of separation of state and religion"
+            "Core principles of secularism and state-religion separation",
+            "Step-by-step problem solving for secularism and state-religion separation",
+            "Real-world applications of secularism and state-religion separation"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch03",
-      "title": "Why Do We Need a Parliament?",
+      "title": "Parliament",
       "concepts": [
         {
-          "concept_id": "civics8.parliament.role_parliament",
-          "title": "Role of Parliament in Democracy",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Role of Parliament in Democracy — part of the chapter on Why Do We Need a Parliament?.",
-          "key_ideas": [
-            "Core principles of role of parliament in democracy",
-            "Step-by-step problem solving for role of parliament in democracy",
-            "Real-world applications of role of parliament in democracy"
-          ]
-        },
-        {
           "concept_id": "civics8.parliament.law_making",
-          "title": "How Laws Are Made",
+          "title": "Role of Parliament and Law Making",
           "bloom_level": "understand",
           "difficulty": 0.3,
-          "prerequisites": [
-            "civics8.parliament.role_parliament"
-          ],
-          "description": "How Laws Are Made — part of the chapter on Why Do We Need a Parliament?.",
+          "prerequisites": [],
+          "description": "Role of Parliament and Law Making — part of the chapter on Parliament.",
           "key_ideas": [
-            "Core principles of how laws are made",
-            "Step-by-step problem solving for how laws are made",
-            "Real-world applications of how laws are made"
+            "Core principles of role of parliament and law making",
+            "Step-by-step problem solving for role of parliament and law making",
+            "Real-world applications of role of parliament and law making"
           ]
         }
       ]
     },
     {
       "chapter_id": "ch04",
-      "title": "Understanding Laws and the Judiciary",
+      "title": "Judiciary",
       "concepts": [
         {
-          "concept_id": "civics8.judiciary.judicial_system",
+          "concept_id": "civics8.judiciary8.judicial_system",
           "title": "Structure of Indian Judiciary",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Structure of Indian Judiciary — part of the chapter on Understanding Laws and the Judiciary.",
+          "description": "Structure of Indian Judiciary — part of the chapter on Judiciary.",
           "key_ideas": [
             "Core principles of structure of indian judiciary",
             "Step-by-step problem solving for structure of indian judiciary",
             "Real-world applications of structure of indian judiciary"
-          ]
-        },
-        {
-          "concept_id": "civics8.judiciary.access_to_justice",
-          "title": "Access to Justice and PIL",
-          "bloom_level": "understand",
-          "difficulty": 0.3,
-          "prerequisites": [],
-          "description": "Access to Justice and PIL — part of the chapter on Understanding Laws and the Judiciary.",
-          "key_ideas": [
-            "Core principles of access to justice and pil",
-            "Step-by-step problem solving for access to justice and pil",
-            "Real-world applications of access to justice and pil"
           ]
         }
       ]
@@ -139,29 +83,16 @@
       "title": "Understanding Marginalisation",
       "concepts": [
         {
-          "concept_id": "civics8.marginalisation.who_marginalised",
-          "title": "Who Are Marginalised?",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Who Are Marginalised? — part of the chapter on Understanding Marginalisation.",
-          "key_ideas": [
-            "Core principles of who are marginalised?",
-            "Step-by-step problem solving for who are marginalised?",
-            "Real-world applications of who are marginalised?"
-          ]
-        },
-        {
           "concept_id": "civics8.marginalisation.rights_marginalised",
-          "title": "Rights of Marginalised Communities",
+          "title": "Marginalised Communities and Rights",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Rights of Marginalised Communities — part of the chapter on Understanding Marginalisation.",
+          "description": "Marginalised Communities and Rights — part of the chapter on Understanding Marginalisation.",
           "key_ideas": [
-            "Core principles of rights of marginalised communities",
-            "Step-by-step problem solving for rights of marginalised communities",
-            "Real-world applications of rights of marginalised communities"
+            "Core principles of marginalised communities and rights",
+            "Step-by-step problem solving for marginalised communities and rights",
+            "Real-world applications of marginalised communities and rights"
           ]
         }
       ]
@@ -171,29 +102,16 @@
       "title": "Public Facilities",
       "concepts": [
         {
-          "concept_id": "civics8.public_facilities.water_facility",
-          "title": "Water as a Public Facility",
-          "bloom_level": "understand",
-          "difficulty": 0.25,
-          "prerequisites": [],
-          "description": "Water as a Public Facility — part of the chapter on Public Facilities.",
-          "key_ideas": [
-            "Core principles of water as a public facility",
-            "Step-by-step problem solving for water as a public facility",
-            "Real-world applications of water as a public facility"
-          ]
-        },
-        {
           "concept_id": "civics8.public_facilities.role_government",
-          "title": "Role of Government in Public Facilities",
+          "title": "Government's Role in Public Facilities",
           "bloom_level": "understand",
           "difficulty": 0.3,
           "prerequisites": [],
-          "description": "Role of Government in Public Facilities — part of the chapter on Public Facilities.",
+          "description": "Government's Role in Public Facilities — part of the chapter on Public Facilities.",
           "key_ideas": [
-            "Core principles of role of government in public facilities",
-            "Step-by-step problem solving for role of government in public facilities",
-            "Real-world applications of role of government in public facilities"
+            "Core principles of government's role in public facilities",
+            "Step-by-step problem solving for government's role in public facilities",
+            "Real-world applications of government's role in public facilities"
           ]
         }
       ]

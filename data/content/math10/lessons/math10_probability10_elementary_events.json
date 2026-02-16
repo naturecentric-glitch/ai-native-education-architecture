@@ -1,0 +1,12 @@
+{
+  "title": "Elementary Events and Sample Space — Probability",
+  "hook": "Let's explore <strong>Elementary Events and Sample Space</strong> from the chapter on Probability. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Elementary Events and Sample Space</strong>\n\n<em>An elementary event has a single outcome. The sample space is the set of all possible outcomes. Sum of probabilities of all elementary events = 1.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Sample space: set of all possible outcomes of an experiment</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Elementary event: event with exactly one outcome</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Compound event: event with more than one outcome</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Sum of probabilities of all elementary events = 1</div>",
+  "worked_example": "<em>A detailed worked example for Elementary Events and Sample Space will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Elementary Events and Sample Space and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and probability concepts like elementary events and sample space are used in engineering, data science, and everyday problem solving!"
+}

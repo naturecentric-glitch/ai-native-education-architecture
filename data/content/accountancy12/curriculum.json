@@ -1,0 +1,158 @@
+{
+  "course_id": "accountancy12",
+  "title": "Class 12 Accountancy",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Accounting for Partnership — Fundamentals",
+      "concepts": [
+        {
+          "concept_id": "accountancy12.partnership_fundamentals.profit_sharing",
+          "title": "Partnership Deed, Profit Sharing, Interest",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Partnership Deed, Profit Sharing, Interest — part of the chapter on Accounting for Partnership — Fundamentals.",
+          "key_ideas": [
+            "Core principles of partnership deed, profit sharing, interest",
+            "Step-by-step problem solving for partnership deed, profit sharing, interest",
+            "Real-world applications of partnership deed, profit sharing, interest"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Goodwill: Nature and Valuation",
+      "concepts": [
+        {
+          "concept_id": "accountancy12.goodwill.goodwill_methods",
+          "title": "Methods of Goodwill Valuation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Methods of Goodwill Valuation — part of the chapter on Goodwill: Nature and Valuation.",
+          "key_ideas": [
+            "Core principles of methods of goodwill valuation",
+            "Step-by-step problem solving for methods of goodwill valuation",
+            "Real-world applications of methods of goodwill valuation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Reconstitution of Partnership",
+      "concepts": [
+        {
+          "concept_id": "accountancy12.reconstitution.admission_retirement",
+          "title": "Admission, Retirement, Death of Partner",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Admission, Retirement, Death of Partner — part of the chapter on Reconstitution of Partnership.",
+          "key_ideas": [
+            "Core principles of admission, retirement, death of partner",
+            "Step-by-step problem solving for admission, retirement, death of partner",
+            "Real-world applications of admission, retirement, death of partner"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Dissolution of Partnership Firm",
+      "concepts": [
+        {
+          "concept_id": "accountancy12.dissolution.dissolution_accounts",
+          "title": "Settlement of Accounts",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Settlement of Accounts — part of the chapter on Dissolution of Partnership Firm.",
+          "key_ideas": [
+            "Core principles of settlement of accounts",
+            "Step-by-step problem solving for settlement of accounts",
+            "Real-world applications of settlement of accounts"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Accounting for Share Capital",
+      "concepts": [
+        {
+          "concept_id": "accountancy12.share_capital.issue_shares",
+          "title": "Issue and Forfeiture of Shares",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Issue and Forfeiture of Shares — part of the chapter on Accounting for Share Capital.",
+          "key_ideas": [
+            "Core principles of issue and forfeiture of shares",
+            "Step-by-step problem solving for issue and forfeiture of shares",
+            "Real-world applications of issue and forfeiture of shares"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Issue and Redemption of Debentures",
+      "concepts": [
+        {
+          "concept_id": "accountancy12.debentures.issue_redemption",
+          "title": "Issue and Redemption of Debentures",
+          "bloom_level": "apply",
+          "difficulty": 0.45,
+          "prerequisites": [],
+          "description": "Issue and Redemption of Debentures — part of the chapter on Issue and Redemption of Debentures.",
+          "key_ideas": [
+            "Core principles of issue and redemption of debentures",
+            "Step-by-step problem solving for issue and redemption of debentures",
+            "Real-world applications of issue and redemption of debentures"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Financial Statements of a Company",
+      "concepts": [
+        {
+          "concept_id": "accountancy12.financial_statements12.statement_preparation",
+          "title": "Balance Sheet and Statement of P&L",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Balance Sheet and Statement of P&L — part of the chapter on Financial Statements of a Company.",
+          "key_ideas": [
+            "Core principles of balance sheet and statement of p&l",
+            "Step-by-step problem solving for balance sheet and statement of p&l",
+            "Real-world applications of balance sheet and statement of p&l"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Cash Flow Statement",
+      "concepts": [
+        {
+          "concept_id": "accountancy12.cash_flow.cash_flow_prep",
+          "title": "Preparation of Cash Flow Statement",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Preparation of Cash Flow Statement — part of the chapter on Cash Flow Statement.",
+          "key_ideas": [
+            "Core principles of preparation of cash flow statement",
+            "Step-by-step problem solving for preparation of cash flow statement",
+            "Real-world applications of preparation of cash flow statement"
+          ]
+        }
+      ]
+    }
+  ]
+}

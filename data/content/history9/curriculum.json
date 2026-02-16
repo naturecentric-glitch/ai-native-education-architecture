@@ -1,0 +1,101 @@
+{
+  "course_id": "history9",
+  "title": "Class 9 History",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "The French Revolution",
+      "concepts": [
+        {
+          "concept_id": "history9.french_revolution.causes_impact",
+          "title": "Causes, Events and Impact",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Causes, Events and Impact — part of the chapter on The French Revolution.",
+          "key_ideas": [
+            "Core principles of causes, events and impact",
+            "Step-by-step problem solving for causes, events and impact",
+            "Real-world applications of causes, events and impact"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Socialism in Europe and the Russian Revolution",
+      "concepts": [
+        {
+          "concept_id": "history9.russian_revolution.socialism_revolution",
+          "title": "Socialism and Russian Revolution",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Socialism and Russian Revolution — part of the chapter on Socialism in Europe and the Russian Revolution.",
+          "key_ideas": [
+            "Core principles of socialism and russian revolution",
+            "Step-by-step problem solving for socialism and russian revolution",
+            "Real-world applications of socialism and russian revolution"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Nazism and the Rise of Hitler",
+      "concepts": [
+        {
+          "concept_id": "history9.nazism.nazi_germany",
+          "title": "Rise of Hitler and Nazi Ideology",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Rise of Hitler and Nazi Ideology — part of the chapter on Nazism and the Rise of Hitler.",
+          "key_ideas": [
+            "Core principles of rise of hitler and nazi ideology",
+            "Step-by-step problem solving for rise of hitler and nazi ideology",
+            "Real-world applications of rise of hitler and nazi ideology"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Forest Society and Colonialism",
+      "concepts": [
+        {
+          "concept_id": "history9.forest_society.colonial_forests",
+          "title": "Colonialism and Forest Communities",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Colonialism and Forest Communities — part of the chapter on Forest Society and Colonialism.",
+          "key_ideas": [
+            "Core principles of colonialism and forest communities",
+            "Step-by-step problem solving for colonialism and forest communities",
+            "Real-world applications of colonialism and forest communities"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Pastoralists in the Modern World",
+      "concepts": [
+        {
+          "concept_id": "history9.pastoralists.nomadic_life",
+          "title": "Nomadic Pastoralists — India and Africa",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Nomadic Pastoralists — India and Africa — part of the chapter on Pastoralists in the Modern World.",
+          "key_ideas": [
+            "Core principles of nomadic pastoralists",
+            "Step-by-step problem solving for nomadic pastoralists",
+            "Real-world applications of nomadic pastoralists"
+          ]
+        }
+      ]
+    }
+  ]
+}

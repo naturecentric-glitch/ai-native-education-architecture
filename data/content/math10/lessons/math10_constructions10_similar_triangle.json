@@ -1,0 +1,12 @@
+{
+  "title": "Construction of Similar Triangles — Constructions",
+  "hook": "Let's explore <strong>Construction of Similar Triangles</strong> from the chapter on Constructions. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Construction of Similar Triangles</strong>\n\n<em>Construct a triangle similar to a given triangle with sides in a given ratio (scale factor). Uses the line segment division technique.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Scale factor < 1: smaller similar triangle (inside)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Scale factor > 1: larger similar triangle (outside)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Steps: draw base, divide using ratio, draw parallel lines</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 The constructed triangle has all angles equal to original</div>",
+  "worked_example": "<em>A detailed worked example for Construction of Similar Triangles will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Construction of Similar Triangles and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and constructions concepts like construction of similar triangles are used in engineering, data science, and everyday problem solving!"
+}

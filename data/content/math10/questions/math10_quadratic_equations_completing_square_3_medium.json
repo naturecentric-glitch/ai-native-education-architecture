@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.45,
+    "question": "State and explain the key concept: Divide by 'a' to make coefficient of x² equal to 1.",
+    "hint": "Think about the definition and main formula related to Completing the Square.",
+    "expected_answer": "This tests understanding of: Divide by 'a' to make coefficient of x² equal to 1. Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Completing the Square"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "question": "Solve an NCERT example problem related to 'Completing the Square'. Show all steps clearly.",
+    "hint": "Review the key ideas: Divide by 'a' to make coefficient of x² equal to 1, Move constant term to RHS.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Completing the Square. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Completing the Square"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.6,
+    "question": "How would you apply 'Completing the Square' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where completing the square concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Completing the Square.",
+    "concepts_tested": [
+      "Completing the Square",
+      "Real-world application"
+    ]
+  }
+]

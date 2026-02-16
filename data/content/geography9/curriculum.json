@@ -1,0 +1,120 @@
+{
+  "course_id": "geography9",
+  "title": "Class 9 Geography",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "India — Size and Location",
+      "concepts": [
+        {
+          "concept_id": "geography9.india_size.location_extent",
+          "title": "Location, Extent and Neighbours",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Location, Extent and Neighbours — part of the chapter on India — Size and Location.",
+          "key_ideas": [
+            "Core principles of location, extent and neighbours",
+            "Step-by-step problem solving for location, extent and neighbours",
+            "Real-world applications of location, extent and neighbours"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Physical Features of India",
+      "concepts": [
+        {
+          "concept_id": "geography9.physical_features9.mountains_plains_plateaus",
+          "title": "Mountains, Plains and Plateaus",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Mountains, Plains and Plateaus — part of the chapter on Physical Features of India.",
+          "key_ideas": [
+            "Core principles of mountains, plains and plateaus",
+            "Step-by-step problem solving for mountains, plains and plateaus",
+            "Real-world applications of mountains, plains and plateaus"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Drainage",
+      "concepts": [
+        {
+          "concept_id": "geography9.drainage.river_systems",
+          "title": "Himalayan and Peninsular Rivers",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Himalayan and Peninsular Rivers — part of the chapter on Drainage.",
+          "key_ideas": [
+            "Core principles of himalayan and peninsular rivers",
+            "Step-by-step problem solving for himalayan and peninsular rivers",
+            "Real-world applications of himalayan and peninsular rivers"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Climate",
+      "concepts": [
+        {
+          "concept_id": "geography9.climate9.monsoon",
+          "title": "Monsoon and Climate Controls",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Monsoon and Climate Controls — part of the chapter on Climate.",
+          "key_ideas": [
+            "Core principles of monsoon and climate controls",
+            "Step-by-step problem solving for monsoon and climate controls",
+            "Real-world applications of monsoon and climate controls"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Natural Vegetation and Wildlife",
+      "concepts": [
+        {
+          "concept_id": "geography9.natural_vegetation9.forest_types",
+          "title": "Forest Types and Wildlife Conservation",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Forest Types and Wildlife Conservation — part of the chapter on Natural Vegetation and Wildlife.",
+          "key_ideas": [
+            "Core principles of forest types and wildlife conservation",
+            "Step-by-step problem solving for forest types and wildlife conservation",
+            "Real-world applications of forest types and wildlife conservation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Population",
+      "concepts": [
+        {
+          "concept_id": "geography9.population9.growth_distribution",
+          "title": "Population Growth and Distribution",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Population Growth and Distribution — part of the chapter on Population.",
+          "key_ideas": [
+            "Core principles of population growth and distribution",
+            "Step-by-step problem solving for population growth and distribution",
+            "Real-world applications of population growth and distribution"
+          ]
+        }
+      ]
+    }
+  ]
+}

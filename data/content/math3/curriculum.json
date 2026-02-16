@@ -1,0 +1,1091 @@
+{
+  "course_id": "math3",
+  "title": "Class 3 Mathematics",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Numbers Up to 1000",
+      "concepts": [
+        {
+          "concept_id": "math3.numbers_1000.place_value",
+          "title": "Place Value — Hundreds, Tens, Ones",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Place Value — Hundreds, Tens, Ones — part of the chapter on Numbers Up to 1000.",
+          "key_ideas": [
+            "Core principles of place value",
+            "Step-by-step problem solving for place value",
+            "Real-world applications of place value"
+          ]
+        },
+        {
+          "concept_id": "math3.numbers_1000.expanded_form",
+          "title": "Expanded Form of Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math3.numbers_1000.place_value"
+          ],
+          "description": "Expanded Form of Numbers — part of the chapter on Numbers Up to 1000.",
+          "key_ideas": [
+            "Core principles of expanded form of numbers",
+            "Step-by-step problem solving for expanded form of numbers",
+            "Real-world applications of expanded form of numbers"
+          ]
+        },
+        {
+          "concept_id": "math3.numbers_1000.comparing_ordering",
+          "title": "Comparing and Ordering 3-Digit Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math3.numbers_1000.expanded_form"
+          ],
+          "description": "Comparing and Ordering 3-Digit Numbers — part of the chapter on Numbers Up to 1000.",
+          "key_ideas": [
+            "Core principles of comparing and ordering 3-digit numbers",
+            "Step-by-step problem solving for comparing and ordering 3-digit numbers",
+            "Real-world applications of comparing and ordering 3-digit numbers"
+          ]
+        },
+        {
+          "concept_id": "math3.numbers_1000.number_names",
+          "title": "Writing Number Names",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math3.numbers_1000.place_value"
+          ],
+          "description": "Learning to read and write 3-digit numbers in words, translating numerals into their written English form.",
+          "key_ideas": [
+            "Converting numerals to words",
+            "Converting words to numerals",
+            "Reading numbers aloud correctly"
+          ]
+        },
+        {
+          "concept_id": "math3.numbers_1000.predecessor_successor",
+          "title": "Predecessor and Successor",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math3.numbers_1000.place_value"
+          ],
+          "description": "Identifying the numbers that come immediately before and immediately after a specific 3-digit number.",
+          "key_ideas": [
+            "Successor is the number plus one (just after)",
+            "Predecessor is the number minus one (just before)",
+            "Number sequences"
+          ]
+        },
+        {
+          "concept_id": "math3.numbers_1000.skip_counting",
+          "title": "Skip Counting Patterns",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math3.numbers_1000.comparing_ordering"
+          ],
+          "description": "Counting forward or backward by intervals other than one, such as 2s, 5s, 10s, 50s, and 100s, to identify patterns.",
+          "key_ideas": [
+            "Counting by 2s, 5s, and 10s",
+            "Identifying patterns in the ones and tens places",
+            "Completing number series"
+          ]
+        },
+        {
+          "concept_id": "math3.numbers_1000.odd_even",
+          "title": "Odd and Even Numbers",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.numbers_1000.place_value"
+          ],
+          "description": "Classifying 3-digit numbers as odd or even based on the digit in the ones place.",
+          "key_ideas": [
+            "Even numbers end in 0, 2, 4, 6, 8",
+            "Odd numbers end in 1, 3, 5, 7, 9",
+            "Concept of pairing objects"
+          ]
+        },
+        {
+          "concept_id": "math3.numbers_1000.forming_numbers",
+          "title": "Forming Greatest and Smallest Numbers",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math3.numbers_1000.comparing_ordering",
+            "math3.numbers_1000.place_value"
+          ],
+          "description": "Using a given set of digits to construct the largest and smallest possible 3-digit numbers.",
+          "key_ideas": [
+            "Arranging digits in descending order for greatest number",
+            "Arranging digits in ascending order for smallest number",
+            "Handling zero when forming the smallest 3-digit number"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Addition and Subtraction (3-digit)",
+      "concepts": [
+        {
+          "concept_id": "math3.addition_sub3.add_carry",
+          "title": "Addition with Carrying",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Addition with Carrying — part of the chapter on Addition and Subtraction (3-digit).",
+          "key_ideas": [
+            "Core principles of addition with carrying",
+            "Step-by-step problem solving for addition with carrying",
+            "Real-world applications of addition with carrying"
+          ]
+        },
+        {
+          "concept_id": "math3.addition_sub3.sub_borrow",
+          "title": "Subtraction with Borrowing",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Subtraction with Borrowing — part of the chapter on Addition and Subtraction (3-digit).",
+          "key_ideas": [
+            "Core principles of subtraction with borrowing",
+            "Step-by-step problem solving for subtraction with borrowing",
+            "Real-world applications of subtraction with borrowing"
+          ]
+        },
+        {
+          "concept_id": "math3.addition_sub3.word_problems3",
+          "title": "Word Problems",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math3.addition_sub3.add_carry",
+            "math3.addition_sub3.sub_borrow"
+          ],
+          "description": "Word Problems — part of the chapter on Addition and Subtraction (3-digit).",
+          "key_ideas": [
+            "Core principles of word problems",
+            "Step-by-step problem solving for word problems",
+            "Real-world applications of word problems"
+          ]
+        },
+        {
+          "concept_id": "math3.addition_sub3.estimation",
+          "title": "Estimating Sums and Differences",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Learning to estimate answers by rounding numbers to the nearest 10 or 100 before calculating the exact value.",
+          "key_ideas": [
+            "Rounding numbers to the nearest 10 and 100",
+            "Predicting if an answer will be larger or smaller",
+            "Checking if a calculated answer is reasonable"
+          ]
+        },
+        {
+          "concept_id": "math3.addition_sub3.mental_strategies",
+          "title": "Mental Addition and Subtraction",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Using decomposition strategies to add and subtract numbers mentally without writing them in columns.",
+          "key_ideas": [
+            "Breaking numbers into hundreds, tens, and ones (e.g., 345 = 300 + 40 + 5)",
+            "Adding tens to tens and hundreds to hundreds",
+            "Jumping on the number line by 10s or 100s"
+          ]
+        },
+        {
+          "concept_id": "math3.addition_sub3.add_three_nums",
+          "title": "Adding Three Numbers",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.addition_sub3.add_carry"
+          ],
+          "description": "Extending column addition to calculate the sum of three distinct 3-digit numbers.",
+          "key_ideas": [
+            "Aligning three numbers in columns",
+            "Grouping numbers that add up to 10 for easier calculation",
+            "Handling carry-overs that may exceed 1 (e.g., carrying 2)"
+          ]
+        },
+        {
+          "concept_id": "math3.addition_sub3.check_subtraction",
+          "title": "Checking Subtraction with Addition",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math3.addition_sub3.sub_borrow",
+            "math3.addition_sub3.add_carry"
+          ],
+          "description": "Understanding the inverse relationship between addition and subtraction to verify answers.",
+          "key_ideas": [
+            "If A - B = C, then C + B = A",
+            "Using addition to check if a subtraction result is correct",
+            "Understanding fact families"
+          ]
+        },
+        {
+          "concept_id": "math3.addition_sub3.missing_digits",
+          "title": "Finding Missing Digits",
+          "bloom_level": "analyze",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math3.addition_sub3.add_carry",
+            "math3.addition_sub3.sub_borrow"
+          ],
+          "description": "Solving puzzles where specific digits are missing from a completed addition or subtraction problem.",
+          "key_ideas": [
+            "Analyzing column logic to find unknown numbers",
+            "Deducing where a carry or borrow must have occurred",
+            "Working backwards from the answer"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Multiplication",
+      "concepts": [
+        {
+          "concept_id": "math3.multiplication3.tables_2_10",
+          "title": "Multiplication Tables 2 to 10",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Multiplication Tables 2 to 10 — part of the chapter on Multiplication.",
+          "key_ideas": [
+            "Core principles of multiplication tables 2 to 10",
+            "Step-by-step problem solving for multiplication tables 2 to 10",
+            "Real-world applications of multiplication tables 2 to 10"
+          ]
+        },
+        {
+          "concept_id": "math3.multiplication3.multiply_2digit",
+          "title": "Multiplying 2-Digit by 1-Digit",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math3.multiplication3.tables_2_10"
+          ],
+          "description": "Multiplying 2-Digit by 1-Digit — part of the chapter on Multiplication.",
+          "key_ideas": [
+            "Core principles of multiplying 2-digit by 1-digit",
+            "Step-by-step problem solving for multiplying 2-digit by 1-digit",
+            "Real-world applications of multiplying 2-digit by 1-digit"
+          ]
+        },
+        {
+          "concept_id": "math3.multiplication3.repeated_addition",
+          "title": "Multiplication as Repeated Addition",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding the fundamental link between adding the same number multiple times and the operation of multiplication.",
+          "key_ideas": [
+            "Multiplication is a faster way to add equal groups",
+            "Converting addition sentences to multiplication sentences (e.g., 3+3+3+3 = 4×3)",
+            "Visualizing groups of objects"
+          ]
+        },
+        {
+          "concept_id": "math3.multiplication3.properties",
+          "title": "Properties of Multiplication",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math3.multiplication3.repeated_addition",
+            "math3.multiplication3.tables_2_10"
+          ],
+          "description": "Learning the basic rules that govern multiplication, including order, identity, and zero properties.",
+          "key_ideas": [
+            "Order Property: Changing the order of numbers does not change the product (e.g., 4×5 = 5×4)",
+            "Multiplicative Identity: Any number multiplied by 1 is the number itself",
+            "Zero Property: Any number multiplied by 0 is 0"
+          ]
+        },
+        {
+          "concept_id": "math3.multiplication3.multiply_tens",
+          "title": "Multiplying by 10s and 100s",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math3.multiplication3.tables_2_10"
+          ],
+          "description": "Using patterns to quickly multiply numbers by 10, 20, 30, and 100 without standard calculation.",
+          "key_ideas": [
+            "When multiplying by 10, add one zero to the right",
+            "When multiplying by 100, add two zeros to the right",
+            "Multiplying by multiples of 10 (e.g., 3 x 20 is 3 x 2 with a zero)"
+          ]
+        },
+        {
+          "concept_id": "math3.multiplication3.split_method",
+          "title": "Multiplication using Split Method",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.multiplication3.multiply_tens",
+            "math3.multiplication3.tables_2_10"
+          ],
+          "description": "Breaking down larger numbers into tens and ones to multiply easier parts separately (Box Method/Distributive Property approach).",
+          "key_ideas": [
+            "Decomposing a 2-digit number (e.g., 23 becomes 20 + 3)",
+            "Multiplying the tens and ones separately",
+            "Adding the partial products to get the final answer"
+          ]
+        },
+        {
+          "concept_id": "math3.multiplication3.word_problems",
+          "title": "Multiplication Word Problems",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math3.multiplication3.multiply_2digit",
+            "math3.multiplication3.split_method"
+          ],
+          "description": "Applying multiplication skills to solve real-world scenarios and storytelling problems.",
+          "key_ideas": [
+            "Identifying keywords (e.g., 'times', 'each', 'total', 'groups of')",
+            "Extracting numerical data from text",
+            "Determining when to use multiplication versus addition"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Division",
+      "concepts": [
+        {
+          "concept_id": "math3.division3.sharing_equally",
+          "title": "Equal Sharing — Division Concept",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Equal Sharing — Division Concept — part of the chapter on Division.",
+          "key_ideas": [
+            "Core principles of equal sharing",
+            "Step-by-step problem solving for equal sharing",
+            "Real-world applications of equal sharing"
+          ]
+        },
+        {
+          "concept_id": "math3.division3.division_facts",
+          "title": "Division Facts from Multiplication",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math3.division3.sharing_equally"
+          ],
+          "description": "Division Facts from Multiplication — part of the chapter on Division.",
+          "key_ideas": [
+            "Core principles of division facts from multiplication",
+            "Step-by-step problem solving for division facts from multiplication",
+            "Real-world applications of division facts from multiplication"
+          ]
+        },
+        {
+          "concept_id": "math3.division3.repeated_subtraction",
+          "title": "Division as Repeated Subtraction",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math3.division3.sharing_equally"
+          ],
+          "description": "Understanding division by repeatedly subtracting the same number from a total until reaching zero.",
+          "key_ideas": [
+            "Division is a shorter way to do repeated subtraction",
+            "Counting how many times a number can be subtracted",
+            "Relating subtraction steps to the quotient"
+          ]
+        },
+        {
+          "concept_id": "math3.division3.division_terms",
+          "title": "Parts of Division: Dividend, Divisor, Quotient",
+          "bloom_level": "remember",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math3.division3.division_facts"
+          ],
+          "description": "Identifying and naming the specific parts of a division equation.",
+          "key_ideas": [
+            "Dividend is the number being divided",
+            "Divisor is the number we divide by",
+            "Quotient is the answer or result"
+          ]
+        },
+        {
+          "concept_id": "math3.division3.division_properties",
+          "title": "Properties of Division",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math3.division3.sharing_equally"
+          ],
+          "description": "Learning the rules for dividing by 1, dividing a number by itself, and dividing zero.",
+          "key_ideas": [
+            "Any number divided by 1 is the number itself",
+            "Any number divided by itself is 1",
+            "Zero divided by any number is 0"
+          ]
+        },
+        {
+          "concept_id": "math3.division3.long_division_intro",
+          "title": "Introduction to Long Division",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.division3.division_facts",
+            "math3.division3.division_terms"
+          ],
+          "description": "Using the long division bracket symbol and method to solve 2-digit by 1-digit problems without remainders.",
+          "key_ideas": [
+            "Setting up the division bracket",
+            "Step-by-step process: Divide, Multiply, Subtract",
+            "Bringing down the next digit"
+          ]
+        },
+        {
+          "concept_id": "math3.division3.understanding_remainders",
+          "title": "Division with Remainders",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math3.division3.long_division_intro"
+          ],
+          "description": "Handling situations where numbers cannot be shared equally, resulting in a leftover amount.",
+          "key_ideas": [
+            "Identifying the leftover amount as the remainder",
+            "The remainder must always be smaller than the divisor",
+            "Notating the answer with 'Q' and 'R'"
+          ]
+        },
+        {
+          "concept_id": "math3.division3.word_problems",
+          "title": "Division Word Problems",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math3.division3.understanding_remainders"
+          ],
+          "description": "Applying division concepts to solve real-life scenarios involving grouping and sharing.",
+          "key_ideas": [
+            "Identifying keywords like 'share', 'each', and 'group'",
+            "Deciding when to use division versus multiplication",
+            "Interpreting the remainder in the context of a story"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Fractions (Introduction)",
+      "concepts": [
+        {
+          "concept_id": "math3.fractions_intro.half_quarter",
+          "title": "Half, Quarter, Three-Quarters",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Half, Quarter, Three-Quarters — part of the chapter on Fractions (Introduction).",
+          "key_ideas": [
+            "Core principles of half, quarter, three-quarters",
+            "Step-by-step problem solving for half, quarter, three-quarters",
+            "Real-world applications of half, quarter, three-quarters"
+          ]
+        },
+        {
+          "concept_id": "math3.fractions_intro.fraction_picture",
+          "title": "Fractions from Pictures",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math3.fractions_intro.half_quarter"
+          ],
+          "description": "Fractions from Pictures — part of the chapter on Fractions (Introduction).",
+          "key_ideas": [
+            "Core principles of fractions from pictures",
+            "Step-by-step problem solving for fractions from pictures",
+            "Real-world applications of fractions from pictures"
+          ]
+        },
+        {
+          "concept_id": "math3.fractions_intro.equal_parts",
+          "title": "Identifying Equal Parts",
+          "bloom_level": "analyze",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding that fractions represent equal shares of a whole and distinguishing between shapes divided equally versus unequally.",
+          "key_ideas": [
+            "A whole must be divided into equal sizes to be a fraction",
+            "Distinguishing equal parts from unequal parts",
+            "Fair sharing requires equal division"
+          ]
+        },
+        {
+          "concept_id": "math3.fractions_intro.writing_fractions",
+          "title": "Writing Fraction Notation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math3.fractions_intro.fraction_picture",
+            "math3.fractions_intro.equal_parts"
+          ],
+          "description": "Learning to write fractions using numbers and a horizontal bar, placing the total number of parts at the bottom and the chosen parts at the top.",
+          "key_ideas": [
+            "Total number of parts goes below the line",
+            "Number of shaded or taken parts goes above the line",
+            "Connecting the written symbol (e.g., 1/2) to the spoken word"
+          ]
+        },
+        {
+          "concept_id": "math3.fractions_intro.numerator_denominator",
+          "title": "Numerator and Denominator",
+          "bloom_level": "remember",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math3.fractions_intro.writing_fractions"
+          ],
+          "description": "Introduction to the specific vocabulary used to describe the top and bottom numbers of a fraction.",
+          "key_ideas": [
+            "The Numerator is the top number (parts taken)",
+            "The Denominator is the bottom number (total parts)",
+            "Using correct terminology to identify fraction components"
+          ]
+        },
+        {
+          "concept_id": "math3.fractions_intro.collection_fractions",
+          "title": "Fractions of a Collection",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math3.fractions_intro.half_quarter"
+          ],
+          "description": "Applying the concept of fractions to a group of objects (discrete sets) rather than a single continuous shape.",
+          "key_ideas": [
+            "Finding half or a quarter of a group of items (e.g., marbles)",
+            "Dividing a collection into equal groups",
+            "Relating division to fractions"
+          ]
+        },
+        {
+          "concept_id": "math3.fractions_intro.comparing_like_fractions",
+          "title": "Comparing Like Fractions",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math3.fractions_intro.writing_fractions"
+          ],
+          "description": "Comparing two fractions that have the same denominator to determine which represents a larger portion.",
+          "key_ideas": [
+            "Identifying fractions with the same bottom number",
+            "Comparing the top numbers (numerators)",
+            "Understanding that more shaded parts mean a larger fraction"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Geometry",
+      "concepts": [
+        {
+          "concept_id": "math3.geometry3.lines_curves",
+          "title": "Straight Lines, Curved Lines",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Straight Lines, Curved Lines — part of the chapter on Geometry.",
+          "key_ideas": [
+            "Core principles of straight lines, curved lines",
+            "Step-by-step problem solving for straight lines, curved lines",
+            "Real-world applications of straight lines, curved lines"
+          ]
+        },
+        {
+          "concept_id": "math3.geometry3.shapes_properties",
+          "title": "Properties of Basic Shapes",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math3.geometry3.lines_curves"
+          ],
+          "description": "Properties of Basic Shapes — part of the chapter on Geometry.",
+          "key_ideas": [
+            "Core principles of properties of basic shapes",
+            "Step-by-step problem solving for properties of basic shapes",
+            "Real-world applications of properties of basic shapes"
+          ]
+        },
+        {
+          "concept_id": "math3.geometry3.object_views",
+          "title": "Views of Objects",
+          "bloom_level": "analyze",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding how the appearance of an object changes when viewed from different positions, such as the top, side, or front.",
+          "key_ideas": [
+            "Objects look different from different angles",
+            "Identifying top view, side view, and front view",
+            "Visualizing 3D objects from 2D drawings"
+          ]
+        },
+        {
+          "concept_id": "math3.geometry3.dot_grid_drawing",
+          "title": "Drawing on Dot Grids",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math3.geometry3.lines_curves"
+          ],
+          "description": "Using dot grids to draw straight lines, curved lines, and basic shapes to create patterns and designs.",
+          "key_ideas": [
+            "Connecting dots to make straight or curved lines",
+            "Drawing squares, rectangles, and triangles on a grid",
+            "Creating simple geometric patterns"
+          ]
+        },
+        {
+          "concept_id": "math3.geometry3.mirror_halves",
+          "title": "Mirror Halves and Symmetry",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math3.geometry3.lines_curves"
+          ],
+          "description": "Identifying lines of symmetry that divide a shape or picture into two identical halves that mirror each other.",
+          "key_ideas": [
+            "Concept of mirror halves",
+            "Drawing lines of symmetry",
+            "Completing a picture given one half"
+          ]
+        },
+        {
+          "concept_id": "math3.geometry3.solid_shapes",
+          "title": "Introduction to 3D Shapes",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.geometry3.shapes_properties"
+          ],
+          "description": "Recognizing common solid shapes like cubes, cuboids, spheres, cones, and cylinders, and identifying their basic features.",
+          "key_ideas": [
+            "Difference between flat shapes and solid shapes",
+            "Identifying faces, edges, and corners in solids",
+            "Real-world examples of 3D shapes (e.g., ball, box, cap)"
+          ]
+        },
+        {
+          "concept_id": "math3.geometry3.tangrams_patterns",
+          "title": "Tangrams and Tiling Patterns",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math3.geometry3.shapes_properties"
+          ],
+          "description": "Using geometric puzzle pieces (tangrams) to create specific figures and arranging shapes to form tiling patterns without gaps.",
+          "key_ideas": [
+            "Solving puzzles with 5-piece or 7-piece tangrams",
+            "Creating figures (animals, people) using geometric shapes",
+            "Tiling floors with shapes that fit together (tessellation)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Measurement",
+      "concepts": [
+        {
+          "concept_id": "math3.measurement3.length_cm_m",
+          "title": "Length in Centimetres and Metres",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Length in Centimetres and Metres — part of the chapter on Measurement.",
+          "key_ideas": [
+            "Core principles of length in centimetres and metres",
+            "Step-by-step problem solving for length in centimetres and metres",
+            "Real-world applications of length in centimetres and metres"
+          ]
+        },
+        {
+          "concept_id": "math3.measurement3.weight_kg",
+          "title": "Weight in Kilograms and Grams",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Weight in Kilograms and Grams — part of the chapter on Measurement.",
+          "key_ideas": [
+            "Core principles of weight in kilograms and grams",
+            "Step-by-step problem solving for weight in kilograms and grams",
+            "Real-world applications of weight in kilograms and grams"
+          ]
+        },
+        {
+          "concept_id": "math3.measurement3.capacity_l_ml",
+          "title": "Capacity in Litres and Millilitres",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Introduction to measuring the volume of liquids using standard units like litres and millilitres.",
+          "key_ideas": [
+            "Litres (l) for large amounts of liquid",
+            "Millilitres (ml) for small amounts of liquid",
+            "Relationship: 1 Litre = 1000 Millilitres",
+            "Identifying containers holding 1 litre"
+          ]
+        },
+        {
+          "concept_id": "math3.measurement3.using_measuring_tools",
+          "title": "Using Measuring Tools Correctly",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.measurement3.length_cm_m"
+          ],
+          "description": "Learning the correct techniques to use rulers, measuring tapes, and weighing scales to get accurate results.",
+          "key_ideas": [
+            "Aligning the object with the zero mark on a ruler",
+            "Reading the scale accurately without parallax error",
+            "Using a balance scale to compare weights"
+          ]
+        },
+        {
+          "concept_id": "math3.measurement3.choosing_appropriate_units",
+          "title": "Choosing Appropriate Units",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math3.measurement3.length_cm_m",
+            "math3.measurement3.weight_kg",
+            "math3.measurement3.capacity_l_ml"
+          ],
+          "description": "Developing the judgment to select the most suitable standard unit for measuring specific objects, distances, or quantities.",
+          "key_ideas": [
+            "Using cm for small objects (pencil) vs m for distances (room)",
+            "Using g for light items (apple) vs kg for heavy items (sack of rice)",
+            "Using ml for medicine vs l for water tanks"
+          ]
+        },
+        {
+          "concept_id": "math3.measurement3.operations_measurement",
+          "title": "Simple Operations with Measurements",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math3.measurement3.length_cm_m",
+            "math3.measurement3.weight_kg"
+          ],
+          "description": "Solving simple real-life problems involving the addition and subtraction of length, weight, and capacity.",
+          "key_ideas": [
+            "Adding two lengths or weights together",
+            "Finding the difference between two measurements",
+            "Solving word problems related to measurement"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Money",
+      "concepts": [
+        {
+          "concept_id": "math3.money3.bills",
+          "title": "Making Bills and Calculating Change",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Making Bills and Calculating Change — part of the chapter on Money.",
+          "key_ideas": [
+            "Core principles of making bills and calculating change",
+            "Step-by-step problem solving for making bills and calculating change",
+            "Real-world applications of making bills and calculating change"
+          ]
+        },
+        {
+          "concept_id": "math3.money3.money_word_problems",
+          "title": "Word Problems on Money",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math3.money3.bills"
+          ],
+          "description": "Word Problems on Money — part of the chapter on Money.",
+          "key_ideas": [
+            "Core principles of word problems on money",
+            "Step-by-step problem solving for word problems on money",
+            "Real-world applications of word problems on money"
+          ]
+        },
+        {
+          "concept_id": "math3.money3.currency_notation",
+          "title": "Identifying and Writing Money",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to Indian currency notes and coins, and learning the standard notation for writing amounts using symbols and dots.",
+          "key_ideas": [
+            "Recognizing current coins and notes",
+            "Using the Rupee symbol (₹)",
+            "Using a dot to separate Rupees and Paise",
+            "Reading amounts expressed in figures and words"
+          ]
+        },
+        {
+          "concept_id": "math3.money3.conversion",
+          "title": "Converting Rupees and Paise",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math3.money3.currency_notation"
+          ],
+          "description": "Understanding the relationship between Rupees and Paise and learning to convert values from one unit to the other.",
+          "key_ideas": [
+            "1 Rupee equals 100 Paise",
+            "Multiplying by 100 to convert Rupees to Paise",
+            "Converting Paise to Rupees by placing a dot before the last two digits"
+          ]
+        },
+        {
+          "concept_id": "math3.money3.addition",
+          "title": "Adding Money Amounts",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math3.money3.currency_notation"
+          ],
+          "description": "Learning how to add different amounts of money by arranging them in columns, focusing on proper alignment of Rupees and Paise.",
+          "key_ideas": [
+            "Arranging amounts in columns",
+            "Aligning the dot vertically",
+            "Adding Paise first, then Rupees",
+            "Carrying over from the Paise column to the Rupee column"
+          ]
+        },
+        {
+          "concept_id": "math3.money3.subtraction",
+          "title": "Subtracting Money Amounts",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.money3.currency_notation",
+            "math3.money3.conversion"
+          ],
+          "description": "Learning how to subtract amounts of money to find differences, essential for calculating change.",
+          "key_ideas": [
+            "Aligning columns for subtraction",
+            "Subtracting smaller amounts from larger amounts",
+            "Borrowing from Rupees to Paise when necessary (1 Re = 100 p)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch09",
+      "title": "Time",
+      "concepts": [
+        {
+          "concept_id": "math3.time3.minutes",
+          "title": "Reading Clock — Hours and Minutes",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Reading Clock — Hours and Minutes — part of the chapter on Time.",
+          "key_ideas": [
+            "Core principles of reading clock",
+            "Step-by-step problem solving for reading clock",
+            "Real-world applications of reading clock"
+          ]
+        },
+        {
+          "concept_id": "math3.time3.duration",
+          "title": "Duration of Events",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "math3.time3.minutes"
+          ],
+          "description": "Duration of Events — part of the chapter on Time.",
+          "key_ideas": [
+            "Core principles of duration of events",
+            "Step-by-step problem solving for duration of events",
+            "Real-world applications of duration of events"
+          ]
+        },
+        {
+          "concept_id": "math3.time3.quarter_half",
+          "title": "Time Vocabulary: Quarter and Half Past",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math3.time3.minutes"
+          ],
+          "description": "Learning specific vocabulary to express time when the minute hand is at 3 (quarter past) or 6 (half past).",
+          "key_ideas": [
+            "15 minutes is called 'quarter past'",
+            "30 minutes is called 'half past'",
+            "Relating fractions of a circle to the clock face"
+          ]
+        },
+        {
+          "concept_id": "math3.time3.calendar_reading",
+          "title": "Understanding the Calendar",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to the structure of a calendar, including identifying the current day, week, and month.",
+          "key_ideas": [
+            "There are 7 days in a week and 12 months in a year",
+            "Locating specific dates on a calendar grid",
+            "Identifying the day of the week for a given date"
+          ]
+        },
+        {
+          "concept_id": "math3.time3.month_days",
+          "title": "Days in Months and Years",
+          "bloom_level": "remember",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math3.time3.calendar_reading"
+          ],
+          "description": "Memorizing and identifying how many days are in each specific month, including the concept of a leap year.",
+          "key_ideas": [
+            "Months have 30 or 31 days (except February)",
+            "February has 28 days, or 29 in a leap year",
+            "Using the knuckle trick to remember days in months"
+          ]
+        },
+        {
+          "concept_id": "math3.time3.date_formats",
+          "title": "Writing and Interpreting Dates",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.time3.month_days"
+          ],
+          "description": "Learning how to write dates in numeric formats (DD/MM/YYYY) and calculating simple timelines like birthdays.",
+          "key_ideas": [
+            "Representing months as numbers (1-12)",
+            "Writing the date in Day-Month-Year format",
+            "Identifying manufacture and expiry dates on products"
+          ]
+        },
+        {
+          "concept_id": "math3.time3.estimating_time",
+          "title": "Estimating Time Spans",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math3.time3.duration"
+          ],
+          "description": "Developing a sense of how long activities take by categorizing them into seconds, minutes, hours, days, or months.",
+          "key_ideas": [
+            "Differentiating between fast actions (seconds) and long activities (hours)",
+            "Estimating how long daily routines take",
+            "Choosing the correct unit of time for different events"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch10",
+      "title": "Data Handling",
+      "concepts": [
+        {
+          "concept_id": "math3.data_handling3.tally_marks",
+          "title": "Recording Data with Tally Marks",
+          "bloom_level": "apply",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Recording Data with Tally Marks — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of recording data with tally marks",
+            "Step-by-step problem solving for recording data with tally marks",
+            "Real-world applications of recording data with tally marks"
+          ]
+        },
+        {
+          "concept_id": "math3.data_handling3.pictograph",
+          "title": "Reading and Making Pictographs",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "math3.data_handling3.tally_marks"
+          ],
+          "description": "Reading and Making Pictographs — part of the chapter on Data Handling.",
+          "key_ideas": [
+            "Core principles of reading and making pictographs",
+            "Step-by-step problem solving for reading and making pictographs",
+            "Real-world applications of reading and making pictographs"
+          ]
+        },
+        {
+          "concept_id": "math3.data_handling3.collecting_data",
+          "title": "Collecting and Listing Data",
+          "bloom_level": "understand",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Introduction to the process of gathering information through observation and creating simple lists to organize items.",
+          "key_ideas": [
+            "Data is a collection of facts or numbers",
+            "Observing surroundings to gather information",
+            "Making lists to record observations"
+          ]
+        },
+        {
+          "concept_id": "math3.data_handling3.reading_tables",
+          "title": "Reading Frequency Tables",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math3.data_handling3.tally_marks"
+          ],
+          "description": "Understanding how to convert tally marks into numerical counts and arranging them in a table format for easy reading.",
+          "key_ideas": [
+            "Counting tally marks to find the total",
+            "Writing numbers in a column next to categories",
+            "Understanding the structure of a table (rows and columns)"
+          ]
+        },
+        {
+          "concept_id": "math3.data_handling3.finding_extremes",
+          "title": "Finding Most and Least",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math3.data_handling3.reading_tables",
+            "math3.data_handling3.pictograph"
+          ],
+          "description": "Analyzing tables or pictographs to identify which category has the maximum (most) and minimum (least) quantity.",
+          "key_ideas": [
+            "Identifying the largest number in a data set",
+            "Identifying the smallest number in a data set",
+            "Visualizing length or height in charts to find extremes"
+          ]
+        },
+        {
+          "concept_id": "math3.data_handling3.comparing_quantities",
+          "title": "Comparing Quantities in Data",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math3.data_handling3.finding_extremes"
+          ],
+          "description": "Using simple subtraction to find the difference between two categories in a chart or table to answer 'how many more' or 'how many less'.",
+          "key_ideas": [
+            "Comparing two specific categories",
+            "Calculating the difference between values",
+            "Answering 'how many more' and 'how many less' questions"
+          ]
+        }
+      ]
+    }
+  ]
+}

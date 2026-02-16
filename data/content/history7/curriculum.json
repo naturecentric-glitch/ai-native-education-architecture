@@ -1,0 +1,706 @@
+{
+  "course_id": "history7",
+  "title": "Class 7 History",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Tracing Changes Through a Thousand Years",
+      "concepts": [
+        {
+          "concept_id": "history7.tracing_changes.medieval_sources",
+          "title": "Sources and Periodisation",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Sources and Periodisation — part of the chapter on Tracing Changes Through a Thousand Years.",
+          "key_ideas": [
+            "Core principles of sources and periodisation",
+            "Step-by-step problem solving for sources and periodisation",
+            "Real-world applications of sources and periodisation"
+          ]
+        },
+        {
+          "concept_id": "history7.tracing_changes.changing_terminology",
+          "title": "Evolution of Historical Terms",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Exploration of how the meanings of specific terms and vocabulary have shifted significantly over centuries, requiring historians to interpret words within their specific historical context.",
+          "key_ideas": [
+            "The changing definition of 'Hindustan' from the 13th to the 16th century",
+            "The shift in the meaning of the word 'foreigner' (pardesi) from a stranger to a non-Indian",
+            "The importance of context when interpreting medieval texts"
+          ]
+        },
+        {
+          "concept_id": "history7.tracing_changes.social_technological_changes",
+          "title": "New Social Groups and Technologies",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history7.tracing_changes.medieval_sources"
+          ],
+          "description": "An overview of the significant economic and social movements between 700 and 1750, driven by new technologies and the emergence of influential communities.",
+          "key_ideas": [
+            "Introduction of technologies like the Persian wheel, spinning wheel, and firearms",
+            "Arrival of new foods and beverages like potatoes, corn, chillies, tea, and coffee",
+            "Emergence of the Rajputs and the formation of Jatis (sub-castes) based on occupation"
+          ]
+        },
+        {
+          "concept_id": "history7.tracing_changes.region_and_empire",
+          "title": "Regions and Pan-Regional Empires",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history7.tracing_changes.social_technological_changes"
+          ],
+          "description": "Study of how large dynasties expanded across diverse geographical areas and the cultural integration that occurred as a result of these pan-regional empires.",
+          "key_ideas": [
+            "Rise of major dynasties like the Cholas, Tughluqs, and Mughals",
+            "The concept of a 'pan-regional' empire spanning diverse cultures",
+            "The legacy of imperial rule on regional governance and culture after the decline of the Mughals"
+          ]
+        },
+        {
+          "concept_id": "history7.tracing_changes.religious_transformations",
+          "title": "Old and New Religions",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history7.tracing_changes.medieval_sources"
+          ],
+          "description": "Examination of major religious developments during the medieval period, including changes within Hinduism and the introduction of new faiths to the subcontinent.",
+          "key_ideas": [
+            "The growing importance of Brahmanas and temples in Hinduism",
+            "The emergence of the idea of Bhakti (personal devotion)",
+            "The arrival of merchants and migrants bringing the teachings of the Quran and Islam"
+          ]
+        },
+        {
+          "concept_id": "history7.tracing_changes.scribes_and_archives",
+          "title": "Scribes and the Tradition of Copying",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history7.tracing_changes.medieval_sources"
+          ],
+          "description": "A critical look at how manuscripts were replicated before print, the role of scribes, and how copying errors altered historical records over time.",
+          "key_ideas": [
+            "The reliance on handwritten manuscripts and the absence of printing presses",
+            "How small changes introduced by scribes grew over generations of copying",
+            "The difficulty historians face in reconstructing original texts from differing versions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "New Kings and Kingdoms",
+      "concepts": [
+        {
+          "concept_id": "history7.new_kings.rajput_dynasties",
+          "title": "Rajput and Other Dynasties",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Rajput and Other Dynasties — part of the chapter on New Kings and Kingdoms.",
+          "key_ideas": [
+            "Core principles of rajput and other dynasties",
+            "Step-by-step problem solving for rajput and other dynasties",
+            "Real-world applications of rajput and other dynasties"
+          ]
+        },
+        {
+          "concept_id": "history7.new_kings.administration_and_revenue",
+          "title": "Administration and Revenue Collection",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history7.new_kings.rajput_dynasties"
+          ],
+          "description": "Explores how new kings administered their territories, the role of Samantas, and methods of resource collection from producers like peasants and artisans.",
+          "key_ideas": [
+            "Role of Samantas and Maha-samantas",
+            "Collection of rent and taxes (e.g., Vetti and Kadamai)",
+            "Resource usage for fortifications and temples"
+          ]
+        },
+        {
+          "concept_id": "history7.new_kings.prashastis_and_land_grants",
+          "title": "Prashastis and Land Grants",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history7.new_kings.administration_and_revenue"
+          ],
+          "description": "Examines the purpose of Prashastis composed by learned Brahmanas to praise rulers, and the system of rewarding Brahmanas with land grants recorded on copper plates.",
+          "key_ideas": [
+            "Prashastis as glowing praises of rulers",
+            "Copper plates as records of land grants",
+            "Kalhana's Rajatarangini as a critical historical text"
+          ]
+        },
+        {
+          "concept_id": "history7.new_kings.tripartite_struggle",
+          "title": "Warfare for Wealth: The Tripartite Struggle",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history7.new_kings.rajput_dynasties"
+          ],
+          "description": "Details the long-drawn conflict for control over Kanauj and the trends of targeting wealthy temples during warfare.",
+          "key_ideas": [
+            "The struggle between Gurjara-Pratihara, Rashtrakuta, and Pala dynasties",
+            "Strategic importance of the Ganga valley and Kanauj",
+            "Raids by Sultan Mahmud of Ghazni and Muhammad Ghori"
+          ]
+        },
+        {
+          "concept_id": "history7.new_kings.chola_rise_and_temples",
+          "title": "The Cholas: Rise and Temple Architecture",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history7.new_kings.rajput_dynasties"
+          ],
+          "description": "Focuses on the rise of the Chola dynasty under Rajaraja I and Rajendra I, and the significance of temples as hubs of economic and social life.",
+          "key_ideas": [
+            "Expansion under Rajaraja I and Rajendra I",
+            "Temples of Thanjavur and Gangaikondacholapuram",
+            "Bronze sculpture and the 'lost wax' technique",
+            "Temples as centers of craft and commerce"
+          ]
+        },
+        {
+          "concept_id": "history7.new_kings.chola_agriculture_and_admin",
+          "title": "Chola Agriculture and Local Administration",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history7.new_kings.chola_rise_and_temples"
+          ],
+          "description": "Investigates the agricultural developments in the Kaveri delta and the unique system of local self-government in Chola villages.",
+          "key_ideas": [
+            "Large-scale irrigation and embankment projects",
+            "Village assemblies: Ur, Nadu, and Sabha",
+            "Election of committee members via the Kudavolai system (lottery)",
+            "Uttaramerur inscription details"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "The Delhi Sultans",
+      "concepts": [
+        {
+          "concept_id": "history7.delhi_sultans.sultanate",
+          "title": "Delhi Sultanate — Rulers and Administration",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Delhi Sultanate — Rulers and Administration — part of the chapter on The Delhi Sultans.",
+          "key_ideas": [
+            "Core principles of delhi sultanate",
+            "Step-by-step problem solving for delhi sultanate",
+            "Real-world applications of delhi sultanate"
+          ]
+        },
+        {
+          "concept_id": "history7.delhi_sultans.sources_tawarikh",
+          "title": "Sources of History: Tarikh and Tawarikh",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Explores how history was recorded during the Delhi Sultanate, focusing on Persian chronicles and the perspectives of the learned men who wrote them.",
+          "key_ideas": [
+            "Persian as the language of administration",
+            "Authors of Tawarikh (secretaries, administrators, poets)",
+            "The 'Circle of Justice' connecting the king, soldiers, and peasantry",
+            "limitations of these sources (bias towards rulers)"
+          ]
+        },
+        {
+          "concept_id": "history7.delhi_sultans.garrison_hinterland",
+          "title": "Expansion: From Garrison Towns to Hinterlands",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history7.delhi_sultans.sultanate"
+          ],
+          "description": "Analyzes the strategic expansion of the Sultanate, distinguishing between fortified settlements and the lands supplying them, and the internal vs. external frontiers.",
+          "key_ideas": [
+            "Definition of Garrison Towns and Hinterland",
+            "Internal Frontier: Clearing forests in the Ganga-Yamuna doab",
+            "External Frontier: Military expeditions into Southern India",
+            "Control of trade routes and regional commerce"
+          ]
+        },
+        {
+          "concept_id": "history7.delhi_sultans.iqta_system",
+          "title": "The Iqta System and Revenue Collection",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history7.delhi_sultans.sultanate"
+          ],
+          "description": "Details the specific administrative practice of assigning land revenue rights to military commanders and the duties of the Muqtis.",
+          "key_ideas": [
+            "Iqta (territory) and Iqtadar/Muqti (holder)",
+            "Collection of taxes as salary for maintaining soldiers",
+            "The shift from hereditary chieftains to appointed officials",
+            "Types of taxes: Kharaj (cultivation), cattle, and houses"
+          ]
+        },
+        {
+          "concept_id": "history7.delhi_sultans.architecture_mosques",
+          "title": "Architecture: Mosques and Legitimacy",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "history7.delhi_sultans.sultanate"
+          ],
+          "description": "Examines the construction of mosques (masjids) by Sultans to demonstrate their role as protectors of Islam and to create a sense of community among believers.",
+          "key_ideas": [
+            "Key terms: Qibla, Imam, Khutba",
+            "The social and political function of congregational mosques",
+            "Fusion of architectural styles (e.g., Quwwat-al-Islam mosque)",
+            "Creating a shared identity among Muslims from different backgrounds"
+          ]
+        },
+        {
+          "concept_id": "history7.delhi_sultans.khalji_tughlaq_comparison",
+          "title": "Comparative Case Study: Alauddin Khalji vs. Muhammad Tughlaq",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history7.delhi_sultans.sultanate",
+            "history7.delhi_sultans.iqta_system"
+          ],
+          "description": "Compares the administrative and military strategies of two major Sultans in response to Mongol attacks, evaluating the success of their respective policies.",
+          "key_ideas": [
+            "Defensive measures (Khalji) vs. Offensive plans (Tughlaq)",
+            "Price control in Delhi vs. Token currency experiments",
+            "Construction of Siri vs. Transfer of capital to Daulatabad",
+            "Impact of policies on the stability of the Sultanate"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "The Mughal Empire",
+      "concepts": [
+        {
+          "concept_id": "history7.mughal_empire.mughal_rulers",
+          "title": "Mughal Rulers and Administration",
+          "bloom_level": "understand",
+          "difficulty": 0.35,
+          "prerequisites": [],
+          "description": "Mughal Rulers and Administration — part of the chapter on The Mughal Empire.",
+          "key_ideas": [
+            "Core principles of mughal rulers and administration",
+            "Step-by-step problem solving for mughal rulers and administration",
+            "Real-world applications of mughal rulers and administration"
+          ]
+        },
+        {
+          "concept_id": "history7.mughal_empire.origins_and_succession",
+          "title": "Mughal Origins and Traditions of Succession",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Explores the dual lineage of the Mughals through Genghis Khan and Timur, and explains their specific traditions regarding inheritance of power.",
+          "key_ideas": [
+            "Lineage from Genghis Khan (maternal) and Timur (paternal)",
+            "Rejection of Primogeniture (eldest son inherits all)",
+            "Adoption of Coparcenary inheritance (division of empire among sons)"
+          ]
+        },
+        {
+          "concept_id": "history7.mughal_empire.relations_with_other_rulers",
+          "title": "Mughal Relations with Other Rulers",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history7.mughal_empire.mughal_rulers"
+          ],
+          "description": "Examines how the Mughals expanded their empire through a mix of military campaigns and diplomatic alliances, specifically focusing on the Rajputs.",
+          "key_ideas": [
+            "Strategic use of matrimonial alliances with Rajputs",
+            "Treatment of defeated rulers (Watans and Jagirs)",
+            "The balance of authority and benevolence to maintain control"
+          ]
+        },
+        {
+          "concept_id": "history7.mughal_empire.zabt_and_zamindars",
+          "title": "Land Revenue System: Zabt and Zamindars",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history7.mughal_empire.mughal_rulers"
+          ],
+          "description": "Details the economic backbone of the empire, focusing on Todar Mal's revenue system and the role of intermediaries in tax collection.",
+          "key_ideas": [
+            "Role of Zamindars as intermediaries between peasants and the state",
+            "Todar Mal's system of Zabt (revenue based on crop surveys)",
+            "Categorization of land and fixed cash revenue rates"
+          ]
+        },
+        {
+          "concept_id": "history7.mughal_empire.akbar_policies_and_philosophy",
+          "title": "Akbar's Policies: Sulh-i Kul",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history7.mughal_empire.mughal_rulers"
+          ],
+          "description": "Analyzes Akbar's religious and cultural policies, his interactions with diverse religious scholars, and the formulation of universal peace.",
+          "key_ideas": [
+            "Discussions at the Ibadat Khana with various religious leaders",
+            "The concept of Sulh-i kul (Universal Peace) and tolerance",
+            "Abul Fazl's contribution to the Akbar Nama and governance ethics"
+          ]
+        },
+        {
+          "concept_id": "history7.mughal_empire.crisis_17th_century",
+          "title": "The Mughal Empire in the 17th Century",
+          "bloom_level": "analyze",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "history7.mughal_empire.zabt_and_zamindars"
+          ],
+          "description": "Investigates the state of the empire under Shah Jahan and Aurangzeb, highlighting the contrast between immense wealth and the poverty of the peasantry.",
+          "key_ideas": [
+            "Economic disparity and the burden on the peasantry",
+            "The growing power of regional mansabdars and governors",
+            "Factors leading to the gradual fragmentation of the empire"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch05",
+      "title": "Rulers and Buildings",
+      "concepts": [
+        {
+          "concept_id": "history7.rulers_buildings.architecture",
+          "title": "Medieval Architecture — Temples, Mosques, Forts",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Medieval Architecture — Temples, Mosques, Forts — part of the chapter on Rulers and Buildings.",
+          "key_ideas": [
+            "Core principles of medieval architecture",
+            "Step-by-step problem solving for medieval architecture",
+            "Real-world applications of medieval architecture"
+          ]
+        },
+        {
+          "concept_id": "history7.rulers_buildings.construction_styles",
+          "title": "Engineering Skills: Trabeate vs. Arcuate",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "history7.rulers_buildings.architecture"
+          ],
+          "description": "Explores the evolution of construction techniques between the 7th and 12th centuries, focusing on the shift from placing beams across columns to using arches and domes.",
+          "key_ideas": [
+            "Trabeate (Corbelled) style uses beams across two vertical columns",
+            "Arcuate style uses arches where the keystone transfers weight",
+            "Introduction of limestone cement for faster large-scale construction"
+          ]
+        },
+        {
+          "concept_id": "history7.rulers_buildings.temples_legitimacy",
+          "title": "Building Temples to Claim Power",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history7.rulers_buildings.architecture"
+          ],
+          "description": "Examines why kings constructed large temples to demonstrate their devotion and power, and why attacking temples was a political strategy during warfare.",
+          "key_ideas": [
+            "Kings took God-like names (e.g., Rajarajadeva) to claim divine connection",
+            "Temples served as miniature models of the world ruled by the king",
+            "Invaders attacked temples to capture wealth and destroy the ruler's legitimacy"
+          ]
+        },
+        {
+          "concept_id": "history7.rulers_buildings.mughal_gardens",
+          "title": "Mughal Architecture: Gardens and Tombs",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history7.rulers_buildings.construction_styles"
+          ],
+          "description": "Focuses on the specific architectural contributions of the Mughals, particularly the layout of formal gardens and the design of monumental tombs.",
+          "key_ideas": [
+            "Chahar Bagh: Gardens divided into four quarters by artificial channels",
+            "Use of the central dome and tall gateways (pishtaq)",
+            "Evolution from Humayun's tomb to the river-front gardens of the Taj Mahal"
+          ]
+        },
+        {
+          "concept_id": "history7.rulers_buildings.pietra_dura",
+          "title": "Shah Jahan's Patronage and Pietra Dura",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history7.rulers_buildings.mughal_gardens"
+          ],
+          "description": "Details the architectural peak under Shah Jahan, focusing on the connection between royal justice and the imperial court through specific decorative arts.",
+          "key_ideas": [
+            "Pietra Dura: Coloured, hard stones placed in depressions carved into marble",
+            "The connection between the Emperor's throne and the direction of prayer (qibla)",
+            "The Red Fort as a symbol of the King as a representative of God on earth"
+          ]
+        },
+        {
+          "concept_id": "history7.rulers_buildings.regional_synthesis",
+          "title": "Region and Empire: Architectural Exchange",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history7.rulers_buildings.mughal_gardens",
+            "history7.rulers_buildings.temples_legitimacy"
+          ],
+          "description": "Investigates how different regions influenced one another, leading to a fusion of styles where imperial Mughal architecture adopted local traditions.",
+          "key_ideas": [
+            "Cross-fertilization of artistic forms between regions and the empire",
+            "Adoption of the 'Bangla dome' (thatched hut style) by Mughals",
+            "Influence of Mughal architectural elements in Rajput capitals like Jaipur"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch06",
+      "title": "Devotional Paths to the Divine",
+      "concepts": [
+        {
+          "concept_id": "history7.devotional_paths.bhakti_sufi",
+          "title": "Bhakti and Sufi Movements",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Bhakti and Sufi Movements — part of the chapter on Devotional Paths to the Divine.",
+          "key_ideas": [
+            "Core principles of bhakti and sufi movements",
+            "Step-by-step problem solving for bhakti and sufi movements",
+            "Real-world applications of bhakti and sufi movements"
+          ]
+        },
+        {
+          "concept_id": "history7.devotional_paths.nayanars_alvars",
+          "title": "Nayanars and Alvars of South India",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history7.devotional_paths.bhakti_sufi"
+          ],
+          "description": "Exploration of the 7th to 9th-century movements in South India led by Nayanars (devotees of Shiva) and Alvars (devotees of Vishnu) who preached love for God and challenged the caste system.",
+          "key_ideas": [
+            "Composition of poems in Tamil (Tevaram and Divya Prabandham)",
+            "Rejection of caste-based discrimination",
+            "Hagiographies (biographies of saints) as historical sources"
+          ]
+        },
+        {
+          "concept_id": "history7.devotional_paths.philosophy_bhakti",
+          "title": "Philosophy and Bhakti: Shankara and Ramanuja",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history7.devotional_paths.nayanars_alvars"
+          ],
+          "description": "An examination of the philosophical foundations of Bhakti provided by Shankara (Advaita) and Ramanuja (Vishishtadvaita) and how they influenced the understanding of the soul and God.",
+          "key_ideas": [
+            "Shankara's doctrine of Advaita (Oneness of the individual soul and Supreme God)",
+            "Ramanuja's doctrine of Vishishtadvaita (Qualified non-dualism)",
+            "The concept of Maya (illusion) and salvation through devotion"
+          ]
+        },
+        {
+          "concept_id": "history7.devotional_paths.maharashtra_saints",
+          "title": "The Saints of Maharashtra",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history7.devotional_paths.bhakti_sufi"
+          ],
+          "description": "Study of the Varkari tradition centered around the Vithala temple in Pandharpur, focusing on saints like Jnaneshwar, Namdev, Eknath, and Tukaram.",
+          "key_ideas": [
+            "Worship of Lord Vithala (a form of Vishnu)",
+            "Rejection of ritualism and social differences based on birth",
+            "Humanist approach: Serving fellow human beings is serving God"
+          ]
+        },
+        {
+          "concept_id": "history7.devotional_paths.nathpanthis_siddhas",
+          "title": "Nathpanthis, Siddhas, and Yogis",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history7.devotional_paths.bhakti_sufi"
+          ],
+          "description": "Overview of religious groups who advocated renunciation of the world and training of the mind and body through meditation and yoga to realize the Ultimate Reality.",
+          "key_ideas": [
+            "Criticism of conventional religion and social order",
+            "Practices involving Yogasana and meditation",
+            "Influence on the lower castes and common people in North India"
+          ]
+        },
+        {
+          "concept_id": "history7.devotional_paths.north_indian_saints",
+          "title": "New Religious Developments in North India",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history7.devotional_paths.bhakti_sufi"
+          ],
+          "description": "Analysis of the diverse Bhakti saints in North India, including Kabir, Tulsidas, Surdas, and Mirabai, and their impact on literature and society.",
+          "key_ideas": [
+            "Tulsidas's Ramcharitmanas and Surdas's Sursagara",
+            "Mirabai's devotion to Krishna and challenge to royal norms",
+            "Kabir's rejection of both Hindu and Muslim external rituals"
+          ]
+        },
+        {
+          "concept_id": "history7.devotional_paths.guru_nanak_teachings",
+          "title": "Baba Guru Nanak and Early Sikhism",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history7.devotional_paths.north_indian_saints"
+          ],
+          "description": "A study of the life and teachings of Baba Guru Nanak, the establishment of the Dharmsal (Gurdwara), and the evolution of the Sikh community under his successors.",
+          "key_ideas": [
+            "Worship of one God and the importance of 'Nam' (right worship)",
+            "Concepts of nam-dan-isnan (right worship, welfare, purity)",
+            "Establishment of the institution of Langar (community kitchen)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch07",
+      "title": "Towns, Traders and Craftspeople",
+      "concepts": [
+        {
+          "concept_id": "history7.towns_traders.medieval_trade",
+          "title": "Medieval Trade and Urban Centres",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Medieval Trade and Urban Centres — part of the chapter on Towns, Traders and Craftspeople.",
+          "key_ideas": [
+            "Core principles of medieval trade and urban centres",
+            "Step-by-step problem solving for medieval trade and urban centres",
+            "Real-world applications of medieval trade and urban centres"
+          ]
+        },
+        {
+          "concept_id": "history7.towns_traders.admin_temple_towns",
+          "title": "Administrative Centres and Temple Towns",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "history7.towns_traders.medieval_trade"
+          ],
+          "description": "Explores how urbanization occurred around seats of power and religious centres, using Thanjavur and the Chola dynasty as a primary case study.",
+          "key_ideas": [
+            "Distinction between administrative courts and temple towns",
+            "Thanjavur as a model of urbanization under the Cholas",
+            "The role of temples in the economy and society",
+            "Production of bronze idols and metal lamps"
+          ]
+        },
+        {
+          "concept_id": "history7.towns_traders.trader_networks",
+          "title": "Traders: Guilds and Nomads",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "history7.towns_traders.medieval_trade"
+          ],
+          "description": "Examines the organization of medieval trade, focusing on nomadic traders like the Banjaras and powerful trading guilds that operated across borders.",
+          "key_ideas": [
+            "Role of the Banjaras as nomadic trader-caravans",
+            "Function of trading guilds like Manigramam and Nanadesi",
+            "Trade routes connecting India to Southeast Asia and China",
+            "Movement of goods like horses, salt, and spices"
+          ]
+        },
+        {
+          "concept_id": "history7.towns_traders.crafts_communities",
+          "title": "Crafts and Craftspeople",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "history7.towns_traders.admin_temple_towns"
+          ],
+          "description": "Identifies the major artisan communities and their contributions to the medieval economy, focusing on textiles, architecture, and metalwork.",
+          "key_ideas": [
+            "The fame of Bidri craftwork from Bidar",
+            "Role of the Vishwakarma community (goldsmiths, masons, blacksmiths)",
+            "Prosperity of weaving communities like Saliyars and Kaikkolars",
+            "Construction of palaces, tanks, and reservoirs"
+          ]
+        },
+        {
+          "concept_id": "history7.towns_traders.hampi_case_study",
+          "title": "Hampi: Architecture and Commerce",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "history7.towns_traders.admin_temple_towns"
+          ],
+          "description": "A detailed look at the fortified city of Hampi, the capital of the Vijayanagara Empire, analyzing its unique architecture and role as a commercial hub.",
+          "key_ideas": [
+            "Interlocking construction techniques without mortar or cement",
+            "Cultural significance of the Mahanavami festival",
+            "Role of Devadasis in temple activities",
+            "Commercial trade of spices, cotton, and gems in Hampi markets"
+          ]
+        },
+        {
+          "concept_id": "history7.towns_traders.gateway_ports",
+          "title": "Gateway Ports: Surat and Masulipatnam",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "history7.towns_traders.trader_networks"
+          ],
+          "description": "Compares two major port cities, Surat and Masulipatnam, discussing their rise as global trade hubs and the factors leading to their eventual decline.",
+          "key_ideas": [
+            "Surat as the 'Gateway to the West' and pilgrim route to Mecca",
+            "Production of Zari (gold lace) textiles in Surat",
+            "Masulipatnam's strategic importance to the Dutch and English",
+            "Impact of European trading companies on local autonomy and trade"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch08",
+      "title": "Tribes, Nomads and Settled Communities",
+      "concepts": [
+        {
+          "concept_id": "history7.tribes_nomads.tribal_societies",
+          "title": "Tribal Societies in India",
+          "bloom_level": "understand",
+          "difficulty": 0.25,
+          "prerequisites": [],
+          "description": "Tribal Societies in India — part of the chapter on Tribes, Nomads and Settled Communities.",
+          "key_ideas": [
+            "Core principles of tribal societies in india",
+            "Step-by-step problem solving for tribal societies in india",
+            "Real-world applications of tribal societies in india"
+          ]
+        }
+      ]
+    }
+  ]
+}

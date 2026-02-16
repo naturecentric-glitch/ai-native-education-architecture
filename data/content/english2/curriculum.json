@@ -1,0 +1,448 @@
+{
+  "course_id": "english2",
+  "title": "Class 2 English",
+  "chapters": [
+    {
+      "chapter_id": "ch01",
+      "title": "Reading Skills",
+      "concepts": [
+        {
+          "concept_id": "english2.reading.short_passages",
+          "title": "Reading Short Passages",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Reading Short Passages — part of the chapter on Reading Skills.",
+          "key_ideas": [
+            "Core principles of reading short passages",
+            "Step-by-step problem solving for reading short passages",
+            "Real-world applications of reading short passages"
+          ]
+        },
+        {
+          "concept_id": "english2.reading.comprehension",
+          "title": "Answering Questions from Passage",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "english2.reading.short_passages"
+          ],
+          "description": "Answering Questions from Passage — part of the chapter on Reading Skills.",
+          "key_ideas": [
+            "Core principles of answering questions from passage",
+            "Step-by-step problem solving for answering questions from passage",
+            "Real-world applications of answering questions from passage"
+          ]
+        },
+        {
+          "concept_id": "english2.reading.picture_reading",
+          "title": "Picture Reading",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Developing the ability to interpret and describe visual scenes or illustrations to predict the context of a story before reading the text.",
+          "key_ideas": [
+            "Observing visual details",
+            "Predicting story themes from images",
+            "Connecting pictures to text"
+          ]
+        },
+        {
+          "concept_id": "english2.reading.fluency_punctuation",
+          "title": "Reading Aloud with Punctuation",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english2.reading.short_passages"
+          ],
+          "description": "Learning to read sentences aloud with appropriate pauses and intonation based on punctuation marks like full stops, commas, and question marks.",
+          "key_ideas": [
+            "Pausing at full stops",
+            "Changing tone for questions",
+            "Reading with expression"
+          ]
+        },
+        {
+          "concept_id": "english2.reading.context_clues",
+          "title": "Understanding Words in Context",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english2.reading.short_passages"
+          ],
+          "description": "Deducing the meaning of unfamiliar words by analyzing the surrounding words, sentences, and illustrations within a passage.",
+          "key_ideas": [
+            "Using sentence clues",
+            "Guessing meaning without a dictionary",
+            "Identifying synonyms in text"
+          ]
+        },
+        {
+          "concept_id": "english2.reading.story_elements",
+          "title": "Identifying Characters and Setting",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english2.reading.short_passages",
+            "english2.reading.comprehension"
+          ],
+          "description": "Recognizing and describing the 'who' (characters) and the 'where' (setting) within a story or poem.",
+          "key_ideas": [
+            "Naming main characters",
+            "Describing character traits",
+            "Identifying the location of the story"
+          ]
+        },
+        {
+          "concept_id": "english2.reading.sequencing",
+          "title": "Sequencing Story Events",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english2.reading.comprehension"
+          ],
+          "description": "Arranging the key events of a story in the correct chronological order to demonstrate understanding of the plot flow.",
+          "key_ideas": [
+            "Identifying beginning, middle, and end",
+            "Ordering jumbled sentences",
+            "Retelling the story flow"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "title": "Basic Grammar",
+      "concepts": [
+        {
+          "concept_id": "english2.grammar_basics.nouns",
+          "title": "Nouns — Naming Words",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Nouns — Naming Words — part of the chapter on Basic Grammar.",
+          "key_ideas": [
+            "Core principles of nouns",
+            "Step-by-step problem solving for nouns",
+            "Real-world applications of nouns"
+          ]
+        },
+        {
+          "concept_id": "english2.grammar_basics.verbs",
+          "title": "Verbs — Action Words",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Verbs — Action Words — part of the chapter on Basic Grammar.",
+          "key_ideas": [
+            "Core principles of verbs",
+            "Step-by-step problem solving for verbs",
+            "Real-world applications of verbs"
+          ]
+        },
+        {
+          "concept_id": "english2.grammar_basics.singular_plural",
+          "title": "Singular and Plural",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [
+            "english2.grammar_basics.nouns"
+          ],
+          "description": "Singular and Plural — part of the chapter on Basic Grammar.",
+          "key_ideas": [
+            "Core principles of singular and plural",
+            "Step-by-step problem solving for singular and plural",
+            "Real-world applications of singular and plural"
+          ]
+        },
+        {
+          "concept_id": "english2.grammar_basics.pronouns",
+          "title": "Pronouns — Replacing Nouns",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english2.grammar_basics.nouns"
+          ],
+          "description": "Learn about words used in place of naming words to avoid repetition in sentences.",
+          "key_ideas": [
+            "Using 'He', 'She', and 'It' for singular nouns",
+            "Using 'We' and 'They' for plural nouns",
+            "Using 'I' and 'You' in conversation"
+          ]
+        },
+        {
+          "concept_id": "english2.grammar_basics.adjectives",
+          "title": "Adjectives — Describing Words",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english2.grammar_basics.nouns"
+          ],
+          "description": "Understand how to use words that describe the quality, color, size, or shape of a noun.",
+          "key_ideas": [
+            "Describing how something looks, feels, or tastes",
+            "Identifying colors and numbers as adjectives",
+            "Placing describing words before naming words"
+          ]
+        },
+        {
+          "concept_id": "english2.grammar_basics.articles",
+          "title": "Articles — A, An, and The",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english2.grammar_basics.nouns",
+            "english2.grammar_basics.singular_plural"
+          ],
+          "description": "Learn the rules for using 'A', 'An', and 'The' before nouns based on vowel and consonant sounds.",
+          "key_ideas": [
+            "Using 'An' before words starting with vowels (a, e, i, o, u)",
+            "Using 'A' before words starting with consonants",
+            "Introduction to 'The' for specific items"
+          ]
+        },
+        {
+          "concept_id": "english2.grammar_basics.prepositions",
+          "title": "Prepositions — Position Words",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "english2.grammar_basics.nouns"
+          ],
+          "description": "Identify words that tell us where a person, animal, or thing is located.",
+          "key_ideas": [
+            "Common position words: in, on, under, behind",
+            "Understanding relationship between objects",
+            "Answering 'Where' questions"
+          ]
+        },
+        {
+          "concept_id": "english2.grammar_basics.sentence_structure",
+          "title": "Basic Punctuation and Capitalization",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english2.grammar_basics.nouns",
+            "english2.grammar_basics.verbs"
+          ],
+          "description": "Learn the fundamental rules for starting and ending sentences correctly.",
+          "key_ideas": [
+            "Starting sentences with a capital letter",
+            "Capitalizing special names (Proper Nouns) and 'I'",
+            "Ending statements with a full stop (.)"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch03",
+      "title": "Writing",
+      "concepts": [
+        {
+          "concept_id": "english2.writing2.picture_comp",
+          "title": "Picture Composition",
+          "bloom_level": "apply",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Picture Composition — part of the chapter on Writing.",
+          "key_ideas": [
+            "Core principles of picture composition",
+            "Step-by-step problem solving for picture composition",
+            "Real-world applications of picture composition"
+          ]
+        },
+        {
+          "concept_id": "english2.writing2.short_paragraph",
+          "title": "Writing Short Paragraphs",
+          "bloom_level": "apply",
+          "difficulty": 0.25,
+          "prerequisites": [
+            "english2.writing2.picture_comp"
+          ],
+          "description": "Writing Short Paragraphs — part of the chapter on Writing.",
+          "key_ideas": [
+            "Core principles of writing short paragraphs",
+            "Step-by-step problem solving for writing short paragraphs",
+            "Real-world applications of writing short paragraphs"
+          ]
+        },
+        {
+          "concept_id": "english2.writing2.jumbled_sentences",
+          "title": "Jumbled Sentences",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Learning how to rearrange mixed-up words to form meaningful and grammatically correct sentences.",
+          "key_ideas": [
+            "Identifying the subject and action in a group of words",
+            "Placing capital letters at the beginning",
+            "Ensuring the sentence ends with a full stop or question mark"
+          ]
+        },
+        {
+          "concept_id": "english2.writing2.story_sequencing",
+          "title": "Story Sequencing",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "english2.writing2.picture_comp"
+          ],
+          "description": "Arranging a set of sentences or pictures in the correct order to tell a logical story.",
+          "key_ideas": [
+            "Identifying the beginning, middle, and end of a story",
+            "Understanding chronological order",
+            "Linking events logically"
+          ]
+        },
+        {
+          "concept_id": "english2.writing2.completing_stories",
+          "title": "Completing Stories",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english2.writing2.jumbled_sentences"
+          ],
+          "description": "Using hint words or pictures to fill in the blanks and complete a short narrative.",
+          "key_ideas": [
+            "Using context clues to select the right words",
+            "Maintaining the flow of the story",
+            "Using vocabulary words from a help box"
+          ]
+        },
+        {
+          "concept_id": "english2.writing2.myself_essay",
+          "title": "Writing About Myself",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english2.writing2.short_paragraph"
+          ],
+          "description": "Composing simple sentences to introduce oneself, describing personal likes, dislikes, and family.",
+          "key_ideas": [
+            "Stating name, age, and class clearly",
+            "Describing hobbies and favorites",
+            "Structuring personal information into a list or paragraph"
+          ]
+        },
+        {
+          "concept_id": "english2.writing2.simple_notes",
+          "title": "Writing Simple Notes",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "english2.writing2.short_paragraph"
+          ],
+          "description": "Drafting very short, functional messages such as thank-you notes or invitations.",
+          "key_ideas": [
+            "Addressing the receiver (Salutation)",
+            "Writing a clear, brief message body",
+            "Signing off correctly"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch04",
+      "title": "Vocabulary Building",
+      "concepts": [
+        {
+          "concept_id": "english2.vocabulary.opposites",
+          "title": "Opposites (Antonyms)",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Opposites (Antonyms) — part of the chapter on Vocabulary Building.",
+          "key_ideas": [
+            "Core principles of opposites (antonyms)",
+            "Step-by-step problem solving for opposites (antonyms)",
+            "Real-world applications of opposites (antonyms)"
+          ]
+        },
+        {
+          "concept_id": "english2.vocabulary.rhyming_words",
+          "title": "Rhyming Words",
+          "bloom_level": "understand",
+          "difficulty": 0.15,
+          "prerequisites": [],
+          "description": "Rhyming Words — part of the chapter on Vocabulary Building.",
+          "key_ideas": [
+            "Core principles of rhyming words",
+            "Step-by-step problem solving for rhyming words",
+            "Real-world applications of rhyming words"
+          ]
+        },
+        {
+          "concept_id": "english2.vocabulary.animal_homes_sounds",
+          "title": "Animal Homes and Sounds",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Learning specific vocabulary words associated with animals, identifying the unique names for their habitats and the sounds they produce.",
+          "key_ideas": [
+            "Matching animals to their specific homes (e.g., Lion - Den)",
+            "Identifying animal sounds (e.g., Dog - Barks)",
+            "Expanding nature-related vocabulary"
+          ]
+        },
+        {
+          "concept_id": "english2.vocabulary.synonyms",
+          "title": "Synonyms (Same Meaning)",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "english2.vocabulary.opposites"
+          ],
+          "description": "Identifying words that have the same or very similar meanings to expand word choice and understanding.",
+          "key_ideas": [
+            "Words with identical meanings (e.g., happy and glad)",
+            "Using different words to describe the same object",
+            "Improving descriptive language"
+          ]
+        },
+        {
+          "concept_id": "english2.vocabulary.singular_plural",
+          "title": "One and Many (Singular and Plural)",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Understanding how to change words to show quantity by transforming singular nouns into plural nouns.",
+          "key_ideas": [
+            "Concept of one vs. many",
+            "Adding 's' to simple words (e.g., cat -> cats)",
+            "Adding 'es' to words ending in s, x, ch, or sh (e.g., box -> boxes)"
+          ]
+        },
+        {
+          "concept_id": "english2.vocabulary.compound_words",
+          "title": "Compound Words",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "english2.vocabulary.rhyming_words"
+          ],
+          "description": "Combining two distinct smaller words to create a new word with a specific meaning.",
+          "key_ideas": [
+            "Joining two words (e.g., Sun + Flower = Sunflower)",
+            "Understanding that the new word relates to its parts",
+            "Breaking down long words into smaller known words"
+          ]
+        },
+        {
+          "concept_id": "english2.vocabulary.homophones_basic",
+          "title": "Basic Homophones",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "english2.vocabulary.rhyming_words"
+          ],
+          "description": "Distinguishing between words that sound exactly the same but have different spellings and meanings.",
+          "key_ideas": [
+            "Same sound, different spelling (e.g., see vs. sea)",
+            "Same sound, different meaning (e.g., two vs. to)",
+            "Using context to choose the correct word"
+          ]
+        }
+      ]
+    }
+  ]
+}

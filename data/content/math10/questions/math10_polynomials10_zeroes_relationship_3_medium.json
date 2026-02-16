@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.4,
+    "question": "State and explain the key concept: For ax²+bx+c: α + β = −b/a (sum of zeroes).",
+    "hint": "Think about the definition and main formula related to Relationship Between Zeroes and Coefficients.",
+    "expected_answer": "This tests understanding of: For ax²+bx+c: α + β = −b/a (sum of zeroes). Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Relationship Between Zeroes and Coefficients"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "question": "Solve an NCERT example problem related to 'Relationship Between Zeroes and Coefficients'. Show all steps clearly.",
+    "hint": "Review the key ideas: For ax²+bx+c: α + β = −b/a (sum of zeroes), For ax²+bx+c: αβ = c/a (product of zeroes).",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Relationship Between Zeroes and Coefficients. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Relationship Between Zeroes and Coefficients"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.55,
+    "question": "How would you apply 'Relationship Between Zeroes and Coefficients' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where relationship between zeroes and coefficients concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Relationship Between Zeroes and Coefficients.",
+    "concepts_tested": [
+      "Relationship Between Zeroes and Coefficients",
+      "Real-world application"
+    ]
+  }
+]

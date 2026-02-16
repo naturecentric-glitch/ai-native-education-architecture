@@ -1,0 +1,12 @@
+{
+  "title": "Division of a Line Segment in a Given Ratio — Constructions",
+  "hook": "Let's explore <strong>Division of a Line Segment in a Given Ratio</strong> from the chapter on Constructions. This is an important concept in NCERT Class 10 Mathematics that builds your foundation for higher studies!",
+  "explanation": "<strong>Division of a Line Segment in a Given Ratio</strong>\n\n<em>Construct a point that divides a line segment internally in a given ratio m:n using the basic proportionality theorem.</em>\n\n<strong>Key Ideas to Master:</strong>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Draw ray at an acute angle, mark (m+n) equal arcs</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Join the last mark to endpoint, draw parallel through mth mark</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Based on Basic Proportionality Theorem (BPT)</div>\n<div style=\"background:#F5F5F5;border-left:3px solid #4A90D9;border-radius:6px;padding:8px 12px;margin:6px 0;font-size:0.9rem\">💡 Can also construct similar triangles using this technique</div>",
+  "worked_example": "<em>A detailed worked example for Division of a Line Segment in a Given Ratio will be available soon. Practice the textbook NCERT examples for now!</em>",
+  "try_this": {
+    "question": "Review NCERT Example problems for Division of a Line Segment in a Given Ratio and solve Exercise questions from the textbook.",
+    "hint": "Start with the easier questions and work your way up. Use the key ideas above as a checklist.",
+    "answer": "Check your answers with the NCERT solutions. Focus on understanding the method, not just the final answer."
+  },
+  "fun_fact": "Mathematics is the queen of sciences and constructions concepts like division of a line segment in a given ratio are used in engineering, data science, and everyday problem solving!"
+}

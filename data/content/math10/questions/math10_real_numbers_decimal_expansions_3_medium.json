@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.35,
+    "question": "State and explain the key concept: Terminating decimal: q has only factors of 2 and 5 (q = 2ⁿ × 5ᵐ).",
+    "hint": "Think about the definition and main formula related to Decimal Expansions of Rationals.",
+    "expected_answer": "This tests understanding of: Terminating decimal: q has only factors of 2 and 5 (q = 2ⁿ × 5ᵐ). Refer to NCERT textbook for the detailed explanation.",
+    "concepts_tested": [
+      "Decimal Expansions of Rationals"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.44999999999999996,
+    "question": "Solve an NCERT example problem related to 'Decimal Expansions of Rationals'. Show all steps clearly.",
+    "hint": "Review the key ideas: Terminating decimal: q has only factors of 2 and 5 (q = 2ⁿ × 5ᵐ), Non-terminating repeating: q has prime factors other than 2 and 5.",
+    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Decimal Expansions of Rationals. Focus on step-by-step working.",
+    "concepts_tested": [
+      "Decimal Expansions of Rationals"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "transfer_task",
+    "difficulty": 0.5,
+    "question": "How would you apply 'Decimal Expansions of Rationals' to solve a real-world problem? Give an example and solve it.",
+    "hint": "Think about everyday situations where decimal expansions of rationals concepts are useful.",
+    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Decimal Expansions of Rationals.",
+    "concepts_tested": [
+      "Decimal Expansions of Rationals",
+      "Real-world application"
+    ]
+  }
+]
