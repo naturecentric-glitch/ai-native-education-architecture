@@ -571,6 +571,7 @@ const API_BASE = `/api/courses/${COURSE_ID}`;
 let currentConcept = null;
 let studentData = null;
 let curriculumData = null;
+let currentQuestions = [];
 
 // ── Init ────────────────────────────────────────────────────────────────────
 async function init() {
@@ -791,12 +792,12 @@ function renderLesson(lesson) {
 
             <div class="lesson-section">
                 <h4>📝 Explanation</h4>
-                <p>${lesson.explanation || ''}</p>
+                <div>${lesson.explanation || ''}</div>
             </div>
 
             ${lesson.worked_example ? `<div class="lesson-section example">
                 <h4>✅ Worked Example</h4>
-                <p>${lesson.worked_example}</p>
+                <div>${lesson.worked_example}</div>
             </div>` : ''}
 
             ${lesson.try_this ? `<div class="lesson-section try-this">
@@ -847,6 +848,7 @@ async function startPractice() {
 }
 
 function renderQuestions(questions) {
+    currentQuestions = questions;
     const area = document.getElementById('practiceArea');
     area.innerHTML = `<div class="card"><h2>✏️ Practice Questions</h2></div>`;
 
@@ -860,8 +862,9 @@ function renderQuestions(questions) {
                 <textarea id="answer-${i}" placeholder="Type your answer here..."></textarea>
                 ${q.hint ? `<div class="hint-text" id="hint-${i}">💡 ${q.hint}</div>` : ''}
                 <div class="btn-group">
-                    <button class="btn btn-primary" onclick="submitAnswer(${i}, '${escapeQuotes(q.question)}', '${escapeQuotes(q.expected_answer || '')}')">Submit Answer</button>
+                    <button class="btn btn-primary" onclick="submitAnswer(${i})">Submit Answer</button>
                     ${q.hint ? `<button class="btn btn-outline" onclick="document.getElementById('hint-${i}').classList.toggle('show')">Show Hint</button>` : ''}
+                    <button class="btn btn-outline" onclick="showExpectedAnswer(${i})">Show Answer</button>
                 </div>
                 <div class="eval-result" id="eval-${i}"></div>
             </div>
@@ -870,12 +873,19 @@ function renderQuestions(questions) {
     });
 }
 
-function escapeQuotes(str) {
-    return (str || '').replace(/'/g, "\\'").replace(/"/g, '\\"');
+function showExpectedAnswer(index) {
+    const q = currentQuestions[index];
+    if (!q) return;
+    const evalDiv = document.getElementById(`eval-${index}`);
+    evalDiv.className = 'eval-result show needs-work';
+    evalDiv.innerHTML = `<p><strong>📝 Expected Answer:</strong></p><p style="margin-top:0.5rem;white-space:pre-wrap">${q.expected_answer || 'N/A'}</p>`;
 }
 
 // ── Submit Answer for Evaluation ────────────────────────────────────────────
-async function submitAnswer(index, question, expectedAnswer) {
+async function submitAnswer(index) {
+    const q = currentQuestions[index];
+    if (!q) return;
+    const question = q.question;
     const answerEl = document.getElementById(`answer-${index}`);
     const answer = answerEl.value.trim();
     if (!answer) { alert('Please write your answer first!'); return; }
