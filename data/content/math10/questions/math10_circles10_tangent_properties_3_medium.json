@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.4,
-    "question": "State and explain the key concept: Tangent touches the circle at exactly one point (point of contact/tangency).",
-    "hint": "Think about the definition and main formula related to Tangent to a Circle — Properties.",
-    "expected_answer": "This tests understanding of: Tangent touches the circle at exactly one point (point of contact/tangency). Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Tangent to a Circle — Properties"
-    ]
+      "math10.circles10.tangent_properties"
+    ],
+    "question": "A tangent to a circle of radius 7 cm from an external point is 24 cm long. Find the distance of the point from the centre.",
+    "hint": "Tangent ⊥ radius. Use Pythagoras: d² = 7² + 24².",
+    "expected_answer": "d² = 49 + 576 = 625. d = 25 cm."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.5,
-    "question": "Solve an NCERT example problem related to 'Tangent to a Circle — Properties'. Show all steps clearly.",
-    "hint": "Review the key ideas: Tangent touches the circle at exactly one point (point of contact/tangency), Theorem 1: Tangent ⊥ Radius at the point of contact.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Tangent to a Circle — Properties. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Tangent to a Circle — Properties"
-    ]
+      "math10.circles10.tangent_properties"
+    ],
+    "question": "If two tangents are drawn to a circle of radius 3 cm from a point 5 cm from the centre, find the tangent length and angle between the two tangents.",
+    "hint": "Tangent length = √(d²−r²). For the angle: in right △OAP, sin(∠OPA) = r/d.",
+    "expected_answer": "Tangent = √(25−9) = 4 cm. In right △OAP: ∠OAP=90°, OA=3, OP=5, PA=4. sin(∠OPA) = OA/OP = 3/5 → ∠OPA ≈ 36.87°. Angle between tangents = 2 × 36.87° ≈ 73.74°."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.55,
-    "question": "How would you apply 'Tangent to a Circle — Properties' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where tangent to a circle — properties concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Tangent to a Circle — Properties.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Tangent to a Circle — Properties",
-      "Real-world application"
-    ]
+      "math10.circles10.tangent_properties"
+    ],
+    "question": "PQ is a chord of length 16 cm of a circle with radius 10 cm. Find the distance of the midpoint of the chord from the centre.",
+    "hint": "Perpendicular from centre bisects the chord. Half-chord = 8 cm. Use Pythagoras.",
+    "expected_answer": "Half-chord = 8. d² + 8² = 10² → d² = 100 - 64 = 36 → d = 6 cm."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.circles10.tangent_properties"
+    ],
+    "question": "Prove that the tangent drawn at the mid-point of an arc of a circle is parallel to the chord joining the end points of the arc.",
+    "hint": "Let M be the midpoint of arc AB. OM bisects the chord AB perpendicularly. The tangent at M is ⊥ to OM.",
+    "expected_answer": "Let M be midpoint of arc AB, O the centre. OM ⊥ tangent at M (radius ⊥ tangent). Also, since M is midpoint of arc AB, OM is the perpendicular bisector of chord AB, so OM ⊥ AB. Since tangent at M ⊥ OM and AB ⊥ OM, the tangent at M ∥ AB. ∎"
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.circles10.tangent_properties"
+    ],
+    "question": "A circle is inscribed in a triangle with sides 5 cm, 12 cm, and 13 cm. Find the radius of the inscribed circle.",
+    "hint": "For a right triangle (check: 5²+12²=13²), the inradius = (a+b−c)/2 where c is the hypotenuse. Or use Area = r × s where s is the semi-perimeter.",
+    "expected_answer": "5² + 12² = 25 + 144 = 169 = 13² → right triangle. Area = ½ × 5 × 12 = 30. Semi-perimeter s = (5+12+13)/2 = 15. Area = r × s → 30 = r × 15 → r = 2 cm."
   }
 ]

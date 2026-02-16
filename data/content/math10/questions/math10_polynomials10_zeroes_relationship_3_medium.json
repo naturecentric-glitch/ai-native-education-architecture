@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.4,
-    "question": "State and explain the key concept: For ax²+bx+c: α + β = −b/a (sum of zeroes).",
-    "hint": "Think about the definition and main formula related to Relationship Between Zeroes and Coefficients.",
-    "expected_answer": "This tests understanding of: For ax²+bx+c: α + β = −b/a (sum of zeroes). Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Relationship Between Zeroes and Coefficients"
-    ]
+      "math10.polynomials10.zeroes_relationship"
+    ],
+    "question": "Find the sum and product of zeroes of p(x) = 3x² − 12x + 9 without actually finding the zeroes.",
+    "hint": "Sum = −b/a, Product = c/a. Here a=3, b=−12, c=9.",
+    "expected_answer": "Sum = −(−12)/3 = 4. Product = 9/3 = 3. (Actual zeroes: 1 and 3. Check: 1+3=4 ✓, 1×3=3 ✓.)"
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.5,
-    "question": "Solve an NCERT example problem related to 'Relationship Between Zeroes and Coefficients'. Show all steps clearly.",
-    "hint": "Review the key ideas: For ax²+bx+c: α + β = −b/a (sum of zeroes), For ax²+bx+c: αβ = c/a (product of zeroes).",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Relationship Between Zeroes and Coefficients. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Relationship Between Zeroes and Coefficients"
-    ]
+      "math10.polynomials10.zeroes_relationship"
+    ],
+    "question": "Find a quadratic polynomial with zeroes 5 and −3.",
+    "hint": "Sum = 5 + (−3), Product = 5 × (−3). Then p(x) = x² − (sum)x + (product).",
+    "expected_answer": "Sum = 2, Product = −15. p(x) = x² − 2x − 15. Verify: (x−5)(x+3) = x² − 2x − 15 ✓."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.55,
-    "question": "How would you apply 'Relationship Between Zeroes and Coefficients' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where relationship between zeroes and coefficients concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Relationship Between Zeroes and Coefficients.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Relationship Between Zeroes and Coefficients",
-      "Real-world application"
-    ]
+      "math10.polynomials10.zeroes_relationship"
+    ],
+    "question": "If one zero of 2x² − 8x + k is twice the other, find the value of k.",
+    "hint": "Let zeroes be α and 2α. Use sum = −b/a and product = c/a.",
+    "expected_answer": "Let zeroes be α and 2α. Sum: α + 2α = 3α = 8/2 = 4, so α = 4/3. Product: α × 2α = 2α² = k/2. So k = 4α² = 4 × 16/9 = 64/9."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.polynomials10.zeroes_relationship"
+    ],
+    "question": "If α and β are zeroes of x² − 6x + k and 3α + 2β = 20, find k.",
+    "hint": "You know α + β = 6 and 3α + 2β = 20. Solve these two equations for α and β.",
+    "expected_answer": "α + β = 6 … (1). 3α + 2β = 20 … (2). From (1): β = 6 − α. Substitute: 3α + 2(6−α) = 20 → 3α + 12 − 2α = 20 → α = 8. Then β = 6 − 8 = −2. k = αβ = 8 × (−2) = −16."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.polynomials10.zeroes_relationship"
+    ],
+    "question": "If α, β are zeroes of p(x) = x² − 5x + 6, find the value of (1/α) + (1/β) and α² + β².",
+    "hint": "1/α + 1/β = (α+β)/(αβ). For α²+β², use (α+β)² = α²+2αβ+β².",
+    "expected_answer": "α + β = 5, αβ = 6. (1/α + 1/β) = (α+β)/(αβ) = 5/6. α² + β² = (α+β)² − 2αβ = 25 − 12 = 13."
   }
 ]

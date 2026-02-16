@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.stats.median"
+    ],
+    "question": "Find the median class: 0-10 (f=4), 10-20 (f=6), 20-30 (f=8), 30-40 (f=2). What is n/2?",
+    "hint": "n = 20, n/2 = 10. cf: 4, 10, 18, 20.",
+    "expected_answer": "n/2 = 10. cf: 4, 10, 18, 20. Median class is 10-20 (cf = 10 ≥ 10 and previous cf = 4 < 10)."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.stats.median"
+    ],
+    "question": "Find the median: 100-120 (f=12), 120-140 (f=14), 140-160 (f=8), 160-180 (f=6).",
+    "hint": "n = 40, n/2 = 20. cf: 12, 26, 34, 40. Median class: 120-140.",
+    "expected_answer": "Median class: 120-140. l=120, cf=12, f=14, h=20. Median = 120 + (20−12)/14 × 20 = 120 + 11.43 = 131.43."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.stats.median"
+    ],
+    "question": "Marks distribution: 0-10 (f=5), 10-20 (f=15), 20-30 (f=20), 30-40 (f=23), 40-50 (f=7). Find the median marks.",
+    "hint": "n=70, n/2=35. cf: 5, 20, 40, 63, 70. Median class: 20-30.",
+    "expected_answer": "Median class: 20-30 (cf=40≥35, prev cf=20<35). Median = 20 + (35−20)/20 × 10 = 20 + 7.5 = 27.5."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.stats.median"
+    ],
+    "question": "If the median of the distribution is 46, find x: 10-20 (f=12), 20-30 (f=30), 30-40 (f=x), 40-50 (f=65), 50-60 (f=45), 60-70 (f=25), 70-80 (f=18). Total = 229.",
+    "hint": "12+30+x+65+45+25+18 = 229 → x = 34. Verify with median formula: n/2 = 114.5.",
+    "expected_answer": "x = 229 − 195 = 34. n/2 = 114.5. cf: 12, 42, 76, 141, ... Median class: 40-50 (cf=141≥114.5, prev=76<114.5). Median = 40 + (114.5−76)/65 × 10 = 40 + 385/65 = 40 + 5.92 = 45.92 ≈ 46. ✓"
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.stats.median"
+    ],
+    "question": "The median of the following data is 525. Find x and y if total = 100: 0-100 (f=2), 100-200 (f=5), 200-300 (f=x), 300-400 (f=12), 400-500 (f=17), 500-600 (f=20), 600-700 (f=y), 700-800 (f=9), 800-900 (f=7), 900-1000 (f=4).",
+    "hint": "2+5+x+12+17+20+y+9+7+4 = 100 → x+y = 24. Median class = 500-600. Use median formula with Median = 525.",
+    "expected_answer": "x + y = 24 …(1). n/2 = 50. cf before 500-600 = 2+5+x+12+17 = 36+x. Median = 500 + (50−36−x)/20 × 100 = 525. (14−x)×5 = 25. 14−x = 5 → x = 9. From (1): y = 15."
+  }
+]

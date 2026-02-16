@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "word_problem",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.trig_app.heights_distances"
+    ],
+    "question": "A person standing on top of a cliff 80 m high observes a boat at an angle of depression of 30°. Find the distance of the boat from the base of the cliff.",
+    "hint": "Angle of depression = 30° = angle of elevation from boat. tan 30° = 80/d.",
+    "expected_answer": "tan 30° = 80/d → 1/√3 = 80/d → d = 80√3 ≈ 138.56 m."
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.trig_app.heights_distances"
+    ],
+    "question": "The shadow of a tower standing on level ground is found to be 40 m longer when the Sun's altitude is 30° than when it is 60°. Find the height of the tower.",
+    "hint": "Let h = height. When 60°: shadow = h/tan 60° = h/√3. When 30°: shadow = h/tan 30° = h√3. Difference = 40.",
+    "expected_answer": "h√3 − h/√3 = 40 → h(√3 − 1/√3) = 40 → h(3−1)/√3 = 40 → 2h/√3 = 40 → h = 20√3 ≈ 34.64 m."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.trig_app.heights_distances"
+    ],
+    "question": "From the top of a lighthouse 100 m high, two ships are observed on opposite sides. The angles of depression are 30° and 45°. Find the distance between the ships.",
+    "hint": "Ship 1: tan 30° = 100/d₁. Ship 2: tan 45° = 100/d₂. Distance = d₁ + d₂.",
+    "expected_answer": "d₁ = 100/tan 30° = 100√3. d₂ = 100/tan 45° = 100. Distance = 100√3 + 100 = 100(√3+1) ≈ 273.2 m."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.7,
+    "concepts_tested": [
+      "math10.trig_app.heights_distances"
+    ],
+    "question": "A straight highway leads to the foot of a tower. From a point on the highway, the angle of elevation is 60°. After walking 100 m further towards the tower, it becomes 30°. Wait — that's wrong! The angle should increase. So: initially 30°, after walking 100 m closer it becomes 60°. Find the height of the tower.",
+    "hint": "Let h = height, d = remaining distance. tan 60° = h/d and tan 30° = h/(d+100).",
+    "expected_answer": "tan 60° = h/d → h = d√3 …(1). tan 30° = h/(d+100) → h = (d+100)/√3 …(2). From (1)&(2): d√3 = (d+100)/√3 → 3d = d+100 → 2d = 100 → d = 50. h = 50√3 ≈ 86.6 m."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.85,
+    "concepts_tested": [
+      "math10.trig_app.heights_distances"
+    ],
+    "question": "From the top of a building 60 m high, the angles of depression of the top and bottom of a tower are 30° and 60° respectively. Find the height of the tower and the distance between them.",
+    "hint": "Let tower height = h, distance between = d. tan 60° = 60/d (bottom). tan 30° = (60−h)/d (top of tower).",
+    "expected_answer": "tan 60° = 60/d → d = 60/√3 = 20√3 m. tan 30° = (60−h)/d → 1/√3 = (60−h)/(20√3) → 20√3/√3 = 60−h → 20 = 60−h → h = 40 m. Tower height = 40 m, distance = 20√3 ≈ 34.64 m."
+  }
+]

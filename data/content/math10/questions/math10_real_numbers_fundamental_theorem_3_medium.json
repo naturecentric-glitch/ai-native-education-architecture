@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.4,
-    "question": "State and explain the key concept: Every composite number = product of prime factors (uniquely).",
-    "hint": "Think about the definition and main formula related to Fundamental Theorem of Arithmetic.",
-    "expected_answer": "This tests understanding of: Every composite number = product of prime factors (uniquely). Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Fundamental Theorem of Arithmetic"
-    ]
+      "math10.real_numbers.fundamental_theorem"
+    ],
+    "question": "Find the prime factorization of 3825.",
+    "hint": "Start dividing by the smallest prime. Is 3825 divisible by 3? By 5?",
+    "expected_answer": "3825 ÷ 3 = 1275. 1275 ÷ 3 = 425. 425 ÷ 5 = 85. 85 ÷ 5 = 17 (prime). So 3825 = 3² × 5² × 17."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.5,
-    "question": "Solve an NCERT example problem related to 'Fundamental Theorem of Arithmetic'. Show all steps clearly.",
-    "hint": "Review the key ideas: Every composite number = product of prime factors (uniquely), Prime factorization using factor trees.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Fundamental Theorem of Arithmetic. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Fundamental Theorem of Arithmetic"
-    ]
+      "math10.real_numbers.fundamental_theorem"
+    ],
+    "question": "Find HCF and LCM of 12, 15 and 21 using prime factorization.",
+    "hint": "12 = 2² × 3, 15 = 3 × 5, 21 = 3 × 7. HCF = common primes with lowest powers. LCM = all primes with highest powers.",
+    "expected_answer": "12 = 2² × 3. 15 = 3 × 5. 21 = 3 × 7. HCF = 3 (the only common prime). LCM = 2² × 3 × 5 × 7 = 420."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.55,
-    "question": "How would you apply 'Fundamental Theorem of Arithmetic' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where fundamental theorem of arithmetic concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Fundamental Theorem of Arithmetic.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Fundamental Theorem of Arithmetic",
-      "Real-world application"
-    ]
+      "math10.real_numbers.fundamental_theorem"
+    ],
+    "question": "Two tankers contain 850 litres and 680 litres of fuel. Find the maximum capacity of a container that can measure the fuel of either tanker an exact number of times.",
+    "hint": "You need the HCF of 850 and 680. Use prime factorization.",
+    "expected_answer": "850 = 2 × 5² × 17. 680 = 2³ × 5 × 17. HCF = 2 × 5 × 17 = 170. Maximum capacity = 170 litres."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.real_numbers.fundamental_theorem"
+    ],
+    "question": "Given HCF(306, 657) = 9, find LCM(306, 657).",
+    "hint": "Use the relationship: HCF × LCM = Product of the two numbers.",
+    "expected_answer": "HCF × LCM = 306 × 657. So LCM = (306 × 657) / 9 = 201042 / 9 = 22338."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.real_numbers.fundamental_theorem"
+    ],
+    "question": "Explain why 7 × 11 × 13 + 13 is a composite number. Is 7 × 6 × 5 × 4 × 3 × 2 × 1 + 5 composite?",
+    "hint": "Factor out a common factor from each expression.",
+    "expected_answer": "7 × 11 × 13 + 13 = 13(7 × 11 + 1) = 13 × 78 = 13 × 78. Since it has a factor of 13 (and 78), it's composite. 7 × 6 × 5 × 4 × 3 × 2 × 1 + 5 = 5(7 × 6 × 4 × 3 × 2 × 1 + 1) = 5 × (1008 + 1) = 5 × 1009. Since 1009 is prime, the number = 5 × 1009, which is composite."
   }
 ]

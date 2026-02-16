@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.5,
-    "question": "State and explain the key concept: Long division of polynomials: divide, multiply, subtract, bring down.",
-    "hint": "Think about the definition and main formula related to Division Algorithm for Polynomials.",
-    "expected_answer": "This tests understanding of: Long division of polynomials: divide, multiply, subtract, bring down. Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Division Algorithm for Polynomials"
-    ]
+      "math10.polynomials10.division_algorithm"
+    ],
+    "question": "Divide x² + 3x + 2 by x + 1. Find quotient and remainder.",
+    "hint": "x² ÷ x = x. Multiply (x+1) by x, subtract, continue.",
+    "expected_answer": "x² + 3x + 2 ÷ (x+1): First term: x. x(x+1) = x² + x. Subtract: 2x + 2. Next term: 2. 2(x+1) = 2x + 2. Subtract: 0. Quotient = x + 2, Remainder = 0. (It factors exactly!)"
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.6,
-    "question": "Solve an NCERT example problem related to 'Division Algorithm for Polynomials'. Show all steps clearly.",
-    "hint": "Review the key ideas: Long division of polynomials: divide, multiply, subtract, bring down, p(x) = g(x) × q(x) + r(x) — analogous to Euclid's lemma.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Division Algorithm for Polynomials. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Division Algorithm for Polynomials"
-    ]
+      "math10.polynomials10.division_algorithm"
+    ],
+    "question": "Divide 3x³ − 5x² + 10 by x² − 3. Find q(x) and r(x), and verify p(x) = g(x)·q(x) + r(x).",
+    "hint": "3x³ ÷ x² = 3x. Multiply (x²−3) by 3x, subtract. Then continue.",
+    "expected_answer": "3x³ − 5x² + 10 ÷ (x²−3): Step 1: 3x. 3x(x²−3) = 3x³−9x. Subtract: −5x² + 9x + 10. Step 2: −5. −5(x²−3) = −5x² + 15. Subtract: 9x − 5. q(x) = 3x − 5, r(x) = 9x − 5. Verify: (x²−3)(3x−5) + 9x−5 = 3x³−5x²−9x+15+9x−5 = 3x³−5x²+10 ✓."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.65,
-    "question": "How would you apply 'Division Algorithm for Polynomials' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where division algorithm for polynomials concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Division Algorithm for Polynomials.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Division Algorithm for Polynomials",
-      "Real-world application"
-    ]
+      "math10.polynomials10.division_algorithm"
+    ],
+    "question": "One zero of x³ − 6x² + 11x − 6 is x = 1. Find all zeroes.",
+    "hint": "Since x = 1 is a zero, (x − 1) is a factor. Divide to find the quadratic factor.",
+    "expected_answer": "Divide x³ − 6x² + 11x − 6 by (x−1): q(x) = x² − 5x + 6. Factor: (x−2)(x−3). All zeroes: x = 1, 2, 3. Verify: (x−1)(x−2)(x−3) = x³ − 6x² + 11x − 6 ✓."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.polynomials10.division_algorithm"
+    ],
+    "question": "If x² − 3x + 2 is a factor of x⁴ − 5x³ + 9x² − 7x + 2, find the other factor.",
+    "hint": "Divide x⁴ − 5x³ + 9x² − 7x + 2 by x² − 3x + 2.",
+    "expected_answer": "Long division: x⁴ − 5x³ + 9x² − 7x + 2 ÷ (x² − 3x + 2). Step 1: x². x²(x²−3x+2) = x⁴−3x³+2x². Subtract: −2x³+7x²−7x+2. Step 2: −2x. −2x(x²−3x+2) = −2x³+6x²−4x. Subtract: x²−3x+2. Step 3: 1. 1(x²−3x+2) = x²−3x+2. Subtract: 0. Other factor: x² − 2x + 1 = (x−1)²."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.polynomials10.division_algorithm"
+    ],
+    "question": "What value of k makes (x − 3) a factor of x³ − kx² + x + 6?",
+    "hint": "If (x−3) is a factor, then x = 3 is a zero. So p(3) = 0.",
+    "expected_answer": "p(3) = 0: 27 − 9k + 3 + 6 = 0 → 36 − 9k = 0 → k = 4. Verify: x³ − 4x² + x + 6 at x=3: 27 − 36 + 3 + 6 = 0 ✓. The polynomial is x³ − 4x² + x + 6 = (x−3)(x²−x−2) = (x−3)(x−2)(x+1)."
   }
 ]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.trig.identities"
+    ],
+    "question": "If sin θ = 3/5, find cos θ and tan θ using identities.",
+    "hint": "cos²θ = 1 − sin²θ = 1 − 9/25.",
+    "expected_answer": "cos²θ = 1 − 9/25 = 16/25 → cos θ = 4/5 (θ acute). tan θ = sin θ/cos θ = (3/5)/(4/5) = 3/4."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.45,
+    "concepts_tested": [
+      "math10.trig.identities"
+    ],
+    "question": "Simplify: (1 − sin²θ) · sec²θ.",
+    "hint": "1 − sin²θ = cos²θ. sec²θ = 1/cos²θ.",
+    "expected_answer": "cos²θ × (1/cos²θ) = 1."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "concepts_tested": [
+      "math10.trig.identities"
+    ],
+    "question": "Prove: (1 + tan²θ)(1 − sin θ)(1 + sin θ) = 1.",
+    "hint": "(1−sinθ)(1+sinθ) = 1−sin²θ = cos²θ. And 1+tan²θ = sec²θ.",
+    "expected_answer": "LHS = sec²θ × cos²θ = (1/cos²θ) × cos²θ = 1. ∎"
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.7,
+    "concepts_tested": [
+      "math10.trig.identities"
+    ],
+    "question": "Prove: (cosec θ − cot θ)² = (1 − cos θ)/(1 + cos θ).",
+    "hint": "Convert LHS to sin/cos: cosec θ − cot θ = (1−cos θ)/sin θ.",
+    "expected_answer": "LHS = ((1−cosθ)/sinθ)² = (1−cosθ)²/sin²θ = (1−cosθ)²/(1−cos²θ) = (1−cosθ)²/((1−cosθ)(1+cosθ)) = (1−cosθ)/(1+cosθ) = RHS. ∎"
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.85,
+    "concepts_tested": [
+      "math10.trig.identities"
+    ],
+    "question": "Prove: (sin θ + cosec θ)² + (cos θ + sec θ)² = 7 + tan²θ + cot²θ.",
+    "hint": "Expand each square. Use sin θ · cosec θ = 1 and cos θ · sec θ = 1.",
+    "expected_answer": "LHS = sin²θ + 2·sin θ·cosecθ + cosec²θ + cos²θ + 2·cosθ·secθ + sec²θ = sin²θ+cos²θ + 2 + 2 + cosec²θ + sec²θ = 1 + 4 + (1+cot²θ) + (1+tan²θ) = 7 + tan²θ + cot²θ = RHS. ∎"
+  }
+]

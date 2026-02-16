@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.sa_vol.frustum"
+    ],
+    "question": "Find the slant height of a frustum with height 12, top radius 3, and bottom radius 8.",
+    "hint": "l = √(h² + (R−r)²).",
+    "expected_answer": "l = √(144 + 25) = √169 = 13 cm."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.sa_vol.frustum"
+    ],
+    "question": "Find the curved surface area of a frustum with radii 5 cm and 8 cm, slant height 10 cm.",
+    "hint": "CSA = π(R + r)l.",
+    "expected_answer": "CSA = π(8 + 5)(10) = 130π ≈ 408.41 cm²."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.sa_vol.frustum"
+    ],
+    "question": "A bucket has top diameter 40 cm, bottom diameter 20 cm, and depth 21 cm. Find its capacity in litres.",
+    "hint": "R = 20, r = 10, h = 21. V = (πh/3)(R² + r² + Rr). 1 litre = 1000 cm³.",
+    "expected_answer": "V = (π × 21/3)(400 + 100 + 200) = 7π × 700 = 4900π = 4900 × 22/7 = 15400 cm³ = 15.4 litres."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.sa_vol.frustum"
+    ],
+    "question": "A solid cone of height 40 cm has its top cut off by a plane parallel to the base at a height of 16 cm from the base. If the radius of the base is 10 cm, find the volume of the frustum.",
+    "hint": "By similarity: if the full cone has height 40 and base r=10, the cut cone at top has height 24 (=40−16) and radius r' = 10 × 24/40 = 6.",
+    "expected_answer": "Top cone: h = 24, r = 6. Frustum: h = 16, R = 10, r = 6. V = (π×16/3)(100+36+60) = (16π/3)(196) = 3136π/3 ≈ 3285 cm³."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.sa_vol.frustum"
+    ],
+    "question": "A container shaped as a frustum (R=21, r=14, h=24) is filled with water. The water is poured into a cylindrical container of radius 21 cm. Find the height of water in the cylinder.",
+    "hint": "Volume of frustum = Volume of cylinder. (πh/3)(R²+r²+Rr) = πr²H.",
+    "expected_answer": "Frustum V = (π×24/3)(441+196+294) = 8π(931) = 7448π. Cylinder: π(21)²H = 441πH. 441πH = 7448π → H = 7448/441 = 16.89 cm ≈ 16.9 cm."
+  }
+]

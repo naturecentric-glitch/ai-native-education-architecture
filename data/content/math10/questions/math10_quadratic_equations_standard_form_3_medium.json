@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.4,
-    "question": "State and explain the key concept: Standard form: ax² + bx + c = 0 where a ≠ 0.",
-    "hint": "Think about the definition and main formula related to Standard Form and Factorization Method.",
-    "expected_answer": "This tests understanding of: Standard form: ax² + bx + c = 0 where a ≠ 0. Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Standard Form and Factorization Method"
-    ]
+      "math10.quadratic_equations.standard_form"
+    ],
+    "question": "Solve by factorization: x² − 9x + 20 = 0.",
+    "hint": "Find two numbers with product 20 and sum 9.",
+    "expected_answer": "Numbers: 4 and 5 (4×5=20, 4+5=9). x² − 4x − 5x + 20 = (x−4)(x−5) = 0. x = 4 or x = 5."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.5,
-    "question": "Solve an NCERT example problem related to 'Standard Form and Factorization Method'. Show all steps clearly.",
-    "hint": "Review the key ideas: Standard form: ax² + bx + c = 0 where a ≠ 0, Splitting middle term: find two numbers with sum = b and product = ac.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Standard Form and Factorization Method. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Standard Form and Factorization Method"
-    ]
+      "math10.quadratic_equations.standard_form"
+    ],
+    "question": "Solve by factorization: 3x² − 2x − 8 = 0.",
+    "hint": "ac = 3×(−8) = −24. Find two numbers with product −24 and sum −2.",
+    "expected_answer": "Product = −24, Sum = −2. Numbers: −6 and 4. 3x²−6x+4x−8 = 3x(x−2)+4(x−2) = (3x+4)(x−2) = 0. x = −4/3 or x = 2."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.55,
-    "question": "How would you apply 'Standard Form and Factorization Method' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where standard form and factorization method concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Standard Form and Factorization Method.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Standard Form and Factorization Method",
-      "Real-world application"
-    ]
+      "math10.quadratic_equations.standard_form"
+    ],
+    "question": "The product of two consecutive positive integers is 306. Find them.",
+    "hint": "Let them be x and x+1. Then x(x+1) = 306 → x² + x − 306 = 0.",
+    "expected_answer": "x² + x − 306 = 0. Find: product = −306, sum = 1. Numbers: 18 and −17. (x+18)(x−17) = 0. x = 17 (reject −18). Consecutive integers: 17 and 18. Check: 17×18 = 306 ✓."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.quadratic_equations.standard_form"
+    ],
+    "question": "Solve: x² − (√3 + 1)x + √3 = 0.",
+    "hint": "The two numbers with product √3 and sum (√3+1) are √3 and 1.",
+    "expected_answer": "Split: x² − √3·x − 1·x + √3 = x(x−√3) − 1(x−√3) = (x−1)(x−√3) = 0. x = 1 or x = √3."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.quadratic_equations.standard_form"
+    ],
+    "question": "A rectangular lawn 16m by 10m has a uniform path of width x metres around it. If the total area including the path is 280 m², find x.",
+    "hint": "Total dimensions: (16+2x) by (10+2x). Area = 280.",
+    "expected_answer": "(16+2x)(10+2x) = 280 → 160 + 32x + 20x + 4x² = 280 → 4x² + 52x − 120 = 0 → x² + 13x − 30 = 0. Numbers: 15 and −2. (x+15)(x−2) = 0. x = 2 (reject −15). Path width = 2 metres."
   }
 ]

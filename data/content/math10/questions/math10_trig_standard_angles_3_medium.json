@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.trig.standard_angles"
+    ],
+    "question": "Evaluate: sin²30° + cos²60°.",
+    "hint": "sin 30° = 1/2, cos 60° = 1/2.",
+    "expected_answer": "(1/2)² + (1/2)² = 1/4 + 1/4 = 1/2."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.trig.standard_angles"
+    ],
+    "question": "Find the value of: (2 tan 30°)/(1 + tan²30°).",
+    "hint": "tan 30° = 1/√3. So tan²30° = 1/3.",
+    "expected_answer": "(2/√3)/(1 + 1/3) = (2/√3)/(4/3) = (2/√3)(3/4) = 6/(4√3) = 3/(2√3) = √3/2."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.trig.standard_angles"
+    ],
+    "question": "If sin(A−B) = 1/2 and cos(A+B) = 1/2, where A > B > 0°, find A and B.",
+    "hint": "sin 30° = 1/2 and cos 60° = 1/2. So A−B = 30° and A+B = 60°.",
+    "expected_answer": "A − B = 30° …(1). A + B = 60° …(2). Add: 2A = 90° → A = 45°. B = 15°."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.trig.standard_angles"
+    ],
+    "question": "Verify: cos 60° = 1 − 2sin²30° = 2cos²30° − 1.",
+    "hint": "Just substitute the values and check both sides.",
+    "expected_answer": "cos 60° = 1/2. 1 − 2sin²30° = 1 − 2(1/4) = 1 − 1/2 = 1/2 ✓. 2cos²30° − 1 = 2(3/4) − 1 = 3/2 − 1 = 1/2 ✓."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.trig.standard_angles"
+    ],
+    "question": "In △ABC, ∠C = 90°. If tan A = 1/√3, find sin A cos B + cos A sin B.",
+    "hint": "tan A = 1/√3 → A = 30°. Since C = 90°, B = 60°. Or recognize sin A cos B + cos A sin B = sin(A+B).",
+    "expected_answer": "A = 30°, B = 60°. sin A cos B + cos A sin B = sin(30°)cos(60°) + cos(30°)sin(60°) = (1/2)(1/2) + (√3/2)(√3/2) = 1/4 + 3/4 = 1. (This is sin(A+B) = sin 90° = 1.)"
+  }
+]

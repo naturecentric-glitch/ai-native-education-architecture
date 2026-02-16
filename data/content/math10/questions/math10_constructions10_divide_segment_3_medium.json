@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.constructions10.divide_segment"
+    ],
+    "question": "To divide a line segment AB in ratio 4:5, how many equal arcs should you mark on the ray AX?",
+    "hint": "Total parts = m + n.",
+    "expected_answer": "4 + 5 = 9 equal arcs."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.constructions10.divide_segment"
+    ],
+    "question": "A line segment of 9 cm is divided in ratio 1:2. What are the lengths of the two parts? Describe the construction steps.",
+    "hint": "Total parts = 3. Shorter part = 9×1/3 = 3 cm.",
+    "expected_answer": "Parts: 3 cm and 6 cm. Steps: Draw AB = 9 cm. Draw ray AX. Mark 3 equal arcs A₁A₂A₃. Join A₃B. Draw A₁P ∥ A₃B meeting AB at P. AP = 3 cm, PB = 6 cm."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.constructions10.divide_segment"
+    ],
+    "question": "In dividing AB in ratio 3:4, you draw A₃P parallel to A₇B. Which theorem justifies that AP/PB = 3/4?",
+    "hint": "Think of △AA₇B. The line A₃P is parallel to A₇B.",
+    "expected_answer": "By BPT (Basic Proportionality Theorem / Thales' Theorem): If A₃P ∥ A₇B in △AA₇B, then AA₃/A₃A₇ = AP/PB = 3/4."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.constructions10.divide_segment"
+    ],
+    "question": "Point P divides segment AB of length 12 cm such that AP/AB = 3/4. What is the ratio AP:PB? What length is AP?",
+    "hint": "AP/AB = 3/4 means AP = 3k and AB = 4k for some k. PB = AB − AP.",
+    "expected_answer": "AP/AB = 3/4. So AP = 12×3/4 = 9 cm. PB = 12−9 = 3 cm. AP:PB = 9:3 = 3:1."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.constructions10.divide_segment"
+    ],
+    "question": "Describe how you would divide a segment AB in ratio √3 : 1 (approximately 1.732 : 1). You may use constructions involving equilateral triangles.",
+    "hint": "Construct an equilateral triangle on AB. The altitude = (√3/2)AB. Use this length.",
+    "expected_answer": "One method: (1) On AB, construct equilateral △ABQ externally. The altitude from Q to AB has length h = (√3/2)AB. (2) On ray AX, mark A₁ such that AA₁ = h and A₂ such that A₁A₂ = AB/2 (half of AB). Then AA₁/A₁A₂ = h/(AB/2) = √3. (3) Now join A₂B and draw A₁P ∥ A₂B. Then AP/PB = √3/1. Length AP = AB×√3/(√3+1) = AB×√3(√3−1)/2."
+  }
+]

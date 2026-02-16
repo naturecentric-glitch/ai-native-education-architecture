@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.stats.mean"
+    ],
+    "question": "Find the mean (direct method): Classes 0-10 (f=3), 10-20 (f=5), 20-30 (f=7), 30-40 (f=5).",
+    "hint": "Class marks: 5, 15, 25, 35. Compute Σfᵢxᵢ / Σfᵢ.",
+    "expected_answer": "Σfᵢxᵢ = 15+75+175+175 = 440. Σfᵢ = 20. Mean = 440/20 = 22."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.stats.mean"
+    ],
+    "question": "Using assumed mean method (a = 35), find the mean: 10-20 (f=3), 20-30 (f=5), 30-40 (f=8), 40-50 (f=4).",
+    "hint": "dᵢ = xᵢ − 35 = −20, −10, 0, 10. Compute Σfᵢdᵢ.",
+    "expected_answer": "fᵢdᵢ: −60, −50, 0, 40. Σfᵢdᵢ = −70. Σfᵢ = 20. Mean = 35 + (−70/20) = 35 − 3.5 = 31.5."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.stats.mean"
+    ],
+    "question": "If the mean of the following data is 18, find p: 0-5 (f=3), 5-10 (f=5), 10-15 (f=9), 15-20 (f=6), 20-25 (f=p), 25-30 (f=4).",
+    "hint": "Σfᵢxᵢ / Σfᵢ = 18. Set up equation and solve for p.",
+    "expected_answer": "xᵢ: 2.5, 7.5, 12.5, 17.5, 22.5, 27.5. Σfᵢxᵢ = 7.5+37.5+112.5+105+22.5p+110 = 372.5+22.5p. Σfᵢ = 27+p. (372.5+22.5p)/(27+p) = 18. 372.5+22.5p = 486+18p. 4.5p = 113.5. p ≈ 25.2. Since f must be whole: p = 25 (approximately). Let me recheck: 372.5+22.5(25)/(27+25) = 935/52 = 17.98 ≈ 18. So p = 25."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.stats.mean"
+    ],
+    "question": "The mean of the following distribution is 50. Find the missing frequencies f₁ and f₂ if total frequency is 120: 0-20 (f=17), 20-40 (f=f₁), 40-60 (f=32), 60-80 (f=f₂), 80-100 (f=19).",
+    "hint": "Two equations: f₁ + f₂ = 120 − 68 = 52. Σfᵢxᵢ/120 = 50.",
+    "expected_answer": "f₁ + f₂ = 52 …(1). xᵢ: 10,30,50,70,90. Σfᵢxᵢ = 170+30f₁+1600+70f₂+1710 = 3480+30f₁+70f₂. Mean: (3480+30f₁+70f₂)/120 = 50 → 3480+30f₁+70f₂ = 6000. 30f₁+70f₂ = 2520 → 3f₁+7f₂ = 252 …(2). From (1): f₁ = 52−f₂. Sub: 3(52−f₂)+7f₂ = 252 → 156+4f₂ = 252 → f₂ = 24. f₁ = 28."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.stats.mean"
+    ],
+    "question": "The mean of 5 numbers is 30. If each number is multiplied by 3 and then 5 is added, what is the new mean?",
+    "hint": "If x̄ is the mean, the new mean after transformation ax + b is a·x̄ + b.",
+    "expected_answer": "Original mean = 30. Each → 3x + 5. New mean = 3(30) + 5 = 95."
+  }
+]

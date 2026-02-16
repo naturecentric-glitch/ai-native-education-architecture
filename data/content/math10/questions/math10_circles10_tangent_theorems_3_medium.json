@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.5,
-    "question": "State and explain the key concept: Theorem 2: Tangents from an external point are equal (PA = PB).",
-    "hint": "Think about the definition and main formula related to Tangent Theorems and Problem Solving.",
-    "expected_answer": "This tests understanding of: Theorem 2: Tangents from an external point are equal (PA = PB). Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Tangent Theorems and Problem Solving"
-    ]
+      "math10.circles10.tangent_theorems"
+    ],
+    "question": "From a point P, two tangents PA and PB are drawn to a circle with centre O. If ∠APB = 80°, find ∠AOB.",
+    "hint": "∠OAP = ∠OBP = 90° (radius ⊥ tangent). In quadrilateral OAPB, sum of angles = 360°.",
+    "expected_answer": "∠OAP + ∠OBP + ∠APB + ∠AOB = 360°. 90° + 90° + 80° + ∠AOB = 360°. ∠AOB = 100°."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.6,
-    "question": "Solve an NCERT example problem related to 'Tangent Theorems and Problem Solving'. Show all steps clearly.",
-    "hint": "Review the key ideas: Theorem 2: Tangents from an external point are equal (PA = PB), The line from external point to centre bisects the angle between tangents.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Tangent Theorems and Problem Solving. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Tangent Theorems and Problem Solving"
-    ]
+      "math10.circles10.tangent_theorems"
+    ],
+    "question": "Two tangents TP and TQ are drawn from external point T to a circle with centre O. If TP = 12 cm and OT = 13 cm, find the radius.",
+    "hint": "OP ⊥ TP. OT² = OP² + TP². So OP² = 169 − 144.",
+    "expected_answer": "r² = OT² − TP² = 169 − 144 = 25. r = 5 cm."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.65,
-    "question": "How would you apply 'Tangent Theorems and Problem Solving' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where tangent theorems and problem solving concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Tangent Theorems and Problem Solving.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Tangent Theorems and Problem Solving",
-      "Real-world application"
-    ]
+      "math10.circles10.tangent_theorems"
+    ],
+    "question": "Prove that the tangents drawn at the ends of a diameter of a circle are parallel.",
+    "hint": "Each tangent is ⊥ to the radius. The two radii form a diameter (straight line). So both tangents are ⊥ to the same line.",
+    "expected_answer": "Let AB be a diameter. Tangent at A is ⊥ to OA. Tangent at B is ⊥ to OB. Since OA and OB are along the same line (diameter), both tangents are perpendicular to the same line → they are parallel. ∎"
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.circles10.tangent_theorems"
+    ],
+    "question": "A quadrilateral ABCD is circumscribed about a circle. If AB = 6 cm, BC = 7 cm, CD = 4 cm, find DA.",
+    "hint": "For a circumscribed quadrilateral: AB + CD = BC + DA.",
+    "expected_answer": "AB + CD = BC + DA → 6 + 4 = 7 + DA → DA = 3 cm."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.circles10.tangent_theorems"
+    ],
+    "question": "PA and PB are tangents from P to a circle with centre O and radius r. If OP = 2r, find ∠APB.",
+    "hint": "In right △OAP: sin(∠OPA) = OA/OP = r/2r = 1/2.",
+    "expected_answer": "sin(∠OPA) = r/(2r) = 1/2 → ∠OPA = 30°. Similarly ∠OPB = 30°. ∠APB = ∠OPA + ∠OPB = 60°."
   }
 ]

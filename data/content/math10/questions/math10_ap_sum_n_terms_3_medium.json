@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.ap.sum_n_terms"
+    ],
+    "question": "Find the sum: 1 + 2 + 3 + ... + 50.",
+    "hint": "AP with a=1, d=1, n=50. Use Sₙ = n/2 × (a + l).",
+    "expected_answer": "S₅₀ = 50/2 × (1 + 50) = 25 × 51 = 1275."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.ap.sum_n_terms"
+    ],
+    "question": "Find the sum of the first 24 terms of the AP: 5, 8, 11, 14, ...",
+    "hint": "a=5, d=3, n=24.",
+    "expected_answer": "S₂₄ = 24/2 × [2(5) + 23(3)] = 12 × [10 + 69] = 12 × 79 = 948."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.ap.sum_n_terms"
+    ],
+    "question": "The first term of an AP is 5 and the last term is 45. The sum is 400. Find the number of terms and the common difference.",
+    "hint": "Use S = n/2(a+l): 400 = n/2(5+45). Then find d from a + (n−1)d = 45.",
+    "expected_answer": "400 = n/2 × 50 → n = 16. Then 45 = 5 + 15d → d = 40/15 = 8/3."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.ap.sum_n_terms"
+    ],
+    "question": "Find the sum of all multiples of 3 between 1 and 200.",
+    "hint": "Multiples of 3: 3, 6, 9, ..., 198. This is an AP. Find n first: 198 = 3 + (n−1)×3.",
+    "expected_answer": "AP: 3, 6, ..., 198. n: 198 = 3n → n = 66. S = 66/2 × (3 + 198) = 33 × 201 = 6633."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.ap.sum_n_terms"
+    ],
+    "question": "If Sₙ = 3n² + 5n for an AP, find the common difference d and the 15th term.",
+    "hint": "a₁ = S₁ = 8. a₂ = S₂ − S₁ = 22 − 8 = 14. d = a₂ − a₁ = 6. For aₙ: aₙ = Sₙ − Sₙ₋₁.",
+    "expected_answer": "S₁ = 8, S₂ = 22, a₁ = 8, a₂ = 14, d = 6. a₁₅ = 8 + 14(6) = 92. Or: aₙ = Sₙ − Sₙ₋₁ = 3n²+5n − 3(n−1)²−5(n−1) = 6n+2. a₁₅ = 92. d = 6 (coefficient of n in 6n+2 times 1, since aₙ−aₙ₋₁ = 6)."
+  }
+]

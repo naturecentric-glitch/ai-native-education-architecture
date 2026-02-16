@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.45,
-    "question": "State and explain the key concept: Arc length = (θ/360°) × 2πr.",
-    "hint": "Think about the definition and main formula related to Area of Sector and Segment.",
-    "expected_answer": "This tests understanding of: Arc length = (θ/360°) × 2πr. Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Area of Sector and Segment"
-    ]
+      "math10.areas_circles.sector_segment"
+    ],
+    "question": "Find the length of an arc of a circle of radius 7 cm which subtends an angle of 60° at the centre.",
+    "hint": "Arc = (θ/360) × 2πr.",
+    "expected_answer": "(60/360) × 2 × 22/7 × 7 = (1/6) × 44 = 22/3 ≈ 7.33 cm."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.55,
-    "question": "Solve an NCERT example problem related to 'Area of Sector and Segment'. Show all steps clearly.",
-    "hint": "Review the key ideas: Arc length = (θ/360°) × 2πr, Area of sector = (θ/360°) × πr².",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Area of Sector and Segment. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Area of Sector and Segment"
-    ]
+      "math10.areas_circles.sector_segment"
+    ],
+    "question": "Find the area of a sector of radius 14 cm and angle 45°.",
+    "hint": "Area = (45/360) × πr² = (1/8) × π × 196.",
+    "expected_answer": "(1/8) × 22/7 × 196 = (1/8) × 616 = 77 cm²."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.6,
-    "question": "How would you apply 'Area of Sector and Segment' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where area of sector and segment concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Area of Sector and Segment.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Area of Sector and Segment",
-      "Real-world application"
-    ]
+      "math10.areas_circles.sector_segment"
+    ],
+    "question": "A chord of a circle of radius 12 cm subtends an angle of 120° at the centre. Find the area of the corresponding minor segment. (Use π = 3.14, √3 = 1.73.)",
+    "hint": "Segment = Sector − Triangle. Sector = (120/360)πr². Triangle: angle = 120°, so area = ½r²sin120°.",
+    "expected_answer": "Sector = (1/3) × 3.14 × 144 = 150.72 cm². Triangle = ½ × 144 × sin 120° = ½ × 144 × (√3/2) = 36√3 = 62.28 cm². Segment = 150.72 − 62.28 = 88.44 cm²."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.areas_circles.sector_segment"
+    ],
+    "question": "The minute hand of a clock is 21 cm long. Find the area swept by it between 6:00 AM and 6:35 AM.",
+    "hint": "35 minutes → angle = 35/60 × 360° = 210°.",
+    "expected_answer": "Angle = 210°. Area = (210/360) × 22/7 × 21² = (7/12) × 22/7 × 441 = (7/12) × 1386 = 808.5 cm²."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.areas_circles.sector_segment"
+    ],
+    "question": "Find the area of the shaded region in a circle of radius 7 cm, if the shaded region is a segment corresponding to a chord that subtends 90° at the centre.",
+    "hint": "Minor segment = sector (90°) − right triangle. Major segment = full circle − minor segment.",
+    "expected_answer": "Sector = (90/360) × 22/7 × 49 = (1/4) × 154 = 38.5 cm². Triangle = ½ × 7 × 7 = 24.5 cm². Minor segment = 38.5 − 24.5 = 14 cm². Major segment = 154 − 14 = 140 cm²."
   }
 ]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.ap.nth_term"
+    ],
+    "question": "Find the 30th term of the AP: 7, 10, 13, 16, ...",
+    "hint": "a = 7, d = 3. Use aₙ = a + (n−1)d with n = 30.",
+    "expected_answer": "a₃₀ = 7 + 29 × 3 = 7 + 87 = 94."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.ap.nth_term"
+    ],
+    "question": "Which term of the AP 3, 8, 13, 18, ... is 78?",
+    "hint": "78 = 3 + (n−1)×5. Solve for n.",
+    "expected_answer": "78 = 3 + 5(n−1) → 75 = 5(n−1) → n−1 = 15 → n = 16. So 78 is the 16th term."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.ap.nth_term"
+    ],
+    "question": "The 7th term of an AP is 34 and the 13th term is 64. Find the AP (first term and common difference).",
+    "hint": "a₇ = a + 6d = 34 and a₁₃ = a + 12d = 64. Solve these simultaneous equations.",
+    "expected_answer": "Subtract: 6d = 30 → d = 5. Then a = 34 − 30 = 4. AP: 4, 9, 14, 19, 24, 29, 34, ..."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.ap.nth_term"
+    ],
+    "question": "How many two-digit numbers are divisible by 7?",
+    "hint": "The two-digit multiples of 7 form an AP: 14, 21, 28, ..., 98. Use aₙ = a + (n−1)d with last term = 98.",
+    "expected_answer": "AP: 14, 21, 28, ..., 98. a = 14, d = 7, aₙ = 98. 98 = 14 + (n−1)7 → 84 = 7(n−1) → n = 13. There are 13 two-digit multiples of 7."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.ap.nth_term"
+    ],
+    "question": "The 4th term of an AP is equal to 3 times the 1st term, and the 7th term exceeds twice the 3rd term by 1. Find the AP.",
+    "hint": "a₄ = 3a₁ → a+3d = 3a. a₇ = 2a₃ + 1 → a+6d = 2(a+2d)+1.",
+    "expected_answer": "From a+3d = 3a: 3d = 2a → a = 3d/2. From a+6d = 2a+4d+1: 2d = a+1. Substitute: 2d = 3d/2 + 1 → 4d = 3d + 2 → d = 2. Then a = 3. AP: 3, 5, 7, 9, 11, 13, ..."
+  }
+]

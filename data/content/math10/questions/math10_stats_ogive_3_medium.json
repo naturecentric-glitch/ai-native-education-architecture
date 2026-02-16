@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.stats.ogive"
+    ],
+    "question": "Write the cumulative frequency table for: 0-5 (f=2), 5-10 (f=3), 10-15 (f=5), 15-20 (f=4).",
+    "hint": "cf = running total: 2, 2+3, 2+3+5, ...",
+    "expected_answer": "cf: 2, 5, 10, 14. Less-than ogive points: (5,2), (10,5), (15,10), (20,14)."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.stats.ogive"
+    ],
+    "question": "In a less-than ogive, what do the following points represent? (20, 35) and (30, 62).",
+    "hint": "The x is the upper class boundary. The y is the cumulative frequency up to that boundary.",
+    "expected_answer": "(20, 35) means 35 observations have values less than 20. (30, 62) means 62 observations have values less than 30. So frequency in 20-30 = 62 − 35 = 27."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.stats.ogive"
+    ],
+    "question": "From a 'less than' ogive, the median corresponds to n/2. If n = 80, at what cumulative frequency should you read the median from the graph?",
+    "hint": "n/2 = 40. Draw a horizontal line at cf = 40.",
+    "expected_answer": "Draw horizontal at y = 40. Where it meets the ogive, drop a vertical to x-axis. That x-value is the median."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.stats.ogive"
+    ],
+    "question": "A 'more than' ogive and 'less than' ogive intersect at (28, 25). If total frequency = 50, what is the median?",
+    "hint": "The intersection point of the two ogives gives the median.",
+    "expected_answer": "The intersection point's x-coordinate = median = 28. The y-coordinate (25) equals n/2 = 50/2 = 25, confirming that this is indeed the median point."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.stats.ogive"
+    ],
+    "question": "From a less-than ogive with n = 100, the graph passes through (30, 25) and (40, 75). Estimate the interquartile range.",
+    "hint": "Q₁ is at n/4 = 25 → x ≈ 30. Q₃ is at 3n/4 = 75 → x ≈ 40. IQR = Q₃ − Q₁.",
+    "expected_answer": "Q₁: at cf = 25, x = 30. Q₃: at cf = 75, x = 40. IQR = Q₃ − Q₁ = 40 − 30 = 10."
+  }
+]

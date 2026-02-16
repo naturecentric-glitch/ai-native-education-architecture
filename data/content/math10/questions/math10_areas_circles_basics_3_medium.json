@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.areas_circles.basics"
+    ],
+    "question": "Find the area and circumference of a circle with radius 14 cm. (Use π = 22/7)",
+    "hint": "Area = πr², Circumference = 2πr.",
+    "expected_answer": "Area = 22/7 × 14² = 22/7 × 196 = 616 cm². Circumference = 2 × 22/7 × 14 = 88 cm."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.areas_circles.basics"
+    ],
+    "question": "The circumference of a circle is 44 cm. Find its area.",
+    "hint": "2πr = 44 → r = 44/(2π).",
+    "expected_answer": "2πr = 44 → r = 44/(2 × 22/7) = 44 × 7/44 = 7 cm. Area = 22/7 × 49 = 154 cm²."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.areas_circles.basics"
+    ],
+    "question": "A circular park of radius 20 m has a path 5 m wide around it. Find the area of the path.",
+    "hint": "Path area = Area of outer circle − Area of inner circle.",
+    "expected_answer": "Outer radius = 25 m. Path area = π(25)² − π(20)² = π(625 − 400) = 225π ≈ 225 × 3.14 = 706.5 m²."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.areas_circles.basics"
+    ],
+    "question": "The minute hand of a clock is 14 cm long. Find the area swept by it in 5 minutes.",
+    "hint": "In 5 minutes, the minute hand sweeps 5/60 × 360° = 30°. Area swept = sector area.",
+    "expected_answer": "Angle = 30°. Area = (30/360) × πr² = (1/12) × 22/7 × 196 = (1/12) × 616 = 154/3 ≈ 51.33 cm²."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.areas_circles.basics"
+    ],
+    "question": "A wire of length 44 cm is bent into a circle, then re-bent into a square. Which encloses more area and by how much?",
+    "hint": "Circle: 2πr = 44 → r = 7. Square: 4s = 44 → s = 11.",
+    "expected_answer": "Circle: r = 7, area = 154 cm². Square: s = 11, area = 121 cm². Circle encloses more by 154 − 121 = 33 cm². (A circle always encloses the maximum area for a given perimeter!)"
+  }
+]

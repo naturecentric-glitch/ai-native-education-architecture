@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.35,
-    "question": "State and explain the key concept: Terminating decimal: q has only factors of 2 and 5 (q = 2ⁿ × 5ᵐ).",
-    "hint": "Think about the definition and main formula related to Decimal Expansions of Rationals.",
-    "expected_answer": "This tests understanding of: Terminating decimal: q has only factors of 2 and 5 (q = 2ⁿ × 5ᵐ). Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Decimal Expansions of Rationals"
-    ]
+      "math10.real_numbers.decimal_expansions"
+    ],
+    "question": "Without dividing, determine which of the following has a terminating decimal: (a) 7/16  (b) 3/11  (c) 9/40",
+    "hint": "Factor each denominator. Terminating ⟺ only 2s and 5s.",
+    "expected_answer": "(a) 16 = 2⁴ → only 2s → Terminating. (b) 11 is prime (not 2 or 5) → Non-terminating repeating. (c) 40 = 2³ × 5 → only 2s and 5s → Terminating."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.44999999999999996,
-    "question": "Solve an NCERT example problem related to 'Decimal Expansions of Rationals'. Show all steps clearly.",
-    "hint": "Review the key ideas: Terminating decimal: q has only factors of 2 and 5 (q = 2ⁿ × 5ᵐ), Non-terminating repeating: q has prime factors other than 2 and 5.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Decimal Expansions of Rationals. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Decimal Expansions of Rationals"
-    ]
+      "math10.real_numbers.decimal_expansions"
+    ],
+    "question": "Express 13/3125 in decimal form without long division.",
+    "hint": "3125 = 5⁵. Multiply top and bottom to make denominator a power of 10.",
+    "expected_answer": "3125 = 5⁵. Multiply by 2⁵/2⁵: 13 × 32 / (5⁵ × 2⁵) = 416 / 10⁵ = 416/100000 = 0.00416."
   },
   {
     "id": 3,
-    "type": "transfer_task",
+    "type": "word_problem",
     "difficulty": 0.5,
-    "question": "How would you apply 'Decimal Expansions of Rationals' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where decimal expansions of rationals concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Decimal Expansions of Rationals.",
     "concepts_tested": [
-      "Decimal Expansions of Rationals",
-      "Real-world application"
-    ]
+      "math10.real_numbers.decimal_expansions"
+    ],
+    "question": "Simplify 14/350 and determine if its decimal expansion terminates.",
+    "hint": "Find GCD(14, 350) first, reduce, then check the denominator.",
+    "expected_answer": "GCD(14, 350) = 14. So 14/350 = 1/25. 25 = 5² → only 5s → Terminates. In fact, 1/25 = 4/100 = 0.04."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.real_numbers.decimal_expansions"
+    ],
+    "question": "After how many decimal places will 23/(2³ × 5²) terminate?",
+    "hint": "Make the denominator a power of 10. Which exponent is larger, the 2 or the 5?",
+    "expected_answer": "Denominator = 2³ × 5² = 8 × 25 = 200. To make 10ⁿ, we need 2³ × 5³ = 1000. Multiply top and bottom by 5: 23×5/1000 = 115/1000 = 0.115. Terminates after 3 decimal places."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.75,
+    "concepts_tested": [
+      "math10.real_numbers.decimal_expansions"
+    ],
+    "question": "The decimal expansion of p/q (in lowest terms) terminates after exactly 4 decimal places. What conditions must q satisfy? Give an example.",
+    "hint": "Terminating after 4 places means p/q = m/10⁴ for some integer m. So q must divide 10⁴.",
+    "expected_answer": "If it terminates after exactly 4 places, q must divide 10⁴ = 2⁴ × 5⁴. So q = 2ᵃ × 5ᵇ where max(a,b) = 4. Example: q = 625 = 5⁴. Then 1/625 = 16/10000 = 0.0016 (exactly 4 places)."
   }
 ]

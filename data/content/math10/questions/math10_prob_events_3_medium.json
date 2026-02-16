@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.prob.events"
+    ],
+    "question": "The probability of an event is 0.75. What is the probability of its complementary event?",
+    "hint": "P(complement) = 1 − P(event).",
+    "expected_answer": "P(complement) = 1 − 0.75 = 0.25."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.prob.events"
+    ],
+    "question": "Which of the following can be the probability of an event? (a) −0.3 (b) 1.2 (c) 0 (d) 3/5 (e) 7/6.",
+    "hint": "0 ≤ P(E) ≤ 1.",
+    "expected_answer": "Valid: (c) 0 and (d) 3/5 = 0.6. Invalid: (a) negative, (b) > 1, (e) 7/6 > 1."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.prob.events"
+    ],
+    "question": "A game gives you P(winning) = 0.3 and P(losing) = 0.6. What is the probability of a draw?",
+    "hint": "P(win) + P(lose) + P(draw) = 1.",
+    "expected_answer": "P(draw) = 1 − 0.3 − 0.6 = 0.1."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.prob.events"
+    ],
+    "question": "A box has 100 bulbs, 12 of which are defective. What is P(getting a non-defective bulb)? If 5 more defective bulbs are added, what is the new probability?",
+    "hint": "P(non-defective) = 1 − P(defective). After addition, total = 105, defective = 17.",
+    "expected_answer": "Original: P(non-defective) = 88/100 = 0.88. After: P(non-defective) = (100−12)/(100+5) = 88/105 ≈ 0.838. Wait — 5 more defective added: defective = 17, total = 105. P(non-defective) = 88/105 ≈ 0.838."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.prob.events"
+    ],
+    "question": "Three coins are tossed. Using the complement rule, find P(at least one head).",
+    "hint": "P(at least 1 head) = 1 − P(no heads) = 1 − P(all tails).",
+    "expected_answer": "Total outcomes = 8 (HHH, HHT, HTH, HTT, THH, THT, TTH, TTT). P(all tails) = 1/8. P(at least 1 head) = 1 − 1/8 = 7/8."
+  }
+]

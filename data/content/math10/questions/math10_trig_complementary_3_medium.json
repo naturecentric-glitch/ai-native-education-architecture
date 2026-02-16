@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.trig.complementary"
+    ],
+    "question": "Evaluate: cos 48° − sin 42°.",
+    "hint": "48° + 42° = 90°. So cos 48° = sin 42°.",
+    "expected_answer": "cos 48° = sin(90°−48°) = sin 42°. So cos 48° − sin 42° = 0."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.trig.complementary"
+    ],
+    "question": "If tan 2A = cot(A − 18°), find A (where 2A is acute).",
+    "hint": "tan θ = cot(90°−θ). So 2A and (A−18°) are complementary: 2A + (A−18°) = 90°.",
+    "expected_answer": "2A + A − 18° = 90° → 3A = 108° → A = 36°."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.trig.complementary"
+    ],
+    "question": "Express sec 70° + cosec 20° in terms of trigonometric ratios of angles between 0° and 45°.",
+    "hint": "sec 70° = cosec(90°−70°) = cosec 20°. But wait — we need angles < 45°.",
+    "expected_answer": "sec 70° = cosec 20°. So sec 70° + cosec 20° = 2 cosec 20°. To express in terms of < 45°: cosec 20° = sec 70° = sec 70°. 20° is already < 45°, so: 2 cosec 20°."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.trig.complementary"
+    ],
+    "question": "Prove: (cos 80°)/(sin 10°) + cos 59° · cosec 31° = 2.",
+    "hint": "cos 80° = sin 10° (since 80°+10°=90°). cosec 31° = sec 59° (since 31°+59°=90°).",
+    "expected_answer": "cos 80° = sin 10° → cos 80°/sin 10° = 1. cos 59° · cosec 31° = cos 59° · sec 59° (since cosec 31° = sec(90°−31°) = sec 59°). Wait: cosec 31° = 1/sin 31° = 1/cos 59°. So cos 59°/cos 59° = 1. Total = 1 + 1 = 2. ∎"
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.trig.complementary"
+    ],
+    "question": "If sin 3A = cos(A − 26°), find A (where 3A is acute).",
+    "hint": "sin θ = cos(90°−θ). So 3A and (A−26°) should sum to 90°.",
+    "expected_answer": "sin 3A = cos(90°−3A). So cos(90°−3A) = cos(A−26°). Therefore 90°−3A = A−26° → 116° = 4A → A = 29°. Check: sin 87° = cos 3° ✓ (87°+3° = 90°)."
+  }
+]

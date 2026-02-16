@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.sa_vol.conversion"
+    ],
+    "question": "A solid sphere of radius 3 cm is melted and recast into small spheres of radius 1 cm each. How many small spheres are formed?",
+    "hint": "n × Volume of small = Volume of big. n × (4/3)π(1)³ = (4/3)π(3)³.",
+    "expected_answer": "n = (3)³/(1)³ = 27 small spheres."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.sa_vol.conversion"
+    ],
+    "question": "A cylinder of radius 7 cm and height 10 cm is melted into a cone of radius 7 cm. Find the height of the cone.",
+    "hint": "πr²h = ⅓πr²H → H = 3h.",
+    "expected_answer": "π(49)(10) = (1/3)π(49)H → H = 30 cm."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.sa_vol.conversion"
+    ],
+    "question": "How many coins of diameter 1.75 cm and thickness 2 mm must be melted to form a cuboid of dimensions 5.5 cm × 10 cm × 3.5 cm?",
+    "hint": "Volume of cuboid / Volume of one coin. Coin is a cylinder: r = 0.875 cm, h = 0.2 cm.",
+    "expected_answer": "Cuboid: 5.5 × 10 × 3.5 = 192.5 cm³. Coin: π(0.875)²(0.2) = 22/7 × 0.765625 × 0.2 = 0.48125 cm³. n = 192.5/0.48125 = 400 coins."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.sa_vol.conversion"
+    ],
+    "question": "Water is flowing through a cylindrical pipe of internal radius 1 cm at 7 m/s. How much water (in litres) flows out in 30 minutes?",
+    "hint": "In 1 second, a 'cylinder' of water 700 cm long flows out. Volume per second = πr²(700). 1 litre = 1000 cm³.",
+    "expected_answer": "Rate = π(1)²(700) = 700π cm³/s = 700 × 22/7 = 2200 cm³/s. In 30 min = 1800 s: Volume = 2200 × 1800 = 3,960,000 cm³ = 3960 litres."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.sa_vol.conversion"
+    ],
+    "question": "A well of diameter 3 m is dug 14 m deep. The earth taken out is spread evenly around the well, forming a ring-shaped embankment 4 m wide. Find the height of the embankment.",
+    "hint": "Volume of earth = π(1.5)²(14). Embankment is a ring: outer radius = 1.5+4 = 5.5. Area of ring = π(5.5²−1.5²).",
+    "expected_answer": "Volume dug = π(1.5)²(14) = π(2.25)(14) = 31.5π m³. Ring area = π(5.5² − 1.5²) = π(30.25 − 2.25) = 28π m². Height = Volume/Area = 31.5π/(28π) = 1.125 m = 1.125 m."
+  }
+]

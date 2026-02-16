@@ -18,6 +18,7 @@ from src.gemini_engine import (
 )
 from src.content_cache import cache as content_cache
 
+import json
 import logging
 _log = logging.getLogger(__name__)
 
@@ -334,4 +335,136 @@ def tool_get_concept(course_id: str, concept_id: str) -> dict:
         "bloom_level": concept.bloom_level,
         "prerequisites": [{"id": p.concept_id, "title": p.title} for p in prerequisites],
         "unlocks": [{"id": d.concept_id, "title": d.title} for d in dependents],
+    }
+
+
+# ── Tool: Get Placement Test ────────────────────────────────────────────────
+
+def tool_get_placement_test(course_id: str) -> dict:
+    """Get the placement/diagnostic test for a course.
+
+    Returns one hard question per chapter. If a student answers correctly,
+    they can skip the entire chapter.
+    """
+    from src.config import CONTENT_DIR
+    placement_path = CONTENT_DIR / course_id / "placement.json"
+    if not placement_path.exists():
+        return {"error": f"No placement test for course {course_id}"}
+
+    with open(placement_path) as f:
+        placement = json.load(f)
+
+    return {
+        "course_id": course_id,
+        "description": "Answer the hardest question per chapter. Get it right → skip the chapter!",
+        "chapters": placement,
+    }
+
+
+# ── Tool: Skip Chapter (Placement Result) ───────────────────────────────────
+
+def tool_skip_chapter(
+    student_id: str,
+    course_id: str,
+    chapter_id: str,
+    passed: bool,
+) -> dict:
+    """Mark all concepts in a chapter as mastered (if the student passed the
+    placement diagnostic) or leave them untouched (if they didn't).
+
+    Returns the list of concepts unlocked.
+    """
+    try:
+        tree = _mgr.get_tree(course_id)
+    except ValueError as e:
+        return {"error": str(e)}
+
+    store = _mgr.store
+
+    # Find concepts in this chapter
+    chapter_concepts = tree.get_concepts_for_chapter(chapter_id)
+    if not chapter_concepts:
+        return {"error": f"Chapter {chapter_id} not found in {course_id}"}
+
+    if not passed:
+        return {
+            "course_id": course_id,
+            "chapter_id": chapter_id,
+            "skipped": False,
+            "message": "Keep going — you'll master this chapter step by step!",
+            "concepts_affected": [],
+        }
+
+    # Mark every concept in this chapter as mastered (mastery=0.85)
+    unlocked = []
+    for concept in chapter_concepts:
+        store.update_mastery(
+            student_id=student_id,
+            concept_id=concept.concept_id,
+            mastery_level=0.85,
+            time_spent=0.0,
+        )
+        unlocked.append({
+            "concept_id": concept.concept_id,
+            "title": concept.title,
+        })
+
+    return {
+        "course_id": course_id,
+        "chapter_id": chapter_id,
+        "skipped": True,
+        "message": f"🎉 Chapter skipped! {len(unlocked)} concepts marked as mastered.",
+        "concepts_affected": unlocked,
+    }
+
+
+# ── Tool: Get Prerequisites Help ────────────────────────────────────────────
+
+def tool_get_prerequisites_help(
+    student_id: str,
+    course_id: str,
+    concept_id: str,
+) -> dict:
+    """Check which prerequisites a student is missing for a concept and
+    return a study plan to get them ready.
+    """
+    try:
+        tree = _mgr.get_tree(course_id)
+    except ValueError as e:
+        return {"error": str(e)}
+
+    concept = tree.get_concept(concept_id)
+    if not concept:
+        return {"error": f"Concept {concept_id} not found in {course_id}"}
+
+    store = _mgr.store
+    student = store.get_or_create_student(student_id)
+
+    met = []
+    missing = []
+    for prereq_id in concept.prerequisites:
+        node = student.mastery_nodes.get(prereq_id)
+        mastery = node.mastery_level if node else 0.0
+        prereq_concept = tree.get_concept(prereq_id)
+        entry = {
+            "concept_id": prereq_id,
+            "title": prereq_concept.title if prereq_concept else prereq_id,
+            "mastery": mastery,
+        }
+        if mastery >= 0.6:
+            met.append(entry)
+        else:
+            missing.append(entry)
+
+    # Sort missing by difficulty (easiest first — natural study order)
+    missing.sort(key=lambda x: x.get("mastery", 0))
+
+    return {
+        "course_id": course_id,
+        "concept_id": concept_id,
+        "concept_title": concept.title,
+        "prerequisites_met": met,
+        "prerequisites_missing": missing,
+        "ready": len(missing) == 0,
+        "study_plan": [m["concept_id"] for m in missing],
     }

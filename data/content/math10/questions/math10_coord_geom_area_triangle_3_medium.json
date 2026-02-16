@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.coord_geom.area_triangle"
+    ],
+    "question": "Find the area of the triangle with vertices (0, 0), (4, 0), (0, 3).",
+    "hint": "Apply the coordinate area formula, or note this is a right triangle.",
+    "expected_answer": "Area = ½|0(0−3) + 4(3−0) + 0(0−0)| = ½|0+12+0| = 6. (Or: ½ × base × height = ½ × 4 × 3 = 6.)"
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.coord_geom.area_triangle"
+    ],
+    "question": "Find the area of the triangle with vertices (2, 3), (−1, 0), (2, −4).",
+    "hint": "Area = ½|x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|.",
+    "expected_answer": "= ½|2(0+4) + (−1)(−4−3) + 2(3−0)| = ½|8 + 7 + 6| = ½(21) = 10.5 sq units."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.coord_geom.area_triangle"
+    ],
+    "question": "For what value of k are the points (7, −2), (5, 1), and (3, k) collinear?",
+    "hint": "Collinear means area = 0. Set the area formula to 0 and solve for k.",
+    "expected_answer": "0 = ½|7(1−k) + 5(k+2) + 3(−2−1)|. 7−7k+5k+10−9 = 0. −2k+8 = 0. k = 4."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.coord_geom.area_triangle"
+    ],
+    "question": "Find the area of the quadrilateral with vertices A(1,1), B(7,−3), C(12,2), D(7,21) by splitting into two triangles.",
+    "hint": "Split along diagonal AC: Area = Area(△ABC) + Area(△ACD).",
+    "expected_answer": "△ABC: ½|1(−3−2)+7(2−1)+12(1+3)| = ½|−5+7+48| = 25. △ACD: ½|1(2−21)+12(21−1)+7(1−2)| = ½|−19+240−7| = ½(214) = 107. Total = 25+107 = 132 sq units."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.coord_geom.area_triangle"
+    ],
+    "question": "If A(2, 1), B(6, 1), C(6, 5) are three vertices of a parallelogram ABCD, find vertex D and the area of the parallelogram.",
+    "hint": "In a parallelogram, midpoints of diagonals are the same. Midpoint of AC = midpoint of BD.",
+    "expected_answer": "Midpoint AC = ((2+6)/2, (1+5)/2) = (4, 3). If D = (x,y), midpoint BD = ((6+x)/2, (1+y)/2) = (4,3). So x = 2, y = 5. D = (2, 5). Area of parallelogram = 2 × Area(△ABC) = 2 × ½|2(1−5)+6(5−1)+6(1−1)| = |−8+24+0| = 16 sq units."
+  }
+]

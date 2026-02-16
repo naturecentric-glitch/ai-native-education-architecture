@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.5,
-    "question": "State and explain the key concept: Area(△ABC)/Area(△DEF) = (AB/DE)² = (BC/EF)² = (CA/FD)².",
-    "hint": "Think about the definition and main formula related to Areas of Similar Triangles.",
-    "expected_answer": "This tests understanding of: Area(△ABC)/Area(△DEF) = (AB/DE)² = (BC/EF)² = (CA/FD)². Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Areas of Similar Triangles"
-    ]
+      "math10.triangles10.areas_similar"
+    ],
+    "question": "△ABC ~ △DEF with sides in ratio 3:5. If Area(△ABC) = 36 cm², find Area(△DEF).",
+    "hint": "Area ratio = (side ratio)² = (3/5)² = 9/25.",
+    "expected_answer": "36/Area(DEF) = 9/25 → Area(DEF) = 36 × 25/9 = 100 cm²."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.6,
-    "question": "Solve an NCERT example problem related to 'Areas of Similar Triangles'. Show all steps clearly.",
-    "hint": "Review the key ideas: Area(△ABC)/Area(△DEF) = (AB/DE)² = (BC/EF)² = (CA/FD)², Also equals (altitude₁/altitude₂)² and (median₁/median₂)².",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Areas of Similar Triangles. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Areas of Similar Triangles"
-    ]
+      "math10.triangles10.areas_similar"
+    ],
+    "question": "The areas of two similar triangles are 81 cm² and 49 cm². If the altitude of the larger triangle is 63 cm, find the corresponding altitude of the smaller.",
+    "hint": "Altitude ratio = √(area ratio).",
+    "expected_answer": "Altitude ratio = √(49/81) = 7/9. Altitude = 63 × 7/9 = 49 cm."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.65,
-    "question": "How would you apply 'Areas of Similar Triangles' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where areas of similar triangles concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Areas of Similar Triangles.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Areas of Similar Triangles",
-      "Real-world application"
-    ]
+      "math10.triangles10.areas_similar"
+    ],
+    "question": "In △ABC, DE ∥ BC with AD/DB = 1/2. Find Area(△ADE)/Area(△ABC).",
+    "hint": "△ADE ~ △ABC. AD/AB = 1/(1+2) = 1/3.",
+    "expected_answer": "AD/AB = 1/3. Area ratio = (1/3)² = 1/9. So Area(△ADE) = (1/9) × Area(△ABC)."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.triangles10.areas_similar"
+    ],
+    "question": "△ABC ~ △DEF. Area(△ABC) = 225 cm², Area(△DEF) = 81 cm². If median BM of △ABC is 15 cm, find the corresponding median EN of △DEF.",
+    "hint": "Median ratio = side ratio = √(area ratio).",
+    "expected_answer": "Side ratio = √(81/225) = 9/15 = 3/5. Median EN/BM = 3/5. EN = 15 × 3/5 = 9 cm."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.triangles10.areas_similar"
+    ],
+    "question": "Prove that the area of an equilateral triangle with side 2a is √3 a². Then find the ratio of areas of two equilateral triangles with sides 3 cm and 5 cm.",
+    "hint": "Area of equilateral △ = (√3/4)×side². For sides 3 and 5: ratio = (3/5)².",
+    "expected_answer": "Area = (√3/4)(2a)² = (√3/4)(4a²) = √3 a². Ratio of areas = (3/5)² = 9/25. (Or: Area₁ = (√3/4)×9 = 9√3/4, Area₂ = (√3/4)×25 = 25√3/4. Ratio = 9/25.)"
   }
 ]

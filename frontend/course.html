@@ -357,6 +357,94 @@
             .container { grid-template-columns: 1fr; }
             .sidebar { position: static; max-height: none; }
         }
+
+        /* ── Placement Test ─────────────────────────────────── */
+        .placement-banner {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin-bottom: 1.25rem;
+            text-align: center;
+        }
+        .placement-banner h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .placement-banner p { font-size: 0.85rem; opacity: 0.9; max-width: 500px; margin: 0 auto 1rem; }
+        .placement-chapter {
+            background: var(--card);
+            border-radius: var(--radius);
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .placement-chapter-header {
+            padding: 1rem 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #F8F9FA;
+            border-bottom: 1px solid var(--border);
+        }
+        .placement-chapter-header .ch-title { font-weight: 600; font-size: 0.95rem; }
+        .placement-chapter-header .ch-result {
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+        }
+        .ch-result.passed { background: #E8F5E9; color: #2E7D32; }
+        .ch-result.failed { background: #FFF3E0; color: #E65100; }
+        .ch-result.pending { background: #E3F2FD; color: #1565C0; }
+        .placement-question-body {
+            padding: 1.25rem;
+        }
+        .placement-question-body .q-text {
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+        .placement-progress {
+            display: flex;
+            gap: 6px;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+        .placement-progress .dot {
+            width: 10px; height: 10px;
+            border-radius: 50%;
+            background: var(--border);
+            transition: background 0.3s;
+        }
+        .placement-progress .dot.done { background: var(--success); }
+        .placement-progress .dot.current { background: var(--primary); }
+        .placement-progress .dot.skipped { background: var(--warning); }
+
+        /* ── Prereq Help ────────────────────────────────────── */
+        .prereq-card {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            background: #FAFBFC;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .prereq-card:hover { background: #EEF2F7; }
+        .prereq-card .prereq-icon { font-size: 1.2rem; }
+        .prereq-card .prereq-info { flex: 1; }
+        .prereq-card .prereq-title { font-weight: 600; font-size: 0.85rem; }
+        .prereq-card .prereq-mastery {
+            font-size: 0.75rem;
+            color: var(--text-light);
+        }
+        .prereq-bar {
+            width: 60px; height: 6px;
+            background: var(--border);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .prereq-bar .fill { height: 100%; border-radius: 3px; transition: width 0.3s; }
     </style>
 </head>
 <body>
@@ -401,6 +489,12 @@
             <div class="card welcome">
                 <h2 id="welcomeHeading">👋 Welcome!</h2>
                 <p id="welcomeDesc">Pick a topic from the sidebar, or start with one of my recommendations below!</p>
+                <div class="btn-group" style="justify-content:center">
+                    <button class="btn btn-primary" onclick="startPlacementTest()" id="placementBtn">🎯 Take Placement Test</button>
+                </div>
+                <p style="font-size:0.75rem;color:var(--text-light);margin-top:0.5rem" id="placementHint">
+                    Already know some chapters? Skip ahead by proving your knowledge!
+                </p>
             </div>
             <div class="card">
                 <h3>🚀 Recommended for You</h3>
@@ -408,6 +502,17 @@
                     <!-- Loaded dynamically -->
                 </div>
             </div>
+        </div>
+
+        <!-- Placement Test View (hidden by default) -->
+        <div id="placementView" style="display:none">
+            <div class="placement-banner">
+                <h3>🎯 Placement Test</h3>
+                <p>Answer one tough question per chapter. Get it right → skip the whole chapter!</p>
+                <div class="placement-progress" id="placementProgress"></div>
+            </div>
+            <div id="placementQuestions"></div>
+            <div id="placementSummary" style="display:none"></div>
         </div>
 
         <!-- Concept View (hidden by default) -->
@@ -438,7 +543,7 @@
                 <div class="btn-group">
                     <button class="btn btn-primary" onclick="startLesson()">📖 Learn This</button>
                     <button class="btn btn-success" onclick="startPractice()">✏️ Practice</button>
-                    <button class="btn btn-outline" onclick="showConceptMap()">🗺️ Prerequisites</button>
+                    <button class="btn btn-outline" onclick="showPrerequisitesHelp()">🗺️ Prerequisites</button>
                 </div>
             </div>
 
@@ -493,6 +598,15 @@ async function init() {
         renderSidebar(curriculum);
         renderStudentHeader(student);
         renderRecommendations(student);
+
+        // Check if placement test exists for this course
+        try {
+            await fetchAPI(`${API_BASE}/placement`);
+        } catch {
+            // No placement test — hide the button
+            document.getElementById('placementBtn').style.display = 'none';
+            document.getElementById('placementHint').style.display = 'none';
+        }
     } catch (e) {
         console.error('Init failed:', e);
         document.getElementById('welcomeHeading').textContent = '❌ Failed to load course';
@@ -590,6 +704,7 @@ function renderRecommendations(student) {
 async function selectConcept(conceptId) {
     showLoading(true);
     document.getElementById('welcomeScreen').style.display = 'none';
+    document.getElementById('placementView').style.display = 'none';
     document.getElementById('conceptView').style.display = 'block';
     document.getElementById('lessonArea').style.display = 'none';
     document.getElementById('practiceArea').style.display = 'none';
@@ -859,6 +974,228 @@ function showConceptMap() {
     html += '</div>';
     area.innerHTML = html;
     area.style.display = 'block';
+}
+
+// ── Placement Test ──────────────────────────────────────────────────────────
+let placementData = null;
+let placementResults = {};  // chapter_id -> { passed: bool }
+
+async function startPlacementTest() {
+    document.getElementById('welcomeScreen').style.display = 'none';
+    document.getElementById('conceptView').style.display = 'none';
+    const view = document.getElementById('placementView');
+    view.style.display = 'block';
+    showLoading(true);
+
+    try {
+        placementData = await fetchAPI(`${API_BASE}/placement`);
+        placementResults = {};
+        renderPlacementTest();
+    } catch (e) {
+        console.error(e);
+        view.innerHTML = '<div class="card"><p>❌ No placement test available for this course. Start learning from the sidebar!</p></div>';
+    }
+    showLoading(false);
+}
+
+function renderPlacementTest() {
+    const chapters = placementData.chapters;
+
+    // Progress dots
+    const progress = document.getElementById('placementProgress');
+    progress.innerHTML = chapters.map((ch, i) =>
+        `<div class="dot ${placementResults[ch.chapter_id] !== undefined ? (placementResults[ch.chapter_id].passed ? 'done' : 'skipped') : 'current'}" title="${ch.chapter_title}"></div>`
+    ).join('');
+
+    // Question cards
+    const container = document.getElementById('placementQuestions');
+    container.innerHTML = '';
+
+    chapters.forEach((ch, i) => {
+        const result = placementResults[ch.chapter_id];
+        const div = document.createElement('div');
+        div.className = 'placement-chapter';
+
+        const statusLabel = result === undefined ? 'Pending' : result.passed ? '✅ Skipped!' : '📝 Study this';
+        const statusClass = result === undefined ? 'pending' : result.passed ? 'passed' : 'failed';
+
+        div.innerHTML = `
+            <div class="placement-chapter-header">
+                <span class="ch-title">Ch ${i + 1}. ${ch.chapter_title}</span>
+                <span class="ch-result ${statusClass}">${statusLabel}</span>
+            </div>
+            ${result === undefined ? `
+                <div class="placement-question-body">
+                    <div class="q-text"><strong>Diagnostic:</strong> ${ch.question.question}</div>
+                    ${ch.question.hint ? `<div class="hint-text" id="placement-hint-${i}">💡 ${ch.question.hint}</div>` : ''}
+                    <textarea id="placement-answer-${i}" placeholder="Type your answer..." style="width:100%;min-height:70px;border:1px solid var(--border);border-radius:6px;padding:0.75rem;font-size:0.88rem;font-family:inherit;resize:vertical;margin-bottom:0.5rem"></textarea>
+                    <div class="btn-group">
+                        <button class="btn btn-primary" onclick="submitPlacementAnswer(${i}, '${ch.chapter_id}')">Submit</button>
+                        ${ch.question.hint ? `<button class="btn btn-outline" onclick="document.getElementById('placement-hint-${i}').classList.toggle('show')">Hint</button>` : ''}
+                        <button class="btn btn-outline" onclick="skipPlacementQuestion(${i}, '${ch.chapter_id}')">Skip (I need to learn this)</button>
+                    </div>
+                </div>
+            ` : ''}
+        `;
+        container.appendChild(div);
+    });
+
+    // Check if all done
+    if (Object.keys(placementResults).length === chapters.length) {
+        showPlacementSummary();
+    }
+}
+
+async function submitPlacementAnswer(index, chapterId) {
+    const answer = document.getElementById(`placement-answer-${index}`)?.value?.trim();
+    if (!answer) { alert('Please write your answer first!'); return; }
+
+    const ch = placementData.chapters[index];
+
+    // Evaluate the answer via the /evaluate endpoint
+    showLoading(true);
+    try {
+        const result = await fetchAPI(`${API_BASE}/evaluate`, {
+            method: 'POST',
+            body: JSON.stringify({
+                student_id: STUDENT_ID,
+                concept_id: ch.concept_id,
+                question: ch.question.question,
+                answer: answer,
+            }),
+        });
+
+        const score = result.evaluation?.mastery_score || 0;
+        const passed = score >= 0.6;
+
+        // If passed, skip the whole chapter
+        if (passed) {
+            await fetchAPI(`${API_BASE}/skip`, {
+                method: 'POST',
+                body: JSON.stringify({ student_id: STUDENT_ID, chapter_id: chapterId, passed: true }),
+            });
+        }
+
+        placementResults[chapterId] = { passed, score };
+        renderPlacementTest();
+    } catch (e) {
+        console.error(e);
+        alert('Evaluation failed. Try again!');
+    }
+    showLoading(false);
+}
+
+function skipPlacementQuestion(index, chapterId) {
+    placementResults[chapterId] = { passed: false, score: 0 };
+    renderPlacementTest();
+}
+
+function showPlacementSummary() {
+    const summary = document.getElementById('placementSummary');
+    const chapters = placementData.chapters;
+    const skipped = chapters.filter(ch => placementResults[ch.chapter_id]?.passed).length;
+    const toStudy = chapters.length - skipped;
+
+    summary.style.display = 'block';
+    summary.innerHTML = `
+        <div class="card" style="text-align:center;padding:2rem">
+            <h2>🎉 Placement Complete!</h2>
+            <p style="margin:1rem 0;font-size:1.1rem;">
+                <strong style="color:var(--success)">${skipped} chapter${skipped !== 1 ? 's' : ''} skipped</strong> · 
+                <strong style="color:var(--primary)">${toStudy} chapter${toStudy !== 1 ? 's' : ''} to study</strong>
+            </p>
+            <p style="color:var(--text-light);margin-bottom:1.5rem">
+                ${skipped > 0 ? "Great job! You already know some material. Let's focus on what's new!" : "No worries — you'll master everything step by step!"}
+            </p>
+            <button class="btn btn-primary" onclick="finishPlacement()">🚀 Start Learning</button>
+        </div>
+    `;
+}
+
+async function finishPlacement() {
+    document.getElementById('placementView').style.display = 'none';
+    document.getElementById('welcomeScreen').style.display = 'block';
+
+    // Refresh student data to reflect skipped chapters
+    studentData = await fetchAPI(`${API_BASE}/students/${STUDENT_ID}`);
+    renderStudentHeader(studentData);
+    renderSidebar(curriculumData);
+    renderRecommendations(studentData);
+}
+
+// ── Prerequisites Help ──────────────────────────────────────────────────────
+async function showPrerequisitesHelp() {
+    if (!currentConcept) return;
+    const area = document.getElementById('lessonArea');
+    document.getElementById('practiceArea').style.display = 'none';
+    showLoading(true);
+
+    try {
+        const result = await fetchAPI(`${API_BASE}/concepts/${currentConcept.concept_id}/prerequisites?student_id=${STUDENT_ID}`);
+
+        let html = '<div class="card"><h2>🗺️ Prerequisites</h2>';
+
+        if (result.ready) {
+            html += '<p style="color:var(--success);margin:1rem 0;font-weight:600">✅ All prerequisites met — you\'re ready to learn this!</p>';
+        } else {
+            html += `<p style="margin:1rem 0;color:var(--text-light)">You need to study these first before tackling <strong>${result.concept_title}</strong>:</p>`;
+            html += '<h3 style="margin:1rem 0 0.5rem;color:var(--danger)">❌ Need to Learn</h3>';
+            for (const m of result.prerequisites_missing) {
+                const pct = Math.round(m.mastery * 100);
+                const color = pct >= 60 ? 'var(--success)' : pct > 0 ? 'var(--warning)' : 'var(--border)';
+                html += `
+                    <div class="prereq-card" onclick="selectConcept('${m.concept_id}')">
+                        <span class="prereq-icon">📕</span>
+                        <div class="prereq-info">
+                            <div class="prereq-title">${m.title}</div>
+                            <div class="prereq-mastery">Mastery: ${pct}%</div>
+                        </div>
+                        <div class="prereq-bar"><div class="fill" style="width:${pct}%;background:${color}"></div></div>
+                    </div>
+                `;
+            }
+        }
+
+        if (result.prerequisites_met.length > 0) {
+            html += '<h3 style="margin:1rem 0 0.5rem;color:var(--success)">✅ Already Mastered</h3>';
+            for (const m of result.prerequisites_met) {
+                const pct = Math.round(m.mastery * 100);
+                html += `
+                    <div class="prereq-card" onclick="selectConcept('${m.concept_id}')">
+                        <span class="prereq-icon">✅</span>
+                        <div class="prereq-info">
+                            <div class="prereq-title">${m.title}</div>
+                            <div class="prereq-mastery">Mastery: ${pct}%</div>
+                        </div>
+                        <div class="prereq-bar"><div class="fill" style="width:${pct}%;background:var(--success)"></div></div>
+                    </div>
+                `;
+            }
+        }
+
+        if (currentConcept.unlocks && currentConcept.unlocks.length > 0) {
+            html += '<h3 style="margin:1rem 0 0.5rem">🔓 Unlocks After Mastery</h3>';
+            for (const u of currentConcept.unlocks) {
+                html += `
+                    <div class="prereq-card" onclick="selectConcept('${u.id}')">
+                        <span class="prereq-icon">🔒</span>
+                        <div class="prereq-info">
+                            <div class="prereq-title">${u.title}</div>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        html += '</div>';
+        area.innerHTML = html;
+        area.style.display = 'block';
+    } catch (e) {
+        console.error(e);
+        // Fallback to the simple concept map
+        showConceptMap();
+    }
+    showLoading(false);
 }
 
 // ── Utilities ───────────────────────────────────────────────────────────────

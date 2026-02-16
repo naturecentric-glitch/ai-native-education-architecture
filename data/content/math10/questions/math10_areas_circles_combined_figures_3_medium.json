@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.5,
-    "question": "State and explain the key concept: Strategy: identify the shapes involved, then add or subtract areas.",
-    "hint": "Think about the definition and main formula related to Areas of Combinations of Plane Figures.",
-    "expected_answer": "This tests understanding of: Strategy: identify the shapes involved, then add or subtract areas. Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Areas of Combinations of Plane Figures"
-    ]
+      "math10.areas_circles.combined_figures"
+    ],
+    "question": "A square has side 14 cm. Four quadrants (quarter circles) of radius 7 cm are drawn at each corner. Find the area of the remaining region.",
+    "hint": "4 quarter circles = 1 full circle. Remaining = Square − Circle.",
+    "expected_answer": "Square = 14² = 196 cm². Four quadrants = πr² = 22/7 × 49 = 154 cm². Remaining = 196 − 154 = 42 cm²."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.6,
-    "question": "Solve an NCERT example problem related to 'Areas of Combinations of Plane Figures'. Show all steps clearly.",
-    "hint": "Review the key ideas: Strategy: identify the shapes involved, then add or subtract areas, Common patterns: circle inscribed in square, semicircles on sides of triangle.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Areas of Combinations of Plane Figures. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Areas of Combinations of Plane Figures"
-    ]
+      "math10.areas_circles.combined_figures"
+    ],
+    "question": "Find the area of a track which is a rectangle of 100 m × 40 m with a semicircle at each shorter end.",
+    "hint": "Two semicircles of diameter 40 m = one full circle of radius 20 m.",
+    "expected_answer": "Rectangle = 100 × 40 = 4000 m². Circle = π(20)² = 400π ≈ 1256.64 m². Total track area = 4000 + 1256.64 = 5256.64 m²."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.65,
-    "question": "How would you apply 'Areas of Combinations of Plane Figures' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where areas of combinations of plane figures concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Areas of Combinations of Plane Figures.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Areas of Combinations of Plane Figures",
-      "Real-world application"
-    ]
+      "math10.areas_circles.combined_figures"
+    ],
+    "question": "A circle is inscribed in an equilateral triangle of side 12 cm. Find the area between the triangle and the circle. (Inradius = side/(2√3).)",
+    "hint": "r = 12/(2√3) = 2√3 cm. Area of triangle = (√3/4) × 12².",
+    "expected_answer": "r = 12/(2√3) = 2√3 cm. Triangle area = (√3/4)(144) = 36√3 ≈ 62.35 cm². Circle area = π(2√3)² = 12π ≈ 37.7 cm². Shaded = 62.35 − 37.7 = 24.65 cm²."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.areas_circles.combined_figures"
+    ],
+    "question": "In a circle of radius 21 cm, an equilateral triangle is inscribed. Find the area of the shaded region between them. (For inscribed equilateral triangle: side = r√3.)",
+    "hint": "Side = 21√3. Triangle area = (√3/4)(21√3)². Circle area = πr².",
+    "expected_answer": "Side = 21√3 cm. Triangle area = (√3/4)(21√3)² = (√3/4)(1323) = 1323√3/4 ≈ 572.76 cm². Circle area = 22/7 × 441 = 1386 cm². Shaded = 1386 − 572.76 = 813.24 cm²."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.areas_circles.combined_figures"
+    ],
+    "question": "In a square of side 14 cm, four circles each of radius 3.5 cm are drawn, one centred at each corner. Also, a circle of radius 3.5 cm is drawn at the centre. Find the area not covered by any circle.",
+    "hint": "At each corner, only a quarter-circle lies inside the square. The centre circle is fully inside.",
+    "expected_answer": "Square = 196 cm². Four corner quarter-circles = 4 × (1/4)π(3.5)² = π(3.5)² = 22/7 × 12.25 = 38.5 cm². Centre circle = π(3.5)² = 38.5 cm². Total circle area inside = 38.5 + 38.5 = 77 cm². Uncovered = 196 − 77 = 119 cm²."
   }
 ]

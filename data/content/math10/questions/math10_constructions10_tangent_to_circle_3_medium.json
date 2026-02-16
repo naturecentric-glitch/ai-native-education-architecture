@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.constructions10.tangent_to_circle"
+    ],
+    "question": "To construct a tangent at point A on a circle with centre O, what is the first step?",
+    "hint": "The tangent is perpendicular to the radius at the point of contact.",
+    "expected_answer": "Join OA (draw the radius to point A). Then construct a line perpendicular to OA at point A. This perpendicular is the tangent."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.constructions10.tangent_to_circle"
+    ],
+    "question": "In the tangent construction from external point P, why do we draw a circle with diameter OP?",
+    "hint": "Think about the angle in a semicircle.",
+    "expected_answer": "Any angle inscribed in a semicircle is 90°. If A is the intersection of this new circle with the original circle, then ∠OAP = 90° (angle in semicircle of OP). Since OA is radius and ∠OAP = 90°, PA ⊥ OA, making PA a tangent."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.constructions10.tangent_to_circle"
+    ],
+    "question": "A circle has radius 5 cm. From a point 13 cm from the centre, tangents are drawn. Find: (a) tangent length, (b) angle between the two tangents.",
+    "hint": "Tangent length = √(13²−5²). For the angle: sin(half-angle) = 5/13.",
+    "expected_answer": "(a) Tangent = √(169−25) = √144 = 12 cm. (b) sin(∠OPA) = 5/13 → ∠OPA = arcsin(5/13) ≈ 22.6°. Angle between tangents = 2 × 22.6° ≈ 45.2°. (More precisely: 2 arcsin(5/13).)"
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.constructions10.tangent_to_circle"
+    ],
+    "question": "Describe how to construct a tangent to a circle of radius 4 cm from a point P at distance 6 cm from the centre. Can you draw more than 2 tangents from P?",
+    "hint": "Follow the standard steps. From any external point, exactly 2 tangents exist.",
+    "expected_answer": "Steps: Draw circle (r=4). Mark P at 6 cm from O. Find midpoint M of OP. Draw circle with centre M, radius 3 cm (=OP/2). This intersects original circle at A and B. Join PA, PB. Tangent length = √(36−16) = √20 = 2√5 cm. No, exactly 2 tangents can be drawn from any external point."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.constructions10.tangent_to_circle"
+    ],
+    "question": "Two circles with centres O₁ and O₂ have radii 3 cm and 5 cm. The distance O₁O₂ = 10 cm. Describe how to construct a common external tangent.",
+    "hint": "Draw a circle with centre O₂ and radius (5−3)=2 cm. From O₁, draw a tangent to this auxiliary circle. Then shift this tangent outward by 3 cm.",
+    "expected_answer": "Method: (1) Draw auxiliary circle with centre O₂ radius |r₂−r₁| = 2 cm. (2) From O₁, construct tangent to this auxiliary circle (tangent length = √(10²−2²) = √96 = 4√6). (3) Let this tangent touch the auxiliary circle at T. (4) Draw O₂T and extend to meet the larger circle at Q. (5) Draw O₁P parallel to O₂Q with P on smaller circle. (6) PQ is the common external tangent. (Two such tangents exist, on opposite sides.)"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.coord_geom.distance"
+    ],
+    "question": "Find the distance between (3, 4) and (−1, 1).",
+    "hint": "d = √[(3−(−1))² + (4−1)²].",
+    "expected_answer": "d = √[16 + 9] = √25 = 5."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.coord_geom.distance"
+    ],
+    "question": "Find a point on the y-axis equidistant from (5, −2) and (−3, 2).",
+    "hint": "Point on y-axis: (0, y). Set distance to (5,−2) = distance to (−3,2).",
+    "expected_answer": "√(25 + (y+2)²) = √(9 + (y−2)²). Square: 25 + y²+4y+4 = 9 + y²−4y+4. 29 + 4y = 13 − 4y. 8y = −16. y = −2. Point: (0, −2)."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.coord_geom.distance"
+    ],
+    "question": "Show that the points (1, 7), (4, 2), (−1, −1) and (−4, 4) are vertices of a square.",
+    "hint": "Find all four sides and both diagonals. Square: all sides equal, diagonals equal.",
+    "expected_answer": "AB = √(9+25) = √34. BC = √(25+9) = √34. CD = √(9+25) = √34. DA = √(25+9) = √34. All sides = √34. Diagonal AC = √(4+64) = √68. Diagonal BD = √(64+4) = √68. Diagonals equal. ∴ ABCD is a square."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.coord_geom.distance"
+    ],
+    "question": "Find the value of x if the distance between (x, 5) and (3, 1) is 5 units.",
+    "hint": "√((x−3)² + 16) = 5. Square both sides.",
+    "expected_answer": "(x−3)² + 16 = 25 → (x−3)² = 9 → x−3 = ±3. x = 6 or x = 0."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.coord_geom.distance"
+    ],
+    "question": "Find the coordinates of a point equidistant from A(−5, 4), B(−1, −2), and C(5, 2). (This is the circumcentre of △ABC.)",
+    "hint": "Let P(x,y). PA = PB → one equation. PA = PC → another. Solve simultaneously.",
+    "expected_answer": "PA² = PB²: (x+5)²+(y−4)² = (x+1)²+(y+2)² → 10x−8y+25−16 = 2x+4y+1−4 → 8x−12y+12 = 0 → 2x−3y = −3 …(1). PA² = PC²: (x+5)²+(y−4)² = (x−5)²+(y−2)² → 10x−8y+41 = −10x−4y+29 → 20x−4y = −12 → 5x−y = −3 …(2). From (2): y = 5x+3. Sub in (1): 2x−15x−9 = −3 → −13x = 6 → x = −6/13. y = −30/13+3 = 9/13. Centre: (−6/13, 9/13)."
+  }
+]

@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.4,
-    "question": "Find the HCF of 196 and 38220 using Euclid's algorithm.",
-    "hint": "Start: 38220 = 196 × q + r. Keep going until remainder is 0.",
-    "expected_answer": "38220 = 196 × 195 + 0. Since the remainder is 0 in the very first step, HCF(38220, 196) = 196.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Euclid's Algorithm for HCF"
-    ]
+      "math10.real_numbers.euclid_hcf"
+    ],
+    "question": "Find the HCF of 56 and 88 using Euclid's Algorithm.",
+    "hint": "Start: 88 = 56 × q + r. Then continue with 56 and r.",
+    "expected_answer": "88 = 56 × 1 + 32. 56 = 32 × 1 + 24. 32 = 24 × 1 + 8. 24 = 8 × 3 + 0. HCF(56, 88) = 8."
   },
   {
     "id": 2,
     "type": "direct",
-    "difficulty": 0.5,
-    "question": "Use Euclid's algorithm to find HCF of 4052 and 12576.",
-    "hint": "Divide the larger by the smaller, then continue with the divisor and remainder.",
-    "expected_answer": "12576 = 4052 × 3 + 420\n4052 = 420 × 9 + 272\n420 = 272 × 1 + 148\n272 = 148 × 1 + 124\n148 = 124 × 1 + 24\n124 = 24 × 5 + 4\n24 = 4 × 6 + 0\nHCF = 4",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Euclid's Algorithm for HCF"
-    ]
+      "math10.real_numbers.euclid_hcf"
+    ],
+    "question": "Find the HCF of 420 and 130 using Euclid's Algorithm.",
+    "hint": "420 = 130 × q + r. Keep going until remainder is 0.",
+    "expected_answer": "420 = 130 × 3 + 30. 130 = 30 × 4 + 10. 30 = 10 × 3 + 0. HCF(420, 130) = 10."
   },
   {
     "id": 3,
     "type": "word_problem",
-    "difficulty": 0.6,
-    "question": "A rectangular courtyard is 18m 72cm long and 13m 20cm wide. It is to be paved with square tiles of the same size. Find the largest possible size of the tile.",
-    "hint": "Convert to cm: 1872 cm × 1320 cm. The tile side = HCF(1872, 1320).",
-    "expected_answer": "1872 = 1320 × 1 + 552\n1320 = 552 × 2 + 216\n552 = 216 × 2 + 120\n216 = 120 × 1 + 96\n120 = 96 × 1 + 24\n96 = 24 × 4 + 0\nHCF = 24 cm. Largest tile size = 24 cm × 24 cm.",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Euclid's Algorithm",
-      "HCF application"
-    ]
+      "math10.real_numbers.euclid_hcf"
+    ],
+    "question": "A rectangular courtyard is 18 m by 12 m. Find the minimum number of identical square tiles needed to pave it completely.",
+    "hint": "Side of tile = HCF(18, 12). Then count = area of court ÷ area of one tile.",
+    "expected_answer": "HCF(18, 12): 18 = 12×1 + 6, 12 = 6×2 + 0. HCF = 6. Tile side = 6 m. Number of tiles = (18×12)/(6×6) = 216/36 = 6 tiles."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.real_numbers.euclid_hcf"
+    ],
+    "question": "Find the HCF of 135 and 225. Then express it as 135x + 225y for some integers x, y.",
+    "hint": "First find HCF, then work Euclid's steps backwards to express the HCF as a combination of 135 and 225.",
+    "expected_answer": "225 = 135×1 + 90. 135 = 90×1 + 45. 90 = 45×2 + 0. HCF = 45. Back-substitute: 45 = 135 − 90×1 = 135 − (225−135)×1 = 135×2 − 225×1. So x = 2, y = −1. Check: 135×2 + 225×(−1) = 270−225 = 45 ✓."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.real_numbers.euclid_hcf"
+    ],
+    "question": "An army contingent of 616 members is to march behind an army band of 32 members in a parade. Both groups must march in the same number of columns. What is the maximum number of columns?",
+    "hint": "Maximum columns = HCF(616, 32). Apply Euclid's Algorithm.",
+    "expected_answer": "616 = 32×19 + 8. 32 = 8×4 + 0. HCF(616, 32) = 8. Maximum number of columns = 8."
   }
 ]

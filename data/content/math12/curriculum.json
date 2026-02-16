@@ -33,6 +33,70 @@
             "Step-by-step problem solving for composition of functions and inverse",
             "Real-world applications of composition of functions and inverse"
           ]
+        },
+        {
+          "concept_id": "math12.relations_functions12.equivalence_relations",
+          "title": "Equivalence Relations: Proofs and Properties",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math12.relations_functions12.types_functions"
+          ],
+          "description": "A focused study on verifying the three fundamental properties required for a relation to be an equivalence relation: reflexivity, symmetry, and transitivity.",
+          "key_ideas": [
+            "Verifying the Reflexive property (a, a) ∈ R",
+            "Testing for Symmetry (if (a, b) ∈ R, then (b, a) ∈ R)",
+            "Proving Transitivity (if (a, b) ∈ R and (b, c) ∈ R, then (a, c) ∈ R)",
+            "Constructing counter-examples to disprove equivalence"
+          ]
+        },
+        {
+          "concept_id": "math12.relations_functions12.equivalence_classes",
+          "title": "Equivalence Classes and Partitions",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math12.relations_functions12.equivalence_relations"
+          ],
+          "description": "Understanding how equivalence relations divide a set into mutually exclusive and exhaustive subsets known as equivalence classes.",
+          "key_ideas": [
+            "Definition of an Equivalence Class [a]",
+            "Partitioning of a set into disjoint classes",
+            "Properties: Elements within a class are related to each other",
+            "Union of all equivalence classes equals the universal set"
+          ]
+        },
+        {
+          "concept_id": "math12.relations_functions12.proving_bijectivity",
+          "title": "Proving Bijectivity: Injectivity and Surjectivity",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math12.relations_functions12.types_functions"
+          ],
+          "description": "Applying algebraic methods to rigorously prove that a function is both one-one (injective) and onto (surjective), a necessary condition for the existence of an inverse.",
+          "key_ideas": [
+            "Algebraic test for Injectivity: f(x1) = f(x2) ⇒ x1 = x2",
+            "Test for Surjectivity: Range = Codomain",
+            "Identifying domain constraints for bijectivity",
+            "Distinguishing between Into and Onto functions"
+          ]
+        },
+        {
+          "concept_id": "math12.relations_functions12.binary_operations",
+          "title": "Binary Operations and Their Properties",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.relations_functions12.types_functions"
+          ],
+          "description": "Analysis of operations on a set that combine two elements to yield a third element within the same set, including the study of structural properties.",
+          "key_ideas": [
+            "Definition of Binary Operation as a function *: A × A → A",
+            "Commutative and Associative laws for binary operations",
+            "Existence of Identity Element",
+            "Existence of Invertible Elements"
+          ]
         }
       ]
     },
@@ -51,6 +115,65 @@
             "Core principles of domain, range and properties",
             "Step-by-step problem solving for domain, range and properties",
             "Real-world applications of domain, range and properties"
+          ]
+        },
+        {
+          "concept_id": "math12.inverse_trig.principal_value_branch",
+          "title": "Principal Value Branches",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding the restriction of trigonometric domains to ensure bijectivity, defining the specific ranges (Principal Value Branches) for inverse functions.",
+          "key_ideas": [
+            "Restriction of domain to make trigonometric functions one-one and onto",
+            "Range of sin⁻¹x is [-π/2, π/2] and cos⁻¹x is [0, π]",
+            "Identifying principal values for negative arguments"
+          ]
+        },
+        {
+          "concept_id": "math12.inverse_trig.graphs",
+          "title": "Graphs of Inverse Trigonometric Functions",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math12.inverse_trig.principal_value_branch"
+          ],
+          "description": "Visualizing the behavior of inverse trigonometric functions through graphical representation, highlighting symmetry and continuity.",
+          "key_ideas": [
+            "Reflection of trigonometric graphs across the line y = x",
+            "Visualizing domain and range constraints on the graph",
+            "Asymptotic behavior of tan⁻¹x and cot⁻¹x"
+          ]
+        },
+        {
+          "concept_id": "math12.inverse_trig.simplification_substitution",
+          "title": "Simplification using Substitution",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.inverse_trig.properties"
+          ],
+          "description": "Reducing complex inverse trigonometric expressions to simplest forms by substituting variables with appropriate trigonometric functions.",
+          "key_ideas": [
+            "Substituting x = a sinθ for expressions involving √(a² - x²)",
+            "Substituting x = a tanθ for expressions involving √(a² + x²)",
+            "Using half-angle and double-angle formulas to eliminate the inverse operator"
+          ]
+        },
+        {
+          "concept_id": "math12.inverse_trig.solving_equations",
+          "title": "Solving Inverse Trigonometric Equations",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math12.inverse_trig.properties",
+            "math12.inverse_trig.simplification_substitution"
+          ],
+          "description": "Finding the value of unknown variables in equations involving multiple inverse trigonometric functions.",
+          "key_ideas": [
+            "Applying conversion formulas (like tan⁻¹x + tan⁻¹y) to combine terms",
+            "Isolating the variable using inverse operations",
+            "Verifying solutions against the defined domain and principal range"
           ]
         }
       ]
@@ -86,6 +209,71 @@
             "Step-by-step problem solving for transpose, symmetric and invertible matrices",
             "Real-world applications of transpose, symmetric and invertible matrices"
           ]
+        },
+        {
+          "concept_id": "math12.matrices.mult_properties",
+          "title": "Properties of Matrix Multiplication",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math12.matrices.operations"
+          ],
+          "description": "Exploration of the algebraic properties governing matrix multiplication, distinguishing them from real number algebra.",
+          "key_ideas": [
+            "Non-commutativity of matrix multiplication (AB ≠ BA in general)",
+            "Associative law: (AB)C = A(BC)",
+            "Distributive law: A(B + C) = AB + AC",
+            "Existence of zero divisors: AB = O does not imply A = O or B = O"
+          ]
+        },
+        {
+          "concept_id": "math12.matrices.symmetric_decomposition",
+          "title": "Decomposition into Symmetric and Skew-Symmetric Matrices",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.matrices.inverse_matrix"
+          ],
+          "description": "The analytical process of expressing any square matrix as the sum of a symmetric and a skew-symmetric matrix.",
+          "key_ideas": [
+            "Definition of Skew-Symmetric Matrix (A' = -A)",
+            "Properties of diagonal elements in skew-symmetric matrices",
+            "Theorem: For any square matrix A, (A + A') is symmetric and (A - A') is skew-symmetric",
+            "Unique representation: A = 1/2(A + A') + 1/2(A - A')"
+          ]
+        },
+        {
+          "concept_id": "math12.matrices.elementary_transformations",
+          "title": "Elementary Operations (Transformations)",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.matrices.operations"
+          ],
+          "description": "Understanding the six elementary operations (three on rows and three on columns) applicable to matrices.",
+          "key_ideas": [
+            "Interchange of any two rows or two columns (Ri ↔ Rj)",
+            "Multiplication of the elements of any row or column by a non-zero number (Ri → kRi)",
+            "Addition to the elements of any row or column, the corresponding elements of another row or column multiplied by any non-zero number",
+            "Symbolic notation for transformations"
+          ]
+        },
+        {
+          "concept_id": "math12.matrices.inverse_by_transformations",
+          "title": "Finding Inverse using Elementary Operations",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math12.matrices.elementary_transformations",
+            "math12.matrices.inverse_matrix"
+          ],
+          "description": "The algorithmic process of calculating the inverse of a square matrix using elementary row or column operations.",
+          "key_ideas": [
+            "Using the equation A = IA for row operations",
+            "Using the equation A = AI for column operations",
+            "Sequence of operations to reduce A to Identity matrix I",
+            "Identifying singular matrices where inverse does not exist (all zeros in a row/column)"
+          ]
         }
       ]
     },
@@ -119,6 +307,72 @@
             "Core principles of cramer's rule and inverse",
             "Step-by-step problem solving for cramer's rule and inverse",
             "Real-world applications of cramer's rule and inverse"
+          ]
+        },
+        {
+          "concept_id": "math12.determinants.area_triangle",
+          "title": "Area of a Triangle using Determinants",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math12.determinants.determinant_calc"
+          ],
+          "description": "Application of determinants to calculate the area of a triangle given the coordinates of its vertices and determining the condition for collinearity of three points.",
+          "key_ideas": [
+            "Formula for area using a 3x3 determinant",
+            "Absolute value requirement for area calculation",
+            "Condition for collinearity (Area = 0)",
+            "Finding the equation of a line using determinants"
+          ]
+        },
+        {
+          "concept_id": "math12.determinants.minors_cofactors",
+          "title": "Minors and Cofactors",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math12.determinants.determinant_calc"
+          ],
+          "description": "Understanding the foundational components required to expand determinants and find the adjoint of a matrix. Defines Minors as determinants of submatrices and Cofactors as signed Minors.",
+          "key_ideas": [
+            "Definition and calculation of Minors (M_ij)",
+            "Relationship between Minors and Cofactors (A_ij)",
+            "Sign convention based on element position (-1)^(i+j)",
+            "Expanding determinants using cofactors of any row or column"
+          ]
+        },
+        {
+          "concept_id": "math12.determinants.adjoint_matrix",
+          "title": "Adjoint of a Matrix",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.determinants.minors_cofactors"
+          ],
+          "description": "Defining the adjoint of a square matrix as the transpose of the cofactor matrix and exploring its relationship with the inverse and the determinant.",
+          "key_ideas": [
+            "Definition: Transpose of the cofactor matrix",
+            "Fundamental property: A(adj A) = (adj A)A = |A|I",
+            "Singular vs. Non-singular matrices",
+            "Calculating the inverse using Adjoint: A^(-1) = (1/|A|) * adj A"
+          ]
+        },
+        {
+          "concept_id": "math12.determinants.matrix_method_consistency",
+          "title": "Solution of System of Linear Equations (Matrix Method)",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math12.determinants.adjoint_matrix",
+            "math12.determinants.cramers_rule"
+          ],
+          "description": "Analyzing systems of linear equations using the Matrix Method (AX = B) to determine consistency and find solutions, distinguishing it from Cramer's rule.",
+          "key_ideas": [
+            "Matrix form of linear equations: AX = B",
+            "Criterion for Unique Solution (|A| ≠ 0)",
+            "Conditions for Inconsistent systems (No solution)",
+            "Conditions for Dependent systems (Infinitely many solutions)",
+            "Calculating unknowns using X = A^(-1)B"
           ]
         }
       ]
@@ -154,6 +408,67 @@
             "Step-by-step problem solving for chain rule, implicit and log differentiation",
             "Real-world applications of chain rule, implicit and log differentiation"
           ]
+        },
+        {
+          "concept_id": "math12.continuity.inverse_trig_deriv",
+          "title": "Derivatives of Inverse Trigonometric Functions",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.continuity.chain_rule"
+          ],
+          "description": "Techniques for finding the derivatives of inverse trigonometric functions, often utilizing trigonometric substitutions to simplify complex expressions before differentiation.",
+          "key_ideas": [
+            "Standard derivatives of arcsin, arccos, arctan, etc.",
+            "Using trigonometric identities for substitution",
+            "Differentiation of composite inverse trigonometric functions"
+          ]
+        },
+        {
+          "concept_id": "math12.continuity.parametric_diff",
+          "title": "Derivatives of Functions in Parametric Forms",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.continuity.chain_rule"
+          ],
+          "description": "Methods to differentiate functions where x and y are defined separately as functions of a third variable (parameter), usually denoted as t or θ.",
+          "key_ideas": [
+            "Definition of parametric equations",
+            "Formula: dy/dx = (dy/dt) / (dx/dt)",
+            "Relationship between parametric derivatives and the chain rule"
+          ]
+        },
+        {
+          "concept_id": "math12.continuity.second_order_deriv",
+          "title": "Second Order Derivatives",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math12.continuity.chain_rule",
+            "math12.continuity.parametric_diff"
+          ],
+          "description": "The process of differentiating a function twice to find the second order derivative, often used to verify differential equations and analyze curve concavity.",
+          "key_ideas": [
+            "Notation: d²y/dx², y'', f''(x)",
+            "Successive differentiation",
+            "Proving relationships involving first and second derivatives"
+          ]
+        },
+        {
+          "concept_id": "math12.continuity.mean_value_theorems",
+          "title": "Mean Value Theorems",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math12.continuity.continuity_diff"
+          ],
+          "description": "Study of Rolle's Theorem and Lagrange's Mean Value Theorem (LMVT), focusing on their conditions for applicability and their geometric interpretations regarding tangents and secants.",
+          "key_ideas": [
+            "Conditions for Rolle's Theorem (continuity, differentiability, f(a)=f(b))",
+            "Statement and proof of Lagrange's Mean Value Theorem",
+            "Geometric interpretation of derivatives as slopes of tangents"
+          ]
         }
       ]
     },
@@ -172,6 +487,83 @@
             "Core principles of rate of change, tangents, maxima and minima",
             "Step-by-step problem solving for rate of change, tangents, maxima and minima",
             "Real-world applications of rate of change, tangents, maxima and minima"
+          ]
+        },
+        {
+          "concept_id": "math12.derivatives_app.approximations_differentials",
+          "title": "Approximations and Differentials",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Utilization of differentials to approximate values of functions and estimate small errors in calculations.",
+          "key_ideas": [
+            "Concept of differential dy = f'(x)dx",
+            "Approximating small changes in quantities",
+            "Calculation of absolute, relative, and percentage errors",
+            "Geometric interpretation of differentials"
+          ]
+        },
+        {
+          "concept_id": "math12.derivatives_app.increasing_decreasing",
+          "title": "Increasing and Decreasing Functions",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Analysis of the monotonicity of functions using the first derivative to determine intervals of increase and decrease.",
+          "key_ideas": [
+            "Relationship between the sign of f'(x) and monotonicity",
+            "Strictly increasing vs. increasing functions",
+            "Finding critical points to divide the domain into intervals",
+            "Handling trigonometric and algebraic functions"
+          ]
+        },
+        {
+          "concept_id": "math12.derivatives_app.normals_orthogonality",
+          "title": "Equations of Normals and Orthogonality",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.derivatives_app.maxima_minima"
+          ],
+          "description": "Deriving the equation of the normal line to a curve at a given point and analyzing the intersection of curves.",
+          "key_ideas": [
+            "Slope of normal as negative reciprocal of tangent slope",
+            "Point-slope form for the equation of a normal",
+            "Condition for two curves to intersect orthogonally",
+            "Solving problems involving parametric coordinates"
+          ]
+        },
+        {
+          "concept_id": "math12.derivatives_app.derivative_tests",
+          "title": "First and Second Derivative Tests",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.derivatives_app.maxima_minima",
+            "math12.derivatives_app.increasing_decreasing"
+          ],
+          "description": "Systematic application of derivative tests to classify critical points as local maxima, local minima, or points of inflection.",
+          "key_ideas": [
+            "First Derivative Test: Sign change of f'(x) across critical points",
+            "Second Derivative Test: Sign of f''(x) at critical points",
+            "Identifying points of inflection where concavity changes",
+            "Handling cases where the Second Derivative Test fails"
+          ]
+        },
+        {
+          "concept_id": "math12.derivatives_app.optimization_modeling",
+          "title": "Optimization in Geometry and Physics",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math12.derivatives_app.derivative_tests"
+          ],
+          "description": "Formulating and solving real-world word problems by constructing mathematical models to maximize or minimize quantities like area, volume, or cost.",
+          "key_ideas": [
+            "Constructing the objective function from word problems",
+            "Identifying constraint equations to reduce variables",
+            "Determining absolute maxima/minima in closed intervals",
+            "Applications in mensuration (cylinders, cones, spheres) and economics"
           ]
         }
       ]
@@ -207,6 +599,82 @@
             "Step-by-step problem solving for definite integrals",
             "Real-world applications of definite integrals"
           ]
+        },
+        {
+          "concept_id": "math12.integrals.partial_fractions",
+          "title": "Integration by Partial Fractions",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math12.integrals.indefinite"
+          ],
+          "description": "A technique used to integrate rational functions by decomposing them into a sum of simpler rational expressions.",
+          "key_ideas": [
+            "Distinguishing between proper and improper rational functions",
+            "Decomposition into linear and quadratic factors",
+            "Solving for coefficients using substitution or equating powers"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals.by_parts",
+          "title": "Integration by Parts",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.integrals.indefinite"
+          ],
+          "description": "A method for integrating the product of two functions, based on the product rule for differentiation.",
+          "key_ideas": [
+            "The formula: ∫ u dv = uv - ∫ v du",
+            "Using the ILATE rule (Inverse, Logarithmic, Algebraic, Trigonometric, Exponential) to select the first function",
+            "Handling cyclic integrals that return to the original form"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals.special_types",
+          "title": "Integrals of Special Types",
+          "bloom_level": "analyze",
+          "difficulty": 0.65,
+          "prerequisites": [
+            "math12.integrals.indefinite"
+          ],
+          "description": "Strategies for solving integrals involving specific algebraic forms, particularly those requiring completing the square.",
+          "key_ideas": [
+            "Standard formulas for integrals of type 1/(ax²+bx+c) and 1/√(ax²+bx+c)",
+            "Completing the square method to reduce quadratics to standard forms",
+            "Integration of forms like (px+q)/(ax²+bx+c)"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals.limit_of_sum",
+          "title": "Definite Integral as the Limit of a Sum",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.integrals.definite"
+          ],
+          "description": "Understanding the geometric and theoretical definition of a definite integral as the limit of a Riemann sum as the number of partitions approaches infinity.",
+          "key_ideas": [
+            "Concept of partitioning an interval [a, b]",
+            "Summation of series limits",
+            "Relationship between area under the curve and the limit process"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals.definite_properties",
+          "title": "Properties of Definite Integrals",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math12.integrals.definite"
+          ],
+          "description": "Applying specific properties to evaluate definite integrals more efficiently without finding the antiderivative directly.",
+          "key_ideas": [
+            "Property of changing the variable of integration",
+            "Splitting the interval of integration",
+            "Properties regarding odd and even functions",
+            "The property ∫f(x)dx from 0 to a = ∫f(a-x)dx from 0 to a"
+          ]
         }
       ]
     },
@@ -225,6 +693,80 @@
             "Core principles of area under and between curves",
             "Step-by-step problem solving for area under and between curves",
             "Real-world applications of area under and between curves"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals_app.area_simple_axes",
+          "title": "Area Bounded by Simple Curves and Axes",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to finding the area bounded by a curve y=f(x), the x-axis, and the ordinates x=a and x=b using definite integrals.",
+          "key_ideas": [
+            "Geometric interpretation of definite integrals",
+            "Area function A(x)",
+            "Handling area as a positive quantity even if the curve is below the axis"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals_app.horizontal_strips",
+          "title": "Integration with Respect to Y-axis",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math12.integrals_app.area_simple_axes"
+          ],
+          "description": "Techniques for calculating area when the function is defined as x=g(y) or when using horizontal strips is computationally simpler than vertical strips.",
+          "key_ideas": [
+            "Concept of horizontal slicing",
+            "Integration limits on the y-axis",
+            "Converting functions from y=f(x) to x=g(y)"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals_app.area_standard_conics",
+          "title": "Area of Standard Conics",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.integrals_app.area_simple_axes"
+          ],
+          "description": "Application of integrals to find the area enclosed by circles and ellipses, utilizing symmetry to simplify calculations.",
+          "key_ideas": [
+            "Using symmetry to calculate area of one quadrant",
+            "Integration using trigonometric substitution",
+            "Area of circle and ellipse standard forms"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals_app.area_modulus_trig",
+          "title": "Area of Modulus and Trigonometric Functions",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.integrals_app.area_simple_axes"
+          ],
+          "description": "Methods for finding areas involving absolute value functions and periodic trigonometric curves where regions may lie below the x-axis.",
+          "key_ideas": [
+            "Splitting integrals at critical points (roots)",
+            "Handling negative regions by taking absolute values",
+            "Exploiting periodicity in trigonometric functions"
+          ]
+        },
+        {
+          "concept_id": "math12.integrals_app.intersection_regions",
+          "title": "Area Enclosed Between Two Curves",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math12.integrals_app.area_curves",
+            "math12.integrals_app.horizontal_strips"
+          ],
+          "description": "Advanced calculation of the area bounded between two intersecting curves, requiring the determination of intersection points and correct subtraction order.",
+          "key_ideas": [
+            "Solving equations to find limits of integration",
+            "Formula: Integral of (Upper Curve - Lower Curve)",
+            "Decomposing complex regions into summable parts"
           ]
         }
       ]
@@ -245,6 +787,66 @@
             "Step-by-step problem solving for order, degree and variable separable",
             "Real-world applications of order, degree and variable separable"
           ]
+        },
+        {
+          "concept_id": "math12.diff_equations.general_particular_solutions",
+          "title": "General and Particular Solutions",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math12.diff_equations.variable_separable"
+          ],
+          "description": "Differentiation between general solutions, which contain arbitrary constants representing a family of curves, and particular solutions derived by applying specific initial conditions.",
+          "key_ideas": [
+            "General solutions contain arbitrary constants equal to the order of the differential equation",
+            "Particular solutions are obtained by assigning specific values to arbitrary constants",
+            "Geometric interpretation as a family of curves versus a specific curve"
+          ]
+        },
+        {
+          "concept_id": "math12.diff_equations.formation_de",
+          "title": "Formation of Differential Equations",
+          "bloom_level": "create",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math12.diff_equations.general_particular_solutions"
+          ],
+          "description": "The process of constructing a differential equation representing a given family of curves by eliminating arbitrary constants via differentiation.",
+          "key_ideas": [
+            "Differentiating the equation of the curve n times for n arbitrary constants",
+            "Elimination of parameters to find the relationship between variables and derivatives",
+            "The order of the resulting differential equation equals the number of arbitrary constants"
+          ]
+        },
+        {
+          "concept_id": "math12.diff_equations.homogeneous",
+          "title": "Homogeneous Differential Equations",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.diff_equations.variable_separable"
+          ],
+          "description": "Methods for solving first-order differential equations where the function is homogeneous of degree zero, typically using variable substitution.",
+          "key_ideas": [
+            "Identifying homogeneous functions where F(λx, λy) = λ⁰F(x, y)",
+            "Using the substitution y = vx or x = vy to reduce to variable separable form",
+            "Integrating the reduced equation and substituting back to original variables"
+          ]
+        },
+        {
+          "concept_id": "math12.diff_equations.linear",
+          "title": "Linear Differential Equations",
+          "bloom_level": "analyze",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "math12.diff_equations.variable_separable"
+          ],
+          "description": "Techniques for solving linear differential equations of the first order, specifically those in the standard form dy/dx + Py = Q.",
+          "key_ideas": [
+            "Identifying the standard form dy/dx + Py = Q where P and Q are constants or functions of x",
+            "Calculation of the Integrating Factor (I.F = e^(∫Pdx))",
+            "Applying the general solution formula: y(I.F) = ∫(Q × I.F)dx + C"
+          ]
         }
       ]
     },
@@ -263,6 +865,83 @@
             "Core principles of vectors",
             "Step-by-step problem solving for vectors",
             "Real-world applications of vectors"
+          ]
+        },
+        {
+          "concept_id": "math12.vectors.intro_types",
+          "title": "Introduction to Vectors and Types",
+          "bloom_level": "remember",
+          "difficulty": 0.1,
+          "prerequisites": [],
+          "description": "Fundamental definition of vectors distinguishing them from scalars, including representations of magnitude and direction, and categorization of various vector types.",
+          "key_ideas": [
+            "Scalars vs. Vectors: Magnitude only vs. Magnitude and Direction",
+            "Position Vectors and direction from origin",
+            "Types: Zero, Unit, Co-initial, Collinear, and Equal vectors"
+          ]
+        },
+        {
+          "concept_id": "math12.vectors.addition_scalar_mult",
+          "title": "Vector Addition and Scalar Multiplication",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "math12.vectors.intro_types"
+          ],
+          "description": "Geometric and algebraic methods for adding vectors and multiplying vectors by scalar quantities, establishing the rules of vector arithmetic.",
+          "key_ideas": [
+            "Triangle Law of Vector Addition",
+            "Parallelogram Law of Vector Addition",
+            "Properties: Commutative and Associative laws",
+            "Multiplication of a vector by a scalar (lambda)"
+          ]
+        },
+        {
+          "concept_id": "math12.vectors.components_dc",
+          "title": "Components and Direction Cosines",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math12.vectors.intro_types"
+          ],
+          "description": "Representation of vectors in a 3D rectangular coordinate system using unit vectors (i, j, k) and the analysis of their angular orientation relative to axes.",
+          "key_ideas": [
+            "Rectangular components: xî + yĵ + zk̂",
+            "Magnitude formula using components",
+            "Direction Angles and Direction Cosines (l, m, n)",
+            "Relation: l² + m² + n² = 1"
+          ]
+        },
+        {
+          "concept_id": "math12.vectors.section_formula",
+          "title": "Section Formula in Vectors",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math12.vectors.addition_scalar_mult",
+            "math12.vectors.components_dc"
+          ],
+          "description": "Application of vector algebra to geometry to find the position vector of a point dividing a line segment in a given ratio.",
+          "key_ideas": [
+            "Internal Division formula",
+            "External Division formula",
+            "Midpoint formula using position vectors"
+          ]
+        },
+        {
+          "concept_id": "math12.vectors.projection",
+          "title": "Projection of a Vector",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.vectors.vectors_ops",
+            "math12.vectors.components_dc"
+          ],
+          "description": "Geometric interpretation of the dot product to determine the shadow or component of one vector along the direction of another.",
+          "key_ideas": [
+            "Geometric interpretation of Scalar Product",
+            "Formula for projection of vector a on vector b",
+            "Distinction between scalar projection and vector projection"
           ]
         }
       ]
@@ -283,6 +962,84 @@
             "Step-by-step problem solving for lines and planes in 3d",
             "Real-world applications of lines and planes in 3d"
           ]
+        },
+        {
+          "concept_id": "math12.three_d.direction_cosines_ratios",
+          "title": "Direction Cosines and Direction Ratios",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the angular orientation of lines in 3D space relative to the coordinate axes, defining the relationship between direction cosines and direction ratios.",
+          "key_ideas": [
+            "Definition of direction angles (α, β, γ)",
+            "Relation l² + m² + n² = 1",
+            "Proportionality between direction ratios and direction cosines",
+            "Calculating direction cosines of a line passing through two points"
+          ]
+        },
+        {
+          "concept_id": "math12.three_d.equation_of_line",
+          "title": "Equation of a Line in Space",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "math12.three_d.direction_cosines_ratios"
+          ],
+          "description": "Deriving and applying the equation of a line in space in both vector and Cartesian forms, given a point and a direction, or two passing points.",
+          "key_ideas": [
+            "Vector equation: r = a + λb",
+            "Cartesian equation: (x-x₁)/a = (y-y₁)/b = (z-z₁)/c",
+            "Conversion between vector and Cartesian forms",
+            "Equation of a line passing through two distinct points"
+          ]
+        },
+        {
+          "concept_id": "math12.three_d.shortest_distance",
+          "title": "Shortest Distance Between Two Lines",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.three_d.equation_of_line"
+          ],
+          "description": "Analyzing the spatial relationship between two lines to determine if they are parallel, intersecting, or skew, and calculating the shortest distance between them.",
+          "key_ideas": [
+            "Concept of Skew Lines (neither intersecting nor parallel)",
+            "Vector formula for shortest distance between skew lines",
+            "Distance between parallel lines using cross products",
+            "Condition for two lines to intersect (distance is zero)"
+          ]
+        },
+        {
+          "concept_id": "math12.three_d.equation_of_plane",
+          "title": "Equation of a Plane",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math12.three_d.direction_cosines_ratios"
+          ],
+          "description": "Formulating the equation of a plane under various conditions, including normal form, intercept form, and passing through specific points.",
+          "key_ideas": [
+            "Equation in Normal form (r · n = d)",
+            "Equation of a plane passing through three non-collinear points",
+            "Intercept form of the equation of a plane",
+            "Equation of a plane passing through the intersection of two given planes"
+          ]
+        },
+        {
+          "concept_id": "math12.three_d.dist_point_plane",
+          "title": "Distance of a Point from a Plane",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.three_d.equation_of_plane"
+          ],
+          "description": "Calculating the perpendicular distance from a specific coordinate point to a given plane using vector and Cartesian methods.",
+          "key_ideas": [
+            "Perpendicular distance formula in Cartesian form",
+            "Vector form calculation: |(a · n - d) / |n||",
+            "Position of a point relative to a plane (sides of a plane)",
+            "Distance between two parallel planes"
+          ]
         }
       ]
     },
@@ -301,6 +1058,85 @@
             "Core principles of formulation and graphical solution of lpp",
             "Step-by-step problem solving for formulation and graphical solution of lpp",
             "Real-world applications of formulation and graphical solution of lpp"
+          ]
+        },
+        {
+          "concept_id": "math12.linear_programming.terminology",
+          "title": "Introduction and Terminology of LPP",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Understanding the fundamental components of a Linear Programming Problem, including the objective function, decision variables, and constraints.",
+          "key_ideas": [
+            "Definition of objective function (Z = ax + by)",
+            "Concept of constraints and non-negative restrictions",
+            "Distinction between feasible and infeasible solutions",
+            "Optimization (maximization or minimization)"
+          ]
+        },
+        {
+          "concept_id": "math12.linear_programming.corner_point_method",
+          "title": "The Corner Point Method Theorem",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math12.linear_programming.terminology",
+            "math12.linear_programming.lpp"
+          ],
+          "description": "Analyzing the Fundamental Theorem of Linear Programming which states that the optimal value of the objective function must occur at a corner point (vertex) of the feasible region.",
+          "key_ideas": [
+            "Theorem: Optimal solutions occur at vertices of the feasible region",
+            "Identifying coordinates of vertices from the graph",
+            "Evaluating Z at each corner point",
+            "Handling multiple optimal solutions (segment joining two points)"
+          ]
+        },
+        {
+          "concept_id": "math12.linear_programming.unbounded_regions",
+          "title": "Optimization in Unbounded Regions",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "math12.linear_programming.corner_point_method"
+          ],
+          "description": "Determining optimal solutions when the feasible region is unbounded, requiring verification that no other point in the open half-plane yields a better value than the corner point.",
+          "key_ideas": [
+            "Identifying unbounded feasible regions",
+            "Verification method for unbounded maximization (ax + by > M)",
+            "Verification method for unbounded minimization (ax + by < m)",
+            "Conditions where no optimal solution exists"
+          ]
+        },
+        {
+          "concept_id": "math12.linear_programming.diet_manufacturing_problems",
+          "title": "Diet and Manufacturing Applications",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.linear_programming.lpp"
+          ],
+          "description": "Formulating and solving specific real-world optimization problems related to dietary requirements and manufacturing production limits.",
+          "key_ideas": [
+            "Translating word problems into inequalities",
+            "Minimizing cost while meeting nutritional constraints (Diet problem)",
+            "Maximizing profit under resource or time constraints (Manufacturing problem)",
+            "Interpreting the solution in the context of the problem"
+          ]
+        },
+        {
+          "concept_id": "math12.linear_programming.transportation_problems",
+          "title": "Transportation and Allocation Problems",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math12.linear_programming.lpp"
+          ],
+          "description": "Modeling complex scenarios involving the transportation of goods from multiple factories to various depots to minimize total transportation cost.",
+          "key_ideas": [
+            "Balancing supply and demand constraints",
+            "Formulating the cost function based on distance or unit price",
+            "Handling complex constraint systems with multiple sources and destinations",
+            "Visualizing flow diagrams for problem setup"
           ]
         }
       ]
@@ -335,6 +1171,69 @@
             "Core principles of random variable and distributions",
             "Step-by-step problem solving for random variable and distributions",
             "Real-world applications of random variable and distributions"
+          ]
+        },
+        {
+          "concept_id": "math12.probability12.multiplication_independence",
+          "title": "Multiplication Theorem and Independent Events",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to the multiplication rule of probability for simultaneous occurrence of events and the definition of independent events where the outcome of one does not affect the other.",
+          "key_ideas": [
+            "Multiplication rule: P(A ∩ B) = P(A)P(B|A)",
+            "Definition of Independent Events: P(A ∩ B) = P(A)P(B)",
+            "Distinction between mutually exclusive and independent events",
+            "Pairwise vs. mutual independence for three events"
+          ]
+        },
+        {
+          "concept_id": "math12.probability12.total_probability",
+          "title": "Theorem of Total Probability",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "math12.probability12.multiplication_independence"
+          ],
+          "description": "A method to find the probability of an event that can occur via several distinct, mutually exclusive pathways (partitions of the sample space).",
+          "key_ideas": [
+            "Partition of a sample space",
+            "Summation of probabilities across all partitions",
+            "Foundation for the denominator in Bayes' Theorem",
+            "Solving problems involving multi-stage experiments"
+          ]
+        },
+        {
+          "concept_id": "math12.probability12.expectation_variance",
+          "title": "Expectation and Variance of a Random Variable",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "math12.probability12.random_variable"
+          ],
+          "description": "Calculation of the central tendency (mean) and dispersion (variance/standard deviation) of a probability distribution to analyze the average behavior of a random variable.",
+          "key_ideas": [
+            "Mathematical Expectation E(X) or μ = ΣxP(x)",
+            "Variance Var(X) = E(X²) - [E(X)]²",
+            "Standard Deviation as the square root of Variance",
+            "Physical interpretation of Mean as the center of gravity"
+          ]
+        },
+        {
+          "concept_id": "math12.probability12.bernoulli_binomial",
+          "title": "Bernoulli Trials and Binomial Distribution",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "math12.probability12.random_variable",
+            "math12.probability12.multiplication_independence"
+          ],
+          "description": "Study of experiments with exactly two outcomes (success/failure) repeated a finite number of times, and the resulting discrete probability distribution.",
+          "key_ideas": [
+            "Conditions for Bernoulli trials (finite trials, independence, binary outcome)",
+            "Binomial formula: P(X=r) = nCr p^r q^(n-r)",
+            "Parameters of Binomial Distribution (n, p)",
+            "Behavior of the distribution as n increases"
           ]
         }
       ]

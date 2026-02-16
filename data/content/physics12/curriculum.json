@@ -18,6 +18,85 @@
             "Step-by-step problem solving for coulomb's law and gauss's law",
             "Real-world applications of coulomb's law and gauss's law"
           ]
+        },
+        {
+          "concept_id": "physics12.electric_charges.charge_properties",
+          "title": "Electric Charge: Properties and Conservation",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the fundamental nature of electric charge, including the distinction between positive and negative charges, and the governing principles of quantization and conservation.",
+          "key_ideas": [
+            "Quantization of charge (q = ne)",
+            "Law of conservation of charge",
+            "Additivity of electric charges",
+            "Charging by induction vs. conduction"
+          ]
+        },
+        {
+          "concept_id": "physics12.electric_charges.electric_field_lines",
+          "title": "Electric Field and Field Lines",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics12.electric_charges.charge_properties",
+            "physics12.electric_charges.coulombs_gauss"
+          ],
+          "description": "The concept of the electric field as a vector quantity and its visual representation through field lines, defining how charges modify the space around them.",
+          "key_ideas": [
+            "Definition of Electric Field (E = F/q)",
+            "Properties of electric field lines (tangents, non-intersecting)",
+            "Field patterns for point charges and systems of charges",
+            "Physical significance of the electric field"
+          ]
+        },
+        {
+          "concept_id": "physics12.electric_charges.continuous_distribution",
+          "title": "Continuous Charge Distribution",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.electric_charges.charge_properties"
+          ],
+          "description": "Moving beyond point charges to analyze systems where charge is distributed continuously over a length, surface, or volume, essential for applying Gauss's Law.",
+          "key_ideas": [
+            "Linear charge density (lambda)",
+            "Surface charge density (sigma)",
+            "Volume charge density (rho)",
+            "Calculation of force/field due to continuous distributions"
+          ]
+        },
+        {
+          "concept_id": "physics12.electric_charges.electric_dipole_fields",
+          "title": "Electric Dipole and Dipole Moment",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.electric_charges.electric_field_lines"
+          ],
+          "description": "Study of a system of two equal and opposite point charges separated by a small distance, focusing on the vector dipole moment and the resulting field geometry.",
+          "key_ideas": [
+            "Definition of Dipole Moment (p = q x 2a)",
+            "Electric field on the axial line of a dipole",
+            "Electric field on the equatorial plane of a dipole",
+            "Field behavior at large distances (1/r^3 dependence)"
+          ]
+        },
+        {
+          "concept_id": "physics12.electric_charges.torque_on_dipole",
+          "title": "Dipole in a Uniform External Field",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.electric_charges.electric_dipole_fields"
+          ],
+          "description": "Analysis of the mechanical effects experienced by an electric dipole when placed in a uniform external electric field, specifically torque and potential energy.",
+          "key_ideas": [
+            "Calculation of Torque (tau = p x E)",
+            "Conditions for stable and unstable equilibrium",
+            "Net force on a dipole in uniform vs. non-uniform fields",
+            "Physical examples of dipoles (e.g., water molecules)"
+          ]
         }
       ]
     },
@@ -36,6 +115,98 @@
             "Core principles of potential, capacitors and energy stored",
             "Step-by-step problem solving for potential, capacitors and energy stored",
             "Real-world applications of potential, capacitors and energy stored"
+          ]
+        },
+        {
+          "concept_id": "physics12.electrostatic_potential.electric_potential_definition",
+          "title": "Electrostatic Potential and Point Charges",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the concept of electrostatic potential as the work done per unit charge in bringing a charge from infinity to a point, including the derivation for a point charge.",
+          "key_ideas": [
+            "Definition of electrostatic potential (V) as a scalar quantity",
+            "Conservative nature of electrostatic forces",
+            "Formula for potential due to a point charge: V = kQ/r",
+            "Superposition principle for potential due to a system of charges"
+          ]
+        },
+        {
+          "concept_id": "physics12.electrostatic_potential.equipotential_and_field_relation",
+          "title": "Equipotential Surfaces and Field Relation",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics12.electrostatic_potential.electric_potential_definition"
+          ],
+          "description": "Analysis of surfaces with constant potential and the mathematical relationship between electric field intensity and potential gradient.",
+          "key_ideas": [
+            "Properties of equipotential surfaces (no work done moving charges)",
+            "Electric field lines are perpendicular to equipotential surfaces",
+            "Relation between Field and Potential: E = -dV/dr",
+            "Visualizing surfaces for point charges, dipoles, and uniform fields"
+          ]
+        },
+        {
+          "concept_id": "physics12.electrostatic_potential.potential_energy_systems",
+          "title": "Electrostatic Potential Energy",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.electrostatic_potential.electric_potential_definition"
+          ],
+          "description": "Calculation of the potential energy stored in systems of point charges and the behavior of electric dipoles in external electrostatic fields.",
+          "key_ideas": [
+            "Potential energy of a two-charge system: U = k(q1q2)/r",
+            "Work done in assembling a system of N charges",
+            "Potential energy of a dipole in an external field",
+            "Stable and unstable equilibrium of dipoles"
+          ]
+        },
+        {
+          "concept_id": "physics12.electrostatic_potential.dielectrics_and_polarization",
+          "title": "Dielectrics and Polarization",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Study of the behavior of insulators (dielectrics) in external electric fields, focusing on molecular polarization and the modification of the electric field.",
+          "key_ideas": [
+            "Difference between polar and non-polar molecules",
+            "Dielectric polarization and the Polarization Vector (P)",
+            "Dielectric constant (K) and electric susceptibility",
+            "Reduction of electric field inside a dielectric"
+          ]
+        },
+        {
+          "concept_id": "physics12.electrostatic_potential.parallel_plate_capacitor_theory",
+          "title": "Parallel Plate Capacitor and Dielectrics",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.electrostatic_potential.dielectrics_and_polarization"
+          ],
+          "description": "Detailed analysis of the parallel plate capacitor, deriving its capacitance based on geometry and the effect of inserting dielectric slabs.",
+          "key_ideas": [
+            "Derivation of capacitance: C = ε₀A/d",
+            "Effect of dielectric medium on capacitance (C = KC₀)",
+            "Electric field and potential distribution between plates",
+            "Capacitance with a partially filled dielectric slab"
+          ]
+        },
+        {
+          "concept_id": "physics12.electrostatic_potential.capacitor_combinations",
+          "title": "Grouping of Capacitors",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "physics12.electrostatic_potential.parallel_plate_capacitor_theory"
+          ],
+          "description": "Analyzing complex circuits involving capacitors connected in series and parallel configurations to determine equivalent capacitance and charge distribution.",
+          "key_ideas": [
+            "Series combination formula (reciprocal addition)",
+            "Parallel combination formula (direct addition)",
+            "Distribution of potential drop in series circuits",
+            "Distribution of charge in parallel circuits"
           ]
         }
       ]
@@ -56,6 +227,80 @@
             "Step-by-step problem solving for ohm's law, kirchhoff's laws, wheatstone bridge",
             "Real-world applications of ohm's law, kirchhoff's laws, wheatstone bridge"
           ]
+        },
+        {
+          "concept_id": "physics12.current_electricity.drift_velocity",
+          "title": "Electric Current and Drift Velocity",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Exploration of the microscopic view of current electricity, focusing on how free electrons move inside a conductor under an electric field.",
+          "key_ideas": [
+            "Concept of drift velocity and relaxation time",
+            "Relation between electric current and drift velocity (I = nAev)",
+            "Electron mobility and its relation to conductivity"
+          ]
+        },
+        {
+          "concept_id": "physics12.current_electricity.resistivity_temp",
+          "title": "Resistivity and Temperature Dependence",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics12.current_electricity.drift_velocity"
+          ],
+          "description": "Analysis of electrical resistivity, its origin in terms of material properties, and how temperature variations affect conductors, semiconductors, and alloys.",
+          "key_ideas": [
+            "Distinction between resistance and resistivity",
+            "Temperature coefficient of resistivity",
+            "Limitations of Ohm's law and non-ohmic conductors"
+          ]
+        },
+        {
+          "concept_id": "physics12.current_electricity.energy_power",
+          "title": "Electrical Energy and Power",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.current_electricity.kirchhoffs"
+          ],
+          "description": "Study of the heating effect of electric current, power dissipation in resistors, and efficiency in power transmission.",
+          "key_ideas": [
+            "Joule's Law of Heating",
+            "Power formulas (P = VI, P = I²R, P = V²/R)",
+            "Power rating of electrical appliances and transmission losses"
+          ]
+        },
+        {
+          "concept_id": "physics12.current_electricity.emf_cells",
+          "title": "EMF, Internal Resistance, and Cells",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.current_electricity.kirchhoffs"
+          ],
+          "description": "Detailed examination of electrochemical cells, the distinction between EMF and terminal voltage, and the mathematics of grouping cells.",
+          "key_ideas": [
+            "Difference between Electromotive Force (EMF) and Potential Difference",
+            "Internal resistance of a cell and factors affecting it",
+            "Equivalent EMF and resistance in Series and Parallel combinations of cells"
+          ]
+        },
+        {
+          "concept_id": "physics12.current_electricity.potentiometer_meter_bridge",
+          "title": "Potentiometer and Meter Bridge",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "physics12.current_electricity.kirchhoffs",
+            "physics12.current_electricity.emf_cells"
+          ],
+          "description": "Application of circuit principles to measuring instruments, focusing on the Meter Bridge for resistance and the Potentiometer for potential comparison.",
+          "key_ideas": [
+            "Working principle of the Meter Bridge (Slide Wire Bridge)",
+            "Principle of the Potentiometer (potential gradient)",
+            "Applications: Comparing EMF of two cells and measuring internal resistance"
+          ]
         }
       ]
     },
@@ -74,6 +319,70 @@
             "Core principles of lorentz force, biot-savart, ampere's law",
             "Step-by-step problem solving for lorentz force, biot-savart, ampere's law",
             "Real-world applications of lorentz force, biot-savart, ampere's law"
+          ]
+        },
+        {
+          "concept_id": "physics12.magnetism_current.motion_fields",
+          "title": "Motion in Combined Fields and Cyclotron",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.magnetism_current.biot_ampere"
+          ],
+          "description": "Analysis of charged particle trajectories in magnetic and electric fields, focusing on circular and helical motion and velocity selection.",
+          "key_ideas": [
+            "Radius of circular path (r = mv/qB)",
+            "Cyclotron frequency and period",
+            "Helical motion when velocity has a component parallel to B",
+            "Velocity selector mechanism (E = vB)"
+          ]
+        },
+        {
+          "concept_id": "physics12.magnetism_current.force_conductors",
+          "title": "Force on Current-Carrying Conductors",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.magnetism_current.biot_ampere"
+          ],
+          "description": "Calculation of magnetic force on conductors carrying current and the interaction between parallel currents.",
+          "key_ideas": [
+            "Force on a straight conductor (F = Il x B)",
+            "Force between two parallel current-carrying wires",
+            "Definition of the Ampere based on force per unit length",
+            "Attractive vs. repulsive forces based on current direction"
+          ]
+        },
+        {
+          "concept_id": "physics12.magnetism_current.torque_dipole",
+          "title": "Torque on Current Loop and Magnetic Dipole",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.magnetism_current.force_conductors"
+          ],
+          "description": "Examination of a current loop behaving as a magnetic dipole and the torque it experiences in a uniform magnetic field.",
+          "key_ideas": [
+            "Magnetic dipole moment (m = NIA)",
+            "Torque vector formula (tau = m x B)",
+            "Analogy between electric and magnetic dipoles",
+            "Circular current loop as a magnetic dipole"
+          ]
+        },
+        {
+          "concept_id": "physics12.magnetism_current.galvanometer",
+          "title": "Moving Coil Galvanometer",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "physics12.magnetism_current.torque_dipole"
+          ],
+          "description": "The working principle, construction, and sensitivity of the moving coil galvanometer and its conversion into measuring instruments.",
+          "key_ideas": [
+            "Radial magnetic field for linear scale",
+            "Current sensitivity and Voltage sensitivity",
+            "Conversion to Ammeter using shunt resistance",
+            "Conversion to Voltmeter using series resistance"
           ]
         }
       ]
@@ -94,6 +403,79 @@
             "Step-by-step problem solving for dia-, para-, ferromagnetic materials",
             "Real-world applications of dia-, para-, ferromagnetic materials"
           ]
+        },
+        {
+          "concept_id": "physics12.magnetism_matter.bar_magnet_dipole",
+          "title": "The Bar Magnet as an Equivalent Solenoid",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the magnetic dipole moment, the analogy between magnetic and electric dipoles, and the behavior of magnetic field lines.",
+          "key_ideas": [
+            "Magnetic field lines form continuous closed loops",
+            "Torque on a magnetic needle in a uniform magnetic field",
+            "Analogy between electric dipole moment (p) and magnetic dipole moment (m)"
+          ]
+        },
+        {
+          "concept_id": "physics12.magnetism_matter.gauss_law_magnetism",
+          "title": "Gauss's Law for Magnetism",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "physics12.magnetism_matter.bar_magnet_dipole"
+          ],
+          "description": "Explanation of why the net magnetic flux through any closed surface is zero, signifying the non-existence of magnetic monopoles.",
+          "key_ideas": [
+            "Net magnetic flux through a closed surface is always zero",
+            "Isolated magnetic monopoles do not exist",
+            "Difference between Gauss's law for electrostatics and magnetism"
+          ]
+        },
+        {
+          "concept_id": "physics12.magnetism_matter.earth_magnetism",
+          "title": "Terrestrial Magnetism",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.magnetism_matter.bar_magnet_dipole"
+          ],
+          "description": "Study of the Earth's magnetic field and the definitions of the magnetic elements required to specify the field at a given place.",
+          "key_ideas": [
+            "Magnetic Declination (angle between magnetic and geographic meridians)",
+            "Angle of Dip or Magnetic Inclination",
+            "Horizontal component of Earth's magnetic field"
+          ]
+        },
+        {
+          "concept_id": "physics12.magnetism_matter.magnetization_intensity",
+          "title": "Magnetization and Magnetic Intensity",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.magnetism_matter.bar_magnet_dipole"
+          ],
+          "description": "Mathematical formulation of how materials respond to magnetic fields, defining vectors M, H, and B.",
+          "key_ideas": [
+            "Magnetization (M) as net magnetic moment per unit volume",
+            "Magnetic Intensity (H) and its relation to B",
+            "Magnetic Susceptibility and Relative Permeability"
+          ]
+        },
+        {
+          "concept_id": "physics12.magnetism_matter.hysteresis_curve",
+          "title": "Hysteresis Loop",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "physics12.magnetism_matter.magnetic_materials"
+          ],
+          "description": "Analysis of the B-H curve for ferromagnetic materials, explaining the lag of magnetization behind the magnetizing field.",
+          "key_ideas": [
+            "Retentivity and Coercivity",
+            "Energy dissipation (Hysteresis loss) per cycle",
+            "Distinction between soft and hard magnetic materials"
+          ]
         }
       ]
     },
@@ -112,6 +494,86 @@
             "Core principles of faraday's law, lenz's law, inductance",
             "Step-by-step problem solving for faraday's law, lenz's law, inductance",
             "Real-world applications of faraday's law, lenz's law, inductance"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_induction.motional_emf",
+          "title": "Motional Electromotive Force",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.em_induction.faradays_lenz"
+          ],
+          "description": "Analysis of the potential difference generated across a conductor moving through a magnetic field, derived using Lorentz force or flux change methods.",
+          "key_ideas": [
+            "Derivation of E = Blv for a straight conductor",
+            "EMF induced in a rotating rod",
+            "Conversion of mechanical energy to electrical energy",
+            "Lorentz force acting on free charges"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_induction.eddy_currents",
+          "title": "Eddy Currents",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics12.em_induction.faradays_lenz"
+          ],
+          "description": "Study of circulating currents induced in bulk conductors when exposed to changing magnetic flux, including their effects and applications.",
+          "key_ideas": [
+            "Production of circulating currents in bulk metal",
+            "Electromagnetic damping (braking systems)",
+            "Heating effect and induction furnaces",
+            "Minimizing eddy currents using laminated cores"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_induction.mutual_inductance",
+          "title": "Mutual Inductance and Coupling",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.em_induction.faradays_lenz"
+          ],
+          "description": "Detailed examination of the magnetic interaction between two neighboring coils, focusing on geometry and the coefficient of coupling.",
+          "key_ideas": [
+            "Flux linkage between two coils",
+            "Reciprocity theorem (M12 = M21)",
+            "Mutual inductance of coaxial solenoids",
+            "Factors affecting the coefficient of coupling"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_induction.magnetic_energy",
+          "title": "Energy Stored in an Inductor",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.em_induction.faradays_lenz"
+          ],
+          "description": "Quantification of the energy required to build up current in an inductor and the energy density of the resulting magnetic field.",
+          "key_ideas": [
+            "Work done against back EMF",
+            "Formula U = 1/2 L I^2",
+            "Magnetic energy density (energy per unit volume)",
+            "Analogy with kinetic energy in mechanics"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_induction.ac_generator",
+          "title": "The AC Generator",
+          "bloom_level": "create",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "physics12.em_induction.motional_emf"
+          ],
+          "description": "Application of electromagnetic induction principles to design a device that converts mechanical energy into sinusoidal alternating current.",
+          "key_ideas": [
+            "Principle of rotating coil in a magnetic field",
+            "Instantaneous flux and induced EMF formulas",
+            "Role of slip rings and brushes",
+            "Phase relationship between flux and EMF"
           ]
         }
       ]
@@ -132,6 +594,68 @@
             "Step-by-step problem solving for lcr circuits, resonance, transformers",
             "Real-world applications of lcr circuits, resonance, transformers"
           ]
+        },
+        {
+          "concept_id": "physics12.ac.introduction_rms",
+          "title": "AC Voltage and RMS Values",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to alternating voltage and current, distinguishing them from direct current (DC). Focuses on the mathematical representation of sinusoidal AC and the derivation and significance of Root Mean Square (RMS) and average values.",
+          "key_ideas": [
+            "Sinusoidal representation: V = Vm sin(ωt)",
+            "Relationship between Peak (Vm) and RMS (Vrms) values",
+            "Average value of AC over a complete cycle is zero"
+          ]
+        },
+        {
+          "concept_id": "physics12.ac.reactance_phasors",
+          "title": "AC applied to Inductors and Capacitors",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics12.ac.introduction_rms"
+          ],
+          "description": "Analysis of AC circuits containing only an inductor or only a capacitor. Defines Inductive and Capacitive Reactance and utilizes phasor diagrams to visualize phase relationships (voltage leading or lagging current).",
+          "key_ideas": [
+            "Inductive Reactance (XL = ωL) and Capacitive Reactance (XC = 1/ωC)",
+            "Current lags voltage by π/2 in pure inductors",
+            "Current leads voltage by π/2 in pure capacitors",
+            "Phasor diagram representation"
+          ]
+        },
+        {
+          "concept_id": "physics12.ac.power_wattless_current",
+          "title": "Power in AC Circuits and Power Factor",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.ac.reactance_phasors",
+            "physics12.ac.lcr_transformers"
+          ],
+          "description": "Examination of power dissipation in AC circuits. Introduces the concept of Power Factor as a measure of efficiency and discusses the phenomenon of wattless current in purely inductive or capacitive circuits.",
+          "key_ideas": [
+            "Average Power P = V_rms * I_rms * cos(Φ)",
+            "Power Factor (cos Φ) and its significance",
+            "Wattless current vs. Wattful current",
+            "Maximizing power transmission efficiency"
+          ]
+        },
+        {
+          "concept_id": "physics12.ac.lc_oscillations",
+          "title": "LC Oscillations",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.ac.reactance_phasors"
+          ],
+          "description": "Study of the oscillatory exchange of energy between the electric field of a capacitor and the magnetic field of an inductor in an ideal LC circuit, drawing analogies to mechanical spring-mass systems.",
+          "key_ideas": [
+            "Conservation of energy in ideal LC circuits",
+            "Oscillation frequency f = 1 / (2π√(LC))",
+            "Interconversion of electrostatic and magnetic energy",
+            "Mechanical analogy (Mass-Spring system)"
+          ]
         }
       ]
     },
@@ -150,6 +674,68 @@
             "Core principles of em spectrum and properties",
             "Step-by-step problem solving for em spectrum and properties",
             "Real-world applications of em spectrum and properties"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_waves.displacement_current",
+          "title": "Displacement Current and Ampere-Maxwell Law",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to the concept of displacement current arising from changing electric fields, resolving the inconsistency in Ampere's Circuital Law for charging capacitors.",
+          "key_ideas": [
+            "Inconsistency of Ampere's Law for non-steady currents",
+            "Displacement current depends on the rate of change of electric flux",
+            "The sum of conduction and displacement current is continuous",
+            "Modification of Ampere's Law to the Ampere-Maxwell Law"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_waves.maxwells_equations",
+          "title": "Maxwell's Equations",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.em_waves.displacement_current"
+          ],
+          "description": "Study of the set of four fundamental equations that unify electricity and magnetism, describing how electric and magnetic fields interact and propagate.",
+          "key_ideas": [
+            "Gauss's Law for Electricity and Magnetism",
+            "Faraday's Law of Induction",
+            "Ampere-Maxwell Law",
+            "Unification of electric and magnetic phenomena"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_waves.nature_propagation",
+          "title": "Source and Nature of EM Waves",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.em_waves.maxwells_equations"
+          ],
+          "description": "Analysis of how oscillating charges generate electromagnetic waves and the mathematical relationship between electric and magnetic field vectors during propagation.",
+          "key_ideas": [
+            "Oscillating charges as the source of EM waves",
+            "Transverse nature of electromagnetic waves",
+            "Perpendicular relationship between E, B, and propagation direction",
+            "Relation between field magnitudes: E = cB"
+          ]
+        },
+        {
+          "concept_id": "physics12.em_waves.energy_momentum",
+          "title": "Energy Density and Momentum",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "physics12.em_waves.nature_propagation"
+          ],
+          "description": "Examination of the energy transported by electromagnetic waves, the concept of radiation pressure, and the momentum transferred to surfaces.",
+          "key_ideas": [
+            "Average energy density of electric and magnetic fields",
+            "Intensity of electromagnetic waves",
+            "Momentum transfer and radiation pressure",
+            "Conservation of energy in EM wave propagation"
           ]
         }
       ]
@@ -170,6 +756,86 @@
             "Step-by-step problem solving for reflection, refraction, prism, tir, instruments",
             "Real-world applications of reflection, refraction, prism, tir, instruments"
           ]
+        },
+        {
+          "concept_id": "physics12.ray_optics.spherical_mirror_equation",
+          "title": "Spherical Mirrors and Mirror Equation",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "physics12.ray_optics.reflection_refraction_instruments"
+          ],
+          "description": "Application of the Cartesian sign convention to spherical mirrors, focusing on the relationship between object distance, image distance, and focal length.",
+          "key_ideas": [
+            "Cartesian sign convention for spherical mirrors",
+            "Derivation and application of the Mirror Formula (1/v + 1/u = 1/f)",
+            "Linear magnification concepts for real and virtual images",
+            "Ray tracing rules for concave and convex mirrors"
+          ]
+        },
+        {
+          "concept_id": "physics12.ray_optics.refraction_curved_surfaces",
+          "title": "Refraction at Spherical Surfaces",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.ray_optics.reflection_refraction_instruments"
+          ],
+          "description": "Analysis of light refraction when passing from one medium to another through a curved spherical interface, forming the basis for lens theory.",
+          "key_ideas": [
+            "Refraction formula for spherical surfaces: n2/v - n1/u = (n2-n1)/R",
+            "Image formation conditions for rarer-to-denser and denser-to-rarer transitions",
+            "Assumptions regarding aperture size and paraxial rays",
+            "Relationship between refractive indices and radius of curvature"
+          ]
+        },
+        {
+          "concept_id": "physics12.ray_optics.lens_makers_formula_power",
+          "title": "Lens Maker's Formula and Power of Lenses",
+          "bloom_level": "create",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.ray_optics.refraction_curved_surfaces"
+          ],
+          "description": "Derivation and application of the Lens Maker's Formula to design lenses and calculate the equivalent focal length of combined lenses.",
+          "key_ideas": [
+            "Derivation of the Lens Maker's Formula",
+            "Thin lens formula (1/v - 1/u = 1/f)",
+            "Power of a lens (Diopter) and combination of thin lenses in contact",
+            "Impact of immersing a lens in a liquid with a different refractive index"
+          ]
+        },
+        {
+          "concept_id": "physics12.ray_optics.prism_minimum_deviation",
+          "title": "Refraction through a Prism and Dispersion",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.ray_optics.reflection_refraction_instruments"
+          ],
+          "description": "Detailed study of light passing through a triangular prism, focusing on the angle of minimum deviation and the phenomenon of dispersion.",
+          "key_ideas": [
+            "Relationship between angle of incidence, emergence, and prism angle",
+            "Condition for angle of minimum deviation",
+            "Calculation of refractive index using the prism formula",
+            "Dispersion of white light and the visible spectrum"
+          ]
+        },
+        {
+          "concept_id": "physics12.ray_optics.optical_instruments_magnifying_power",
+          "title": "Magnifying Power of Optical Instruments",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "physics12.ray_optics.lens_makers_formula_power"
+          ],
+          "description": "Evaluation of complex optical devices like compound microscopes and telescopes, specifically calculating their angular magnification and resolving limitations.",
+          "key_ideas": [
+            "Visual angle and angular magnification",
+            "Compound Microscope: Objective vs. Eyepiece focal lengths",
+            "Astronomical Telescope: Normal adjustment vs. Near point adjustment",
+            "Reflecting telescopes (Cassegrain) advantages over refracting types"
+          ]
         }
       ]
     },
@@ -188,6 +854,84 @@
             "Core principles of young's slit, diffraction, polarisation",
             "Step-by-step problem solving for young's slit, diffraction, polarisation",
             "Real-world applications of young's slit, diffraction, polarisation"
+          ]
+        },
+        {
+          "concept_id": "physics12.wave_optics.huygens_principle",
+          "title": "Wavefronts and Huygens' Principle",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to the wave nature of light, defining wavefronts (spherical, plane, and cylindrical) and the geometric construction of wave propagation.",
+          "key_ideas": [
+            "Definition of a wavefront as a locus of constant phase",
+            "Types of wavefronts: Spherical, Plane, and Cylindrical",
+            "Every point on a wavefront acts as a source of secondary wavelets",
+            "The forward envelope of secondary wavelets gives the new wavefront"
+          ]
+        },
+        {
+          "concept_id": "physics12.wave_optics.refraction_reflection_waves",
+          "title": "Refraction and Reflection of Plane Waves",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.wave_optics.huygens_principle"
+          ],
+          "description": "Derivation of Snell's Law of refraction and the Law of Reflection using Huygens' wave theory, reconciling wave optics with geometric optics.",
+          "key_ideas": [
+            "Proof of angle of incidence equals angle of reflection using wavefront geometry",
+            "Derivation of Snell's Law (n1 sin i = n2 sin r)",
+            "Relationship between wave speed, frequency, and wavelength during refraction",
+            "Frequency remains constant when light enters a different medium"
+          ]
+        },
+        {
+          "concept_id": "physics12.wave_optics.superposition_coherence",
+          "title": "Coherent Sources and Superposition Principle",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.wave_optics.huygens_principle"
+          ],
+          "description": "The mathematical conditions required for interference, distinguishing between coherent and incoherent sources and the vector addition of wave displacements.",
+          "key_ideas": [
+            "Principle of Superposition: y = y1 + y2",
+            "Definition of coherent sources (constant phase difference)",
+            "Constructive interference condition: Path difference = nλ",
+            "Destructive interference condition: Path difference = (n + 0.5)λ"
+          ]
+        },
+        {
+          "concept_id": "physics12.wave_optics.resolving_power",
+          "title": "Resolving Power of Optical Instruments",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.wave_optics.interference_diffraction"
+          ],
+          "description": "Analysis of the limit of resolution for microscopes and telescopes based on diffraction effects and the Rayleigh criterion.",
+          "key_ideas": [
+            "Rayleigh criterion for resolution",
+            "Resolving power of a microscope (numerical aperture)",
+            "Resolving power of a telescope (aperture diameter)",
+            "Inverse relationship between resolving power and wavelength"
+          ]
+        },
+        {
+          "concept_id": "physics12.wave_optics.polarization_laws",
+          "title": "Laws of Polarization: Malus and Brewster",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.wave_optics.interference_diffraction"
+          ],
+          "description": "Detailed study of plane polarized light, including the intensity variation through analyzers and polarization by reflection.",
+          "key_ideas": [
+            "Distinction between unpolarized and plane polarized light",
+            "Malus's Law: Intensity I = I₀ cos²θ",
+            "Brewster's Law and the polarizing angle (tan ip = μ)",
+            "Polarization by scattering and reflection"
           ]
         }
       ]
@@ -208,6 +952,82 @@
             "Step-by-step problem solving for photoelectric effect and de broglie",
             "Real-world applications of photoelectric effect and de broglie"
           ]
+        },
+        {
+          "concept_id": "physics12.dual_nature.electron_emission_work_function",
+          "title": "Electron Emission and Work Function",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the concept of free electrons in metals, the energy barrier, and the minimum energy required to escape the metal surface.",
+          "key_ideas": [
+            "Definition of Work Function (Φ₀) and its unit (electron-volt)",
+            "Thermionic emission and Field emission",
+            "Dependence of work function on the nature of metal and surface conditions"
+          ]
+        },
+        {
+          "concept_id": "physics12.dual_nature.experimental_features_photoelectric",
+          "title": "Experimental Study of Photoelectric Effect",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.dual_nature.electron_emission_work_function"
+          ],
+          "description": "Analysis of the experimental setup (Lenard/Millikan) and the graphical relationships between intensity, potential, frequency, and photoelectric current.",
+          "key_ideas": [
+            "Effect of intensity of light on photoelectric current",
+            "Concept of Stopping Potential (Cut-off voltage)",
+            "Effect of frequency on Stopping Potential vs Saturation Current",
+            "Existence of Threshold Frequency"
+          ]
+        },
+        {
+          "concept_id": "physics12.dual_nature.photon_picture_radiation",
+          "title": "Particle Nature of Light: The Photon",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Conceptualizing radiation as discrete packets of energy called photons, explaining phenomena where the wave theory of light fails.",
+          "key_ideas": [
+            "Energy of a photon (E = hν)",
+            "Momentum of a photon (p = h/λ)",
+            "Invariance of photon speed in different frames",
+            "Conservation of energy and momentum in photon-particle collisions"
+          ]
+        },
+        {
+          "concept_id": "physics12.dual_nature.einstein_photoelectric_equation",
+          "title": "Einstein's Photoelectric Equation",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.dual_nature.experimental_features_photoelectric",
+            "physics12.dual_nature.photon_picture_radiation"
+          ],
+          "description": "Derivation and application of Einstein's equation to explain experimental observations of the photoelectric effect.",
+          "key_ideas": [
+            "Equation: K_max = hν - Φ₀",
+            "Explanation of linear relationship between Stopping Potential and Frequency",
+            "Determination of Planck's constant from experimental graphs",
+            "Why wave theory fails to explain instantaneous emission"
+          ]
+        },
+        {
+          "concept_id": "physics12.dual_nature.davisson_germer_experiment",
+          "title": "Davisson and Germer Experiment",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "physics12.dual_nature.photoelectric_debroglie"
+          ],
+          "description": "The experimental verification of the wave nature of electrons through diffraction patterns.",
+          "key_ideas": [
+            "Experimental setup involving electron gun and nickel crystal",
+            "Observation of electron diffraction maxima",
+            "Agreement between theoretical de Broglie wavelength and experimental Bragg's law values",
+            "Confirmation of wave-particle duality for matter"
+          ]
         }
       ]
     },
@@ -226,6 +1046,68 @@
             "Core principles of bohr model and hydrogen spectrum",
             "Step-by-step problem solving for bohr model and hydrogen spectrum",
             "Real-world applications of bohr model and hydrogen spectrum"
+          ]
+        },
+        {
+          "concept_id": "physics12.atoms12.alpha_scattering",
+          "title": "Rutherford's Alpha Scattering Experiment",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "The historical experiment involving alpha particle bombardment of gold foil that led to the discovery of the atomic nucleus.",
+          "key_ideas": [
+            "Geiger-Marsden experiment setup",
+            "Observation of large angle deflections",
+            "Failure of Thomson's Plum Pudding model",
+            "Discovery of the massive, positively charged nucleus"
+          ]
+        },
+        {
+          "concept_id": "physics12.atoms12.closest_approach",
+          "title": "Distance of Closest Approach and Impact Parameter",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "physics12.atoms12.alpha_scattering"
+          ],
+          "description": "Mathematical analysis of alpha particle trajectories based on Coulomb repulsion and conservation of energy.",
+          "key_ideas": [
+            "Conversion of kinetic energy to electrostatic potential energy",
+            "Calculation of distance of closest approach (r₀)",
+            "Definition of impact parameter (b)",
+            "Relationship between impact parameter and scattering angle"
+          ]
+        },
+        {
+          "concept_id": "physics12.atoms12.orbital_energy",
+          "title": "Total Energy of the Electron",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.atoms12.bohr_spectrum"
+          ],
+          "description": "Derivation and analysis of the kinetic, potential, and total energy of an electron in a hydrogen atom orbit.",
+          "key_ideas": [
+            "Relationship between Kinetic Energy and Potential Energy",
+            "Significance of negative total energy (bound state)",
+            "Energy expression: E = -13.6/n² eV",
+            "Stability of the atom"
+          ]
+        },
+        {
+          "concept_id": "physics12.atoms12.matter_waves_bohr",
+          "title": "De Broglie's Explanation of Bohr's Quantization",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.atoms12.bohr_spectrum"
+          ],
+          "description": "The quantum mechanical justification for Bohr's second postulate regarding the quantization of angular momentum using wave-particle duality.",
+          "key_ideas": [
+            "Electron as a standing wave on a circular orbit",
+            "Circumference equals integral number of wavelengths",
+            "Derivation of mvr = nh/2π from de Broglie wavelength",
+            "Connection between wave nature and stable orbits"
           ]
         }
       ]
@@ -246,6 +1128,84 @@
             "Step-by-step problem solving for binding energy, radioactivity, fission, fusion",
             "Real-world applications of binding energy, radioactivity, fission, fusion"
           ]
+        },
+        {
+          "concept_id": "physics12.nuclei.composition_classification",
+          "title": "Atomic Masses and Composition of Nucleus",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the constituents of the nucleus, including the definition of atomic mass unit and the classification of nuclei based on proton and neutron numbers.",
+          "key_ideas": [
+            "Discovery of the neutron by Chadwick",
+            "Terms: Nucleons, Atomic Number (Z), Mass Number (A)",
+            "Classification: Isotopes, Isobars, and Isotones",
+            "Unified Atomic Mass Unit (u)"
+          ]
+        },
+        {
+          "concept_id": "physics12.nuclei.size_density",
+          "title": "Size and Density of the Nucleus",
+          "bloom_level": "apply",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "physics12.nuclei.composition_classification"
+          ],
+          "description": "Mathematical estimation of nuclear size and the concept of nuclear density, highlighting its independence from the mass number.",
+          "key_ideas": [
+            "Relationship between Nuclear Radius (R) and Mass Number (A)",
+            "The empirical formula R = R₀A^(1/3)",
+            "Constant nature of nuclear density across different elements",
+            "Comparison of nuclear density vs. atomic density"
+          ]
+        },
+        {
+          "concept_id": "physics12.nuclei.mass_defect_energy",
+          "title": "Mass-Energy Equivalence and Mass Defect",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.nuclei.composition_classification"
+          ],
+          "description": "Exploration of Einstein's mass-energy relation and the calculation of mass defect, which serves as the foundation for understanding binding energy.",
+          "key_ideas": [
+            "Einstein's mass-energy equivalence relation (E=mc²)",
+            "Definition and calculation of Mass Defect (Δm)",
+            "Energy equivalent of 1 atomic mass unit (931.5 MeV)",
+            "Conservation of mass-energy in nuclear reactions"
+          ]
+        },
+        {
+          "concept_id": "physics12.nuclei.nuclear_force",
+          "title": "Nuclear Force and Stability",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.nuclei.size_density"
+          ],
+          "description": "Analysis of the strong nuclear force that holds nucleons together, its characteristics, and how neutron-to-proton ratios affect nuclear stability.",
+          "key_ideas": [
+            "Properties: Short-range, charge-independent, and spin-dependent",
+            "Saturation of nuclear forces",
+            "Potential energy vs. separation distance curve",
+            "Stability belt and N/Z ratio"
+          ]
+        },
+        {
+          "concept_id": "physics12.nuclei.decay_law_halflife",
+          "title": "Law of Radioactive Decay",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.nuclei.binding_radioactivity"
+          ],
+          "description": "Detailed mathematical treatment of the statistical nature of radioactive decay, including half-life and mean life calculations.",
+          "key_ideas": [
+            "Rutherford-Soddy Law (N = N₀e^(-λt))",
+            "Decay constant (λ) and activity (R)",
+            "Derivation and calculation of Half-life (T₁/₂)",
+            "Concept of Mean life (τ) and its relation to decay constant"
+          ]
         }
       ]
     },
@@ -264,6 +1224,84 @@
             "Core principles of p-n junction, transistor, logic gates",
             "Step-by-step problem solving for p-n junction, transistor, logic gates",
             "Real-world applications of p-n junction, transistor, logic gates"
+          ]
+        },
+        {
+          "concept_id": "physics12.semiconductors.energy_bands",
+          "title": "Energy Bands in Solids",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to the band theory of solids, distinguishing between conductors, insulators, and semiconductors based on energy gaps.",
+          "key_ideas": [
+            "Valence band and conduction band distinction",
+            "Forbidden energy gap (Eg) significance",
+            "Classification of solids based on band theory",
+            "Temperature dependence of semiconductor conductivity"
+          ]
+        },
+        {
+          "concept_id": "physics12.semiconductors.intrinsic_extrinsic_semiconductors",
+          "title": "Intrinsic and Extrinsic Semiconductors",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "physics12.semiconductors.energy_bands"
+          ],
+          "description": "Exploration of pure semiconductors and the process of doping to create n-type and p-type materials to control conductivity.",
+          "key_ideas": [
+            "Electron-hole pair generation in intrinsic semiconductors",
+            "Doping process with pentavalent and trivalent impurities",
+            "Majority and minority charge carriers",
+            "Concept of donor and acceptor energy levels"
+          ]
+        },
+        {
+          "concept_id": "physics12.semiconductors.diode_characteristics",
+          "title": "Semiconductor Diode I-V Characteristics",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "physics12.semiconductors.intrinsic_extrinsic_semiconductors"
+          ],
+          "description": "Analysis of p-n junction behavior under forward and reverse bias, focusing on the flow of current and the depletion region.",
+          "key_ideas": [
+            "Forward bias mechanics and barrier potential reduction",
+            "Reverse bias mechanics and saturation current",
+            "Threshold (knee) voltage",
+            "Shape of the I-V characteristic curve"
+          ]
+        },
+        {
+          "concept_id": "physics12.semiconductors.rectifiers",
+          "title": "Application of Junction Diode as a Rectifier",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "physics12.semiconductors.diode_characteristics"
+          ],
+          "description": "Application of p-n junction diodes to convert alternating current (AC) into direct current (DC) using half-wave and full-wave circuits.",
+          "key_ideas": [
+            "Principles of rectification",
+            "Half-wave rectifier circuit and output",
+            "Full-wave rectifier (center-tap and bridge) operation",
+            "Role of capacitor filters in smoothing output"
+          ]
+        },
+        {
+          "concept_id": "physics12.semiconductors.special_purpose_diodes",
+          "title": "Special Purpose p-n Junction Diodes",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "physics12.semiconductors.pn_junction_transistor"
+          ],
+          "description": "Study of diodes designed for specific applications, including voltage regulation and optoelectronic functions.",
+          "key_ideas": [
+            "Zener diode as a voltage regulator (reverse breakdown)",
+            "Photodiodes for optical signal detection",
+            "Light Emitting Diodes (LEDs) and band gap energy",
+            "Solar cells and photovoltaic action"
           ]
         }
       ]

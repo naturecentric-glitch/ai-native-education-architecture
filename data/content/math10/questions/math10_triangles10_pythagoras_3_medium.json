@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.triangles10.pythagoras"
+    ],
+    "question": "Find the hypotenuse of a right triangle with legs 9 cm and 40 cm.",
+    "hint": "c² = 9² + 40² = 81 + 1600.",
+    "expected_answer": "c² = 81 + 1600 = 1681. c = √1681 = 41 cm."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.triangles10.pythagoras"
+    ],
+    "question": "Determine whether a triangle with sides 7, 11, 13 is right-angled, acute, or obtuse.",
+    "hint": "Compare 13² with 7² + 11². If equal → right, if less → acute, if more → obtuse.",
+    "expected_answer": "13² = 169. 7² + 11² = 49 + 121 = 170. Since 169 < 170, the triangle is acute."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.triangles10.pythagoras"
+    ],
+    "question": "A 17 m ladder reaches a window 15 m above the ground. How far is the foot of the ladder from the wall?",
+    "hint": "17² = 15² + d². Solve for d.",
+    "expected_answer": "d² = 17² − 15² = 289 − 225 = 64. d = 8 m."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.triangles10.pythagoras"
+    ],
+    "question": "In an equilateral triangle of side 2a, find the length of the altitude.",
+    "hint": "The altitude bisects the base. So you get a right triangle with hypotenuse 2a and base a.",
+    "expected_answer": "Altitude² = (2a)² − a² = 4a² − a² = 3a². Altitude = a√3."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.triangles10.pythagoras"
+    ],
+    "question": "In a right triangle ABC, ∠B = 90°, BD is the altitude from B to AC. If AD = 4, DC = 9, find BD, AB, and BC.",
+    "hint": "BD² = AD × DC (geometric mean relation). AB² = AD × AC. BC² = DC × AC.",
+    "expected_answer": "AC = 4 + 9 = 13. BD² = AD × DC = 4 × 9 = 36 → BD = 6. AB² = AD × AC = 4 × 13 = 52 → AB = 2√13. BC² = DC × AC = 9 × 13 = 117 → BC = 3√13."
+  }
+]

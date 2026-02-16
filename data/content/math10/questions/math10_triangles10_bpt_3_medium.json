@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.triangles10.bpt"
+    ],
+    "question": "In △ABC, DE ∥ BC. If AD = 3 cm, DB = 5 cm, and AE = 4.5 cm, find EC.",
+    "hint": "By BPT: AD/DB = AE/EC → 3/5 = 4.5/EC.",
+    "expected_answer": "3/5 = 4.5/EC → EC = 4.5 × 5/3 = 7.5 cm."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.triangles10.bpt"
+    ],
+    "question": "In △PQR, a line parallel to QR meets PQ at X and PR at Y. If PX = 4, XQ = 8, and PY = 3, find YR and PR.",
+    "hint": "PX/XQ = PY/YR by BPT. Then PR = PY + YR.",
+    "expected_answer": "4/8 = 3/YR → YR = 6. PR = 3 + 6 = 9."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.triangles10.bpt"
+    ],
+    "question": "In △ABC, DE ∥ BC with D on AB. If AD = 2x−1, DB = 2x+1, AE = x, EC = x+2. Find x.",
+    "hint": "BPT: AD/DB = AE/EC. Cross multiply and solve.",
+    "expected_answer": "(2x−1)/(2x+1) = x/(x+2). Cross: (2x−1)(x+2) = x(2x+1). 2x²+4x−x−2 = 2x²+x. 2x²+3x−2 = 2x²+x. 2x = 2. x = 1."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.triangles10.bpt"
+    ],
+    "question": "ABCD is a trapezium with AB ∥ DC. Diagonals intersect at O. If AO = 6, OC = 4, OB = 9, find OD.",
+    "hint": "In △AOB and △COD with AB ∥ DC: AO/OC = BO/OD (by BPT in the triangles formed).",
+    "expected_answer": "AO/OC = BO/OD → 6/4 = 9/OD → OD = 36/6 = 6. So OD = 6."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.triangles10.bpt"
+    ],
+    "question": "In △ABC, angle bisector of ∠A meets BC at D. Prove that BD/DC = AB/AC. (Given: AB = 6, AC = 8, BC = 7. Find BD and DC.)",
+    "hint": "This is the Angle Bisector Property. With AB=6, AC=8: BD/DC = 6/8 = 3/4. And BD+DC = 7.",
+    "expected_answer": "BD/DC = AB/AC = 6/8 = 3/4. Let BD = 3k, DC = 4k. 3k + 4k = 7 → k = 1. BD = 3, DC = 4."
+  }
+]

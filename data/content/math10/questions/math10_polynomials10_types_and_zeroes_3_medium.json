@@ -3,34 +3,55 @@
     "id": 1,
     "type": "direct",
     "difficulty": 0.3,
-    "question": "State and explain the key concept: Linear polynomial ax+b has exactly 1 zero (straight line graph).",
-    "hint": "Think about the definition and main formula related to Types of Polynomials and Geometrical Meaning of Zeroes.",
-    "expected_answer": "This tests understanding of: Linear polynomial ax+b has exactly 1 zero (straight line graph). Refer to NCERT textbook for the detailed explanation.",
     "concepts_tested": [
-      "Types of Polynomials and Geometrical Meaning of Zeroes"
-    ]
+      "math10.polynomials10.types_and_zeroes"
+    ],
+    "question": "Find the zeroes of p(x) = x² − 2x − 8.",
+    "hint": "Factor: find two numbers that multiply to −8 and add to −2.",
+    "expected_answer": "x² − 2x − 8 = (x − 4)(x + 2). Zeroes: x = 4 and x = −2. Verify: p(4) = 16 − 8 − 8 = 0 ✓, p(−2) = 4 + 4 − 8 = 0 ✓."
   },
   {
     "id": 2,
-    "type": "word_problem",
+    "type": "direct",
     "difficulty": 0.4,
-    "question": "Solve an NCERT example problem related to 'Types of Polynomials and Geometrical Meaning of Zeroes'. Show all steps clearly.",
-    "hint": "Review the key ideas: Linear polynomial ax+b has exactly 1 zero (straight line graph), Quadratic polynomial ax²+bx+c has at most 2 zeroes (parabola).",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Types of Polynomials and Geometrical Meaning of Zeroes. Focus on step-by-step working.",
     "concepts_tested": [
-      "Types of Polynomials and Geometrical Meaning of Zeroes"
-    ]
+      "math10.polynomials10.types_and_zeroes"
+    ],
+    "question": "Find the zeroes of p(x) = 6x² − 7x − 3.",
+    "hint": "Product = 6×(−3) = −18. Find two numbers with product −18 and sum −7.",
+    "expected_answer": "6x² − 7x − 3: ac = −18, numbers: −9 and 2. Rewrite: 6x² − 9x + 2x − 3 = 3x(2x−3) + 1(2x−3) = (3x+1)(2x−3). Zeroes: x = −1/3 and x = 3/2."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.44999999999999996,
-    "question": "How would you apply 'Types of Polynomials and Geometrical Meaning of Zeroes' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where types of polynomials and geometrical meaning of zeroes concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Types of Polynomials and Geometrical Meaning of Zeroes.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Types of Polynomials and Geometrical Meaning of Zeroes",
-      "Real-world application"
-    ]
+      "math10.polynomials10.types_and_zeroes"
+    ],
+    "question": "The graph of a quadratic polynomial touches the x-axis at x = 4 and opens upward. Write one such polynomial.",
+    "hint": "If it only touches (doesn't cross), x = 4 is a repeated zero. So p(x) = a(x − 4)².",
+    "expected_answer": "Since x = 4 is a repeated zero (touches, doesn't cross), p(x) = (x − 4)² = x² − 8x + 16. Opens upward since coefficient of x² is positive."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.polynomials10.types_and_zeroes"
+    ],
+    "question": "A quadratic polynomial has zeroes at x = −3 and x = 2. If p(1) = 8, find the polynomial.",
+    "hint": "p(x) = a(x + 3)(x − 2). Use p(1) = 8 to find a.",
+    "expected_answer": "p(x) = a(x + 3)(x − 2). p(1) = a(4)(−1) = −4a = 8 → a = −2. So p(x) = −2(x + 3)(x − 2) = −2(x² + x − 6) = −2x² − 2x + 12."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.polynomials10.types_and_zeroes"
+    ],
+    "question": "A cubic polynomial has zeroes at −2, 1, and 3 and passes through (0, 12). Find the polynomial.",
+    "hint": "p(x) = a(x + 2)(x − 1)(x − 3). Use p(0) = 12 to find a.",
+    "expected_answer": "p(x) = a(x + 2)(x − 1)(x − 3). p(0) = a(2)(−1)(−3) = 6a = 12 → a = 2. So p(x) = 2(x + 2)(x − 1)(x − 3). Expanding: 2(x³ − 2x² − 5x + 6) = 2x³ − 4x² − 10x + 12."
   }
 ]

@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.45,
-    "question": "State and explain the key concept: AA criterion: two pairs of equal angles ⇒ triangles are similar.",
-    "hint": "Think about the definition and main formula related to Criteria for Similarity of Triangles.",
-    "expected_answer": "This tests understanding of: AA criterion: two pairs of equal angles ⇒ triangles are similar. Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Criteria for Similarity of Triangles"
-    ]
+      "math10.triangles10.similarity_criteria"
+    ],
+    "question": "In △ABC and △DEF: ∠A = ∠D = 40° and ∠C = ∠F = 75°. Are they similar? If so, write the similarity.",
+    "hint": "Two angle pairs equal → AA criterion.",
+    "expected_answer": "∠B = 180−40−75 = 65° = ∠E. By AA: △ABC ~ △DEF."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.55,
-    "question": "Solve an NCERT example problem related to 'Criteria for Similarity of Triangles'. Show all steps clearly.",
-    "hint": "Review the key ideas: AA criterion: two pairs of equal angles ⇒ triangles are similar, SSS criterion: all three pairs of sides in proportion ⇒ similar.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Criteria for Similarity of Triangles. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Criteria for Similarity of Triangles"
-    ]
+      "math10.triangles10.similarity_criteria"
+    ],
+    "question": "△ABC ~ △DEF with AB = 6, DE = 9, BC = 8. Find EF.",
+    "hint": "Corresponding sides are proportional: AB/DE = BC/EF.",
+    "expected_answer": "6/9 = 8/EF → EF = 9 × 8/6 = 12."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.6,
-    "question": "How would you apply 'Criteria for Similarity of Triangles' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where criteria for similarity of triangles concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Criteria for Similarity of Triangles.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Criteria for Similarity of Triangles",
-      "Real-world application"
-    ]
+      "math10.triangles10.similarity_criteria"
+    ],
+    "question": "A vertical pole 6 m tall casts a shadow 4 m long. At the same time, a tower casts a shadow 28 m long. Find the height of the tower.",
+    "hint": "Same time → same sun angle → similar triangles. Height/Shadow ratio is constant.",
+    "expected_answer": "6/4 = h/28 → h = 6 × 28/4 = 42 m."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.triangles10.similarity_criteria"
+    ],
+    "question": "In △ABC, ∠B = 90°, BD ⊥ AC. Prove △ADB ~ △ABC and find BD if AB = 12, BC = 5.",
+    "hint": "In △ADB and △ABC: ∠A is common, ∠ADB = ∠ABC = 90°. So AA. AC = √(144+25) = 13.",
+    "expected_answer": "∠A is common, ∠ADB = ∠ABC = 90° → △ADB ~ △ABC (AA). AC = √(12²+5²) = 13. Since △ADB ~ △ABC: BD/BC = AB/AC → BD/5 = 12/13 → BD = 60/13 ≈ 4.62 cm."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.triangles10.similarity_criteria"
+    ],
+    "question": "In △ABC, DE ∥ BC where D is on AB and E on AC. If AD/DB = 2/3, find DE/BC.",
+    "hint": "△ADE ~ △ABC (AA, since DE ∥ BC). Ratio = AD/AB.",
+    "expected_answer": "AD/AB = 2/(2+3) = 2/5. Since △ADE ~ △ABC: DE/BC = AD/AB = 2/5. So DE = (2/5)BC."
   }
 ]

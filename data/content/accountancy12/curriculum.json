@@ -37,6 +37,84 @@
             "Step-by-step problem solving for methods of goodwill valuation",
             "Real-world applications of methods of goodwill valuation"
           ]
+        },
+        {
+          "concept_id": "accountancy12.goodwill.meaning_nature",
+          "title": "Meaning and Nature of Goodwill",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Introduction to goodwill as an intangible asset representing the reputation and good name of a firm that enables it to earn higher profits than normal.",
+          "key_ideas": [
+            "Definition of Goodwill as the value of reputation",
+            "Goodwill as an intangible but valuable asset",
+            "Distinction between tangible assets and goodwill",
+            "Role in earning super profits"
+          ]
+        },
+        {
+          "concept_id": "accountancy12.goodwill.factors_affecting",
+          "title": "Factors Affecting the Value of Goodwill",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "accountancy12.goodwill.meaning_nature"
+          ],
+          "description": "Analysis of the various internal and external factors that influence a firm's reputation and the monetary value of its goodwill.",
+          "key_ideas": [
+            "Impact of favorable location on customer footfall",
+            "Efficiency of management and operational longevity",
+            "Nature of goods and market stability",
+            "Possession of patents, contracts, and trade advantages"
+          ]
+        },
+        {
+          "concept_id": "accountancy12.goodwill.classification_as26",
+          "title": "Classification and Accounting Standard 26",
+          "bloom_level": "evaluate",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "accountancy12.goodwill.meaning_nature"
+          ],
+          "description": "Differentiation between Purchased and Self-generated Goodwill, and the rules prescribed by Accounting Standard 26 (Intangible Assets) regarding their recording in books.",
+          "key_ideas": [
+            "Purchased Goodwill: Arises on acquisition, recorded in books",
+            "Self-generated Goodwill: Internally built, not recorded in books",
+            "AS-26 requirement: Asset recognition only when consideration is paid",
+            "Amortization of Purchased Goodwill"
+          ]
+        },
+        {
+          "concept_id": "accountancy12.goodwill.need_for_valuation",
+          "title": "Need for Valuation of Goodwill",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "accountancy12.goodwill.meaning_nature"
+          ],
+          "description": "Identification of specific circumstances in a partnership where the valuation of goodwill becomes necessary to ensure fair treatment of partners.",
+          "key_ideas": [
+            "Change in profit-sharing ratio among existing partners",
+            "Admission of a new partner",
+            "Retirement or death of a partner",
+            "Dissolution or amalgamation of the firm"
+          ]
+        },
+        {
+          "concept_id": "accountancy12.goodwill.adjusted_profit_calculation",
+          "title": "Calculation of Adjusted Normal Profit",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "accountancy12.goodwill.meaning_nature"
+          ],
+          "description": "The process of normalizing past profits by adjusting for abnormal gains, abnormal losses, and non-recurring expenses to determine the true maintainable profit for valuation.",
+          "key_ideas": [
+            "Deducting abnormal gains (e.g., sale of fixed assets)",
+            "Adding back abnormal losses (e.g., loss by fire)",
+            "Adjusting for non-business income (investments)",
+            "Rectifying accounting errors affecting past profits"
+          ]
         }
       ]
     },

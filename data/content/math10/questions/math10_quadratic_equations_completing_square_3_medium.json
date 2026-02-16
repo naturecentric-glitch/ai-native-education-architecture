@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.45,
-    "question": "State and explain the key concept: Divide by 'a' to make coefficient of x² equal to 1.",
-    "hint": "Think about the definition and main formula related to Completing the Square.",
-    "expected_answer": "This tests understanding of: Divide by 'a' to make coefficient of x² equal to 1. Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.35,
     "concepts_tested": [
-      "Completing the Square"
-    ]
+      "math10.quadratic_equations.completing_square"
+    ],
+    "question": "Solve x² − 6x + 5 = 0 by completing the square.",
+    "hint": "x² − 6x = −5. Add (−6/2)² = 9 to both sides.",
+    "expected_answer": "x² − 6x + 9 = −5 + 9 → (x−3)² = 4 → x−3 = ±2. So x = 5 or x = 1."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.55,
-    "question": "Solve an NCERT example problem related to 'Completing the Square'. Show all steps clearly.",
-    "hint": "Review the key ideas: Divide by 'a' to make coefficient of x² equal to 1, Move constant term to RHS.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Completing the Square. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.45,
     "concepts_tested": [
-      "Completing the Square"
-    ]
+      "math10.quadratic_equations.completing_square"
+    ],
+    "question": "Solve 2x² + 8x + 6 = 0 by completing the square.",
+    "hint": "First divide by 2: x² + 4x + 3 = 0. Then move 3 to RHS.",
+    "expected_answer": "x² + 4x = −3. Add 4: (x+2)² = 1. x+2 = ±1. x = −1 or x = −3."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.6,
-    "question": "How would you apply 'Completing the Square' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where completing the square concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Completing the Square.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Completing the Square",
-      "Real-world application"
-    ]
+      "math10.quadratic_equations.completing_square"
+    ],
+    "question": "Solve x² + 3x − 2 = 0 by completing the square. Give exact roots.",
+    "hint": "x² + 3x = 2. Add (3/2)² = 9/4 to both sides.",
+    "expected_answer": "(x + 3/2)² = 2 + 9/4 = 17/4. x + 3/2 = ±√17/2. x = (−3 ± √17)/2."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.quadratic_equations.completing_square"
+    ],
+    "question": "By completing the square, show that x² + 6x + 11 > 0 for all real x.",
+    "hint": "Complete the square: x² + 6x + 11 = (x+3)² + ?",
+    "expected_answer": "x² + 6x + 11 = (x² + 6x + 9) + 2 = (x+3)² + 2. Since (x+3)² ≥ 0 for all real x, we have (x+3)² + 2 ≥ 2 > 0. So the expression is always positive."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.quadratic_equations.completing_square"
+    ],
+    "question": "Find the minimum value of f(x) = 3x² − 12x + 7 by completing the square. At what x does this minimum occur?",
+    "hint": "Factor out 3: f(x) = 3(x² − 4x) + 7 = 3(x² − 4x + 4 − 4) + 7 = 3(x−2)² − 5.",
+    "expected_answer": "f(x) = 3(x² − 4x) + 7 = 3[(x−2)² − 4] + 7 = 3(x−2)² − 12 + 7 = 3(x−2)² − 5. Since 3(x−2)² ≥ 0, minimum of f = −5, occurring at x = 2."
   }
 ]

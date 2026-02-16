@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.trig.ratios"
+    ],
+    "question": "In a right triangle, the side opposite θ is 8 and hypotenuse is 17. Find sin θ, cos θ, and tan θ.",
+    "hint": "Adjacent = √(17² − 8²) = √(289 − 64).",
+    "expected_answer": "Adjacent = √225 = 15. sin θ = 8/17, cos θ = 15/17, tan θ = 8/15."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.trig.ratios"
+    ],
+    "question": "If tan θ = 3/4, find sin θ and cos θ.",
+    "hint": "Opposite = 3k, Adjacent = 4k. Hypotenuse = √(9k² + 16k²) = 5k.",
+    "expected_answer": "H = √(9+16) = 5 (using k=1). sin θ = 3/5, cos θ = 4/5."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.trig.ratios"
+    ],
+    "question": "If 3 cos θ = 2, find the value of (sin²θ + cos²θ)/(1 + tan²θ).",
+    "hint": "cos θ = 2/3. sin²θ + cos²θ = 1 always. 1 + tan²θ = sec²θ.",
+    "expected_answer": "sin²θ + cos²θ = 1. 1 + tan²θ = sec²θ = 1/cos²θ = 9/4. So the expression = 1/(9/4) = 4/9."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.trig.ratios"
+    ],
+    "question": "If sin θ = a/b, find sec θ + tan θ in terms of a and b.",
+    "hint": "Draw a right triangle: O = a, H = b, A = √(b²−a²). Then compute sec and tan.",
+    "expected_answer": "A = √(b²−a²). sec θ = b/√(b²−a²). tan θ = a/√(b²−a²). sec θ + tan θ = (a+b)/√(b²−a²) = (a+b)/√((b−a)(b+a)) = √((b+a)/(b−a))."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.trig.ratios"
+    ],
+    "question": "In △PQR, ∠Q = 90°, PQ = 7, QR = 24. Find sin P, cos P, sin R, cos R. Verify that sin P = cos R.",
+    "hint": "PR = √(49+576) = √625 = 25.",
+    "expected_answer": "PR = 25. For ∠P: sin P = QR/PR = 24/25, cos P = PQ/PR = 7/25. For ∠R: sin R = PQ/PR = 7/25, cos R = QR/PR = 24/25. sin P = 24/25 = cos R? No — sin P = 24/25 and cos R = 24/25. ✓ (P and R are complementary: P + R = 90°.)"
+  }
+]

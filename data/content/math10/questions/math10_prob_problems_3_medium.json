@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.prob.problems"
+    ],
+    "question": "Numbers 1 to 10 are in a bag. One is drawn. Find P(even number).",
+    "hint": "Even: {2, 4, 6, 8, 10} = 5 out of 10.",
+    "expected_answer": "P(even) = 5/10 = 1/2."
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.prob.problems"
+    ],
+    "question": "A two-digit number is formed using digits 1, 2, 3, 4 (repetition allowed). Find P(the number is even).",
+    "hint": "Total 2-digit numbers: 4 × 4 = 16. For even: last digit must be 2 or 4 → 4 × 2 = 8.",
+    "expected_answer": "Total = 16. Even (last digit 2 or 4): 4 × 2 = 8. P = 8/16 = 1/2."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.prob.problems"
+    ],
+    "question": "Two dice are rolled. Find P(product of numbers is 12).",
+    "hint": "List pairs with product 12: (2,6), (3,4), (4,3), (6,2).",
+    "expected_answer": "Pairs: (2,6), (3,4), (4,3), (6,2) = 4 outcomes. P = 4/36 = 1/9."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.7,
+    "concepts_tested": [
+      "math10.prob.problems"
+    ],
+    "question": "A box has 90 discs numbered 1 to 90. One disc is drawn. Find: (a) P(two-digit number), (b) P(perfect square), (c) P(divisible by 5).",
+    "hint": "(a) Two-digit: 10-90 = 81 numbers. (b) Squares: 1,4,9,...,81 = 9. (c) Div by 5: 5,10,...,90 = 18.",
+    "expected_answer": "(a) Two-digit: 10 to 90 = 81 numbers. P = 81/90 = 9/10. (b) Perfect squares ≤ 90: 1,4,9,16,25,36,49,64,81 = 9. P = 9/90 = 1/10. (c) Divisible by 5: 5,10,...,90 = 18. P = 18/90 = 1/5."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.85,
+    "concepts_tested": [
+      "math10.prob.problems"
+    ],
+    "question": "A game consists of tossing a coin 3 times. Ravi wins if he gets at least 2 heads. Priya wins if she gets at least 2 tails. Is the game fair? Who has a better chance?",
+    "hint": "List all 8 outcomes for 3 coins: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT.",
+    "expected_answer": "Outcomes: {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}. Ravi (≥2 heads): {HHH, HHT, HTH, THH} = 4. P = 4/8 = 1/2. Priya (≥2 tails): {HTT, THT, TTH, TTT} = 4. P = 4/8 = 1/2. The game IS fair — both have equal probability of 1/2!"
+  }
+]

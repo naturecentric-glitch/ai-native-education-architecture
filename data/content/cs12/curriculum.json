@@ -75,6 +75,87 @@
             "Step-by-step problem solving for sql",
             "Real-world applications of sql"
           ]
+        },
+        {
+          "concept_id": "cs12.databases.intro_relational_model",
+          "title": "Introduction to Database Concepts and the Relational Model",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Foundational understanding of why databases are used over file systems and the terminology associated with the Relational Data Model.",
+          "key_ideas": [
+            "Limitations of File Systems (Redundancy, Inconsistency)",
+            "DBMS definition and advantages",
+            "Relational Model terminology: Relation (Table), Tuple (Row), Attribute (Column), Domain",
+            "Degree and Cardinality of a table"
+          ]
+        },
+        {
+          "concept_id": "cs12.databases.keys_constraints",
+          "title": "Keys and Constraints in RDBMS",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "cs12.databases.intro_relational_model"
+          ],
+          "description": "Understanding the role of keys in maintaining data integrity and relationships between tables within a database.",
+          "key_ideas": [
+            "Concept of Candidate Key and Alternate Key",
+            "Primary Key: Definition and constraints (Unique, Not Null)",
+            "Foreign Key: Establishing relationships and Referential Integrity",
+            "Difference between Primary and Foreign keys"
+          ]
+        },
+        {
+          "concept_id": "cs12.databases.sql_functions",
+          "title": "SQL Functions: Math, String, and Date",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "cs12.databases.sql_queries"
+          ],
+          "description": "Application of built-in SQL functions to manipulate data and perform calculations on specific data types.",
+          "key_ideas": [
+            "String Functions: UCASE(), LCASE(), MID(), LENGTH(), TRIM()",
+            "Numeric Functions: ROUND(), TRUNCATE(), MOD(), POWER()",
+            "Date Functions: NOW(), DATE(), MONTH(), YEAR(), DAYNAME()",
+            "Handling NULL values in functions"
+          ]
+        },
+        {
+          "concept_id": "cs12.databases.aggregation_grouping",
+          "title": "Aggregate Functions and Grouping Data",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "cs12.databases.sql_queries",
+            "cs12.databases.sql_functions"
+          ],
+          "description": "Techniques for summarizing data using aggregate functions and organizing results into logical groups.",
+          "key_ideas": [
+            "Aggregate Functions: MAX(), MIN(), AVG(), SUM(), COUNT()",
+            "Using GROUP BY to categorize data",
+            "Filtering groups using the HAVING clause",
+            "Difference between WHERE (row filter) and HAVING (group filter)"
+          ]
+        },
+        {
+          "concept_id": "cs12.databases.python_connectivity",
+          "title": "Interface Python with SQL (MySQL Connector)",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "cs12.databases.sql_queries",
+            "cs12.databases.aggregation_grouping"
+          ],
+          "description": "Connecting Python programs to SQL databases to fetch, insert, and update data programmatically.",
+          "key_ideas": [
+            "Importing mysql.connector and establishing connections",
+            "Creating Cursor objects",
+            "Executing SQL queries via Python (execute() method)",
+            "Extracting data using fetchone(), fetchall(), and rowcount",
+            "Committing transactions for INSERT/UPDATE operations"
+          ]
         }
       ]
     },
@@ -94,6 +175,82 @@
             "Step-by-step problem solving for python-mysql connectivity",
             "Real-world applications of python-mysql connectivity"
           ]
+        },
+        {
+          "concept_id": "cs12.python_sql.cursor_instantiation",
+          "title": "Creating and Understanding Cursors",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "cs12.python_sql.mysql_connector"
+          ],
+          "description": "Introduction to the cursor object, which acts as a pointer or handle to the context of a SQL query, allowing Python to traverse records in a database.",
+          "key_ideas": [
+            "The cursor() method of the connection object",
+            "Role of cursors in row-by-row processing",
+            "Difference between connection objects and cursor objects"
+          ]
+        },
+        {
+          "concept_id": "cs12.python_sql.executing_queries",
+          "title": "Executing SQL Commands",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "cs12.python_sql.cursor_instantiation"
+          ],
+          "description": "Methods to run SQL statements from Python, covering both Data Definition Language (DDL) and Data Manipulation Language (DML) commands using the execute() method.",
+          "key_ideas": [
+            "Syntax of cursor.execute()",
+            "Running static SQL queries (CREATE, SELECT, INSERT)",
+            "Handling SQL syntax errors within Python"
+          ]
+        },
+        {
+          "concept_id": "cs12.python_sql.fetching_results",
+          "title": "Fetching Data Result Sets",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "cs12.python_sql.executing_queries"
+          ],
+          "description": "Techniques to retrieve data returned by a SELECT query into Python data structures using fetch methods.",
+          "key_ideas": [
+            "Using fetchone() to retrieve a single record",
+            "Using fetchall() to retrieve list of tuples",
+            "Using fetchmany(n) for specific row counts",
+            "Understanding the rowcount attribute"
+          ]
+        },
+        {
+          "concept_id": "cs12.python_sql.parameterized_queries",
+          "title": "Parameterized Queries and Format Strings",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "cs12.python_sql.executing_queries"
+          ],
+          "description": "Implementing dynamic queries safely by passing variables into SQL statements using format specifiers to prevent SQL injection and handle data types correctly.",
+          "key_ideas": [
+            "Using %s placeholders for values",
+            "Passing data as tuples in execute()",
+            "Avoiding direct string concatenation for security"
+          ]
+        },
+        {
+          "concept_id": "cs12.python_sql.transactions_cleanup",
+          "title": "Transaction Management and Cleanup",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "cs12.python_sql.executing_queries"
+          ],
+          "description": "Managing database consistency by finalizing changes and properly closing resources to prevent data corruption or memory leaks.",
+          "key_ideas": [
+            "Using commit() to save changes (INSERT/UPDATE/DELETE)",
+            "Using rollback() to revert changes on error",
+            "Closing cursor and connection objects explicitly"
+          ]
         }
       ]
     },
@@ -112,6 +269,86 @@
             "Core principles of network types, protocols, topologies",
             "Step-by-step problem solving for network types, protocols, topologies",
             "Real-world applications of network types, protocols, topologies"
+          ]
+        },
+        {
+          "concept_id": "cs12.networking.network_devices",
+          "title": "Network Devices and Hardware",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "cs12.networking.network_concepts"
+          ],
+          "description": "Examination of the physical hardware required to connect computers and transmit data across a network, differentiating devices based on their operation layer and function.",
+          "key_ideas": [
+            "Modem (Modulator-Demodulator) functions",
+            "Differences between Hub (broadcast), Switch (unicast), and Repeater",
+            "Role of Routers and Gateways in connecting dissimilar networks",
+            "Network Interface Cards (NIC) and MAC addresses"
+          ]
+        },
+        {
+          "concept_id": "cs12.networking.transmission_media",
+          "title": "Transmission Media",
+          "bloom_level": "analyze",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "cs12.networking.network_concepts"
+          ],
+          "description": "Analysis of the communication channels used to carry data, comparing wired and wireless technologies based on speed, range, and cost.",
+          "key_ideas": [
+            "Guided Media: Twisted Pair, Coaxial Cable, Fiber Optic",
+            "Unguided Media: Radio Waves, Microwaves, Infrared",
+            "Satellite communication and line-of-sight propagation",
+            "Bandwidth, data transfer rates, and noise interference"
+          ]
+        },
+        {
+          "concept_id": "cs12.networking.internet_web_tech",
+          "title": "Internet Protocols and Web Services",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "cs12.networking.network_devices"
+          ],
+          "description": "Deep dive into the architecture of the World Wide Web and the specific application-layer protocols that facilitate internet services like email, file transfer, and voice communication.",
+          "key_ideas": [
+            "URL structure and Domain Name System (DNS) resolution",
+            "Application protocols: HTTP/HTTPS, FTP, SMTP, POP3, VoIP",
+            "Web Hosting, Web Browsers, and Web Servers",
+            "Static vs. Dynamic web pages and scripting"
+          ]
+        },
+        {
+          "concept_id": "cs12.networking.network_security",
+          "title": "Network Security and Threats",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "cs12.networking.internet_web_tech"
+          ],
+          "description": "Identification of potential security risks in networked environments and the evaluation of protective measures to safeguard data and infrastructure.",
+          "key_ideas": [
+            "Malware types: Virus, Worm, Trojan Horse, Spyware, Adware",
+            "Denial of Service (DoS) attacks and Spam",
+            "Prevention mechanisms: Firewalls, Antivirus, and Cookies handling",
+            "Hacking vs. Cracking (Ethical vs. Unethical intrusion)"
+          ]
+        },
+        {
+          "concept_id": "cs12.networking.cyber_law_ethics",
+          "title": "Cyber Law and IT Act",
+          "bloom_level": "understand",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "cs12.networking.network_security"
+          ],
+          "description": "Overview of the legal and ethical frameworks governing digital interactions, focusing on Indian laws regarding cybercrime and intellectual property.",
+          "key_ideas": [
+            "Information Technology Act, 2000 (India)",
+            "Intellectual Property Rights (IPR) and Plagiarism",
+            "Digital Signatures and Identity Theft",
+            "Cyber safety and responsible social media usage"
           ]
         }
       ]

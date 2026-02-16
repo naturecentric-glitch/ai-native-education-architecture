@@ -1,36 +1,57 @@
 [
   {
     "id": 1,
-    "type": "direct",
-    "difficulty": 0.55,
-    "question": "State and explain the key concept: Identify unknowns and assign variables (let x = ..., y = ...).",
-    "hint": "Think about the definition and main formula related to Word Problems on Linear Equations.",
-    "expected_answer": "This tests understanding of: Identify unknowns and assign variables (let x = ..., y = ...). Refer to NCERT textbook for the detailed explanation.",
+    "type": "word_problem",
+    "difficulty": 0.35,
     "concepts_tested": [
-      "Word Problems on Linear Equations"
-    ]
+      "math10.linear_eq_pair.word_problems10"
+    ],
+    "question": "5 pencils and 3 pens together cost ₹34, while 3 pencils and 5 pens cost ₹46. Find the cost of each.",
+    "hint": "Let pencil = ₹x, pen = ₹y. 5x + 3y = 34 and 3x + 5y = 46.",
+    "expected_answer": "5x+3y=34 …(1), 3x+5y=46 …(2). (1)×5: 25x+15y=170. (2)×3: 9x+15y=138. Subtract: 16x=32 → x=2. From (1): 10+3y=34 → y=8. Pencil=₹2, Pen=₹8."
   },
   {
     "id": 2,
     "type": "word_problem",
-    "difficulty": 0.65,
-    "question": "Solve an NCERT example problem related to 'Word Problems on Linear Equations'. Show all steps clearly.",
-    "hint": "Review the key ideas: Identify unknowns and assign variables (let x = ..., y = ...), Form two equations from the given conditions.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Word Problems on Linear Equations. Focus on step-by-step working.",
+    "difficulty": 0.45,
     "concepts_tested": [
-      "Word Problems on Linear Equations"
-    ]
+      "math10.linear_eq_pair.word_problems10"
+    ],
+    "question": "A father is 24 years older than his daughter. In 6 years, the father's age will be twice his daughter's age. Find their present ages.",
+    "hint": "Let daughter's age = x, father's = x + 24. In 6 years: (x+24+6) = 2(x+6).",
+    "expected_answer": "Father = x + 24. After 6 years: x+30 = 2(x+6) → x+30 = 2x+12 → x = 18. Daughter = 18 years, Father = 42 years. Check in 6 years: 48 = 2×24 ✓."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.7000000000000001,
-    "question": "How would you apply 'Word Problems on Linear Equations' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where word problems on linear equations concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Word Problems on Linear Equations.",
+    "type": "word_problem",
+    "difficulty": 0.55,
     "concepts_tested": [
-      "Word Problems on Linear Equations",
-      "Real-world application"
-    ]
+      "math10.linear_eq_pair.word_problems10"
+    ],
+    "question": "A boat goes 30 km upstream and 44 km downstream in 10 hours. It goes 40 km upstream and 55 km downstream in 13 hours. Find the speed of the boat in still water and the speed of the current.",
+    "hint": "Let boat speed = x, current = y. Upstream speed = x−y, downstream = x+y. Let u=1/(x−y), v=1/(x+y).",
+    "expected_answer": "Let u=1/(x−y), v=1/(x+y). 30u+44v=10 …(1). 40u+55v=13 …(2). (1)×4: 120u+176v=40. (2)×3: 120u+165v=39. Subtract: 11v=1 → v=1/11 → x+y=11. From (1): 30u+4=10 → u=1/5 → x−y=5. So x=8, y=3. Boat=8 km/h, Current=3 km/h."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.linear_eq_pair.word_problems10"
+    ],
+    "question": "A two-digit number is 4 more than 6 times the sum of its digits. If 18 is subtracted from the number, the digits are reversed. Find the number.",
+    "hint": "Let tens=x, units=y. Number=10x+y. Conditions: 10x+y = 6(x+y)+4 and 10x+y−18 = 10y+x.",
+    "expected_answer": "10x+y = 6x+6y+4 → 4x−5y=4 …(1). 10x+y−18 = 10y+x → 9x−9y=18 → x−y=2 …(2). From (2): x=y+2. Sub: 4(y+2)−5y=4 → 4y+8−5y=4 → y=4. x=6. Number=64. Check: 6(6+4)+4=64 ✓, 64−18=46 ✓."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.linear_eq_pair.word_problems10"
+    ],
+    "question": "Places A and B are 100 km apart. One car starts from A and another from B at the same time. If they travel in the same direction, they meet in 5 hours. If they travel towards each other, they meet in 1 hour. Find their speeds.",
+    "hint": "Same direction: (faster − slower)×5 = 100. Opposite: (sum)×1 = 100.",
+    "expected_answer": "Let speeds be x (from A) and y (from B), x > y. Same direction: 5(x−y) = 100 → x−y = 20. Opposite: 1(x+y) = 100. Adding: 2x = 120 → x = 60. y = 40. Speeds: 60 km/h and 40 km/h."
   }
 ]

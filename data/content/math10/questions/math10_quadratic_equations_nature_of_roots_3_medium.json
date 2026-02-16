@@ -2,37 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.4,
-    "question": "Find the discriminant and determine the nature of roots: (a) 2x² − 6x + 3 = 0, (b) x² − 4x + 4 = 0, (c) 3x² + x + 5 = 0",
-    "hint": "D = b² − 4ac. If D > 0: two distinct roots. D = 0: equal roots. D < 0: no real roots.",
-    "expected_answer": "(a) D = 36−24 = 12 > 0 → two distinct real roots\n(b) D = 16−16 = 0 → two equal roots (x = 2)\n(c) D = 1−60 = −59 < 0 → no real roots",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Discriminant",
-      "Nature of roots"
-    ]
+      "math10.quadratic_equations.nature_of_roots"
+    ],
+    "question": "Find the discriminant of 4x² − 3x − 5 = 0 and state the nature of roots.",
+    "hint": "D = b² − 4ac = 9 − 4(4)(−5).",
+    "expected_answer": "D = 9 + 80 = 89. D > 0 → Two distinct real roots. Since 89 is not a perfect square, roots are irrational."
   },
   {
     "id": 2,
     "type": "direct",
-    "difficulty": 0.5,
-    "question": "For what values of k does the equation kx² − 6x + 1 = 0 have (i) equal roots (ii) no real roots?",
-    "hint": "D = 36 − 4k. Equal roots: D = 0. No real roots: D < 0.",
-    "expected_answer": "(i) D = 36−4k = 0 → k = 9\n(ii) D = 36−4k < 0 → k > 9\nAlso note: k ≠ 0 (otherwise it's not quadratic).",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Discriminant",
-      "Conditions on coefficients"
-    ]
+      "math10.quadratic_equations.nature_of_roots"
+    ],
+    "question": "For what value of k does 9x² + 3kx + 4 = 0 have equal roots?",
+    "hint": "Equal roots ⟹ D = 0. So (3k)² − 4(9)(4) = 0.",
+    "expected_answer": "D = 9k² − 144 = 0 → k² = 16 → k = ±4."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.65,
-    "question": "A shopkeeper buys a number of books for ₹80. If he had bought 4 more books for the same amount, each book would have cost ₹1 less. Find the number of books he bought. First determine if the equation has real solutions.",
-    "hint": "Let n = number of books. Cost per book = 80/n. New cost = 80/(n+4) = 80/n − 1. Form quadratic and check discriminant.",
-    "expected_answer": "80/n − 80/(n+4) = 1\n80(n+4−n)/(n(n+4)) = 1\n320 = n² + 4n\nn² + 4n − 320 = 0\nD = 16 + 1280 = 1296 = 36² > 0 → real solutions exist!\nn = (−4+36)/2 = 16 (reject −20)\nHe bought 16 books.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Discriminant",
-      "Quadratic word problem"
-    ]
+      "math10.quadratic_equations.nature_of_roots"
+    ],
+    "question": "Show that x² + kx − 1 = 0 has real roots for every real value of k.",
+    "hint": "Compute D and show it's always positive.",
+    "expected_answer": "D = k² − 4(1)(−1) = k² + 4. Since k² ≥ 0 for all real k, D = k² + 4 ≥ 4 > 0 always. So the equation always has two distinct real roots."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.quadratic_equations.nature_of_roots"
+    ],
+    "question": "If the roots of (a²+b²)x² − 2(ac+bd)x + (c²+d²) = 0 are equal, prove that a/b = c/d.",
+    "hint": "Set D = 0 and simplify using the identity (ad−bc)².",
+    "expected_answer": "D = 4(ac+bd)² − 4(a²+b²)(c²+d²) = 0. (ac+bd)² = (a²+b²)(c²+d²). Expand: a²c²+2abcd+b²d² = a²c²+a²d²+b²c²+b²d². Simplify: 2abcd = a²d²+b²c² → 0 = a²d²−2abcd+b²c² = (ad−bc)². So ad = bc → a/b = c/d."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.quadratic_equations.nature_of_roots"
+    ],
+    "question": "Find all values of k for which 2x² + kx + 3 = 0 has no real roots.",
+    "hint": "No real roots ⟹ D < 0. So k² − 24 < 0.",
+    "expected_answer": "D = k² − 24 < 0 → k² < 24 → −√24 < k < √24 → −2√6 < k < 2√6 (approximately −4.9 < k < 4.9)."
   }
 ]

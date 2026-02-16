@@ -29,6 +29,9 @@ from src.mcp_tools import (
     tool_evaluate_answer,
     tool_get_next_concepts,
     tool_get_concept,
+    tool_get_placement_test,
+    tool_skip_chapter,
+    tool_get_prerequisites_help,
 )
 from src.gemini_engine import expand_full_course
 from src.content_cache import cache as content_cache
@@ -78,6 +81,11 @@ class EvaluateRequest(BaseModel):
     concept_id: str
     question: str
     answer: str
+
+class SkipChapterRequest(BaseModel):
+    student_id: str = "student-001"
+    chapter_id: str
+    passed: bool
 
 
 # ── Course Discovery ─────────────────────────────────────────────────────────
@@ -181,6 +189,38 @@ async def evaluate(course_id: str, req: EvaluateRequest):
         logger.error("evaluate %s/%s failed: %s", course_id, req.concept_id, e)
         logger.debug(traceback.format_exc())
         raise HTTPException(status_code=500, detail=f"AI evaluation failed: {type(e).__name__}: {e}")
+
+
+# ── Admin / Expansion Endpoints ──────────────────────────────────────────────
+
+# ── Placement & Skip Endpoints ───────────────────────────────────────────────
+
+@app.get("/api/courses/{course_id}/placement")
+async def get_placement_test(course_id: str):
+    """Get the placement/diagnostic test for a course.
+    One hard question per chapter — answer correctly to skip ahead."""
+    result = tool_get_placement_test(course_id)
+    if "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
+
+
+@app.post("/api/courses/{course_id}/skip")
+async def skip_chapter(course_id: str, req: SkipChapterRequest):
+    """Mark a chapter as mastered (placement skip) or leave it untouched."""
+    result = tool_skip_chapter(req.student_id, course_id, req.chapter_id, req.passed)
+    if "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
+
+
+@app.get("/api/courses/{course_id}/concepts/{concept_id}/prerequisites")
+async def get_prerequisites_help(course_id: str, concept_id: str, student_id: str = "student-001"):
+    """Check which prerequisites a student is missing and get a study plan."""
+    result = tool_get_prerequisites_help(student_id, course_id, concept_id)
+    if "error" in result:
+        raise HTTPException(status_code=404, detail=result["error"])
+    return result
 
 
 # ── Admin / Expansion Endpoints ──────────────────────────────────────────────

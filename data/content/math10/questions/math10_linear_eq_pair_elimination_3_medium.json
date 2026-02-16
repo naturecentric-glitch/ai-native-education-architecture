@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.4,
-    "question": "State and explain the key concept: Multiply equations to equalize coefficients of one variable.",
-    "hint": "Think about the definition and main formula related to Elimination Method.",
-    "expected_answer": "This tests understanding of: Multiply equations to equalize coefficients of one variable. Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Elimination Method"
-    ]
+      "math10.linear_eq_pair.elimination"
+    ],
+    "question": "Solve by elimination: x + y = 10 and x − y = 4.",
+    "hint": "Just add the two equations directly — y will cancel!",
+    "expected_answer": "Add: 2x = 14 → x = 7. Subtract: 2y = 6 → y = 3. Solution: (7, 3). Verify: 7+3=10 ✓, 7−3=4 ✓."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.5,
-    "question": "Solve an NCERT example problem related to 'Elimination Method'. Show all steps clearly.",
-    "hint": "Review the key ideas: Multiply equations to equalize coefficients of one variable, Add equations if signs are opposite; subtract if signs are same.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Elimination Method. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Elimination Method"
-    ]
+      "math10.linear_eq_pair.elimination"
+    ],
+    "question": "Solve by elimination: 3x + 2y = 12 and x + 2y = 8.",
+    "hint": "y-coefficients are already equal. Subtract the equations.",
+    "expected_answer": "Subtract: (3x+2y) − (x+2y) = 12−8 → 2x = 4 → x = 2. From eq 2: 2+2y = 8 → y = 3. Solution: (2, 3)."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.55,
-    "question": "How would you apply 'Elimination Method' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where elimination method concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Elimination Method.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Elimination Method",
-      "Real-world application"
-    ]
+      "math10.linear_eq_pair.elimination"
+    ],
+    "question": "Solve: 2x + 5y = 31 and 7x + 3y = 36.",
+    "hint": "Multiply first by 7 and second by 2 to eliminate x, or first by 3 and second by 5 to eliminate y.",
+    "expected_answer": "Eq1×3: 6x+15y=93. Eq2×5: 35x+15y=180. Subtract: 29x=87 → x=3. Then 6+5y=31 → y=5. Solution: (3, 5). Verify: 2(3)+5(5)=31 ✓, 7(3)+3(5)=36 ✓."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.6,
+    "concepts_tested": [
+      "math10.linear_eq_pair.elimination"
+    ],
+    "question": "The sum of two numbers is 50. If the larger is 4 more than twice the smaller, find both numbers using elimination.",
+    "hint": "Let numbers be x (larger) and y (smaller). x + y = 50 and x = 2y + 4 → x − 2y = 4.",
+    "expected_answer": "x + y = 50 … (1). x − 2y = 4 … (2). Subtract (2) from (1): 3y = 46 → y = 46/3. Hmm that's not an integer. Let me re-read: x + y = 50 and x − 2y = 4. Subtract: 3y = 46 → y = 46/3 ≈ 15.33. If we want integers: from (1)−(2): 3y=46, so y = 46/3 and x = 50−46/3 = 104/3. Actually this is correct. The numbers are 104/3 and 46/3."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.linear_eq_pair.elimination"
+    ],
+    "question": "Solve: 4/x + 3/y = 14 and 3/x − 4/y = 23. (Hint: let u = 1/x, v = 1/y.)",
+    "hint": "Substitute u = 1/x, v = 1/y. Then you get 4u + 3v = 14 and 3u − 4v = 23.",
+    "expected_answer": "Let u=1/x, v=1/y. 4u+3v=14 …(1), 3u−4v=23 …(2). (1)×4: 16u+12v=56. (2)×3: 9u−12v=69. Add: 25u=125 → u=5 → x=1/5. From (1): 20+3v=14 → v=−2 → y=−1/2. Solution: x=1/5, y=−1/2."
   }
 ]

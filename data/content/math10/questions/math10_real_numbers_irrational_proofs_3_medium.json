@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.55,
-    "question": "State and explain the key concept: Proof by contradiction: assume √2 = p/q in lowest terms.",
-    "hint": "Think about the definition and main formula related to Proving Irrationality.",
-    "expected_answer": "This tests understanding of: Proof by contradiction: assume √2 = p/q in lowest terms. Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Proving Irrationality"
-    ]
+      "math10.real_numbers.irrational_proofs"
+    ],
+    "question": "Classify each as rational or irrational: (a) √4  (b) √7  (c) 2 + √3  (d) π − π",
+    "hint": "√4 = 2, which is rational. √7 cannot be simplified to a fraction. For (d), what is π − π?",
+    "expected_answer": "(a) Rational — √4 = 2 (integer). (b) Irrational — 7 is prime, so √7 is irrational. (c) Irrational — sum of rational (2) and irrational (√3) is irrational. (d) Rational — π − π = 0."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.65,
-    "question": "Solve an NCERT example problem related to 'Proving Irrationality'. Show all steps clearly.",
-    "hint": "Review the key ideas: Proof by contradiction: assume √2 = p/q in lowest terms, Show that p and q must both be even — contradicts 'lowest terms'.",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Proving Irrationality. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.45,
     "concepts_tested": [
-      "Proving Irrationality"
-    ]
+      "math10.real_numbers.irrational_proofs"
+    ],
+    "question": "Prove that √5 is irrational.",
+    "hint": "Use proof by contradiction. If 5 divides a², then 5 divides a.",
+    "expected_answer": "Assume √5 = a/b (coprime). Then a² = 5b². Since 5|a², 5|a, so a = 5k. Then 25k² = 5b², so b² = 5k², hence 5|b. Contradiction: a, b share factor 5. ∴ √5 is irrational."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.7000000000000001,
-    "question": "How would you apply 'Proving Irrationality' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where proving irrationality concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Proving Irrationality.",
+    "type": "word_problem",
+    "difficulty": 0.55,
     "concepts_tested": [
-      "Proving Irrationality",
-      "Real-world application"
-    ]
+      "math10.real_numbers.irrational_proofs"
+    ],
+    "question": "Prove that 5 − 3√2 is irrational.",
+    "hint": "Assume it equals a/b. Isolate √2 and show a contradiction.",
+    "expected_answer": "Assume 5 − 3√2 = a/b (rational). Then 3√2 = 5 − a/b = (5b−a)/b. So √2 = (5b−a)/(3b), which is rational. But √2 is irrational — contradiction. ∴ 5 − 3√2 is irrational."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.real_numbers.irrational_proofs"
+    ],
+    "question": "Prove that 1/√2 is irrational.",
+    "hint": "Rationalize or use contradiction directly.",
+    "expected_answer": "Assume 1/√2 = a/b (rational). Then √2 = b/a, which is rational. But √2 is irrational — contradiction. ∴ 1/√2 is irrational. (Alternatively: 1/√2 = √2/2 — a non-zero rational times an irrational is irrational.)"
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.real_numbers.irrational_proofs"
+    ],
+    "question": "Show that √2 + √3 is irrational.",
+    "hint": "Assume √2 + √3 = r (rational). Square both sides: 2 + 2√6 + 3 = r². Isolate √6.",
+    "expected_answer": "Assume √2 + √3 = r (rational). Squaring: 2 + 2√6 + 3 = r², so 2√6 = r² − 5, hence √6 = (r²−5)/2. RHS is rational. But √6 is irrational (since 6 has prime factor 2 or 3 not a perfect square). Contradiction. ∴ √2 + √3 is irrational."
   }
 ]

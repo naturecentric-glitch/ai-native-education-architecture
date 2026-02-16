@@ -18,6 +18,102 @@
             "Step-by-step problem solving for bipolar world and cold war",
             "Real-world applications of bipolar world and cold war"
           ]
+        },
+        {
+          "concept_id": "polsci12.cold_war.cuban_missile_crisis",
+          "title": "The Cuban Missile Crisis (1962)",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "polsci12.cold_war.bipolar_world"
+          ],
+          "description": "An analysis of the 1962 confrontation between the US and the USSR over Soviet ballistic missiles deployed in Cuba, often considered the high point of Cold War tensions.",
+          "key_ideas": [
+            "Discovery of Soviet nuclear missiles in Cuba by the USA",
+            "US naval blockade and the logic of brinkmanship",
+            "Resolution through diplomatic negotiation between Kennedy and Khrushchev",
+            "Establishment of the hotline communication link"
+          ]
+        },
+        {
+          "concept_id": "polsci12.cold_war.logic_of_deterrence",
+          "title": "Logic of Deterrence and Military Alliances",
+          "bloom_level": "understand",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "polsci12.cold_war.bipolar_world"
+          ],
+          "description": "Exploration of the strategic military doctrines that prevented direct war and the formation of opposing alliance systems.",
+          "key_ideas": [
+            "Mutually Assured Destruction (MAD) and the logic of deterrence",
+            "Formation of the Western Alliance (NATO)",
+            "Formation of the Eastern Alliance (Warsaw Pact)",
+            "Role of SEATO and CENTO in extending US influence"
+          ]
+        },
+        {
+          "concept_id": "polsci12.cold_war.arenas_of_cold_war",
+          "title": "Arenas of the Cold War",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "polsci12.cold_war.logic_of_deterrence"
+          ],
+          "description": "Examination of specific geographical regions where the Cold War competition led to crises and proxy wars without escalating into a third world war.",
+          "key_ideas": [
+            "Crisis points: Korea, Berlin, Congo, and Afghanistan",
+            "The concept of limited war versus total war",
+            "Role of the UN and Non-Aligned countries in mediation",
+            "Human and economic costs of proxy conflicts"
+          ]
+        },
+        {
+          "concept_id": "polsci12.cold_war.non_aligned_movement",
+          "title": "The Non-Aligned Movement (NAM)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "polsci12.cold_war.bipolar_world"
+          ],
+          "description": "Study of the challenge to bipolarity posed by newly decolonized nations refusing to join either power bloc.",
+          "key_ideas": [
+            "Founding leaders: Tito, Nehru, Nasser, Sukarno, and Nkrumah",
+            "Distinction between non-alignment, neutrality, and isolationism",
+            "The Belgrade Summit (1961)",
+            "NAM as a political platform for the 'Third World'"
+          ]
+        },
+        {
+          "concept_id": "polsci12.cold_war.nieo_and_economics",
+          "title": "New International Economic Order (NIEO)",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "polsci12.cold_war.non_aligned_movement"
+          ],
+          "description": "Analysis of the economic dimension of the Cold War where Least Developed Countries (LDCs) demanded a fairer global trading system.",
+          "key_ideas": [
+            "UNCTAD report (1972): Towards a New Trade Policy for Development",
+            "Control over natural resources by LDCs",
+            "Access to Western markets and technology",
+            "Transition of NAM from political to economic advocacy"
+          ]
+        },
+        {
+          "concept_id": "polsci12.cold_war.india_and_arms_control",
+          "title": "India's Role and Arms Control Treaties",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "polsci12.cold_war.non_aligned_movement"
+          ],
+          "description": "Evaluation of India's foreign policy during the Cold War and the global efforts to limit nuclear proliferation.",
+          "key_ideas": [
+            "India's policy of staying independent of alliances while engaging both blocs",
+            "Criticisms of India's stance (inconsistency and Treaty of Friendship with USSR)",
+            "Major Arms Control Treaties: LTBT, NPT, SALT, and START",
+            "Impact of the Cold War's end on India's global strategy"
+          ]
         }
       ]
     },
@@ -36,6 +132,79 @@
             "Core principles of collapse of soviet union",
             "Step-by-step problem solving for collapse of soviet union",
             "Real-world applications of collapse of soviet union"
+          ]
+        },
+        {
+          "concept_id": "polsci12.end_bipolarity.soviet_system_features",
+          "title": "Features of the Soviet System",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "An examination of the political and economic structure of the USSR prior to its collapse, focusing on the role of the Communist Party and state-controlled economy.",
+          "key_ideas": [
+            "Primacy of the state and the institution of the Communist Party",
+            "Absence of opposition parties and centralized planning",
+            "The concept of the 'Second World' and the Warsaw Pact"
+          ]
+        },
+        {
+          "concept_id": "polsci12.end_bipolarity.gorbachev_reforms",
+          "title": "Gorbachev and the Disintegration",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "polsci12.end_bipolarity.soviet_system_features"
+          ],
+          "description": "Analysis of the reform policies introduced by Mikhail Gorbachev and how they inadvertently accelerated the collapse of the Soviet Union.",
+          "key_ideas": [
+            "Introduction of Perestroika (restructuring) and Glasnost (openness)",
+            "The loosening of administrative control and rise of nationalism",
+            "The 1991 coup and the shift of power to Boris Yeltsin"
+          ]
+        },
+        {
+          "concept_id": "polsci12.end_bipolarity.consequences_disintegration",
+          "title": "Consequences of Disintegration",
+          "bloom_level": "evaluate",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "polsci12.end_bipolarity.soviet_collapse"
+          ],
+          "description": "Evaluation of the geopolitical shifts that occurred immediately following the fall of the USSR, marking the end of the Cold War era.",
+          "key_ideas": [
+            "End of Cold War confrontations and ideological disputes",
+            "Shift in power relations leading to US hegemony (Unipolarity)",
+            "Emergence of new independent states in Eastern Europe and Central Asia"
+          ]
+        },
+        {
+          "concept_id": "polsci12.end_bipolarity.shock_therapy_transition",
+          "title": "Shock Therapy in Post-Communist Regimes",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "polsci12.end_bipolarity.consequences_disintegration"
+          ],
+          "description": "A study of the painful economic transition model from an authoritarian socialist system to a democratic capitalist system influenced by the World Bank and IMF.",
+          "key_ideas": [
+            "Total shift to capitalist economy and privatization of state assets",
+            "The 'Largest Garage Sale in History' and devaluation of currency (Ruble)",
+            "Loss of social welfare safety nets and rise of economic inequality"
+          ]
+        },
+        {
+          "concept_id": "polsci12.end_bipolarity.india_russia_relations",
+          "title": "India and Post-Communist Countries",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "polsci12.end_bipolarity.consequences_disintegration"
+          ],
+          "description": "Exploration of India's foreign policy adjustments post-1991, specifically focusing on the continuity of strong relations with Russia.",
+          "key_ideas": [
+            "Vision of a multipolar world order shared by India and Russia",
+            "Indo-Russian Strategic Agreement of 2001",
+            "Cooperation in defense, energy, and space research"
           ]
         }
       ]
@@ -56,6 +225,94 @@
             "Step-by-step problem solving for us dominance and resistance",
             "Real-world applications of us dominance and resistance"
           ]
+        },
+        {
+          "concept_id": "polsci12.us_hegemony.beginnings_new_world_order",
+          "title": "The First Gulf War and the New World Order",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Explores the emergence of US hegemony following the collapse of the Soviet Union, focusing on the Iraqi invasion of Kuwait and the subsequent US-led liberation.",
+          "key_ideas": [
+            "The concept of the 'New World Order' introduced by George H.W. Bush.",
+            "Operation Desert Storm and the role of the UN coalition.",
+            "The technological gap demonstrated by 'Smart Bombs' and the computer war."
+          ]
+        },
+        {
+          "concept_id": "polsci12.us_hegemony.clinton_years",
+          "title": "The Clinton Era: Focus on Soft Power",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "polsci12.us_hegemony.beginnings_new_world_order"
+          ],
+          "description": "Examines US foreign policy during the Clinton administration, characterized by a focus on democratic promotion, climate change, and world trade, alongside selective military interventions.",
+          "key_ideas": [
+            "Shift from hard politics to 'soft issues' like democracy and trade.",
+            "Operation Infinite Reach and missile attacks in Sudan and Afghanistan.",
+            "US military intervention in Yugoslavia (Kosovo) without UN authorization."
+          ]
+        },
+        {
+          "concept_id": "polsci12.us_hegemony.911_and_gwot",
+          "title": "9/11 and the Global War on Terror",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "polsci12.us_hegemony.clinton_years"
+          ],
+          "description": "Analyzes the dramatic shift in US foreign policy following the September 11 attacks, leading to the invasion of Afghanistan and the establishment of a global anti-terror framework.",
+          "key_ideas": [
+            "The events of 9/11 and the launch of Operation Enduring Freedom.",
+            "The toppling of the Taliban regime and the hunt for Al-Qaeda.",
+            "Controversies surrounding Guantanamo Bay and the suspension of international law."
+          ]
+        },
+        {
+          "concept_id": "polsci12.us_hegemony.iraq_invasion",
+          "title": "The Iraq Invasion: Operation Iraqi Freedom",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "polsci12.us_hegemony.911_and_gwot"
+          ],
+          "description": "Investigates the 2003 US invasion of Iraq, the bypassing of the UN mandate, and the geopolitical consequences of the 'Coalition of the Willing'.",
+          "key_ideas": [
+            "The rationale of Weapons of Mass Destruction (WMD) and regime change.",
+            "The failure to find WMDs and the subsequent insurgency.",
+            "The political and humanitarian costs of the occupation."
+          ]
+        },
+        {
+          "concept_id": "polsci12.us_hegemony.dimensions_of_hegemony",
+          "title": "Three Dimensions of Hegemony: Hard, Structural, and Soft",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "polsci12.us_hegemony.us_power"
+          ],
+          "description": "Deconstructs the theoretical framework of hegemony into military dominance (Hard), economic/internet control (Structural), and cultural influence (Soft).",
+          "key_ideas": [
+            "Hard Power: Unmatched military capability and spending.",
+            "Structural Power: Control of SLOCs (Sea Lines of Communication) and the Internet.",
+            "Soft Power: Cultural dominance, 'McDonaldization', and manufacturing consent."
+          ]
+        },
+        {
+          "concept_id": "polsci12.us_hegemony.constraints_and_strategies",
+          "title": "Constraints on US Power and India's Strategy",
+          "bloom_level": "create",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "polsci12.us_hegemony.dimensions_of_hegemony"
+          ],
+          "description": "Evaluates the internal and external limits on US hegemony and formulates strategic options for countries like India to interact with a hegemon.",
+          "key_ideas": [
+            "The three constraints: Institutional architecture, domestic public opinion, and NATO.",
+            "Strategic choices: Bandwagoning (benefiting from the system) vs. Hiding (staying aloof).",
+            "India's evolving relationship with the US in a post-Cold War era."
+          ]
         }
       ]
     },
@@ -74,6 +331,75 @@
             "Core principles of un and reforms",
             "Step-by-step problem solving for un and reforms",
             "Real-world applications of un and reforms"
+          ]
+        },
+        {
+          "concept_id": "polsci12.international_orgs.evolution_structure",
+          "title": "Evolution and Structure of the UN",
+          "bloom_level": "remember",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "An overview of the historical transition from the League of Nations to the United Nations and a detailed look at the UN's principal organs.",
+          "key_ideas": [
+            "Failure of the League of Nations and the founding of the UN in 1945",
+            "Functions of the General Assembly and the Security Council",
+            "Roles of the Secretariat, ICJ, and ECOSOC"
+          ]
+        },
+        {
+          "concept_id": "polsci12.international_orgs.economic_orgs",
+          "title": "Global Economic Organisations",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [],
+          "description": "Examination of major international economic institutions, their functions in the global economy, and the criticisms regarding their governance structures.",
+          "key_ideas": [
+            "Role of the International Monetary Fund (IMF) in financial stability",
+            "World Bank's focus on human development and agriculture",
+            "World Trade Organisation (WTO) and the rules of global trade"
+          ]
+        },
+        {
+          "concept_id": "polsci12.international_orgs.ngos_humanitarian",
+          "title": "NGOs and Humanitarian Agencies",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [],
+          "description": "Introduction to non-governmental organizations and specialized agencies that operate alongside the UN to monitor rights and safety.",
+          "key_ideas": [
+            "Amnesty International and Human Rights Watch as watchdogs",
+            "Role of the IAEA in nuclear safety",
+            "Distinction between IGOs and NGOs in global politics"
+          ]
+        },
+        {
+          "concept_id": "polsci12.international_orgs.india_un_relations",
+          "title": "India and the UN",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "polsci12.international_orgs.un_reforms"
+          ],
+          "description": "Analysis of India's historical role in the UN, its contribution to peacekeeping, and its specific arguments for a permanent seat on the Security Council.",
+          "key_ideas": [
+            "India's objective criteria for permanent membership (population, democracy, economy)",
+            "Role in UN Peacekeeping missions",
+            "Strategic interest in Security Council expansion"
+          ]
+        },
+        {
+          "concept_id": "polsci12.international_orgs.unipolarity_challenge",
+          "title": "The UN in a Unipolar World",
+          "bloom_level": "analyze",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "polsci12.international_orgs.evolution_structure"
+          ],
+          "description": "Critical assessment of the United Nations' effectiveness and relevance in a world dominated by a single superpower (US hegemony).",
+          "key_ideas": [
+            "Influence of the US on UN funding and decisions",
+            "The UN as a platform for negotiation despite power imbalances",
+            "Relevance of the UN for the remaining 190+ nations"
           ]
         }
       ]
@@ -94,6 +420,68 @@
             "Step-by-step problem solving for traditional and non-traditional security",
             "Real-world applications of traditional and non-traditional security"
           ]
+        },
+        {
+          "concept_id": "polsci12.security.traditional_components",
+          "title": "Components of Traditional Security",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "polsci12.security.traditional_nontraditional"
+          ],
+          "description": "Exploration of the specific methods states use to maintain traditional security, focusing on the logic of deterrence, defense, balance of power, and alliance building.",
+          "key_ideas": [
+            "Deterrence involves preventing war by raising the costs for the attacker.",
+            "Balance of Power is maintained by building military strength or forming coalitions.",
+            "Alliance building formalizes collective defense against common threats."
+          ]
+        },
+        {
+          "concept_id": "polsci12.security.new_sources_threats",
+          "title": "New Sources of Threats",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "polsci12.security.traditional_nontraditional"
+          ],
+          "description": "Analysis of emerging dangers that threaten human existence beyond military attacks, categorizing them under human security and global security frameworks.",
+          "key_ideas": [
+            "Terrorism targets civilians to achieve political goals through fear.",
+            "Human rights violations, global poverty, and migration are intertwined security issues.",
+            "Health epidemics (like HIV-AIDS, COVID-19) are considered non-traditional security threats due to their rapid spread and impact."
+          ]
+        },
+        {
+          "concept_id": "polsci12.security.cooperative_security",
+          "title": "Cooperative Security",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "polsci12.security.new_sources_threats"
+          ],
+          "description": "Examination of why non-traditional threats require international collaboration rather than military force, and the role of international organizations and NGOs.",
+          "key_ideas": [
+            "Military force is ineffective against threats like poverty, environmental degradation, or pandemics.",
+            "Cooperation can be bilateral, regional, continental, or global depending on the threat.",
+            "Involves diverse actors including international organizations (UN, WHO), NGOs, and businesses."
+          ]
+        },
+        {
+          "concept_id": "polsci12.security.india_security_strategy",
+          "title": "India's Security Strategy",
+          "bloom_level": "evaluate",
+          "difficulty": 0.9,
+          "prerequisites": [
+            "polsci12.security.traditional_components",
+            "polsci12.security.new_sources_threats"
+          ],
+          "description": "Assessment of the four broad components comprising India's approach to national and international security challenges.",
+          "key_ideas": [
+            "Strengthening military capabilities to protect territorial integrity.",
+            "Strengthening international norms and institutions to protect national interests.",
+            "Meeting internal security challenges posed by separatist movements.",
+            "Developing the economy to reduce poverty and inequality as a source of insecurity."
+          ]
         }
       ]
     },
@@ -112,6 +500,66 @@
             "Core principles of political and economic globalisation",
             "Step-by-step problem solving for political and economic globalisation",
             "Real-world applications of political and economic globalisation"
+          ]
+        },
+        {
+          "concept_id": "polsci12.globalisation12.causes_and_flows",
+          "title": "Causes of Globalisation",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Exploration of the fundamental drivers of globalisation, specifically the role of technology and the movement of various elements across borders.",
+          "key_ideas": [
+            "Technological advancements (telegraph, telephone, microchip) as catalysts",
+            "The concept of 'Global Village' and time-space compression",
+            "Four flows: Ideas, Capital, Commodities, and People"
+          ]
+        },
+        {
+          "concept_id": "polsci12.globalisation12.cultural_consequences",
+          "title": "Cultural Consequences",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "polsci12.globalisation12.causes_and_flows",
+            "polsci12.globalisation12.political_economic"
+          ],
+          "description": "Analysis of how globalisation impacts local cultures, examining the tension between a uniform global culture and the modification of culture by local influences.",
+          "key_ideas": [
+            "Cultural Homogenisation and the rise of a uniform global culture (McDonaldisation)",
+            "Cultural Heterogenisation and the modification of external influences",
+            "The concept of 'Soft Power' and the dominance of Western values"
+          ]
+        },
+        {
+          "concept_id": "polsci12.globalisation12.india_context",
+          "title": "India and Globalisation",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "polsci12.globalisation12.political_economic"
+          ],
+          "description": "Examination of India's historical engagement with global flows and the specific impact of the 1991 New Economic Policy reforms.",
+          "key_ideas": [
+            "Historical context: India as a link in the Silk Route vs. Colonial exploitation",
+            "The shift from protectionism to the 1991 Economic Reforms (Liberalisation)",
+            "Impact on Indian industrial sectors and labor markets"
+          ]
+        },
+        {
+          "concept_id": "polsci12.globalisation12.resistance_movements",
+          "title": "Resistance to Globalisation",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "polsci12.globalisation12.political_economic",
+            "polsci12.globalisation12.cultural_consequences"
+          ],
+          "description": "Critical evaluation of the arguments against globalisation from both the political Left and Right, and the role of international forums in organizing resistance.",
+          "key_ideas": [
+            "Left-wing critiques: Economic inequality and state weakening",
+            "Right-wing critiques: Loss of traditional culture and national sovereignty",
+            "Role of the World Social Forum (WSF) and anti-globalisation movements"
           ]
         }
       ]

@@ -18,6 +18,79 @@
             "Step-by-step problem solving for central problems and types of economies",
             "Real-world applications of central problems and types of economies"
           ]
+        },
+        {
+          "concept_id": "economics12.micro_intro.micro_vs_macro",
+          "title": "Microeconomics vs Macroeconomics",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Differentiation between the two main branches of economics based on the scope of study, variables used, and the level of aggregation.",
+          "key_ideas": [
+            "Study of individual units (household/firm) vs. economy as a whole",
+            "Price theory vs. Income and Employment theory",
+            "Partial equilibrium vs. General equilibrium analysis"
+          ]
+        },
+        {
+          "concept_id": "economics12.micro_intro.positive_normative",
+          "title": "Positive and Normative Economics",
+          "bloom_level": "analyze",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "economics12.micro_intro.micro_vs_macro"
+          ],
+          "description": "Analysis of the distinction between objective economic statements based on facts and subjective statements based on value judgments.",
+          "key_ideas": [
+            "Positive economics: 'What is' (verifiable facts)",
+            "Normative economics: 'What ought to be' (opinions/suggestions)",
+            "Role of value judgments in economic policy"
+          ]
+        },
+        {
+          "concept_id": "economics12.micro_intro.opportunity_cost",
+          "title": "Opportunity Cost",
+          "bloom_level": "apply",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "economics12.micro_intro.economy_types"
+          ],
+          "description": "Understanding the cost of a decision in terms of the next best alternative foregone due to scarce resources.",
+          "key_ideas": [
+            "Value of the next best alternative foregone",
+            "Relationship between scarcity, choice, and cost",
+            "Application in decision making for individuals and nations"
+          ]
+        },
+        {
+          "concept_id": "economics12.micro_intro.ppf_curve",
+          "title": "Production Possibility Frontier (PPF)",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "economics12.micro_intro.opportunity_cost"
+          ],
+          "description": "Graphical representation showing the possible combinations of two goods that an economy can produce with given resources and technology.",
+          "key_ideas": [
+            "Attainable vs. unattainable combinations",
+            "Efficient vs. inefficient utilization of resources",
+            "Shift vs. rotation of the PPC"
+          ]
+        },
+        {
+          "concept_id": "economics12.micro_intro.marginal_rate_transformation",
+          "title": "Marginal Rate of Transformation (MRT)",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "economics12.micro_intro.ppf_curve"
+          ],
+          "description": "Examination of the rate at which one good must be sacrificed to produce an additional unit of another good, determining the shape of the PPF.",
+          "key_ideas": [
+            "Slope of the Production Possibility Curve",
+            "Law of Increasing Marginal Opportunity Cost",
+            "Concave shape of the PPC relative to the origin"
+          ]
         }
       ]
     },
@@ -36,6 +109,82 @@
             "Core principles of demand, supply curves and equilibrium",
             "Step-by-step problem solving for demand, supply curves and equilibrium",
             "Real-world applications of demand, supply curves and equilibrium"
+          ]
+        },
+        {
+          "concept_id": "economics12.demand_supply.consumer_utility",
+          "title": "Cardinal Utility Analysis",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Introduction to consumer behavior through the cardinal utility approach, focusing on how consumers measure satisfaction and the psychological law governing consumption.",
+          "key_ideas": [
+            "Total Utility (TU) vs. Marginal Utility (MU)",
+            "Law of Diminishing Marginal Utility",
+            "Relationship between TU and MU curves"
+          ]
+        },
+        {
+          "concept_id": "economics12.demand_supply.indifference_curve_analysis",
+          "title": "Ordinal Utility: Indifference Curve Analysis",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "economics12.demand_supply.consumer_utility"
+          ],
+          "description": "Analysis of consumer preferences using the ordinal approach, examining how consumers choose combinations of two goods given a budget constraint.",
+          "key_ideas": [
+            "Properties of Indifference Curves (convexity, non-intersection)",
+            "Marginal Rate of Substitution (MRS)",
+            "Budget Line and Budget Set",
+            "Conditions for Consumer Equilibrium (Tangency point)"
+          ]
+        },
+        {
+          "concept_id": "economics12.demand_supply.movements_vs_shifts",
+          "title": "Movements along vs. Shifts in Curves",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "economics12.demand_supply.demand_supply_curves"
+          ],
+          "description": "Distinguishing between changes in quantity demanded/supplied (caused by own price) and changes in demand/supply (caused by other factors).",
+          "key_ideas": [
+            "Expansion and Contraction of Demand/Supply",
+            "Increase and Decrease (Shifts) in Demand/Supply",
+            "Impact of determinants like income, taste, and related goods prices"
+          ]
+        },
+        {
+          "concept_id": "economics12.demand_supply.price_elasticity_demand",
+          "title": "Price Elasticity of Demand",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "economics12.demand_supply.demand_supply_curves"
+          ],
+          "description": "Measurement of the responsiveness of quantity demanded to a change in price, including calculation methods and degrees of elasticity.",
+          "key_ideas": [
+            "Percentage Method of calculation",
+            "Degrees of elasticity (Perfectly elastic to Perfectly inelastic)",
+            "Factors affecting price elasticity of demand",
+            "Relationship between Expenditure and Elasticity"
+          ]
+        },
+        {
+          "concept_id": "economics12.demand_supply.price_elasticity_supply",
+          "title": "Price Elasticity of Supply",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "economics12.demand_supply.demand_supply_curves"
+          ],
+          "description": "Quantifying how quantity supplied responds to changes in the price of the good, focusing on the geometric and percentage methods.",
+          "key_ideas": [
+            "Calculation of supply elasticity",
+            "Geometric method (supply curve intercept)",
+            "Time horizons (Short run vs. Long run elasticity)",
+            "Factors influencing supply elasticity"
           ]
         }
       ]
@@ -56,6 +205,82 @@
             "Step-by-step problem solving for production function and cost curves",
             "Real-world applications of production function and cost curves"
           ]
+        },
+        {
+          "concept_id": "economics12.production_costs.product_concepts",
+          "title": "Total, Average, and Marginal Product",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "economics12.production_costs.production_function"
+          ],
+          "description": "Definitions and mathematical relationships between Total Product (TP), Average Product (AP), and Marginal Product (MP) of an input.",
+          "key_ideas": [
+            "Total Product is the sum total of output produced by all units of a variable factor.",
+            "Average Product is output per unit of variable input (TP/L).",
+            "Marginal Product is the change in output resulting from employing one additional unit of variable input."
+          ]
+        },
+        {
+          "concept_id": "economics12.production_costs.law_variable_proportions",
+          "title": "The Law of Variable Proportions",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "economics12.production_costs.product_concepts"
+          ],
+          "description": "Analysis of the short-run production behavior where one factor varies while others remain fixed, focusing on the three stages of production.",
+          "key_ideas": [
+            "Stage 1 (Increasing Returns): MP increases and TP increases at an increasing rate.",
+            "Stage 2 (Diminishing Returns): MP falls but is positive; TP increases at a decreasing rate.",
+            "Stage 3 (Negative Returns): MP becomes negative and TP starts falling."
+          ]
+        },
+        {
+          "concept_id": "economics12.production_costs.returns_to_scale",
+          "title": "Returns to Scale (Long Run)",
+          "bloom_level": "understand",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "economics12.production_costs.production_function"
+          ],
+          "description": "Examination of how output responds to a proportional increase in all inputs simultaneously in the long run.",
+          "key_ideas": [
+            "Increasing Returns to Scale (IRS): Output increases by a larger proportion than inputs.",
+            "Constant Returns to Scale (CRS): Output increases by the same proportion as inputs.",
+            "Decreasing Returns to Scale (DRS): Output increases by a smaller proportion than inputs."
+          ]
+        },
+        {
+          "concept_id": "economics12.production_costs.short_run_costs",
+          "title": "Short Run Costs: Fixed and Variable",
+          "bloom_level": "apply",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "economics12.production_costs.production_function"
+          ],
+          "description": "Differentiation between fixed costs (which do not change with output) and variable costs (which change directly with output) in the short run.",
+          "key_ideas": [
+            "Total Fixed Cost (TFC) remains horizontal/constant regardless of output level.",
+            "Total Variable Cost (TVC) starts from origin and increases with output (inverse S-shape).",
+            "Total Cost (TC) is the summation of TFC and TVC."
+          ]
+        },
+        {
+          "concept_id": "economics12.production_costs.ac_mc_relationship",
+          "title": "Average and Marginal Cost Relationships",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "economics12.production_costs.short_run_costs",
+            "economics12.production_costs.law_variable_proportions"
+          ],
+          "description": "Graphical and theoretical analysis of the geometric shapes of Average Cost (AC), Average Variable Cost (AVC), and Marginal Cost (MC) curves.",
+          "key_ideas": [
+            "AC and AVC curves are U-shaped due to the Law of Variable Proportions.",
+            "The MC curve cuts both the AC and AVC curves at their respective minimum points.",
+            "The vertical distance between AC and AVC represents Average Fixed Cost (AFC), which diminishes as output rises."
+          ]
         }
       ]
     },
@@ -74,6 +299,82 @@
             "Core principles of price and output determination",
             "Step-by-step problem solving for price and output determination",
             "Real-world applications of price and output determination"
+          ]
+        },
+        {
+          "concept_id": "economics12.market_forms.perfect_competition_features",
+          "title": "Features of Perfect Competition",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "An introduction to the theoretical market structure characterized by a large number of buyers and sellers dealing in homogeneous products.",
+          "key_ideas": [
+            "Large number of buyers and sellers ensuring no individual influence on price",
+            "Homogeneous products leading to perfect substitution",
+            "Free entry and exit of firms in the long run",
+            "Firms act as 'Price Takers' rather than 'Price Makers'"
+          ]
+        },
+        {
+          "concept_id": "economics12.market_forms.monopoly_structure",
+          "title": "Monopoly Market Structure",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [],
+          "description": "Analysis of a market structure dominated by a single seller with full control over supply and price.",
+          "key_ideas": [
+            "Single seller and large number of buyers",
+            "Absence of close substitutes for the product",
+            "Strong barriers to entry for new firms",
+            "Firm acts as a 'Price Maker'"
+          ]
+        },
+        {
+          "concept_id": "economics12.market_forms.monopolistic_competition",
+          "title": "Monopolistic Competition",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "economics12.market_forms.perfect_competition_features",
+            "economics12.market_forms.monopoly_structure"
+          ],
+          "description": "Examination of a market structure that blends elements of monopoly and perfect competition, common in real-world retail.",
+          "key_ideas": [
+            "Large number of sellers selling differentiated products",
+            "Product differentiation based on brand, quality, or design",
+            "Existence of selling costs (advertisement expenses)",
+            "Freedom of entry and exit"
+          ]
+        },
+        {
+          "concept_id": "economics12.market_forms.oligopoly_features",
+          "title": "Oligopoly and Interdependence",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [],
+          "description": "Study of a market structure characterized by a few large firms and high strategic interdependence.",
+          "key_ideas": [
+            "Few large sellers dominate the market",
+            "High degree of interdependence in decision-making",
+            "Formation of cartels or collusive behaviors",
+            "Rigid prices and non-price competition"
+          ]
+        },
+        {
+          "concept_id": "economics12.market_forms.revenue_curves_comparison",
+          "title": "Revenue Curves in Different Markets",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "economics12.market_forms.perfect_competition_features",
+            "economics12.market_forms.monopoly_structure"
+          ],
+          "description": "Comparative analysis of how Average Revenue (AR) and Marginal Revenue (MR) curves behave under different market forms.",
+          "key_ideas": [
+            "AR and MR are horizontal and equal in Perfect Competition",
+            "AR and MR are downward sloping in Monopoly and Monopolistic Competition",
+            "MR falls twice as fast as AR in linear demand monopoly models",
+            "Elasticity of demand determines the steepness of the revenue curves"
           ]
         }
       ]
@@ -94,6 +395,79 @@
             "Step-by-step problem solving for gdp and methods of calculation",
             "Real-world applications of gdp and methods of calculation"
           ]
+        },
+        {
+          "concept_id": "economics12.national_income.macro_basics",
+          "title": "Basic Concepts of Macroeconomics",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Foundational classification of goods and economic variables essential for understanding national income accounting.",
+          "key_ideas": [
+            "Distinction between final goods and intermediate goods",
+            "Consumption goods vs. capital goods",
+            "Difference between stock variables (point of time) and flow variables (period of time)"
+          ]
+        },
+        {
+          "concept_id": "economics12.national_income.circular_flow",
+          "title": "Circular Flow of Income",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "economics12.national_income.macro_basics"
+          ],
+          "description": "The continuous flow of goods, services, and money between different sectors of the economy, focusing on the two-sector model.",
+          "key_ideas": [
+            "Real flow (goods/services) vs. Money flow",
+            "Phases: Generation, Distribution, and Disposition",
+            "Circular flow in a simple two-sector economy (Households and Firms)"
+          ]
+        },
+        {
+          "concept_id": "economics12.national_income.aggregates_conversion",
+          "title": "Related Aggregates of National Income",
+          "bloom_level": "apply",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "economics12.national_income.gdp_methods"
+          ],
+          "description": "Techniques to derive various national income aggregates (GNP, NNP, NDP) from GDP using specific economic adjustments.",
+          "key_ideas": [
+            "Gross vs. Net: Adjustment for Depreciation (Consumption of Fixed Capital)",
+            "Domestic vs. National: Adjustment for Net Factor Income from Abroad (NFIA)",
+            "Market Price vs. Factor Cost: Adjustment for Net Indirect Taxes"
+          ]
+        },
+        {
+          "concept_id": "economics12.national_income.real_nominal_gdp",
+          "title": "Real vs. Nominal GDP",
+          "bloom_level": "analyze",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "economics12.national_income.gdp_methods"
+          ],
+          "description": "Differentiation between GDP valued at current prices versus constant prices to assess true economic growth.",
+          "key_ideas": [
+            "Nominal GDP (Current Prices) vs. Real GDP (Base Year Prices)",
+            "The concept and calculation of the GDP Deflator",
+            "Impact of inflation on economic measurement"
+          ]
+        },
+        {
+          "concept_id": "economics12.national_income.gdp_welfare",
+          "title": "GDP and Economic Welfare",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "economics12.national_income.real_nominal_gdp"
+          ],
+          "description": "Critical assessment of GDP as an index of social welfare and its inherent limitations.",
+          "key_ideas": [
+            "Positive and negative externalities",
+            "Non-monetary exchanges (barter, household work)",
+            "Distribution of income (inequality) and composition of GDP"
+          ]
         }
       ]
     },
@@ -112,6 +486,52 @@
             "Core principles of money supply, rbi and credit creation",
             "Step-by-step problem solving for money supply, rbi and credit creation",
             "Real-world applications of money supply, rbi and credit creation"
+          ]
+        },
+        {
+          "concept_id": "economics12.money_banking12.barter_and_functions_of_money",
+          "title": "Barter System and Functions of Money",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Explains the historical evolution of money from the barter system, highlighting the limitations of direct exchange and how money addresses these issues through its specific functional roles.",
+          "key_ideas": [
+            "Limitations of Barter System (Double Coincidence of Wants)",
+            "Money as a Medium of Exchange",
+            "Money as a Unit of Account and Measure of Value",
+            "Standard of Deferred Payment and Store of Value"
+          ]
+        },
+        {
+          "concept_id": "economics12.money_banking12.demand_for_money",
+          "title": "Demand for Money: Liquidity Preference",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "economics12.money_banking12.barter_and_functions_of_money"
+          ],
+          "description": "Analyzes the motives behind why individuals and firms choose to hold liquid cash, focusing on the relationship between income, interest rates, and the demand for money.",
+          "key_ideas": [
+            "Transaction Motive (Relationship with Income)",
+            "Speculative Motive (Relationship with Interest Rates)",
+            "The Liquidity Trap",
+            "Velocity of Circulation"
+          ]
+        },
+        {
+          "concept_id": "economics12.money_banking12.monetary_policy_instruments",
+          "title": "Instruments of Monetary Policy",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "economics12.money_banking12.money_supply_rbi"
+          ],
+          "description": "Examines the specific quantitative and qualitative tools employed by the Central Bank (RBI) to regulate the money supply and availability of credit in the economy to achieve stability.",
+          "key_ideas": [
+            "Legal Reserve Requirements (CRR and SLR)",
+            "Policy Rates (Repo Rate, Reverse Repo Rate, Bank Rate)",
+            "Open Market Operations (OMO)",
+            "Qualitative Instruments (Margin Requirements, Moral Suasion)"
           ]
         }
       ]
@@ -132,6 +552,83 @@
             "Step-by-step problem solving for fiscal policy, revenue, expenditure",
             "Real-world applications of fiscal policy, revenue, expenditure"
           ]
+        },
+        {
+          "concept_id": "economics12.govt_budget.budget_objectives",
+          "title": "Objectives of Government Budget",
+          "bloom_level": "understand",
+          "difficulty": 0.2,
+          "prerequisites": [],
+          "description": "Exploration of the core purposes served by the government budget, focusing on how it influences economic stability and social welfare.",
+          "key_ideas": [
+            "Reallocation of resources based on social and economic priorities",
+            "Reduction of inequalities in income and wealth through taxes and subsidies",
+            "Economic stability and management of inflationary or deflationary gaps",
+            "Management of public enterprises"
+          ]
+        },
+        {
+          "concept_id": "economics12.govt_budget.revenue_capital_receipts",
+          "title": "Classification of Budget Receipts",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "economics12.govt_budget.budget_objectives"
+          ],
+          "description": "Differentiation between revenue receipts (tax and non-tax) and capital receipts based on liability creation and asset reduction.",
+          "key_ideas": [
+            "Revenue Receipts: Do not create liability or reduce assets (e.g., Tax, Fees)",
+            "Capital Receipts: Create liability or reduce assets (e.g., Borrowings, Disinvestment)",
+            "Distinction between Direct Taxes (incidence cannot be shifted) and Indirect Taxes (incidence can be shifted)"
+          ]
+        },
+        {
+          "concept_id": "economics12.govt_budget.revenue_capital_expenditure",
+          "title": "Classification of Budget Expenditure",
+          "bloom_level": "analyze",
+          "difficulty": 0.5,
+          "prerequisites": [
+            "economics12.govt_budget.revenue_capital_receipts"
+          ],
+          "description": "Analysis of government spending categorized into revenue expenditure (operational) and capital expenditure (developmental/asset creation).",
+          "key_ideas": [
+            "Revenue Expenditure: Recurring expenses that do not create assets or reduce liabilities (e.g., Salaries, Interest payments)",
+            "Capital Expenditure: Spending that creates assets or reduces liabilities (e.g., Infrastructure, Repayment of loans)",
+            "Impact of expenditure types on future economic growth"
+          ]
+        },
+        {
+          "concept_id": "economics12.govt_budget.measures_of_deficit",
+          "title": "Measures of Government Deficit",
+          "bloom_level": "apply",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "economics12.govt_budget.revenue_capital_expenditure",
+            "economics12.govt_budget.fiscal_policy"
+          ],
+          "description": "Calculation and interpretation of the three major types of budgetary deficits: Revenue, Fiscal, and Primary Deficit.",
+          "key_ideas": [
+            "Revenue Deficit formula: Revenue Expenditure - Revenue Receipts",
+            "Fiscal Deficit formula: Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts)",
+            "Primary Deficit formula: Fiscal Deficit - Interest Payments",
+            "Fiscal Deficit as a measure of total borrowing requirements"
+          ]
+        },
+        {
+          "concept_id": "economics12.govt_budget.implications_of_deficits",
+          "title": "Implications of Budgetary Deficits",
+          "bloom_level": "evaluate",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "economics12.govt_budget.measures_of_deficit"
+          ],
+          "description": "Evaluation of the economic consequences of high government deficits, including the risks of inflation and debt traps.",
+          "key_ideas": [
+            "Inflationary spiral caused by deficit financing (printing money)",
+            "The Debt Trap: Borrowing to pay interest on previous loans",
+            "Crowding out effect on private investment",
+            "Intergenerational equity and the burden on future generations"
+          ]
         }
       ]
     },
@@ -150,6 +647,86 @@
             "Core principles of bop, foreign exchange and exchange rate",
             "Step-by-step problem solving for bop, foreign exchange and exchange rate",
             "Real-world applications of bop, foreign exchange and exchange rate"
+          ]
+        },
+        {
+          "concept_id": "economics12.balance_of_payments.current_account",
+          "title": "Current Account of BOP",
+          "bloom_level": "understand",
+          "difficulty": 0.3,
+          "prerequisites": [
+            "economics12.balance_of_payments.bop_forex"
+          ],
+          "description": "Explores the component of BOP that records exports and imports of goods and services, and unilateral transfers within a specific time period.",
+          "key_ideas": [
+            "Balance of Trade (Visibles)",
+            "Trade in Invisibles (Services)",
+            "Unilateral Transfers (Gifts, Remittances)",
+            "Current Account Surplus vs. Deficit"
+          ]
+        },
+        {
+          "concept_id": "economics12.balance_of_payments.capital_account",
+          "title": "Capital Account of BOP",
+          "bloom_level": "understand",
+          "difficulty": 0.4,
+          "prerequisites": [
+            "economics12.balance_of_payments.current_account"
+          ],
+          "description": "Examines the component of BOP that records all international transactions involving assets, liabilities, and capital transfers, affecting the country's foreign assets and liabilities.",
+          "key_ideas": [
+            "Foreign Direct Investment (FDI) and Portfolio Investment (FII)",
+            "External Commercial Borrowings and Assistance",
+            "Banking Capital and NRI Deposits",
+            "Change in Foreign Exchange Reserves"
+          ]
+        },
+        {
+          "concept_id": "economics12.balance_of_payments.autonomous_accommodating",
+          "title": "Autonomous and Accommodating Items",
+          "bloom_level": "analyze",
+          "difficulty": 0.6,
+          "prerequisites": [
+            "economics12.balance_of_payments.capital_account"
+          ],
+          "description": "Distinguishes between transactions undertaken for economic motives (profit) and transactions undertaken by the central bank to cover BOP deficits or surpluses.",
+          "key_ideas": [
+            "Autonomous Items (Above the Line)",
+            "Accommodating Items (Below the Line)",
+            "Economic Motive vs. Balancing Motive",
+            "Determination of BOP Deficit or Surplus"
+          ]
+        },
+        {
+          "concept_id": "economics12.balance_of_payments.exchange_rate_systems",
+          "title": "Foreign Exchange Rate Systems",
+          "bloom_level": "evaluate",
+          "difficulty": 0.7,
+          "prerequisites": [
+            "economics12.balance_of_payments.bop_forex"
+          ],
+          "description": "Compares different regimes used by countries to manage their currency valuation against other currencies.",
+          "key_ideas": [
+            "Fixed Exchange Rate System (Pegged)",
+            "Flexible (Floating) Exchange Rate System",
+            "Managed Floating (Dirty Floating)",
+            "Role of Central Banks in different systems"
+          ]
+        },
+        {
+          "concept_id": "economics12.balance_of_payments.exchange_rate_determination",
+          "title": "Determination of Exchange Rate",
+          "bloom_level": "apply",
+          "difficulty": 0.8,
+          "prerequisites": [
+            "economics12.balance_of_payments.exchange_rate_systems"
+          ],
+          "description": "Analyzes how the equilibrium exchange rate is determined by the forces of demand and supply in a flexible exchange market.",
+          "key_ideas": [
+            "Sources of Demand for Foreign Exchange",
+            "Sources of Supply of Foreign Exchange",
+            "Equilibrium Rate Determination",
+            "Currency Appreciation vs. Depreciation"
           ]
         }
       ]

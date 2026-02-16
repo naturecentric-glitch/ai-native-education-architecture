@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.stats.mode"
+    ],
+    "question": "Identify the modal class: 0-10 (f=3), 10-20 (f=9), 20-30 (f=15), 30-40 (f=6).",
+    "hint": "The class with the highest frequency is the modal class.",
+    "expected_answer": "Modal class is 20-30 (highest frequency = 15)."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.stats.mode"
+    ],
+    "question": "Find the mode: 0-10 (f=6), 10-20 (f=11), 20-30 (f=7), 30-40 (f=4).",
+    "hint": "Modal class: 10-20. l=10, f₁=11, f₀=6, f₂=7, h=10.",
+    "expected_answer": "Mode = 10 + (11−6)/(22−6−7) × 10 = 10 + 50/9 = 10 + 5.56 = 15.56."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.stats.mode"
+    ],
+    "question": "The mode of the following data is 36. Find the missing frequency f: 0-10 (f=8), 10-20 (f=10), 20-30 (f=f), 30-40 (f=16), 40-50 (f=12), 50-60 (f=6).",
+    "hint": "Modal class must be 30-40 (since mode=36). So f₁=16, f₀=f, f₂=12. Use the formula.",
+    "expected_answer": "36 = 30 + (16−f)/(32−f−12) × 10. 6 = (16−f)/(20−f) × 10. 6(20−f) = 10(16−f). 120−6f = 160−10f. 4f = 40. f = 10."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.stats.mode"
+    ],
+    "question": "For a distribution, mean = 24 and mode = 18. Estimate the median using the empirical relationship.",
+    "hint": "3 × Median = Mode + 2 × Mean.",
+    "expected_answer": "3 × Median = 18 + 2(24) = 18 + 48 = 66. Median = 22."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.stats.mode"
+    ],
+    "question": "A dataset has mean 45.5, median 46, and mode 47. (a) Is the data left-skewed or right-skewed? (b) Verify the empirical relationship approximately.",
+    "hint": "If Mean < Median < Mode, the data is left-skewed (negatively skewed).",
+    "expected_answer": "(a) Mean(45.5) < Median(46) < Mode(47) → left-skewed (negatively skewed). (b) Mode + 2×Mean = 47 + 91 = 138. 3×Median = 138. So 138 = 138 ✓. The empirical relationship holds exactly here!"
+  }
+]

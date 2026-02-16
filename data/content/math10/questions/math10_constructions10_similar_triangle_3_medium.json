@@ -2,35 +2,56 @@
   {
     "id": 1,
     "type": "direct",
-    "difficulty": 0.45,
-    "question": "State and explain the key concept: Scale factor < 1: smaller similar triangle (inside).",
-    "hint": "Think about the definition and main formula related to Construction of Similar Triangles.",
-    "expected_answer": "This tests understanding of: Scale factor < 1: smaller similar triangle (inside). Refer to NCERT textbook for the detailed explanation.",
+    "difficulty": 0.3,
     "concepts_tested": [
-      "Construction of Similar Triangles"
-    ]
+      "math10.constructions10.similar_triangle"
+    ],
+    "question": "To construct a triangle similar to a given triangle with scale factor 3/5, the minimum number of arcs to mark is:",
+    "hint": "You need max(m, n) = max(3, 5).",
+    "expected_answer": "max(3, 5) = 5 arcs."
   },
   {
     "id": 2,
-    "type": "word_problem",
-    "difficulty": 0.55,
-    "question": "Solve an NCERT example problem related to 'Construction of Similar Triangles'. Show all steps clearly.",
-    "hint": "Review the key ideas: Scale factor < 1: smaller similar triangle (inside), Scale factor > 1: larger similar triangle (outside).",
-    "expected_answer": "Practice NCERT in-text examples and Exercise problems for Construction of Similar Triangles. Focus on step-by-step working.",
+    "type": "direct",
+    "difficulty": 0.4,
     "concepts_tested": [
-      "Construction of Similar Triangles"
-    ]
+      "math10.constructions10.similar_triangle"
+    ],
+    "question": "△ABC has sides AB = 8, BC = 6, AC = 10. A similar triangle with scale factor 3/4 is constructed. What are the sides of the new triangle?",
+    "hint": "Multiply each side by 3/4.",
+    "expected_answer": "A'B' = 8×3/4 = 6, B'C' = 6×3/4 = 4.5, A'C' = 10×3/4 = 7.5."
   },
   {
     "id": 3,
-    "type": "transfer_task",
-    "difficulty": 0.6,
-    "question": "How would you apply 'Construction of Similar Triangles' to solve a real-world problem? Give an example and solve it.",
-    "hint": "Think about everyday situations where construction of similar triangles concepts are useful.",
-    "expected_answer": "Create a real-world scenario (e.g., measurement, construction, finance) and apply the formulas and techniques from Construction of Similar Triangles.",
+    "type": "word_problem",
+    "difficulty": 0.5,
     "concepts_tested": [
-      "Construction of Similar Triangles",
-      "Real-world application"
-    ]
+      "math10.constructions10.similar_triangle"
+    ],
+    "question": "Describe the steps to construct a triangle with sides 3/5 times the corresponding sides of △PQR (PQ = 5, QR = 6, PR = 7).",
+    "hint": "Scale factor = 3/5. Draw △PQR first, then scale it.",
+    "expected_answer": "1) Draw △PQR with given sides. 2) From Q, draw ray QX at acute angle to QR (opposite side of P). 3) Mark 5 arcs on QX. 4) Join Q₅ to R. 5) Draw Q₃R' ∥ Q₅R → R' is on QR with QR' = 6×3/5 = 3.6. 6) Draw R'P' ∥ RP → P' on QP with QP' = 5×3/5 = 3. New triangle P'QR' has sides 3, 3.6, 4.2."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.constructions10.similar_triangle"
+    ],
+    "question": "In the construction of a similar triangle with scale factor 7/4, you need to extend a side. Why? Where does the new vertex lie?",
+    "hint": "7/4 > 1, so the new triangle is larger than the original.",
+    "expected_answer": "Since 7/4 > 1, the new triangle is larger. The new vertex C' lies on the extension of BC beyond C (not between B and C). We join B₄ to C, then draw B₇C' ∥ B₄C, and C' falls beyond C. Similarly, A' lies on the extension of BA beyond A."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.constructions10.similar_triangle"
+    ],
+    "question": "Construct two similar triangles with the same base BC = 6 cm, one with scale factor 3/5 and another with 7/5 relative to a given △ABC (AB = 5, AC = 7, BC = 6). What are the areas of the two new triangles if the area of △ABC is 14.7 cm²?",
+    "hint": "Area ratio = (scale factor)².",
+    "expected_answer": "Scale 3/5: Area = 14.7 × (3/5)² = 14.7 × 9/25 = 5.292 cm². Scale 7/5: Area = 14.7 × (7/5)² = 14.7 × 49/25 = 28.812 cm²."
   }
 ]

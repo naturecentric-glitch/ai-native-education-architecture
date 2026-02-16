@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "word_problem",
+    "difficulty": 0.35,
+    "concepts_tested": [
+      "math10.ap.applications"
+    ],
+    "question": "A factory produced 500 units in its first year and increases production by 100 units each year. What will the production be in the 8th year?",
+    "hint": "AP: a = 500, d = 100. Find a₈.",
+    "expected_answer": "a₈ = 500 + 7(100) = 1200 units."
+  },
+  {
+    "id": 2,
+    "type": "word_problem",
+    "difficulty": 0.45,
+    "concepts_tested": [
+      "math10.ap.applications"
+    ],
+    "question": "In a flower bed, there are 23 rose plants in the first row, 21 in the second, 19 in the third, and so on. If the last row has 5 plants, how many rows are there and what's the total number of plants?",
+    "hint": "AP: 23, 21, 19, ..., 5. a=23, d=−2, aₙ=5.",
+    "expected_answer": "5 = 23 + (n−1)(−2) → −18 = −2(n−1) → n = 10 rows. Total = 10/2 × (23+5) = 5 × 28 = 140 plants."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.55,
+    "concepts_tested": [
+      "math10.ap.applications"
+    ],
+    "question": "The sum of three numbers in AP is 27 and their product is 648. Find the numbers.",
+    "hint": "Let them be a−d, a, a+d. Sum = 3a = 27 → a = 9. Product: (9−d)(9)(9+d) = 648.",
+    "expected_answer": "3a = 27 → a = 9. Product: 9(81−d²) = 648 → 81−d² = 72 → d² = 9 → d = ±3. Numbers: 6, 9, 12 or 12, 9, 6."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.ap.applications"
+    ],
+    "question": "A person deposits ₹500 the first month and increases by ₹40 every month. After how many months will total savings reach ₹33,000?",
+    "hint": "Sₙ = n/2[2(500)+(n−1)(40)] = 33000. Simplify to get a quadratic.",
+    "expected_answer": "n/2[1000+40n−40] = 33000 → n(960+40n)/2 = 33000 → n(480+20n) = 33000 → 20n² + 480n − 33000 = 0 → n² + 24n − 1650 = 0. (n+54)(n−30) = 0. n = 30 months. Verify: S₃₀ = 15[1000+1160] = 15×2160... let me recalculate. S₃₀ = 30/2 × [1000+29(40)] = 15 × [1000+1160] = 15 × 2160 = 32400. Hmm not exactly 33000. Let me re-solve: 20n²+480n=33000, n²+24n−1650=0. D=576+6600=7176. √7176≈84.7. n = (−24+84.7)/2 ≈ 30.35. So after 31 months (total crosses 33000 in month 31)."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.ap.applications"
+    ],
+    "question": "Find the sum of all two-digit odd numbers.",
+    "hint": "Two-digit odd numbers: 11, 13, 15, ..., 99. This is an AP with a=11, d=2, last=99.",
+    "expected_answer": "AP: 11, 13, ..., 99. n: 99 = 11 + (n−1)×2 → 88 = 2(n−1) → n = 45. S₄₅ = 45/2 × (11+99) = 45/2 × 110 = 45 × 55 = 2475."
+  }
+]

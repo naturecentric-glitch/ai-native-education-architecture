@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "difficulty": 0.3,
+    "concepts_tested": [
+      "math10.prob.classical"
+    ],
+    "question": "A die is thrown once. Find the probability of getting: (a) a number greater than 4, (b) a prime number.",
+    "hint": "Numbers > 4: {5, 6}. Primes: {2, 3, 5}.",
+    "expected_answer": "(a) P(>4) = 2/6 = 1/3. (b) P(prime) = 3/6 = 1/2."
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "difficulty": 0.4,
+    "concepts_tested": [
+      "math10.prob.classical"
+    ],
+    "question": "A box has 5 red, 4 white, and 6 blue marbles. One is drawn. Find P(red or blue).",
+    "hint": "Red or blue = 5 + 6 = 11 out of 15.",
+    "expected_answer": "P(red or blue) = 11/15."
+  },
+  {
+    "id": 3,
+    "type": "word_problem",
+    "difficulty": 0.5,
+    "concepts_tested": [
+      "math10.prob.classical"
+    ],
+    "question": "A card is drawn from a deck of 52 cards. Find: (a) P(red king), (b) P(spade or ace).",
+    "hint": "(a) Red kings: ♥K and ♦K = 2. (b) 13 spades + 4 aces − 1 ace of spades = 16.",
+    "expected_answer": "(a) P(red king) = 2/52 = 1/26. (b) Spades=13, Aces=4, but Ace of Spades counted twice: 13+4−1=16. P = 16/52 = 4/13."
+  },
+  {
+    "id": 4,
+    "type": "word_problem",
+    "difficulty": 0.65,
+    "concepts_tested": [
+      "math10.prob.classical"
+    ],
+    "question": "A jar has 24 marbles: 8 red, 10 blue, 6 yellow. If P(drawing red) should be 1/2, how many red marbles should be added?",
+    "hint": "After adding x red: total = 24+x, red = 8+x. (8+x)/(24+x) = 1/2.",
+    "expected_answer": "(8+x)/(24+x) = 1/2 → 2(8+x) = 24+x → 16+2x = 24+x → x = 8. Add 8 red marbles."
+  },
+  {
+    "id": 5,
+    "type": "transfer_task",
+    "difficulty": 0.8,
+    "concepts_tested": [
+      "math10.prob.classical"
+    ],
+    "question": "Two dice are thrown simultaneously. Find: (a) P(sum = 7), (b) P(sum ≥ 10), (c) P(doublet — same number on both).",
+    "hint": "Total outcomes = 36. Sum=7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1). Doublets: (1,1),...,(6,6).",
+    "expected_answer": "(a) Sum=7: {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} = 6. P = 6/36 = 1/6. (b) Sum≥10: sum=10 has 3, sum=11 has 2, sum=12 has 1 → 6. P = 6/36 = 1/6. (c) Doublets: 6 outcomes. P = 6/36 = 1/6."
+  }
+]

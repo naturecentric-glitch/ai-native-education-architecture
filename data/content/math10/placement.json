@@ -1,0 +1,340 @@
+[
+  {
+    "chapter_id": "ch01",
+    "chapter_title": "Real Numbers",
+    "concept_id": "math10.real_numbers.decimal_expansions",
+    "concept_title": "Decimal Expansions of Rationals",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.75,
+      "concepts_tested": [
+        "math10.real_numbers.decimal_expansions"
+      ],
+      "question": "The decimal expansion of p/q (in lowest terms) terminates after exactly 4 decimal places. What conditions must q satisfy? Give an example.",
+      "hint": "Terminating after 4 places means p/q = m/10⁴ for some integer m. So q must divide 10⁴.",
+      "expected_answer": "If it terminates after exactly 4 places, q must divide 10⁴ = 2⁴ × 5⁴. So q = 2ᵃ × 5ᵇ where max(a,b) = 4. Example: q = 625 = 5⁴. Then 1/625 = 16/10000 = 0.0016 (exactly 4 places)."
+    },
+    "concepts_unlocked": [
+      "math10.real_numbers.euclid_division",
+      "math10.real_numbers.euclid_hcf",
+      "math10.real_numbers.fundamental_theorem",
+      "math10.real_numbers.irrational_proofs",
+      "math10.real_numbers.decimal_expansions"
+    ]
+  },
+  {
+    "chapter_id": "ch02",
+    "chapter_title": "Polynomials",
+    "concept_id": "math10.polynomials10.division_algorithm",
+    "concept_title": "Division Algorithm for Polynomials",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.polynomials10.division_algorithm"
+      ],
+      "question": "What value of k makes (x − 3) a factor of x³ − kx² + x + 6?",
+      "hint": "If (x−3) is a factor, then x = 3 is a zero. So p(3) = 0.",
+      "expected_answer": "p(3) = 0: 27 − 9k + 3 + 6 = 0 → 36 − 9k = 0 → k = 4. Verify: x³ − 4x² + x + 6 at x=3: 27 − 36 + 3 + 6 = 0 ✓. The polynomial is x³ − 4x² + x + 6 = (x−3)(x²−x−2) = (x−3)(x−2)(x+1)."
+    },
+    "concepts_unlocked": [
+      "math10.polynomials10.types_and_zeroes",
+      "math10.polynomials10.zeroes_relationship",
+      "math10.polynomials10.division_algorithm"
+    ]
+  },
+  {
+    "chapter_id": "ch03",
+    "chapter_title": "Pair of Linear Equations in Two Variables",
+    "concept_id": "math10.linear_eq_pair.word_problems10",
+    "concept_title": "Word Problems on Linear Equations",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.linear_eq_pair.word_problems10"
+      ],
+      "question": "Places A and B are 100 km apart. One car starts from A and another from B at the same time. If they travel in the same direction, they meet in 5 hours. If they travel towards each other, they meet in 1 hour. Find their speeds.",
+      "hint": "Same direction: (faster − slower)×5 = 100. Opposite: (sum)×1 = 100.",
+      "expected_answer": "Let speeds be x (from A) and y (from B), x > y. Same direction: 5(x−y) = 100 → x−y = 20. Opposite: 1(x+y) = 100. Adding: 2x = 120 → x = 60. y = 40. Speeds: 60 km/h and 40 km/h."
+    },
+    "concepts_unlocked": [
+      "math10.linear_eq_pair.graphical_method",
+      "math10.linear_eq_pair.substitution",
+      "math10.linear_eq_pair.elimination",
+      "math10.linear_eq_pair.cross_multiplication",
+      "math10.linear_eq_pair.word_problems10"
+    ]
+  },
+  {
+    "chapter_id": "ch04",
+    "chapter_title": "Quadratic Equations",
+    "concept_id": "math10.quadratic_equations.word_problems_quad",
+    "concept_title": "Word Problems Leading to Quadratics",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.quadratic_equations.word_problems_quad"
+      ],
+      "question": "A motorboat whose speed in still water is 18 km/h takes 1 hour more to go 24 km upstream than to go the same distance downstream. Find the speed of the current.",
+      "hint": "Let current = x. Upstream speed = 18−x, downstream = 18+x. Time upstream − time downstream = 1.",
+      "expected_answer": "24/(18−x) − 24/(18+x) = 1. 24(18+x) − 24(18−x) = (18−x)(18+x). 24(2x) = 324−x². 48x = 324−x². x² + 48x − 324 = 0. (x+54)(x−6) = 0. x = 6. Current = 6 km/h. Verify: up = 24/12 = 2h, down = 24/24 = 1h, difference = 1h ✓."
+    },
+    "concepts_unlocked": [
+      "math10.quadratic_equations.standard_form",
+      "math10.quadratic_equations.completing_square",
+      "math10.quadratic_equations.quadratic_formula",
+      "math10.quadratic_equations.nature_of_roots",
+      "math10.quadratic_equations.word_problems_quad"
+    ]
+  },
+  {
+    "chapter_id": "ch05",
+    "chapter_title": "Arithmetic Progressions",
+    "concept_id": "math10.ap.applications",
+    "concept_title": "AP Applications and Problem Solving",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.ap.applications"
+      ],
+      "question": "Find the sum of all two-digit odd numbers.",
+      "hint": "Two-digit odd numbers: 11, 13, 15, ..., 99. This is an AP with a=11, d=2, last=99.",
+      "expected_answer": "AP: 11, 13, ..., 99. n: 99 = 11 + (n−1)×2 → 88 = 2(n−1) → n = 45. S₄₅ = 45/2 × (11+99) = 45/2 × 110 = 45 × 55 = 2475."
+    },
+    "concepts_unlocked": [
+      "math10.ap.intro",
+      "math10.ap.nth_term",
+      "math10.ap.sum_n_terms",
+      "math10.ap.applications"
+    ]
+  },
+  {
+    "chapter_id": "ch06",
+    "chapter_title": "Triangles",
+    "concept_id": "math10.triangles10.pythagoras",
+    "concept_title": "Pythagoras Theorem and Converse",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.triangles10.pythagoras"
+      ],
+      "question": "In a right triangle ABC, ∠B = 90°, BD is the altitude from B to AC. If AD = 4, DC = 9, find BD, AB, and BC.",
+      "hint": "BD² = AD × DC (geometric mean relation). AB² = AD × AC. BC² = DC × AC.",
+      "expected_answer": "AC = 4 + 9 = 13. BD² = AD × DC = 4 × 9 = 36 → BD = 6. AB² = AD × AC = 4 × 13 = 52 → AB = 2√13. BC² = DC × AC = 9 × 13 = 117 → BC = 3√13."
+    },
+    "concepts_unlocked": [
+      "math10.triangles10.bpt",
+      "math10.triangles10.similarity_criteria",
+      "math10.triangles10.areas_similar",
+      "math10.triangles10.pythagoras"
+    ]
+  },
+  {
+    "chapter_id": "ch07",
+    "chapter_title": "Coordinate Geometry",
+    "concept_id": "math10.coord_geom.area_triangle",
+    "concept_title": "Area of Triangle (Coordinate)",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.coord_geom.area_triangle"
+      ],
+      "question": "If A(2, 1), B(6, 1), C(6, 5) are three vertices of a parallelogram ABCD, find vertex D and the area of the parallelogram.",
+      "hint": "In a parallelogram, midpoints of diagonals are the same. Midpoint of AC = midpoint of BD.",
+      "expected_answer": "Midpoint AC = ((2+6)/2, (1+5)/2) = (4, 3). If D = (x,y), midpoint BD = ((6+x)/2, (1+y)/2) = (4,3). So x = 2, y = 5. D = (2, 5). Area of parallelogram = 2 × Area(△ABC) = 2 × ½|2(1−5)+6(5−1)+6(1−1)| = |−8+24+0| = 16 sq units."
+    },
+    "concepts_unlocked": [
+      "math10.coord_geom.distance",
+      "math10.coord_geom.section",
+      "math10.coord_geom.area_triangle"
+    ]
+  },
+  {
+    "chapter_id": "ch08",
+    "chapter_title": "Introduction to Trigonometry",
+    "concept_id": "math10.trig.identities",
+    "concept_title": "Trigonometric Identities",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.85,
+      "concepts_tested": [
+        "math10.trig.identities"
+      ],
+      "question": "Prove: (sin θ + cosec θ)² + (cos θ + sec θ)² = 7 + tan²θ + cot²θ.",
+      "hint": "Expand each square. Use sin θ · cosec θ = 1 and cos θ · sec θ = 1.",
+      "expected_answer": "LHS = sin²θ + 2·sin θ·cosecθ + cosec²θ + cos²θ + 2·cosθ·secθ + sec²θ = sin²θ+cos²θ + 2 + 2 + cosec²θ + sec²θ = 1 + 4 + (1+cot²θ) + (1+tan²θ) = 7 + tan²θ + cot²θ = RHS. ∎"
+    },
+    "concepts_unlocked": [
+      "math10.trig.ratios",
+      "math10.trig.standard_angles",
+      "math10.trig.complementary",
+      "math10.trig.identities"
+    ]
+  },
+  {
+    "chapter_id": "ch09",
+    "chapter_title": "Some Applications of Trigonometry",
+    "concept_id": "math10.trig_app.heights_distances",
+    "concept_title": "Heights and Distances Problems",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.85,
+      "concepts_tested": [
+        "math10.trig_app.heights_distances"
+      ],
+      "question": "From the top of a building 60 m high, the angles of depression of the top and bottom of a tower are 30° and 60° respectively. Find the height of the tower and the distance between them.",
+      "hint": "Let tower height = h, distance between = d. tan 60° = 60/d (bottom). tan 30° = (60−h)/d (top of tower).",
+      "expected_answer": "tan 60° = 60/d → d = 60/√3 = 20√3 m. tan 30° = (60−h)/d → 1/√3 = (60−h)/(20√3) → 20√3/√3 = 60−h → 20 = 60−h → h = 40 m. Tower height = 40 m, distance = 20√3 ≈ 34.64 m."
+    },
+    "concepts_unlocked": [
+      "math10.trig_app.elevation_depression",
+      "math10.trig_app.heights_distances"
+    ]
+  },
+  {
+    "chapter_id": "ch10",
+    "chapter_title": "Circles",
+    "concept_id": "math10.circles10.tangent_theorems",
+    "concept_title": "Tangent Theorems and Problems",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.circles10.tangent_theorems"
+      ],
+      "question": "PA and PB are tangents from P to a circle with centre O and radius r. If OP = 2r, find ∠APB.",
+      "hint": "In right △OAP: sin(∠OPA) = OA/OP = r/2r = 1/2.",
+      "expected_answer": "sin(∠OPA) = r/(2r) = 1/2 → ∠OPA = 30°. Similarly ∠OPB = 30°. ∠APB = ∠OPA + ∠OPB = 60°."
+    },
+    "concepts_unlocked": [
+      "math10.circles10.tangent_properties",
+      "math10.circles10.tangent_theorems"
+    ]
+  },
+  {
+    "chapter_id": "ch11",
+    "chapter_title": "Constructions",
+    "concept_id": "math10.constructions10.tangent_to_circle",
+    "concept_title": "Construction of Tangents to a Circle",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.constructions10.tangent_to_circle"
+      ],
+      "question": "Two circles with centres O₁ and O₂ have radii 3 cm and 5 cm. The distance O₁O₂ = 10 cm. Describe how to construct a common external tangent.",
+      "hint": "Draw a circle with centre O₂ and radius (5−3)=2 cm. From O₁, draw a tangent to this auxiliary circle. Then shift this tangent outward by 3 cm.",
+      "expected_answer": "Method: (1) Draw auxiliary circle with centre O₂ radius |r₂−r₁| = 2 cm. (2) From O₁, construct tangent to this auxiliary circle (tangent length = √(10²−2²) = √96 = 4√6). (3) Let this tangent touch the auxiliary circle at T. (4) Draw O₂T and extend to meet the larger circle at Q. (5) Draw O₁P parallel to O₂Q with P on smaller circle. (6) PQ is the common external tangent. (Two such tangents exist, on opposite sides.)"
+    },
+    "concepts_unlocked": [
+      "math10.constructions10.divide_segment",
+      "math10.constructions10.similar_triangle",
+      "math10.constructions10.tangent_to_circle"
+    ]
+  },
+  {
+    "chapter_id": "ch12",
+    "chapter_title": "Areas Related to Circles",
+    "concept_id": "math10.areas_circles.combined_figures",
+    "concept_title": "Areas of Combined Plane Figures",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.areas_circles.combined_figures"
+      ],
+      "question": "In a square of side 14 cm, four circles each of radius 3.5 cm are drawn, one centred at each corner. Also, a circle of radius 3.5 cm is drawn at the centre. Find the area not covered by any circle.",
+      "hint": "At each corner, only a quarter-circle lies inside the square. The centre circle is fully inside.",
+      "expected_answer": "Square = 196 cm². Four corner quarter-circles = 4 × (1/4)π(3.5)² = π(3.5)² = 22/7 × 12.25 = 38.5 cm². Centre circle = π(3.5)² = 38.5 cm². Total circle area inside = 38.5 + 38.5 = 77 cm². Uncovered = 196 − 77 = 119 cm²."
+    },
+    "concepts_unlocked": [
+      "math10.areas_circles.basics",
+      "math10.areas_circles.sector_segment",
+      "math10.areas_circles.combined_figures"
+    ]
+  },
+  {
+    "chapter_id": "ch13",
+    "chapter_title": "Surface Areas and Volumes",
+    "concept_id": "math10.sa_vol.frustum",
+    "concept_title": "Frustum of a Cone",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.sa_vol.frustum"
+      ],
+      "question": "A container shaped as a frustum (R=21, r=14, h=24) is filled with water. The water is poured into a cylindrical container of radius 21 cm. Find the height of water in the cylinder.",
+      "hint": "Volume of frustum = Volume of cylinder. (πh/3)(R²+r²+Rr) = πr²H.",
+      "expected_answer": "Frustum V = (π×24/3)(441+196+294) = 8π(931) = 7448π. Cylinder: π(21)²H = 441πH. 441πH = 7448π → H = 7448/441 = 16.89 cm ≈ 16.9 cm."
+    },
+    "concepts_unlocked": [
+      "math10.sa_vol.conversion",
+      "math10.sa_vol.combination",
+      "math10.sa_vol.frustum"
+    ]
+  },
+  {
+    "chapter_id": "ch14",
+    "chapter_title": "Statistics",
+    "concept_id": "math10.stats.ogive",
+    "concept_title": "Ogives and Graphical Median",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.8,
+      "concepts_tested": [
+        "math10.stats.ogive"
+      ],
+      "question": "From a less-than ogive with n = 100, the graph passes through (30, 25) and (40, 75). Estimate the interquartile range.",
+      "hint": "Q₁ is at n/4 = 25 → x ≈ 30. Q₃ is at 3n/4 = 75 → x ≈ 40. IQR = Q₃ − Q₁.",
+      "expected_answer": "Q₁: at cf = 25, x = 30. Q₃: at cf = 75, x = 40. IQR = Q₃ − Q₁ = 40 − 30 = 10."
+    },
+    "concepts_unlocked": [
+      "math10.stats.mean",
+      "math10.stats.median",
+      "math10.stats.mode",
+      "math10.stats.ogive"
+    ]
+  },
+  {
+    "chapter_id": "ch15",
+    "chapter_title": "Probability",
+    "concept_id": "math10.prob.problems",
+    "concept_title": "Probability — Coins, Dice, Cards",
+    "question": {
+      "id": 5,
+      "type": "transfer_task",
+      "difficulty": 0.85,
+      "concepts_tested": [
+        "math10.prob.problems"
+      ],
+      "question": "A game consists of tossing a coin 3 times. Ravi wins if he gets at least 2 heads. Priya wins if she gets at least 2 tails. Is the game fair? Who has a better chance?",
+      "hint": "List all 8 outcomes for 3 coins: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT.",
+      "expected_answer": "Outcomes: {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}. Ravi (≥2 heads): {HHH, HHT, HTH, THH} = 4. P = 4/8 = 1/2. Priya (≥2 tails): {HTT, THT, TTH, TTT} = 4. P = 4/8 = 1/2. The game IS fair — both have equal probability of 1/2!"
+    },
+    "concepts_unlocked": [
+      "math10.prob.classical",
+      "math10.prob.events",
+      "math10.prob.problems"
+    ]
+  }
+]
